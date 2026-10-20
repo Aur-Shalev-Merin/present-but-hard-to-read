@@ -1,0 +1,11 @@
+A new version of the following files was downloaded from https://huggingface.co/ByteDance/Ouro-1.4B:
+- configuration_ouro.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+A new version of the following files was downloaded from https://huggingface.co/ByteDance/Ouro-1.4B:
+- modeling_ouro.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+Generating train split:   0%|          | 0/7473 [00:00<?, ? examples/s]Generating train split:  13%|█▎        | 1000/7473 [00:00<00:00, 7211.85 examples/s]Generating train split: 100%|██████████| 7473/7473 [00:00<00:00, 51527.26 examples/s]
+Generating test split:   0%|          | 0/1319 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 1319/1319 [00:00<00:00, 325620.19 examples/s]
+   1/6 78s | B1 none 0 rand@e3 0 ans@e3 0 rand@e2 0 ans@e2 0 | own 0 target 1
+   6/6 90s | B2 none 0 rand@e3 0 rand@e2 0 | own 0 target 4
+done 90s, 6 pairs

@@ -1,0 +1,26 @@
+v188: carry rate 0.441, borrow rate 0.440, shown tens digits per family 3.00
+v188 P1 end4 ceiling=base  | ceil m5 0.225 rnd5 0.484 amb5 0.228 apc5 0.237 abmc5 0.201 abc5 0.214 | excess m5 +0.219 rnd5 -0.096 amb5 +0.089 apc5 +0.093 abmc5 +0.130 abc5 +0.144
+v188 P1 end4 ceiling=base  | D_ceil +0.219 [+0.194, +0.244] | D_XOR vs abc5 +0.075 [+0.052, +0.098] | D_rnd +0.314 [+0.286, +0.342] | at v188 bars (0.09/0.025): REPLICATED
+v188 P1 end4 ceiling=shown | ceil m5 0.222 rnd5 0.486 amb5 0.220 apc5 0.234 abmc5 0.203 abc5 0.208 | excess m5 +0.223 rnd5 -0.098 amb5 +0.097 apc5 +0.096 abmc5 +0.128 abc5 +0.150
+v188 P1 end4 ceiling=shown | D_ceil +0.223 [+0.201, +0.243] | D_XOR vs abc5 +0.073 [+0.054, +0.093] | D_rnd +0.321 [+0.296, +0.345] | at v188 bars (0.09/0.025): REPLICATED
+v188 P1 end4 ceiling=cb    | ceil m5 0.252 rnd5 0.501 amb5 0.227 apc5 0.234 abmc5 0.201 abc5 0.213 | excess m5 +0.193 rnd5 -0.113 amb5 +0.090 apc5 +0.096 abmc5 +0.130 abc5 +0.144
+v188 P1 end4 ceiling=cb    | D_ceil +0.193 [+0.170, +0.216] | D_XOR vs abc5 +0.048 [+0.023, +0.074] | D_rnd +0.305 [+0.279, +0.331] | at v188 bars (0.09/0.025): REPLICATED
+v188 P1 end3 ceiling=base  | ceil m5 0.225 rnd5 0.484 amb5 0.228 apc5 0.237 abmc5 0.201 abc5 0.214 | excess m5 +0.448 rnd5 +0.071 amb5 +0.286 apc5 +0.305 abmc5 +0.197 abc5 +0.297
+v188 P1 end3 ceiling=base  | D_ceil +0.448 [+0.399, +0.493] | D_XOR vs apc5 +0.142 [+0.080, +0.206] | D_rnd +0.377 [+0.341, +0.410] | at v188 bars (0.09/0.025): REPLICATED
+v188 P1 end3 ceiling=shown | ceil m5 0.222 rnd5 0.486 amb5 0.220 apc5 0.234 abmc5 0.203 abc5 0.208 | excess m5 +0.451 rnd5 +0.068 amb5 +0.294 apc5 +0.308 abmc5 +0.195 abc5 +0.303
+v188 P1 end3 ceiling=shown | D_ceil +0.451 [+0.403, +0.496] | D_XOR vs apc5 +0.143 [+0.081, +0.207] | D_rnd +0.383 [+0.347, +0.417] | at v188 bars (0.09/0.025): REPLICATED
+v188 P1 end3 ceiling=cb    | ceil m5 0.252 rnd5 0.501 amb5 0.227 apc5 0.234 abmc5 0.201 abc5 0.213 | excess m5 +0.421 rnd5 +0.054 amb5 +0.287 apc5 +0.308 abmc5 +0.197 abc5 +0.297
+v188 P1 end3 ceiling=cb    | D_ceil +0.421 [+0.373, +0.466] | D_XOR vs apc5 +0.113 [+0.050, +0.178] | D_rnd +0.368 [+0.330, +0.403] | at v188 bars (0.09/0.025): REPLICATED
+v186: carry rate 0.451, borrow rate 0.453, shown tens digits per family 3.00
+v186 P1 end4 ceiling=base  | ceil m5 0.237 rnd5 0.493 amb5 0.238 apc5 0.218 abmc5 0.206 abc5 0.200 | excess m5 +0.176 rnd5 -0.108 amb5 +0.089 apc5 +0.076 abmc5 +0.108 abc5 +0.128
+v186 P1 end4 ceiling=base  | D_ceil +0.176 [+0.160, +0.191] | D_XOR vs abc5 +0.048 [+0.030, +0.066] | D_rnd +0.283 [+0.262, +0.306] | at v188 bars (0.09/0.025): REPLICATED
+v186 P1 end4 ceiling=shown | ceil m5 0.231 rnd5 0.489 amb5 0.232 apc5 0.215 abmc5 0.200 abc5 0.198 | excess m5 +0.182 rnd5 -0.104 amb5 +0.096 apc5 +0.079 abmc5 +0.114 abc5 +0.130
+v186 P1 end4 ceiling=shown | D_ceil +0.182 [+0.164, +0.200] | D_XOR vs abc5 +0.052 [+0.032, +0.071] | D_rnd +0.285 [+0.266, +0.307] | at v188 bars (0.09/0.025): REPLICATED
+v186 P1 end4 ceiling=cb    | ceil m5 0.258 rnd5 0.513 amb5 0.231 apc5 0.217 abmc5 0.211 abc5 0.201 | excess m5 +0.155 rnd5 -0.128 amb5 +0.096 apc5 +0.076 abmc5 +0.103 abc5 +0.128
+v186 P1 end4 ceiling=cb    | D_ceil +0.155 [+0.136, +0.173] | D_XOR vs abc5 +0.027 [+0.007, +0.046] | D_rnd +0.283 [+0.268, +0.299] | at v188 bars (0.09/0.025): REPLICATED
+v186 P1 end3 ceiling=base  | ceil m5 0.237 rnd5 0.493 amb5 0.238 apc5 0.218 abmc5 0.206 abc5 0.200 | excess m5 +0.424 rnd5 +0.024 amb5 +0.251 apc5 +0.299 abmc5 +0.187 abc5 +0.273
+v186 P1 end3 ceiling=base  | D_ceil +0.424 [+0.392, +0.456] | D_XOR vs apc5 +0.125 [+0.072, +0.180] | D_rnd +0.400 [+0.375, +0.426] | at v188 bars (0.09/0.025): REPLICATED
+v186 P1 end3 ceiling=shown | ceil m5 0.231 rnd5 0.489 amb5 0.232 apc5 0.215 abmc5 0.200 abc5 0.198 | excess m5 +0.430 rnd5 +0.028 amb5 +0.258 apc5 +0.302 abmc5 +0.193 abc5 +0.274
+v186 P1 end3 ceiling=shown | D_ceil +0.430 [+0.395, +0.465] | D_XOR vs apc5 +0.128 [+0.073, +0.186] | D_rnd +0.402 [+0.373, +0.431] | at v188 bars (0.09/0.025): REPLICATED
+v186 P1 end3 ceiling=cb    | ceil m5 0.258 rnd5 0.513 amb5 0.231 apc5 0.217 abmc5 0.211 abc5 0.201 | excess m5 +0.403 rnd5 +0.004 amb5 +0.258 apc5 +0.300 abmc5 +0.182 abc5 +0.272
+v186 P1 end3 ceiling=cb    | D_ceil +0.403 [+0.363, +0.442] | D_XOR vs apc5 +0.104 [+0.048, +0.161] | D_rnd +0.400 [+0.372, +0.425] | at v188 bars (0.09/0.025): REPLICATED

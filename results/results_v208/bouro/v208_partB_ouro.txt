@@ -1,0 +1,18 @@
+states: notebooks/aurshalevmerin/astrocyte-v206-b2s0/v206_b2_s0_states.npy
+states: notebooks/aurshalevmerin/astrocyte-v206-b2s1/v206_b2_s1_states.npy
+states: notebooks/aurshalevmerin/astrocyte-v206-b2s2/v206_b2_s2_states.npy
+states: notebooks/aurshalevmerin/astrocyte-v206-b2s3/v206_b2_s3_states.npy
+states: notebooks/aurshalevmerin/astrocyte-v206-b3/v206_b3_states.npy
+== ouro Part B: 5249 training, 1000 test questions; full probe; chance 0.10
+end1  raw 0.321 (C 0.1) | J16 0.287 D -0.034 [-0.057, -0.012] | PC16 0.329 D +0.008 [-0.011, +0.027] | PC16m 0.330 D +0.009 [-0.010, +0.028] | RND16 0.315 D -0.006 [-0.026, +0.014] | J4 0.320 D -0.001 [-0.015, +0.013] | J64 0.275 D -0.046 [-0.068, -0.023] | J16a 0.321 D +0.000 [-0.015, +0.015] | J16b 0.299 D -0.022 [-0.040, -0.004]
+end2  raw 0.363 (C 0.01) | J16 0.365 D +0.002 [-0.014, +0.019] | PC16 0.381 D +0.018 [+0.002, +0.036] | PC16m 0.375 D +0.012 [-0.003, +0.029] | RND16 0.373 D +0.010 [+0.002, +0.019] | J4 0.369 D +0.006 [-0.006, +0.018] | J64 0.316 D -0.047 [-0.072, -0.022] | J16a 0.364 D +0.001 [-0.013, +0.015] | J16b 0.369 D +0.006 [-0.007, +0.018]
+end3  raw 0.306 (C 0.01) | J16 0.308 D +0.002 [-0.011, +0.016] | PC16 0.311 D +0.005 [-0.011, +0.020] | PC16m 0.309 D +0.003 [-0.012, +0.018] | RND16 0.303 D -0.003 [-0.013, +0.006] | J4 0.301 D -0.005 [-0.015, +0.005] | J64 0.282 D -0.024 [-0.043, -0.005] | J16a 0.311 D +0.005 [-0.008, +0.016] | J16b 0.301 D -0.005 [-0.017, +0.007]
+end4  raw 0.250 (C 0.1) | J16 0.249 D -0.001 [-0.013, +0.012] | PC16 0.268 D +0.018 [+0.001, +0.035] | PC16m 0.265 D +0.015 [-0.002, +0.033] | RND16 0.258 D +0.008 [-0.001, +0.018] | J4 0.257 D +0.007 [-0.002, +0.017] | J64 0.224 D -0.026 [-0.044, -0.010] | J16a 0.249 D -0.001 [-0.011, +0.009] | J16b 0.248 D -0.002 [-0.013, +0.010]
+J16-PC16   end1 -0.042 [-0.062, -0.021]  end2 -0.016 [-0.036, +0.004]  end3 -0.003 [-0.020, +0.015]  end4 -0.019 [-0.039, +0.000]
+J16-PC16m  end1 -0.043 [-0.063, -0.023]  end2 -0.010 [-0.028, +0.009]  end3 -0.001 [-0.018, +0.016]  end4 -0.016 [-0.033, +0.001]
+subspace stability (split halves, mean squared cosine of 16-dim spans): end1 J 0.221 / PC 0.845  end2 J 0.214 / PC 0.779  end3 J 0.165 / PC 0.786  end4 J 0.136 / PC 0.786
+end1  B3 digit-mean energy in A_16 0.496 (random 0.008) | minimal-pair readout 0.976 -> 0.982 after removing A_16
+end2  B3 digit-mean energy in A_16 0.403 (random 0.008) | minimal-pair readout 0.965 -> 0.973 after removing A_16
+end3  B3 digit-mean energy in A_16 0.280 (random 0.008) | minimal-pair readout 0.955 -> 0.965 after removing A_16
+end4  B3 digit-mean energy in A_16 0.249 (random 0.008) | minimal-pair readout 0.941 -> 0.951 after removing A_16
+Part B label (ouro): NO-HELP

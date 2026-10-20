@@ -1,0 +1,8 @@
+selftest world specific want HELPS (SPECIFIC) got HELPS (SPECIFIC) OK
+selftest world nohelp want NO-HELP got NO-HELP OK
+selftest label rule want HELPS (GENERIC) got HELPS (GENERIC) OK
+selftest label rule want HELPS (GENERIC) got HELPS (GENERIC) OK
+selftest label rule want HELPS (SPECIFIC) got HELPS (SPECIFIC) OK
+selftest label rule want MIXED got MIXED OK
+selftest label rule want MIXED got MIXED OK
+SELFTEST ALL OK

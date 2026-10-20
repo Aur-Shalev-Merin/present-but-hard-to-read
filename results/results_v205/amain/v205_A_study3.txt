@@ -1,0 +1,9 @@
+states: astrocyte-v194-ouro/merged/v194_states.npy
+plus: carry/borrow rates c1 0.445 c2 0.447
+minus: carry/borrow rates c1 0.451 c2 0.445
+--- A3 Study 3, I with the original and the carry/borrow ceiling (after loop 4) ---
+P0 end4, ceil    | D+ -0.001 D- +0.036 | I +0.017 [+0.007, +0.028] | F +0.018 [-0.001, +0.037]
+P0 end4, ceil_cb | D+ -0.047 D- +0.021 | I -0.013 [-0.028, +0.002] | F +0.034 [+0.020, +0.048]
+P1 end4, ceil    | D+ +0.124 D- +0.189 | I +0.157 [+0.141, +0.172] | F +0.032 [+0.012, +0.053]
+P1 end4, ceil_cb | D+ +0.079 D- +0.174 | I +0.126 [+0.107, +0.145] | F +0.048 [+0.027, +0.067]
+A3 P0 with carry/borrow: I -0.013 [-0.028, +0.002] -> EXPLAINED by the carry/borrow (CI includes 0)

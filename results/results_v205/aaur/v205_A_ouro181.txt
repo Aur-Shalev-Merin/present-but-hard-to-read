@@ -1,0 +1,12 @@
+states: notebooks/aurmerin/astrocyte-v181-ouro/merged/v181_states.npy
+--- Ouro v181, last prompt token: A1 anisotropy baseline ---
+mid1  O(U)  11.67 | shuffled-label null  10.72 (O/null 1.09) | residual-PC null  16.08 | random in top-16/64/256  53.48  18.21   6.05 | R256 1.93 | share of U in top-16/64/256 0.10 0.31 0.98
+end1  O(U)   7.15 | shuffled-label null   9.14 (O/null 0.78) | residual-PC null  14.88 | random in top-16/64/256  62.45  19.11   6.03 | R256 1.19 | share of U in top-16/64/256 0.06 0.31 0.99
+end2  O(U)   6.47 | shuffled-label null   7.86 (O/null 0.82) | residual-PC null  17.04 | random in top-16/64/256  51.40  16.70   5.49 | R256 1.18 | share of U in top-16/64/256 0.05 0.30 0.99
+end3  O(U)   9.19 | shuffled-label null  10.10 (O/null 0.91) | residual-PC null  21.61 | random in top-16/64/256  49.46  16.20   5.38 | R256 1.71 | share of U in top-16/64/256 0.08 0.27 0.98
+end4  O(U)   9.35 | shuffled-label null  11.35 (O/null 0.82) | residual-PC null  23.40 | random in top-16/64/256  46.99  15.46   5.26 | R256 1.78 | share of U in top-16/64/256 0.08 0.29 0.99
+A1 Ouro v181 (end1/end2/end3/end4): mean O/shuffled-label null 0.83
+A1 Ouro v181 (end1/end2/end3/end4, descriptive): mean R16 0.16, R64 0.48, R256 1.46
+--- Ouro v181: A2 MLP probe, standard / contrastive ---
+mid1 0.105/0.947 end1 0.130/0.950 end2 0.167/0.931 end3 0.166/0.901 end4 0.115/0.916
+A2 Ouro v181 (end1/end2/end3/end4): MLP standard max 0.167, contrastive max 0.950 -> STILL-SWAMPED

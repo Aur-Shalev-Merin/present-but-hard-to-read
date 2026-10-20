@@ -1,0 +1,2 @@
+selftest readable  -> CLIMBS
+selftest swamped   -> STAYS-SWAMPED

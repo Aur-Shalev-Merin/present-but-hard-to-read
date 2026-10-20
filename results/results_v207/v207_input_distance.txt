@@ -1,0 +1,24 @@
+
+== Qwen/Qwen2.5-1.5B  (model.embed_tokens.weight, BF16, V=151936, d=1536)
+swap words: [' tent', ' stere', ' terra', ' learns', ' bas', ' easiest', ' priv', ' counted', ' upright', ' matte']
+median token norm (300 random rows): 1.020  (v205 noise norm 1.032)
+digit norms: mean 0.992  | swap-word norms: mean 1.028
+digit vs digit   (minimal pair input change): mean 0.701  range 0.587-0.788
+digit vs swap word (swap input change):       mean 1.517  range 1.400-1.695
+swap word vs swap word:                       mean 1.421
+random word vs random word (60 words):        mean 1.373
+noise input change = 1.032
+digit-centred variance: top1 0.24, top3 0.51 of total
+ratios: digit-digit / word-word 0.51 ; digit-digit / digit-word 0.46 ; digit-digit / noise 0.68
+
+== ByteDance/Ouro-1.4B  (model.embed_tokens.weight, BF16, V=49152, d=2048)
+swap words: [' tent', ' vec', ' research', ' gram', ' episodes', ' outer', ' visual', ' mistress', ' nobility', ' calorie']
+median token norm (300 random rows): 1.100
+digit norms: mean 0.805  | swap-word norms: mean 1.091
+digit vs digit   (minimal pair input change): mean 0.884  range 0.762-0.982
+digit vs swap word (swap input change):       mean 1.338  range 1.251-1.412
+swap word vs swap word:                       mean 1.521
+random word vs random word (60 words):        mean 1.535
+digit-centred variance: top1 0.19, top3 0.45 of total
+ratios: digit-digit / word-word 0.58 ; digit-digit / digit-word 0.66 ; digit-digit / noise n/a
+noise variant pairwise (Qwen, v205 seed 205, norm 1.032): mean 1.460 range 1.421-1.507

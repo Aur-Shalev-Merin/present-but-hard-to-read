@@ -1,0 +1,6 @@
+selftest swamped   -> REPLICATES (want REPLICATES) OK
+   PRIMARY (last prompt token, l7/l14/l21/l28): contrastive mean 1.000 | standard max 0.126 | structured decoder max 0.125 | standard gain 50->100% templates -0.006 -> REPLICATES
+selftest readable  -> READABLE   (want READABLE) OK
+   PRIMARY (last prompt token, l7/l14/l21/l28): contrastive mean 1.000 | standard max 1.000 | structured decoder max 0.996 | standard gain 50->100% templates +0.000 -> READABLE
+selftest absent    -> ABSENT     (want ABSENT) OK
+   PRIMARY (last prompt token, l7/l14/l21/l28): contrastive mean 0.104 | standard max 0.101 | structured decoder max 0.099 | standard gain 50->100% templates +0.001 -> ABSENT

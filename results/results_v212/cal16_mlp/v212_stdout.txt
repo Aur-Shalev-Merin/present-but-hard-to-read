@@ -1,0 +1,5 @@
+calib mlp lam 0.08 | needed +0.100 (plus +0.117, minus +0.083) | 13s
+calib mlp lam 0.16 | needed +0.141 (plus +0.156, minus +0.127) | 11s
+calib mlp lam 0.32 | needed +0.169 (plus +0.176, minus +0.163) | 10s
+calib mlp lam 0.64 | needed +0.183 (plus +0.193, minus +0.174) | 8s
+calib mlp lam 1.28 | needed +0.188 (plus +0.185, minus +0.191) | 6s

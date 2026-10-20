@@ -1,0 +1,42 @@
+== world follows
+items: plus 7200, minus 7200, bare 1600
+answer-only accuracy by loop: plus [1.0, 1.0, 1.0, 1.0] | minus [1.0, 1.0, 1.0, 1.0]
+G1 accuracy after loop 4 plus 1.000 minus 1.000 (each >= 0.30: True) | G2 copies best state plus a 1.000 b 1.000 c 1.000 minus a 1.000 b 1.000 c 1.000 (a, c >= 0.75, b >= 0.60: True) | G3 bare sum digit at P1 end4 1.000 (>= 0.90: True)
+PRIMARY P1 end4 | plus: a+b +0.775 a-b +0.012 -> D+ +0.764 | minus: a-b +0.770 a+b +0.020 -> D- +0.751 | I +0.757 [+0.749, +0.765] | fixed preference for a-b F -0.006 [-0.017, +0.005]
+PRIMARY -> FOLLOWS
+selftest follows           -> FOLLOWS          OK
+== world partial_0.4
+items: plus 7200, minus 7200, bare 1600
+answer-only accuracy by loop: plus [1.0, 1.0, 1.0, 1.0] | minus [1.0, 1.0, 1.0, 1.0]
+G1 accuracy after loop 4 plus 1.000 minus 1.000 (each >= 0.30: True) | G2 copies best state plus a 1.000 b 1.000 c 1.000 minus a 1.000 b 1.000 c 1.000 (a, c >= 0.75, b >= 0.60: True) | G3 bare sum digit at P1 end4 1.000 (>= 0.90: True)
+PRIMARY P1 end4 | plus: a+b +0.313 a-b -0.003 -> D+ +0.316 | minus: a-b +0.321 a+b -0.006 -> D- +0.328 | I +0.322 [+0.311, +0.333] | fixed preference for a-b F +0.006 [-0.010, +0.020]
+PRIMARY -> FOLLOWS
+selftest partial_0.4       -> FOLLOWS          recorded (sensitivity)
+== world fixed_plus
+items: plus 7200, minus 7200, bare 1600
+answer-only accuracy by loop: plus [1.0, 1.0, 1.0, 1.0] | minus [1.0, 1.0, 1.0, 1.0]
+G1 accuracy after loop 4 plus 1.000 minus 1.000 (each >= 0.30: True) | G2 copies best state plus a 1.000 b 1.000 c 1.000 minus a 1.000 b 1.000 c 1.000 (a, c >= 0.75, b >= 0.60: True) | G3 bare sum digit at P1 end4 1.000 (>= 0.90: True)
+PRIMARY P1 end4 | plus: a+b +0.775 a-b +0.011 -> D+ +0.764 | minus: a-b +0.027 a+b +0.775 -> D- -0.748 | I +0.008 [+0.002, +0.013] | fixed preference for a-b F -0.756 [-0.769, -0.743]
+PRIMARY -> DOES-NOT-FOLLOW
+selftest fixed_plus        -> DOES-NOT-FOLLOW  OK
+== world fixed_difference
+items: plus 7200, minus 7200, bare 1600
+answer-only accuracy by loop: plus [1.0, 1.0, 1.0, 1.0] | minus [1.0, 1.0, 1.0, 1.0]
+G1 accuracy after loop 4 plus 1.000 minus 1.000 (each >= 0.30: True) | G2 copies best state plus a 1.000 b 1.000 c 1.000 minus a 1.000 b 1.000 c 1.000 (a, c >= 0.75, b >= 0.60: True) | G3 bare sum digit at P1 end4 1.000 (>= 0.90: True)
+PRIMARY P1 end4 | plus: a+b +0.030 a-b +0.770 -> D+ -0.741 | minus: a-b +0.770 a+b +0.023 -> D- +0.747 | I +0.003 [-0.002, +0.009] | fixed preference for a-b F +0.744 [+0.730, +0.758]
+PRIMARY -> DOES-NOT-FOLLOW
+selftest fixed_difference  -> DOES-NOT-FOLLOW  OK
+== world generic_mixing
+items: plus 7200, minus 7200, bare 1600
+answer-only accuracy by loop: plus [1.0, 1.0, 1.0, 1.0] | minus [1.0, 1.0, 1.0, 1.0]
+G1 accuracy after loop 4 plus 1.000 minus 1.000 (each >= 0.30: True) | G2 copies best state plus a 1.000 b 1.000 c 1.000 minus a 1.000 b 1.000 c 1.000 (a, c >= 0.75, b >= 0.60: True) | G3 bare sum digit at P1 end4 1.000 (>= 0.90: True)
+PRIMARY P1 end4 | plus: a+b +0.600 a-b +0.568 -> D+ +0.032 | minus: a-b +0.571 a+b +0.599 -> D- -0.028 | I +0.002 [-0.003, +0.006] | fixed preference for a-b F -0.030 [-0.042, -0.019]
+PRIMARY -> DOES-NOT-FOLLOW
+selftest generic_mixing    -> DOES-NOT-FOLLOW  OK
+== world broken
+items: plus 7200, minus 7200, bare 1600
+answer-only accuracy by loop: plus [1.0, 1.0, 1.0, 1.0] | minus [1.0, 1.0, 1.0, 1.0]
+G1 accuracy after loop 4 plus 1.000 minus 1.000 (each >= 0.30: True) | G2 copies best state plus a 0.101 b 0.097 c 0.104 minus a 0.095 b 0.100 c 0.101 (a, c >= 0.75, b >= 0.60: False) | G3 bare sum digit at P1 end4 1.000 (>= 0.90: True)
+PRIMARY P1 end4 | plus: a+b -0.034 a-b -0.035 -> D+ +0.000 | minus: a-b -0.028 a+b -0.032 -> D- +0.003 | I +0.002 [-0.007, +0.011] | fixed preference for a-b F +0.001 [-0.013, +0.017]
+PRIMARY -> UNSCORABLE
+selftest broken            -> UNSCORABLE       OK

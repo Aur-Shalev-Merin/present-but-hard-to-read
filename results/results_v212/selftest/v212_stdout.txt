@@ -1,0 +1,2 @@
+selftest follows  needed +0.775 / +0.770 | line +0.709 / +0.735 | I +0.758 -> OK
+selftest fourier  needed +0.775 / +0.770 | line +0.009 / -0.003 | I +0.059 -> OK

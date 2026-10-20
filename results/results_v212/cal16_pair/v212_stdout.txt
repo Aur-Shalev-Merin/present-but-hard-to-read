@@ -1,0 +1,5 @@
+calib pair lam 0.08 | needed +0.157 (plus +0.165, minus +0.149) | 14s
+calib pair lam 0.16 | needed +0.171 (plus +0.179, minus +0.163) | 9s
+calib pair lam 0.32 | needed +0.187 (plus +0.202, minus +0.172) | 7s
+calib pair lam 0.64 | needed +0.216 (plus +0.228, minus +0.203) | 5s
+calib pair lam 1.28 | needed +0.243 (plus +0.250, minus +0.237) | 4s

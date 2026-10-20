@@ -1,0 +1,38 @@
+--- B2 template-count curve (1900 training questions, 500 test; chance 0.10) ---
+l7    effective rank: participation ratio 40.0, components to 95% variance 58 -> N_max = 47.5 x PR, 32.8 x n95
+end2  effective rank: participation ratio 40.0, components to 95% variance 58 -> N_max = 47.5 x PR, 32.8 x n95
+end3  effective rank: participation ratio 40.0, components to 95% variance 58 -> N_max = 47.5 x PR, 32.8 x n95
+end4  effective rank: participation ratio 40.0, components to 95% variance 58 -> N_max = 47.5 x PR, 32.8 x n95
+N                        60             125             250             500             950            1000            1900
+l7    pca    0.898 (C 1.0   )  0.990 (C 0.1   )  0.996 (C 1.0   )  0.998 (C 0.1   )  0.996 (C 1.0   )  0.998 (C 0.01  )  0.998 (C 0.01  )
+l7    full   0.914 (C 10.0  )  0.990 (C 0.1   )  0.996 (C 1.0   )  0.998 (C 0.1   )  0.996 (C 1.0   )  0.998 (C 0.01  )  0.998 (C 0.01  )
+end2  pca    0.898 (C 1.0   )  0.990 (C 0.1   )  0.996 (C 1.0   )  0.998 (C 0.1   )  0.996 (C 1.0   )  0.998 (C 0.01  )  0.998 (C 0.01  )
+end2  full   0.914 (C 10.0  )  0.990 (C 0.1   )  0.996 (C 1.0   )  0.998 (C 0.1   )  0.996 (C 1.0   )  0.998 (C 0.01  )  0.998 (C 0.01  )
+end3  pca    0.898 (C 1.0   )  0.990 (C 0.1   )  0.996 (C 1.0   )  0.998 (C 0.1   )  0.996 (C 1.0   )  0.998 (C 0.01  )  0.998 (C 0.01  )
+end3  full   0.914 (C 10.0  )  0.990 (C 0.1   )  0.996 (C 1.0   )  0.998 (C 0.1   )  0.996 (C 1.0   )  0.998 (C 0.01  )  0.998 (C 0.01  )
+end4  pca    0.898 (C 1.0   )  0.990 (C 0.1   )  0.996 (C 1.0   )  0.998 (C 0.1   )  0.996 (C 1.0   )  0.998 (C 0.01  )  0.998 (C 0.01  )
+end4  full   0.914 (C 10.0  )  0.990 (C 0.1   )  0.996 (C 1.0   )  0.998 (C 0.1   )  0.996 (C 1.0   )  0.998 (C 0.01  )  0.998 (C 0.01  )
+MLP at N_max: l7 0.998 end2 0.998 end3 0.998 end4 0.998
+gate: pca probe on the digit's own token (+0, l7) at N_max: 1.000 (>= 0.90)
+B2: level 0.998, gain over the last doubling +0.002 -> CLIMBS
+(in the B2 table above, "l7" is Ouro's end1)
+selftest readable  -> CLIMBS
+--- B2 template-count curve (1900 training questions, 500 test; chance 0.10) ---
+l7    effective rank: participation ratio 62.0, components to 95% variance 60 -> N_max = 30.7 x PR, 31.7 x n95
+end2  effective rank: participation ratio 62.0, components to 95% variance 60 -> N_max = 30.7 x PR, 31.7 x n95
+end3  effective rank: participation ratio 62.0, components to 95% variance 60 -> N_max = 30.7 x PR, 31.7 x n95
+end4  effective rank: participation ratio 62.0, components to 95% variance 60 -> N_max = 30.7 x PR, 31.7 x n95
+N                        60             125             250             500             950            1000            1900
+l7    pca    0.092 (C const )  0.068 (C const )  0.100 (C 0.01  )  0.092 (C const )  0.100 (C 0.01  )  0.102 (C 0.01  )  0.074 (C 0.1   )
+l7    full   0.092 (C const )  0.068 (C const )  0.100 (C 0.01  )  0.092 (C 0.001 )  0.100 (C 0.01  )  0.102 (C 0.01  )  0.074 (C 0.1   )
+end2  pca    0.092 (C const )  0.068 (C const )  0.100 (C 0.01  )  0.092 (C const )  0.100 (C 0.01  )  0.102 (C 0.01  )  0.074 (C 0.1   )
+end2  full   0.092 (C const )  0.068 (C const )  0.100 (C 0.01  )  0.092 (C 0.001 )  0.100 (C 0.01  )  0.102 (C 0.01  )  0.074 (C 0.1   )
+end3  pca    0.092 (C const )  0.068 (C const )  0.100 (C 0.01  )  0.092 (C const )  0.100 (C 0.01  )  0.102 (C 0.01  )  0.074 (C 0.1   )
+end3  full   0.092 (C const )  0.068 (C const )  0.100 (C 0.01  )  0.092 (C 0.001 )  0.100 (C 0.01  )  0.102 (C 0.01  )  0.074 (C 0.1   )
+end4  pca    0.092 (C const )  0.068 (C const )  0.100 (C 0.01  )  0.092 (C const )  0.100 (C 0.01  )  0.102 (C 0.01  )  0.074 (C 0.1   )
+end4  full   0.092 (C const )  0.068 (C const )  0.100 (C 0.01  )  0.092 (C 0.001 )  0.100 (C 0.01  )  0.102 (C 0.01  )  0.074 (C 0.1   )
+MLP at N_max: l7 0.106 end2 0.106 end3 0.106 end4 0.106
+gate: pca probe on the digit's own token (+0, l7) at N_max: 1.000 (>= 0.90)
+B2: level 0.074, gain over the last doubling -0.026 -> STAYS-SWAMPED
+(in the B2 table above, "l7" is Ouro's end1)
+selftest swamped   -> STAYS-SWAMPED

@@ -1,0 +1,16 @@
+﻿v188 end4 | a+b            +0.219 vs a-b    +0.089 | difference +0.130 family [+0.105, +0.154] template [+0.103, +0.156] | templates positive 12/12
+v188 end4 | a-c            +0.158 vs a+c    +0.093 | difference +0.065 family [+0.038, +0.092] template [+0.023, +0.108] | templates positive 8/12
+v188 end4 | b-c            +0.126 vs b+c    +0.084 | difference +0.042 family [+0.015, +0.069] template [+0.019, +0.070] | templates positive 11/12
+v188 end4 | ans+c (= a+b)  +0.219 vs ans-c  +0.130 | difference +0.089 family [+0.065, +0.114] template [+0.059, +0.120] | templates positive 12/12
+v188 end3 | a+b            +0.448 vs a-b    +0.286 | difference +0.161 family [+0.130, +0.193] template [+0.113, +0.208] | templates positive 12/12
+v188 end3 | a-c            +0.349 vs a+c    +0.305 | difference +0.044 family [+0.018, +0.070] template [+0.012, +0.079] | templates positive 8/12
+v188 end3 | b-c            +0.268 vs b+c    +0.309 | difference -0.041 family [-0.067, -0.016] template [-0.076, -0.006] | templates positive 3/12
+v188 end3 | ans+c (= a+b)  +0.448 vs ans-c  +0.197 | difference +0.251 family [+0.215, +0.288] template [+0.199, +0.309] | templates positive 12/12
+v186 end4 | a+b            +0.176 vs a-b    +0.089 | difference +0.087 family [+0.069, +0.105] template [+0.065, +0.105] | templates positive 12/12
+v186 end4 | a-c            +0.198 vs a+c    +0.076 | difference +0.122 family [+0.093, +0.152] template [+0.088, +0.164] | templates positive 12/12
+v186 end4 | b-c            +0.126 vs b+c    +0.075 | difference +0.052 family [+0.027, +0.079] template [+0.021, +0.081] | templates positive 10/12
+v186 end4 | ans+c (= a+b)  +0.176 vs ans-c  +0.108 | difference +0.067 family [+0.051, +0.084] template [+0.052, +0.083] | templates positive 12/12
+v186 end3 | a+b            +0.424 vs a-b    +0.251 | difference +0.173 family [+0.151, +0.195] template [+0.142, +0.203] | templates positive 12/12
+v186 end3 | a-c            +0.363 vs a+c    +0.299 | difference +0.064 family [+0.043, +0.085] template [+0.035, +0.089] | templates positive 11/12
+v186 end3 | b-c            +0.266 vs b+c    +0.297 | difference -0.032 family [-0.057, -0.006] template [-0.067, +0.001] | templates positive 4/12
+v186 end3 | ans+c (= a+b)  +0.424 vs ans-c  +0.187 | difference +0.237 family [+0.212, +0.263] template [+0.209, +0.270] | templates positive 12/12

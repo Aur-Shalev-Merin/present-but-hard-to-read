@@ -1,0 +1,22 @@
+B1: pairs 2000, families 36 | unpatched: own digit 1.000, target 0.000
+  patch at e3: ab hit 0.017 own 0.959 | amb hit 0.032 own 0.942 | rand hit 0.001 own 0.997 | ans hit 0.902 own 0.035
+  hit(ab) - max(hit(amb), hit(rand)) -0.015 [-0.027, -0.004] (99.375%) -> B1 at e3: NOT-USED (positive control hit 0.902)
+  patch at e2: ab hit 0.007 own 0.978 | amb hit 0.006 own 0.979 | rand hit 0.002 own 0.994 | ans hit 0.331 own 0.635
+  hit(ab) - max(hit(amb), hit(rand)) +0.001 [-0.005, +0.007] (99.375%) -> B1 at e2: NOT-USED (positive control hit 0.331)
+B2: pairs 2000, families 36 | unpatched: own digit 1.000, target 0.000
+  patch at e3: ab hit 0.003 own 0.988 | amb hit 0.002 own 0.987 | rand hit 0.000 own 0.999
+  hit(ab) - max(hit(amb), hit(rand)) +0.001 [-0.003, +0.007] (99.375%) -> B2 at e3: NOT-USED (positive control hit 0.902)
+  patch at e2: ab hit 0.003 own 0.987 | amb hit 0.003 own 0.988 | rand hit 0.001 own 0.997
+  hit(ab) - max(hit(amb), hit(rand)) +0.001 [-0.002, +0.003] (99.375%) -> B2 at e2: NOT-USED (positive control hit 0.331)
+subspace overlap end3 half 0: ab vs ans  cos of principal angles 0.62 0.58 0.43 0.38 0.25 0.17 0.13 0.12 0.01 | mean cos^2 0.130
+subspace overlap end3 half 0: ab vs amb  cos of principal angles 1.00 0.67 0.61 0.45 0.41 0.27 0.25 0.20 0.08 | mean cos^2 0.264
+subspace overlap end3 half 0: ab vs rand cos of principal angles 0.09 0.09 0.09 0.05 0.05 0.04 0.02 0.02 0.01 | mean cos^2 0.004
+subspace overlap end3 half 1: ab vs ans  cos of principal angles 0.64 0.63 0.41 0.35 0.32 0.27 0.14 0.08 0.05 | mean cos^2 0.144
+subspace overlap end3 half 1: ab vs amb  cos of principal angles 1.00 0.77 0.56 0.43 0.35 0.33 0.25 0.14 0.08 | mean cos^2 0.268
+subspace overlap end3 half 1: ab vs rand cos of principal angles 0.13 0.10 0.09 0.07 0.05 0.04 0.02 0.01 0.00 | mean cos^2 0.005
+subspace overlap end2 half 0: ab vs ans  cos of principal angles 0.76 0.62 0.49 0.42 0.41 0.31 0.23 0.09 0.04 | mean cos^2 0.190
+subspace overlap end2 half 0: ab vs amb  cos of principal angles 1.00 0.84 0.66 0.59 0.58 0.52 0.32 0.23 0.09 | mean cos^2 0.361
+subspace overlap end2 half 0: ab vs rand cos of principal angles 0.10 0.08 0.08 0.06 0.05 0.05 0.02 0.00 0.00 | mean cos^2 0.003
+subspace overlap end2 half 1: ab vs ans  cos of principal angles 0.64 0.61 0.48 0.40 0.36 0.33 0.20 0.12 0.02 | mean cos^2 0.162
+subspace overlap end2 half 1: ab vs amb  cos of principal angles 1.00 0.83 0.68 0.62 0.49 0.46 0.27 0.20 0.08 | mean cos^2 0.345
+subspace overlap end2 half 1: ab vs rand cos of principal angles 0.15 0.12 0.10 0.08 0.06 0.03 0.02 0.01 0.00 | mean cos^2 0.007

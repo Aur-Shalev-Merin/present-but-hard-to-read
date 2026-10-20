@@ -1,0 +1,1 @@
+{"pair": 1.09, "mlp": null, "fourier": 0.018}

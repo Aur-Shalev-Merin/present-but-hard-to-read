@@ -1,0 +1,37 @@
+states: notebooks/aurshalevmerin/astrocyte-v205-b1/v205_b1_states.npy
+states: notebooks/aurshalevmerin/astrocyte-v202-qwen/v202_v181_states.npy
+--- B1 random-perturbation null (last prompt token) ---
+digit  l7 O 24.37 SNR 0.0009 decoder 0.117 std 0.123 mp 0.983 | l14 O 17.45 SNR 0.0037 decoder 0.136 std 0.131 mp 0.876 | l21 O 19.23 SNR 0.0031 decoder 0.143 std 0.139 mp 0.748 | l28 O 15.28 SNR 0.0025 decoder 0.135 std 0.134 mp 0.897
+swap   l7 O 26.00 SNR 0.0651 decoder 0.514 std 0.441 mp 0.999 | l14 O 16.04 SNR 0.0376 decoder 0.397 std 0.318 mp 0.992 | l21 O 17.39 SNR 0.0106 decoder 0.256 std 0.242 mp 0.948 | l28 O 8.44 SNR 0.2049 decoder 0.499 std 0.740 mp 0.999
+noise  l7 O 27.06 SNR 0.0010 decoder 0.132 std 0.145 mp 0.989 | l14 O 19.69 SNR 0.0006 decoder 0.131 std 0.124 mp 0.931 | l21 O 20.21 SNR 0.0002 decoder 0.111 std 0.108 mp 0.763 | l28 O 14.48 SNR 0.0001 decoder 0.111 std 0.105 mp 0.799
+digit  own-null check: l7 O 24.37 shuffled-label 23.36 O/shuffled 1.04 residual-PC 41.30 | l14 O 17.45 shuffled-label 14.72 O/shuffled 1.19 residual-PC 26.69 | l21 O 19.23 shuffled-label 17.21 O/shuffled 1.12 residual-PC 35.81 | l28 O 15.28 shuffled-label 22.33 O/shuffled 0.68 residual-PC 44.62
+swap   own-null check: l7 O 26.00 shuffled-label 24.60 O/shuffled 1.06 residual-PC 45.78 | l14 O 16.04 shuffled-label 15.28 O/shuffled 1.05 residual-PC 29.79 | l21 O 17.39 shuffled-label 19.41 O/shuffled 0.90 residual-PC 42.02 | l28 O 8.44 shuffled-label 16.99 O/shuffled 0.50 residual-PC 36.21
+noise  own-null check: l7 O 27.06 shuffled-label 23.49 O/shuffled 1.15 residual-PC 43.94 | l14 O 19.69 shuffled-label 15.85 O/shuffled 1.24 residual-PC 29.32 | l21 O 20.21 shuffled-label 18.57 O/shuffled 1.09 residual-PC 37.09 | l28 O 14.48 shuffled-label 19.27 O/shuffled 0.75 residual-PC 43.35
+swap: minimal-pair mean 0.985, r = O(swap)/O(digit) = 0.889
+noise: minimal-pair mean 0.870, r = O(noise)/O(digit) = 1.067
+B1 -> GENERIC
+states: notebooks/aurshalevmerin/astrocyte-v205-b2s0/v205_b2_s0_states.npy
+states: notebooks/aurshalevmerin/astrocyte-v205-b2s1/v205_b2_s1_states.npy
+states: notebooks/aurshalevmerin/astrocyte-v205-b2s2/v205_b2_s2_states.npy
+--- B2 template-count curve (5249 training questions, 1000 test; chance 0.10) ---
+l7    effective rank: participation ratio 9.4, components to 95% variance 135 -> N_max = 561.2 x PR, 38.9 x n95
+l14   effective rank: participation ratio 14.9, components to 95% variance 213 -> N_max = 353.0 x PR, 24.6 x n95
+l21   effective rank: participation ratio 24.9, components to 95% variance 305 -> N_max = 210.6 x PR, 17.2 x n95
+l28   effective rank: participation ratio 43.0, components to 95% variance 591 -> N_max = 122.1 x PR, 8.9 x n95
+N                        60             125             250             500            1000            2000            2624            4000            5249
+l7    pca    0.099 (C const )  0.126 (C 0.01  )  0.099 (C const )  0.099 (C const )  0.112 (C 0.01  )  0.115 (C 0.01  )  0.122 (C 0.1   )  0.112 (C 0.01  )  0.108 (C 1.0   )
+l7    full   0.099 (C const )  0.126 (C 0.01  )  0.099 (C const )  0.100 (C 0.0001)  0.094 (C 0.1   )  0.082 (C 0.001 )  0.100 (C 0.0001)  0.137 (C 10.0  )  0.144 (C 1.0   )
+l14   pca    0.099 (C const )  0.104 (C const )  0.099 (C const )  0.133 (C 0.01  )  0.127 (C 0.01  )  0.125 (C 0.01  )  0.148 (C 0.01  )  0.152 (C 0.1   )  0.143 (C 0.01  )
+l14   full   0.099 (C 0.0001)  0.104 (C 0.0001)  0.099 (C const )  0.140 (C 0.1   )  0.130 (C 1.0   )  0.130 (C 0.01  )  0.144 (C 0.1   )  0.175 (C 10.0  )  0.177 (C 0.01  )
+l21   pca    0.099 (C const )  0.118 (C 1.0   )  0.099 (C const )  0.135 (C 0.1   )  0.145 (C 0.1   )  0.139 (C 1.0   )  0.156 (C 0.01  )  0.150 (C 1.0   )  0.162 (C 1.0   )
+l21   full   0.114 (C 10.0  )  0.119 (C 1.0   )  0.099 (C const )  0.111 (C 0.001 )  0.152 (C 0.01  )  0.165 (C 1.0   )  0.175 (C 0.01  )  0.166 (C 0.1   )  0.176 (C 0.1   )
+l28   pca    0.099 (C const )  0.113 (C 0.01  )  0.121 (C 0.1   )  0.120 (C 0.1   )  0.118 (C 0.01  )  0.134 (C 0.01  )  0.131 (C 0.01  )  0.137 (C 0.1   )  0.144 (C 1.0   )
+l28   full   0.100 (C 10.0  )  0.114 (C 10.0  )  0.117 (C 10.0  )  0.131 (C 0.001 )  0.127 (C 1.0   )  0.153 (C 0.1   )  0.181 (C 1.0   )  0.188 (C 0.01  )  0.190 (C 0.1   )
+MLP at N_max: l7 0.113 l14 0.143 l21 0.136 l28 0.126
+gate: pca probe on the digit's own token (+0, l7) at N_max: 1.000 (>= 0.90)
+B2: level 0.190, gain over the last doubling +0.044 -> PARTIAL
+states: notebooks/aurshalevmerin/astrocyte-v205-b3/v205_b3_states.npy
+--- B3 positive control: minimal pairs on 150 B2 test questions ---
+l7 standard 0.141 / minimal-pair 0.985 l14 standard 0.171 / minimal-pair 0.914 l21 standard 0.181 / minimal-pair 0.808 l28 standard 0.212 / minimal-pair 0.940
+B3: minimal-pair mean over Q 0.912 -> present
+B2 final -> PARTIAL

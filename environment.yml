@@ -1,0 +1,15 @@
+name: present-but-hard-to-read
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - pip
+  - pip:
+      - torch
+      - transformers==4.54.1   # pinned: every model run used this version (Ouro's remote code needs it)
+      - datasets
+      - pymupdf               # optional: PDF checks
+# Model runs used Kaggle's standard Python image (October 2026) plus the pinned transformers.

@@ -1,0 +1,17 @@
+v208 extract | qwen | real | shard 0/2 | 12 prompts | pilot False | step 0.0200 (s = 0.02065, median emb norm 1.0323) | d 1536
+swap words [' tent', ' stere', ' terra', ' learns', ' bas', ' easiest', ' priv', ' counted', ' upright', ' matte'] | pair words [' rating', ' rant', ' simplex', ' cursos', ' geben', ' complete'] ...
+check cached vs full forward: max |state diff| 1.28e-04
+step check: step 0.0200 x median norm: rel change s vs s/2 max 1.58e-03, median 1.01e-03
+prompt 1/12 (tid 11): 280 tokens, segment 41 | 551 s (total 618 s)
+prompt 2/12 (tid 74): 341 tokens, segment 29 | 388 s (total 1006 s)
+prompt 3/12 (tid 103): 282 tokens, segment 49 | 519 s (total 1525 s)
+prompt 4/12 (tid 125): 334 tokens, segment 18 | 305 s (total 1830 s)
+prompt 5/12 (tid 149): 263 tokens, segment 16 | 277 s (total 2107 s)
+prompt 6/12 (tid 164): 286 tokens, segment 39 | 462 s (total 2569 s)
+prompt 7/12 (tid 232): 264 tokens, segment 17 | 297 s (total 2866 s)
+prompt 8/12 (tid 266): 298 tokens, segment 70 | 692 s (total 3557 s)
+prompt 9/12 (tid 300): 274 tokens, segment 30 | 386 s (total 3943 s)
+prompt 10/12 (tid 320): 268 tokens, segment 42 | 478 s (total 4421 s)
+prompt 11/12 (tid 357): 298 tokens, segment 73 | 684 s (total 5105 s)
+prompt 12/12 (tid 401): 256 tokens, segment 18 | 302 s (total 5407 s)
+v208_qwen_s0 done: 12 prompts (5407 s)

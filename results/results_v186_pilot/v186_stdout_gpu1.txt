@@ -1,0 +1,6 @@
+v186 extract | ByteDance/Ouro-1.4B | sets ['pilot'] | 360 items (part 1) | dtype torch.float32
+check vs Ouro forward: max |logit diff| 0.00e+00
+    1/360 acc so far [0.0, 1.0, 0.0, 0.0] (20s)
+  251/360 acc so far [0.012, 0.359, 0.554, 0.598] (284s)
+  360/360 acc so far [0.033, 0.303, 0.461, 0.503] (404s)
+done 404s; tokenisation ok 360/360

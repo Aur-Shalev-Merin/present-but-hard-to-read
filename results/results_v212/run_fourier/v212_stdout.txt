@@ -1,0 +1,6 @@
+fourier lam 0.018 seed 0 | needed +0.203 | line +0.054 / +0.072 | I +0.069 | 34s
+fourier lam 0.018 seed 1 | needed +0.225 | line +0.123 / +0.050 | I +0.091 | 26s
+fourier lam 0.018 seed 2 | needed +0.214 | line +0.079 / +0.083 | I +0.087 | 30s
+fourier lam 0.018 seed 3 | needed +0.197 | line +0.023 / +0.037 | I +0.083 | 26s
+fourier lam 0.018 seed 4 | needed +0.224 | line +0.101 / +0.046 | I +0.109 | 29s
+fourier lam 0.018 seed 5 | needed +0.188 | line -0.063 / +0.009 | I +0.069 | 29s

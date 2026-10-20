@@ -1,0 +1,11 @@
+v181 extract | ByteDance/Ouro-1.4B | 68 families x 10 (part 1) | layers/loop 24, mid layer 12 | dtype torch.float32
+check vs Ouro forward: max |logit diff| 0.00e+00
+  1/68 families (29s)
+ 11/68 families (156s)
+ 21/68 families (304s)
+ 31/68 families (448s)
+ 41/68 families (596s)
+ 51/68 families (745s)
+ 61/68 families (892s)
+ 68/68 families (994s)
+done 993s; minimal pairs ok 680/680

@@ -1,0 +1,26 @@
+word items 7200 (families 36, templates 12), bare items 1600 (families 16)
+answer-only accuracy by loop: word [0.049, 0.378, 0.583, 0.599] | bare [0.99, 1.0, 1.0, 1.0]
+G1 word accuracy after loop 4 0.599 (>= 0.30: True) | G2 copies best state a 1.000 b 0.903 c 0.998 (>= 0.75: True) | G3 bare sum digit at P1 end4 1.000 (>= 0.90: True)
+H1 (bare, P0, end4) raw: m5 0.573 (ceil 0.200) rnd5 0.748 (ceil 0.490) amb5 0.662 (ceil 0.200) ap2b5 0.549 (ceil 0.200) tapb5 0.526 (ceil 0.200)
+H1 excess: m5 +0.372 rnd5 +0.258 amb5 +0.463 ap2b5 +0.349 tapb5 +0.326
+H1 D_ceil +0.372 [+0.263, +0.501] (bar 0.15) | D_XOR vs amb5 -0.090 [-0.147, -0.039] (bar 0.15) | D_rnd +0.115 [+0.064, +0.166]
+H2 (main, P1, end4) raw: m5 0.444 (ceil 0.225) rnd5 0.388 (ceil 0.484) amb5 0.317 (ceil 0.228) apc5 0.330 (ceil 0.237) abmc5 0.331 (ceil 0.201) abc5 0.358 (ceil 0.214)
+H2 excess: m5 +0.219 rnd5 -0.096 amb5 +0.089 apc5 +0.093 abmc5 +0.130 abc5 +0.144
+H2 D_ceil +0.219 [+0.194, +0.244] (bar 0.09) | D_XOR vs abc5 +0.075 [+0.052, +0.098] (bar 0.03) | D_rnd +0.314 [+0.286, +0.342]
+PRIMARY -> H1 (bare, before writing) NOT-REPLICATED | H2 (word problems, before the units digit) REPLICATED
+--- secondary ---
+H1 target excess by state: mid1 +0.327 end1 +0.361 mid2 +0.363 end2 +0.376 mid3 +0.372 end3 +0.365 mid4 +0.362 end4 +0.372
+H2 target excess by state: mid1 +0.026 end1 +0.158 mid2 +0.128 end2 +0.383 mid3 +0.216 end3 +0.448 mid4 +0.192 end4 +0.219
+word P0 end4: m5 excess -0.007
+H2@0.15 (main, P1, end4) raw: m5 0.444 (ceil 0.225) rnd5 0.388 (ceil 0.484) amb5 0.317 (ceil 0.228) apc5 0.330 (ceil 0.237) abmc5 0.331 (ceil 0.201) abc5 0.358 (ceil 0.214)
+H2@0.15 excess: m5 +0.219 rnd5 -0.096 amb5 +0.089 apc5 +0.093 abmc5 +0.130 abc5 +0.144
+H2@0.15 D_ceil +0.219 [+0.194, +0.244] (bar 0.15) | D_XOR vs abc5 +0.075 [+0.052, +0.098] (bar 0.15) | D_rnd +0.314 [+0.286, +0.342]
+H2 at v186's ORIGINAL bars (0.15 / 0.15; not a label) -> NOT-REPLICATED
+H1-mod10 (bare, P0, end4) raw: m 0.725 (ceil 0.100) rnd 0.761 (ceil 0.460) amb 0.886 (ceil 0.100) ap2b 0.671 (ceil 0.203) tapb 0.627 (ceil 0.203)
+H1-mod10 excess: m +0.625 rnd +0.301 amb +0.786 ap2b +0.468 tapb +0.424
+H1-mod10 D_ceil +0.625 [+0.516, +0.739] (bar 0.15) | D_XOR vs amb -0.161 [-0.224, -0.096] (bar 0.15) | D_rnd +0.324 [+0.291, +0.350]
+H1 mod-10 version (v186-style; not a label) -> NOT-REPLICATED
+H2-mod10 (main, P1, end4) raw: m 0.390 (ceil 0.152) rnd 0.312 (ceil 0.431) amb 0.256 (ceil 0.159) apc 0.272 (ceil 0.168) abmc 0.292 (ceil 0.106) ab2c 0.253 (ceil 0.102)
+H2-mod10 excess: m +0.238 rnd -0.119 amb +0.097 apc +0.104 abmc +0.186 ab2c +0.150
+H2-mod10 D_ceil +0.238 [+0.206, +0.271] (bar 0.09) | D_XOR vs abmc +0.052 [+0.027, +0.077] (bar 0.03) | D_rnd +0.357 [+0.325, +0.388]
+H2 mod-10 version (v186-style; not a label) -> REPLICATED

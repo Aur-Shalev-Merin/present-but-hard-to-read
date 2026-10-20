@@ -1,0 +1,14 @@
+main items 7200, families 36, templates 12; answer-only accuracy by loop [0.023, 0.436, 0.649, 0.66]
+G1 accuracy after loop 4 0.660 (>= 0.30: True) | G2 copies at P0, best state a 1.000 b 0.944 c 0.996 (each >= 0.75: True); end4 a 0.954 b 0.658 c 0.858 | G3 bare sum digit at P1 end4 1.000 (>= 0.90: True)
+P0 end4: T1 m 0.148 | ceiling(m) 0.164 | T2 ans 0.113 (ceiling 0.104) | T3 amb 0.218 (ceiling 0.159) apc 0.124 (ceiling 0.162) rnd 0.314 (ceiling 0.507)
+P0 end4 excess over own ceiling: m -0.016 amb +0.058 apc -0.037 rnd -0.193
+P0 D_ceil -0.016 [-0.030, -0.002] | D_XOR (vs amb) -0.075 [-0.103, -0.047] | D_rnd +0.177 [+0.152, +0.200] | D_T3mean +0.041 [+0.027, +0.055]
+P1 end4 excess over own ceiling: m +0.205 amb +0.087 apc +0.070 rnd -0.182
+P1 D_ceil +0.205 [+0.172, +0.236] | D_XOR (vs amb) +0.118 [+0.094, +0.141] | D_rnd +0.387 [+0.359, +0.415] | D_T3mean +0.213 [+0.190, +0.236]
+per position: {'P0': 'MIXED', 'P1': 'MIXED'}
+PRIMARY -> UNCLEAR
+--- secondary ---
+T1 at P0 by state: mid1 0.226 end1 0.204 mid2 0.205 end2 0.196 mid3 0.179 end3 0.162 mid4 0.152 end4 0.148
+P1 end4 raw: m 0.369 ans 0.878 amb 0.246 apc 0.231 rnd 0.325
+T1 at P0 end4 on correct@4 (n=4749) 0.159 | wrong@4 (n=2451) 0.127
+bare: sum units digit at P0 end4 0.708 vs ceiling 0.100

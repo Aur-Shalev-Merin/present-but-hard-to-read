@@ -1,0 +1,448 @@
+\begin{thebibliography}{60}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Belinkov(2022)]{belinkov2022probing}
+Yonatan Belinkov.
+\newblock Probing classifiers: Promises, shortcomings, and advances.
+\newblock \emph{Computational Linguistics}, 48\penalty0 (1):\penalty0 207--219,
+  2022.
+\newblock \doi{10.1162/coli_a_00422}.
+
+\bibitem[Belrose et~al.(2023)Belrose, Furman, Smith, Halawi, Ostrovsky,
+  McKinney, Biderman, and Steinhardt]{belrose2023tuned}
+Nora Belrose, Zach Furman, Logan Smith, Danny Halawi, Igor Ostrovsky, Lev
+  McKinney, Stella Biderman, and Jacob Steinhardt.
+\newblock Eliciting latent predictions from transformers with the tuned lens.
+\newblock \emph{arXiv preprint arXiv:2303.08112}, 2023.
+
+\bibitem[Biran et~al.(2024)Biran, Gottesman, Yang, Geva, and
+  Globerson]{biran2024hopping}
+Eden Biran, Daniela Gottesman, Sohee Yang, Mor Geva, and Amir Globerson.
+\newblock Hopping too late: Exploring the limitations of large language models
+  on multi-hop queries.
+\newblock In \emph{Proceedings of the 2024 Conference on Empirical Methods in
+  Natural Language Processing}, pp.\  14113--14130. Association for
+  Computational Linguistics, 2024.
+\newblock \doi{10.18653/v1/2024.emnlp-main.781}.
+
+\bibitem[Blayney et~al.(2026)Blayney, Arroyo, Obando-Ceron, Castro, Courville,
+  Bronstein, and Dong]{blayney2026}
+Hugh Blayney, {\'A}lvaro Arroyo, Johan Obando-Ceron, Pablo~Samuel Castro, Aaron
+  Courville, Michael~M. Bronstein, and Xiaowen Dong.
+\newblock A mechanistic analysis of looped reasoning language models.
+\newblock arXiv preprint arXiv:2604.11791, 2026.
+
+\bibitem[Burns et~al.(2023)Burns, Ye, Klein, and Steinhardt]{burns2023}
+Collin Burns, Haotian Ye, Dan Klein, and Jacob Steinhardt.
+\newblock Discovering latent knowledge in language models without supervision.
+\newblock In \emph{The Eleventh International Conference on Learning
+  Representations (ICLR)}, 2023.
+
+\bibitem[Chen et~al.(2024)Chen, Hu, Liu, and Sun]{chen2024states}
+Junhao Chen, Shengding Hu, Zhiyuan Liu, and Maosong Sun.
+\newblock States hidden in hidden states: Implicit discrete state
+  representations emerge in {LLMs}' hidden states.
+\newblock arXiv preprint arXiv:2407.11421, 2024.
+
+\bibitem[Cobbe et~al.(2021)Cobbe, Kosaraju, Bavarian, Chen, Jun, Kaiser,
+  et~al.]{cobbe2021}
+K.~Cobbe, V.~Kosaraju, M.~Bavarian, M.~Chen, H.~Jun, L.~Kaiser, et~al.
+\newblock Training verifiers to solve math word problems.
+\newblock arXiv preprint arXiv:2110.14168, 2021.
+
+\bibitem[Deng et~al.(2024)Deng, Choi, and Shieber]{deng2024explicit}
+Yuntian Deng, Yejin Choi, and Stuart Shieber.
+\newblock From explicit {CoT} to implicit {CoT}: Learning to internalize {CoT}
+  step by step.
+\newblock arXiv preprint arXiv:2405.14838, 2024.
+
+\bibitem[Elazar et~al.(2021)Elazar, Ravfogel, Jacovi, and
+  Goldberg]{elazar2021amnesic}
+Yanai Elazar, Shauli Ravfogel, Alon Jacovi, and Yoav Goldberg.
+\newblock Amnesic probing: Behavioral explanation with amnesic counterfactuals.
+\newblock \emph{Transactions of the Association for Computational Linguistics},
+  9:\penalty0 160--175, 2021.
+\newblock \doi{10.1162/tacl_a_00359}.
+
+\bibitem[Elhage et~al.(2022)Elhage, Hume, Olsson, Schiefer, Henighan, Kravec,
+  Hatfield-Dodds, Lasenby, Drain, Chen, Grosse, McCandlish, Kaplan, Amodei,
+  Wattenberg, and Olah]{elhage2022}
+Nelson Elhage, Tristan Hume, Catherine Olsson, Nicholas Schiefer, Tom Henighan,
+  Shauna Kravec, Zac Hatfield-Dodds, Robert Lasenby, Dawn Drain, Carol Chen,
+  Roger Grosse, Sam McCandlish, Jared Kaplan, Dario Amodei, Martin Wattenberg,
+  and Christopher Olah.
+\newblock Toy models of superposition.
+\newblock arXiv preprint arXiv:2209.10652, 2022.
+
+\bibitem[Feng \& Steinhardt(2024)Feng and Steinhardt]{feng2024binding}
+Jiahai Feng and Jacob Steinhardt.
+\newblock How do {Language} {Models} {Bind} {Entities} in {Context}?
+\newblock In \emph{The Twelfth International Conference on Learning
+  Representations ({ICLR})}, 2024.
+
+\bibitem[Feucht et~al.(2024)Feucht, Atkinson, Wallace, and Bau]{feucht2024}
+Sheridan Feucht, David Atkinson, Byron Wallace, and David Bau.
+\newblock Token erasure as a footprint of implicit vocabulary items in {LLMs}.
+\newblock arXiv preprint arXiv:2406.20086, 2024.
+
+\bibitem[Geiger et~al.(2021)Geiger, Lu, Icard, and Potts]{geiger2021causal}
+Atticus Geiger, Hanson Lu, Thomas Icard, and Christopher Potts.
+\newblock Causal abstractions of neural networks.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~34, pp.\  9574--9586, 2021.
+
+\bibitem[Geiger et~al.(2024)Geiger, Wu, Potts, Icard, and
+  Goodman]{geiger2024finding}
+Atticus Geiger, Zhengxuan Wu, Christopher Potts, Thomas Icard, and Noah
+  Goodman.
+\newblock Finding alignments between interpretable causal variables and
+  distributed neural representations.
+\newblock In \emph{Proceedings of the Third Conference on Causal Learning and
+  Reasoning}, volume 236 of \emph{Proceedings of Machine Learning Research},
+  pp.\  160--187. PMLR, 2024.
+
+\bibitem[Geiping et~al.(2025)Geiping, McLeish, Jain, Kirchenbauer, Singh,
+  Bartoldson, Kailkhura, Bhatele, and Goldstein]{geiping2025}
+Jonas Geiping, Sean McLeish, Neel Jain, John Kirchenbauer, Siddharth Singh,
+  Brian~R. Bartoldson, Bhavya Kailkhura, Abhinav Bhatele, and Tom Goldstein.
+\newblock Scaling up test-time compute with latent reasoning: A recurrent depth
+  approach.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~38, 2025.
+
+\bibitem[Ghandeharioun et~al.(2024)Ghandeharioun, Caciularu, Pearce, Dixon, and
+  Geva]{ghandeharioun2024patchscopes}
+Asma Ghandeharioun, Avi Caciularu, Adam Pearce, Lucas Dixon, and Mor Geva.
+\newblock Patchscopes: A unifying framework for inspecting hidden
+  representations of language models.
+\newblock In \emph{Proceedings of the 41st International Conference on Machine
+  Learning (ICML)}, 2024.
+
+\bibitem[Guo et~al.(2026)Guo, Wu, Du, Huo, Shao, Vasilakos, and Wen]{guo2026}
+Zhihao Guo, Zonghan Wu, Haizhou Du, Huan Huo, Yilei Shao, Athanasios~V.
+  Vasilakos, and Qingsong Wen.
+\newblock Right direction, wrong step: Geometric analysis of finite-step
+  failure in looped transformers.
+\newblock arXiv preprint arXiv:2609.16665, 2026.
+
+\bibitem[Hanna et~al.(2023)Hanna, Liu, and Variengien]{hanna2023greaterthan}
+Michael Hanna, Ollie Liu, and Alexandre Variengien.
+\newblock How does {GPT-2} compute greater-than?: {Interpreting} mathematical
+  abilities in a pre-trained language model.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~36, pp.\  76033--76060, 2023.
+\newblock \doi{10.52202/075280-3322}.
+
+\bibitem[Hao et~al.(2025)Hao, Sukhbaatar, Su, Li, Hu, Weston, and
+  Tian]{hao2025training}
+Shibo Hao, Sainbayar Sukhbaatar, DiJia Su, Xian Li, Zhiting Hu, Jason Weston,
+  and Yuandong Tian.
+\newblock Training large language models to reason in a continuous latent
+  space.
+\newblock In \emph{Conference on Language Modeling (COLM)}, 2025.
+
+\bibitem[Hewitt \& Liang(2019)Hewitt and Liang]{hewitt2019}
+J.~Hewitt and P.~Liang.
+\newblock Designing and interpreting probes with control tasks.
+\newblock In \emph{Proceedings of the 2019 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP)}, 2019.
+
+\bibitem[Hewitt et~al.(2021)Hewitt, Ethayarajh, Liang, and
+  Manning]{hewitt2021conditional}
+John Hewitt, Kawin Ethayarajh, Percy Liang, and Christopher~D. Manning.
+\newblock Conditional probing: Measuring usable information beyond a baseline.
+\newblock In \emph{Proceedings of the 2021 Conference on Empirical Methods in
+  Natural Language Processing}, 2021.
+
+\bibitem[Huang et~al.(2026)Huang, Shi, Chen, Wen, Liu, Xing, and
+  Ma]{huang2026partii}
+Benhao Huang, Chufan Shi, Junlin Chen, Shicheng Wen, Zhengzhong Liu, Eric Xing,
+  and Xuezhe Ma.
+\newblock Towards looped models done right, part {II}: Rethinking at fixed
+  points.
+\newblock arXiv preprint arXiv:2610.06833, 2026.
+
+\bibitem[Kantamneni \& Tegmark(2025)Kantamneni and
+  Tegmark]{kantamneni2025trigonometry}
+Subhash Kantamneni and Max Tegmark.
+\newblock Language models use trigonometry to do addition.
+\newblock arXiv preprint arXiv:2502.00873, 2025.
+
+\bibitem[Kirin(2026)]{kirin2026}
+J.~Kirin.
+\newblock Operational proto-introspection in looped language models:
+  Process-quality taps, executable branching, and the readout-control boundary.
+\newblock arXiv preprint arXiv:2607.18553, 2026.
+
+\bibitem[Kudo et~al.(2024)Kudo, Aoki, Kuribayashi, Sone, Taniguchi, Brassard,
+  Sakaguchi, and Inui]{kudo2024}
+Keito Kudo, Yoichi Aoki, Tatsuki Kuribayashi, Shusaku Sone, Masaya Taniguchi,
+  Ana Brassard, Keisuke Sakaguchi, and Kentaro Inui.
+\newblock {LLMs} faithfully and iteratively compute answers during {CoT}: A
+  systematic analysis with multi-step arithmetics.
+\newblock arXiv preprint arXiv:2412.01113, 2024.
+
+\bibitem[Levy \& Geva(2025)Levy and Geva]{levy2025}
+Amit~Arnold Levy and Mor Geva.
+\newblock Language models encode numbers using digit representations in base
+  10.
+\newblock In \emph{Proceedings of the 2025 Conference of the Nations of the
+  Americas Chapter of the Association for Computational Linguistics (NAACL)},
+  2025.
+
+\bibitem[Lin et~al.(2025)Lin, Xie, Yuan, and Yang]{lin2025}
+Tianhe Lin, Jian Xie, Siyu Yuan, and Deqing Yang.
+\newblock Implicit reasoning in transformers is reasoning through shortcuts.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  ACL 2025}, 2025.
+
+\bibitem[Lu et~al.(2025)Lu, Yang, Lee, Li, and Liu]{lu2025}
+W.~Lu, Y.~Yang, K.~Lee, Y.~Li, and E.~Liu.
+\newblock Latent chain-of-thought? {D}ecoding the depth-recurrent transformer.
+\newblock In \emph{Workshop on the Application of LLM Explainability to
+  Reasoning and Planning, COLM 2025}, 2025.
+
+\bibitem[Makelov et~al.(2024)Makelov, Lange, and Nanda]{makelov2023}
+Aleksandar Makelov, Georg Lange, and Neel Nanda.
+\newblock Is this the subspace you are looking for? an interpretability
+  illusion for subspace activation patching.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2024.
+
+\bibitem[Marks \& Tegmark(2023)Marks and Tegmark]{marks2023}
+S.~Marks and M.~Tegmark.
+\newblock The geometry of truth: Emergent linear structure in large language
+  model representations of true/false datasets.
+\newblock arXiv preprint arXiv:2310.06824, 2023.
+
+\bibitem[Meng et~al.(2022)Meng, Bau, Andonian, and Belinkov]{meng2022locating}
+Kevin Meng, David Bau, Alex Andonian, and Yonatan Belinkov.
+\newblock Locating and editing factual associations in {GPT}.
+\newblock In \emph{Advances in Neural Information Processing Systems
+  (NeurIPS)}, 2022.
+
+\bibitem[{mild-rgb}(2026)]{mildrgb2026}
+{mild-rgb}.
+\newblock ouro-experiments.
+\newblock GitHub repository, \url{https://github.com/mild-rgb/ouro-experiments}
+  (not peer reviewed), 2026.
+
+\bibitem[Mirzadeh et~al.(2024)Mirzadeh, Alizadeh, Shahrokhi, Tuzel, Bengio, and
+  Farajtabar]{mirzadeh2024}
+I.~Mirzadeh, K.~Alizadeh, H.~Shahrokhi, O.~Tuzel, S.~Bengio, and M.~Farajtabar.
+\newblock {GSM-Symbolic}: Understanding the limitations of mathematical
+  reasoning in large language models.
+\newblock arXiv preprint arXiv:2410.05229, 2024.
+
+\bibitem[Moreno-Bote et~al.(2014)Moreno-Bote, Beck, Kanitscheider, Pitkow,
+  Latham, and Pouget]{morenobote2014}
+Rub{\'e}n Moreno-Bote, Jeffrey Beck, Ingmar Kanitscheider, Xaq Pitkow, Peter
+  Latham, and Alexandre Pouget.
+\newblock Information-limiting correlations.
+\newblock \emph{Nature Neuroscience}, 17\penalty0 (10):\penalty0 1410--1417,
+  2014.
+
+\bibitem[Nanda et~al.(2023{\natexlab{a}})Nanda, Chan, Lieberum, Smith, and
+  Steinhardt]{nanda2023progress}
+Neel Nanda, Lawrence Chan, Tom Lieberum, Jess Smith, and Jacob Steinhardt.
+\newblock Progress measures for grokking via mechanistic interpretability.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2023{\natexlab{a}}.
+
+\bibitem[Nanda et~al.(2023{\natexlab{b}})Nanda, Lee, and
+  Wattenberg]{nanda2023emergent}
+Neel Nanda, Andrew Lee, and Martin Wattenberg.
+\newblock Emergent linear representations in world models of self-supervised
+  sequence models.
+\newblock In \emph{Proceedings of the 6th BlackboxNLP Workshop: Analyzing and
+  Interpreting Neural Networks for NLP}, pp.\  16--30. Association for
+  Computational Linguistics, 2023{\natexlab{b}}.
+\newblock \doi{10.18653/v1/2023.blackboxnlp-1.2}.
+
+\bibitem[Nikankin et~al.(2025)Nikankin, Reusch, Mueller, and
+  Belinkov]{nikankin2025arithmetic}
+Yaniv Nikankin, Anja Reusch, Aaron Mueller, and Yonatan Belinkov.
+\newblock Arithmetic without algorithms: Language models solve math with a bag
+  of heuristics.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2025.
+
+\bibitem[Olszowiec et~al.(2026)Olszowiec, Tomaszewska, {\.Z}elaszczyk, Byra,
+  and Chung]{olszowiec2026}
+Pawel Olszowiec, Paulina Tomaszewska, Maciej {\.Z}elaszczyk, Michal Byra, and
+  Neo~Christopher Chung.
+\newblock Monitoring latent reasoning in looped language models.
+\newblock arXiv preprint arXiv:2610.18127, 2026.
+
+\bibitem[Park et~al.(2024)Park, Choe, and Veitch]{park2024}
+Kiho Park, Yo~Joong Choe, and Victor Veitch.
+\newblock The linear representation hypothesis and the geometry of large
+  language models.
+\newblock In \emph{Proceedings of the 41st International Conference on Machine
+  Learning (ICML)}, 2024.
+
+\bibitem[Pimentel et~al.(2020)Pimentel, Valvoda, Hall~Maudslay, Zmigrod,
+  Williams, and Cotterell]{pimentel2020information}
+Tiago Pimentel, Josef Valvoda, Rowan Hall~Maudslay, Ran Zmigrod, Adina
+  Williams, and Ryan Cotterell.
+\newblock Information-theoretic probing for linguistic structure.
+\newblock In \emph{Proceedings of the 58th Annual Meeting of the Association
+  for Computational Linguistics (ACL)}, 2020.
+
+\bibitem[Quirke \& Barez(2024)Quirke and Barez]{quirke2024addition}
+Philip Quirke and Fazl Barez.
+\newblock Understanding {Addition} in {Transformers}.
+\newblock In \emph{The Twelfth International Conference on Learning
+  Representations ({ICLR})}, 2024.
+
+\bibitem[{Qwen Team}(2024)]{qwen2025}
+{Qwen Team}.
+\newblock Qwen2.5 technical report.
+\newblock arXiv preprint arXiv:2412.15115, 2024.
+
+\bibitem[Ravichander et~al.(2021)Ravichander, Belinkov, and
+  Hovy]{ravichander2021probing}
+Abhilasha Ravichander, Yonatan Belinkov, and Eduard Hovy.
+\newblock Probing the probing paradigm: Does probing accuracy entail task
+  relevance?
+\newblock In \emph{Proceedings of the 16th Conference of the European Chapter
+  of the Association for Computational Linguistics: Main Volume}, pp.\
+  3363--3377. Association for Computational Linguistics, 2021.
+\newblock \doi{10.18653/v1/2021.eacl-main.295}.
+
+\bibitem[Saunshi et~al.(2025)Saunshi, Dikkala, Li, Kumar, and
+  Reddi]{saunshi2025reasoning}
+Nikunj Saunshi, Nishanth Dikkala, Zhiyuan Li, Sanjiv Kumar, and Sashank~J.
+  Reddi.
+\newblock Reasoning with latent thoughts: On the power of looped transformers.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2025.
+
+\bibitem[Schwethelm et~al.(2026{\natexlab{a}})Schwethelm, R{\"u}ckert, and
+  Kaissis]{schwethelm2026a}
+Kristian Schwethelm, Daniel R{\"u}ckert, and Georgios Kaissis.
+\newblock How much is one recurrence worth? {I}so-depth scaling laws for looped
+  language models.
+\newblock arXiv preprint arXiv:2604.21106, 2026{\natexlab{a}}.
+
+\bibitem[Schwethelm et~al.(2026{\natexlab{b}})Schwethelm, R{\"u}ckert, and
+  Kaissis]{schwethelm2026b}
+Kristian Schwethelm, Daniel R{\"u}ckert, and Georgios Kaissis.
+\newblock Depth-adaptive inference of looped language models via continuous
+  depth batching.
+\newblock arXiv preprint arXiv:2608.09444, 2026{\natexlab{b}}.
+
+\bibitem[Stolfo et~al.(2023)Stolfo, Belinkov, and Sachan]{stolfo2023}
+A.~Stolfo, Y.~Belinkov, and M.~Sachan.
+\newblock A mechanistic interpretation of arithmetic reasoning in language
+  models using causal mediation analysis.
+\newblock In \emph{Proceedings of the 2023 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP)}, 2023.
+
+\bibitem[Timkey \& van Schijndel(2021)Timkey and van Schijndel]{timkey2021}
+William Timkey and Marten van Schijndel.
+\newblock All bark and no bite: Rogue dimensions in transformer language models
+  obscure representational quality.
+\newblock In \emph{Proceedings of the 2021 Conference on Empirical Methods in
+  Natural Language Processing}, 2021.
+
+\bibitem[Vig et~al.(2020)Vig, Gehrmann, Belinkov, Qian, Nevo, Singer, and
+  Shieber]{vig2020investigating}
+Jesse Vig, Sebastian Gehrmann, Yonatan Belinkov, Sharon Qian, Daniel Nevo,
+  Yaron Singer, and Stuart Shieber.
+\newblock Investigating gender bias in language models using causal mediation
+  analysis.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~33, pp.\  12388--12401, 2020.
+
+\bibitem[Voita \& Titov(2020)Voita and Titov]{voita2020mdl}
+Elena Voita and Ivan Titov.
+\newblock Information-theoretic probing with minimum description length.
+\newblock In \emph{Proceedings of the 2020 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP)}, 2020.
+
+\bibitem[Wang \& Reid(2026)Wang and Reid]{wangreid2026}
+W.~Wang and F.~Reid.
+\newblock Looped transformers under the {J}acobian lens: Does the global
+  workspace survive recurrence?
+\newblock arXiv preprint arXiv:2609.01924, 2026.
+
+\bibitem[Yang et~al.(2024)Yang, Gribovskaya, Kassner, Geva, and
+  Riedel]{yang2024latently}
+Sohee Yang, Elena Gribovskaya, Nora Kassner, Mor Geva, and Sebastian Riedel.
+\newblock Do large language models latently perform multi-hop reasoning?
+\newblock In \emph{Proceedings of the 62nd Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pp.\  10210--10229.
+  Association for Computational Linguistics, 2024.
+\newblock \doi{10.18653/v1/2024.acl-long.550}.
+
+\bibitem[Yang et~al.(2026)Yang, Han, Zhang, Wei, Shao, Guo, and
+  Li]{yang2026stars}
+Xiao-Wen Yang, Ziyu Han, Xi-Hua Zhang, Wen-Da Wei, Jie-Jing Shao, Lan-Zhe Guo,
+  and Yu-Feng Li.
+\newblock Stabilizing recurrent dynamics for test-time scalable latent
+  reasoning in looped language models.
+\newblock In \emph{Proceedings of the 43rd International Conference on Machine
+  Learning (ICML)}, volume 306 of \emph{Proceedings of Machine Learning
+  Research}. PMLR, 2026.
+
+\bibitem[Ye et~al.(2025)Ye, Xu, Li, and Allen-Zhu]{ye2024}
+Tian Ye, Zicheng Xu, Yuanzhi Li, and Zeyuan Allen-Zhu.
+\newblock Physics of language models: Part 2.1, grade-school math and the
+  hidden reasoning process.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2025.
+
+\bibitem[Yu(2024)]{yu2024}
+Y.~Yu.
+\newblock {LLMs} do not think step-by-step in implicit reasoning.
+\newblock arXiv preprint arXiv:2411.15862, 2024.
+
+\bibitem[Zhang \& Nanda(2024)Zhang and Nanda]{zhang2024patching}
+Fred Zhang and Neel Nanda.
+\newblock Towards best practices of activation patching in language models:
+  Metrics and methods.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2024.
+
+\bibitem[Zhou et~al.(2024)Zhou, Fu, Sharan, and Jia]{zhou2024fourier}
+Tianyi Zhou, Deqing Fu, Vatsal Sharan, and Robin Jia.
+\newblock Pre-trained large language models use {F}ourier features to compute
+  addition.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~37, pp.\  25120--25151, 2024.
+\newblock \doi{10.52202/079017-0792}.
+
+\bibitem[Zhu et~al.(2024)Zhu, Dai, and Sui]{zhuf2024}
+F.~Zhu, D.~Dai, and Z.~Sui.
+\newblock Language models encode the value of numbers linearly.
+\newblock arXiv preprint arXiv:2401.03735, 2024.
+
+\bibitem[Zhu et~al.(2025)Zhu, Wang, Hua, Zhang, Li, Que, Wei, Wen, Yin, Xing,
+  Li, Shi, Ma, Li, Kergan, Smith, Qu, Hui, Wu, Min, Huang, Zhou, Ye, Liu, Yang,
+  Shi, Lin, Zhao, Cai, Zhang, Huang, Bengio, and Eshraghian]{zhu2025ouro}
+Rui-Jie Zhu, Zixuan Wang, Kai Hua, Tianyu Zhang, Ziniu Li, Haoran Que, Boyi
+  Wei, Zixin Wen, Fan Yin, He~Xing, Lu~Li, Jiajun Shi, Kaijing Ma, Shanda Li,
+  Taylor Kergan, Andrew Smith, Xingwei Qu, Mude Hui, Bohong Wu, Qiyang Min,
+  Hongzhi Huang, Xun Zhou, Wei Ye, Jiaheng Liu, Jian Yang, Yunfeng Shi,
+  Chenghua Lin, Enduo Zhao, Tianle Cai, Ge~Zhang, Wenhao Huang, Yoshua Bengio,
+  and Jason Eshraghian.
+\newblock Scaling latent reasoning via looped language models.
+\newblock arXiv preprint arXiv:2510.25741, 2025.
+
+\bibitem[Zou et~al.(2023)Zou, Phan, Chen, Campbell, Guo, Ren, Pan, Yin,
+  Mazeika, Dombrowski, Goel, Li, Byun, Wang, Mallen, Basart, Koyejo, Song,
+  Fredrikson, Kolter, and Hendrycks]{zou2023representation}
+Andy Zou, Long Phan, Sarah Chen, James Campbell, Phillip Guo, Richard Ren,
+  Alexander Pan, Xuwang Yin, Mantas Mazeika, Ann-Kathrin Dombrowski, Shashwat
+  Goel, Nathaniel Li, Michael~J. Byun, Zifan Wang, Alex Mallen, Steven Basart,
+  Sanmi Koyejo, Dawn Song, Matt Fredrikson, J.~Zico Kolter, and Dan Hendrycks.
+\newblock {Representation} {Engineering}: {A} {Top-Down} {Approach} to {AI}
+  {Transparency}.
+\newblock arXiv preprint arXiv:2310.01405, 2023.
+
+\end{thebibliography}

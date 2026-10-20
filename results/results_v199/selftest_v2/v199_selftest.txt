@@ -1,0 +1,130 @@
+== world follows
+items: plus 7200, minus 7200
+answer-only accuracy by loop: plus [1.0, 1.0, 1.0, 1.0] | minus [1.0, 1.0, 1.0, 1.0]
+G1 accuracy after loop 4 plus 1.000 minus 1.000 (each >= 0.30: True) | G2 copies at Sb, best state: plus a 1.000 b 1.000 | minus a 1.000 b 1.000 (a, b >= 0.75: True)
+PRIMARY Sb end1 first step | plus: needed +0.775 flipped +0.048 -> D+ +0.727 | minus: needed +0.770 flipped +0.039 -> D- +0.731 | I +0.729 [+0.711, +0.747] | F +0.002 [-0.012, +0.015]
+PRIMARY Sb end2 first step | plus: needed +0.775 flipped +0.048 -> D+ +0.727 | minus: needed +0.770 flipped +0.039 -> D- +0.731 | I +0.729 [+0.711, +0.747] | F +0.002 [-0.012, +0.015]
+PRIMARY Sb end3 first step | plus: needed +0.775 flipped +0.048 -> D+ +0.727 | minus: needed +0.770 flipped +0.039 -> D- +0.731 | I +0.729 [+0.711, +0.747] | F +0.002 [-0.012, +0.015]
+PRIMARY Sb end4 first step | plus: needed +0.775 flipped +0.048 -> D+ +0.727 | minus: needed +0.770 flipped +0.039 -> D- +0.731 | I +0.729 [+0.711, +0.747] | F +0.002 [-0.012, +0.015]
+PRIMARY -> FOLLOWS (passing loop ends: end1, end2, end3, end4)
+GATE Sb-1 end1 first step | plus: needed -0.002 flipped +0.007 -> D+ -0.009 | minus: needed +0.003 flipped -0.013 -> D- +0.016 | I +0.004 [-0.003, +0.011] | F +0.013 [-0.002, +0.028]
+GATE Sb-1 end2 first step | plus: needed -0.002 flipped +0.007 -> D+ -0.009 | minus: needed +0.003 flipped -0.013 -> D- +0.016 | I +0.004 [-0.003, +0.011] | F +0.013 [-0.002, +0.028]
+GATE Sb-1 end3 first step | plus: needed -0.002 flipped +0.007 -> D+ -0.009 | minus: needed +0.003 flipped -0.013 -> D- +0.016 | I +0.004 [-0.003, +0.011] | F +0.013 [-0.002, +0.028]
+GATE Sb-1 end4 first step | plus: needed -0.002 flipped +0.007 -> D+ -0.009 | minus: needed +0.003 flipped -0.013 -> D- +0.016 | I +0.004 [-0.003, +0.011] | F +0.013 [-0.002, +0.028]
+PART B GATE -> RUN (Sb-1 passing loop ends: none)
+patch plan plus half 0 offset 0: fitted on 3600 items
+patch plan plus half 0 offset 1: fitted on 3600 items
+patch plan plus half 0 offset 2: fitted on 3000 items
+patch plan plus half 0 offset 3: fitted on 1200 items
+patch plan plus half 0 offset 4: none in the other half; uses offset 3
+patch plan plus half 0: subspaces from 3600 items of the other half; 3600 candidate pairs, 500 taken
+patch plan plus half 1 offset 0: fitted on 3600 items
+patch plan plus half 1 offset 1: fitted on 3600 items
+patch plan plus half 1 offset 2: fitted on 3000 items
+patch plan plus half 1 offset 3: fitted on 1800 items
+patch plan plus half 1 offset 4: fitted on 1200 items
+patch plan plus half 1: subspaces from 3600 items of the other half; 3600 candidate pairs, 500 taken
+patch plan minus half 0 offset 0: fitted on 3600 items
+patch plan minus half 0 offset 1: fitted on 3600 items
+patch plan minus half 0 offset 2: fitted on 3000 items
+patch plan minus half 0 offset 3: fitted on 1200 items
+patch plan minus half 0 offset 4: none in the other half; uses offset 3
+patch plan minus half 0: subspaces from 3600 items of the other half; 3600 candidate pairs, 500 taken
+patch plan minus half 1 offset 0: fitted on 3600 items
+patch plan minus half 1 offset 1: fitted on 3600 items
+patch plan minus half 1 offset 2: fitted on 3000 items
+patch plan minus half 1 offset 3: fitted on 1800 items
+patch plan minus half 1 offset 4: fitted on 1200 items
+patch plan minus half 1: subspaces from 3600 items of the other half; 3600 candidate pairs, 500 taken
+selftest follows           -> FOLLOWS          Part B RUN  OK
+== world partial_0.4
+items: plus 7200, minus 7200
+answer-only accuracy by loop: plus [1.0, 1.0, 1.0, 1.0] | minus [1.0, 1.0, 1.0, 1.0]
+G1 accuracy after loop 4 plus 1.000 minus 1.000 (each >= 0.30: True) | G2 copies at Sb, best state: plus a 1.000 b 1.000 | minus a 1.000 b 1.000 (a, b >= 0.75: True)
+PRIMARY Sb end1 first step | plus: needed +0.316 flipped +0.002 -> D+ +0.313 | minus: needed +0.313 flipped +0.011 -> D- +0.302 | I +0.307 [+0.292, +0.324] | F -0.006 [-0.022, +0.011]
+PRIMARY Sb end2 first step | plus: needed +0.316 flipped +0.002 -> D+ +0.313 | minus: needed +0.313 flipped +0.011 -> D- +0.302 | I +0.307 [+0.292, +0.324] | F -0.006 [-0.022, +0.011]
+PRIMARY Sb end3 first step | plus: needed +0.316 flipped +0.002 -> D+ +0.313 | minus: needed +0.313 flipped +0.011 -> D- +0.302 | I +0.307 [+0.292, +0.324] | F -0.006 [-0.022, +0.011]
+PRIMARY Sb end4 first step | plus: needed +0.316 flipped +0.002 -> D+ +0.313 | minus: needed +0.313 flipped +0.011 -> D- +0.302 | I +0.307 [+0.292, +0.324] | F -0.006 [-0.022, +0.011]
+PRIMARY -> FOLLOWS (passing loop ends: end1, end2, end3, end4)
+GATE Sb-1 end1 first step | plus: needed -0.003 flipped +0.002 -> D+ -0.005 | minus: needed -0.000 flipped +0.004 -> D- -0.004 | I -0.005 [-0.010, +0.001] | F +0.001 [-0.014, +0.013]
+GATE Sb-1 end2 first step | plus: needed -0.003 flipped +0.002 -> D+ -0.005 | minus: needed -0.000 flipped +0.004 -> D- -0.004 | I -0.005 [-0.010, +0.001] | F +0.001 [-0.014, +0.013]
+GATE Sb-1 end3 first step | plus: needed -0.003 flipped +0.002 -> D+ -0.005 | minus: needed -0.000 flipped +0.004 -> D- -0.004 | I -0.005 [-0.010, +0.001] | F +0.001 [-0.014, +0.013]
+GATE Sb-1 end4 first step | plus: needed -0.003 flipped +0.002 -> D+ -0.005 | minus: needed -0.000 flipped +0.004 -> D- -0.004 | I -0.005 [-0.010, +0.001] | F +0.001 [-0.014, +0.013]
+PART B GATE -> RUN (Sb-1 passing loop ends: none)
+selftest partial_0.4       -> FOLLOWS          Part B RUN  recorded (sensitivity)
+== world copies_only
+items: plus 7200, minus 7200
+answer-only accuracy by loop: plus [1.0, 1.0, 1.0, 1.0] | minus [1.0, 1.0, 1.0, 1.0]
+G1 accuracy after loop 4 plus 1.000 minus 1.000 (each >= 0.30: True) | G2 copies at Sb, best state: plus a 1.000 b 1.000 | minus a 1.000 b 1.000 (a, b >= 0.75: True)
+PRIMARY Sb end1 first step | plus: needed -0.001 flipped -0.000 -> D+ -0.000 | minus: needed +0.004 flipped -0.005 -> D- +0.009 | I +0.004 [-0.001, +0.010] | F +0.005 [-0.012, +0.020]
+PRIMARY Sb end2 first step | plus: needed -0.001 flipped -0.000 -> D+ -0.000 | minus: needed +0.004 flipped -0.005 -> D- +0.009 | I +0.004 [-0.001, +0.010] | F +0.005 [-0.012, +0.020]
+PRIMARY Sb end3 first step | plus: needed -0.001 flipped -0.000 -> D+ -0.000 | minus: needed +0.004 flipped -0.005 -> D- +0.009 | I +0.004 [-0.001, +0.010] | F +0.005 [-0.012, +0.020]
+PRIMARY Sb end4 first step | plus: needed -0.001 flipped -0.000 -> D+ -0.000 | minus: needed +0.004 flipped -0.005 -> D- +0.009 | I +0.004 [-0.001, +0.010] | F +0.005 [-0.012, +0.020]
+PRIMARY -> DOES-NOT-FOLLOW (passing loop ends: none)
+GATE Sb-1 end1 first step | plus: needed -0.001 flipped -0.000 -> D+ -0.000 | minus: needed +0.004 flipped -0.005 -> D- +0.009 | I +0.004 [-0.001, +0.010] | F +0.005 [-0.012, +0.020]
+GATE Sb-1 end2 first step | plus: needed -0.001 flipped -0.000 -> D+ -0.000 | minus: needed +0.004 flipped -0.005 -> D- +0.009 | I +0.004 [-0.001, +0.010] | F +0.005 [-0.012, +0.020]
+GATE Sb-1 end3 first step | plus: needed -0.001 flipped -0.000 -> D+ -0.000 | minus: needed +0.004 flipped -0.005 -> D- +0.009 | I +0.004 [-0.001, +0.010] | F +0.005 [-0.012, +0.020]
+GATE Sb-1 end4 first step | plus: needed -0.001 flipped -0.000 -> D+ -0.000 | minus: needed +0.004 flipped -0.005 -> D- +0.009 | I +0.004 [-0.001, +0.010] | F +0.005 [-0.012, +0.020]
+PART B GATE -> SKIP (Sb-1 passing loop ends: none)
+selftest copies_only       -> DOES-NOT-FOLLOW  Part B SKIP OK
+== world fixed_difference
+items: plus 7200, minus 7200
+answer-only accuracy by loop: plus [1.0, 1.0, 1.0, 1.0] | minus [1.0, 1.0, 1.0, 1.0]
+G1 accuracy after loop 4 plus 1.000 minus 1.000 (each >= 0.30: True) | G2 copies at Sb, best state: plus a 1.000 b 1.000 | minus a 1.000 b 1.000 (a, b >= 0.75: True)
+PRIMARY Sb end1 first step | plus: needed +0.040 flipped +0.770 -> D+ -0.730 | minus: needed +0.770 flipped +0.041 -> D- +0.730 | I -0.000 [-0.003, +0.003] | F +0.730 [+0.706, +0.753]
+PRIMARY Sb end2 first step | plus: needed +0.040 flipped +0.770 -> D+ -0.730 | minus: needed +0.770 flipped +0.041 -> D- +0.730 | I -0.000 [-0.003, +0.003] | F +0.730 [+0.706, +0.753]
+PRIMARY Sb end3 first step | plus: needed +0.040 flipped +0.770 -> D+ -0.730 | minus: needed +0.770 flipped +0.041 -> D- +0.730 | I -0.000 [-0.003, +0.003] | F +0.730 [+0.706, +0.753]
+PRIMARY Sb end4 first step | plus: needed +0.040 flipped +0.770 -> D+ -0.730 | minus: needed +0.770 flipped +0.041 -> D- +0.730 | I -0.000 [-0.003, +0.003] | F +0.730 [+0.706, +0.753]
+PRIMARY -> DOES-NOT-FOLLOW (passing loop ends: none)
+GATE Sb-1 end1 first step | plus: needed -0.009 flipped -0.004 -> D+ -0.005 | minus: needed +0.006 flipped +0.003 -> D- +0.003 | I -0.001 [-0.009, +0.007] | F +0.004 [-0.012, +0.018]
+GATE Sb-1 end2 first step | plus: needed -0.009 flipped -0.004 -> D+ -0.005 | minus: needed +0.006 flipped +0.003 -> D- +0.003 | I -0.001 [-0.009, +0.007] | F +0.004 [-0.012, +0.018]
+GATE Sb-1 end3 first step | plus: needed -0.009 flipped -0.004 -> D+ -0.005 | minus: needed +0.006 flipped +0.003 -> D- +0.003 | I -0.001 [-0.009, +0.007] | F +0.004 [-0.012, +0.018]
+GATE Sb-1 end4 first step | plus: needed -0.009 flipped -0.004 -> D+ -0.005 | minus: needed +0.006 flipped +0.003 -> D- +0.003 | I -0.001 [-0.009, +0.007] | F +0.004 [-0.012, +0.018]
+PART B GATE -> SKIP (Sb-1 passing loop ends: none)
+selftest fixed_difference  -> DOES-NOT-FOLLOW  Part B SKIP OK
+== world generic_mixing
+items: plus 7200, minus 7200
+answer-only accuracy by loop: plus [1.0, 1.0, 1.0, 1.0] | minus [1.0, 1.0, 1.0, 1.0]
+G1 accuracy after loop 4 plus 1.000 minus 1.000 (each >= 0.30: True) | G2 copies at Sb, best state: plus a 1.000 b 1.000 | minus a 1.000 b 1.000 (a, b >= 0.75: True)
+PRIMARY Sb end1 first step | plus: needed +0.775 flipped +0.770 -> D+ +0.005 | minus: needed +0.770 flipped +0.775 -> D- -0.005 | I -0.000 [-0.000, +0.000] | F -0.005 [-0.017, +0.008]
+PRIMARY Sb end2 first step | plus: needed +0.775 flipped +0.770 -> D+ +0.005 | minus: needed +0.770 flipped +0.775 -> D- -0.005 | I -0.000 [-0.000, +0.000] | F -0.005 [-0.017, +0.008]
+PRIMARY Sb end3 first step | plus: needed +0.775 flipped +0.770 -> D+ +0.005 | minus: needed +0.770 flipped +0.775 -> D- -0.005 | I -0.000 [-0.000, +0.000] | F -0.005 [-0.017, +0.008]
+PRIMARY Sb end4 first step | plus: needed +0.775 flipped +0.770 -> D+ +0.005 | minus: needed +0.770 flipped +0.775 -> D- -0.005 | I -0.000 [-0.000, +0.000] | F -0.005 [-0.017, +0.008]
+PRIMARY -> DOES-NOT-FOLLOW (passing loop ends: none)
+GATE Sb-1 end1 first step | plus: needed -0.003 flipped +0.005 -> D+ -0.008 | minus: needed -0.002 flipped -0.004 -> D- +0.002 | I -0.003 [-0.008, +0.002] | F +0.005 [-0.011, +0.020]
+GATE Sb-1 end2 first step | plus: needed -0.003 flipped +0.005 -> D+ -0.008 | minus: needed -0.002 flipped -0.004 -> D- +0.002 | I -0.003 [-0.008, +0.002] | F +0.005 [-0.011, +0.020]
+GATE Sb-1 end3 first step | plus: needed -0.003 flipped +0.005 -> D+ -0.008 | minus: needed -0.002 flipped -0.004 -> D- +0.002 | I -0.003 [-0.008, +0.002] | F +0.005 [-0.011, +0.020]
+GATE Sb-1 end4 first step | plus: needed -0.003 flipped +0.005 -> D+ -0.008 | minus: needed -0.002 flipped -0.004 -> D- +0.002 | I -0.003 [-0.008, +0.002] | F +0.005 [-0.011, +0.020]
+PART B GATE -> SKIP (Sb-1 passing loop ends: none)
+selftest generic_mixing    -> DOES-NOT-FOLLOW  Part B SKIP OK
+== world broken
+items: plus 7200, minus 7200
+answer-only accuracy by loop: plus [1.0, 1.0, 1.0, 1.0] | minus [1.0, 1.0, 1.0, 1.0]
+G1 accuracy after loop 4 plus 1.000 minus 1.000 (each >= 0.30: True) | G2 copies at Sb, best state: plus a 0.100 b 0.108 | minus a 0.103 b 0.094 (a, b >= 0.75: False)
+PRIMARY Sb end1 first step | plus: needed -0.027 flipped -0.029 -> D+ +0.002 | minus: needed -0.031 flipped -0.031 -> D- +0.000 | I +0.001 [-0.010, +0.012] | F -0.001 [-0.017, +0.018]
+PRIMARY Sb end2 first step | plus: needed -0.027 flipped -0.029 -> D+ +0.002 | minus: needed -0.031 flipped -0.031 -> D- +0.000 | I +0.001 [-0.010, +0.012] | F -0.001 [-0.017, +0.018]
+PRIMARY Sb end3 first step | plus: needed -0.027 flipped -0.029 -> D+ +0.002 | minus: needed -0.031 flipped -0.031 -> D- +0.000 | I +0.001 [-0.010, +0.012] | F -0.001 [-0.017, +0.018]
+PRIMARY Sb end4 first step | plus: needed -0.027 flipped -0.029 -> D+ +0.002 | minus: needed -0.031 flipped -0.031 -> D- +0.000 | I +0.001 [-0.010, +0.012] | F -0.001 [-0.017, +0.018]
+PRIMARY -> UNSCORABLE (passing loop ends: none)
+GATE Sb-1 end1 first step | plus: needed -0.027 flipped -0.029 -> D+ +0.002 | minus: needed -0.031 flipped -0.031 -> D- +0.000 | I +0.001 [-0.010, +0.012] | F -0.001 [-0.017, +0.018]
+GATE Sb-1 end2 first step | plus: needed -0.027 flipped -0.029 -> D+ +0.002 | minus: needed -0.031 flipped -0.031 -> D- +0.000 | I +0.001 [-0.010, +0.012] | F -0.001 [-0.017, +0.018]
+GATE Sb-1 end3 first step | plus: needed -0.027 flipped -0.029 -> D+ +0.002 | minus: needed -0.031 flipped -0.031 -> D- +0.000 | I +0.001 [-0.010, +0.012] | F -0.001 [-0.017, +0.018]
+GATE Sb-1 end4 first step | plus: needed -0.027 flipped -0.029 -> D+ +0.002 | minus: needed -0.031 flipped -0.031 -> D- +0.000 | I +0.001 [-0.010, +0.012] | F -0.001 [-0.017, +0.018]
+PART B GATE -> SKIP (Sb-1 passing loop ends: none)
+selftest broken            -> UNSCORABLE       Part B SKIP OK
+== world tail_only
+items: plus 7200, minus 7200
+answer-only accuracy by loop: plus [1.0, 1.0, 1.0, 1.0] | minus [1.0, 1.0, 1.0, 1.0]
+G1 accuracy after loop 4 plus 1.000 minus 1.000 (each >= 0.30: True) | G2 copies at Sb, best state: plus a 1.000 b 1.000 | minus a 1.000 b 1.000 (a, b >= 0.75: True)
+PRIMARY Sb end1 first step | plus: needed -0.004 flipped +0.005 -> D+ -0.009 | minus: needed +0.005 flipped -0.003 -> D- +0.007 | I -0.001 [-0.006, +0.005] | F +0.008 [-0.008, +0.023]
+PRIMARY Sb end2 first step | plus: needed -0.004 flipped +0.005 -> D+ -0.009 | minus: needed +0.005 flipped -0.003 -> D- +0.007 | I -0.001 [-0.006, +0.005] | F +0.008 [-0.008, +0.023]
+PRIMARY Sb end3 first step | plus: needed -0.004 flipped +0.005 -> D+ -0.009 | minus: needed +0.005 flipped -0.003 -> D- +0.007 | I -0.001 [-0.006, +0.005] | F +0.008 [-0.008, +0.023]
+PRIMARY Sb end4 first step | plus: needed -0.004 flipped +0.005 -> D+ -0.009 | minus: needed +0.005 flipped -0.003 -> D- +0.007 | I -0.001 [-0.006, +0.005] | F +0.008 [-0.008, +0.023]
+PRIMARY -> DOES-NOT-FOLLOW (passing loop ends: none)
+GATE Sb-1 end1 first step | plus: needed +0.775 flipped +0.049 -> D+ +0.727 | minus: needed +0.770 flipped +0.037 -> D- +0.734 | I +0.730 [+0.713, +0.747] | F +0.004 [-0.011, +0.017]
+GATE Sb-1 end2 first step | plus: needed +0.775 flipped +0.049 -> D+ +0.727 | minus: needed +0.770 flipped +0.037 -> D- +0.734 | I +0.730 [+0.713, +0.747] | F +0.004 [-0.011, +0.017]
+GATE Sb-1 end3 first step | plus: needed +0.775 flipped +0.049 -> D+ +0.727 | minus: needed +0.770 flipped +0.037 -> D- +0.734 | I +0.730 [+0.713, +0.747] | F +0.004 [-0.011, +0.017]
+GATE Sb-1 end4 first step | plus: needed +0.775 flipped +0.049 -> D+ +0.727 | minus: needed +0.770 flipped +0.037 -> D- +0.734 | I +0.730 [+0.713, +0.747] | F +0.004 [-0.011, +0.017]
+PART B GATE -> RUN (Sb-1 passing loop ends: end1, end2, end3, end4)
+selftest tail_only         -> DOES-NOT-FOLLOW  Part B RUN  OK
+selftest plan: 2000 pairs, rule checked; 282 subspaces, shapes {(64, 9)}

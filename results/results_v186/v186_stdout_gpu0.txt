@@ -1,0 +1,28 @@
+A new version of the following files was downloaded from https://huggingface.co/ByteDance/Ouro-1.4B:
+- configuration_ouro.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+A new version of the following files was downloaded from https://huggingface.co/ByteDance/Ouro-1.4B:
+- modeling_ouro.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+Generating train split:   0%|          | 0/7473 [00:00<?, ? examples/s]Generating train split:  13%|█▎        | 1000/7473 [00:00<00:00, 9704.05 examples/s]Generating train split: 100%|██████████| 7473/7473 [00:00<00:00, 68559.80 examples/s]
+Generating test split:   0%|          | 0/1319 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 1319/1319 [00:00<00:00, 245846.64 examples/s]
+v186 extract | ByteDance/Ouro-1.4B | sets ['main', 'bare'] | 4000 items (part 0) | dtype torch.float32
+check vs Ouro forward: max |logit diff| 0.00e+00
+    1/4000 acc so far [0.0, 0.0, 0.0, 0.0] (73s)
+  251/4000 acc so far [0.0, 0.673, 0.745, 0.757] (333s)
+  501/4000 acc so far [0.012, 0.619, 0.786, 0.796] (617s)
+  751/4000 acc so far [0.017, 0.674, 0.796, 0.806] (902s)
+ 1001/4000 acc so far [0.014, 0.649, 0.8, 0.807] (1189s)
+ 1251/4000 acc so far [0.011, 0.6, 0.794, 0.799] (1477s)
+ 1501/4000 acc so far [0.009, 0.612, 0.802, 0.805] (1762s)
+ 1751/4000 acc so far [0.008, 0.605, 0.786, 0.79] (2047s)
+ 2001/4000 acc so far [0.007, 0.567, 0.732, 0.735] (2335s)
+ 2251/4000 acc so far [0.006, 0.528, 0.677, 0.681] (2624s)
+ 2501/4000 acc so far [0.01, 0.504, 0.649, 0.653] (2912s)
+ 2751/4000 acc so far [0.01, 0.494, 0.664, 0.667] (3197s)
+ 3001/4000 acc so far [0.011, 0.49, 0.685, 0.686] (3482s)
+ 3251/4000 acc so far [0.015, 0.489, 0.698, 0.698] (3779s)
+ 3501/4000 acc so far [0.014, 0.48, 0.699, 0.698] (4068s)
+ 3751/4000 acc so far [0.017, 0.488, 0.704, 0.704] (4355s)
+ 4000/4000 acc so far [0.019, 0.504, 0.711, 0.711] (4638s)
+done 4638s; tokenisation ok 4000/4000

@@ -1,0 +1,11 @@
+v208 extract | ouro | real | shard 2/4 | 6 prompts | pilot False | step 0.0200 (s = 0.02203, median emb norm 1.1014) | d 2048
+swap words [' tent', ' vec', ' research', ' gram', ' episodes', ' outer', ' visual', ' mistress', ' nobility', ' calorie'] | pair words [' wil', ' robot', ' tortoise', ' chord', ' network', ' soaked'] ...
+check cached vs full forward: max |state diff| 8.58e-06
+step check: step 0.0200 x median norm: rel change s vs s/2 max 3.43e-03, median 2.75e-03
+prompt 1/6 (tid 74): 352 tokens, segment 29 | 1654 s (total 1724 s)
+prompt 2/6 (tid 125): 349 tokens, segment 19 | 1165 s (total 2889 s)
+prompt 3/6 (tid 164): 303 tokens, segment 43 | 1740 s (total 4629 s)
+prompt 4/6 (tid 266): 312 tokens, segment 71 | 2397 s (total 7026 s)
+prompt 5/6 (tid 320): 282 tokens, segment 43 | 1720 s (total 8746 s)
+prompt 6/6 (tid 401): 271 tokens, segment 19 | 1152 s (total 9898 s)
+v208_ouro_s2 done: 6 prompts (9898 s)

@@ -1,0 +1,22 @@
+items 1370, families 137, templates 77, minimal pairs ok 1370; check |logit diff| 0.0
+
+Q1 within-family spread / between-family spread
+slot        h0    mid1    end1    end2    end3    end4
++0     1061975.7500  0.7036  0.4386  0.3890  0.3044  0.2769
++1      0.0000  0.1062  0.0892  0.1008  0.1035  0.1122
++3      0.0000  0.0482  0.0547  0.0627  0.0665  0.0812
+sent    0.0000  0.0678  0.0705  0.0834  0.0786  0.1006
+qmark   0.0000  0.0349  0.0641  0.0647  0.0646  0.0672
+last       nan  0.0459  0.0505  0.0680  0.0691  0.0613
+
+Q2 probe accuracy for the varied digit (chance 0.10, READS >= 0.30); standard / contrastive
+slot              h0          mid1          end1          end2          end3          end4
++0       1.000 / 1.000   1.000 / 1.000   1.000 / 1.000   0.999 / 1.000   1.000 / 1.000   1.000 / 1.000
++1      (same token)   0.493 / 0.999   0.231 / 0.952   0.203 / 0.896   0.171 / 0.767   0.144 / 0.674
++3      (same token)   0.175 / 0.938   0.150 / 0.727   0.137 / 0.601   0.129 / 0.431   0.115 / 0.324
+sent    (same token)   0.236 / 0.921   0.212 / 0.907   0.169 / 0.772   0.140 / 0.589   0.128 / 0.371
+qmark   (same token)   0.128 / 0.888   0.184 / 0.912   0.153 / 0.823   0.126 / 0.696   0.132 / 0.672
+last    (same token)   0.153 / 0.969   0.195 / 0.968   0.227 / 0.947   0.184 / 0.923   0.185 / 0.926
+
+READS at later slots, standard   : [('+1', 'mid1')]
+READS at later slots, contrastive: [('+1', 'mid1'), ('+1', 'end1'), ('+1', 'end2'), ('+1', 'end3'), ('+1', 'end4'), ('+3', 'mid1'), ('+3', 'end1'), ('+3', 'end2'), ('+3', 'end3'), ('+3', 'end4'), ('sent', 'mid1'), ('sent', 'end1'), ('sent', 'end2'), ('sent', 'end3'), ('sent', 'end4'), ('qmark', 'mid1'), ('qmark', 'end1'), ('qmark', 'end2'), ('qmark', 'end3'), ('qmark', 'end4'), ('last', 'mid1'), ('last', 'end1'), ('last', 'end2'), ('last', 'end3'), ('last', 'end4')]

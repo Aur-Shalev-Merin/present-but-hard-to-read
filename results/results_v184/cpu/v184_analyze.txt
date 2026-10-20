@@ -1,0 +1,35 @@
+items 3080, families 308, minimal pairs ok 3080; check |logit diff| 0.0
+
+ANS: share of families whose top first-answer token changes across the 10 variants (loops 1-4)
+  irr_start  0.026 0.000 0.000 0.000
+  irr_end    0.000 0.000 0.000 0.000
+  rel_start  0.026 0.000 0.000 0.000
+  rel_end    0.000 0.000 0.000 0.000
+
+Q1 within/between spread at the last token
+  irr_start  mid1 0.0421 end1 0.0340 end2 0.0418 end3 0.0454 end4 0.0398
+  irr_end    mid1 0.0596 end1 0.0342 end2 0.0363 end3 0.0372 end4 0.0370
+  rel_start  mid1 0.0448 end1 0.0428 end2 0.0554 end3 0.0494 end4 0.0407
+  rel_end    mid1 0.0388 end1 0.0361 end2 0.0551 end3 0.0615 end4 0.0581
+
+apparatus: standard probe at +0, h0: irr_start 1.000 irr_end 1.000 rel_start 1.000 rel_end 1.000
+
+Q2 accuracy for the varied digit (chance 0.10, READS >= 0.30)
+                           mid1   end1   end2   end3   end4
+irr_start  contrastive @ last    0.999  0.997  0.995  0.987  0.988
+irr_start  contrastive @ qmark   0.999  0.997  0.996  0.964  0.944
+irr_start  standard @ last       0.264  0.221  0.201  0.178  0.192
+irr_end    contrastive @ last    1.000  0.992  0.984  0.955  0.957
+irr_end    contrastive @ qmark   0.996  0.982  0.969  0.909  0.801
+irr_end    standard @ last       0.295  0.194  0.201  0.158  0.143
+rel_start  contrastive @ last    0.977  0.973  0.974  0.973  0.978
+rel_start  contrastive @ qmark   0.916  0.932  0.852  0.775  0.749
+rel_start  standard @ last       0.181  0.206  0.236  0.197  0.187
+rel_end    contrastive @ last    0.968  0.962  0.968  0.955  0.951
+rel_end    contrastive @ qmark   0.875  0.878  0.795  0.706  0.669
+rel_end    standard @ last       0.147  0.183  0.206  0.190  0.184
+rel->irr   transfer (start) @ last  0.892  0.966  0.777  0.794  0.778
+rel->irr   transfer (end) @ last  0.838  0.936  0.871  0.796  0.801
+
+irr READS at the last token (start / end): True / True
+rel READS at the last token (start / end): True / True

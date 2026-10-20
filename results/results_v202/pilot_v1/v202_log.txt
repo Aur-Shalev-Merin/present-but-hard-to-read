@@ -1,0 +1,12 @@
+v202 extract | Qwen/Qwen2.5-1.5B | 2.11.0+cpu | designs ['v181', 'v185'] | pilot True | prefix 213 tokens | device cpu
+v181 tokenisation check over all 137 families: 0 variants fail
+v181 check cached vs full forward: max |logit diff| 1.73e-05, max |state diff| 7.63e-05
+v181   1/6 families (97s, 2.93 s/prompt)
+v181   6/6 families (234s, 2.78 s/prompt)
+v181 done: 60 prompts, minimal pairs ok 60/60, cached 60
+v185 tokenisation check over all 308 families: 0 variants fail
+v185 check cached vs full forward: max |logit diff| 2.43e-05, max |state diff| 7.63e-05
+v185   1/8 families (270s, 3.29 s/prompt)
+v185   8/8 families (448s, 2.63 s/prompt)
+v185 done: 80 prompts, minimal pairs ok 80/80, cached 80
+all done 447s

@@ -1,0 +1,15 @@
+states: notebooks/aurmerin/astrocyte-v181-ouro/merged/v181_states.npy (1370, 6, 6, 2048)
+v181 last prompt token: 1370 items, 137 families, 77 templates
+features: other integers per question, mean 2.99 (min 0, max 9)
+mid1  units     R2 digit subspace -0.120 | random mean -0.108 p95 -0.050
+mid1  alldigits R2 digit subspace -0.190 | random mean -0.212 p95 -0.116
+end1  units     R2 digit subspace -0.093 | random mean -0.125 p95 -0.085
+end1  alldigits R2 digit subspace -0.170 | random mean -0.210 p95 -0.094
+end2  units     R2 digit subspace -0.156 | random mean -0.140 p95 -0.078
+end2  alldigits R2 digit subspace -0.212 | random mean -0.206 p95 -0.121
+end3  units     R2 digit subspace -0.125 | random mean -0.143 p95 -0.091
+end3  alldigits R2 digit subspace -0.221 | random mean -0.204 p95 -0.121
+end4  units     R2 digit subspace -0.165 | random mean -0.145 p95 -0.084
+end4  alldigits R2 digit subspace -0.221 | random mean -0.213 p95 -0.132
+M2 v181 units (end1-end4): R2(U) -0.135, delta R2 -0.050   <- primary
+M2 v181 alldigits (end1-end4): R2(U) -0.206, delta R2 -0.090

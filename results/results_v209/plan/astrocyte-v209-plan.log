@@ -1,0 +1,21 @@
+[{"stream_name":"stdout","time":0.79546686,"data":"v209_plan.py 72a999d9a9bd33f8\n"}
+,{"stream_name":"stdout","time":0.795769083,"data":"v186_analyze.py b408d943603262a6\n"}
+,{"stream_name":"stdout","time":0.79601569,"data":"v178_analyze.py 90bbc8a848dc5544\n"}
+,{"stream_name":"stdout","time":24.575477212,"data":"v209 plan: 7200 plus items, 36 families; arrays 56 (14 from v194)\n"}
+,{"stream_name":"stdout","time":24.578138747,"data":"half 0 ab : end1 vs end3 subspace, mean cos^2 of principal angles 0.182\n"}
+,{"stream_name":"stdout","time":24.578492091,"data":"half 0 amb: end1 vs end3 subspace, mean cos^2 of principal angles 0.129\n"}
+,{"stream_name":"stdout","time":24.578543133,"data":"half 0 ans: end1 vs end3 subspace, mean cos^2 of principal angles 0.313\n"}
+,{"stream_name":"stdout","time":24.578707599,"data":"half 0 end1: ab vs amb mean cos^2 0.454\n"}
+,{"stream_name":"stdout","time":24.578897214,"data":"half 0 end1: ab vs ans mean cos^2 0.274\n"}
+,{"stream_name":"stdout","time":24.579094154,"data":"half 1 ab : end1 vs end3 subspace, mean cos^2 of principal angles 0.276\n"}
+,{"stream_name":"stdout","time":24.579288753,"data":"half 1 amb: end1 vs end3 subspace, mean cos^2 of principal angles 0.205\n"}
+,{"stream_name":"stdout","time":24.579457937,"data":"half 1 ans: end1 vs end3 subspace, mean cos^2 of principal angles 0.363\n"}
+,{"stream_name":"stdout","time":24.579634512,"data":"half 1 end1: ab vs amb mean cos^2 0.483\n"}
+,{"stream_name":"stdout","time":24.579797401,"data":"half 1 end1: ab vs ans mean cos^2 0.267\n"}
+,{"stream_name":"stderr","time":27.487561456,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":27.487601179,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":28.004245084,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":28.004273034,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":29.942698811,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":31.281805822,"data":"[NbConvertApp] Writing 299330 bytes to __results__.html\n"}
+]

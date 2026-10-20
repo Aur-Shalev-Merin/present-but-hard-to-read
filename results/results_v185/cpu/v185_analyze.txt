@@ -1,0 +1,35 @@
+items 3080, families 308, minimal pairs ok 3080; check |logit diff| 0.0
+
+ANS: share of families whose top first-answer token changes across the 10 variants (loops 1-4)
+  col_start  0.000 0.000 0.000 0.000
+  col_end    0.013 0.000 0.000 0.000
+  dig_start  0.013 0.000 0.000 0.000
+  dig_end    0.013 0.000 0.000 0.000
+
+Q1 within/between spread at the last token
+  col_start  mid1 0.0309 end1 0.0367 end2 0.0467 end3 0.0557 end4 0.0638
+  col_end    mid1 0.0473 end1 0.0377 end2 0.0453 end3 0.0431 end4 0.0481
+  dig_start  mid1 0.0415 end1 0.0350 end2 0.0412 end3 0.0438 end4 0.0384
+  dig_end    mid1 0.0578 end1 0.0344 end2 0.0361 end3 0.0367 end4 0.0356
+
+apparatus: standard probe at +0, h0: col_start 1.000 col_end 1.000 dig_start 1.000 dig_end 1.000
+
+Q2 accuracy for the varied digit (chance 0.10, READS >= 0.30)
+                           mid1   end1   end2   end3   end4
+col_start  contrastive @ last    0.996  0.997  0.996  0.996  0.995
+col_start  contrastive @ qmark   0.992  0.995  0.991  0.984  0.988
+col_start  standard @ last       0.192  0.239  0.321  0.358  0.397
+col_end    contrastive @ last    0.995  0.992  0.996  0.992  0.996
+col_end    contrastive @ qmark   0.991  0.986  0.966  0.945  0.964
+col_end    standard @ last       0.217  0.258  0.310  0.243  0.278
+dig_start  contrastive @ last    1.000  0.997  0.996  0.996  0.992
+dig_start  contrastive @ qmark   0.999  0.999  0.996  0.965  0.949
+dig_start  standard @ last       0.260  0.212  0.187  0.170  0.183
+dig_end    contrastive @ last    1.000  0.997  0.987  0.965  0.975
+dig_end    contrastive @ qmark   0.996  0.983  0.973  0.910  0.834
+dig_end    standard @ last       0.314  0.197  0.184  0.142  0.139
+
+contrastive @ last, mean over end1-end4 and both positions: colour 0.995, digit 0.988
+colour READS (start / end): True / True
+VERDICT: NOT NUMBER-SPECIFIC (colour within 0.10 of digit)
+SECONDARY (A1): spread ratio colour/digit at the last token, end1-end4 = 1.251 -> comparable strength

@@ -1,0 +1,9 @@
+pilot items 720; tokenisation ok 720
+plus  answer-only accuracy by loop [0.044, 0.453, 0.644, 0.658]
+plus  copy a at P0 by state: mid1 0.997 end1 0.989 mid2 0.978 end2 0.994 mid3 0.942 end3 0.997 mid4 0.903 end4 0.944 | best 0.997
+plus  copy b at P0 by state: mid1 0.772 end1 0.719 mid2 0.656 end2 0.539 mid3 0.486 end3 0.525 mid4 0.447 end4 0.511 | best 0.772
+plus  copy c at P0 by state: mid1 0.933 end1 0.839 mid2 0.831 end2 0.894 mid3 0.794 end3 0.883 mid4 0.792 end4 0.833 | best 0.933
+minus answer-only accuracy by loop [0.036, 0.672, 0.728, 0.728]
+minus copy a at P0 by state: mid1 0.997 end1 0.992 mid2 0.992 end2 0.997 mid3 0.950 end3 0.981 mid4 0.931 end4 0.964 | best 0.997
+minus copy b at P0 by state: mid1 0.719 end1 0.586 mid2 0.717 end2 0.717 mid3 0.661 end3 0.617 mid4 0.567 end4 0.514 | best 0.719
+minus copy c at P0 by state: mid1 0.922 end1 0.756 mid2 0.742 end2 0.592 mid3 0.553 end3 0.522 mid4 0.525 end4 0.544 | best 0.922

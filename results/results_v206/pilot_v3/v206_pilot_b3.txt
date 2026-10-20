@@ -1,0 +1,6 @@
+WARNING:torchao.kernel.intmm:Warning: Detected no triton, on systems without Triton certain kernels will not work
+v206 extract | ByteDance/Ouro-1.4B | part b3 | pilot True | 8 prompts | cached prefix 222 of 225 head tokens | device cpu | dtype torch.float32
+check cached vs full forward: max |logit diff| 1.48e-05, max |state diff| 1.69e-05
+b3    1/8 prompts (73s, 34.92 s/prompt)
+b3    8/8 prompts (123s, 10.63 s/prompt)
+b3 done: 8 prompts, ok 8, cached 8 (123s)

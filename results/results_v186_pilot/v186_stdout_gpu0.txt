@@ -1,0 +1,14 @@
+A new version of the following files was downloaded from https://huggingface.co/ByteDance/Ouro-1.4B:
+- configuration_ouro.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+A new version of the following files was downloaded from https://huggingface.co/ByteDance/Ouro-1.4B:
+- modeling_ouro.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+Generating train split:   0%|          | 0/7473 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 7473/7473 [00:00<00:00, 82991.86 examples/s]
+Generating test split:   0%|          | 0/1319 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 1319/1319 [00:00<00:00, 231234.57 examples/s]
+v186 extract | ByteDance/Ouro-1.4B | sets ['pilot'] | 360 items (part 0) | dtype torch.float32
+check vs Ouro forward: max |logit diff| 0.00e+00
+    1/360 acc so far [0.0, 0.0, 1.0, 1.0] (66s)
+  251/360 acc so far [0.016, 0.375, 0.55, 0.558] (354s)
+  360/360 acc so far [0.014, 0.358, 0.608, 0.625] (485s)
+done 485s; tokenisation ok 360/360

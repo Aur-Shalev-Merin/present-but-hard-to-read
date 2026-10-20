@@ -1,0 +1,84 @@
+== world compute
+word items 7200 (families 36, templates 12), bare items 1600 (families 16)
+answer-only accuracy by loop: word [1.0, 1.0, 1.0, 1.0] | bare [1.0, 1.0, 1.0, 1.0]
+G1 word accuracy after loop 4 1.000 (>= 0.30: True) | G2 copies best state a 1.000 b 1.000 c 1.000 (>= 0.75: True) | G3 bare sum digit at P1 end4 1.000 (>= 0.90: True)
+H1 (bare, P0, end4) raw: m5 1.000 (ceil 0.200) rnd5 0.575 (ceil 0.490) amb5 0.214 (ceil 0.200) ap2b5 0.197 (ceil 0.200) tapb5 0.197 (ceil 0.200)
+H1 excess: m5 +0.800 rnd5 +0.085 amb5 +0.014 ap2b5 -0.003 tapb5 -0.003
+H1 D_ceil +0.800 [+0.800, +0.800] (bar 0.15) | D_XOR vs amb5 +0.786 [+0.771, +0.799] (bar 0.15) | D_rnd +0.715 [+0.713, +0.718]
+H2 (main, P1, end4) raw: m5 1.000 (ceil 0.225) rnd5 0.560 (ceil 0.484) amb5 0.238 (ceil 0.228) apc5 0.227 (ceil 0.237) abmc5 0.256 (ceil 0.201) abc5 0.249 (ceil 0.214)
+H2 excess: m5 +0.775 rnd5 +0.077 amb5 +0.010 apc5 -0.009 abmc5 +0.055 abc5 +0.035
+H2 D_ceil +0.775 [+0.763, +0.786] (bar 0.10) | D_XOR vs abmc5 +0.720 [+0.702, +0.738] (bar 0.05) | D_rnd +0.698 [+0.677, +0.721]
+PRIMARY -> H1 (bare, before writing) REPLICATED | H2 (word problems, before the units digit) REPLICATED
+selftest compute       -> H1 REPLICATED      H2 REPLICATED      OK
+== world partial_0.4
+word items 7200 (families 36, templates 12), bare items 1600 (families 16)
+answer-only accuracy by loop: word [1.0, 1.0, 1.0, 1.0] | bare [1.0, 1.0, 1.0, 1.0]
+G1 word accuracy after loop 4 1.000 (>= 0.30: True) | G2 copies best state a 1.000 b 1.000 c 1.000 (>= 0.75: True) | G3 bare sum digit at P1 end4 1.000 (>= 0.90: True)
+H1 (bare, P0, end4) raw: m5 0.552 (ceil 0.200) rnd5 0.534 (ceil 0.490) amb5 0.209 (ceil 0.200) ap2b5 0.203 (ceil 0.200) tapb5 0.201 (ceil 0.200)
+H1 excess: m5 +0.352 rnd5 +0.044 amb5 +0.009 ap2b5 +0.003 tapb5 +0.001
+H1 D_ceil +0.352 [+0.336, +0.369] (bar 0.15) | D_XOR vs amb5 +0.343 [+0.321, +0.364] (bar 0.15) | D_rnd +0.308 [+0.283, +0.334]
+H2 (main, P1, end4) raw: m5 0.539 (ceil 0.225) rnd5 0.509 (ceil 0.484) amb5 0.207 (ceil 0.228) apc5 0.228 (ceil 0.237) abmc5 0.228 (ceil 0.201) abc5 0.229 (ceil 0.214)
+H2 excess: m5 +0.314 rnd5 +0.025 amb5 -0.021 apc5 -0.008 abmc5 +0.027 abc5 +0.016
+H2 D_ceil +0.314 [+0.296, +0.330] (bar 0.10) | D_XOR vs abmc5 +0.287 [+0.266, +0.308] (bar 0.05) | D_rnd +0.288 [+0.266, +0.309]
+PRIMARY -> H1 (bare, before writing) REPLICATED | H2 (word problems, before the units digit) REPLICATED
+selftest partial_0.4   -> H1 REPLICATED      H2 REPLICATED      OK
+== world partial_0.15
+word items 7200 (families 36, templates 12), bare items 1600 (families 16)
+answer-only accuracy by loop: word [1.0, 1.0, 1.0, 1.0] | bare [1.0, 1.0, 1.0, 1.0]
+G1 word accuracy after loop 4 1.000 (>= 0.30: True) | G2 copies best state a 1.000 b 1.000 c 1.000 (>= 0.75: True) | G3 bare sum digit at P1 end4 1.000 (>= 0.90: True)
+H1 (bare, P0, end4) raw: m5 0.338 (ceil 0.200) rnd5 0.489 (ceil 0.490) amb5 0.204 (ceil 0.200) ap2b5 0.214 (ceil 0.200) tapb5 0.196 (ceil 0.200)
+H1 excess: m5 +0.138 rnd5 -0.001 amb5 +0.004 ap2b5 +0.014 tapb5 -0.004
+H1 D_ceil +0.138 [+0.107, +0.168] (bar 0.15) | D_XOR vs ap2b5 +0.124 [+0.089, +0.156] (bar 0.15) | D_rnd +0.139 [+0.112, +0.166]
+H2 (main, P1, end4) raw: m5 0.346 (ceil 0.225) rnd5 0.484 (ceil 0.484) amb5 0.210 (ceil 0.228) apc5 0.230 (ceil 0.237) abmc5 0.235 (ceil 0.201) abc5 0.231 (ceil 0.214)
+H2 excess: m5 +0.120 rnd5 +0.000 amb5 -0.018 apc5 -0.007 abmc5 +0.034 abc5 +0.017
+H2 D_ceil +0.120 [+0.104, +0.136] (bar 0.10) | D_XOR vs abmc5 +0.086 [+0.066, +0.107] (bar 0.05) | D_rnd +0.120 [+0.104, +0.136]
+PRIMARY -> H1 (bare, before writing) UNCLEAR | H2 (word problems, before the units digit) REPLICATED
+selftest partial_0.15  -> H1 UNCLEAR         H2 REPLICATED      recorded (sensitivity)
+== world copy
+word items 7200 (families 36, templates 12), bare items 1600 (families 16)
+answer-only accuracy by loop: word [1.0, 1.0, 1.0, 1.0] | bare [1.0, 1.0, 1.0, 1.0]
+G1 word accuracy after loop 4 1.000 (>= 0.30: True) | G2 copies best state a 1.000 b 1.000 c 1.000 (>= 0.75: True) | G3 bare sum digit at P1 end4 1.000 (>= 0.90: True)
+H1 (bare, P0, end4) raw: m5 0.201 (ceil 0.200) rnd5 0.505 (ceil 0.490) amb5 0.200 (ceil 0.200) ap2b5 0.223 (ceil 0.200) tapb5 0.240 (ceil 0.200)
+H1 excess: m5 +0.001 rnd5 +0.015 amb5 +0.000 ap2b5 +0.022 tapb5 +0.040
+H1 D_ceil +0.001 [-0.011, +0.013] (bar 0.15) | D_XOR vs tapb5 -0.039 [-0.062, -0.019] (bar 0.15) | D_rnd -0.014 [-0.028, -0.001]
+H2 (main, P1, end4) raw: m5 0.238 (ceil 0.225) rnd5 0.485 (ceil 0.484) amb5 0.211 (ceil 0.228) apc5 0.236 (ceil 0.237) abmc5 0.230 (ceil 0.201) abc5 0.233 (ceil 0.214)
+H2 excess: m5 +0.013 rnd5 +0.001 amb5 -0.017 apc5 -0.001 abmc5 +0.029 abc5 +0.019
+H2 D_ceil +0.013 [+0.000, +0.025] (bar 0.10) | D_XOR vs abmc5 -0.016 [-0.032, +0.001] (bar 0.05) | D_rnd +0.012 [-0.002, +0.026]
+PRIMARY -> H1 (bare, before writing) NOT-REPLICATED | H2 (word problems, before the units digit) NOT-REPLICATED
+selftest copy          -> H1 NOT-REPLICATED  H2 NOT-REPLICATED  OK
+== world ans_c_mixing
+word items 7200 (families 36, templates 12), bare items 1600 (families 16)
+answer-only accuracy by loop: word [1.0, 1.0, 1.0, 1.0] | bare [1.0, 1.0, 1.0, 1.0]
+G1 word accuracy after loop 4 1.000 (>= 0.30: True) | G2 copies best state a 1.000 b 1.000 c 1.000 (>= 0.75: True) | G3 bare sum digit at P1 end4 1.000 (>= 0.90: True)
+H1 (bare, P0, end4) raw: m5 0.221 (ceil 0.200) rnd5 0.507 (ceil 0.490) amb5 0.193 (ceil 0.200) ap2b5 0.188 (ceil 0.200) tapb5 0.221 (ceil 0.200)
+H1 excess: m5 +0.021 rnd5 +0.018 amb5 -0.007 ap2b5 -0.012 tapb5 +0.021
+H1 D_ceil +0.021 [-0.003, +0.047] (bar 0.15) | D_XOR vs tapb5 +0.000 [-0.037, +0.034] (bar 0.15) | D_rnd +0.004 [-0.019, +0.029]
+H2 (main, P1, end4) raw: m5 0.819 (ceil 0.225) rnd5 0.494 (ceil 0.484) amb5 0.212 (ceil 0.228) apc5 0.221 (ceil 0.237) abmc5 0.801 (ceil 0.201) abc5 0.843 (ceil 0.214)
+H2 excess: m5 +0.594 rnd5 +0.011 amb5 -0.016 apc5 -0.016 abmc5 +0.600 abc5 +0.629
+H2 D_ceil +0.594 [+0.578, +0.609] (bar 0.10) | D_XOR vs abc5 -0.035 [-0.060, -0.011] (bar 0.05) | D_rnd +0.583 [+0.564, +0.602]
+PRIMARY -> H1 (bare, before writing) NOT-REPLICATED | H2 (word problems, before the units digit) NOT-REPLICATED
+selftest ans_c_mixing  -> H1 NOT-REPLICATED  H2 NOT-REPLICATED  OK
+== world bare_mixing
+word items 7200 (families 36, templates 12), bare items 1600 (families 16)
+answer-only accuracy by loop: word [1.0, 1.0, 1.0, 1.0] | bare [1.0, 1.0, 1.0, 1.0]
+G1 word accuracy after loop 4 1.000 (>= 0.30: True) | G2 copies best state a 1.000 b 1.000 c 1.000 (>= 0.75: True) | G3 bare sum digit at P1 end4 1.000 (>= 0.90: True)
+H1 (bare, P0, end4) raw: m5 1.000 (ceil 0.200) rnd5 1.000 (ceil 0.490) amb5 1.000 (ceil 0.200) ap2b5 1.000 (ceil 0.200) tapb5 1.000 (ceil 0.200)
+H1 excess: m5 +0.800 rnd5 +0.510 amb5 +0.800 ap2b5 +0.800 tapb5 +0.800
+H1 D_ceil +0.800 [+0.800, +0.800] (bar 0.15) | D_XOR vs amb5 +0.000 [+0.000, +0.000] (bar 0.15) | D_rnd +0.290 [+0.290, +0.290]
+H2 (main, P1, end4) raw: m5 0.239 (ceil 0.225) rnd5 0.485 (ceil 0.484) amb5 0.213 (ceil 0.228) apc5 0.235 (ceil 0.237) abmc5 0.233 (ceil 0.201) abc5 0.232 (ceil 0.214)
+H2 excess: m5 +0.013 rnd5 +0.001 amb5 -0.015 apc5 -0.002 abmc5 +0.032 abc5 +0.018
+H2 D_ceil +0.013 [+0.001, +0.025] (bar 0.10) | D_XOR vs abmc5 -0.018 [-0.035, -0.002] (bar 0.05) | D_rnd +0.013 [-0.001, +0.025]
+PRIMARY -> H1 (bare, before writing) NOT-REPLICATED | H2 (word problems, before the units digit) NOT-REPLICATED
+selftest bare_mixing   -> H1 NOT-REPLICATED  H2 NOT-REPLICATED  OK
+== world broken
+word items 7200 (families 36, templates 12), bare items 1600 (families 16)
+answer-only accuracy by loop: word [1.0, 1.0, 1.0, 1.0] | bare [1.0, 1.0, 1.0, 1.0]
+G1 word accuracy after loop 4 1.000 (>= 0.30: True) | G2 copies best state a 0.104 b 0.110 c 0.107 (>= 0.75: False) | G3 bare sum digit at P1 end4 1.000 (>= 0.90: True)
+H1 (bare, P0, end4) raw: m5 0.204 (ceil 0.200) rnd5 0.230 (ceil 0.490) amb5 0.191 (ceil 0.200) ap2b5 0.208 (ceil 0.200) tapb5 0.206 (ceil 0.200)
+H1 excess: m5 +0.004 rnd5 -0.260 amb5 -0.009 ap2b5 +0.008 tapb5 +0.006
+H1 D_ceil +0.004 [-0.014, +0.028] (bar 0.15) | D_XOR vs ap2b5 -0.004 [-0.029, +0.021] (bar 0.15) | D_rnd +0.264 [+0.246, +0.288]
+H2 (main, P1, end4) raw: m5 0.210 (ceil 0.225) rnd5 0.229 (ceil 0.484) amb5 0.200 (ceil 0.228) apc5 0.199 (ceil 0.237) abmc5 0.215 (ceil 0.201) abc5 0.206 (ceil 0.214)
+H2 excess: m5 -0.015 rnd5 -0.255 amb5 -0.028 apc5 -0.038 abmc5 +0.013 abc5 -0.007
+H2 D_ceil -0.015 [-0.028, -0.003] (bar 0.10) | D_XOR vs abmc5 -0.029 [-0.045, -0.013] (bar 0.05) | D_rnd +0.239 [+0.220, +0.259]
+PRIMARY -> H1 (bare, before writing) UNSCORABLE | H2 (word problems, before the units digit) UNSCORABLE
+selftest broken        -> H1 UNSCORABLE      H2 UNSCORABLE      OK

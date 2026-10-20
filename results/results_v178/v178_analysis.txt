@@ -1,0 +1,11 @@
+items 4200, templates 84; majority share 0.308; input-baseline accuracy 0.308
+G1 copy-control accuracy at end4 0.408 (need >= 0.5); G2 shuffled-label accuracy at end4 0.308 (need <= 0.328)
+within-template baseline accuracy 0.361
+PRIMARY -> UNSCORABLE
+--- secondary ---
+y_target accuracy per state (cross): h0 0.308 mid1 0.308 end1 0.308 mid2 0.308 end2 0.308 mid3 0.308 end3 0.308 mid4 0.308 end4 0.308
+S (end4) on correct@4 items (n=292): +0.000
+S (end4) on wrong@4 items (n=3908): +0.000
+answer-only accuracy per loop: [0.03, 0.054, 0.068, 0.07]
+y_target accuracy at the question-end token: end1 0.308 end2 0.308 end3 0.308 end4 0.308
+y_final accuracy (last token) end1..end4: 0.229 0.229 0.229 0.229; input baseline 0.229

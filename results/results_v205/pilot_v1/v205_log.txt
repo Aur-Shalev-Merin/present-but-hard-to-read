@@ -1,0 +1,12 @@
+v205 extract | part b1 | pilot True | Qwen/Qwen2.5-1.5B | prefix 213 tokens | device cpu
+swap tokens [' tent', ' stere', ' terra', ' learns', ' bas', ' easiest', ' priv', ' counted', ' upright', ' matte'] | noise norm 1.032 (median embedding norm)
+b1 swap check cached vs full: max |logit diff| 2.29e-05, max |state diff| 6.87e-05
+b1 noise check cached vs full: max |logit diff| 1.93e-05, max |state diff| 1.45e-04
+b1   1/3 families (136s)
+b1   3/3 families (228s)
+b1 done: 60 prompts (228s)
+v205 extract | part b2 | pilot True | Qwen/Qwen2.5-1.5B | prefix 213 tokens | device cpu
+b2 check cached vs full: max |logit diff| 2.34e-05, max |state diff| 5.03e-05
+b2    1/40 questions (37s)
+b2   40/40 questions (130s)
+b2 done: 40 prompts (130s)

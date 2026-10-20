@@ -1,0 +1,23 @@
+A new version of the following files was downloaded from https://huggingface.co/ByteDance/Ouro-1.4B:
+- configuration_ouro.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+A new version of the following files was downloaded from https://huggingface.co/ByteDance/Ouro-1.4B:
+- modeling_ouro.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+Generating train split:   0%|          | 0/7473 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 7473/7473 [00:00<00:00, 69962.64 examples/s]Generating train split: 100%|██████████| 7473/7473 [00:00<00:00, 69591.24 examples/s]
+Generating test split:   0%|          | 0/1319 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 1319/1319 [00:00<00:00, 245759.27 examples/s]
+v178 extract | ByteDance/Ouro-1.4B | 2100 items | layers/loop 24, mid layer 12 | dtype torch.float32
+check vs Ouro forward: max |logit diff| 0.00e+00, max |gate diff| 0.00e+00
+   1/2100  acc so far [0.0, 0.0, 0.0, 0.0]  (70s)
+ 201/2100  acc so far [0.02, 0.0, 0.005, 0.005]  (330s)
+ 401/2100  acc so far [0.052, 0.08, 0.072, 0.08]  (608s)
+ 601/2100  acc so far [0.055, 0.073, 0.078, 0.083]  (857s)
+ 801/2100  acc so far [0.045, 0.064, 0.066, 0.071]  (1104s)
+1001/2100  acc so far [0.055, 0.082, 0.086, 0.092]  (1366s)
+1201/2100  acc so far [0.047, 0.069, 0.072, 0.08]  (1623s)
+1401/2100  acc so far [0.051, 0.093, 0.098, 0.107]  (1882s)
+1601/2100  acc so far [0.047, 0.085, 0.087, 0.094]  (2127s)
+1801/2100  acc so far [0.055, 0.087, 0.093, 0.1]  (2383s)
+2001/2100  acc so far [0.051, 0.08, 0.087, 0.094]  (2640s)
+2100/2100  acc so far [0.049, 0.077, 0.084, 0.09]  (2761s)
+done 2761s; tokenisation ok 2100/2100

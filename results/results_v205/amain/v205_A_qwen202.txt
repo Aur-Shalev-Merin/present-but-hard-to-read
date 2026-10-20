@@ -1,0 +1,18 @@
+states: astrocyte-v202-qwen/v202_v181_states.npy
+--- Qwen v202, last prompt token: A1 anisotropy baseline ---
+l4    O(U)  18.49 | shuffled-label null  19.87 (O/null 0.93) | residual-PC null  35.82 | random in top-16/64/256  54.80  17.70   5.39 | R256 3.43 | share of U in top-16/64/256 0.20 0.46 1.00
+l7    O(U)  24.37 | shuffled-label null  23.36 (O/null 1.04) | residual-PC null  41.30 | random in top-16/64/256  54.20  17.51   5.40 | R256 4.51 | share of U in top-16/64/256 0.26 0.50 1.00
+l14   O(U)  17.45 | shuffled-label null  14.72 (O/null 1.19) | residual-PC null  26.69 | random in top-16/64/256  50.23  16.47   5.27 | R256 3.31 | share of U in top-16/64/256 0.20 0.50 0.98
+l21   O(U)  19.23 | shuffled-label null  17.21 (O/null 1.12) | residual-PC null  35.81 | random in top-16/64/256  50.54  16.22   5.08 | R256 3.78 | share of U in top-16/64/256 0.18 0.41 0.95
+l28   O(U)  15.28 | shuffled-label null  22.33 (O/null 0.68) | residual-PC null  44.62 | random in top-16/64/256  46.93  14.31   4.61 | R256 3.31 | share of U in top-16/64/256 0.13 0.35 0.98
+A1 Qwen v202 (l7/l14/l21/l28): mean O/shuffled-label null 1.01
+A1 Qwen v202 (l7/l14/l21/l28, descriptive): mean R16 0.38, R64 1.18, R256 3.73
+--- Qwen v202: A2 MLP probe, standard / contrastive ---
+l4 0.105/0.982 l7 0.101/0.971 l14 0.104/0.832 l21 0.099/0.702 l28 0.107/0.864
+A2 Qwen v202 (l7/l14/l21/l28): MLP standard max 0.107, contrastive max 0.971 -> STILL-SWAMPED
+states: astrocyte-v202-qwen/v202_v185_states.npy
+--- Qwen v202, colour vs added digit: A1 anisotropy baseline (descriptive) ---
+col_start l7 O 25.78 shuffled 24.64 O/shuffled 1.05 rand256 5.38 l14 O 17.82 shuffled 15.38 O/shuffled 1.16 rand256 5.23 l21 O 22.33 shuffled 20.20 O/shuffled 1.11 rand256 5.13 l28 O 6.08 shuffled 12.00 O/shuffled 0.51 rand256 4.57
+col_end   l7 O 25.49 shuffled 24.73 O/shuffled 1.03 rand256 5.39 l14 O 15.89 shuffled 14.48 O/shuffled 1.10 rand256 5.15 l21 O 17.60 shuffled 16.89 O/shuffled 1.04 rand256 5.09 l28 O 4.54 shuffled 9.80 O/shuffled 0.46 rand256 4.48
+dig_start l7 O 21.02 shuffled 21.81 O/shuffled 0.96 rand256 5.36 l14 O 14.50 shuffled 14.72 O/shuffled 0.99 rand256 5.16 l21 O 18.63 shuffled 16.89 O/shuffled 1.10 rand256 4.99 l28 O 20.74 shuffled 23.07 O/shuffled 0.90 rand256 4.52
+dig_end   l7 O 22.00 shuffled 21.47 O/shuffled 1.02 rand256 5.27 l14 O 15.64 shuffled 13.66 O/shuffled 1.15 rand256 5.14 l21 O 17.73 shuffled 16.16 O/shuffled 1.10 rand256 5.02 l28 O 16.10 shuffled 20.95 O/shuffled 0.77 rand256 4.51

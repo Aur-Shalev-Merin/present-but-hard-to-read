@@ -1,0 +1,14 @@
+B1: pairs 2000, families 36 | unpatched: own digit 1.000, target 0.000
+  e1 : ab hit 0.003 own 0.986 | amb hit 0.002 own 0.984 | rand hit 0.001 own 0.998 | ans hit 0.009 own 0.968
+  hit(ab) - max(hit(amb), hit(rand)) +0.001 [+0.000, +0.003] (99.17%) -> B1 e1: UNSCORABLE (positive control hit 0.009)
+  cl : ab hit 0.042 own 0.905 | amb hit 0.058 own 0.900 | rand hit 0.003 own 0.992 | ans hit 0.914 own 0.023
+  hit(ab) - max(hit(amb), hit(rand)) -0.016 [-0.034, +0.001] (99.17%) -> B1 cl: NOT-USED (positive control hit 0.914)
+  ab3: abl hit 0.095 own 0.319 | ab hit 0.102 own 0.316 | amb hit 0.097 own 0.314 | rand hit 0.098 own 0.310
+  hit(ab) - max(hit(amb), hit(rand)) +0.005 [-0.011, +0.015] (99.17%) -> B1 ab3: NOT-USED
+B2: pairs 2000, families 36 | unpatched: own digit 1.000, target 0.000
+  e1 : ab hit 0.004 own 0.991 | amb hit 0.002 own 0.990 | rand hit 0.001 own 0.998
+  hit(ab) - max(hit(amb), hit(rand)) +0.002 [-0.002, +0.006] (99.17%) -> B2 e1: UNSCORABLE (positive control hit 0.009)
+  cl : ab hit 0.009 own 0.974 | amb hit 0.004 own 0.977 | rand hit 0.001 own 0.995
+  hit(ab) - max(hit(amb), hit(rand)) +0.005 [-0.001, +0.012] (99.17%) -> B2 cl: NOT-USED (positive control hit 0.914)
+  ab3: abl hit 0.084 own 0.316 | ab hit 0.089 own 0.306 | amb hit 0.090 own 0.317 | rand hit 0.086 own 0.318
+  hit(ab) - max(hit(amb), hit(rand)) -0.001 [-0.016, +0.013] (99.17%) -> B2 ab3: NOT-USED

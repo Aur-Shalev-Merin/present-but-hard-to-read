@@ -1,0 +1,12 @@
+   1/1000 25s | B1 | own 3 target 9 | none 3 ab@e1 3 amb@e1 3 rand@e1 3 ans@e1 3 ab@cl 3 amb@cl 3 rand@cl 3 ans@cl 9 abl@ab3 3 ab@ab3 3 amb@ab3 3 rand@ab3 3
+ 101/1000 951s | B1 | own 4 target 2 | none 4 ab@e1 4 amb@e1 4 rand@e1 4 ans@e1 4 ab@cl 4 amb@cl 4 rand@cl 4 ans@cl 2 abl@ab3 3 ab@ab3 3 amb@ab3 7 rand@ab3 3
+ 201/1000 1878s | B1 | own 6 target 4 | none 6 ab@e1 6 amb@e1 6 rand@e1 6 ans@e1 6 ab@cl 4 amb@cl 4 rand@cl 6 ans@cl 4 abl@ab3 1 ab@ab3 2 amb@ab3 4 rand@ab3 1
+ 301/1000 2808s | B1 | own 9 target 7 | none 9 ab@e1 9 amb@e1 9 rand@e1 9 ans@e1 9 ab@cl 9 amb@cl 9 rand@cl 9 ans@cl 7 abl@ab3 3 ab@ab3 2 amb@ab3 1 rand@ab3 3
+ 401/1000 3742s | B1 | own 5 target 1 | none 5 ab@e1 5 amb@e1 5 rand@e1 5 ans@e1 1 ab@cl 5 amb@cl 5 rand@cl 5 ans@cl 1 abl@ab3 3 ab@ab3 3 amb@ab3 3 rand@ab3 3
+ 501/1000 4678s | B2 | own 6 target 8 | none 6 ab@e1 6 amb@e1 6 rand@e1 6 ab@cl 6 amb@cl 6 rand@cl 6 abl@ab3 2 ab@ab3 2 amb@ab3 2 rand@ab3 2
+ 601/1000 5453s | B2 | own 2 target 4 | none 2 ab@e1 2 amb@e1 2 rand@e1 2 ab@cl 2 amb@cl 2 rand@cl 2 abl@ab3 4 ab@ab3 4 amb@ab3 4 rand@ab3 4
+ 701/1000 6218s | B2 | own 9 target 7 | none 9 ab@e1 9 amb@e1 9 rand@e1 9 ab@cl 9 amb@cl 9 rand@cl 9 abl@ab3 3 ab@ab3 7 amb@ab3 6 rand@ab3 3
+ 801/1000 6984s | B2 | own 5 target 1 | none 5 ab@e1 5 amb@e1 5 rand@e1 5 ab@cl 5 amb@cl 5 rand@cl 5 abl@ab3 3 ab@ab3 3 amb@ab3 1 rand@ab3 2
+ 901/1000 7749s | B2 | own 9 target 3 | none 9 ab@e1 9 amb@e1 9 rand@e1 9 ab@cl 9 amb@cl 9 rand@cl 9 abl@ab3 4 ab@ab3 8 amb@ab3 4 rand@ab3 4
+1000/1000 8510s | B2 | own 8 target 0 | none 8 ab@e1 8 amb@e1 8 rand@e1 8 ab@cl 8 amb@cl 8 rand@cl 8 abl@ab3 0 ab@ab3 9 amb@ab3 9 rand@ab3 1
+done 8510s, 1000 pairs

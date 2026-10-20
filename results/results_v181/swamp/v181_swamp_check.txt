@@ -1,0 +1,12 @@
+v181 last prompt token: 1370 items, 137 families, 77 templates, d = 2048
+mid1  overlap O   11.7 | SNR in digit subspace 0.005 vs all dims 0.0004 | structured LDA on single prompts 0.174 | Gaussian-model ceiling 0.752 | LW shrinkage 0.022
+end1  overlap O    7.2 | SNR in digit subspace 0.014 vs all dims 0.0006 | structured LDA on single prompts 0.170 | Gaussian-model ceiling 0.904 | LW shrinkage 0.012
+end2  overlap O    6.5 | SNR in digit subspace 0.023 vs all dims 0.0010 | structured LDA on single prompts 0.214 | Gaussian-model ceiling 0.920 | LW shrinkage 0.018
+end3  overlap O    9.2 | SNR in digit subspace 0.011 vs all dims 0.0008 | structured LDA on single prompts 0.198 | Gaussian-model ceiling 0.879 | LW shrinkage 0.020
+end4  overlap O    9.4 | SNR in digit subspace 0.010 vs all dims 0.0006 | structured LDA on single prompts 0.177 | Gaussian-model ceiling 0.854 | LW shrinkage 0.021
+mid1  learning curve (25/50/75/100% of training templates): standard 0.134 0.141 0.163 0.153 | minimal-pair 0.918 0.948 0.963 0.969
+end1  learning curve (25/50/75/100% of training templates): standard 0.155 0.175 0.187 0.193 | minimal-pair 0.918 0.953 0.964 0.968
+end2  learning curve (25/50/75/100% of training templates): standard 0.187 0.207 0.215 0.227 | minimal-pair 0.908 0.934 0.940 0.947
+end3  learning curve (25/50/75/100% of training templates): standard 0.158 0.174 0.191 0.183 | minimal-pair 0.870 0.906 0.920 0.923
+end4  learning curve (25/50/75/100% of training templates): standard 0.152 0.171 0.178 0.185 | minimal-pair 0.879 0.908 0.918 0.926
+READING (rule fixed before running): structured LDA max over loop ends 0.214; standard-probe gain 50%->100% templates +0.015 -> SWAMPED

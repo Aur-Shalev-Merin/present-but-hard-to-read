@@ -1,0 +1,4 @@
+pairs 103 (b differs in 91), families 24 | unpatched own digit 1.000
+method control btok: hit 0.857, own 0.033 (UNSCORABLE below 0.30)
+  plus: rand hit 0.000 own 1.000 | btok hit 0.881 own 0.212
+  minus: rand hit 0.000 own 1.000 | btok hit 0.837 own 0.078

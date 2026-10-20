@@ -1,0 +1,37 @@
+states: notebooks/aurshalevmerin/astrocyte-v185-ouro/merged/v185_states.npy (3080, 3, 6, 2048)
+v185 last prompt token: 3080 items, 308 families, 77 templates, d = 2048
+--- M1: overlap O by token type (colour vs digit, same contexts) ---
+col_start mid1  O  12.96 | SNR in subspace 0.007 | structured LDA 0.186 | Gaussian ceiling 0.935
+col_start end1  O   6.87 | SNR in subspace 0.022 | structured LDA 0.239 | Gaussian ceiling 0.997
+col_start end2  O   4.18 | SNR in subspace 0.069 | structured LDA 0.282 | Gaussian ceiling 0.994
+col_start end3  O   4.69 | SNR in subspace 0.077 | structured LDA 0.344 | Gaussian ceiling 0.998
+col_start end4  O   4.05 | SNR in subspace 0.121 | structured LDA 0.381 | Gaussian ceiling 0.999
+col_end   mid1  O  13.26 | SNR in subspace 0.015 | structured LDA 0.226 | Gaussian ceiling 0.994
+col_end   end1  O   6.92 | SNR in subspace 0.021 | structured LDA 0.271 | Gaussian ceiling 0.999
+col_end   end2  O   4.73 | SNR in subspace 0.056 | structured LDA 0.304 | Gaussian ceiling 0.993
+col_end   end3  O   6.19 | SNR in subspace 0.028 | structured LDA 0.258 | Gaussian ceiling 0.971
+col_end   end4  O   5.35 | SNR in subspace 0.048 | structured LDA 0.281 | Gaussian ceiling 0.987
+dig_start mid1  O   8.88 | SNR in subspace 0.030 | structured LDA 0.278 | Gaussian ceiling 0.972
+dig_start end1  O  10.58 | SNR in subspace 0.012 | structured LDA 0.227 | Gaussian ceiling 0.983
+dig_start end2  O   8.79 | SNR in subspace 0.012 | structured LDA 0.210 | Gaussian ceiling 0.925
+dig_start end3  O   8.69 | SNR in subspace 0.010 | structured LDA 0.195 | Gaussian ceiling 0.902
+dig_start end4  O   8.12 | SNR in subspace 0.008 | structured LDA 0.161 | Gaussian ceiling 0.826
+dig_end   mid1  O  10.89 | SNR in subspace 0.039 | structured LDA 0.306 | Gaussian ceiling 0.995
+dig_end   end1  O  12.39 | SNR in subspace 0.008 | structured LDA 0.219 | Gaussian ceiling 0.974
+dig_end   end2  O   8.07 | SNR in subspace 0.008 | structured LDA 0.175 | Gaussian ceiling 0.866
+dig_end   end3  O  12.17 | SNR in subspace 0.004 | structured LDA 0.149 | Gaussian ceiling 0.760
+dig_end   end4  O   9.17 | SNR in subspace 0.004 | structured LDA 0.151 | Gaussian ceiling 0.706
+M1 (end1-end4, both insertion points): mean O colour 5.37, digit 9.75, r = 0.551 -> MIXED
+--- M2: regression of the digit-subspace projection on the other numbers' digits (v185 digit families) ---
+mid1  units     R2 digit subspace -0.021 | random mean -0.106 p95 -0.043 | colour subspace -0.062
+mid1  alldigits R2 digit subspace -0.039 | random mean -0.161 p95 -0.102 | colour subspace -0.077
+end1  units     R2 digit subspace -0.112 | random mean -0.141 p95 -0.069 | colour subspace -0.180
+end1  alldigits R2 digit subspace -0.115 | random mean -0.180 p95 -0.120 | colour subspace -0.134
+end2  units     R2 digit subspace -0.111 | random mean -0.151 p95 -0.099 | colour subspace -0.134
+end2  alldigits R2 digit subspace -0.121 | random mean -0.169 p95 -0.110 | colour subspace -0.158
+end3  units     R2 digit subspace -0.053 | random mean -0.145 p95 -0.080 | colour subspace -0.135
+end3  alldigits R2 digit subspace -0.107 | random mean -0.158 p95 -0.116 | colour subspace -0.161
+end4  units     R2 digit subspace -0.087 | random mean -0.148 p95 -0.086 | colour subspace -0.176
+end4  alldigits R2 digit subspace -0.087 | random mean -0.162 p95 -0.120 | colour subspace -0.130
+M2 v185 units (end1-end4): R2(U) -0.091, delta R2 -0.008   <- primary
+M2 v185 alldigits (end1-end4): R2(U) -0.108, delta R2 +0.009

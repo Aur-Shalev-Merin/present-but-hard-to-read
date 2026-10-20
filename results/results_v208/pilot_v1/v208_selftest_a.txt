@@ -1,0 +1,5 @@
+selftest world tuned   want ('TUNED', 'DISTANCE-ONLY', 'LINEAR') got ('TUNED', 'DISTANCE-ONLY', 'LINEAR') OK
+selftest world flat    want ('FLAT', 'DISTANCE-ONLY', 'LINEAR') got ('FLAT', 'DISTANCE-ONLY', 'LINEAR') OK
+selftest world low     want ('TUNED', 'LOW-GAIN', 'LINEAR') got ('TUNED', 'LOW-GAIN', 'LINEAR') OK
+selftest world nonlin  want ('TUNED', 'DISTANCE-ONLY', 'LOCAL-ONLY') got ('TUNED', 'DISTANCE-ONLY', 'LOCAL-ONLY') OK
+SELFTEST ALL OK

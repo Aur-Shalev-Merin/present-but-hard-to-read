@@ -1,0 +1,12 @@
+v184 extract | ByteDance/Ouro-1.4B | 38 base questions (part 1) | dtype torch.float32
+check vs Ouro forward: max |logit diff| 0.00e+00
+  1/38 base questions (69s)
+  6/38 base questions (336s)
+ 11/38 base questions (599s)
+ 16/38 base questions (874s)
+ 21/38 base questions (1144s)
+ 26/38 base questions (1427s)
+ 31/38 base questions (1709s)
+ 36/38 base questions (2008s)
+ 38/38 base questions (2114s)
+done 2113s; minimal pairs ok 1520/1520

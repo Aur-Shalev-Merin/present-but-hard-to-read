@@ -1,0 +1,24 @@
+items 2000, tokenisation ok 2000; check |logit diff| 0.0
+add answer-only accuracy per loop: [0.871, 0.974, 0.973, 0.973]
+mul answer-only accuracy per loop: [0.829, 1.0, 1.0, 1.0]
+
+== add | apparatus a+0 1.000, b+0 1.000 at h0 | result-digit input baseline 0.119
+label @ slot       h0   mid1   end1   end2   end3   end4
+a @ qmark       0.109  0.990  0.990  0.968  0.952  0.966   (majority 0.120, bar 0.500)
+a @ last        0.109  0.994  0.983  0.986  0.972  0.977   (majority 0.120, bar 0.500)
+b @ qmark       0.099  0.999  0.998  0.993  0.992  0.994   (majority 0.114, bar 0.500)
+b @ last        0.099  0.989  0.959  0.964  0.981  0.967   (majority 0.114, bar 0.500)
+r @ qmark       0.112  0.271  0.244  0.243  0.233  0.235   (majority 0.119, S bar +0.10)
+r @ last        0.112  0.234  0.190  0.222  0.234  0.209   (majority 0.119, S bar +0.10)
+
+== mul | apparatus a+0 1.000, b+0 1.000 at h0 | result-digit input baseline 0.499
+label @ slot       h0   mid1   end1   end2   end3   end4
+a @ qmark       0.127  0.998  0.998  1.000  1.000  0.999   (majority 0.141, bar 0.500)
+a @ last        0.127  1.000  1.000  1.000  1.000  1.000   (majority 0.141, bar 0.500)
+b @ qmark       0.125  1.000  1.000  1.000  1.000  1.000   (majority 0.125, bar 0.500)
+b @ last        0.125  1.000  1.000  1.000  1.000  1.000   (majority 0.125, bar 0.500)
+r @ qmark       0.179  0.805  0.800  0.802  0.823  0.818   (majority 0.179, S bar +0.10)
+r @ last        0.179  0.800  0.817  0.817  0.824  0.822   (majority 0.179, S bar +0.10)
+
+copies READ at last token (some loop end, either op): True
+result digit COMPUTED-READABLE (S >= 0.10): [('add', 'qmark', 'mid1'), ('add', 'qmark', 'end1'), ('add', 'qmark', 'end2'), ('add', 'qmark', 'end3'), ('add', 'qmark', 'end4'), ('add', 'last', 'mid1'), ('add', 'last', 'end2'), ('add', 'last', 'end3'), ('mul', 'qmark', 'mid1'), ('mul', 'qmark', 'end1'), ('mul', 'qmark', 'end2'), ('mul', 'qmark', 'end3'), ('mul', 'qmark', 'end4'), ('mul', 'last', 'mid1'), ('mul', 'last', 'end1'), ('mul', 'last', 'end2'), ('mul', 'last', 'end3'), ('mul', 'last', 'end4')]

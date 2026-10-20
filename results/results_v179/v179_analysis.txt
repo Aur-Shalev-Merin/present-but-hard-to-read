@@ -1,0 +1,33 @@
+items 840, templates 84, digit tokens ok 840; check |logit diff| 0.0
+
+== label: units digit of the first number | n 820 | majority 0.299 | reading bar 0.500
+slot             h0   mid1   end1   end2   end3   end4
+first+0       1.000  1.000  1.000  0.998  0.998  0.973
+first+1       0.299  0.478  0.315  0.282  0.293  0.299
+first+3       0.299  0.277  0.267  0.299  0.299  0.299
+first_sent    0.299  0.298  0.307  0.296  0.299  0.299
+qmark         0.299  0.299  0.299  0.294  0.299  0.299
+last          0.299  0.299  0.299  0.299  0.299  0.299
+
+== label: units digit of the last number | n 820 | majority 0.196 | reading bar 0.500
+slot             h0   mid1   end1   end2   end3   end4
+last+0        1.000  0.999  0.993  0.989  0.984  0.965
+last+1        0.173  0.448  0.178  0.160  0.177  0.146
+last+3        0.157  0.166  0.161  0.163  0.180  0.187
+last_sent     0.196  0.156  0.143  0.172  0.157  0.171
+qmark         0.196  0.157  0.167  0.152  0.160  0.144
+last          0.196  0.143  0.151  0.167  0.172  0.170
+
+== label: units digit of the big number | n 840 | majority 0.399 | reading bar 0.549
+slot             h0   mid1   end1   end2   end3   end4
+big+0         1.000  1.000  0.996  0.996  0.992  0.981
+big+1         0.399  0.496  0.399  0.399  0.396  0.399
+big+3         0.399  0.399  0.399  0.399  0.399  0.399
+big_sent      0.399  0.399  0.398  0.399  0.399  0.399
+qmark         0.399  0.399  0.399  0.399  0.399  0.399
+last          0.399  0.399  0.399  0.399  0.399  0.399
+
+apparatus check (<label>+0 at h0 >= 0.9): True
+reads at sent : none
+reads at qmark: none
+reads at last : none

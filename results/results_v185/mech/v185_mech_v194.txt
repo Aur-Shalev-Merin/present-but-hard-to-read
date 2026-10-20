@@ -1,0 +1,9 @@
+states: notebooks/aurshalevmerin/astrocyte-v194-ouro/merged/v194_states.npy (16000, 2, 8, 2048)
+--- M3: Study 3 copies at P0 by state (mid1 end1 mid2 end2 mid3 end3 mid4 end4) ---
+plus  copy a at P0: 1.000 1.000 1.000 1.000 0.997 0.999 0.987 0.995
+plus  copy b at P0: 0.979 0.944 0.932 0.923 0.811 0.829 0.691 0.770
+plus  copy c at P0: 0.998 0.969 0.971 0.987 0.964 0.983 0.934 0.959
+minus copy a at P0: 1.000 1.000 1.000 1.000 0.997 1.000 0.983 0.998
+minus copy b at P0: 0.985 0.950 0.958 0.939 0.903 0.898 0.847 0.808
+minus copy c at P0: 0.995 0.945 0.941 0.892 0.846 0.823 0.783 0.765
+M3: copy of b at P0 after loop 4: plus 0.770, minus 0.808 -> not strong in both; state the value

@@ -1,0 +1,5 @@
+calib fourier lam 0.005 | needed +0.039 (plus +0.045, minus +0.034) | 7s
+calib fourier lam 0.01 | needed +0.119 (plus +0.128, minus +0.111) | 5s
+calib fourier lam 0.02 | needed +0.259 (plus +0.270, minus +0.248) | 7s
+calib fourier lam 0.04 | needed +0.442 (plus +0.457, minus +0.427) | 7s
+calib fourier lam 0.08 | needed +0.600 (plus +0.615, minus +0.585) | 8s

@@ -1,0 +1,6 @@
+states: astrocyte-v185-ouro/merged/v185_states.npy
+--- Ouro v185, colour vs added digit: A1 anisotropy baseline (descriptive) ---
+col_start end1 O 6.87 shuffled 8.26 O/shuffled 0.83 rand256 5.93 end2 O 4.18 shuffled 6.27 O/shuffled 0.67 rand256 5.34 end3 O 4.69 shuffled 6.48 O/shuffled 0.72 rand256 5.28 end4 O 4.05 shuffled 6.08 O/shuffled 0.67 rand256 5.17
+col_end   end1 O 6.92 shuffled 13.02 O/shuffled 0.53 rand256 6.16 end2 O 4.73 shuffled 7.33 O/shuffled 0.64 rand256 5.38 end3 O 6.19 shuffled 9.19 O/shuffled 0.67 rand256 5.18 end4 O 5.35 shuffled 8.23 O/shuffled 0.65 rand256 5.08
+dig_start end1 O 10.58 shuffled 11.20 O/shuffled 0.95 rand256 5.93 end2 O 8.79 shuffled 8.78 O/shuffled 1.00 rand256 5.22 end3 O 8.69 shuffled 10.16 O/shuffled 0.85 rand256 5.15 end4 O 8.12 shuffled 9.36 O/shuffled 0.87 rand256 5.12
+dig_end   end1 O 12.39 shuffled 13.83 O/shuffled 0.90 rand256 6.14 end2 O 8.07 shuffled 8.47 O/shuffled 0.95 rand256 5.32 end3 O 12.17 shuffled 10.78 O/shuffled 1.13 rand256 5.16 end4 O 9.17 shuffled 9.92 O/shuffled 0.92 rand256 5.02

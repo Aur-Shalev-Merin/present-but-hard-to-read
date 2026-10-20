@@ -1,0 +1,9 @@
+v179 extract | ByteDance/Ouro-1.4B | 420 items (part 1) | layers/loop 24, mid layer 12 | dtype torch.float32
+check vs Ouro forward: max |logit diff| 0.00e+00
+   1/420 (20s)
+ 101/420 (124s)
+ 201/420 (243s)
+ 301/420 (363s)
+ 401/420 (485s)
+ 420/420 (508s)
+done 507s; digit tokens ok 420/420

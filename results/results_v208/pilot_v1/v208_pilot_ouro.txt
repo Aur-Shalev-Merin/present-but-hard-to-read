@@ -1,0 +1,17 @@
+A new version of the following files was downloaded from https://huggingface.co/ByteDance/Ouro-1.4B:
+- configuration_ouro.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+A new version of the following files was downloaded from https://huggingface.co/ByteDance/Ouro-1.4B:
+- modeling_ouro.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+WARNING:torchao.kernel.intmm:Warning: Detected no triton, on systems without Triton certain kernels will not work
+v208 extract | ouro | real | shard 0/1 | 2 prompts | pilot True | step 0.0200 (s = 0.02203, median emb norm 1.1014) | d 2048
+swap words [' tent', ' vec', ' research', ' gram', ' episodes', ' outer', ' visual', ' mistress', ' nobility', ' calorie'] | pair words [' wil', ' robot', ' tortoise', ' chord', ' network', ' soaked'] ...
+check cached vs full forward: max |state diff| 1.43e-05
+step check: step 0.0050 x median norm: rel change s vs s/2 max 1.11e-02, median 7.75e-03
+step check: step 0.0100 x median norm: rel change s vs s/2 max 5.37e-03, median 3.78e-03
+step check: step 0.0200 x median norm: rel change s vs s/2 max 2.72e-03, median 2.00e-03
+step check: step 0.0500 x median norm: rel change s vs s/2 max 7.83e-03, median 1.67e-03
+pilot prompt 0: 295 tokens, j 253, segment 42 tokens | 5.56 s per forward -> about 1539 s per prompt
+pilot prompt 1: 292 tokens, j 242, segment 50 tokens | 6.31 s per forward -> about 1748 s per prompt
+pilot done (1153 s); no responses saved

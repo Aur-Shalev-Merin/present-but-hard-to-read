@@ -1,0 +1,30 @@
+A new version of the following files was downloaded from https://huggingface.co/ByteDance/Ouro-1.4B:
+- configuration_ouro.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+A new version of the following files was downloaded from https://huggingface.co/ByteDance/Ouro-1.4B:
+- modeling_ouro.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+Generating train split:   0%|          | 0/7473 [00:00<?, ? examples/s]Generating train split:  13%|█▎        | 1000/7473 [00:00<00:00, 6636.16 examples/s]Generating train split: 100%|██████████| 7473/7473 [00:00<00:00, 46826.38 examples/s]
+Generating test split:   0%|          | 0/1319 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 1319/1319 [00:00<00:00, 174443.05 examples/s]
+   1/2000 82s | B1 none 5 ab@e3 5 amb@e3 5 rand@e3 5 ans@e3 7 ab@e2 5 amb@e2 5 rand@e2 5 ans@e2 7 | own 5 target 7
+ 101/2000 556s | B1 none 9 ab@e3 9 amb@e3 9 rand@e3 9 ans@e3 5 ab@e2 9 amb@e2 9 rand@e2 9 ans@e2 5 | own 9 target 5
+ 201/2000 1055s | B1 none 7 ab@e3 7 amb@e3 7 rand@e3 7 ans@e3 9 ab@e2 7 amb@e2 7 rand@e2 7 ans@e2 7 | own 7 target 9
+ 301/2000 1556s | B1 none 5 ab@e3 5 amb@e3 5 rand@e3 5 ans@e3 7 ab@e2 5 amb@e2 5 rand@e2 5 ans@e2 5 | own 5 target 7
+ 401/2000 2056s | B1 none 8 ab@e3 8 amb@e3 8 rand@e3 8 ans@e3 6 ab@e2 8 amb@e2 8 rand@e2 8 ans@e2 8 | own 8 target 6
+ 501/2000 2554s | B1 none 1 ab@e3 1 amb@e3 1 rand@e3 1 ans@e3 3 ab@e2 1 amb@e2 1 rand@e2 1 ans@e2 1 | own 1 target 3
+ 601/2000 3051s | B1 none 7 ab@e3 7 amb@e3 7 rand@e3 7 ans@e3 9 ab@e2 7 amb@e2 7 rand@e2 7 ans@e2 7 | own 7 target 9
+ 701/2000 3549s | B1 none 1 ab@e3 1 amb@e3 1 rand@e3 1 ans@e3 3 ab@e2 1 amb@e2 1 rand@e2 1 ans@e2 1 | own 1 target 3
+ 801/2000 4046s | B1 none 7 ab@e3 7 amb@e3 7 rand@e3 7 ans@e3 3 ab@e2 7 amb@e2 7 rand@e2 7 ans@e2 7 | own 7 target 3
+ 901/2000 4542s | B1 none 9 ab@e3 9 amb@e3 9 rand@e3 9 ans@e3 3 ab@e2 9 amb@e2 9 rand@e2 9 ans@e2 9 | own 9 target 3
+1001/2000 5038s | B1 none 6 ab@e3 6 amb@e3 6 rand@e3 6 ans@e3 4 ab@e2 6 amb@e2 6 rand@e2 6 ans@e2 6 | own 6 target 4
+1101/2000 5536s | B1 none 7 ab@e3 7 amb@e3 7 rand@e3 7 ans@e3 9 ab@e2 7 amb@e2 7 rand@e2 7 ans@e2 7 | own 7 target 9
+1201/2000 6035s | B1 none 8 ab@e3 8 amb@e3 8 rand@e3 8 ans@e3 0 ab@e2 6 amb@e2 8 rand@e2 8 ans@e2 6 | own 8 target 0
+1301/2000 6531s | B1 none 3 ab@e3 3 amb@e3 3 rand@e3 3 ans@e3 7 ab@e2 3 amb@e2 3 rand@e2 3 ans@e2 3 | own 3 target 7
+1401/2000 7030s | B1 none 0 ab@e3 0 amb@e3 0 rand@e3 0 ans@e3 8 ab@e2 0 amb@e2 0 rand@e2 0 ans@e2 0 | own 0 target 8
+1501/2000 7529s | B1 none 7 ab@e3 7 amb@e3 7 rand@e3 7 ans@e3 3 ab@e2 7 amb@e2 7 rand@e2 7 ans@e2 7 | own 7 target 3
+1601/2000 8030s | B1 none 8 ab@e3 8 amb@e3 0 rand@e3 8 ans@e3 0 ab@e2 8 amb@e2 0 rand@e2 8 ans@e2 0 | own 8 target 0
+1701/2000 8531s | B1 none 4 ab@e3 4 amb@e3 4 rand@e3 4 ans@e3 2 ab@e2 3 amb@e2 4 rand@e2 4 ans@e2 2 | own 4 target 2
+1801/2000 9030s | B1 none 6 ab@e3 6 amb@e3 6 rand@e3 6 ans@e3 2 ab@e2 6 amb@e2 6 rand@e2 6 ans@e2 2 | own 6 target 2
+1901/2000 9532s | B1 none 4 ab@e3 4 amb@e3 4 rand@e3 4 ans@e3 2 ab@e2 4 amb@e2 4 rand@e2 4 ans@e2 4 | own 4 target 2
+2000/2000 10029s | B1 none 9 ab@e3 9 amb@e3 9 rand@e3 9 ans@e3 3 ab@e2 9 amb@e2 9 rand@e2 9 ans@e2 9 | own 9 target 3
+done 10028s, 2000 pairs

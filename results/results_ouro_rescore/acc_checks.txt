@@ -1,0 +1,8 @@
+accuracy by loop: [0.065, 0.2, 0.225, 0.23] | answer in question: 0.065
+loop 2 -> 4 gain +3.0 points, 95% CI [-1.5, +7.5] (paired bootstrap, 10,000, seed 176)
+loop 1 -> 4 gain +16.5 points, 95% CI [+10.5, +22.5] (paired bootstrap, 10,000, seed 176)
+solved after loop 1: 13 | of these, answer in question: 0 | answer in question but not solved at loop 1: 13
+loop 1: solved 13, of which answer in question 0; accuracy without those problems 0.070
+loop 2: solved 40, of which answer in question 0; accuracy without those problems 0.214
+loop 3: solved 45, of which answer in question 2; accuracy without those problems 0.230
+loop 4: solved 46, of which answer in question 2; accuracy without those problems 0.235

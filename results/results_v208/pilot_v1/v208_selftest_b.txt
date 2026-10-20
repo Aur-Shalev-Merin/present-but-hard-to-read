@@ -1,0 +1,3 @@
+selftest world helps  want HELPS (GENERIC) got NO-HELP FAIL
+selftest world nohelp want NO-HELP got NO-HELP OK
+SELFTEST FAILED

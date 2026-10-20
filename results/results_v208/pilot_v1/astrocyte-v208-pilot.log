@@ -1,0 +1,74 @@
+[{"stream_name":"stdout","time":0.670700699,"data":"v208_extract.py 8d533a2514a0020c\n"}
+,{"stream_name":"stdout","time":0.670933317,"data":"v205_extract.py 11cc20b80558cd77\n"}
+,{"stream_name":"stdout","time":0.671240841,"data":"v202_extract.py 1c68dc20dde2d0d8\n"}
+,{"stream_name":"stdout","time":0.674207678,"data":"loop_grad_probe.py 27b80fa0b999bfa7\n"}
+,{"stream_name":"stdout","time":0.690013087,"data":"v178_labels.json 11f0d3852b766479\n"}
+,{"stream_name":"stdout","time":0.690343862,"data":"v208_analyze.py d5a1546bec7358dd\n"}
+,{"stream_name":"stdout","time":0.690594601,"data":"v208_method.py 5c4c06c0f9caac30\n"}
+,{"stream_name":"stdout","time":0.690921466,"data":"v205_analyze.py ee70344632eb5650\n"}
+,{"stream_name":"stdout","time":0.691204691,"data":"v178_analyze.py 90bbc8a848dc5544\n"}
+,{"stream_name":"stdout","time":0.69142183,"data":"v181_swamp_check.py 0a239557c1360a98\n"}
+,{"stream_name":"stdout","time":3.898363276,"data":"     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 41.7/41.7 kB 485.9 kB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":5.991850963,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.2/11.2 MB 45.1 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":6.070996362,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 566.4/566.4 kB 23.2 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":6.166910324,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 75.1 MB/s eta 0:00:00\n"}
+,{"stream_name":"stderr","time":22.957138562,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":22.95717318,"data":"gradio 6.26.0 requires huggingface-hub\u003c2.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":22.957180849,"data":"diffusers 0.40.0 requires huggingface-hub\u003c2.0,\u003e=1.23.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":414.382248197,"data":"v208_pilot_qwen.txt exit 0\n"}
+,{"stream_name":"stdout","time":414.382359444,"data":"WARNING:torchao.kernel.intmm:Warning: Detected no triton, on systems without Triton certain kernels will not work\n"}
+,{"stream_name":"stdout","time":414.382370382,"data":"\n"}
+,{"stream_name":"stdout","time":414.382376069,"data":"Generating train split:   0%|          | 0/7473 [00:00\u003c?, ? examples/s]\n"}
+,{"stream_name":"stdout","time":414.38238252,"data":"Generating train split: 100%|██████████| 7473/7473 [00:00\u003c00:00, 101576.38 examples/s]\n"}
+,{"stream_name":"stdout","time":414.382389466,"data":"\n"}
+,{"stream_name":"stdout","time":414.382394542,"data":"Generating test split:   0%|          | 0/1319 [00:00\u003c?, ? examples/s]\n"}
+,{"stream_name":"stdout","time":414.382400631,"data":"Generating test split: 100%|██████████| 1319/1319 [00:00\u003c00:00, 259305.69 examples/s]\n"}
+,{"stream_name":"stdout","time":414.382407022,"data":"v208 extract | qwen | real | shard 0/1 | 2 prompts | pilot True | step 0.0200 (s = 0.02065, median emb norm 1.0323) | d 1536\n"}
+,{"stream_name":"stdout","time":414.382413226,"data":"swap words [' tent', ' stere', ' terra', ' learns', ' bas', ' easiest', ' priv', ' counted', ' upright', ' matte'] | pair words [' rating', ' rant', ' simplex', ' cursos', ' geben', ' complete'] ...\n"}
+,{"stream_name":"stdout","time":414.382438011,"data":"check cached vs full forward: max |state diff| 1.28e-04\n"}
+,{"stream_name":"stdout","time":414.382441832,"data":"step check: step 0.0050 x median norm: rel change s vs s/2 max 5.30e-03, median 3.88e-03\n"}
+,{"stream_name":"stdout","time":414.382444987,"data":"step check: step 0.0100 x median norm: rel change s vs s/2 max 2.54e-03, median 1.78e-03\n"}
+,{"stream_name":"stdout","time":414.382447976,"data":"step check: step 0.0200 x median norm: rel change s vs s/2 max 1.58e-03, median 1.01e-03\n"}
+,{"stream_name":"stdout","time":414.382451114,"data":"step check: step 0.0500 x median norm: rel change s vs s/2 max 9.61e-03, median 1.67e-03\n"}
+,{"stream_name":"stdout","time":414.382454164,"data":"pilot prompt 0: 280 tokens, j 239, segment 41 tokens | 1.58 s per forward -\u003e about 437 s per prompt\n"}
+,{"stream_name":"stdout","time":414.382457344,"data":"pilot prompt 1: 278 tokens, j 229, segment 49 tokens | 1.80 s per forward -\u003e about 499 s per prompt\n"}
+,{"stream_name":"stdout","time":414.382460555,"data":"pilot done (385 s); no responses saved\n"}
+,{"stream_name":"stdout","time":414.382463504,"data":"\n"}
+,{"stream_name":"stdout","time":1573.106543748,"data":"v208_pilot_ouro.txt exit 0\n"}
+,{"stream_name":"stdout","time":1573.107765497,"data":"A new version of the following files was downloaded from https://huggingface.co/ByteDance/Ouro-1.4B:\n"}
+,{"stream_name":"stdout","time":1573.10778607,"data":"- configuration_ouro.py\n"}
+,{"stream_name":"stdout","time":1573.107792682,"data":". Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.\n"}
+,{"stream_name":"stdout","time":1573.107798727,"data":"A new version of the following files was downloaded from https://huggingface.co/ByteDance/Ouro-1.4B:\n"}
+,{"stream_name":"stdout","time":1573.10780487,"data":"- modeling_ouro.py\n"}
+,{"stream_name":"stdout","time":1573.107810573,"data":". Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.\n"}
+,{"stream_name":"stdout","time":1573.107816592,"data":"WARNING:torchao.kernel.intmm:Warning: Detected no triton, on systems without Triton certain kernels will not work\n"}
+,{"stream_name":"stdout","time":1573.107822536,"data":"v208 extract | ouro | real | shard 0/1 | 2 prompts | pilot True | step 0.0200 (s = 0.02203, median emb norm 1.1014) | d 2048\n"}
+,{"stream_name":"stdout","time":1573.107828748,"data":"swap words [' tent', ' vec', ' research', ' gram', ' episodes', ' outer', ' visual', ' mistress', ' nobility', ' calorie'] | pair words [' wil', ' robot', ' tortoise', ' chord', ' network', ' soaked'] ...\n"}
+,{"stream_name":"stdout","time":1573.107836678,"data":"check cached vs full forward: max |state diff| 1.43e-05\n"}
+,{"stream_name":"stdout","time":1573.10784237,"data":"step check: step 0.0050 x median norm: rel change s vs s/2 max 1.11e-02, median 7.75e-03\n"}
+,{"stream_name":"stdout","time":1573.107848197,"data":"step check: step 0.0100 x median norm: rel change s vs s/2 max 5.37e-03, median 3.78e-03\n"}
+,{"stream_name":"stdout","time":1573.107854088,"data":"step check: step 0.0200 x median norm: rel change s vs s/2 max 2.72e-03, median 2.00e-03\n"}
+,{"stream_name":"stdout","time":1573.107859676,"data":"step check: step 0.0500 x median norm: rel change s vs s/2 max 7.83e-03, median 1.67e-03\n"}
+,{"stream_name":"stdout","time":1573.107865677,"data":"pilot prompt 0: 295 tokens, j 253, segment 42 tokens | 5.56 s per forward -\u003e about 1539 s per prompt\n"}
+,{"stream_name":"stdout","time":1573.107872328,"data":"pilot prompt 1: 292 tokens, j 242, segment 50 tokens | 6.31 s per forward -\u003e about 1748 s per prompt\n"}
+,{"stream_name":"stdout","time":1573.107897723,"data":"pilot done (1153 s); no responses saved\n"}
+,{"stream_name":"stdout","time":1573.107903083,"data":"\n"}
+,{"stream_name":"stdout","time":1574.140800585,"data":"v208_selftest_a.txt exit 0\n"}
+,{"stream_name":"stdout","time":1574.14090417,"data":"selftest world tuned   want ('TUNED', 'DISTANCE-ONLY', 'LINEAR') got ('TUNED', 'DISTANCE-ONLY', 'LINEAR') OK\n"}
+,{"stream_name":"stdout","time":1574.140913167,"data":"selftest world flat    want ('FLAT', 'DISTANCE-ONLY', 'LINEAR') got ('FLAT', 'DISTANCE-ONLY', 'LINEAR') OK\n"}
+,{"stream_name":"stdout","time":1574.140918434,"data":"selftest world low     want ('TUNED', 'LOW-GAIN', 'LINEAR') got ('TUNED', 'LOW-GAIN', 'LINEAR') OK\n"}
+,{"stream_name":"stdout","time":1574.140923695,"data":"selftest world nonlin  want ('TUNED', 'DISTANCE-ONLY', 'LOCAL-ONLY') got ('TUNED', 'DISTANCE-ONLY', 'LOCAL-ONLY') OK\n"}
+,{"stream_name":"stdout","time":1574.140929013,"data":"SELFTEST ALL OK\n"}
+,{"stream_name":"stdout","time":1574.140932045,"data":"\n"}
+,{"stream_name":"stdout","time":1584.764999838,"data":"v208_selftest_b.txt exit 1\n"}
+,{"stream_name":"stdout","time":1584.765224572,"data":"selftest world helps  want HELPS (GENERIC) got NO-HELP FAIL\n"}
+,{"stream_name":"stdout","time":1584.765247841,"data":"selftest world nohelp want NO-HELP got NO-HELP OK\n"}
+,{"stream_name":"stdout","time":1584.765253009,"data":"SELFTEST FAILED\n"}
+,{"stream_name":"stdout","time":1584.765258289,"data":"\n"}
+,{"stream_name":"stderr","time":1587.260658432,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1587.260696815,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1587.527455209,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1587.527488389,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1588.492260606,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1589.163603564,"data":"[NbConvertApp] Writing 553507 bytes to __results__.html\n"}
+]
