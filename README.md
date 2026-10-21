@@ -1,6 +1,6 @@
 # Present but Hard to Read: Probing Latent Reasoning with Minimal Pairs
 
-Code, pre-registrations and results for the paper by Aur Shalev Merin (arXiv link to be added once announced).
+Code, pre-registrations and results for the paper by Aur Shalev Merin: [arXiv:2610.28498](https://arxiv.org/abs/2610.28498).
 
 The paper asks what a probe at the start of a language model's answer can and cannot tell you. A digit copied from
 the question is clearly present there (minimal pairs read it at about 0.9) but a probe that sees one prompt at a time
