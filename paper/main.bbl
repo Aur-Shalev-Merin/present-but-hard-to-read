@@ -178,13 +178,15 @@ J.~Kirin.
   Process-quality taps, executable branching, and the readout-control boundary.
 \newblock arXiv preprint arXiv:2607.18553, 2026.
 
-\bibitem[Kudo et~al.(2024)Kudo, Aoki, Kuribayashi, Sone, Taniguchi, Brassard,
-  Sakaguchi, and Inui]{kudo2024}
+\bibitem[Kudo et~al.(2026)Kudo, Aoki, Kuribayashi, Sone, Taniguchi, Brassard,
+  Sakaguchi, and Inui]{kudo2026}
 Keito Kudo, Yoichi Aoki, Tatsuki Kuribayashi, Shusaku Sone, Masaya Taniguchi,
   Ana Brassard, Keisuke Sakaguchi, and Kentaro Inui.
 \newblock {LLMs} faithfully and iteratively compute answers during {CoT}: A
   systematic analysis with multi-step arithmetics.
-\newblock arXiv preprint arXiv:2412.01113, 2024.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  EACL 2026}, pp.\  1114--1153, 2026.
+\newblock \doi{10.18653/v1/2026.findings-eacl.59}.
 
 \bibitem[Levy \& Geva(2025)Levy and Geva]{levy2025}
 Amit~Arnold Levy and Mor Geva.
