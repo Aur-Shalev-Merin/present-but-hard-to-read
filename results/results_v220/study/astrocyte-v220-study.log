@@ -1,0 +1,37 @@
+[{"stream_name":"stdout","time":1.7946541969999998,"data":"v220_train.py 6fbfc35236c2376d\n"}
+,{"stream_name":"stdout","time":1.794814842,"data":"v220_measure.py 6394738908134401\n"}
+,{"stream_name":"stdout","time":1.795062583,"data":"v220_study.py f6261159c0c73353\n"}
+,{"stream_name":"stdout","time":20.007436678,"data":"[gpu1] v220 study | device cuda | TINY False | 9 cells\n"}
+,{"stream_name":"stdout","time":20.089230847,"data":"[gpu0] v220 study | device cuda | TINY False | 9 cells\n"}
+,{"stream_name":"stdout","time":48.070944802,"data":"[gpu1] /kaggle/working/v220_study.py:71: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.\n"}
+,{"stream_name":"stdout","time":48.071011064,"data":"[gpu1] Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)\n"}
+,{"stream_name":"stdout","time":48.071017512,"data":"[gpu1]   curve.append([s + 1, round(float(loss), 4), *evaluate()])\n"}
+,{"stream_name":"stdout","time":48.193892358,"data":"[gpu0] /kaggle/working/v220_study.py:71: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.\n"}
+,{"stream_name":"stdout","time":48.193921439,"data":"[gpu0] Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)\n"}
+,{"stream_name":"stdout","time":48.193927941,"data":"[gpu0]   curve.append([s + 1, round(float(loss), 4), *evaluate()])\n"}
+,{"stream_name":"stdout","time":907.945767193,"data":"[gpu1] std  dig s2 lr 0.003 | final acc 0.992 (plus 0.991, minus 1.000) | 301 checkpoints measured | 879 s\n"}
+,{"stream_name":"stdout","time":910.944394956,"data":"[gpu0] std  dig s1 lr 0.003 | final acc 1.000 (plus 1.000, minus 1.000) | 301 checkpoints measured | 882 s\n"}
+,{"stream_name":"stdout","time":1716.872648981,"data":"[gpu1] loop dig s1 lr 0.0003 | final acc 0.999 (plus 1.000, minus 0.993) | 301 checkpoints measured | 809 s\n"}
+,{"stream_name":"stdout","time":1784.01397466,"data":"[gpu0] std  dig s3 lr 0.003 | final acc 0.899 (plus 0.889, minus 0.976) | 301 checkpoints measured | 873 s\n"}
+,{"stream_name":"stdout","time":2571.800055116,"data":"[gpu1] loop dig s3 lr 0.0003 | final acc 0.998 (plus 0.998, minus 0.998) | 301 checkpoints measured | 855 s\n"}
+,{"stream_name":"stdout","time":2643.781009303,"data":"[gpu0] loop dig s2 lr 0.0003 | final acc 1.000 (plus 1.000, minus 0.998) | 301 checkpoints measured | 859 s\n"}
+,{"stream_name":"stdout","time":2947.456718992,"data":"[gpu1] std2 dig s2 lr 0.0003 | final acc 1.000 (plus 1.000, minus 1.000) | 301 checkpoints measured | 375 s\n"}
+,{"stream_name":"stdout","time":3020.580958136,"data":"[gpu0] std2 dig s1 lr 0.0003 | final acc 1.000 (plus 1.000, minus 0.998) | 301 checkpoints measured | 377 s\n"}
+,{"stream_name":"stdout","time":3330.04093978,"data":"[gpu1] std  mod s1 lr 0.001 | final acc 0.998 (plus 0.999, minus 0.998) | 201 checkpoints measured | 382 s\n"}
+,{"stream_name":"stdout","time":3397.397706906,"data":"[gpu0] std2 dig s3 lr 0.0003 | final acc 0.994 (plus 1.000, minus 0.945) | 301 checkpoints measured | 377 s\n"}
+,{"stream_name":"stdout","time":3710.01006824,"data":"[gpu1] std  mod s3 lr 0.001 | final acc 1.000 (plus 1.000, minus 1.000) | 201 checkpoints measured | 380 s\n"}
+,{"stream_name":"stdout","time":3778.169611182,"data":"[gpu0] std  mod s2 lr 0.001 | final acc 1.000 (plus 1.000, minus 1.000) | 201 checkpoints measured | 380 s\n"}
+,{"stream_name":"stdout","time":4066.233374275,"data":"[gpu1] loop mod s2 lr 0.001 | final acc 0.997 (plus 0.997, minus 0.997) | 201 checkpoints measured | 356 s\n"}
+,{"stream_name":"stdout","time":4135.661855827,"data":"[gpu0] loop mod s1 lr 0.001 | final acc 1.000 (plus 1.000, minus 1.000) | 201 checkpoints measured | 357 s\n"}
+,{"stream_name":"stdout","time":4211.202898383,"data":"[gpu1] std2 mod s1 lr 0.001 | final acc 1.000 (plus 1.000, minus 1.000) | 201 checkpoints measured | 145 s\n"}
+,{"stream_name":"stdout","time":4356.373411294,"data":"[gpu1] std2 mod s3 lr 0.001 | final acc 1.000 (plus 1.000, minus 1.000) | 201 checkpoints measured | 145 s\n"}
+,{"stream_name":"stdout","time":4491.144518517,"data":"[gpu0] loop mod s3 lr 0.001 | final acc 1.000 (plus 1.000, minus 1.000) | 201 checkpoints measured | 355 s\n"}
+,{"stream_name":"stdout","time":4632.406058746,"data":"[gpu0] std2 mod s2 lr 0.001 | final acc 0.998 (plus 0.998, minus 0.998) | 201 checkpoints measured | 141 s\n"}
+,{"stream_name":"stdout","time":4633.368629092,"data":"exit codes [0, 0]\n"}
+,{"stream_name":"stderr","time":4636.526478844,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":4636.526514454,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":4637.08805906,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":4637.088090852,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":4638.299270582,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":4639.909121657,"data":"[NbConvertApp] Writing 294166 bytes to __results__.html\n"}
+]

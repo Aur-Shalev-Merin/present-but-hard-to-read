@@ -1,0 +1,13 @@
+v220 study | device cuda | TINY False | 9 cells
+/kaggle/working/v220_study.py:71: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  curve.append([s + 1, round(float(loss), 4), *evaluate()])
+std  dig s2 lr 0.003 | final acc 0.992 (plus 0.991, minus 1.000) | 301 checkpoints measured | 879 s
+loop dig s1 lr 0.0003 | final acc 0.999 (plus 1.000, minus 0.993) | 301 checkpoints measured | 809 s
+loop dig s3 lr 0.0003 | final acc 0.998 (plus 0.998, minus 0.998) | 301 checkpoints measured | 855 s
+std2 dig s2 lr 0.0003 | final acc 1.000 (plus 1.000, minus 1.000) | 301 checkpoints measured | 375 s
+std  mod s1 lr 0.001 | final acc 0.998 (plus 0.999, minus 0.998) | 201 checkpoints measured | 382 s
+std  mod s3 lr 0.001 | final acc 1.000 (plus 1.000, minus 1.000) | 201 checkpoints measured | 380 s
+loop mod s2 lr 0.001 | final acc 0.997 (plus 0.997, minus 0.997) | 201 checkpoints measured | 356 s
+std2 mod s1 lr 0.001 | final acc 1.000 (plus 1.000, minus 1.000) | 201 checkpoints measured | 145 s
+std2 mod s3 lr 0.001 | final acc 1.000 (plus 1.000, minus 1.000) | 201 checkpoints measured | 145 s

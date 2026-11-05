@@ -1,0 +1,35 @@
+[{"stream_name":"stdout","time":1.4507808930000001,"data":"v215_pilot.py d049a0b2d81fb80b\n"}
+,{"stream_name":"stdout","time":1.451010945,"data":"v215_items.py 9249f0523d7219eb\n"}
+,{"stream_name":"stdout","time":1.45125017,"data":"v216_items.py a2ebd48b899fed40\n"}
+,{"stream_name":"stdout","time":1.451443112,"data":"v216_theirprobe.py b97c3d637be324d2\n"}
+,{"stream_name":"stdout","time":1.453079349,"data":"=== v216_theirprobe.py ['probe', '/kaggle/input'] {}\n"}
+,{"stream_name":"stdout","time":17.194995851,"data":"items sha c50b807676079b6d | train 10000 / test 2000 (no shared b equation) | model answers correctly: train 0.691, test 0.692\n"}
+,{"stream_name":"stdout","time":2121.677932314,"data":"b (majority 0.199), test accuracy by position and layer [0, 4, 8, 12, 16, 20, 24, 28]:\n"}
+,{"stream_name":"stdout","time":2121.678279319,"data":"  eq   all   0.00 0.12 0.33 0.32 0.61 0.63 0.52 0.48\n"}
+,{"stream_name":"stdout","time":2121.678427074,"data":"  eq   right 0.00 0.10 0.31 0.28 0.54 0.56 0.47 0.43\n"}
+,{"stream_name":"stdout","time":2121.678836788,"data":"  eq   wrong 0.00 0.18 0.39 0.41 0.76 0.77 0.64 0.61\n"}
+,{"stream_name":"stdout","time":2121.678992095,"data":"  pre  all   0.16 0.19 0.22 0.32 0.41 0.61 0.72 0.74\n"}
+,{"stream_name":"stdout","time":2121.679305696,"data":"  pre  right 0.12 0.15 0.18 0.28 0.37 0.58 0.70 0.73\n"}
+,{"stream_name":"stdout","time":2121.679658974,"data":"  pre  wrong 0.24 0.27 0.31 0.41 0.50 0.69 0.77 0.76\n"}
+,{"stream_name":"stdout","time":2121.679841169,"data":"  last all   0.16 0.09 0.21 0.28 0.35 0.45 0.58 0.52\n"}
+,{"stream_name":"stdout","time":2121.680244238,"data":"  last right 0.12 0.07 0.17 0.24 0.30 0.42 0.54 0.49\n"}
+,{"stream_name":"stdout","time":2121.680572945,"data":"  last wrong 0.24 0.15 0.31 0.37 0.46 0.52 0.67 0.59\n"}
+,{"stream_name":"stdout","time":2121.681136812,"data":"  b max over positions and layers 0.738 at pre layer 28 (theirs 69.1%); there, correctly answered 0.726, wrongly 0.765\n"}
+,{"stream_name":"stdout","time":2121.681572832,"data":"a (majority 0.110), test accuracy by position and layer [0, 4, 8, 12, 16, 20, 24, 28]:\n"}
+,{"stream_name":"stdout","time":2121.681893698,"data":"  eq   all   0.08 0.21 0.26 0.27 0.32 0.31 0.28 0.29\n"}
+,{"stream_name":"stdout","time":2121.682148249,"data":"  eq   right 0.08 0.19 0.24 0.26 0.31 0.30 0.27 0.28\n"}
+,{"stream_name":"stdout","time":2121.682428061,"data":"  eq   wrong 0.10 0.24 0.30 0.30 0.32 0.31 0.31 0.31\n"}
+,{"stream_name":"stdout","time":2121.682598484,"data":"  pre  all   0.11 0.22 0.22 0.21 0.34 0.42 0.77 0.85\n"}
+,{"stream_name":"stdout","time":2121.682900971,"data":"  pre  right 0.11 0.22 0.22 0.21 0.33 0.42 0.84 0.97\n"}
+,{"stream_name":"stdout","time":2121.683176135,"data":"  pre  wrong 0.12 0.21 0.21 0.22 0.35 0.43 0.61 0.58\n"}
+,{"stream_name":"stdout","time":2121.683290463,"data":"  last all   0.11 0.19 0.21 0.21 0.22 0.25 0.26 0.23\n"}
+,{"stream_name":"stdout","time":2121.683903224,"data":"  last right 0.11 0.20 0.20 0.21 0.23 0.25 0.26 0.23\n"}
+,{"stream_name":"stdout","time":2121.684198007,"data":"  last wrong 0.12 0.18 0.22 0.21 0.20 0.25 0.26 0.23\n"}
+,{"stream_name":"stdout","time":2121.684626503,"data":"  a max over positions and layers 0.850 at pre layer 28 (theirs 40.8%); there, correctly answered 0.969, wrongly 0.583\n"}
+,{"stream_name":"stderr","time":2124.901573221,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":2124.901637876,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":2125.391327045,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":2125.391382335,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":2128.274584326,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":2129.757988516,"data":"[NbConvertApp] Writing 294900 bytes to __results__.html\n"}
+]

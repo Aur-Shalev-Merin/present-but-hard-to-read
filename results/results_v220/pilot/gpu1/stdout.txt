@@ -1,0 +1,10 @@
+v220 pilot | device cuda | TINY False | steps 30000 | 6 cells
+/kaggle/working/v220_train.py:140: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  acc, acc_p, acc_m = evaluate(); curve.append([s + 1, round(float(loss), 4), acc, acc_p, acc_m])
+std  dig lr 0.001  seed 0 | params 2676672 | to 0.95: 23500, to 0.99: 24500 | final acc 0.982 (plus 0.983, minus 0.978) | 26500 steps, 398 s
+std  mod lr 0.0003 seed 0 | params 2680896 | to 0.95: 3000, to 0.99: 7500 | final acc 0.994 (plus 0.993, minus 0.996) | 9500 steps, 136 s
+std  mod lr 0.003  seed 0 | params 2680896 | to 0.95: 3500, to 0.99: 5000 | final acc 0.999 (plus 1.000, minus 0.999) | 7000 steps, 104 s
+loop dig lr 0.001  seed 0 | params 897216 | to 0.95: 22500, to 0.99: 27000 | final acc 0.970 (plus 0.972, minus 0.953) | 29000 steps, 366 s
+loop mod lr 0.0003 seed 0 | params 901440 | to 0.95: 3500, to 0.99: 7000 | final acc 0.984 (plus 0.983, minus 0.985) | 9000 steps, 111 s
+loop mod lr 0.003  seed 0 | params 901440 | to 0.95: 3000, to 0.99: 6500 | final acc 0.997 (plus 0.996, minus 0.997) | 8500 steps, 105 s

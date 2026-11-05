@@ -1,0 +1,24 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793733683.538523      87 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+   1/1000 24s | minus none 0 N 0 F 0 rand 0 full 0 Nsb 0 fullsb 0 btok 9 | own 0 target 8 target_b 9
+  51/1000 539s | minus none 4 N 4 F 4 rand 4 full 4 Nsb 4 fullsb 4 btok 0 | own 4 target 2 target_b 0
+ 101/1000 1070s | minus none 4 N 4 F 4 rand 4 full 4 Nsb 4 fullsb 4 btok 9 | own 4 target 6 target_b 9
+ 151/1000 1599s | minus none 6 N 6 F 6 rand 6 full 6 Nsb 6 fullsb 6 btok 7 | own 6 target 8 target_b 7
+ 201/1000 2124s | minus none 4 N 4 F 4 rand 4 full 4 Nsb 4 fullsb 4 btok 2 | own 4 target 8 target_b 2
+ 251/1000 2658s | minus none 1 N 1 F 1 rand 1 full 1 Nsb 1 fullsb 1 btok 5 | own 1 target 3 target_b 5
+ 301/1000 3193s | minus none 4 N 4 F 4 rand 4 full 4 Nsb 4 fullsb 4 btok 9 | own 4 target 6 target_b 9
+ 351/1000 3725s | minus none 2 N 2 F 2 rand 2 full 2 Nsb 2 fullsb 2 btok 6 | own 2 target 0 target_b 6
+ 401/1000 4252s | minus none 6 N 6 F 6 rand 6 full 6 Nsb 6 fullsb 6 btok 2 | own 6 target 4 target_b 2
+ 451/1000 4779s | minus none 4 N 4 F 4 rand 4 full 4 Nsb 4 fullsb 4 btok 8 | own 4 target 0 target_b 8
+ 501/1000 5303s | minus none 0 N 0 F 0 rand 0 full 0 Nsb 0 fullsb 0 btok 6 | own 0 target 8 target_b 6
+ 551/1000 5830s | minus none 2 N 2 F 2 rand 2 full 2 Nsb 2 fullsb 2 btok 6 | own 2 target 8 target_b 6
+ 601/1000 6364s | minus none 5 N 5 F 5 rand 5 full 5 Nsb 5 fullsb 5 btok 3 | own 5 target 9 target_b 3
+ 651/1000 6892s | minus none 2 N 2 F 2 rand 2 full 2 Nsb 2 fullsb 2 btok 9 | own 2 target 6 target_b 9
+ 701/1000 7423s | minus none 6 N 6 F 6 rand 6 full 6 Nsb 6 fullsb 6 btok 6 | own 6 target 8 target_b 6
+ 751/1000 7959s | minus none 4 N 4 F 4 rand 4 full 4 Nsb 4 fullsb 4 btok 8 | own 4 target 6 target_b 8
+ 801/1000 8492s | minus none 5 N 5 F 5 rand 5 full 5 Nsb 5 fullsb 5 btok 8 | own 5 target 7 target_b 8
+ 851/1000 9020s | minus none 2 N 2 F 2 rand 2 full 2 Nsb 2 fullsb 2 btok 9 | own 2 target 4 target_b 9
+ 901/1000 9550s | minus none 2 N 2 F 2 rand 2 full 2 Nsb 2 fullsb 2 btok 9 | own 2 target 8 target_b 9
+ 951/1000 10081s | minus none 8 N 8 F 8 rand 8 full 8 Nsb 8 fullsb 8 btok 4 | own 8 target 4 target_b 4
+1000/1000 10605s | minus none 1 N 1 F 1 rand 1 full 1 Nsb 1 fullsb 1 btok 3 | own 1 target 5 target_b 3
+done 10604s, 1000 pairs

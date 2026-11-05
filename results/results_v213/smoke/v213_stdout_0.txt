@@ -1,0 +1,53 @@
+Generating train split:   0%|          | 0/7473 [00:00<?, ? examples/s]Generating train split:  13%|█▎        | 1000/7473 [00:00<00:01, 5871.19 examples/s]Generating train split: 100%|██████████| 7473/7473 [00:00<00:00, 42087.50 examples/s]
+Generating test split:   0%|          | 0/1319 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 1319/1319 [00:00<00:00, 190669.89 examples/s]
+v213 extract | Qwen/Qwen2.5-7B | part v181 | pilot True | prefix 213 tokens | 161s to load
+check cached vs full (relative): logits 2.43e-03, states 3.97e-03 (limit 1e-02)
+v181   1/3 families (163s)
+v181   3/3 families (166s)
+v181 done: 30 prompts, cached 30, ok 30 (166s)
+v213 extract | Qwen/Qwen2.5-7B | part b1 | pilot True | prefix 213 tokens | 40s to load
+swap tokens [' tent', ' stere', ' terra', ' learns', ' bas', ' easiest', ' priv', ' counted', ' upright', ' matte'] | noise norm 0.860 (median embedding norm)
+check cached vs full (relative): logits 1.65e-03, states 3.12e-03 (limit 1e-02)
+check cached vs full (relative): logits 1.41e-03, states 4.34e-03 (limit 1e-02)
+b1   1/3 families (43s)
+b1   3/3 families (47s)
+b1 done: 60 prompts, cached 60, ok 60 (47s)
+v213 extract | Qwen/Qwen2.5-7B | part b2 | pilot True | prefix 213 tokens | 33s to load
+Generating train split:   0%|          | 0/200035 [00:00<?, ? examples/s]Generating train split:   0%|          | 1000/200035 [00:00<00:38, 5191.77 examples/s]Generating train split:  25%|██▍       | 50000/200035 [00:00<00:00, 208806.14 examples/s]Generating train split:  46%|████▋     | 93000/200035 [00:00<00:00, 270867.76 examples/s]Generating train split:  63%|██████▎   | 127000/200035 [00:00<00:00, 289945.86 examples/s]Generating train split:  83%|████████▎ | 167000/200035 [00:00<00:00, 320560.64 examples/s]Generating train split: 100%|██████████| 200035/200035 [00:00<00:00, 260169.17 examples/s]
+check cached vs full (relative): logits 2.60e-03, states 4.47e-03 (limit 1e-02)
+b2_s0     1/12 prompts (67s, 0.695 s/prompt)
+b2_s0    12/12 prompts (69s, 0.161 s/prompt)
+b2_s0 done: 12 prompts, cached 12, ok 12 (69s)
+v213 extract | Qwen/Qwen2.5-7B | part b3 | pilot True | prefix 213 tokens | 33s to load
+check cached vs full (relative): logits 3.03e-03, states 4.50e-03 (limit 1e-02)
+b3     1/12 prompts (64s, 0.710 s/prompt)
+b3    12/12 prompts (65s, 0.155 s/prompt)
+b3 done: 12 prompts, cached 12, ok 12 (65s)
+A new version of the following files was downloaded from https://huggingface.co/ByteDance/Ouro-2.6B:
+- configuration_ouro.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+A new version of the following files was downloaded from https://huggingface.co/ByteDance/Ouro-2.6B:
+- modeling_ouro.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+v213 extract | ByteDance/Ouro-2.6B | part v181 | pilot True | prefix 222 tokens | 65s to load
+check cached vs full (absolute): logits 3.43e-05, states 3.24e-05 (limit 1e-03)
+v181   1/3 families (76s)
+v181   3/3 families (92s)
+v181 done: 30 prompts, cached 30, ok 30 (92s)
+v213 extract | ByteDance/Ouro-2.6B | part b1 | pilot True | prefix 222 tokens | 27s to load
+swap tokens [' tent', ' vec', ' research', ' gram', ' episodes', ' outer', ' visual', ' mistress', ' nobility', ' calorie'] | noise norm 1.063 (median embedding norm)
+check cached vs full (absolute): logits 3.24e-05, states 2.57e-05 (limit 1e-03)
+check cached vs full (absolute): logits 2.91e-05, states 3.67e-05 (limit 1e-03)
+b1   1/3 families (49s)
+b1   3/3 families (83s)
+b1 done: 60 prompts, cached 60, ok 60 (83s)
+v213 extract | ByteDance/Ouro-2.6B | part b2 | pilot True | prefix 222 tokens | 25s to load
+check cached vs full (absolute): logits 2.86e-05, states 3.44e-05 (limit 1e-03)
+b2_s0     1/12 prompts (60s, 3.912 s/prompt)
+b2_s0    12/12 prompts (69s, 1.077 s/prompt)
+b2_s0 done: 12 prompts, cached 12, ok 12 (69s)
+v213 extract | ByteDance/Ouro-2.6B | part b3 | pilot True | prefix 222 tokens | 23s to load
+check cached vs full (absolute): logits 3.24e-05, states 3.02e-05 (limit 1e-03)
+b3     1/12 prompts (57s, 3.225 s/prompt)
+b3    12/12 prompts (64s, 0.831 s/prompt)
+b3 done: 12 prompts, cached 12, ok 12 (64s)

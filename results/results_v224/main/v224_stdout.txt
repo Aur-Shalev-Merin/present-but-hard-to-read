@@ -1,0 +1,35 @@
+=== v224_share.py ['main', '/kaggle/input'] {}
+=== fresh control 1: Qwen2.5-1.5B, b step (primary inb) ===
+inb    N 0.094  Rbar 0.038  lift +0.055 [+0.048, +0.062]  D+ +0.032  D- +0.066  I +0.049 [+0.042, +0.055]  I/N +0.52  -> UNSCORABLE
+       shares: plus_S 0.082 plus_M 0.050 plus_R0 0.018 plus_R1 0.043 plus_R2 0.051 plus_R3 0.025 minus_S 0.039 minus_M 0.106 minus_R0 0.024 minus_R1 0.055 minus_R2 0.063 minus_R3 0.027 | G1 {'plus': 0.778, 'minus': 0.7803333333333333}
+eqb    N 0.038  Rbar 0.018  lift +0.020 [+0.015, +0.024]  D+ +0.001  D- +0.028  I +0.015 [+0.011, +0.018]  I/N +0.39  -> UNSCORABLE
+       shares: plus_S 0.027 plus_M 0.026 plus_R0 0.008 plus_R1 0.019 plus_R2 0.023 plus_R3 0.011 minus_S 0.020 minus_M 0.048 minus_R0 0.010 minus_R1 0.027 minus_R2 0.034 minus_R3 0.014 | G1 {'plus': 0.778, 'minus': 0.7803333333333333}
+letb   N 0.009  Rbar 0.006  lift +0.003 [+0.003, +0.004]  D+ -0.003  D- +0.013  I +0.005 [+0.004, +0.006]  I/N +0.56  -> UNSCORABLE
+       shares: plus_S 0.002 plus_M 0.005 plus_R0 0.003 plus_R1 0.003 plus_R2 0.005 plus_R3 0.002 minus_S 0.003 minus_M 0.016 minus_R0 0.004 minus_R1 0.008 minus_R2 0.018 minus_R3 0.003 | G1 {'plus': 0.778, 'minus': 0.7803333333333333}
+eq     N 0.039  Rbar 0.029  lift +0.009 [+0.008, +0.011]  D+ -0.034  D- +0.051  I +0.009 [+0.008, +0.010]  I/N +0.22  -> UNSCORABLE
+       shares: plus_S 0.011 plus_M 0.045 plus_R0 0.013 plus_R1 0.024 plus_R2 0.050 plus_R3 0.012 minus_S 0.015 minus_M 0.067 minus_R0 0.018 minus_R1 0.039 minus_R2 0.065 minus_R3 0.015 | G1 {'plus': 0.778, 'minus': 0.7803333333333333}
+last   N 0.008  Rbar 0.006  lift +0.002 [+0.002, +0.003]  D+ -0.003  D- +0.010  I +0.004 [+0.003, +0.004]  I/N +0.44  -> UNSCORABLE
+       shares: plus_S 0.002 plus_M 0.006 plus_R0 0.003 plus_R1 0.004 plus_R2 0.007 plus_R3 0.003 minus_S 0.003 minus_M 0.014 minus_R0 0.004 minus_R1 0.007 minus_R2 0.016 minus_R3 0.003 | G1 {'plus': 0.778, 'minus': 0.7803333333333333}
+=== fresh control 2: Qwen2.5-7B, a step (primary inA) ===
+inA    N 0.112  Rbar 0.036  lift +0.076 [+0.069, +0.083]  D+ +0.061  D- +0.085  I +0.073 [+0.065, +0.080]  I/N +0.65  -> FOLLOWS
+       shares: plus_S 0.105 plus_M 0.044 plus_R0 0.019 plus_R1 0.033 plus_R2 0.051 plus_R3 0.024 minus_S 0.035 minus_M 0.120 minus_R0 0.025 minus_R1 0.049 minus_R2 0.059 minus_R3 0.028 | G1 {'plus': 0.9228333333333333, 'minus': 0.935}
+eqa    N 0.090  Rbar 0.031  lift +0.059 [+0.054, +0.064]  D+ +0.035  D- +0.075  I +0.055 [+0.049, +0.060]  I/N +0.61  -> FOLLOWS
+       shares: plus_S 0.075 plus_M 0.041 plus_R0 0.015 plus_R1 0.029 plus_R2 0.041 plus_R3 0.020 minus_S 0.030 minus_M 0.105 minus_R0 0.021 minus_R1 0.045 minus_R2 0.054 minus_R3 0.024 | G1 {'plus': 0.9228333333333333, 'minus': 0.935}
+digB   N 0.019  Rbar 0.013  lift +0.005 [+0.004, +0.006]  D+ -0.024  D- +0.028  I +0.002 [+0.001, +0.002]  I/N +0.10  -> UNCLEAR
+       shares: plus_S 0.005 plus_M 0.029 plus_R0 0.009 plus_R1 0.012 plus_R2 0.027 plus_R3 0.004 minus_S 0.005 minus_M 0.032 minus_R0 0.007 minus_R1 0.013 minus_R2 0.031 minus_R3 0.004 | G1 {'plus': 0.9228333333333333, 'minus': 0.935}
+eq     N 0.003  Rbar 0.002  lift +0.001 [+0.000, +0.001]  D+ -0.003  D- +0.004  I +0.000 [+0.000, +0.000]  I/N +0.11  -> UNCLEAR
+       shares: plus_S 0.001 plus_M 0.004 plus_R0 0.001 plus_R1 0.001 plus_R2 0.005 plus_R3 0.000 minus_S 0.001 minus_M 0.005 minus_R0 0.001 minus_R1 0.002 minus_R2 0.005 minus_R3 0.000 | G1 {'plus': 0.9228333333333333, 'minus': 0.935}
+last   N 0.001  Rbar 0.001  lift +0.000 [+0.000, +0.000]  D+ -0.001  D- +0.001  I -0.000 [-0.000, +0.000]  I/N -0.09  -> DOES-NOT-FOLLOW
+       shares: plus_S 0.000 plus_M 0.001 plus_R0 0.000 plus_R1 0.000 plus_R2 0.002 plus_R3 0.000 minus_S 0.000 minus_M 0.001 minus_R0 0.000 minus_R1 0.000 minus_R2 0.001 minus_R3 0.000 | G1 {'plus': 0.9228333333333333, 'minus': 0.935}
+=== null worlds, fresh seeds 7-12 at every lam (no run may be FOLLOWS) ===
+  b pair        FOLLOWS in 0/42
+  b fourier     FOLLOWS in 0/42
+  b mlp         FOLLOWS in 0/42
+  b paircode    FOLLOWS in 0/42
+  b paircode_op FOLLOWS in 0/42
+  a pair        FOLLOWS in 0/42
+  a fourier     FOLLOWS in 0/42
+  a mlp         FOLLOWS in 0/42
+  a paircode    FOLLOWS in 0/42
+  a paircode_op FOLLOWS in 0/42
+primary: control 1 inb UNSCORABLE, control 2 inA FOLLOWS, null FOLLOWS 0 -> method PARTIAL

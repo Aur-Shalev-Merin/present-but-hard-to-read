@@ -1,0 +1,6 @@
+v230 pilot | device cuda | TINY False | steps 30000 | lr 0.001 | DAS m 16, 2000 steps | cells ['loop:pos:0', 'std:neg:0']
+/kaggle/working/v230_pilot.py:112: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  net.train(); curve.append([s + 1, round(float(loss), 4), acc])
+train loop pos seed 0 | to 0.99: None | final acc 0.3662 | 30000 steps, 400 s
+train std neg seed 0 | to 0.99: 7000 | final acc 0.9967 | 9000 steps, 140 s

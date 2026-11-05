@@ -1,0 +1,13 @@
+v221 extract | pilot False | items sha 50a50828de872803 (frozen 50a50828de872803)
+loaded Qwen/Qwen2.5-7B in 128s | 12000 items
+positions {'eq': 94, 'last': 97, 'letb': 98, 'eqb': 99, 'inb': 100} -> {'eq': '0', 'last': '?', 'letb': ' t', 'eqb': ' =', 'inb': ' '} | b digit token 101 '0'
+fam     1/12000 (1.034 s/item) | b step correct so far 1.000
+fam   100/12000 (0.121 s/item) | b step correct so far 1.000
+fam   500/12000 (0.113 s/item) | b step correct so far 1.000
+fam  2000/12000 (0.115 s/item) | b step correct so far 0.980
+fam  4000/12000 (0.116 s/item) | b step correct so far 0.957
+fam  6000/12000 (0.116 s/item) | b step correct so far 0.961
+fam  8000/12000 (0.116 s/item) | b step correct so far 0.937
+fam 10000/12000 (0.115 s/item) | b step correct so far 0.925
+fam 12000/12000 (0.116 s/item) | b step correct so far 0.911
+done: 12000 items, b step correct 0.9112 (1515s)

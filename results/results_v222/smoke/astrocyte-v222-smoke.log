@@ -1,0 +1,30 @@
+[{"stream_name":"stdout","time":1.749462817,"data":"v215_pilot.py d049a0b2d81fb80b\n"}
+,{"stream_name":"stdout","time":1.749636217,"data":"v215_items.py 9249f0523d7219eb\n"}
+,{"stream_name":"stdout","time":1.7497949579999998,"data":"v221_items.py 2b6bd412a702ccc4\n"}
+,{"stream_name":"stdout","time":1.749956862,"data":"v222_items.py b5813a4fb56ef4f8\n"}
+,{"stream_name":"stdout","time":1.7503766889999999,"data":"v215_analyze.py e9d53523b1da41e2\n"}
+,{"stream_name":"stdout","time":1.750699557,"data":"v178_analyze.py 90bbc8a848dc5544\n"}
+,{"stream_name":"stdout","time":1.7510475159999999,"data":"v222_clamp.py 25c7dccc72e25c7f\n"}
+,{"stream_name":"stderr","time":24.335446115,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":24.335476859,"data":"gradio 6.26.0 requires huggingface-hub\u003c2.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":24.335482815,"data":"gradio 6.26.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":24.335489722,"data":"diffusers 0.40.0 requires huggingface-hub\u003c2.0,\u003e=1.23.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":24.566123122,"data":"=== v222_clamp.py ['all'] {'V222_SMOKE': '1'}\n"}
+,{"stream_name":"stdout","time":25.98223986,"data":"v222 items sha f917c3b7da3ddc87 (frozen f917c3b7da3ddc87)\n"}
+,{"stream_name":"stdout","time":196.568813662,"data":"loaded Qwen/Qwen2.5-7B in 140s\n"}
+,{"stream_name":"stdout","time":198.583797187,"data":"digB token 101 '0', inA token 105 ' ', a digit '0'\n"}
+,{"stream_name":"stdout","time":198.584183187,"data":"item     1/40 (2.012 s/item) | b correct 1.000, a correct 1.000, both 1.000\n"}
+,{"stream_name":"stdout","time":202.92655119,"data":"item    40/40 (0.159 s/item) | b correct 1.000, a correct 0.900, both 0.900\n"}
+,{"stream_name":"stdout","time":202.935869571,"data":"plus: b correct 1.000, a correct 1.000, both 1.000\n"}
+,{"stream_name":"stdout","time":202.936287111,"data":"minus: b correct 1.000, a correct 0.800, both 0.800\n"}
+,{"stream_name":"stdout","time":204.185503514,"data":"1/20 pairs (1.21 s/pair) | hit so far: none 0.000 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 full 1.000 fullall 1.000 mech 1.000\n"}
+,{"stream_name":"stdout","time":224.369756806,"data":"20/20 pairs (1.07 s/pair) | hit so far: none 0.050 cB 0.050 cBo 0.050 cD 0.050 cR 0.050 full 0.900 fullall 0.900 mech 0.900\n"}
+,{"stream_name":"stdout","time":224.518405271,"data":"digB -\u003e a (20 pairs, SMOKE): hit none 0.050 cB 0.050 cBo 0.050 cD 0.050 cR 0.050 full 0.900 fullall 0.900 | kept own A none 0.850 cB 0.850 cBo 0.850 cD 0.850 cR 0.850 full 0.100 fullall 0.100 | cBo - cR +0.0000 [+0.0000, +0.0000] -\u003e NOT-USED (cB - cR +0.0000, descriptive)\n"}
+,{"stream_name":"stdout","time":224.518710557,"data":"  a = 0+ b (20 pairs): hit none 0.050 cB 0.050 cBo 0.050 cD 0.050 cR 0.050 full 0.900 fullall 0.900\n"}
+,{"stream_name":"stderr","time":236.831090947,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":236.831145626,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":237.32256882,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":237.322609638,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":238.277300674,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":239.291843491,"data":"[NbConvertApp] Writing 312859 bytes to __results__.html\n"}
+]

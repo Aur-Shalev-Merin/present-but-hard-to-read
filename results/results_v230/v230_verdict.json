@@ -1,0 +1,59 @@
+{
+ "null_follows": 1,
+ "arms": {
+  "share": {
+   "neg_false_pos": [],
+   "gt_negative_false_pos": [],
+   "specific": false,
+   "k6": {
+    "labels": {
+     "0": "FOLLOWS",
+     "1": "FOLLOWS",
+     "2": "FOLLOWS",
+     "3": "FOLLOWS",
+     "4": "FOLLOWS"
+    },
+    "n_yes": 5,
+    "power": "DETECTS"
+   },
+   "k0": {
+    "labels": {
+     "0": "FOLLOWS",
+     "1": "FOLLOWS",
+     "2": "FOLLOWS",
+     "3": "FOLLOWS",
+     "4": "FOLLOWS"
+    },
+    "n_yes": 5,
+    "power": "DETECTS"
+   }
+  },
+  "clamp": {
+   "neg_false_pos": [],
+   "gt_negative_false_pos": [],
+   "specific": true,
+   "k6": {
+    "labels": {
+     "0": "USED",
+     "1": "USED",
+     "2": "USED",
+     "3": "USED",
+     "4": "USED"
+    },
+    "n_yes": 5,
+    "power": "DETECTS"
+   },
+   "k0": {
+    "labels": {
+     "0": "USED",
+     "1": "USED",
+     "2": "USED",
+     "3": "USED",
+     "4": "USED"
+    },
+    "n_yes": 5,
+    "power": "DETECTS"
+   }
+  }
+ }
+}

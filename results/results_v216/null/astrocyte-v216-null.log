@@ -1,0 +1,39 @@
+[{"stream_name":"stdout","time":1.026253535,"data":"v215_pilot.py d049a0b2d81fb80b\n"}
+,{"stream_name":"stdout","time":1.026449495,"data":"v215_items.py 9249f0523d7219eb\n"}
+,{"stream_name":"stdout","time":1.026590335,"data":"v216_items.py a2ebd48b899fed40\n"}
+,{"stream_name":"stdout","time":1.026855156,"data":"v215_analyze.py e9d53523b1da41e2\n"}
+,{"stream_name":"stdout","time":1.027016506,"data":"v216_analyze.py 1a7cb2f0c1506129\n"}
+,{"stream_name":"stdout","time":1.027244276,"data":"v178_analyze.py 90bbc8a848dc5544\n"}
+,{"stream_name":"stdout","time":1.027412256,"data":"v216_null.py 517b60e85cc401ba\n"}
+,{"stream_name":"stdout","time":1.028852706,"data":"=== v216_null.py ['/kaggle/input'] {}\n"}
+,{"stream_name":"stdout","time":1.991461228,"data":"--- eq: observed ex_N +0.3792, I +0.0024 ---\n"}
+,{"stream_name":"stdout","time":255.574488855,"data":"calib pair    ex_N over lam (0.25, 0.5, 1.0, 2.0, 4.0, 8.0, 16.0): +0.077 +0.271 +0.410 +0.426 +0.426 +0.426 +0.426\n"}
+,{"stream_name":"stdout","time":475.40184039,"data":"  pair lam* 0.859: ex_N +0.395 +0.394 +0.391 +0.399 +0.393 +0.391 | I +0.003 -0.006 -0.004 +0.003 +0.004 +0.000\n"}
+,{"stream_name":"stdout","time":815.948740879,"data":"calib fourier ex_N over lam (0.25, 0.5, 1.0, 2.0, 4.0, 8.0, 16.0): +0.198 +0.365 +0.423 +0.426 +0.426 +0.426 +0.426\n"}
+,{"stream_name":"stdout","time":1060.678243072,"data":"  fourier lam* 0.589: ex_N +0.391 +0.389 +0.382 +0.392 +0.387 +0.384 | I +0.014 +0.015 +0.006 +0.018 +0.015 +0.004\n"}
+,{"stream_name":"stdout","time":1404.068593925,"data":"calib mlp     ex_N over lam (0.25, 0.5, 1.0, 2.0, 4.0, 8.0, 16.0): -0.045 -0.000 +0.129 +0.315 +0.418 +0.426 +0.426\n"}
+,{"stream_name":"stdout","time":1671.767076573,"data":"  mlp lam* 3.075: ex_N +0.399 +0.396 +0.397 +0.409 +0.398 +0.408 | I +0.005 -0.001 +0.002 -0.000 +0.005 +0.004\n"}
+,{"stream_name":"stdout","time":1671.767159763,"data":"eq: null I max +0.0178 vs observed +0.0024 -\u003e NOT-SEPARABLE\n"}
+,{"stream_name":"stdout","time":1671.767170103,"data":"--- pre: observed ex_N +0.2706, I +0.0183 ---\n"}
+,{"stream_name":"stdout","time":1923.193519209,"data":"calib pair    ex_N over lam (0.25, 0.5, 1.0, 2.0, 4.0, 8.0, 16.0): +0.077 +0.271 +0.410 +0.426 +0.426 +0.426 +0.426\n"}
+,{"stream_name":"stdout","time":2205.40604691,"data":"  pair lam* 0.500: ex_N +0.261 +0.264 +0.265 +0.273 +0.265 +0.259 | I +0.023 +0.001 +0.015 +0.014 +0.023 +0.014\n"}
+,{"stream_name":"stdout","time":2550.192163978,"data":"calib fourier ex_N over lam (0.25, 0.5, 1.0, 2.0, 4.0, 8.0, 16.0): +0.198 +0.365 +0.423 +0.426 +0.426 +0.426 +0.426\n"}
+,{"stream_name":"stdout","time":2856.477412292,"data":"  fourier lam* 0.338: ex_N +0.285 +0.282 +0.268 +0.280 +0.280 +0.264 | I +0.047 +0.046 +0.029 +0.044 +0.045 +0.018\n"}
+,{"stream_name":"stdout","time":3202.298960258,"data":"calib mlp     ex_N over lam (0.25, 0.5, 1.0, 2.0, 4.0, 8.0, 16.0): -0.045 -0.000 +0.129 +0.315 +0.418 +0.426 +0.426\n"}
+,{"stream_name":"stdout","time":3502.735247545,"data":"  mlp lam* 1.696: ex_N +0.276 +0.274 +0.269 +0.304 +0.276 +0.301 | I +0.023 +0.014 +0.013 +0.009 +0.022 +0.027\n"}
+,{"stream_name":"stdout","time":3502.735284034,"data":"pre: null I max +0.0469 vs observed +0.0183 -\u003e NOT-SEPARABLE\n"}
+,{"stream_name":"stdout","time":3502.735289794,"data":"--- last: observed ex_N +0.1374, I +0.0352 ---\n"}
+,{"stream_name":"stdout","time":3763.141804053,"data":"calib pair    ex_N over lam (0.25, 0.5, 1.0, 2.0, 4.0, 8.0, 16.0): +0.077 +0.271 +0.410 +0.426 +0.426 +0.426 +0.426\n"}
+,{"stream_name":"stdout","time":4091.231116487,"data":"  pair lam* 0.310: ex_N +0.119 +0.121 +0.124 +0.130 +0.119 +0.119 | I +0.036 +0.017 +0.031 +0.028 +0.030 +0.032\n"}
+,{"stream_name":"stdout","time":4438.337653478,"data":"calib fourier ex_N over lam (0.25, 0.5, 1.0, 2.0, 4.0, 8.0, 16.0): +0.198 +0.365 +0.423 +0.426 +0.426 +0.426 +0.426\n"}
+,{"stream_name":"stdout","time":4754.547356909,"data":"  fourier lam* 0.250: ex_N +0.205 +0.200 +0.188 +0.201 +0.199 +0.185 | I +0.055 +0.054 +0.033 +0.057 +0.051 +0.025\n"}
+,{"stream_name":"stdout","time":5106.915526044,"data":"calib mlp     ex_N over lam (0.25, 0.5, 1.0, 2.0, 4.0, 8.0, 16.0): -0.045 -0.000 +0.129 +0.315 +0.418 +0.426 +0.426\n"}
+,{"stream_name":"stdout","time":5439.587256325,"data":"  mlp lam* 1.033: ex_N +0.133 +0.130 +0.131 +0.163 +0.134 +0.158 | I +0.038 +0.026 +0.033 +0.026 +0.032 +0.045\n"}
+,{"stream_name":"stdout","time":5439.587293645,"data":"last: null I max +0.0568 vs observed +0.0352 -\u003e NOT-SEPARABLE\n"}
+,{"stream_name":"stderr","time":5442.288634252,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":5442.288670692,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":5442.74151131,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":5442.74155766,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":5445.270766953,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":5446.540489289,"data":"[NbConvertApp] Writing 314683 bytes to __results__.html\n"}
+]

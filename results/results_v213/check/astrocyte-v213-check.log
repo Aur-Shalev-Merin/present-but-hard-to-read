@@ -1,0 +1,41 @@
+[{"stream_name":"stdout","time":0.650628778,"data":"v213_analyze.py 25207d0f8cf4da84\n"}
+,{"stream_name":"stdout","time":0.650855138,"data":"v202_analyze.py 46d9d8aca3bf0459\n"}
+,{"stream_name":"stdout","time":0.651096978,"data":"v205_analyze.py ee70344632eb5650\n"}
+,{"stream_name":"stdout","time":0.651319118,"data":"v205_saved.py 339d264ae7385d0a\n"}
+,{"stream_name":"stdout","time":0.651546138,"data":"v178_analyze.py 90bbc8a848dc5544\n"}
+,{"stream_name":"stdout","time":0.651700508,"data":"v181_swamp_check.py 0a239557c1360a98\n"}
+,{"stream_name":"stdout","time":0.651845218,"data":"v213_items.py 547ea12099695c45\n"}
+,{"stream_name":"stdout","time":0.652036668,"data":"v205_extract.py 11cc20b80558cd77\n"}
+,{"stream_name":"stdout","time":0.652287478,"data":"v202_extract.py 1c68dc20dde2d0d8\n"}
+,{"stream_name":"stdout","time":3.6399562420000002,"data":"     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 41.7/41.7 kB 1.1 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":4.835372656,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.2/11.2 MB 83.0 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":4.891082968,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 566.4/566.4 kB 12.6 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":4.94830836,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 66.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stderr","time":17.706850266,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":17.706888346,"data":"gradio 6.26.0 requires huggingface-hub\u003c2.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":17.706893116,"data":"diffusers 0.40.0 requires huggingface-hub\u003c2.0,\u003e=1.23.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":117.280954729,"data":"--- process 0 exits [0, 0]\n"}
+,{"stream_name":"stdout","time":117.281052609,"data":"selftest readable  -\u003e CLOSES          OK\n"}
+,{"stream_name":"stdout","time":117.281085019,"data":"selftest hungry    -\u003e STILL-CLIMBING  OK\n"}
+,{"stream_name":"stdout","time":117.281090279,"data":"selftest swamped   -\u003e PLATEAUS-BELOW  OK\n"}
+,{"stream_name":"stdout","time":117.281094839,"data":"\n"}
+,{"stream_name":"stdout","time":117.281098969,"data":"Generating train split:   0%|          | 0/7473 [00:00\u003c?, ? examples/s]\n"}
+,{"stream_name":"stdout","time":117.281103279,"data":"Generating train split: 100%|██████████| 7473/7473 [00:00\u003c00:00, 101669.63 examples/s]\n"}
+,{"stream_name":"stdout","time":117.281108089,"data":"\n"}
+,{"stream_name":"stdout","time":117.281112449,"data":"Generating test split:   0%|          | 0/1319 [00:00\u003c?, ? examples/s]\n"}
+,{"stream_name":"stdout","time":117.281117249,"data":"Generating test split: 100%|██████████| 1319/1319 [00:00\u003c00:00, 235186.28 examples/s]\n"}
+,{"stream_name":"stdout","time":117.281122159,"data":"\n"}
+,{"stream_name":"stdout","time":117.281126519,"data":"Generating train split:   0%|          | 0/200035 [00:00\u003c?, ? examples/s]\n"}
+,{"stream_name":"stdout","time":117.281131159,"data":"Generating train split:  23%|██▎       | 47000/200035 [00:00\u003c00:00, 462302.57 examples/s]\n"}
+,{"stream_name":"stdout","time":117.281149429,"data":"Generating train split:  59%|█████▉    | 119000/200035 [00:00\u003c00:00, 456926.80 examples/s]\n"}
+,{"stream_name":"stdout","time":117.281152649,"data":"Generating train split:  87%|████████▋ | 174000/200035 [00:00\u003c00:00, 478070.96 examples/s]\n"}
+,{"stream_name":"stdout","time":117.281155799,"data":"Generating train split: 100%|██████████| 200035/200035 [00:00\u003c00:00, 453573.52 examples/s]\n"}
+,{"stream_name":"stdout","time":117.281159119,"data":"{('gsm', 'train'): 5249, ('gsm', 'test'): 1000, ('orca', 'test'): 1000, ('orca', 'train'): 40000} {'orca_usable_clean': 128251, 'orca_train_dropped': 33758, 'test_with_gsm_twin': {'gsm': 96, 'orca': 68}} sha16 db8f37a5f24b8c64\n"}
+,{"stream_name":"stdout","time":117.281164039,"data":"\n"}
+,{"stream_name":"stderr","time":119.199830812,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":119.199868572,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":119.455117533,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":119.455152473,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":120.168577517,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":121.16094303,"data":"[NbConvertApp] Writing 336417 bytes to __results__.html\n"}
+]

@@ -1,0 +1,55 @@
+[{"stream_name":"stdout","time":0.987418908,"data":"v215_pilot.py d049a0b2d81fb80b\n"}
+,{"stream_name":"stdout","time":0.987533968,"data":"v215_items.py 9249f0523d7219eb\n"}
+,{"stream_name":"stdout","time":0.987637608,"data":"v221_items.py 2b6bd412a702ccc4\n"}
+,{"stream_name":"stdout","time":0.987905818,"data":"v215_analyze.py e9d53523b1da41e2\n"}
+,{"stream_name":"stdout","time":0.988034188,"data":"v221_analyze.py ef20cc70e480d5cc\n"}
+,{"stream_name":"stdout","time":0.988254448,"data":"v178_analyze.py 90bbc8a848dc5544\n"}
+,{"stream_name":"stdout","time":0.988350348,"data":"v215_null.py cfcc60d81dcb6d25\n"}
+,{"stream_name":"stdout","time":0.989328538,"data":"=== v221_analyze.py ['null', '/kaggle/input'] {}\n"}
+,{"stream_name":"stdout","time":11.668423456,"data":"--- eq: observed ex_N +0.3738, I +0.0010 ---\n"}
+,{"stream_name":"stdout","time":241.429719616,"data":"calib pair    ex_N over lam (0.25, 0.5, 1.0, 2.0, 4.0, 8.0, 16.0): +0.110 +0.343 +0.425 +0.426 +0.426 +0.426 +0.426\n"}
+,{"stream_name":"stdout","time":450.65903489,"data":"  pair lam* 0.649: ex_N +0.399 +0.402 +0.397 +0.396 +0.396 +0.404 | I -0.002 -0.000 -0.002 -0.000 -0.002 +0.000\n"}
+,{"stream_name":"stdout","time":825.338794872,"data":"calib fourier ex_N over lam (0.25, 0.5, 1.0, 2.0, 4.0, 8.0, 16.0): +0.305 +0.416 +0.426 +0.426 +0.426 +0.426 +0.426\n"}
+,{"stream_name":"stdout","time":1062.538302816,"data":"  fourier lam* 0.384: ex_N +0.394 +0.395 +0.394 +0.397 +0.392 +0.390 | I +0.001 +0.005 -0.004 +0.007 +0.001 -0.005\n"}
+,{"stream_name":"stdout","time":1377.162254373,"data":"calib mlp     ex_N over lam (0.25, 0.5, 1.0, 2.0, 4.0, 8.0, 16.0): -0.106 -0.019 +0.175 +0.382 +0.426 +0.426 +0.426\n"}
+,{"stream_name":"stdout","time":1633.513437181,"data":"  mlp lam* 1.948: ex_N +0.396 +0.365 +0.386 +0.386 +0.393 +0.394 | I -0.000 -0.001 -0.001 +0.005 -0.005 +0.002\n"}
+,{"stream_name":"stdout","time":1633.513483521,"data":"eq: null I max +0.0067 vs observed +0.0010 -\u003e NOT-SEPARABLE\n"}
+,{"stream_name":"stdout","time":1633.513490321,"data":"--- last: observed ex_N +0.1213, I +0.0312 ---\n"}
+,{"stream_name":"stdout","time":1857.224548702,"data":"calib pair    ex_N over lam (0.25, 0.5, 1.0, 2.0, 4.0, 8.0, 16.0): +0.110 +0.343 +0.425 +0.426 +0.426 +0.426 +0.426\n"}
+,{"stream_name":"stdout","time":2169.714099024,"data":"  pair lam* 0.259: ex_N +0.129 +0.132 +0.130 +0.120 +0.121 +0.152 | I -0.005 +0.001 -0.003 -0.006 -0.003 +0.001\n"}
+,{"stream_name":"stdout","time":2541.491496618,"data":"calib fourier ex_N over lam (0.25, 0.5, 1.0, 2.0, 4.0, 8.0, 16.0): +0.305 +0.416 +0.426 +0.426 +0.426 +0.426 +0.426\n"}
+,{"stream_name":"stdout","time":2819.003978477,"data":"  fourier lam* 0.250: ex_N +0.304 +0.309 +0.303 +0.312 +0.301 +0.305 | I -0.002 +0.009 -0.009 +0.017 -0.002 -0.004\n"}
+,{"stream_name":"stdout","time":3135.314741575,"data":"calib mlp     ex_N over lam (0.25, 0.5, 1.0, 2.0, 4.0, 8.0, 16.0): -0.106 -0.019 +0.175 +0.382 +0.426 +0.426 +0.426\n"}
+,{"stream_name":"stdout","time":3463.515736755,"data":"  mlp lam* 0.825: ex_N +0.141 +0.100 +0.120 +0.133 +0.147 +0.145 | I -0.004 -0.003 +0.000 +0.007 -0.010 +0.005\n"}
+,{"stream_name":"stdout","time":3463.515765855,"data":"last: null I max +0.0167 vs observed +0.0312 -\u003e BEYOND-MIXING\n"}
+,{"stream_name":"stdout","time":3463.515772075,"data":"--- letb: observed ex_N +0.1496, I +0.0324 ---\n"}
+,{"stream_name":"stdout","time":3688.654072276,"data":"calib pair    ex_N over lam (0.25, 0.5, 1.0, 2.0, 4.0, 8.0, 16.0): +0.110 +0.343 +0.425 +0.426 +0.426 +0.426 +0.426\n"}
+,{"stream_name":"stdout","time":3992.093100945,"data":"  pair lam* 0.281: ex_N +0.159 +0.162 +0.157 +0.147 +0.152 +0.180 | I -0.004 +0.001 -0.003 -0.006 +0.001 -0.001\n"}
+,{"stream_name":"stdout","time":4364.322412588,"data":"calib fourier ex_N over lam (0.25, 0.5, 1.0, 2.0, 4.0, 8.0, 16.0): +0.305 +0.416 +0.426 +0.426 +0.426 +0.426 +0.426\n"}
+,{"stream_name":"stdout","time":4642.963726228,"data":"  fourier lam* 0.250: ex_N +0.304 +0.309 +0.303 +0.312 +0.301 +0.305 | I -0.002 +0.009 -0.009 +0.017 -0.002 -0.004\n"}
+,{"stream_name":"stdout","time":4958.999232624,"data":"calib mlp     ex_N over lam (0.25, 0.5, 1.0, 2.0, 4.0, 8.0, 16.0): -0.106 -0.019 +0.175 +0.382 +0.426 +0.426 +0.426\n"}
+,{"stream_name":"stdout","time":5278.048628953,"data":"  mlp lam* 0.913: ex_N +0.173 +0.133 +0.154 +0.166 +0.181 +0.178 | I -0.004 -0.001 +0.003 +0.007 -0.009 +0.003\n"}
+,{"stream_name":"stdout","time":5278.048661263,"data":"letb: null I max +0.0167 vs observed +0.0324 -\u003e BEYOND-MIXING\n"}
+,{"stream_name":"stdout","time":5278.048665323,"data":"--- eqb: observed ex_N +0.1774, I +0.0235 ---\n"}
+,{"stream_name":"stdout","time":5503.161438563,"data":"calib pair    ex_N over lam (0.25, 0.5, 1.0, 2.0, 4.0, 8.0, 16.0): +0.110 +0.343 +0.425 +0.426 +0.426 +0.426 +0.426\n"}
+,{"stream_name":"stdout","time":5793.83952667,"data":"  pair lam* 0.305: ex_N +0.187 +0.191 +0.188 +0.175 +0.182 +0.209 | I -0.004 -0.000 -0.001 -0.004 -0.001 -0.001\n"}
+,{"stream_name":"stdout","time":6167.490802035,"data":"calib fourier ex_N over lam (0.25, 0.5, 1.0, 2.0, 4.0, 8.0, 16.0): +0.305 +0.416 +0.426 +0.426 +0.426 +0.426 +0.426\n"}
+,{"stream_name":"stdout","time":6447.469628131,"data":"  fourier lam* 0.250: ex_N +0.304 +0.309 +0.303 +0.312 +0.301 +0.305 | I -0.002 +0.009 -0.009 +0.017 -0.002 -0.004\n"}
+,{"stream_name":"stdout","time":6766.879826836,"data":"calib mlp     ex_N over lam (0.25, 0.5, 1.0, 2.0, 4.0, 8.0, 16.0): -0.106 -0.019 +0.175 +0.382 +0.426 +0.426 +0.426\n"}
+,{"stream_name":"stdout","time":7074.085300107,"data":"  mlp lam* 1.007: ex_N +0.208 +0.164 +0.187 +0.201 +0.218 +0.212 | I -0.004 -0.002 +0.001 +0.007 -0.007 +0.006\n"}
+,{"stream_name":"stdout","time":7074.085328777,"data":"eqb: null I max +0.0167 vs observed +0.0235 -\u003e BEYOND-MIXING\n"}
+,{"stream_name":"stdout","time":7074.085333157,"data":"--- inb: observed ex_N +0.2526, I +0.0171 ---\n"}
+,{"stream_name":"stdout","time":7299.042087622,"data":"calib pair    ex_N over lam (0.25, 0.5, 1.0, 2.0, 4.0, 8.0, 16.0): +0.110 +0.343 +0.425 +0.426 +0.426 +0.426 +0.426\n"}
+,{"stream_name":"stdout","time":7560.887329599,"data":"  pair lam* 0.382: ex_N +0.267 +0.272 +0.265 +0.259 +0.261 +0.282 | I -0.003 +0.001 -0.002 +0.000 +0.000 -0.000\n"}
+,{"stream_name":"stdout","time":7939.35879823,"data":"calib fourier ex_N over lam (0.25, 0.5, 1.0, 2.0, 4.0, 8.0, 16.0): +0.305 +0.416 +0.426 +0.426 +0.426 +0.426 +0.426\n"}
+,{"stream_name":"stdout","time":8220.710309803,"data":"  fourier lam* 0.250: ex_N +0.304 +0.309 +0.303 +0.312 +0.301 +0.305 | I -0.002 +0.009 -0.009 +0.017 -0.002 -0.004\n"}
+,{"stream_name":"stdout","time":8538.621788302,"data":"calib mlp     ex_N over lam (0.25, 0.5, 1.0, 2.0, 4.0, 8.0, 16.0): -0.106 -0.019 +0.175 +0.382 +0.426 +0.426 +0.426\n"}
+,{"stream_name":"stdout","time":8824.519826357,"data":"  mlp lam* 1.297: ex_N +0.294 +0.247 +0.274 +0.282 +0.294 +0.293 | I +0.002 -0.003 +0.002 +0.005 -0.012 +0.004\n"}
+,{"stream_name":"stdout","time":8824.519889937,"data":"inb: null I max +0.0167 vs observed +0.0171 -\u003e BEYOND-MIXING\n"}
+,{"stream_name":"stderr","time":8827.062868075,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":8827.062904305,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":8827.473376459,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":8827.473404128,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":8829.905312023,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":8831.10077264,"data":"[NbConvertApp] Writing 311481 bytes to __results__.html\n"}
+]

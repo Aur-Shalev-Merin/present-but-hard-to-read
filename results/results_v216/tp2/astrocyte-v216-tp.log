@@ -1,0 +1,24 @@
+[{"stream_name":"stdout","time":0.869675661,"data":"v215_pilot.py d049a0b2d81fb80b\n"}
+,{"stream_name":"stdout","time":0.869831379,"data":"v215_items.py 9249f0523d7219eb\n"}
+,{"stream_name":"stdout","time":0.86999305,"data":"v216_items.py a2ebd48b899fed40\n"}
+,{"stream_name":"stdout","time":0.870242544,"data":"v216_theirprobe.py 4c7b9c9fe437e4ef\n"}
+,{"stream_name":"stdout","time":0.871345679,"data":"=== v216_theirprobe.py ['byop', '/kaggle/input'] {}\n"}
+,{"stream_name":"stdout","time":215.572572305,"data":"b at pre layer 28: all 0.738 | right 0.726, wrong 0.765\n"}
+,{"stream_name":"stdout","time":215.574418463,"data":"  ++: right  325 0.628 (majority 0.385) | wrong   50 0.820 (majority 0.300) | wrong - right +0.192\n"}
+,{"stream_name":"stdout","time":215.57456729,"data":"  +-: right  314 0.704 (majority 0.385) | wrong   51 0.784 (majority 0.392) | wrong - right +0.080\n"}
+,{"stream_name":"stdout","time":215.574924115,"data":"  -+: right  537 0.750 (majority 0.248) | wrong  105 0.724 (majority 0.286) | wrong - right -0.027\n"}
+,{"stream_name":"stdout","time":215.575181906,"data":"  --: right  208 0.851 (majority 0.303) | wrong  410 0.766 (majority 0.327) | wrong - right -0.085\n"}
+,{"stream_name":"stdout","time":219.618123038,"data":"  stratified wrong - right (pairs ['++', '+-', '-+', '--']): -0.0389 [-0.0866, +0.0083] -\u003e unclear\n"}
+,{"stream_name":"stdout","time":402.823087337,"data":"b at eq layer 20: all 0.625 | right 0.561, wrong 0.771\n"}
+,{"stream_name":"stdout","time":402.824758952,"data":"  ++: right  325 0.234 (majority 0.385) | wrong   50 0.060 (majority 0.300) | wrong - right -0.174\n"}
+,{"stream_name":"stdout","time":402.824978512,"data":"  +-: right  314 0.099 (majority 0.385) | wrong   51 0.255 (majority 0.392) | wrong - right +0.156\n"}
+,{"stream_name":"stdout","time":402.82521171,"data":"  -+: right  537 0.881 (majority 0.248) | wrong  105 0.905 (majority 0.286) | wrong - right +0.024\n"}
+,{"stream_name":"stdout","time":402.825455698,"data":"  --: right  208 0.942 (majority 0.303) | wrong  410 0.888 (majority 0.327) | wrong - right -0.055\n"}
+,{"stream_name":"stdout","time":406.882852822,"data":"  stratified wrong - right (pairs ['++', '+-', '-+', '--']): -0.0334 [-0.0670, -0.0001] -\u003e less represented on failures\n"}
+,{"stream_name":"stderr","time":409.799428546,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":409.799466986,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":410.141664901,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":410.141695636,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":411.891615752,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":413.070326225,"data":"[NbConvertApp] Writing 296147 bytes to __results__.html\n"}
+]

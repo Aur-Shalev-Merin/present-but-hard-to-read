@@ -1,0 +1,55 @@
+[{"stream_name":"stdout","time":1.675003338,"data":"v215_pilot.py d049a0b2d81fb80b\n"}
+,{"stream_name":"stdout","time":1.675153027,"data":"v215_items.py 9249f0523d7219eb\n"}
+,{"stream_name":"stdout","time":1.675302452,"data":"v221_items.py 2b6bd412a702ccc4\n"}
+,{"stream_name":"stdout","time":1.675424971,"data":"v222_items.py b5813a4fb56ef4f8\n"}
+,{"stream_name":"stdout","time":1.6757543510000001,"data":"v215_analyze.py e9d53523b1da41e2\n"}
+,{"stream_name":"stdout","time":1.676017042,"data":"v178_analyze.py 90bbc8a848dc5544\n"}
+,{"stream_name":"stdout","time":1.6762869729999998,"data":"v222_clamp.py 25c7dccc72e25c7f\n"}
+,{"stream_name":"stderr","time":22.896672817,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":22.896697621,"data":"gradio 6.26.0 requires huggingface-hub\u003c2.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":22.89670308,"data":"gradio 6.26.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":22.896707099,"data":"diffusers 0.40.0 requires huggingface-hub\u003c2.0,\u003e=1.23.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":23.107692565,"data":"=== v222_clamp.py ['all'] {}\n"}
+,{"stream_name":"stdout","time":24.396540377,"data":"v222 items sha f917c3b7da3ddc87 (frozen f917c3b7da3ddc87)\n"}
+,{"stream_name":"stdout","time":192.93151044,"data":"loaded Qwen/Qwen2.5-7B in 138s\n"}
+,{"stream_name":"stdout","time":194.815085445,"data":"digB token 101 '0', inA token 105 ' ', a digit '0'\n"}
+,{"stream_name":"stdout","time":194.81548208,"data":"item     1/12000 (1.881 s/item) | b correct 1.000, a correct 1.000, both 1.000\n"}
+,{"stream_name":"stdout","time":205.597355871,"data":"item   100/12000 (0.127 s/item) | b correct 1.000, a correct 0.960, both 0.960\n"}
+,{"stream_name":"stdout","time":413.41936359,"data":"item  2000/12000 (0.110 s/item) | b correct 0.980, a correct 0.847, both 0.835\n"}
+,{"stream_name":"stdout","time":632.990334223,"data":"item  4000/12000 (0.110 s/item) | b correct 0.957, a correct 0.885, both 0.848\n"}
+,{"stream_name":"stdout","time":852.460652931,"data":"item  6000/12000 (0.110 s/item) | b correct 0.961, a correct 0.895, both 0.861\n"}
+,{"stream_name":"stdout","time":1072.096900419,"data":"item  8000/12000 (0.110 s/item) | b correct 0.937, a correct 0.896, both 0.849\n"}
+,{"stream_name":"stdout","time":1291.529120369,"data":"item 10000/12000 (0.110 s/item) | b correct 0.925, a correct 0.903, both 0.847\n"}
+,{"stream_name":"stdout","time":1511.029452879,"data":"item 12000/12000 (0.110 s/item) | b correct 0.911, a correct 0.905, both 0.837\n"}
+,{"stream_name":"stdout","time":1511.168577659,"data":"plus: b correct 0.909, a correct 0.919, both 0.847\n"}
+,{"stream_name":"stdout","time":1511.17481003,"data":"minus: b correct 0.913, a correct 0.891, both 0.827\n"}
+,{"stream_name":"stdout","time":1511.786815684,"data":"  digB layer 12 half 0: B vs d2-copy subspace mean cos^2 0.465 (max 0.951); orthogonalised B keeps 9 dims, share of B left 0.535\n"}
+,{"stream_name":"stdout","time":1511.830723243,"data":"  digB layer 12 half 1: B vs d2-copy subspace mean cos^2 0.467 (max 0.947); orthogonalised B keeps 9 dims, share of B left 0.533\n"}
+,{"stream_name":"stdout","time":1512.289242232,"data":"  digB layer 16 half 0: B vs d2-copy subspace mean cos^2 0.391 (max 0.914); orthogonalised B keeps 9 dims, share of B left 0.609\n"}
+,{"stream_name":"stdout","time":1512.33903996,"data":"  digB layer 16 half 1: B vs d2-copy subspace mean cos^2 0.388 (max 0.903); orthogonalised B keeps 9 dims, share of B left 0.612\n"}
+,{"stream_name":"stdout","time":1512.753551444,"data":"  digB layer 20 half 0: B vs d2-copy subspace mean cos^2 0.371 (max 0.896); orthogonalised B keeps 9 dims, share of B left 0.629\n"}
+,{"stream_name":"stdout","time":1512.802184803,"data":"  digB layer 20 half 1: B vs d2-copy subspace mean cos^2 0.365 (max 0.878); orthogonalised B keeps 9 dims, share of B left 0.635\n"}
+,{"stream_name":"stdout","time":1513.195142665,"data":"  digB layer 24 half 0: B vs d2-copy subspace mean cos^2 0.453 (max 0.919); orthogonalised B keeps 9 dims, share of B left 0.547\n"}
+,{"stream_name":"stdout","time":1513.251430881,"data":"  digB layer 24 half 1: B vs d2-copy subspace mean cos^2 0.440 (max 0.904); orthogonalised B keeps 9 dims, share of B left 0.560\n"}
+,{"stream_name":"stdout","time":1528.775528993,"data":"plan: 28 bases, 1000 pairs\n"}
+,{"stream_name":"stdout","time":1529.982380393,"data":"1/1000 pairs (1.20 s/pair) | hit so far: none 0.000 cB 1.000 cBo 1.000 cD 0.000 cR 0.000 full 1.000 fullall 1.000\n"}
+,{"stream_name":"stdout","time":1546.561804003,"data":"20/1000 pairs (0.89 s/pair) | hit so far: none 0.000 cB 0.700 cBo 0.750 cD 0.100 cR 0.000 full 0.850 fullall 0.850\n"}
+,{"stream_name":"stdout","time":1616.585328518,"data":"100/1000 pairs (0.88 s/pair) | hit so far: none 0.000 cB 0.760 cBo 0.780 cD 0.040 cR 0.000 full 0.840 fullall 0.860\n"}
+,{"stream_name":"stdout","time":1747.465541265,"data":"250/1000 pairs (0.87 s/pair) | hit so far: none 0.000 cB 0.808 cBo 0.820 cD 0.072 cR 0.000 full 0.880 fullall 0.888\n"}
+,{"stream_name":"stdout","time":1965.452954171,"data":"500/1000 pairs (0.87 s/pair) | hit so far: none 0.000 cB 0.830 cBo 0.824 cD 0.072 cR 0.000 full 0.878 fullall 0.880\n"}
+,{"stream_name":"stdout","time":2183.50545962,"data":"750/1000 pairs (0.87 s/pair) | hit so far: none 0.000 cB 0.828 cBo 0.811 cD 0.067 cR 0.000 full 0.876 fullall 0.884\n"}
+,{"stream_name":"stdout","time":2401.518205515,"data":"1000/1000 pairs (0.87 s/pair) | hit so far: none 0.000 cB 0.826 cBo 0.806 cD 0.070 cR 0.000 full 0.888 fullall 0.895\n"}
+,{"stream_name":"stdout","time":2401.684375227,"data":"digB -\u003e a (1000 pairs): hit none 0.000 cB 0.826 cBo 0.806 cD 0.070 cR 0.000 full 0.888 fullall 0.895 | kept own A none 1.000 cB 0.111 cBo 0.120 cD 0.875 cR 1.000 full 0.068 fullall 0.064 | cBo - cR +0.8060 [+0.7651, +0.8440] -\u003e USED (cB - cR +0.8260, descriptive)\n"}
+,{"stream_name":"stdout","time":2401.685008279,"data":"  a = 0+ b (190 pairs): hit none 0.000 cB 0.568 cBo 0.632 cD 0.026 cR 0.000 full 0.726 fullall 0.726\n"}
+,{"stream_name":"stdout","time":2401.685481351,"data":"  a = 1+ b (190 pairs): hit none 0.000 cB 0.858 cBo 0.842 cD 0.063 cR 0.000 full 0.911 fullall 0.926\n"}
+,{"stream_name":"stdout","time":2401.68596873,"data":"  a = 2+ b (130 pairs): hit none 0.000 cB 0.854 cBo 0.831 cD 0.069 cR 0.000 full 0.892 fullall 0.908\n"}
+,{"stream_name":"stdout","time":2401.686441661,"data":"  a = 7- b (137 pairs): hit none 0.000 cB 0.912 cBo 0.869 cD 0.095 cR 0.000 full 0.942 fullall 0.949\n"}
+,{"stream_name":"stdout","time":2401.686973074,"data":"  a = 8- b (196 pairs): hit none 0.000 cB 0.903 cBo 0.837 cD 0.102 cR 0.000 full 0.954 fullall 0.959\n"}
+,{"stream_name":"stdout","time":2401.687466552,"data":"  a = 9- b (157 pairs): hit none 0.000 cB 0.904 cBo 0.860 cD 0.070 cR 0.000 full 0.924 fullall 0.924\n"}
+,{"stream_name":"stderr","time":2413.94272813,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":2413.942768379,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":2414.45213778,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":2414.45218031,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":2415.397822294,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":2416.444857804,"data":"[NbConvertApp] Writing 312748 bytes to __results__.html\n"}
+]

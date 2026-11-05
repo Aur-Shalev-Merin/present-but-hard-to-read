@@ -1,0 +1,5 @@
+null pair       : signal in 36/54 runs; I/N max among them +0.011; FOLLOWS 0
+null fourier    : signal in 54/54 runs; I/N max among them +0.363; FOLLOWS 1
+null mlp        : signal in 29/54 runs; I/N max among them +0.073; FOLLOWS 0
+null paircode   : signal in 42/54 runs; I/N max among them +0.007; FOLLOWS 0
+null paircode_op: signal in 42/54 runs; I/N max among them +0.020; FOLLOWS 0

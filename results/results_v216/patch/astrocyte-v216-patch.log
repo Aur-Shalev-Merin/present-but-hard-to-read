@@ -1,0 +1,37 @@
+[{"stream_name":"stdout","time":1.031256028,"data":"v215_pilot.py d049a0b2d81fb80b\n"}
+,{"stream_name":"stdout","time":1.031455099,"data":"v215_items.py 9249f0523d7219eb\n"}
+,{"stream_name":"stdout","time":1.031660706,"data":"v216_items.py a2ebd48b899fed40\n"}
+,{"stream_name":"stdout","time":1.031868604,"data":"v216_patch.py 3b96a44a6795a8ad\n"}
+,{"stream_name":"stderr","time":17.338594968,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":17.338620321,"data":"gradio 6.26.0 requires huggingface-hub\u003c2.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":17.338626157,"data":"gradio 6.26.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":17.338630773,"data":"diffusers 0.40.0 requires huggingface-hub\u003c2.0,\u003e=1.23.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":17.557694626,"data":"=== v216_patch.py ['extract', '/kaggle/input'] {}\n"}
+,{"stream_name":"stdout","time":167.082509643,"data":"v216 patch | 3000 pairs | smoke False | items sha 497db0bcb9748f30 | loaded in 130s\n"}
+,{"stream_name":"stdout","time":170.210010255,"data":"1/3000 pairs (3.13 s/pair) | hit so far: none 0.000 cB 0.000 cBo 0.000 cA 0.000 cD 1.000 cR 0.000 full 1.000\n"}
+,{"stream_name":"stdout","time":186.647571427,"data":"20/3000 pairs (0.98 s/pair) | hit so far: none 0.000 cB 0.350 cBo 0.050 cA 0.350 cD 0.900 cR 0.050 full 0.950\n"}
+,{"stream_name":"stdout","time":253.96167668,"data":"100/3000 pairs (0.87 s/pair) | hit so far: none 0.000 cB 0.300 cBo 0.020 cA 0.360 cD 0.830 cR 0.010 full 0.880\n"}
+,{"stream_name":"stdout","time":381.641729388,"data":"250/3000 pairs (0.86 s/pair) | hit so far: none 0.000 cB 0.272 cBo 0.008 cA 0.340 cD 0.864 cR 0.004 full 0.896\n"}
+,{"stream_name":"stdout","time":594.771897145,"data":"500/3000 pairs (0.86 s/pair) | hit so far: none 0.000 cB 0.294 cBo 0.006 cA 0.354 cD 0.842 cR 0.002 full 0.870\n"}
+,{"stream_name":"stdout","time":807.768332957,"data":"750/3000 pairs (0.85 s/pair) | hit so far: none 0.000 cB 0.295 cBo 0.005 cA 0.368 cD 0.837 cR 0.001 full 0.868\n"}
+,{"stream_name":"stdout","time":1020.839379358,"data":"1000/3000 pairs (0.85 s/pair) | hit so far: none 0.000 cB 0.280 cBo 0.007 cA 0.354 cD 0.829 cR 0.002 full 0.858\n"}
+,{"stream_name":"stdout","time":1235.346259993,"data":"1250/3000 pairs (0.85 s/pair) | hit so far: none 0.000 cB 0.298 cBo 0.009 cA 0.378 cD 0.712 cR 0.002 full 0.863\n"}
+,{"stream_name":"stdout","time":1448.258613457,"data":"1500/3000 pairs (0.85 s/pair) | hit so far: none 0.000 cB 0.307 cBo 0.013 cA 0.387 cD 0.636 cR 0.002 full 0.861\n"}
+,{"stream_name":"stdout","time":1661.372390808,"data":"1750/3000 pairs (0.85 s/pair) | hit so far: none 0.000 cB 0.309 cBo 0.014 cA 0.395 cD 0.575 cR 0.002 full 0.855\n"}
+,{"stream_name":"stdout","time":1874.816791952,"data":"2000/3000 pairs (0.85 s/pair) | hit so far: none 0.000 cB 0.315 cBo 0.017 cA 0.408 cD 0.536 cR 0.002 full 0.853\n"}
+,{"stream_name":"stdout","time":2089.838153796,"data":"2250/3000 pairs (0.85 s/pair) | hit so far: none 0.000 cB 0.280 cBo 0.015 cA 0.363 cD 0.477 cR 0.001 full 0.758\n"}
+,{"stream_name":"stdout","time":2303.440519005,"data":"2500/3000 pairs (0.85 s/pair) | hit so far: none 0.000 cB 0.252 cBo 0.013 cA 0.326 cD 0.429 cR 0.001 full 0.682\n"}
+,{"stream_name":"stdout","time":2516.837493502,"data":"2750/3000 pairs (0.85 s/pair) | hit so far: none 0.000 cB 0.229 cBo 0.012 cA 0.297 cD 0.390 cR 0.001 full 0.620\n"}
+,{"stream_name":"stdout","time":2730.15699752,"data":"3000/3000 pairs (0.85 s/pair) | hit so far: none 0.000 cB 0.210 cBo 0.011 cA 0.272 cD 0.358 cR 0.001 full 0.568\n"}
+,{"stream_name":"stdout","time":2730.200138333,"data":"done (2694s)\n"}
+,{"stream_name":"stdout","time":2736.434587447,"data":"=== v216_patch.py ['analyse', '.'] {}\n"}
+,{"stream_name":"stdout","time":2736.87828187,"data":"eq (1000 pairs): hit none 0.000 cB 0.280 cBo 0.007 cA 0.354 cD 0.829 cR 0.002 full 0.858 | kept own answer none 1.000 cB 0.619 cBo 0.966 cA 0.548 cD 0.050 cR 0.994 full 0.054 | cBo - cR +0.0050 [-0.0009, +0.0113] -\u003e NOT-USED\n"}
+,{"stream_name":"stdout","time":2737.013054535,"data":"last (1000 pairs): hit none 0.000 cB 0.000 cBo 0.000 cA 0.000 cD 0.000 cR 0.000 full 0.000 | kept own answer none 1.000 cB 1.000 cBo 1.000 cA 1.000 cD 1.000 cR 1.000 full 1.000 | cBo - cR +0.0000 [+0.0000, +0.0000] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":2737.150561886,"data":"pre (1000 pairs): hit none 0.000 cB 0.349 cBo 0.026 cA 0.462 cD 0.244 cR 0.001 full 0.847 | kept own answer none 1.000 cB 0.565 cBo 0.945 cA 0.435 cD 0.657 cR 0.997 full 0.059 | cBo - cR +0.0250 [+0.0136, +0.0385] -\u003e UNCLEAR\n"}
+,{"stream_name":"stderr","time":2739.220917227,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":2739.220956869,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":2739.549155131,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":2739.549184092,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":2740.363130754,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":2741.167272111,"data":"[NbConvertApp] Writing 295982 bytes to __results__.html\n"}
+]

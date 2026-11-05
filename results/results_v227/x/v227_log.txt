@@ -1,0 +1,13 @@
+v227 extract | mistralai/Mistral-7B-v0.1 | items sha f917c3b7da3ddc87 | 12000 items | layer map {16: 18, 20: 23, 24: 27, 28: 32} | loaded in 134s
+positions {'eq': 95, 'last': 98, 'letb': 99, 'eqb': 100, 'inb': 101} -> {'eq': '0', 'last': '?', 'letb': 't', 'eqb': '=', 'inb': ''}
+item     1/12000 (1.985 s/item) | b correct 1.000
+item   100/12000 (0.124 s/item) | b correct 0.990
+item  2000/12000 (0.108 s/item) | b correct 0.991
+item  4000/12000 (0.108 s/item) | b correct 0.949
+item  6000/12000 (0.108 s/item) | b correct 0.934
+item  8000/12000 (0.108 s/item) | b correct 0.918
+item 10000/12000 (0.108 s/item) | b correct 0.914
+item 12000/12000 (0.108 s/item) | b correct 0.912
+plus: b correct 0.959 (6000 items)
+minus: b correct 0.865 (6000 items)
+done (1426s)

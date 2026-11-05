@@ -1,0 +1,34 @@
+[{"stream_name":"stdout","time":0.705507416,"data":"v213_pilot.py b5bdf9e864fa6c23\n"}
+,{"stream_name":"stdout","time":3.641891909,"data":"     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 41.7/41.7 kB 1.8 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":5.012314726,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.2/11.2 MB 84.6 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":5.051834615,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 566.4/566.4 kB 20.8 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":5.111598983,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 64.9 MB/s eta 0:00:00\n"}
+,{"stream_name":"stderr","time":18.537094433,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":18.537126188,"data":"gradio 6.26.0 requires huggingface-hub\u003c2.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":18.537132364,"data":"diffusers 0.40.0 requires huggingface-hub\u003c2.0,\u003e=1.23.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":38.948946111,"data":"\rGenerating train split:   0%|          | 0/7473 [00:00\u003c?, ? examples/s]\rGenerating train split: 100%|██████████| 7473/7473 [00:00\u003c00:00, 92933.44 examples/s]\n"}
+,{"stream_name":"stderr","time":38.953677345,"data":"\rGenerating test split:   0%|          | 0/1319 [00:00\u003c?, ? examples/s]\rGenerating test split: 100%|██████████| 1319/1319 [00:00\u003c00:00, 312593.91 examples/s]\n"}
+,{"stream_name":"stdout","time":39.261310492,"data":"v213 pilot | qwen7b | GPUs 2 ['Tesla T4', 'Tesla T4']\n"}
+,{"stream_name":"stdout","time":164.0753142,"data":"loaded Qwen/Qwen2.5-7B fp16 in 128s; device map ['0', '1']\n"}
+,{"stream_name":"stdout","time":166.85403316,"data":"cached vs full (fp16): max relative diff 2.46e-03 | non-finite prompts 0 | 0.106 s/prompt (median of 7, after the first)\n"}
+,{"stream_name":"stdout","time":172.850721284,"data":"fp16 vs bf16 (full forward, stored layers [0, 4, 7, 14, 21, 28]): max relative state diff ['0.014', '0.017']\n"}
+,{"stream_name":"stdout","time":172.851217658,"data":"total 136s; peak GPU memory ['7.8', '9.7'] GB\n"}
+,{"stream_name":"stdout","time":177.929231316,"data":"qwen7b exit 0\n"}
+,{"stream_name":"stdout","time":187.352590089,"data":"v213 pilot | ouro26 | GPUs 1 ['Tesla T4']\n"}
+,{"stream_name":"stderr","time":189.041649541,"data":"A new version of the following files was downloaded from https://huggingface.co/ByteDance/Ouro-2.6B:\n"}
+,{"stream_name":"stderr","time":189.041674441,"data":"- configuration_ouro.py\n"}
+,{"stream_name":"stderr","time":189.04167983,"data":". Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.\n"}
+,{"stream_name":"stderr","time":190.662817946,"data":"A new version of the following files was downloaded from https://huggingface.co/ByteDance/Ouro-2.6B:\n"}
+,{"stream_name":"stderr","time":190.662844049,"data":"- modeling_ouro.py\n"}
+,{"stream_name":"stderr","time":190.662849681,"data":". Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.\n"}
+,{"stream_name":"stdout","time":237.042891791,"data":"loaded ByteDance/Ouro-2.6B fp32 in 51s; layers 48, loops 4\n"}
+,{"stream_name":"stdout","time":251.821064772,"data":"cached prefix 222 of 225 head tokens | cached vs full: max abs diff 2.86e-05 | our forward vs the model's own: max |logit diff| 0.00e+00 | 0.838 s/prompt (median of 7, after the first)\n"}
+,{"stream_name":"stdout","time":251.821626276,"data":"total 66s; peak GPU memory ['12.5'] GB\n"}
+,{"stream_name":"stdout","time":256.568576037,"data":"ouro26 exit 0\n"}
+,{"stream_name":"stderr","time":258.665331207,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":258.665370741,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":258.949780155,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":258.949804166,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":259.705174104,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":260.415764404,"data":"[NbConvertApp] Writing 282782 bytes to __results__.html\n"}
+]

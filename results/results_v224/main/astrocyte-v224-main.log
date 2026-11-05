@@ -1,0 +1,49 @@
+[{"stream_name":"stdout","time":1.622678091,"data":"v215_pilot.py d049a0b2d81fb80b\n"}
+,{"stream_name":"stdout","time":1.623073914,"data":"v215_items.py 9249f0523d7219eb\n"}
+,{"stream_name":"stdout","time":1.623141556,"data":"v221_items.py 2b6bd412a702ccc4\n"}
+,{"stream_name":"stdout","time":1.623272958,"data":"v222_items.py b5813a4fb56ef4f8\n"}
+,{"stream_name":"stdout","time":1.623645986,"data":"v224_items.py 14087b6369b3ce8e\n"}
+,{"stream_name":"stdout","time":1.623932924,"data":"v178_analyze.py 90bbc8a848dc5544\n"}
+,{"stream_name":"stdout","time":1.624489503,"data":"v224_share.py 2b0bc8868d13b00e\n"}
+,{"stream_name":"stdout","time":1.626256992,"data":"=== v224_share.py ['main', '/kaggle/input'] {}\n"}
+,{"stream_name":"stdout","time":3.821001796,"data":"=== fresh control 1: Qwen2.5-1.5B, b step (primary inb) ===\n"}
+,{"stream_name":"stdout","time":256.92406968,"data":"inb    N 0.094  Rbar 0.038  lift +0.055 [+0.048, +0.062]  D+ +0.032  D- +0.066  I +0.049 [+0.042, +0.055]  I/N +0.52  -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":256.924193217,"data":"       shares: plus_S 0.082 plus_M 0.050 plus_R0 0.018 plus_R1 0.043 plus_R2 0.051 plus_R3 0.025 minus_S 0.039 minus_M 0.106 minus_R0 0.024 minus_R1 0.055 minus_R2 0.063 minus_R3 0.027 | G1 {'plus': 0.778, 'minus': 0.7803333333333333}\n"}
+,{"stream_name":"stdout","time":277.963938755,"data":"eqb    N 0.038  Rbar 0.018  lift +0.020 [+0.015, +0.024]  D+ +0.001  D- +0.028  I +0.015 [+0.011, +0.018]  I/N +0.39  -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":277.963981392,"data":"       shares: plus_S 0.027 plus_M 0.026 plus_R0 0.008 plus_R1 0.019 plus_R2 0.023 plus_R3 0.011 minus_S 0.020 minus_M 0.048 minus_R0 0.010 minus_R1 0.027 minus_R2 0.034 minus_R3 0.014 | G1 {'plus': 0.778, 'minus': 0.7803333333333333}\n"}
+,{"stream_name":"stdout","time":299.206354242,"data":"letb   N 0.009  Rbar 0.006  lift +0.003 [+0.003, +0.004]  D+ -0.003  D- +0.013  I +0.005 [+0.004, +0.006]  I/N +0.56  -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":299.206394465,"data":"       shares: plus_S 0.002 plus_M 0.005 plus_R0 0.003 plus_R1 0.003 plus_R2 0.005 plus_R3 0.002 minus_S 0.003 minus_M 0.016 minus_R0 0.004 minus_R1 0.008 minus_R2 0.018 minus_R3 0.003 | G1 {'plus': 0.778, 'minus': 0.7803333333333333}\n"}
+,{"stream_name":"stdout","time":320.632584166,"data":"eq     N 0.039  Rbar 0.029  lift +0.009 [+0.008, +0.011]  D+ -0.034  D- +0.051  I +0.009 [+0.008, +0.010]  I/N +0.22  -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":320.632632349,"data":"       shares: plus_S 0.011 plus_M 0.045 plus_R0 0.013 plus_R1 0.024 plus_R2 0.050 plus_R3 0.012 minus_S 0.015 minus_M 0.067 minus_R0 0.018 minus_R1 0.039 minus_R2 0.065 minus_R3 0.015 | G1 {'plus': 0.778, 'minus': 0.7803333333333333}\n"}
+,{"stream_name":"stdout","time":342.211934184,"data":"last   N 0.008  Rbar 0.006  lift +0.002 [+0.002, +0.003]  D+ -0.003  D- +0.010  I +0.004 [+0.003, +0.004]  I/N +0.44  -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":342.211973473,"data":"       shares: plus_S 0.002 plus_M 0.006 plus_R0 0.003 plus_R1 0.004 plus_R2 0.007 plus_R3 0.003 minus_S 0.003 minus_M 0.014 minus_R0 0.004 minus_R1 0.007 minus_R2 0.016 minus_R3 0.003 | G1 {'plus': 0.778, 'minus': 0.7803333333333333}\n"}
+,{"stream_name":"stdout","time":342.260489955,"data":"=== fresh control 2: Qwen2.5-7B, a step (primary inA) ===\n"}
+,{"stream_name":"stdout","time":830.036707319,"data":"inA    N 0.112  Rbar 0.036  lift +0.076 [+0.069, +0.083]  D+ +0.061  D- +0.085  I +0.073 [+0.065, +0.080]  I/N +0.65  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":830.036927945,"data":"       shares: plus_S 0.105 plus_M 0.044 plus_R0 0.019 plus_R1 0.033 plus_R2 0.051 plus_R3 0.024 minus_S 0.035 minus_M 0.120 minus_R0 0.025 minus_R1 0.049 minus_R2 0.059 minus_R3 0.028 | G1 {'plus': 0.9228333333333333, 'minus': 0.935}\n"}
+,{"stream_name":"stdout","time":879.989104187,"data":"eqa    N 0.090  Rbar 0.031  lift +0.059 [+0.054, +0.064]  D+ +0.035  D- +0.075  I +0.055 [+0.049, +0.060]  I/N +0.61  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":879.98913974,"data":"       shares: plus_S 0.075 plus_M 0.041 plus_R0 0.015 plus_R1 0.029 plus_R2 0.041 plus_R3 0.020 minus_S 0.030 minus_M 0.105 minus_R0 0.021 minus_R1 0.045 minus_R2 0.054 minus_R3 0.024 | G1 {'plus': 0.9228333333333333, 'minus': 0.935}\n"}
+,{"stream_name":"stdout","time":1203.952103807,"data":"digB   N 0.019  Rbar 0.013  lift +0.005 [+0.004, +0.006]  D+ -0.024  D- +0.028  I +0.002 [+0.001, +0.002]  I/N +0.10  -\u003e UNCLEAR\n"}
+,{"stream_name":"stdout","time":1203.95215712,"data":"       shares: plus_S 0.005 plus_M 0.029 plus_R0 0.009 plus_R1 0.012 plus_R2 0.027 plus_R3 0.004 minus_S 0.005 minus_M 0.032 minus_R0 0.007 minus_R1 0.013 minus_R2 0.031 minus_R3 0.004 | G1 {'plus': 0.9228333333333333, 'minus': 0.935}\n"}
+,{"stream_name":"stdout","time":1528.219046064,"data":"eq     N 0.003  Rbar 0.002  lift +0.001 [+0.000, +0.001]  D+ -0.003  D- +0.004  I +0.000 [+0.000, +0.000]  I/N +0.11  -\u003e UNCLEAR\n"}
+,{"stream_name":"stdout","time":1528.219265932,"data":"       shares: plus_S 0.001 plus_M 0.004 plus_R0 0.001 plus_R1 0.001 plus_R2 0.005 plus_R3 0.000 minus_S 0.001 minus_M 0.005 minus_R0 0.001 minus_R1 0.002 minus_R2 0.005 minus_R3 0.000 | G1 {'plus': 0.9228333333333333, 'minus': 0.935}\n"}
+,{"stream_name":"stdout","time":1577.584383817,"data":"last   N 0.001  Rbar 0.001  lift +0.000 [+0.000, +0.000]  D+ -0.001  D- +0.001  I -0.000 [-0.000, +0.000]  I/N -0.09  -\u003e DOES-NOT-FOLLOW\n"}
+,{"stream_name":"stdout","time":1577.584433431,"data":"       shares: plus_S 0.000 plus_M 0.001 plus_R0 0.000 plus_R1 0.000 plus_R2 0.002 plus_R3 0.000 minus_S 0.000 minus_M 0.001 minus_R0 0.000 minus_R1 0.000 minus_R2 0.001 minus_R3 0.000 | G1 {'plus': 0.9228333333333333, 'minus': 0.935}\n"}
+,{"stream_name":"stdout","time":1577.686604193,"data":"=== null worlds, fresh seeds 7-12 at every lam (no run may be FOLLOWS) ===\n"}
+,{"stream_name":"stdout","time":1666.000365081,"data":"  b pair        FOLLOWS in 0/42\n"}
+,{"stream_name":"stdout","time":1746.792752491,"data":"  b fourier     FOLLOWS in 0/42\n"}
+,{"stream_name":"stdout","time":1823.984750589,"data":"  b mlp         FOLLOWS in 0/42\n"}
+,{"stream_name":"stdout","time":1901.845484857,"data":"  b paircode    FOLLOWS in 0/42\n"}
+,{"stream_name":"stdout","time":1982.490720999,"data":"  b paircode_op FOLLOWS in 0/42\n"}
+,{"stream_name":"stdout","time":2070.56867004,"data":"  a pair        FOLLOWS in 0/42\n"}
+,{"stream_name":"stdout","time":2150.86838742,"data":"  a fourier     FOLLOWS in 0/42\n"}
+,{"stream_name":"stdout","time":2238.933007522,"data":"  a mlp         FOLLOWS in 0/42\n"}
+,{"stream_name":"stdout","time":2324.069162133,"data":"  a paircode    FOLLOWS in 0/42\n"}
+,{"stream_name":"stdout","time":2406.727535268,"data":"  a paircode_op FOLLOWS in 0/42\n"}
+,{"stream_name":"stdout","time":2406.72758325,"data":"primary: control 1 inb UNSCORABLE, control 2 inA FOLLOWS, null FOLLOWS 0 -\u003e method PARTIAL\n"}
+,{"stream_name":"stderr","time":2411.205669801,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":2411.205706851,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":2412.140902211,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":2412.140945697,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":2417.107879266,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":2419.351770408,"data":"[NbConvertApp] Writing 308052 bytes to __results__.html\n"}
+]

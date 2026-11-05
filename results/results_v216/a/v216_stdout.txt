@@ -1,0 +1,7 @@
+=== v216_analyze.py ['/kaggle/input'] {}
+items sha 497db0bcb9748f30 (frozen 497db0bcb9748f30)
+answer accuracy plus, o2 +: 0.871 (n 3000)
+answer accuracy plus, o2 -: 0.881 (n 3000)
+answer accuracy minus, o2 +: 0.900 (n 3000)
+answer accuracy minus, o2 -: 0.376 (n 3000)
+Part A: 240 families, plus 6000 / minus 6000 items | G1 correct (exact chain): plus 0.876, minus 0.638

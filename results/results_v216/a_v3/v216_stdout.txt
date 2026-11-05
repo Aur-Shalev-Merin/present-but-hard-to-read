@@ -1,0 +1,66 @@
+=== v216_analyze.py ['/kaggle/input'] {}
+items sha 497db0bcb9748f30 (frozen 497db0bcb9748f30)
+answer accuracy plus, o2 +: 0.871 (n 3000)
+answer accuracy plus, o2 -: 0.881 (n 3000)
+answer accuracy minus, o2 +: 0.900 (n 3000)
+answer accuracy minus, o2 -: 0.376 (n 3000)
+Part A: 240 families, plus 6000 / minus 6000 items | G1 correct (exact chain): plus 0.876, minus 0.638
+copy ceilings (one-hot d1, d2): plus S 0.540 | plus M 0.612 | plus A5 0.264 | minus S 0.540 | minus M 0.612 | minus A5 0.309
+--- position eq ---
+G2 copies (family-demeaned, best layer): plus/d1 1.000 plus/d2 1.000 minus/d1 1.000 minus/d2 1.000 (each >= 0.50: True)
+  plus  by layer  S 0.28 1.00 1.00 0.98 0.96 0.89 0.92 0.91 | M 0.28 1.00 1.00 0.99 0.97 0.93 0.96 0.96 | A5 0.20 0.51 0.50 0.46 0.47 0.47 0.46 0.52
+  minus by layer  S 0.28 1.00 1.00 0.96 0.97 0.91 0.93 0.91 | M 0.28 1.00 1.00 0.98 0.98 0.95 0.98 0.98 | A5 0.25 0.53 0.49 0.45 0.48 0.47 0.45 0.43
+  excess (band): plus S +0.395 M +0.351 -> D+ +0.043 | minus M +0.364 S +0.402 -> D- -0.039 | A5 plus +0.204 minus +0.155
+  ex_N +0.3792 [+0.3747, +0.3835] -> UNSCORABLE | I +0.0024 [-0.0006, +0.0054] -> UNSCORABLE
+--- position pre ---
+G2 copies (family-demeaned, best layer): plus/d1 1.000 plus/d2 1.000 minus/d1 1.000 minus/d2 1.000 (each >= 0.50: True)
+  plus  by layer  S 0.24 0.91 0.86 0.78 0.70 0.73 0.99 0.99 | M 0.28 0.95 0.89 0.84 0.79 0.84 1.00 0.99 | A5 0.19 0.42 0.41 0.39 0.42 0.49 0.96 0.99
+  minus by layer  S 0.24 0.92 0.79 0.72 0.71 0.74 0.98 0.98 | M 0.28 0.96 0.87 0.83 0.86 0.90 1.00 1.00 | A5 0.24 0.41 0.39 0.38 0.46 0.54 0.96 0.98
+  excess (band): plus S +0.257 M +0.255 -> D+ +0.002 | minus M +0.284 S +0.249 -> D- +0.035 | A5 plus +0.302 minus +0.274
+  ex_N +0.2706 [+0.2642, +0.2769] -> UNSCORABLE | I +0.0183 [+0.0141, +0.0227] -> UNSCORABLE
+--- position last ---
+G2 copies (family-demeaned, best layer): plus/d1 1.000 plus/d2 1.000 minus/d1 1.000 minus/d2 1.000 (each >= 0.50: True)
+  plus  by layer  S 0.24 0.78 0.78 0.75 0.60 0.57 0.61 0.59 | M 0.28 0.84 0.84 0.80 0.69 0.70 0.79 0.77 | A5 0.19 0.38 0.38 0.38 0.34 0.37 0.39 0.41
+  minus by layer  S 0.24 0.78 0.73 0.69 0.59 0.56 0.60 0.58 | M 0.28 0.86 0.82 0.78 0.72 0.77 0.91 0.89 | A5 0.24 0.36 0.38 0.36 0.35 0.38 0.39 0.37
+  excess (band): plus S +0.090 M +0.135 -> D+ -0.045 | minus M +0.185 S +0.070 -> D- +0.115 | A5 plus +0.105 minus +0.061
+  ex_N +0.1374 [+0.1294, +0.1456] -> UNSCORABLE | I +0.0352 [+0.0296, +0.0408] -> UNSCORABLE
+eq, G1 at 0.50 (correct plus 0.876, minus 0.638; execution note 1): COMBINED | DOES-NOT-FOLLOW
+pre, G1 at 0.50 (correct plus 0.876, minus 0.638; execution note 1): COMBINED | UNCLEAR
+last, G1 at 0.50 (correct plus 0.876, minus 0.638; execution note 1): COMBINED | UNCLEAR
+Answer line, excess over the copy ceiling (band), (A + j k) mod 5; the needed form of b is j = -1 on o2 = + and (by symmetry of mod 5) the negation on o2 = -:
+  eq   plus L-2 +0.179 L-1 +0.334 L+0 +0.204 L+1 +0.166 L+2 +0.132 | minus L-2 +0.157 L-1 +0.385 L+0 +0.155 L+1 +0.161 L+2 +0.171
+  pre  plus L-2 +0.245 L-1 +0.304 L+0 +0.302 L+1 +0.227 L+2 +0.199 | minus L-2 +0.256 L-1 +0.362 L+0 +0.274 L+1 +0.248 L+2 +0.251
+  last plus L-2 +0.062 L-1 +0.108 L+0 +0.105 L+1 +0.064 L+2 +0.045 | minus L-2 +0.072 L-1 +0.205 L+0 +0.061 L+1 +0.057 L+2 +0.074
+Split by whether the model answers correctly (pre-registered, secondary):
+  eq   correct (plus 5256, minus 3829): ex_N +0.3721 [+0.3648, +0.3790] | I -0.0098 [-0.0167, -0.0034] (D+ +0.041, D- -0.061)
+  eq   wrong   (plus  744, minus 2171): ex_N +0.3704 [+0.3469, +0.3907] | I +0.0294 [+0.0109, +0.0470] (D+ +0.058, D- +0.001)
+  pre  correct (plus 5256, minus 3829): ex_N +0.2625 [+0.2533, +0.2715] | I +0.0050 [-0.0030, +0.0125] (D+ -0.002, D- +0.012)
+  pre  wrong   (plus  744, minus 2171): ex_N +0.2684 [+0.2424, +0.2915] | I +0.0519 [+0.0291, +0.0748] (D+ +0.028, D- +0.076)
+  last correct (plus 5256, minus 3829): ex_N +0.1268 [+0.1167, +0.1370] | I +0.0166 [+0.0072, +0.0252] (D+ -0.049, D- +0.082)
+  last wrong   (plus  744, minus 2171): ex_N +0.1363 [+0.1126, +0.1581] | I +0.0795 [+0.0544, +0.1054] (D+ -0.014, D- +0.173)
+Part B plan for positions: ['eq', 'pre', 'last']
+  eq layer 12 half 0: B vs copy mean cos^2 0.459, vs answer 0.460; share of B left after both 0.455
+  eq layer 12 half 1: B vs copy mean cos^2 0.463, vs answer 0.448; share of B left after both 0.463
+  eq layer 16 half 0: B vs copy mean cos^2 0.392, vs answer 0.526; share of B left after both 0.410
+  eq layer 16 half 1: B vs copy mean cos^2 0.405, vs answer 0.462; share of B left after both 0.462
+  eq layer 20 half 0: B vs copy mean cos^2 0.364, vs answer 0.542; share of B left after both 0.394
+  eq layer 20 half 1: B vs copy mean cos^2 0.385, vs answer 0.465; share of B left after both 0.456
+  eq layer 24 half 0: B vs copy mean cos^2 0.541, vs answer 0.490; share of B left after both 0.411
+  eq layer 24 half 1: B vs copy mean cos^2 0.565, vs answer 0.463; share of B left after both 0.423
+  pre layer 12 half 0: B vs copy mean cos^2 0.417, vs answer 0.439; share of B left after both 0.487
+  pre layer 12 half 1: B vs copy mean cos^2 0.422, vs answer 0.421; share of B left after both 0.485
+  pre layer 16 half 0: B vs copy mean cos^2 0.471, vs answer 0.430; share of B left after both 0.488
+  pre layer 16 half 1: B vs copy mean cos^2 0.463, vs answer 0.416; share of B left after both 0.490
+  pre layer 20 half 0: B vs copy mean cos^2 0.583, vs answer 0.487; share of B left after both 0.436
+  pre layer 20 half 1: B vs copy mean cos^2 0.575, vs answer 0.455; share of B left after both 0.449
+  pre layer 24 half 0: B vs copy mean cos^2 0.344, vs answer 0.559; share of B left after both 0.369
+  pre layer 24 half 1: B vs copy mean cos^2 0.336, vs answer 0.573; share of B left after both 0.351
+  last layer 12 half 0: B vs copy mean cos^2 0.365, vs answer 0.416; share of B left after both 0.509
+  last layer 12 half 1: B vs copy mean cos^2 0.374, vs answer 0.403; share of B left after both 0.506
+  last layer 16 half 0: B vs copy mean cos^2 0.380, vs answer 0.407; share of B left after both 0.513
+  last layer 16 half 1: B vs copy mean cos^2 0.393, vs answer 0.395; share of B left after both 0.522
+  last layer 20 half 0: B vs copy mean cos^2 0.391, vs answer 0.457; share of B left after both 0.485
+  last layer 20 half 1: B vs copy mean cos^2 0.373, vs answer 0.396; share of B left after both 0.528
+  last layer 24 half 0: B vs copy mean cos^2 0.358, vs answer 0.496; share of B left after both 0.463
+  last layer 24 half 1: B vs copy mean cos^2 0.340, vs answer 0.384; share of B left after both 0.544
+plan: 108 bases, 3000 pairs

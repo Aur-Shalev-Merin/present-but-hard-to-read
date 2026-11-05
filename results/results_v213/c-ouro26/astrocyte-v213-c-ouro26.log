@@ -1,0 +1,67 @@
+[{"stream_name":"stdout","time":1.123434283,"data":"v213_analyze.py eaf96e1a782d9fa9\n"}
+,{"stream_name":"stdout","time":1.12360703,"data":"v202_analyze.py 46d9d8aca3bf0459\n"}
+,{"stream_name":"stdout","time":1.123613672,"data":"v205_analyze.py ee70344632eb5650\n"}
+,{"stream_name":"stdout","time":1.12361803,"data":"v205_saved.py 339d264ae7385d0a\n"}
+,{"stream_name":"stdout","time":1.123845558,"data":"v178_analyze.py 90bbc8a848dc5544\n"}
+,{"stream_name":"stdout","time":1.124088479,"data":"v181_swamp_check.py 0a239557c1360a98\n"}
+,{"stream_name":"stdout","time":1.124613732,"data":"v213_split.py d0a1ba5e6133d5a1\n"}
+,{"stream_name":"stdout","time":157.778096512,"data":"--- process 0 exits [0]\n"}
+,{"stream_name":"stdout","time":157.778277375,"data":"rshalevmerin/astrocyte-v213-s-ouro26-3/v213_b2part_ouro26_3.pkl']\n"}
+,{"stream_name":"stdout","time":157.778290913,"data":"--- B2x many-question curve: 5249 GSM8K + 40000 Orca training questions; test 1000 GSM8K, 1000 Orca (chance 0.10) ---\n"}
+,{"stream_name":"stdout","time":157.778296414,"data":"l7    effective rank: participation ratio 24.2, components to 95% variance 584 -\u003e N_max = 77.5 x n95\n"}
+,{"stream_name":"stdout","time":157.778301755,"data":"end2  effective rank: participation ratio 42.2, components to 95% variance 725 -\u003e N_max = 62.4 x n95\n"}
+,{"stream_name":"stdout","time":157.778306705,"data":"end3  effective rank: participation ratio 50.2, components to 95% variance 757 -\u003e N_max = 59.8 x n95\n"}
+,{"stream_name":"stdout","time":157.778312297,"data":"end4  effective rank: participation ratio 49.7, components to 95% variance 734 -\u003e N_max = 61.6 x n95\n"}
+,{"stream_name":"stdout","time":157.778318483,"data":"[gsm test] N       60      125      250      500     1000     2000     2624     4000     5249    10000    20000    22624    45249\n"}
+,{"stream_name":"stdout","time":157.778324115,"data":"l7    pca      0.110    0.124    0.144    0.128    0.138    0.156    0.156    0.171    0.183    0.196    0.187    0.189    0.190\n"}
+,{"stream_name":"stdout","time":157.778329873,"data":"l7    full     0.113    0.125    0.132    0.140    0.151    0.187    0.182    0.216    0.217    0.248    0.295    0.301    0.308\n"}
+,{"stream_name":"stdout","time":157.778336058,"data":"end2  pca      0.089    0.123    0.130    0.140    0.137    0.159    0.166    0.183    0.188    0.167    0.171    0.172    0.155\n"}
+,{"stream_name":"stdout","time":157.778341491,"data":"end2  full     0.117    0.125    0.131    0.134    0.148    0.186    0.199    0.218    0.212    0.221    0.251    0.236    0.252\n"}
+,{"stream_name":"stdout","time":157.778346881,"data":"end3  pca      0.116    0.126    0.119    0.149    0.151    0.148    0.159    0.176    0.174    0.175    0.162    0.160    0.173\n"}
+,{"stream_name":"stdout","time":157.778352277,"data":"end3  full     0.109    0.126    0.116    0.139    0.170    0.162    0.175    0.196    0.207    0.209    0.232    0.230    0.233\n"}
+,{"stream_name":"stdout","time":157.778357894,"data":"end4  pca      0.117    0.131    0.141    0.155    0.181    0.159    0.158    0.180    0.185    0.177    0.170    0.173    0.174\n"}
+,{"stream_name":"stdout","time":157.778368471,"data":"end4  full     0.117    0.124    0.133    0.153    0.174    0.175    0.181    0.191    0.209    0.208    0.223    0.234    0.243\n"}
+,{"stream_name":"stdout","time":157.778372571,"data":"MLP at N_max: l7 0.192 end2 0.170 end3 0.181 end4 0.179\n"}
+,{"stream_name":"stdout","time":157.778376034,"data":"[orca test] N       60      125      250      500     1000     2000     2624     4000     5249    10000    20000    22624    45249\n"}
+,{"stream_name":"stdout","time":157.778389276,"data":"l7    pca      0.099    0.105    0.102    0.116    0.118    0.129    0.131    0.140    0.132    0.146    0.145    0.150    0.171\n"}
+,{"stream_name":"stdout","time":157.77841994,"data":"l7    full     0.106    0.105    0.111    0.118    0.126    0.147    0.138    0.149    0.159    0.196    0.240    0.242    0.272\n"}
+,{"stream_name":"stdout","time":157.778425403,"data":"end2  pca      0.110    0.114    0.108    0.123    0.122    0.132    0.126    0.137    0.139    0.143    0.137    0.133    0.163\n"}
+,{"stream_name":"stdout","time":157.778429822,"data":"end2  full     0.122    0.114    0.116    0.120    0.113    0.118    0.119    0.132    0.136    0.163    0.188    0.199    0.230\n"}
+,{"stream_name":"stdout","time":157.778434592,"data":"end3  pca      0.119    0.115    0.104    0.115    0.113    0.103    0.125    0.120    0.127    0.142    0.155    0.165    0.153\n"}
+,{"stream_name":"stdout","time":157.778439329,"data":"end3  full     0.129    0.115    0.105    0.118    0.118    0.115    0.143    0.136    0.139    0.177    0.207    0.215    0.234\n"}
+,{"stream_name":"stdout","time":157.77844322,"data":"end4  pca      0.120    0.104    0.089    0.110    0.106    0.114    0.125    0.124    0.135    0.146    0.147    0.159    0.164\n"}
+,{"stream_name":"stdout","time":157.778447362,"data":"end4  full     0.124    0.119    0.104    0.104    0.125    0.130    0.124    0.129    0.129    0.186    0.218    0.225    0.248\n"}
+,{"stream_name":"stdout","time":157.778451522,"data":"MLP at N_max: l7 0.168 end2 0.172 end3 0.164 end4 0.176\n"}
+,{"stream_name":"stdout","time":157.778455511,"data":"[gsm_clean test] N       60      125      250      500     1000     2000     2624     4000     5249    10000    20000    22624    45249\n"}
+,{"stream_name":"stdout","time":157.778459719,"data":"l7    pca      0.110    0.124    0.144    0.128    0.138    0.156    0.156    0.171    0.183    0.196    0.187    0.189    0.190\n"}
+,{"stream_name":"stdout","time":157.778464018,"data":"l7    full     0.113    0.125    0.132    0.140    0.151    0.187    0.182    0.216    0.217    0.248    0.295    0.301    0.308\n"}
+,{"stream_name":"stdout","time":157.778468259,"data":"end2  pca      0.089    0.123    0.130    0.140    0.137    0.159    0.166    0.183    0.188    0.167    0.171    0.172    0.155\n"}
+,{"stream_name":"stdout","time":157.77847233,"data":"end2  full     0.117    0.125    0.131    0.134    0.148    0.186    0.199    0.218    0.212    0.221    0.251    0.236    0.252\n"}
+,{"stream_name":"stdout","time":157.778476464,"data":"end3  pca      0.116    0.126    0.119    0.149    0.151    0.148    0.159    0.176    0.174    0.175    0.162    0.160    0.173\n"}
+,{"stream_name":"stdout","time":157.778480912,"data":"end3  full     0.109    0.126    0.116    0.139    0.170    0.162    0.175    0.196    0.207    0.209    0.232    0.230    0.233\n"}
+,{"stream_name":"stdout","time":157.778485014,"data":"end4  pca      0.117    0.131    0.141    0.155    0.181    0.159    0.158    0.180    0.185    0.177    0.170    0.173    0.174\n"}
+,{"stream_name":"stdout","time":157.778527821,"data":"end4  full     0.117    0.124    0.133    0.153    0.174    0.175    0.181    0.191    0.209    0.208    0.223    0.234    0.243\n"}
+,{"stream_name":"stdout","time":157.778535494,"data":"[orca_clean test] N       60      125      250      500     1000     2000     2624     4000     5249    10000    20000    22624    45249\n"}
+,{"stream_name":"stdout","time":157.778539852,"data":"l7    pca      0.099    0.105    0.102    0.116    0.118    0.129    0.131    0.140    0.132    0.146    0.145    0.150    0.171\n"}
+,{"stream_name":"stdout","time":157.778544092,"data":"l7    full     0.106    0.105    0.111    0.118    0.126    0.147    0.138    0.149    0.159    0.196    0.240    0.242    0.272\n"}
+,{"stream_name":"stdout","time":157.77854825,"data":"end2  pca      0.110    0.114    0.108    0.123    0.122    0.132    0.126    0.137    0.139    0.143    0.137    0.133    0.163\n"}
+,{"stream_name":"stdout","time":157.778557146,"data":"end2  full     0.122    0.114    0.116    0.120    0.113    0.118    0.119    0.132    0.136    0.163    0.188    0.199    0.230\n"}
+,{"stream_name":"stdout","time":157.778561361,"data":"end3  pca      0.119    0.115    0.104    0.115    0.113    0.103    0.125    0.120    0.127    0.142    0.155    0.165    0.153\n"}
+,{"stream_name":"stdout","time":157.778565625,"data":"end3  full     0.129    0.115    0.105    0.118    0.118    0.115    0.143    0.136    0.139    0.177    0.207    0.215    0.234\n"}
+,{"stream_name":"stdout","time":157.778569769,"data":"end4  pca      0.120    0.104    0.089    0.110    0.106    0.114    0.125    0.124    0.135    0.146    0.147    0.159    0.164\n"}
+,{"stream_name":"stdout","time":157.778573896,"data":"end4  full     0.124    0.119    0.104    0.104    0.125    0.130    0.124    0.129    0.129    0.186    0.218    0.225    0.248\n"}
+,{"stream_name":"stdout","time":157.778578839,"data":"chosen C at N_max: l7/pca 0.01 l7/full 10.0 end2/pca 0.01 end2/full 1.0 end3/pca 0.01 end3/full 0.1 end4/pca 0.01 end4/full 0.1\n"}
+,{"stream_name":"stdout","time":157.778584056,"data":"gate: PCA probe on the digit's own token (+0, l7) at N_max: 1.000 (\u003e= 0.90)\n"}
+,{"stream_name":"stdout","time":157.778588719,"data":"GSM8K-only part (N = 5249): level 0.217, gain +0.035 -\u003e PARTIAL (v205 rule)\n"}
+,{"stream_name":"stdout","time":157.778593218,"data":"B2x: GSM8K test level 0.308, gain over the last doubling +0.016 | Orca test level 0.272, gain +0.031 -\u003e SHIFT-LIMITED\n"}
+,{"stream_name":"stdout","time":157.778598459,"data":"mean gain over 8 Q x probe combinations, N_max/2 -\u003e N_max, gsm test: +0.0041 [-0.0056, +0.0139] (descriptive)\n"}
+,{"stream_name":"stdout","time":157.778613261,"data":"mean gain over 8 Q x probe combinations, N_max/2 -\u003e N_max, orca test: +0.0184 [+0.0079, +0.0288] (descriptive)\n"}
+,{"stream_name":"stdout","time":157.778617504,"data":"B2x: SHIFT-LIMITED\n"}
+,{"stream_name":"stdout","time":157.778621401,"data":"\n"}
+,{"stream_name":"stderr","time":160.865455394,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":160.86548656,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":161.435144754,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":161.435180995,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":163.683341443,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":165.12541769,"data":"[NbConvertApp] Writing 324966 bytes to __results__.html\n"}
+]

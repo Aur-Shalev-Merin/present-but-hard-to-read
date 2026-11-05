@@ -1,0 +1,13 @@
+v216 extract | pilot False | items sha c50b807676079b6d (frozen )
+loaded Qwen/Qwen2.5-7B in 152s | 12000 items
+positions {'eq': 79, 'last': 82, 'pre': 85} -> {'eq': '4', 'last': '?', 'pre': ' '} | answer token 86 '5'
+fam     1/12000 (1.374 s/item) | answer correct so far 1.000
+fam   100/12000 (0.119 s/item) | answer correct so far 0.700
+fam   500/12000 (0.108 s/item) | answer correct so far 0.724
+fam  2000/12000 (0.107 s/item) | answer correct so far 0.673
+fam  4000/12000 (0.108 s/item) | answer correct so far 0.675
+fam  6000/12000 (0.108 s/item) | answer correct so far 0.684
+fam  8000/12000 (0.108 s/item) | answer correct so far 0.689
+fam 10000/12000 (0.108 s/item) | answer correct so far 0.691
+fam 12000/12000 (0.108 s/item) | answer correct so far 0.691
+done: 12000 items, answer correct 0.6908 (1452s)

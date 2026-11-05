@@ -1,0 +1,10 @@
+=== v221_copyprobe.py ['/kaggle/input'] {}
+v215 items sha 8c08adec21d20ae3 (frozen 8c08adec21d20ae3)
+d1 (majority 0.258), test accuracy by layer [0, 4, 8, 12, 16, 20, 24, 28]:
+  eq   0.03 1.00 0.94 0.58 0.71 0.43 0.50 0.53 | max 1.000 -> reaches their 90% threshold
+  semi 0.03 0.94 0.83 0.68 0.57 0.46 0.38 0.31 | max 0.939 -> reaches their 90% threshold
+  last 0.03 0.59 0.54 0.50 0.38 0.33 0.40 0.40 | max 0.593 -> below their 90% threshold
+d2 (majority 0.224), test accuracy by layer [0, 4, 8, 12, 16, 20, 24, 28]:
+  eq   1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 | max 1.000 -> reaches their 90% threshold
+  semi 0.11 1.00 1.00 0.99 0.99 0.96 0.90 0.77 | max 1.000 -> reaches their 90% threshold
+  last 0.11 1.00 0.90 0.78 0.70 0.58 0.52 0.50 | max 0.998 -> reaches their 90% threshold

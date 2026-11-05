@@ -1,0 +1,77 @@
+[{"stream_name":"stdout","time":0.899899656,"data":"v220_train.py 6fbfc35236c2376d\n"}
+,{"stream_name":"stdout","time":0.901212261,"data":"v230_pilot.py c81a00eecee20d7d\n"}
+,{"stream_name":"stdout","time":9.664366242,"data":"[gpu0] v230 pilot | device cuda | TINY False | steps 30000 | lr 0.001 | DAS m 16, 2000 steps | cells ['std:pos:0']\n"}
+,{"stream_name":"stdout","time":9.686119293,"data":"[gpu1] v230 pilot | device cuda | TINY False | steps 30000 | lr 0.001 | DAS m 16, 2000 steps | cells ['std:pos:1']\n"}
+,{"stream_name":"stdout","time":25.841845988,"data":"[gpu0] /kaggle/working/v230_pilot.py:113: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.\n"}
+,{"stream_name":"stdout","time":25.841873648,"data":"[gpu0] Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)\n"}
+,{"stream_name":"stdout","time":25.841883625,"data":"[gpu0]   net.train(); curve.append([s + 1, round(float(loss), 4), acc])\n"}
+,{"stream_name":"stdout","time":25.95093704,"data":"[gpu1] /kaggle/working/v230_pilot.py:113: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.\n"}
+,{"stream_name":"stdout","time":25.950964723,"data":"[gpu1] Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)\n"}
+,{"stream_name":"stdout","time":25.950970638,"data":"[gpu1]   net.train(); curve.append([s + 1, round(float(loss), 4), acc])\n"}
+,{"stream_name":"stdout","time":181.969584711,"data":"[gpu1] train std pos seed 1 | to 0.99: 7500 | final acc 0.9948 | 9500 steps, 165 s\n"}
+,{"stream_name":"stdout","time":183.502350964,"data":"[gpu1]   guard check {'layer': 4, 'pos': 3, 'k': 6, 'rank': 23, 'rank_max': 45, 'x': 0.924, 'z': 0.933}\n"}
+,{"stream_name":"stdout","time":184.343951568,"data":"[gpu1]   guard check {'layer': 1, 'pos': 3, 'k': 6, 'rank': 23, 'rank_max': 45, 'x': 0.997, 'z': 0.997}\n"}
+,{"stream_name":"stdout","time":185.135894327,"data":"[gpu1]   guard check {'layer': 1, 'pos': 10, 'k': 6, 'rank': 22, 'rank_max': 67, 'x': 0.672, 'z': 0.656, 'w': 1.0}\n"}
+,{"stream_name":"stdout","time":185.136100991,"data":"[gpu1]   GUARD CHECK FAILED: no DAS for this cell\n"}
+,{"stream_name":"stdout","time":455.731868168,"data":"[gpu0] train std pos seed 0 | to 0.99: 25000 | final acc 0.9990 | 27000 steps, 439 s\n"}
+,{"stream_name":"stdout","time":457.021964011,"data":"[gpu0]   guard check {'layer': 4, 'pos': 3, 'k': 6, 'rank': 40, 'rank_max': 45, 'x': 0.97, 'z': 0.976}\n"}
+,{"stream_name":"stdout","time":457.711736057,"data":"[gpu0]   guard check {'layer': 1, 'pos': 3, 'k': 6, 'rank': 23, 'rank_max': 45, 'x': 0.998, 'z': 0.998}\n"}
+,{"stream_name":"stdout","time":458.250158561,"data":"[gpu0]   guard check {'layer': 1, 'pos': 10, 'k': 6, 'rank': 33, 'rank_max': 67, 'x': 0.887, 'z': 0.889, 'w': 1.0}\n"}
+,{"stream_name":"stdout","time":539.32220555,"data":"[gpu0]   das sanity (W at its token, layer 1) | IIA 0.902 | random 0.000\n"}
+,{"stream_name":"stdout","time":621.06521928,"data":"[gpu0]   das std k 6 pos  3 layer 1 guard   | IIA 0.006 (base kept 0.953) | random 0.000 (kept 0.997) | complement 169\n"}
+,{"stream_name":"stdout","time":699.543641735,"data":"[gpu0]   das std k 6 pos  3 layer 2 guard   | IIA 0.021 (base kept 0.883) | random 0.000 (kept 0.999) | complement 157\n"}
+,{"stream_name":"stdout","time":776.016511898,"data":"[gpu0]   das std k 6 pos  3 layer 3 guard   | IIA 0.175 (base kept 0.645) | random 0.000 (kept 0.998) | complement 149\n"}
+,{"stream_name":"stdout","time":850.063701421,"data":"[gpu0]   das std k 6 pos  3 layer 4 guard   | IIA 0.626 (base kept 0.233) | random 0.000 (kept 0.998) | complement 153\n"}
+,{"stream_name":"stdout","time":921.805198695,"data":"[gpu0]   das std k 6 pos  3 layer 5 guard   | IIA 0.005 (base kept 0.980) | random 0.000 (kept 1.000) | complement 160\n"}
+,{"stream_name":"stdout","time":991.382528974,"data":"[gpu0]   das std k 6 pos  3 layer 6 guard   | IIA 0.000 (base kept 0.999) | random 0.000 (kept 0.999) | complement 156\n"}
+,{"stream_name":"stdout","time":1072.913895595,"data":"[gpu0]   das std k 6 pos  6 layer 1 guard   | IIA 0.000 (base kept 0.999) | random 0.000 (kept 0.999) | complement 169\n"}
+,{"stream_name":"stdout","time":1151.795482533,"data":"[gpu0]   das std k 6 pos  6 layer 2 guard   | IIA 0.000 (base kept 0.999) | random 0.000 (kept 0.999) | complement 159\n"}
+,{"stream_name":"stdout","time":1228.031877859,"data":"[gpu0]   das std k 6 pos  6 layer 3 guard   | IIA 0.000 (base kept 0.998) | random 0.000 (kept 0.998) | complement 155\n"}
+,{"stream_name":"stdout","time":1302.085264448,"data":"[gpu0]   das std k 6 pos  6 layer 4 guard   | IIA 0.000 (base kept 0.998) | random 0.000 (kept 0.998) | complement 152\n"}
+,{"stream_name":"stdout","time":1373.880466825,"data":"[gpu0]   das std k 6 pos  6 layer 5 guard   | IIA 0.000 (base kept 0.998) | random 0.000 (kept 0.998) | complement 154\n"}
+,{"stream_name":"stdout","time":1443.698104526,"data":"[gpu0]   das std k 6 pos  6 layer 6 guard   | IIA 0.000 (base kept 0.999) | random 0.000 (kept 0.999) | complement 156\n"}
+,{"stream_name":"stdout","time":1525.348892245,"data":"[gpu0]   das std k 6 pos  9 layer 1 guard   | IIA 0.000 (base kept 0.998) | random 0.000 (kept 0.998) | complement 170\n"}
+,{"stream_name":"stdout","time":1603.682148823,"data":"[gpu0]   das std k 6 pos  9 layer 2 guard   | IIA 0.000 (base kept 1.000) | random 0.000 (kept 1.000) | complement 160\n"}
+,{"stream_name":"stdout","time":1680.041626219,"data":"[gpu0]   das std k 6 pos  9 layer 3 guard   | IIA 0.000 (base kept 1.000) | random 0.000 (kept 1.000) | complement 157\n"}
+,{"stream_name":"stdout","time":1754.396693144,"data":"[gpu0]   das std k 6 pos  9 layer 4 guard   | IIA 0.000 (base kept 1.000) | random 0.000 (kept 1.000) | complement 155\n"}
+,{"stream_name":"stdout","time":1825.974195347,"data":"[gpu0]   das std k 6 pos  9 layer 5 guard   | IIA 0.000 (base kept 0.999) | random 0.000 (kept 0.999) | complement 156\n"}
+,{"stream_name":"stdout","time":1895.544198123,"data":"[gpu0]   das std k 6 pos  9 layer 6 guard   | IIA 0.000 (base kept 0.999) | random 0.000 (kept 0.999) | complement 156\n"}
+,{"stream_name":"stdout","time":1977.022798789,"data":"[gpu0]   das std k 6 pos 10 layer 1 guard   | IIA 0.000 (base kept 1.000) | random 0.000 (kept 1.000) | complement 159\n"}
+,{"stream_name":"stdout","time":2055.373048025,"data":"[gpu0]   das std k 6 pos 10 layer 2 guard   | IIA 0.000 (base kept 0.998) | random 0.000 (kept 0.999) | complement 153\n"}
+,{"stream_name":"stdout","time":2131.418022429,"data":"[gpu0]   das std k 6 pos 10 layer 3 guard   | IIA 0.000 (base kept 0.998) | random 0.000 (kept 0.999) | complement 152\n"}
+,{"stream_name":"stdout","time":2205.183119684,"data":"[gpu0]   das std k 6 pos 10 layer 4 guard   | IIA 0.000 (base kept 0.998) | random 0.000 (kept 0.999) | complement 152\n"}
+,{"stream_name":"stdout","time":2276.548628296,"data":"[gpu0]   das std k 6 pos 10 layer 5 guard   | IIA 0.001 (base kept 0.983) | random 0.000 (kept 0.998) | complement 154\n"}
+,{"stream_name":"stdout","time":2345.814383174,"data":"[gpu0]   das std k 6 pos 10 layer 6 guard   | IIA 0.000 (base kept 0.999) | random 0.000 (kept 0.999) | complement 156\n"}
+,{"stream_name":"stdout","time":2426.765035055,"data":"[gpu0]   das std k 6 pos 11 layer 1 guard   | IIA 0.000 (base kept 0.999) | random 0.000 (kept 0.999) | complement 164\n"}
+,{"stream_name":"stdout","time":2504.829348576,"data":"[gpu0]   das std k 6 pos 11 layer 2 guard   | IIA 0.000 (base kept 0.997) | random 0.000 (kept 0.999) | complement 150\n"}
+,{"stream_name":"stdout","time":2580.827682779,"data":"[gpu0]   das std k 6 pos 11 layer 3 guard   | IIA 0.000 (base kept 0.998) | random 0.000 (kept 0.999) | complement 147\n"}
+,{"stream_name":"stdout","time":2654.496718017,"data":"[gpu0]   das std k 6 pos 11 layer 4 guard   | IIA 0.000 (base kept 0.996) | random 0.000 (kept 0.999) | complement 144\n"}
+,{"stream_name":"stdout","time":2725.738262179,"data":"[gpu0]   das std k 6 pos 11 layer 5 guard   | IIA 0.026 (base kept 0.813) | random 0.000 (kept 0.999) | complement 148\n"}
+,{"stream_name":"stdout","time":2794.981140075,"data":"[gpu0]   das std k 6 pos 11 layer 6 guard   | IIA 0.001 (base kept 0.547) | random 0.000 (kept 0.996) | complement 176\n"}
+,{"stream_name":"stdout","time":2876.066504224,"data":"[gpu0]   das std k 0 pos  9 layer 1 guard   | IIA 0.004 (base kept 0.954) | random 0.000 (kept 0.998) | complement 169\n"}
+,{"stream_name":"stdout","time":2954.276268735,"data":"[gpu0]   das std k 0 pos  9 layer 2 guard   | IIA 0.026 (base kept 0.873) | random 0.000 (kept 0.995) | complement 157\n"}
+,{"stream_name":"stdout","time":3029.988255174,"data":"[gpu0]   das std k 0 pos  9 layer 3 guard   | IIA 0.199 (base kept 0.628) | random 0.000 (kept 0.997) | complement 152\n"}
+,{"stream_name":"stdout","time":3103.80039732,"data":"[gpu0]   das std k 0 pos  9 layer 4 guard   | IIA 0.684 (base kept 0.188) | random 0.000 (kept 0.997) | complement 153\n"}
+,{"stream_name":"stdout","time":3174.941078308,"data":"[gpu0]   das std k 0 pos  9 layer 5 guard   | IIA 0.007 (base kept 0.980) | random 0.000 (kept 0.999) | complement 160\n"}
+,{"stream_name":"stdout","time":3244.249434277,"data":"[gpu0]   das std k 0 pos  9 layer 6 guard   | IIA 0.000 (base kept 0.998) | random 0.000 (kept 0.998) | complement 160\n"}
+,{"stream_name":"stdout","time":3325.032565389,"data":"[gpu0]   das std k 0 pos 10 layer 1 guard   | IIA 0.000 (base kept 0.998) | random 0.000 (kept 0.999) | complement 157\n"}
+,{"stream_name":"stdout","time":3403.091757743,"data":"[gpu0]   das std k 0 pos 10 layer 2 guard   | IIA 0.000 (base kept 0.998) | random 0.000 (kept 0.999) | complement 154\n"}
+,{"stream_name":"stdout","time":3478.931618508,"data":"[gpu0]   das std k 0 pos 10 layer 3 guard   | IIA 0.000 (base kept 0.998) | random 0.000 (kept 0.998) | complement 151\n"}
+,{"stream_name":"stdout","time":3552.459066824,"data":"[gpu0]   das std k 0 pos 10 layer 4 guard   | IIA 0.000 (base kept 0.998) | random 0.000 (kept 0.999) | complement 154\n"}
+,{"stream_name":"stdout","time":3623.678940508,"data":"[gpu0]   das std k 0 pos 10 layer 5 guard   | IIA 0.001 (base kept 0.979) | random 0.000 (kept 0.998) | complement 154\n"}
+,{"stream_name":"stdout","time":3692.891490345,"data":"[gpu0]   das std k 0 pos 10 layer 6 guard   | IIA 0.000 (base kept 0.999) | random 0.000 (kept 0.999) | complement 159\n"}
+,{"stream_name":"stdout","time":3773.642999929,"data":"[gpu0]   das std k 0 pos 11 layer 1 guard   | IIA 0.000 (base kept 0.999) | random 0.000 (kept 0.999) | complement 164\n"}
+,{"stream_name":"stdout","time":3851.750220593,"data":"[gpu0]   das std k 0 pos 11 layer 2 guard   | IIA 0.000 (base kept 0.996) | random 0.000 (kept 0.998) | complement 150\n"}
+,{"stream_name":"stdout","time":3927.432815787,"data":"[gpu0]   das std k 0 pos 11 layer 3 guard   | IIA 0.000 (base kept 0.998) | random 0.000 (kept 0.997) | complement 146\n"}
+,{"stream_name":"stdout","time":4001.049794749,"data":"[gpu0]   das std k 0 pos 11 layer 4 guard   | IIA 0.001 (base kept 0.996) | random 0.000 (kept 0.999) | complement 144\n"}
+,{"stream_name":"stdout","time":4072.336658579,"data":"[gpu0]   das std k 0 pos 11 layer 5 guard   | IIA 0.032 (base kept 0.782) | random 0.000 (kept 0.997) | complement 148\n"}
+,{"stream_name":"stdout","time":4141.581098476,"data":"[gpu0]   das std k 0 pos 11 layer 6 guard   | IIA 0.001 (base kept 0.510) | random 0.000 (kept 0.998) | complement 174\n"}
+,{"stream_name":"stdout","time":4141.5811408,"data":"[gpu0]   das done in 3685 s\n"}
+,{"stream_name":"stdout","time":4142.427973984,"data":"exit codes [0, 0]\n"}
+,{"stream_name":"stderr","time":4144.76576004,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":4144.76579015,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":4145.090613599,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":4145.090641224,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":4145.999866043,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":4147.053902195,"data":"[NbConvertApp] Writing 294039 bytes to __results__.html\n"}
+]

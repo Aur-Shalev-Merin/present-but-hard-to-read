@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code or these results, please cite the paper."
-title: "Present but Hard to Read: Probing Latent Reasoning with Minimal Pairs"
+title: "Copied, Mixed or Computed? Testing Latent Intermediate Values with Minimal Pairs"
 authors:
   - family-names: "Shalev Merin"
     given-names: "Aur"
@@ -10,7 +10,7 @@ license: MIT
 repository-code: "https://github.com/Aur-Shalev-Merin/present-but-hard-to-read"
 preferred-citation:
   type: article
-  title: "Present but Hard to Read: Probing Latent Reasoning with Minimal Pairs"
+  title: "Copied, Mixed or Computed? Testing Latent Intermediate Values with Minimal Pairs"
   authors:
     - family-names: "Shalev Merin"
       given-names: "Aur"

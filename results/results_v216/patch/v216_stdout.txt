@@ -1,0 +1,22 @@
+=== v216_patch.py ['extract', '/kaggle/input'] {}
+v216 patch | 3000 pairs | smoke False | items sha 497db0bcb9748f30 | loaded in 130s
+1/3000 pairs (3.13 s/pair) | hit so far: none 0.000 cB 0.000 cBo 0.000 cA 0.000 cD 1.000 cR 0.000 full 1.000
+20/3000 pairs (0.98 s/pair) | hit so far: none 0.000 cB 0.350 cBo 0.050 cA 0.350 cD 0.900 cR 0.050 full 0.950
+100/3000 pairs (0.87 s/pair) | hit so far: none 0.000 cB 0.300 cBo 0.020 cA 0.360 cD 0.830 cR 0.010 full 0.880
+250/3000 pairs (0.86 s/pair) | hit so far: none 0.000 cB 0.272 cBo 0.008 cA 0.340 cD 0.864 cR 0.004 full 0.896
+500/3000 pairs (0.86 s/pair) | hit so far: none 0.000 cB 0.294 cBo 0.006 cA 0.354 cD 0.842 cR 0.002 full 0.870
+750/3000 pairs (0.85 s/pair) | hit so far: none 0.000 cB 0.295 cBo 0.005 cA 0.368 cD 0.837 cR 0.001 full 0.868
+1000/3000 pairs (0.85 s/pair) | hit so far: none 0.000 cB 0.280 cBo 0.007 cA 0.354 cD 0.829 cR 0.002 full 0.858
+1250/3000 pairs (0.85 s/pair) | hit so far: none 0.000 cB 0.298 cBo 0.009 cA 0.378 cD 0.712 cR 0.002 full 0.863
+1500/3000 pairs (0.85 s/pair) | hit so far: none 0.000 cB 0.307 cBo 0.013 cA 0.387 cD 0.636 cR 0.002 full 0.861
+1750/3000 pairs (0.85 s/pair) | hit so far: none 0.000 cB 0.309 cBo 0.014 cA 0.395 cD 0.575 cR 0.002 full 0.855
+2000/3000 pairs (0.85 s/pair) | hit so far: none 0.000 cB 0.315 cBo 0.017 cA 0.408 cD 0.536 cR 0.002 full 0.853
+2250/3000 pairs (0.85 s/pair) | hit so far: none 0.000 cB 0.280 cBo 0.015 cA 0.363 cD 0.477 cR 0.001 full 0.758
+2500/3000 pairs (0.85 s/pair) | hit so far: none 0.000 cB 0.252 cBo 0.013 cA 0.326 cD 0.429 cR 0.001 full 0.682
+2750/3000 pairs (0.85 s/pair) | hit so far: none 0.000 cB 0.229 cBo 0.012 cA 0.297 cD 0.390 cR 0.001 full 0.620
+3000/3000 pairs (0.85 s/pair) | hit so far: none 0.000 cB 0.210 cBo 0.011 cA 0.272 cD 0.358 cR 0.001 full 0.568
+done (2694s)
+=== v216_patch.py ['analyse', '.'] {}
+eq (1000 pairs): hit none 0.000 cB 0.280 cBo 0.007 cA 0.354 cD 0.829 cR 0.002 full 0.858 | kept own answer none 1.000 cB 0.619 cBo 0.966 cA 0.548 cD 0.050 cR 0.994 full 0.054 | cBo - cR +0.0050 [-0.0009, +0.0113] -> NOT-USED
+last (1000 pairs): hit none 0.000 cB 0.000 cBo 0.000 cA 0.000 cD 0.000 cR 0.000 full 0.000 | kept own answer none 1.000 cB 1.000 cBo 1.000 cA 1.000 cD 1.000 cR 1.000 full 1.000 | cBo - cR +0.0000 [+0.0000, +0.0000] -> UNSCORABLE
+pre (1000 pairs): hit none 0.000 cB 0.349 cBo 0.026 cA 0.462 cD 0.244 cR 0.001 full 0.847 | kept own answer none 1.000 cB 0.565 cBo 0.945 cA 0.435 cD 0.657 cR 0.997 full 0.059 | cBo - cR +0.0250 [+0.0136, +0.0385] -> UNCLEAR

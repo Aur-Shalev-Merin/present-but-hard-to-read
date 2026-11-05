@@ -1,0 +1,23 @@
+[{"stream_name":"stdout","time":0.957982059,"data":"v220_train.py 6fbfc35236c2376d\n"}
+,{"stream_name":"stdout","time":10.018027654,"data":"[gpu1] v220 pilot | device cuda | TINY False | steps 30000 | 3 cells\n"}
+,{"stream_name":"stdout","time":10.103833372,"data":"[gpu0] v220 pilot | device cuda | TINY False | steps 30000 | 3 cells\n"}
+,{"stream_name":"stdout","time":21.629445636,"data":"[gpu1] /kaggle/working/v220_train.py:141: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.\n"}
+,{"stream_name":"stdout","time":21.629484011,"data":"[gpu1] Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)\n"}
+,{"stream_name":"stdout","time":21.629490168,"data":"[gpu1]   acc, acc_p, acc_m = evaluate(); curve.append([s + 1, round(float(loss), 4), acc, acc_p, acc_m])\n"}
+,{"stream_name":"stdout","time":21.629892626,"data":"[gpu0] /kaggle/working/v220_train.py:141: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.\n"}
+,{"stream_name":"stdout","time":21.629923455,"data":"[gpu0] Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)\n"}
+,{"stream_name":"stdout","time":21.62992925,"data":"[gpu0]   acc, acc_p, acc_m = evaluate(); curve.append([s + 1, round(float(loss), 4), acc, acc_p, acc_m])\n"}
+,{"stream_name":"stdout","time":180.424691731,"data":"[gpu0] std2 dig lr 0.0003 seed 0 | params 897216 | to 0.95: 15500, to 0.99: 20500 | final acc 0.995 (plus 0.999, minus 0.962) | 22500 steps, 164 s\n"}
+,{"stream_name":"stdout","time":199.729822055,"data":"[gpu1] std2 dig lr 0.001  seed 0 | params 897216 | to 0.95: 18000, to 0.99: 23000 | final acc 0.998 (plus 0.998, minus 0.998) | 25000 steps, 183 s\n"}
+,{"stream_name":"stdout","time":231.075640807,"data":"[gpu1] std2 mod lr 0.0003 seed 0 | params 901440 | to 0.95: 2500, to 0.99: 2500 | final acc 1.000 (plus 0.999, minus 1.000) | 4500 steps, 31 s\n"}
+,{"stream_name":"stdout","time":276.757223135,"data":"[gpu1] std2 mod lr 0.003  seed 0 | params 901440 | to 0.95: 3500, to 0.99: 4500 | final acc 0.970 (plus 0.969, minus 0.971) | 6500 steps, 46 s\n"}
+,{"stream_name":"stdout","time":388.456407022,"data":"[gpu0] std2 dig lr 0.003  seed 0 | params 897216 | to 0.95: 28500, to 0.99: None | final acc 0.965 (plus 0.981, minus 0.834) | 30000 steps, 208 s\n"}
+,{"stream_name":"stdout","time":433.842496387,"data":"[gpu0] std2 mod lr 0.001  seed 0 | params 901440 | to 0.95: 3000, to 0.99: 5000 | final acc 0.993 (plus 0.995, minus 0.990) | 7000 steps, 45 s\n"}
+,{"stream_name":"stdout","time":434.600519042,"data":"exit codes [0, 0]\n"}
+,{"stream_name":"stderr","time":436.832372516,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":436.832405217,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":437.135628106,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":437.135660744,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":437.973760932,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":439.022028405,"data":"[NbConvertApp] Writing 286037 bytes to __results__.html\n"}
+]

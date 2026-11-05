@@ -1,0 +1,4 @@
+v213 pilot | ouro26 | GPUs 1 ['Tesla T4']
+loaded ByteDance/Ouro-2.6B fp32 in 51s; layers 48, loops 4
+cached prefix 222 of 225 head tokens | cached vs full: max abs diff 2.86e-05 | our forward vs the model's own: max |logit diff| 0.00e+00 | 0.838 s/prompt (median of 7, after the first)
+total 66s; peak GPU memory ['12.5'] GB

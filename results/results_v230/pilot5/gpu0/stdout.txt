@@ -1,0 +1,215 @@
+v230 pilot | device cuda | TINY False | steps 30000 | lr 0.001 | DAS m 32, 2000 steps | cells ['std:pos:1', 'std:pos:3']
+/kaggle/working/v230_pilot.py:121: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  net.train(); curve.append([s + 1, round(float(loss), 4), acc])
+train std pos seed 1 | to 0.99: 7500 | final acc 0.9948 | 9500 steps, 143 s
+  guard check {'layer': 4, 'pos': 3, 'k': 6, 'rank': 23, 'rank_max': 45, 'x': {'signal_x_noise': 40.6, 'outside_x_noise': 3.09}, 'z': {'signal_x_noise': 35.5, 'outside_x_noise': 2.36}}
+  guard check {'layer': 1, 'pos': 3, 'k': 6, 'rank': 23, 'rank_max': 45, 'x': {'signal_x_noise': 145.2, 'outside_x_noise': 0.4}, 'z': {'signal_x_noise': 165.7, 'outside_x_noise': 0.49}}
+  guard check {'layer': 1, 'pos': 10, 'k': 6, 'rank': 22, 'rank_max': 67, 'x': {'signal_x_noise': 4.5, 'outside_x_noise': 1.36}, 'z': {'signal_x_noise': 4.2, 'outside_x_noise': 1.27}, 'w': {'signal_x_noise': 638.7, 'outside_x_noise': 0.09}}
+  das sanity (W at its token, layer 0) | IIA 0.993 (base kept 0.000) | random 0.002
+  das sanity (X at its token, layer 0) | IIA 0.999 (base kept 0.000) | random 0.005
+  das sanity (Z at its token, layer 0) | IIA 0.999 (base kept 0.000) | random 0.006
+  das sanity (W at its token, layer 1) | IIA 0.529 (base kept 0.126) | random 0.001
+  das X k 6 pos  3 layer 1 noguard | IIA 0.038 (base kept 0.341) | random 0.002 (kept 0.927)
+  das X k 6 pos  3 layer 2 noguard | IIA 0.033 (base kept 0.366) | random 0.002 (kept 0.954)
+  das X k 6 pos  3 layer 3 noguard | IIA 0.025 (base kept 0.381) | random 0.002 (kept 0.963)
+  das X k 6 pos  3 layer 4 noguard | IIA 0.023 (base kept 0.320) | random 0.004 (kept 0.943)
+  das X k 6 pos  3 layer 5 noguard | IIA 0.022 (base kept 0.477) | random 0.001 (kept 0.987)
+  das X k 6 pos  3 layer 6 noguard | IIA 0.000 (base kept 0.994) | random 0.000 (kept 0.994)
+  das Z k 6 pos  3 layer 1 noguard | IIA 0.040 (base kept 0.331) | random 0.004 (kept 0.931)
+  das Z k 6 pos  3 layer 2 noguard | IIA 0.029 (base kept 0.347) | random 0.003 (kept 0.921)
+  das Z k 6 pos  3 layer 3 noguard | IIA 0.027 (base kept 0.375) | random 0.001 (kept 0.963)
+  das Z k 6 pos  3 layer 4 noguard | IIA 0.022 (base kept 0.319) | random 0.003 (kept 0.940)
+  das Z k 6 pos  3 layer 5 noguard | IIA 0.022 (base kept 0.486) | random 0.001 (kept 0.983)
+  das Z k 6 pos  3 layer 6 noguard | IIA 0.000 (base kept 0.991) | random 0.000 (kept 0.991)
+  das X k 0 pos  9 layer 1 noguard | IIA 0.049 (base kept 0.211) | random 0.005 (kept 0.910)
+  das X k 0 pos  9 layer 2 noguard | IIA 0.029 (base kept 0.251) | random 0.003 (kept 0.935)
+  das X k 0 pos  9 layer 3 noguard | IIA 0.025 (base kept 0.289) | random 0.002 (kept 0.938)
+  das X k 0 pos  9 layer 4 noguard | IIA 0.019 (base kept 0.247) | random 0.002 (kept 0.941)
+  das X k 0 pos  9 layer 5 noguard | IIA 0.029 (base kept 0.285) | random 0.000 (kept 0.989)
+  das X k 0 pos  9 layer 6 noguard | IIA 0.000 (base kept 0.994) | random 0.000 (kept 0.994)
+  das Z k 0 pos  9 layer 1 noguard | IIA 0.051 (base kept 0.201) | random 0.005 (kept 0.899)
+  das Z k 0 pos  9 layer 2 noguard | IIA 0.034 (base kept 0.254) | random 0.006 (kept 0.901)
+  das Z k 0 pos  9 layer 3 noguard | IIA 0.029 (base kept 0.277) | random 0.002 (kept 0.948)
+  das Z k 0 pos  9 layer 4 noguard | IIA 0.026 (base kept 0.267) | random 0.003 (kept 0.928)
+  das Z k 0 pos  9 layer 5 noguard | IIA 0.032 (base kept 0.299) | random 0.001 (kept 0.991)
+  das Z k 0 pos  9 layer 6 noguard | IIA 0.001 (base kept 0.991) | random 0.001 (kept 0.991)
+  das S k 6 pos  3 layer 1 guard   | IIA 0.033 (base kept 0.697) | random 0.001 (kept 0.978) | complement 169
+  das S k 6 pos  3 layer 1 noguard | IIA 0.297 (base kept 0.182) | random 0.003 (kept 0.944) | complement 192
+  das S k 6 pos  3 layer 2 guard   | IIA 0.095 (base kept 0.558) | random 0.002 (kept 0.981) | complement 165
+  das S k 6 pos  3 layer 2 noguard | IIA 0.472 (base kept 0.138) | random 0.004 (kept 0.934) | complement 192
+  das S k 6 pos  3 layer 3 guard   | IIA 0.145 (base kept 0.509) | random 0.002 (kept 0.980) | complement 162
+  das S k 6 pos  3 layer 3 noguard | IIA 0.631 (base kept 0.114) | random 0.004 (kept 0.954) | complement 192
+  das S k 6 pos  3 layer 4 guard   | IIA 0.171 (base kept 0.410) | random 0.002 (kept 0.978) | complement 169
+  das S k 6 pos  3 layer 4 noguard | IIA 0.782 (base kept 0.073) | random 0.006 (kept 0.906) | complement 192
+  das S k 6 pos  3 layer 5 guard   | IIA 0.010 (base kept 0.888) | random 0.001 (kept 0.987) | complement 172
+  das S k 6 pos  3 layer 5 noguard | IIA 0.053 (base kept 0.457) | random 0.001 (kept 0.982) | complement 192
+  das S k 6 pos  3 layer 6 guard   | IIA 0.000 (base kept 0.990) | random 0.000 (kept 0.990) | complement 172
+  das S k 6 pos  3 layer 6 noguard | IIA 0.000 (base kept 0.992) | random 0.000 (kept 0.992) | complement 192
+  das S k 6 pos  6 layer 1 guard   | IIA 0.001 (base kept 0.991) | random 0.000 (kept 0.993) | complement 169
+  das S k 6 pos  6 layer 1 noguard | IIA 0.036 (base kept 0.841) | random 0.000 (kept 0.990) | complement 192
+  das S k 6 pos  6 layer 2 guard   | IIA 0.002 (base kept 0.981) | random 0.000 (kept 0.993) | complement 166
+  das S k 6 pos  6 layer 2 noguard | IIA 0.041 (base kept 0.867) | random 0.000 (kept 0.992) | complement 192
+  das S k 6 pos  6 layer 3 guard   | IIA 0.001 (base kept 0.983) | random 0.000 (kept 0.993) | complement 163
+  das S k 6 pos  6 layer 3 noguard | IIA 0.047 (base kept 0.861) | random 0.000 (kept 0.994) | complement 192
+  das S k 6 pos  6 layer 4 guard   | IIA 0.001 (base kept 0.985) | random 0.000 (kept 0.994) | complement 165
+  das S k 6 pos  6 layer 4 noguard | IIA 0.053 (base kept 0.859) | random 0.000 (kept 0.991) | complement 192
+  das S k 6 pos  6 layer 5 guard   | IIA 0.001 (base kept 0.988) | random 0.001 (kept 0.991) | complement 167
+  das S k 6 pos  6 layer 5 noguard | IIA 0.004 (base kept 0.917) | random 0.001 (kept 0.993) | complement 192
+  das S k 6 pos  6 layer 6 guard   | IIA 0.001 (base kept 0.992) | random 0.001 (kept 0.992) | complement 168
+  das S k 6 pos  6 layer 6 noguard | IIA 0.000 (base kept 0.994) | random 0.000 (kept 0.994) | complement 192
+  das S k 6 pos  9 layer 1 guard   | IIA 0.000 (base kept 0.988) | random 0.000 (kept 0.992) | complement 169
+  das S k 6 pos  9 layer 1 noguard | IIA 0.032 (base kept 0.845) | random 0.001 (kept 0.992) | complement 192
+  das S k 6 pos  9 layer 2 guard   | IIA 0.003 (base kept 0.980) | random 0.001 (kept 0.990) | complement 165
+  das S k 6 pos  9 layer 2 noguard | IIA 0.035 (base kept 0.879) | random 0.000 (kept 0.993) | complement 192
+  das S k 6 pos  9 layer 3 guard   | IIA 0.001 (base kept 0.979) | random 0.001 (kept 0.990) | complement 162
+  das S k 6 pos  9 layer 3 noguard | IIA 0.037 (base kept 0.866) | random 0.000 (kept 0.991) | complement 192
+  das S k 6 pos  9 layer 4 guard   | IIA 0.002 (base kept 0.986) | random 0.000 (kept 0.992) | complement 164
+  das S k 6 pos  9 layer 4 noguard | IIA 0.041 (base kept 0.873) | random 0.000 (kept 0.991) | complement 192
+  das S k 6 pos  9 layer 5 guard   | IIA 0.001 (base kept 0.989) | random 0.001 (kept 0.992) | complement 168
+  das S k 6 pos  9 layer 5 noguard | IIA 0.002 (base kept 0.906) | random 0.000 (kept 0.994) | complement 192
+  das S k 6 pos  9 layer 6 guard   | IIA 0.001 (base kept 0.991) | random 0.001 (kept 0.991) | complement 167
+  das S k 6 pos  9 layer 6 noguard | IIA 0.000 (base kept 0.993) | random 0.000 (kept 0.993) | complement 192
+  das S k 6 pos 10 layer 1 guard   | IIA 0.000 (base kept 0.989) | random 0.000 (kept 0.988) | complement 170
+  das S k 6 pos 10 layer 1 noguard | IIA 0.037 (base kept 0.311) | random 0.000 (kept 0.991) | complement 192
+  das S k 6 pos 10 layer 2 guard   | IIA 0.000 (base kept 0.992) | random 0.000 (kept 0.993) | complement 161
+  das S k 6 pos 10 layer 2 noguard | IIA 0.029 (base kept 0.341) | random 0.001 (kept 0.990) | complement 192
+  das S k 6 pos 10 layer 3 guard   | IIA 0.001 (base kept 0.990) | random 0.001 (kept 0.992) | complement 164
+  das S k 6 pos 10 layer 3 noguard | IIA 0.032 (base kept 0.399) | random 0.001 (kept 0.990) | complement 192
+  das S k 6 pos 10 layer 4 guard   | IIA 0.001 (base kept 0.987) | random 0.000 (kept 0.991) | complement 165
+  das S k 6 pos 10 layer 4 noguard | IIA 0.015 (base kept 0.671) | random 0.000 (kept 0.985) | complement 192
+  das S k 6 pos 10 layer 5 guard   | IIA 0.008 (base kept 0.756) | random 0.001 (kept 0.991) | complement 167
+  das S k 6 pos 10 layer 5 noguard | IIA 0.064 (base kept 0.390) | random 0.000 (kept 0.987) | complement 192
+  das S k 6 pos 10 layer 6 guard   | IIA 0.001 (base kept 0.992) | random 0.001 (kept 0.992) | complement 174
+  das S k 6 pos 10 layer 6 noguard | IIA 0.000 (base kept 0.993) | random 0.000 (kept 0.993) | complement 192
+  das S k 6 pos 11 layer 1 guard   | IIA 0.001 (base kept 0.988) | random 0.001 (kept 0.989) | complement 167
+  das S k 6 pos 11 layer 1 noguard | IIA 0.024 (base kept 0.462) | random 0.001 (kept 0.990) | complement 192
+  das S k 6 pos 11 layer 2 guard   | IIA 0.001 (base kept 0.991) | random 0.001 (kept 0.991) | complement 159
+  das S k 6 pos 11 layer 2 noguard | IIA 0.026 (base kept 0.442) | random 0.000 (kept 0.992) | complement 192
+  das S k 6 pos 11 layer 3 guard   | IIA 0.000 (base kept 0.994) | random 0.000 (kept 0.994) | complement 159
+  das S k 6 pos 11 layer 3 noguard | IIA 0.025 (base kept 0.400) | random 0.000 (kept 0.989) | complement 192
+  das S k 6 pos 11 layer 4 guard   | IIA 0.000 (base kept 0.991) | random 0.000 (kept 0.990) | complement 163
+  das S k 6 pos 11 layer 4 noguard | IIA 0.040 (base kept 0.216) | random 0.001 (kept 0.989) | complement 192
+  das S k 6 pos 11 layer 5 guard   | IIA 0.006 (base kept 0.859) | random 0.000 (kept 0.992) | complement 163
+  das S k 6 pos 11 layer 5 noguard | IIA 0.041 (base kept 0.241) | random 0.001 (kept 0.980) | complement 192
+  das S k 6 pos 11 layer 6 guard   | IIA 0.012 (base kept 0.444) | random 0.000 (kept 0.992) | complement 179
+  das S k 6 pos 11 layer 6 noguard | IIA 0.010 (base kept 0.443) | random 0.001 (kept 0.985) | complement 192
+  das S k 0 pos  9 layer 1 guard   | IIA 0.032 (base kept 0.647) | random 0.000 (kept 0.980) | complement 169
+  das S k 0 pos  9 layer 1 noguard | IIA 0.328 (base kept 0.082) | random 0.006 (kept 0.906) | complement 192
+  das S k 0 pos  9 layer 2 guard   | IIA 0.090 (base kept 0.518) | random 0.000 (kept 0.981) | complement 164
+  das S k 0 pos  9 layer 2 noguard | IIA 0.574 (base kept 0.054) | random 0.006 (kept 0.915) | complement 192
+  das S k 0 pos  9 layer 3 guard   | IIA 0.175 (base kept 0.400) | random 0.002 (kept 0.979) | complement 161
+  das S k 0 pos  9 layer 3 noguard | IIA 0.809 (base kept 0.021) | random 0.005 (kept 0.939) | complement 192
+  das S k 0 pos  9 layer 4 guard   | IIA 0.316 (base kept 0.182) | random 0.004 (kept 0.965) | complement 170
+  das S k 0 pos  9 layer 4 noguard | IIA 0.945 (base kept 0.013) | random 0.007 (kept 0.933) | complement 192
+  das S k 0 pos  9 layer 5 guard   | IIA 0.031 (base kept 0.668) | random 0.001 (kept 0.992) | complement 174
+  das S k 0 pos  9 layer 5 noguard | IIA 0.105 (base kept 0.269) | random 0.001 (kept 0.980) | complement 192
+  das S k 0 pos  9 layer 6 guard   | IIA 0.000 (base kept 0.995) | random 0.000 (kept 0.995) | complement 172
+  das S k 0 pos  9 layer 6 noguard | IIA 0.000 (base kept 0.994) | random 0.000 (kept 0.994) | complement 192
+  das S k 0 pos 10 layer 1 guard   | IIA 0.000 (base kept 0.994) | random 0.000 (kept 0.995) | complement 170
+  das S k 0 pos 10 layer 1 noguard | IIA 0.029 (base kept 0.312) | random 0.001 (kept 0.991) | complement 192
+  das S k 0 pos 10 layer 2 guard   | IIA 0.000 (base kept 0.993) | random 0.000 (kept 0.994) | complement 162
+  das S k 0 pos 10 layer 2 noguard | IIA 0.027 (base kept 0.342) | random 0.001 (kept 0.995) | complement 192
+  das S k 0 pos 10 layer 3 guard   | IIA 0.000 (base kept 0.991) | random 0.000 (kept 0.992) | complement 163
+  das S k 0 pos 10 layer 3 noguard | IIA 0.030 (base kept 0.405) | random 0.001 (kept 0.991) | complement 192
+  das S k 0 pos 10 layer 4 guard   | IIA 0.000 (base kept 0.993) | random 0.001 (kept 0.993) | complement 165
+  das S k 0 pos 10 layer 4 noguard | IIA 0.014 (base kept 0.699) | random 0.000 (kept 0.994) | complement 192
+  das S k 0 pos 10 layer 5 guard   | IIA 0.003 (base kept 0.910) | random 0.001 (kept 0.994) | complement 167
+  das S k 0 pos 10 layer 5 noguard | IIA 0.074 (base kept 0.383) | random 0.001 (kept 0.990) | complement 192
+  das S k 0 pos 10 layer 6 guard   | IIA 0.000 (base kept 0.996) | random 0.000 (kept 0.996) | complement 176
+  das S k 0 pos 10 layer 6 noguard | IIA 0.001 (base kept 0.993) | random 0.001 (kept 0.993) | complement 192
+  das S k 0 pos 11 layer 1 guard   | IIA 0.000 (base kept 0.997) | random 0.000 (kept 0.997) | complement 167
+  das S k 0 pos 11 layer 1 noguard | IIA 0.022 (base kept 0.481) | random 0.000 (kept 0.995) | complement 192
+  das S k 0 pos 11 layer 2 guard   | IIA 0.000 (base kept 0.995) | random 0.000 (kept 0.995) | complement 159
+  das S k 0 pos 11 layer 2 noguard | IIA 0.026 (base kept 0.434) | random 0.000 (kept 0.994) | complement 192
+  das S k 0 pos 11 layer 3 guard   | IIA 0.001 (base kept 0.992) | random 0.001 (kept 0.992) | complement 159
+  das S k 0 pos 11 layer 3 noguard | IIA 0.027 (base kept 0.425) | random 0.000 (kept 0.992) | complement 192
+  das S k 0 pos 11 layer 4 guard   | IIA 0.000 (base kept 0.995) | random 0.000 (kept 0.996) | complement 164
+  das S k 0 pos 11 layer 4 noguard | IIA 0.035 (base kept 0.260) | random 0.000 (kept 0.994) | complement 192
+  das S k 0 pos 11 layer 5 guard   | IIA 0.014 (base kept 0.771) | random 0.000 (kept 0.993) | complement 165
+  das S k 0 pos 11 layer 5 noguard | IIA 0.042 (base kept 0.235) | random 0.000 (kept 0.986) | complement 192
+  das S k 0 pos 11 layer 6 guard   | IIA 0.007 (base kept 0.510) | random 0.001 (kept 0.989) | complement 179
+  das S k 0 pos 11 layer 6 noguard | IIA 0.007 (base kept 0.424) | random 0.001 (kept 0.991) | complement 192
+  das done in 8641 s
+train std pos seed 3 | to 0.99: 10000 | final acc 0.9977 | 12000 steps, 180 s
+  guard check {'layer': 4, 'pos': 3, 'k': 6, 'rank': 14, 'rank_max': 45, 'x': {'signal_x_noise': 14.4, 'outside_x_noise': 3.81}, 'z': {'signal_x_noise': 19.4, 'outside_x_noise': 5.31}}
+  guard check {'layer': 1, 'pos': 3, 'k': 6, 'rank': 23, 'rank_max': 45, 'x': {'signal_x_noise': 167.1, 'outside_x_noise': 0.61}, 'z': {'signal_x_noise': 157.2, 'outside_x_noise': 0.5}}
+  guard check {'layer': 1, 'pos': 10, 'k': 6, 'rank': 22, 'rank_max': 67, 'x': {'signal_x_noise': 3.8, 'outside_x_noise': 1.62}, 'z': {'signal_x_noise': 3.6, 'outside_x_noise': 1.54}, 'w': {'signal_x_noise': 665.2, 'outside_x_noise': 0.07}}
+  GUARD CHECK FAILED: no guarded DAS for this cell
+  das sanity (W at its token, layer 0) | IIA 0.999 (base kept 0.000) | random 0.001
+  das sanity (X at its token, layer 0) | IIA 1.000 (base kept 0.000) | random 0.005
+  das sanity (Z at its token, layer 0) | IIA 0.999 (base kept 0.000) | random 0.010
+  das sanity (W at its token, layer 1) | IIA 0.996 (base kept 0.001) | random 0.000
+  das X k 6 pos  3 layer 1 noguard | IIA 0.043 (base kept 0.224) | random 0.003 (kept 0.921)
+  das X k 6 pos  3 layer 2 noguard | IIA 0.027 (base kept 0.246) | random 0.003 (kept 0.957)
+  das X k 6 pos  3 layer 3 noguard | IIA 0.019 (base kept 0.298) | random 0.002 (kept 0.968)
+  das X k 6 pos  3 layer 4 noguard | IIA 0.024 (base kept 0.338) | random 0.002 (kept 0.968)
+  das X k 6 pos  3 layer 5 noguard | IIA 0.009 (base kept 0.821) | random 0.000 (kept 0.996)
+  das X k 6 pos  3 layer 6 noguard | IIA 0.000 (base kept 0.999) | random 0.000 (kept 0.999)
+  das Z k 6 pos  3 layer 1 noguard | IIA 0.047 (base kept 0.208) | random 0.002 (kept 0.929)
+  das Z k 6 pos  3 layer 2 noguard | IIA 0.033 (base kept 0.258) | random 0.004 (kept 0.955)
+  das Z k 6 pos  3 layer 3 noguard | IIA 0.022 (base kept 0.264) | random 0.001 (kept 0.959)
+  das Z k 6 pos  3 layer 4 noguard | IIA 0.025 (base kept 0.334) | random 0.002 (kept 0.948)
+  das Z k 6 pos  3 layer 5 noguard | IIA 0.009 (base kept 0.840) | random 0.000 (kept 0.997)
+  das Z k 6 pos  3 layer 6 noguard | IIA 0.000 (base kept 0.999) | random 0.000 (kept 0.999)
+  das X k 0 pos  9 layer 1 noguard | IIA 0.040 (base kept 0.210) | random 0.006 (kept 0.917)
+  das X k 0 pos  9 layer 2 noguard | IIA 0.026 (base kept 0.249) | random 0.002 (kept 0.959)
+  das X k 0 pos  9 layer 3 noguard | IIA 0.022 (base kept 0.281) | random 0.001 (kept 0.967)
+  das X k 0 pos  9 layer 4 noguard | IIA 0.019 (base kept 0.337) | random 0.002 (kept 0.959)
+  das X k 0 pos  9 layer 5 noguard | IIA 0.009 (base kept 0.839) | random 0.000 (kept 0.996)
+  das X k 0 pos  9 layer 6 noguard | IIA 0.000 (base kept 0.997) | random 0.000 (kept 0.997)
+  das Z k 0 pos  9 layer 1 noguard | IIA 0.043 (base kept 0.218) | random 0.006 (kept 0.911)
+  das Z k 0 pos  9 layer 2 noguard | IIA 0.032 (base kept 0.245) | random 0.002 (kept 0.941)
+  das Z k 0 pos  9 layer 3 noguard | IIA 0.020 (base kept 0.299) | random 0.002 (kept 0.963)
+  das Z k 0 pos  9 layer 4 noguard | IIA 0.025 (base kept 0.347) | random 0.002 (kept 0.963)
+  das Z k 0 pos  9 layer 5 noguard | IIA 0.009 (base kept 0.825) | random 0.000 (kept 0.998)
+  das Z k 0 pos  9 layer 6 noguard | IIA 0.000 (base kept 0.998) | random 0.000 (kept 0.998)
+  das S k 6 pos  3 layer 1 noguard | IIA 0.360 (base kept 0.084) | random 0.004 (kept 0.932) | complement 192
+  das S k 6 pos  3 layer 2 noguard | IIA 0.663 (base kept 0.065) | random 0.005 (kept 0.957) | complement 192
+  das S k 6 pos  3 layer 3 noguard | IIA 0.909 (base kept 0.018) | random 0.007 (kept 0.963) | complement 192
+  das S k 6 pos  3 layer 4 noguard | IIA 0.711 (base kept 0.071) | random 0.001 (kept 0.976) | complement 192
+  das S k 6 pos  3 layer 5 noguard | IIA 0.014 (base kept 0.790) | random 0.000 (kept 0.996) | complement 192
+  das S k 6 pos  3 layer 6 noguard | IIA 0.000 (base kept 0.999) | random 0.000 (kept 0.999) | complement 192
+  das S k 6 pos  6 layer 1 noguard | IIA 0.002 (base kept 0.986) | random 0.000 (kept 0.998) | complement 192
+  das S k 6 pos  6 layer 2 noguard | IIA 0.003 (base kept 0.992) | random 0.000 (kept 0.997) | complement 192
+  das S k 6 pos  6 layer 3 noguard | IIA 0.002 (base kept 0.994) | random 0.000 (kept 0.998) | complement 192
+  das S k 6 pos  6 layer 4 noguard | IIA 0.000 (base kept 0.998) | random 0.000 (kept 0.999) | complement 192
+  das S k 6 pos  6 layer 5 noguard | IIA 0.000 (base kept 0.999) | random 0.000 (kept 0.999) | complement 192
+  das S k 6 pos  6 layer 6 noguard | IIA 0.000 (base kept 0.997) | random 0.000 (kept 0.997) | complement 192
+  das S k 6 pos  9 layer 1 noguard | IIA 0.002 (base kept 0.987) | random 0.000 (kept 0.998) | complement 192
+  das S k 6 pos  9 layer 2 noguard | IIA 0.002 (base kept 0.994) | random 0.000 (kept 0.999) | complement 192
+  das S k 6 pos  9 layer 3 noguard | IIA 0.002 (base kept 0.993) | random 0.000 (kept 0.997) | complement 192
+  das S k 6 pos  9 layer 4 noguard | IIA 0.000 (base kept 0.998) | random 0.000 (kept 0.999) | complement 192
+  das S k 6 pos  9 layer 5 noguard | IIA 0.000 (base kept 0.997) | random 0.000 (kept 0.998) | complement 192
+  das S k 6 pos  9 layer 6 noguard | IIA 0.000 (base kept 0.999) | random 0.000 (kept 0.999) | complement 192
+  das S k 6 pos 10 layer 1 noguard | IIA 0.038 (base kept 0.225) | random 0.000 (kept 0.992) | complement 192
+  das S k 6 pos 10 layer 2 noguard | IIA 0.032 (base kept 0.230) | random 0.000 (kept 0.993) | complement 192
+  das S k 6 pos 10 layer 3 noguard | IIA 0.038 (base kept 0.229) | random 0.000 (kept 0.995) | complement 192
+  das S k 6 pos 10 layer 4 noguard | IIA 0.038 (base kept 0.299) | random 0.000 (kept 0.991) | complement 192
+  das S k 6 pos 10 layer 5 noguard | IIA 0.026 (base kept 0.454) | random 0.000 (kept 0.995) | complement 192
+  das S k 6 pos 10 layer 6 noguard | IIA 0.000 (base kept 0.998) | random 0.000 (kept 0.998) | complement 192
+  das S k 6 pos 11 layer 1 noguard | IIA 0.001 (base kept 0.958) | random 0.000 (kept 0.999) | complement 192
+  das S k 6 pos 11 layer 2 noguard | IIA 0.002 (base kept 0.956) | random 0.000 (kept 0.998) | complement 192
+  das S k 6 pos 11 layer 3 noguard | IIA 0.002 (base kept 0.964) | random 0.000 (kept 0.999) | complement 192
+  das S k 6 pos 11 layer 4 noguard | IIA 0.022 (base kept 0.728) | random 0.000 (kept 0.998) | complement 192
+  das S k 6 pos 11 layer 5 noguard | IIA 0.039 (base kept 0.459) | random 0.000 (kept 0.994) | complement 192
+  das S k 6 pos 11 layer 6 noguard | IIA 0.000 (base kept 0.508) | random 0.000 (kept 0.996) | complement 192
+  das S k 0 pos  9 layer 1 noguard | IIA 0.355 (base kept 0.089) | random 0.005 (kept 0.916) | complement 192
+  das S k 0 pos  9 layer 2 noguard | IIA 0.678 (base kept 0.055) | random 0.004 (kept 0.954) | complement 192
+  das S k 0 pos  9 layer 3 noguard | IIA 0.917 (base kept 0.019) | random 0.005 (kept 0.968) | complement 192
+  das S k 0 pos  9 layer 4 noguard | IIA 0.723 (base kept 0.076) | random 0.007 (kept 0.921) | complement 192
+  das S k 0 pos  9 layer 5 noguard | IIA 0.017 (base kept 0.792) | random 0.000 (kept 0.998) | complement 192
+  das S k 0 pos  9 layer 6 noguard | IIA 0.000 (base kept 0.998) | random 0.000 (kept 0.998) | complement 192
+  das S k 0 pos 10 layer 1 noguard | IIA 0.035 (base kept 0.218) | random 0.000 (kept 0.995) | complement 192
+  das S k 0 pos 10 layer 2 noguard | IIA 0.034 (base kept 0.213) | random 0.000 (kept 0.994) | complement 192
+  das S k 0 pos 10 layer 3 noguard | IIA 0.044 (base kept 0.251) | random 0.000 (kept 0.995) | complement 192
+  das S k 0 pos 10 layer 4 noguard | IIA 0.036 (base kept 0.283) | random 0.001 (kept 0.992) | complement 192
+  das S k 0 pos 10 layer 5 noguard | IIA 0.028 (base kept 0.434) | random 0.000 (kept 0.995) | complement 192
+  das S k 0 pos 10 layer 6 noguard | IIA 0.000 (base kept 0.998) | random 0.000 (kept 0.998) | complement 192
+  das S k 0 pos 11 layer 1 noguard | IIA 0.002 (base kept 0.956) | random 0.000 (kept 0.997) | complement 192
+  das S k 0 pos 11 layer 2 noguard | IIA 0.001 (base kept 0.959) | random 0.000 (kept 0.998) | complement 192
+  das S k 0 pos 11 layer 3 noguard | IIA 0.002 (base kept 0.957) | random 0.000 (kept 0.998) | complement 192
+  das S k 0 pos 11 layer 4 noguard | IIA 0.027 (base kept 0.729) | random 0.000 (kept 0.997) | complement 192
+  das S k 0 pos 11 layer 5 noguard | IIA 0.031 (base kept 0.471) | random 0.001 (kept 0.993) | complement 192
+  das S k 0 pos 11 layer 6 noguard | IIA 0.001 (base kept 0.517) | random 0.000 (kept 0.997) | complement 192
+  das done in 5227 s

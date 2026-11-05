@@ -1,0 +1,101 @@
+v230 protocol | pos models | device cuda | TINY False | FOLLOWS bar 0.35
+model pos seed 0: sha 423563683be2c8f9 (expected 423563683be2c8f9) | held-out 0.9990
+  seed 0 k 6: 12000 items, correct 0.9997
+  share k6 p3    N 0.349  Rbar 0.036  lift +0.313  D+ +0.307  D- +0.274  I +0.291 [+0.289, +0.292]  I/N +0.83  -> FOLLOWS
+  clamp s pos  3 (1000 pairs): hit none 0.000 full 0.942 cB 0.912 cBo 0.904 cD 0.085 cR 0.000 | kept none 1.00 full 0.02 cB 0.05 cBo 0.06 cD 0.66 cR 1.00 | cBo - cR +0.904 [+0.879, +0.927] -> USED
+  share k6 p6    N 0.272  Rbar 0.037  lift +0.235  D+ +0.208  D- +0.165  I +0.187 [+0.185, +0.188]  I/N +0.69  -> FOLLOWS
+  clamp s pos  6 (1000 pairs): hit none 0.000 full 0.000 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 1.00 cB 1.00 cBo 1.00 cD 1.00 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -> UNSCORABLE
+  share k6 p9    N 0.272  Rbar 0.037  lift +0.235  D+ +0.207  D- +0.165  I +0.186 [+0.185, +0.188]  I/N +0.69  -> FOLLOWS
+  clamp s pos  9 (1000 pairs): hit none 0.000 full 0.000 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 1.00 cB 1.00 cBo 1.00 cD 1.00 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -> UNSCORABLE
+  share k6 p10   N 0.126  Rbar 0.006  lift +0.119  D+ +0.121  D- +0.116  I +0.118 [+0.117, +0.119]  I/N +0.94  -> FOLLOWS
+  clamp s pos 10 (1000 pairs): hit none 0.000 full 0.014 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 0.97 cB 1.00 cBo 1.00 cD 1.00 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -> UNSCORABLE
+  share k6 p11   N 0.106  Rbar 0.008  lift +0.098  D+ +0.094  D- +0.086  I +0.090 [+0.089, +0.091]  I/N +0.85  -> FOLLOWS
+  clamp s pos 11 (1000 pairs): hit none 0.000 full 1.000 cB 0.090 cBo 0.087 cD 0.000 cR 0.000 | kept none 1.00 full 0.00 cB 0.84 cBo 0.84 cD 1.00 cR 1.00 | cBo - cR +0.087 [+0.065, +0.110] -> UNCLEAR
+  seed 0 k 0: 12000 items, correct 0.9998
+  share k0 p9    N 0.350  Rbar 0.037  lift +0.313  D+ +0.308  D- +0.276  I +0.292 [+0.291, +0.294]  I/N +0.83  -> FOLLOWS
+  clamp s pos  9 (1000 pairs): hit none 0.000 full 0.942 cB 0.873 cBo 0.846 cD 0.141 cR 0.000 | kept none 1.00 full 0.02 cB 0.06 cBo 0.08 cD 0.54 cR 1.00 | cBo - cR +0.846 [+0.821, +0.870] -> USED
+  share k0 p10   N 0.125  Rbar 0.007  lift +0.118  D+ +0.120  D- +0.116  I +0.118 [+0.117, +0.119]  I/N +0.95  -> FOLLOWS
+  clamp s pos 10 (1000 pairs): hit none 0.000 full 0.016 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 0.96 cB 1.00 cBo 1.00 cD 1.00 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -> UNSCORABLE
+  share k0 p11   N 0.108  Rbar 0.008  lift +0.099  D+ +0.095  D- +0.088  I +0.091 [+0.090, +0.092]  I/N +0.85  -> FOLLOWS
+  clamp s pos 11 (1000 pairs): hit none 0.000 full 1.000 cB 0.078 cBo 0.076 cD 0.000 cR 0.000 | kept none 1.00 full 0.00 cB 0.84 cBo 0.84 cD 1.00 cR 1.00 | cBo - cR +0.076 [+0.060, +0.093] -> UNCLEAR
+  seed 0 done in 627 s
+model pos seed 1: sha 0a46ffeb90ae782b (expected 0a46ffeb90ae782b) | held-out 0.9948
+  seed 1 k 6: 12000 items, correct 0.9917
+  share k6 p3    N 0.423  Rbar 0.037  lift +0.386  D+ +0.402  D- +0.332  I +0.367 [+0.364, +0.371]  I/N +0.87  -> FOLLOWS
+  clamp s pos  3 (1000 pairs): hit none 0.000 full 0.817 cB 0.704 cBo 0.668 cD 0.089 cR 0.001 | kept none 1.00 full 0.07 cB 0.14 cBo 0.15 cD 0.54 cR 0.99 | cBo - cR +0.667 [+0.636, +0.699] -> USED
+  share k6 p6    N 0.320  Rbar 0.037  lift +0.283  D+ +0.278  D- +0.210  I +0.244 [+0.241, +0.247]  I/N +0.76  -> FOLLOWS
+  clamp s pos  6 (1000 pairs): hit none 0.000 full 0.033 cB 0.004 cBo 0.005 cD 0.001 cR 0.000 | kept none 1.00 full 0.92 cB 0.98 cBo 0.98 cD 0.99 cR 1.00 | cBo - cR +0.005 [+0.001, +0.010] -> UNSCORABLE
+  share k6 p9    N 0.315  Rbar 0.037  lift +0.278  D+ +0.272  D- +0.203  I +0.238 [+0.234, +0.241]  I/N +0.75  -> FOLLOWS
+  clamp s pos  9 (1000 pairs): hit none 0.000 full 0.026 cB 0.003 cBo 0.004 cD 0.001 cR 0.000 | kept none 1.00 full 0.93 cB 0.98 cBo 0.98 cD 0.99 cR 1.00 | cBo - cR +0.004 [+0.000, +0.009] -> UNSCORABLE
+  share k6 p10   N 0.267  Rbar 0.017  lift +0.250  D+ +0.251  D- +0.226  I +0.238 [+0.236, +0.241]  I/N +0.89  -> FOLLOWS
+  clamp s pos 10 (1000 pairs): hit none 0.000 full 0.062 cB 0.056 cBo 0.028 cD 0.000 cR 0.000 | kept none 1.00 full 0.42 cB 0.44 cBo 0.52 cD 0.97 cR 1.00 | cBo - cR +0.028 [+0.017, +0.041] -> UNSCORABLE
+  share k6 p11   N 0.197  Rbar 0.013  lift +0.185  D+ +0.186  D- +0.163  I +0.175 [+0.172, +0.177]  I/N +0.89  -> FOLLOWS
+  clamp s pos 11 (1000 pairs): hit none 0.000 full 0.994 cB 0.030 cBo 0.029 cD 0.000 cR 0.000 | kept none 1.00 full 0.00 cB 0.76 cBo 0.77 cD 1.00 cR 1.00 | cBo - cR +0.029 [+0.017, +0.042] -> UNCLEAR
+  seed 1 k 0: 12000 items, correct 0.9945
+  share k0 p9    N 0.431  Rbar 0.037  lift +0.394  D+ +0.408  D- +0.339  I +0.373 [+0.370, +0.377]  I/N +0.87  -> FOLLOWS
+  clamp s pos  9 (1000 pairs): hit none 0.000 full 0.943 cB 0.906 cBo 0.906 cD 0.141 cR 0.003 | kept none 1.00 full 0.01 cB 0.03 cBo 0.03 cD 0.41 cR 0.99 | cBo - cR +0.903 [+0.882, +0.923] -> USED
+  share k0 p10   N 0.253  Rbar 0.014  lift +0.240  D+ +0.252  D- +0.224  I +0.238 [+0.236, +0.240]  I/N +0.94  -> FOLLOWS
+  clamp s pos 10 (1000 pairs): hit none 0.000 full 0.063 cB 0.054 cBo 0.028 cD 0.000 cR 0.000 | kept none 1.00 full 0.42 cB 0.42 cBo 0.58 cD 0.93 cR 1.00 | cBo - cR +0.028 [+0.017, +0.039] -> UNSCORABLE
+  share k0 p11   N 0.188  Rbar 0.012  lift +0.176  D+ +0.184  D- +0.159  I +0.171 [+0.169, +0.174]  I/N +0.91  -> FOLLOWS
+  clamp s pos 11 (1000 pairs): hit none 0.000 full 0.994 cB 0.023 cBo 0.022 cD 0.000 cR 0.000 | kept none 1.00 full 0.00 cB 0.76 cBo 0.76 cD 1.00 cR 1.00 | cBo - cR +0.022 [+0.013, +0.032] -> UNCLEAR
+  seed 1 done in 304 s
+model pos seed 2: sha 39aac1088343cf2d (expected 39aac1088343cf2d) | held-out 0.9949
+  seed 2 k 6: 12000 items, correct 0.9877
+  share k6 p3    N 0.316  Rbar 0.038  lift +0.278  D+ +0.264  D- +0.233  I +0.248 [+0.244, +0.253]  I/N +0.79  -> FOLLOWS
+  clamp s pos  3 (1000 pairs): hit none 0.000 full 0.978 cB 0.784 cBo 0.598 cD 0.104 cR 0.001 | kept none 1.00 full 0.00 cB 0.02 cBo 0.03 cD 0.27 cR 0.96 | cBo - cR +0.597 [+0.542, +0.651] -> USED
+  share k6 p6    N 0.145  Rbar 0.037  lift +0.108  D+ +0.065  D- +0.041  I +0.053 [+0.051, +0.055]  I/N +0.36  -> FOLLOWS
+  clamp s pos  6 (1000 pairs): hit none 0.000 full 0.000 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 1.00 cB 1.00 cBo 1.00 cD 1.00 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -> UNSCORABLE
+  share k6 p9    N 0.150  Rbar 0.038  lift +0.113  D+ +0.070  D- +0.045  I +0.057 [+0.055, +0.059]  I/N +0.38  -> FOLLOWS
+  clamp s pos  9 (1000 pairs): hit none 0.000 full 0.000 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 1.00 cB 1.00 cBo 1.00 cD 1.00 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -> UNSCORABLE
+  share k6 p10   N 0.046  Rbar 0.005  lift +0.041  D+ +0.037  D- +0.036  I +0.036 [+0.035, +0.038]  I/N +0.79  -> FOLLOWS
+  clamp s pos 10 (1000 pairs): hit none 0.000 full 0.000 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 1.00 cB 1.00 cBo 1.00 cD 1.00 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -> UNSCORABLE
+  share k6 p11   N 0.043  Rbar 0.007  lift +0.036  D+ +0.033  D- +0.021  I +0.027 [+0.026, +0.028]  I/N +0.64  -> FOLLOWS
+  clamp s pos 11 (1000 pairs): hit none 0.000 full 0.984 cB 0.001 cBo 0.000 cD 0.001 cR 0.000 | kept none 1.00 full 0.00 cB 0.99 cBo 1.00 cD 1.00 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -> NOT-USED
+  seed 2 k 0: 12000 items, correct 0.9929
+  share k0 p9    N 0.319  Rbar 0.039  lift +0.280  D+ +0.268  D- +0.233  I +0.250 [+0.246, +0.255]  I/N +0.78  -> FOLLOWS
+  clamp s pos  9 (1000 pairs): hit none 0.000 full 0.985 cB 0.741 cBo 0.624 cD 0.366 cR 0.001 | kept none 1.00 full 0.00 cB 0.01 cBo 0.03 cD 0.18 cR 0.97 | cBo - cR +0.623 [+0.581, +0.664] -> USED
+  share k0 p10   N 0.047  Rbar 0.005  lift +0.042  D+ +0.040  D- +0.034  I +0.037 [+0.036, +0.038]  I/N +0.79  -> FOLLOWS
+  clamp s pos 10 (1000 pairs): hit none 0.000 full 0.001 cB 0.001 cBo 0.001 cD 0.000 cR 0.000 | kept none 1.00 full 1.00 cB 1.00 cBo 1.00 cD 1.00 cR 1.00 | cBo - cR +0.001 [+0.000, +0.004] -> UNSCORABLE
+  share k0 p11   N 0.044  Rbar 0.007  lift +0.038  D+ +0.033  D- +0.023  I +0.028 [+0.026, +0.030]  I/N +0.63  -> FOLLOWS
+  clamp s pos 11 (1000 pairs): hit none 0.000 full 0.994 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 0.00 cB 0.99 cBo 1.00 cD 0.99 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -> NOT-USED
+  seed 2 done in 319 s
+model pos seed 3: sha fe7a13c4e6aa5fd9 (expected fe7a13c4e6aa5fd9) | held-out 0.9977
+  seed 3 k 6: 12000 items, correct 0.9989
+  share k6 p3    N 0.463  Rbar 0.040  lift +0.424  D+ +0.437  D- +0.404  I +0.421 [+0.418, +0.423]  I/N +0.91  -> FOLLOWS
+  clamp s pos  3 (1000 pairs): hit none 0.000 full 0.957 cB 0.937 cBo 0.935 cD 0.059 cR 0.002 | kept none 1.00 full 0.01 cB 0.02 cBo 0.02 cD 0.61 cR 0.99 | cBo - cR +0.933 [+0.913, +0.951] -> USED
+  share k6 p6    N 0.306  Rbar 0.039  lift +0.267  D+ +0.273  D- +0.225  I +0.249 [+0.247, +0.251]  I/N +0.81  -> FOLLOWS
+  clamp s pos  6 (1000 pairs): hit none 0.000 full 0.000 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 1.00 cB 1.00 cBo 1.00 cD 1.00 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -> UNSCORABLE
+  share k6 p9    N 0.313  Rbar 0.039  lift +0.274  D+ +0.280  D- +0.229  I +0.255 [+0.253, +0.256]  I/N +0.81  -> FOLLOWS
+  clamp s pos  9 (1000 pairs): hit none 0.000 full 0.000 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 1.00 cB 1.00 cBo 1.00 cD 1.00 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -> UNSCORABLE
+  share k6 p10   N 0.253  Rbar 0.013  lift +0.240  D+ +0.248  D- +0.236  I +0.242 [+0.241, +0.244]  I/N +0.96  -> FOLLOWS
+  clamp s pos 10 (1000 pairs): hit none 0.000 full 0.152 cB 0.081 cBo 0.078 cD 0.000 cR 0.000 | kept none 1.00 full 0.49 cB 0.60 cBo 0.60 cD 1.00 cR 1.00 | cBo - cR +0.078 [+0.058, +0.100] -> UNSCORABLE
+  share k6 p11   N 0.199  Rbar 0.013  lift +0.186  D+ +0.192  D- +0.179  I +0.185 [+0.184, +0.187]  I/N +0.93  -> FOLLOWS
+  clamp s pos 11 (1000 pairs): hit none 0.000 full 0.998 cB 0.036 cBo 0.033 cD 0.000 cR 0.000 | kept none 1.00 full 0.00 cB 0.81 cBo 0.81 cD 1.00 cR 1.00 | cBo - cR +0.033 [+0.021, +0.047] -> UNCLEAR
+  seed 3 k 0: 12000 items, correct 0.9987
+  share k0 p9    N 0.465  Rbar 0.041  lift +0.423  D+ +0.435  D- +0.407  I +0.421 [+0.418, +0.424]  I/N +0.91  -> FOLLOWS
+  clamp s pos  9 (1000 pairs): hit none 0.000 full 0.967 cB 0.921 cBo 0.912 cD 0.080 cR 0.000 | kept none 1.00 full 0.01 cB 0.02 cBo 0.03 cD 0.58 cR 0.99 | cBo - cR +0.912 [+0.889, +0.934] -> USED
+  share k0 p10   N 0.247  Rbar 0.012  lift +0.235  D+ +0.245  D- +0.234  I +0.240 [+0.238, +0.241]  I/N +0.97  -> FOLLOWS
+  clamp s pos 10 (1000 pairs): hit none 0.000 full 0.193 cB 0.091 cBo 0.091 cD 0.000 cR 0.000 | kept none 1.00 full 0.45 cB 0.59 cBo 0.59 cD 1.00 cR 1.00 | cBo - cR +0.091 [+0.072, +0.109] -> UNSCORABLE
+  share k0 p11   N 0.197  Rbar 0.013  lift +0.184  D+ +0.189  D- +0.179  I +0.184 [+0.182, +0.185]  I/N +0.93  -> FOLLOWS
+  clamp s pos 11 (1000 pairs): hit none 0.000 full 0.999 cB 0.036 cBo 0.035 cD 0.000 cR 0.000 | kept none 1.00 full 0.00 cB 0.82 cBo 0.82 cD 1.00 cR 1.00 | cBo - cR +0.035 [+0.023, +0.048] -> UNCLEAR
+  seed 3 done in 362 s
+model pos seed 4: sha 017e54b930608bae (expected 017e54b930608bae) | held-out 1.0000
+  seed 4 k 6: 12000 items, correct 1.0000
+  share k6 p3    N 0.384  Rbar 0.038  lift +0.347  D+ +0.347  D- +0.276  I +0.312 [+0.309, +0.314]  I/N +0.81  -> FOLLOWS
+  clamp s pos  3 (1000 pairs): hit none 0.000 full 0.989 cB 0.978 cBo 0.974 cD 0.076 cR 0.000 | kept none 1.00 full 0.00 cB 0.00 cBo 0.01 cD 0.64 cR 1.00 | cBo - cR +0.974 [+0.960, +0.986] -> USED
+  share k6 p6    N 0.346  Rbar 0.037  lift +0.309  D+ +0.248  D- +0.241  I +0.245 [+0.241, +0.249]  I/N +0.71  -> FOLLOWS
+  clamp s pos  6 (1000 pairs): hit none 0.000 full 0.000 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 1.00 cB 1.00 cBo 1.00 cD 1.00 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -> UNSCORABLE
+  share k6 p9    N 0.363  Rbar 0.037  lift +0.326  D+ +0.261  D- +0.256  I +0.258 [+0.254, +0.262]  I/N +0.71  -> FOLLOWS
+  clamp s pos  9 (1000 pairs): hit none 0.000 full 0.000 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 1.00 cB 1.00 cBo 1.00 cD 1.00 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -> UNSCORABLE
+  share k6 p10   N 0.167  Rbar 0.009  lift +0.158  D+ +0.142  D- +0.139  I +0.140 [+0.138, +0.143]  I/N +0.84  -> FOLLOWS
+  clamp s pos 10 (1000 pairs): hit none 0.000 full 0.000 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 1.00 cB 1.00 cBo 1.00 cD 1.00 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -> UNSCORABLE
+  share k6 p11   N 0.166  Rbar 0.011  lift +0.155  D+ +0.130  D- +0.123  I +0.127 [+0.125, +0.129]  I/N +0.76  -> FOLLOWS
+  clamp s pos 11 (1000 pairs): hit none 0.000 full 1.000 cB 0.023 cBo 0.022 cD 0.000 cR 0.000 | kept none 1.00 full 0.00 cB 0.83 cBo 0.84 cD 1.00 cR 1.00 | cBo - cR +0.022 [+0.013, +0.033] -> UNCLEAR
+  seed 4 k 0: 12000 items, correct 1.0000
+  share k0 p9    N 0.383  Rbar 0.039  lift +0.344  D+ +0.345  D- +0.270  I +0.308 [+0.305, +0.310]  I/N +0.80  -> FOLLOWS
+  clamp s pos  9 (1000 pairs): hit none 0.000 full 0.993 cB 0.981 cBo 0.978 cD 0.075 cR 0.000 | kept none 1.00 full 0.00 cB 0.01 cBo 0.01 cD 0.60 cR 1.00 | cBo - cR +0.978 [+0.967, +0.988] -> USED
+  share k0 p10   N 0.174  Rbar 0.010  lift +0.163  D+ +0.153  D- +0.137  I +0.145 [+0.142, +0.147]  I/N +0.83  -> FOLLOWS
+  clamp s pos 10 (1000 pairs): hit none 0.000 full 0.000 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 1.00 cB 1.00 cBo 1.00 cD 1.00 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -> UNSCORABLE
+  share k0 p11   N 0.166  Rbar 0.012  lift +0.154  D+ +0.134  D- +0.119  I +0.126 [+0.125, +0.128]  I/N +0.76  -> FOLLOWS
+  clamp s pos 11 (1000 pairs): hit none 0.000 full 1.000 cB 0.020 cBo 0.019 cD 0.000 cR 0.000 | kept none 1.00 full 0.00 cB 0.84 cBo 0.86 cD 1.00 cR 1.00 | cBo - cR +0.019 [+0.010, +0.030] -> UNCLEAR
+  seed 4 done in 286 s

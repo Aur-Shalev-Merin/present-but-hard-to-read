@@ -1,0 +1,8 @@
+v227 pilot | mistralai/Mistral-7B-v0.1 | items sha f917c3b7da3ddc87 | 400 items | layer map {16: 18, 20: 23, 24: 27, 28: 32} | loaded in 144s
+positions {'eq': 95, 'last': 98, 'letb': 99, 'eqb': 100, 'inb': 101} -> {'eq': '2', 'last': '?', 'letb': 't', 'eqb': '=', 'inb': ''}
+item     1/400 (2.024 s/item) | b correct 1.000
+item   100/400 (0.119 s/item) | b correct 0.970
+item   400/400 (0.104 s/item) | b correct 0.902
+plus: b correct 0.951 (203 items)
+minus: b correct 0.853 (197 items)
+done (185s)

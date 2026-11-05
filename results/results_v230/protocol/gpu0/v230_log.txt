@@ -1,0 +1,5 @@
+train std pos seed 0 | to 0.99: 25000 | final acc 0.9990 | 27000 steps, 468 s
+train std pos seed 1 | to 0.99: 7500 | final acc 0.9948 | 9500 steps, 152 s
+train std pos seed 2 | to 0.99: 9500 | final acc 0.9949 | 11500 steps, 188 s
+train std pos seed 3 | to 0.99: 10000 | final acc 0.9977 | 12000 steps, 231 s
+train std pos seed 4 | to 0.99: 7000 | final acc 1.0000 | 9000 steps, 180 s

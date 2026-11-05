@@ -6,7 +6,7 @@ Shared by the release repositories of "How Much Gradient Does Truncated Backprop
 Each pre-registration (preregs/*.md) records frozen files as `name` followed by the first 12 to 16 hex characters of the
 file's SHA-256, computed on LF line endings (binary .npz files as stored), for example
     `v210_followups.py` 619235c6b191      `name.py` (sha256 (LF) 1a2b...)      `name.py` is now f71f7b33174c
-and amendments as `name` ... old → new (the arrow may wrap onto the next line, with or without bold).
+and amendments as `name` ... old → new or old -> new (the arrow may wrap onto the next line, with or without bold).
 
 Within one pre-registration a file passes if
   - its current version matches any hash recorded for it there (an amendment's hash supersedes the frozen one), or
@@ -21,7 +21,7 @@ import glob, hashlib, os, re, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 EXT = r'(?:py|json|npz|md|txt)'
 PAT = re.compile(r'`([^`\s]+\.%s)`[^`]{0,60}?\b([0-9a-f]{12,16})\b' % EXT)              # `name` ... hash
-PAT2 = re.compile(r'`([^`\s]+\.%s)`[^`]{0,80}?→\s*\**\s*([0-9a-f]{12,16})\b' % EXT)     # `name` ... old → new
+PAT2 = re.compile(r'`([^`\s]+\.%s)`[^`]{0,80}?(?:→|->)\s*\**\s*([0-9a-f]{12,16})\b' % EXT)  # `name` ... old → new (or ->)
 COMBINED = {   # driver sha = sha256(file1 + file2 + ...) over LF bytes, as written by the kernels' sha() helper
     'feaf9a0ba438': ['v164_parcae_predict.py', 'v163_parcae_damped_trunc.py', 'v162_parcae_trunc_train.py'],
     'd5c2647126de': ['v163_parcae_damped_trunc.py', 'v162_parcae_trunc_train.py'],

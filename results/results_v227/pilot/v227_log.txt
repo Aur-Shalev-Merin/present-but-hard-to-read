@@ -1,0 +1,8 @@
+v227 pilot | Qwen/Qwen2.5-3B | items sha f917c3b7da3ddc87 | 400 items | layer map {16: 21, 20: 26, 24: 31, 28: 36} | loaded in 69s
+positions {'eq': 94, 'last': 97, 'letb': 98, 'eqb': 99, 'inb': 100} -> {'eq': '2', 'last': '?', 'letb': ' t', 'eqb': ' =', 'inb': ' '}
+item     1/400 (1.076 s/item) | b correct 1.000
+item   100/400 (0.083 s/item) | b correct 0.830
+item   400/400 (0.075 s/item) | b correct 0.565
+plus: b correct 0.542 (203 items)
+minus: b correct 0.589 (197 items)
+done (99s)

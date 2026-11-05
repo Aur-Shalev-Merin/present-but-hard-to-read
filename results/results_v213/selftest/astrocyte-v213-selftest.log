@@ -1,0 +1,19 @@
+[{"stream_name":"stdout","time":0.734621889,"data":"v213_analyze.py fafebeb1ab446d67\n"}
+,{"stream_name":"stdout","time":0.734865497,"data":"v202_analyze.py 46d9d8aca3bf0459\n"}
+,{"stream_name":"stdout","time":0.735268605,"data":"v205_analyze.py ee70344632eb5650\n"}
+,{"stream_name":"stdout","time":0.735549777,"data":"v205_saved.py 339d264ae7385d0a\n"}
+,{"stream_name":"stdout","time":0.735851147,"data":"v178_analyze.py 90bbc8a848dc5544\n"}
+,{"stream_name":"stdout","time":0.736090643,"data":"v181_swamp_check.py 0a239557c1360a98\n"}
+,{"stream_name":"stdout","time":226.430318238,"data":"--- process 0 exits [0]\n"}
+,{"stream_name":"stdout","time":226.430403455,"data":"selftest readable  -\u003e CLOSES          OK\n"}
+,{"stream_name":"stdout","time":226.430431881,"data":"selftest hungry    -\u003e STILL-CLIMBING  OK\n"}
+,{"stream_name":"stdout","time":226.430439249,"data":"selftest swamped   -\u003e PLATEAUS-BELOW  OK\n"}
+,{"stream_name":"stdout","time":226.430445259,"data":"selftest shift     -\u003e SHIFT-LIMITED   OK\n"}
+,{"stream_name":"stdout","time":226.430451208,"data":"\n"}
+,{"stream_name":"stderr","time":229.210182339,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":229.210228024,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":229.538580934,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":229.538612002,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":231.233758066,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":232.456721069,"data":"[NbConvertApp] Writing 320835 bytes to __results__.html\n"}
+]

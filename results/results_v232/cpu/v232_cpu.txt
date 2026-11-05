@@ -1,0 +1,48 @@
+=== Part A null: 5 kinds x 9 lam x seeds 1-6 on Sb's design (copies a, b), scored before any state ===
+  pair        signal 36/54; FOLLOWS at 0.30 0; I/N max with signal +0.034; N with signal 0.0034-0.0487
+  fourier     signal 48/54; FOLLOWS at 0.30 0; I/N max with signal +0.201; N with signal 0.0012-0.1787
+  mlp         signal 30/54; FOLLOWS at 0.30 0; I/N max with signal +0.122; N with signal 0.0003-0.0451
+  paircode    signal 42/54; FOLLOWS at 0.30 0; I/N max with signal +0.040; N with signal 0.0027-0.0492
+  paircode_op signal 42/54; FOLLOWS at 0.30 0; I/N max with signal +0.123; N with signal 0.0026-0.0502
+largest null I/N with signal 0.201 -> TAU_SB 0.35; null runs with I >= TAU_SB x N and N >= 0.002: 0 of 270
+=== Part A: Ouro Study 3 at Sb (primary) and Sb-1 (secondary); copies a, b regressed; TAU_SB 0.35 ===
+A Sb   N 0.002  Rbar 0.001  lift +0.001 [+0.001, +0.002]  D+ -0.001  D- +0.002  I +0.000 [+0.000, +0.001]  I/N +0.24  -> UNCLEAR
+       shares: plus_S 0.001 plus_M 0.002 plus_R0 0.001 plus_R1 0.001 plus_R2 0.000 plus_R3 0.000 minus_S 0.001 minus_M 0.003 minus_R0 0.001 minus_R1 0.001 minus_R2 0.001 minus_R3 0.000
+   -> UNCLEAR
+   (loops 1-2, descriptive) Sb N 0.005  Rbar 0.002  lift +0.003 [+0.002, +0.005]  D+ -0.003  D- +0.003  I +0.000 [-0.000, +0.000]  I/N +0.01  -> DOES-NOT-FOLLOW
+       shares: plus_S 0.003 plus_M 0.007 plus_R0 0.003 plus_R1 0.002 plus_R2 0.002 plus_R3 0.001 minus_S 0.004 minus_M 0.007 minus_R0 0.003 minus_R1 0.002 minus_R2 0.002 minus_R3 0.001
+A Sb-1 N 0.000  Rbar 0.000  lift +0.000 [-0.000, +0.000]  D+ -0.000  D- +0.000  I -0.000 [-0.000, +0.000]  I/N -0.13  -> UNCLEAR
+       shares: plus_S 0.000 plus_M 0.001 plus_R0 0.000 plus_R1 0.000 plus_R2 0.000 plus_R3 0.000 minus_S 0.000 minus_M 0.000 minus_R0 0.000 minus_R1 0.000 minus_R2 0.000 minus_R3 0.000
+   -> UNCLEAR
+   (loops 1-2, descriptive) Sb-1 N 0.001  Rbar 0.000  lift +0.001 [+0.000, +0.001]  D+ -0.001  D- +0.001  I -0.000 [-0.001, -0.000]  I/N -0.22  -> DOES-NOT-FOLLOW
+       shares: plus_S 0.001 plus_M 0.002 plus_R0 0.001 plus_R1 0.000 plus_R2 0.001 plus_R3 0.000 minus_S 0.001 minus_M 0.001 minus_R0 0.000 minus_R1 0.000 minus_R2 0.001 minus_R3 0.000
+PART A (Sb, primary): UNCLEAR
+power pair        at lam 0.50 (null N nearest Ouro's 0.0018): smallest FOLLOWS comp 0.08 (I +0.0045, N 0.0089)
+power fourier     at lam 0.10 (null N nearest Ouro's 0.0018): smallest FOLLOWS comp 0.05 (I +0.0020, N 0.0032)
+power mlp         at lam 1.00 (null N nearest Ouro's 0.0018): smallest FOLLOWS comp 0.05 (I +0.0022, N 0.0033)
+power paircode    at lam 0.25 (null N nearest Ouro's 0.0018): smallest FOLLOWS comp 0.05 (I +0.0018, N 0.0045)
+power paircode_op at lam 0.25 (null N nearest Ouro's 0.0018): smallest FOLLOWS comp 0.05 (I +0.0024, N 0.0049)
+=== Part B plan: v199's frozen subspaces, projected off the copies of a and b ===
+plan plus half 0 offset 0: fitted on 3600 items
+plan plus half 0 offset 1: fitted on 3600 items
+plan plus half 0 offset 2: fitted on 3600 items
+plan plus half 0 offset 3: fitted on 600 items
+plan plus half 0 offset 4: uses offset 3
+plan plus half 1 offset 0: fitted on 3600 items
+plan plus half 1 offset 1: fitted on 3600 items
+plan plus half 1 offset 2: fitted on 3000 items
+plan plus half 1 offset 3: fitted on 1200 items
+plan plus half 1 offset 4: fitted on 600 items
+plan minus half 0 offset 0: fitted on 3600 items
+plan minus half 0 offset 1: fitted on 3600 items
+plan minus half 0 offset 2: fitted on 3000 items
+plan minus half 0 offset 3: fitted on 2400 items
+plan minus half 0 offset 4: fitted on 1200 items
+plan minus half 1 offset 0: fitted on 3600 items
+plan minus half 1 offset 1: fitted on 3600 items
+plan minus half 1 offset 2: fitted on 3000 items
+plan minus half 1 offset 3: fitted on 3000 items
+plan minus half 1 offset 4: fitted on 1200 items
+reproduction of v199's frozen subspaces: max ||UU^T - U0U0^T|| 1.71e-07 (must be < 1e-3)
+share of the needed step's directions left after the projection: median 0.632, range 0.287-0.729; dims kept [9]
+plan written (282 subspaces) with v199's pairs

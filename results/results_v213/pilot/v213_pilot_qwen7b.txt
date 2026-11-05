@@ -1,0 +1,5 @@
+v213 pilot | qwen7b | GPUs 2 ['Tesla T4', 'Tesla T4']
+loaded Qwen/Qwen2.5-7B fp16 in 128s; device map ['0', '1']
+cached vs full (fp16): max relative diff 2.46e-03 | non-finite prompts 0 | 0.106 s/prompt (median of 7, after the first)
+fp16 vs bf16 (full forward, stored layers [0, 4, 7, 14, 21, 28]): max relative state diff ['0.014', '0.017']
+total 136s; peak GPU memory ['7.8', '9.7'] GB

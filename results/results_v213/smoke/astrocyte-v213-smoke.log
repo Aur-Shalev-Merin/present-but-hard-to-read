@@ -1,0 +1,86 @@
+[{"stream_name":"stdout","time":1.480325517,"data":"v213_extract.py 8c65d944e204cb1f\n"}
+,{"stream_name":"stdout","time":1.480555925,"data":"v213_items.py f305fad563336cd1\n"}
+,{"stream_name":"stdout","time":1.480926288,"data":"v202_extract.py 1c68dc20dde2d0d8\n"}
+,{"stream_name":"stdout","time":1.481333375,"data":"v205_extract.py 11cc20b80558cd77\n"}
+,{"stream_name":"stdout","time":1.497228878,"data":"v178_labels.json 11f0d3852b766479\n"}
+,{"stream_name":"stdout","time":7.174393776,"data":"     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 41.7/41.7 kB 1.4 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":8.789990858,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.2/11.2 MB 73.0 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":8.833854902,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 566.4/566.4 kB 21.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":8.909655413,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 53.4 MB/s eta 0:00:00\n"}
+,{"stream_name":"stderr","time":26.458314361,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":26.45834843,"data":"gradio 6.26.0 requires huggingface-hub\u003c2.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":26.458359577,"data":"diffusers 0.40.0 requires huggingface-hub\u003c2.0,\u003e=1.23.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":755.716060939,"data":"--- process 0 exits [0, 0, 0, 0, 0, 0, 0, 0]\n"}
+,{"stream_name":"stdout","time":755.717197346,"data":"\n"}
+,{"stream_name":"stdout","time":755.717226625,"data":"Generating train split:   0%|          | 0/7473 [00:00\u003c?, ? examples/s]\n"}
+,{"stream_name":"stdout","time":755.717230979,"data":"Generating train split:  13%|█▎        | 1000/7473 [00:00\u003c00:01, 5871.19 examples/s]\n"}
+,{"stream_name":"stdout","time":755.717234833,"data":"Generating train split: 100%|██████████| 7473/7473 [00:00\u003c00:00, 42087.50 examples/s]\n"}
+,{"stream_name":"stdout","time":755.717238115,"data":"\n"}
+,{"stream_name":"stdout","time":755.717241131,"data":"Generating test split:   0%|          | 0/1319 [00:00\u003c?, ? examples/s]\n"}
+,{"stream_name":"stdout","time":755.717244285,"data":"Generating test split: 100%|██████████| 1319/1319 [00:00\u003c00:00, 190669.89 examples/s]\n"}
+,{"stream_name":"stdout","time":755.717247615,"data":"v213 extract | Qwen/Qwen2.5-7B | part v181 | pilot True | prefix 213 tokens | 161s to load\n"}
+,{"stream_name":"stdout","time":755.717250695,"data":"check cached vs full (relative): logits 2.43e-03, states 3.97e-03 (limit 1e-02)\n"}
+,{"stream_name":"stdout","time":755.717253772,"data":"v181   1/3 families (163s)\n"}
+,{"stream_name":"stdout","time":755.717256727,"data":"v181   3/3 families (166s)\n"}
+,{"stream_name":"stdout","time":755.717259789,"data":"v181 done: 30 prompts, cached 30, ok 30 (166s)\n"}
+,{"stream_name":"stdout","time":755.717262952,"data":"v213 extract | Qwen/Qwen2.5-7B | part b1 | pilot True | prefix 213 tokens | 40s to load\n"}
+,{"stream_name":"stdout","time":755.717266083,"data":"swap tokens [' tent', ' stere', ' terra', ' learns', ' bas', ' easiest', ' priv', ' counted', ' upright', ' matte'] | noise norm 0.860 (median embedding norm)\n"}
+,{"stream_name":"stdout","time":755.717288264,"data":"check cached vs full (relative): logits 1.65e-03, states 3.12e-03 (limit 1e-02)\n"}
+,{"stream_name":"stdout","time":755.717291065,"data":"check cached vs full (relative): logits 1.41e-03, states 4.34e-03 (limit 1e-02)\n"}
+,{"stream_name":"stdout","time":755.717293449,"data":"b1   1/3 families (43s)\n"}
+,{"stream_name":"stdout","time":755.717295725,"data":"b1   3/3 families (47s)\n"}
+,{"stream_name":"stdout","time":755.717297999,"data":"b1 done: 60 prompts, cached 60, ok 60 (47s)\n"}
+,{"stream_name":"stdout","time":755.717300587,"data":"v213 extract | Qwen/Qwen2.5-7B | part b2 | pilot True | prefix 213 tokens | 33s to load\n"}
+,{"stream_name":"stdout","time":755.717303003,"data":"\n"}
+,{"stream_name":"stdout","time":755.717305187,"data":"Generating train split:   0%|          | 0/200035 [00:00\u003c?, ? examples/s]\n"}
+,{"stream_name":"stdout","time":755.717307599,"data":"Generating train split:   0%|          | 1000/200035 [00:00\u003c00:38, 5191.77 examples/s]\n"}
+,{"stream_name":"stdout","time":755.717310243,"data":"Generating train split:  25%|██▍       | 50000/200035 [00:00\u003c00:00, 208806.14 examples/s]\n"}
+,{"stream_name":"stdout","time":755.717312763,"data":"Generating train split:  46%|████▋     | 93000/200035 [00:00\u003c00:00, 270867.76 examples/s]\n"}
+,{"stream_name":"stdout","time":755.717315301,"data":"Generating train split:  63%|██████▎   | 127000/200035 [00:00\u003c00:00, 289945.86 examples/s]\n"}
+,{"stream_name":"stdout","time":755.717317824,"data":"Generating train split:  83%|████████▎ | 167000/200035 [00:00\u003c00:00, 320560.64 examples/s]\n"}
+,{"stream_name":"stdout","time":755.71732043,"data":"Generating train split: 100%|██████████| 200035/200035 [00:00\u003c00:00, 260169.17 examples/s]\n"}
+,{"stream_name":"stdout","time":755.717324089,"data":"check cached vs full (relative): logits 2.60e-03, states 4.47e-03 (limit 1e-02)\n"}
+,{"stream_name":"stdout","time":755.717326563,"data":"b2_s0     1/12 prompts (67s, 0.695 s/prompt)\n"}
+,{"stream_name":"stdout","time":755.717328905,"data":"b2_s0    12/12 prompts (69s, 0.161 s/prompt)\n"}
+,{"stream_name":"stdout","time":755.717331292,"data":"b2_s0 done: 12 prompts, cached 12, ok 12 (69s)\n"}
+,{"stream_name":"stdout","time":755.717333601,"data":"v213 extract | Qwen/Qwen2.5-7B | part b3 | pilot True | prefix 213 tokens | 33s to load\n"}
+,{"stream_name":"stdout","time":755.717335995,"data":"check cached vs full (relative): logits 3.03e-03, states 4.50e-03 (limit 1e-02)\n"}
+,{"stream_name":"stdout","time":755.717338537,"data":"b3     1/12 prompts (64s, 0.710 s/prompt)\n"}
+,{"stream_name":"stdout","time":755.717340867,"data":"b3    12/12 prompts (65s, 0.155 s/prompt)\n"}
+,{"stream_name":"stdout","time":755.717343154,"data":"b3 done: 12 prompts, cached 12, ok 12 (65s)\n"}
+,{"stream_name":"stdout","time":755.717345478,"data":"A new version of the following files was downloaded from https://huggingface.co/ByteDance/Ouro-2.6B:\n"}
+,{"stream_name":"stdout","time":755.717347923,"data":"- configuration_ouro.py\n"}
+,{"stream_name":"stdout","time":755.717350225,"data":". Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.\n"}
+,{"stream_name":"stdout","time":755.717352755,"data":"A new version of the following files was downloaded from https://huggingface.co/ByteDance/Ouro-2.6B:\n"}
+,{"stream_name":"stdout","time":755.717355172,"data":"- modeling_ouro.py\n"}
+,{"stream_name":"stdout","time":755.717357465,"data":". Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.\n"}
+,{"stream_name":"stdout","time":755.717362799,"data":"v213 extract | ByteDance/Ouro-2.6B | part v181 | pilot True | prefix 222 tokens | 65s to load\n"}
+,{"stream_name":"stdout","time":755.717365333,"data":"check cached vs full (absolute): logits 3.43e-05, states 3.24e-05 (limit 1e-03)\n"}
+,{"stream_name":"stdout","time":755.717367695,"data":"v181   1/3 families (76s)\n"}
+,{"stream_name":"stdout","time":755.717370011,"data":"v181   3/3 families (92s)\n"}
+,{"stream_name":"stdout","time":755.717372268,"data":"v181 done: 30 prompts, cached 30, ok 30 (92s)\n"}
+,{"stream_name":"stdout","time":755.717374579,"data":"v213 extract | ByteDance/Ouro-2.6B | part b1 | pilot True | prefix 222 tokens | 27s to load\n"}
+,{"stream_name":"stdout","time":755.717377035,"data":"swap tokens [' tent', ' vec', ' research', ' gram', ' episodes', ' outer', ' visual', ' mistress', ' nobility', ' calorie'] | noise norm 1.063 (median embedding norm)\n"}
+,{"stream_name":"stdout","time":755.717379625,"data":"check cached vs full (absolute): logits 3.24e-05, states 2.57e-05 (limit 1e-03)\n"}
+,{"stream_name":"stdout","time":755.717382002,"data":"check cached vs full (absolute): logits 2.91e-05, states 3.67e-05 (limit 1e-03)\n"}
+,{"stream_name":"stdout","time":755.717384785,"data":"b1   1/3 families (49s)\n"}
+,{"stream_name":"stdout","time":755.71738706,"data":"b1   3/3 families (83s)\n"}
+,{"stream_name":"stdout","time":755.717389356,"data":"b1 done: 60 prompts, cached 60, ok 60 (83s)\n"}
+,{"stream_name":"stdout","time":755.717391656,"data":"v213 extract | ByteDance/Ouro-2.6B | part b2 | pilot True | prefix 222 tokens | 25s to load\n"}
+,{"stream_name":"stdout","time":755.717394041,"data":"check cached vs full (absolute): logits 2.86e-05, states 3.44e-05 (limit 1e-03)\n"}
+,{"stream_name":"stdout","time":755.717396411,"data":"b2_s0     1/12 prompts (60s, 3.912 s/prompt)\n"}
+,{"stream_name":"stdout","time":755.717398716,"data":"b2_s0    12/12 prompts (69s, 1.077 s/prompt)\n"}
+,{"stream_name":"stdout","time":755.717401329,"data":"b2_s0 done: 12 prompts, cached 12, ok 12 (69s)\n"}
+,{"stream_name":"stdout","time":755.717403737,"data":"v213 extract | ByteDance/Ouro-2.6B | part b3 | pilot True | prefix 222 tokens | 23s to load\n"}
+,{"stream_name":"stdout","time":755.717406128,"data":"check cached vs full (absolute): logits 3.24e-05, states 3.02e-05 (limit 1e-03)\n"}
+,{"stream_name":"stdout","time":755.717408493,"data":"b3     1/12 prompts (57s, 3.225 s/prompt)\n"}
+,{"stream_name":"stdout","time":755.717410805,"data":"b3    12/12 prompts (64s, 0.831 s/prompt)\n"}
+,{"stream_name":"stdout","time":755.717413097,"data":"b3 done: 12 prompts, cached 12, ok 12 (64s)\n"}
+,{"stream_name":"stdout","time":755.717415402,"data":"\n"}
+,{"stream_name":"stderr","time":758.139327125,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":758.1393595,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":758.540811198,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":758.540838122,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":759.480597405,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":760.111953712,"data":"[NbConvertApp] Writing 527023 bytes to __results__.html\n"}
+]

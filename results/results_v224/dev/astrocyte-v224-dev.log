@@ -1,0 +1,25 @@
+[{"stream_name":"stdout","time":0.763375813,"data":"v215_pilot.py d049a0b2d81fb80b\n"}
+,{"stream_name":"stdout","time":0.763508635,"data":"v215_items.py 9249f0523d7219eb\n"}
+,{"stream_name":"stdout","time":0.763657036,"data":"v221_items.py 2b6bd412a702ccc4\n"}
+,{"stream_name":"stdout","time":0.763734509,"data":"v222_items.py b5813a4fb56ef4f8\n"}
+,{"stream_name":"stdout","time":0.763909688,"data":"v224_items.py 0cd881f953e2d7b4\n"}
+,{"stream_name":"stdout","time":0.764284123,"data":"v178_analyze.py 90bbc8a848dc5544\n"}
+,{"stream_name":"stdout","time":0.764584959,"data":"v224_share.py 2b0bc8868d13b00e\n"}
+,{"stream_name":"stdout","time":0.765774794,"data":"=== v224_share.py ['dev', '/kaggle/input'] {}\n"}
+,{"stream_name":"stdout","time":70.862788384,"data":"inb    N 0.140  Rbar 0.054  lift +0.086 [+0.078, +0.094]  D+ +0.052  D- +0.122  I +0.087 [+0.079, +0.095]  I/N +0.62  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":70.862824207,"data":"       shares: plus_S 0.115 plus_M 0.063 plus_R0 0.025 plus_R1 0.051 plus_R2 0.077 plus_R3 0.033 minus_S 0.043 minus_M 0.165 minus_R0 0.031 minus_R1 0.076 minus_R2 0.101 minus_R3 0.036\n"}
+,{"stream_name":"stdout","time":113.825614673,"data":"eqb    N 0.097  Rbar 0.040  lift +0.057 [+0.051, +0.063]  D+ +0.028  D- +0.095  I +0.061 [+0.054, +0.067]  I/N +0.63  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":113.825651919,"data":"       shares: plus_S 0.072 plus_M 0.044 plus_R0 0.017 plus_R1 0.036 plus_R2 0.052 plus_R3 0.022 minus_S 0.027 minus_M 0.122 minus_R0 0.020 minus_R1 0.058 minus_R2 0.088 minus_R3 0.023\n"}
+,{"stream_name":"stdout","time":181.322494843,"data":"letb   N 0.020  Rbar 0.012  lift +0.008 [+0.007, +0.010]  D+ -0.007  D- +0.032  I +0.012 [+0.011, +0.014]  I/N +0.61  -\u003e UNCLEAR\n"}
+,{"stream_name":"stdout","time":181.322857608,"data":"       shares: plus_S 0.003 plus_M 0.010 plus_R0 0.003 plus_R1 0.006 plus_R2 0.011 plus_R3 0.003 minus_S 0.006 minus_M 0.037 minus_R0 0.007 minus_R1 0.016 minus_R2 0.042 minus_R3 0.005\n"}
+,{"stream_name":"stdout","time":243.904540183,"data":"eq     N 0.069  Rbar 0.046  lift +0.023 [+0.022, +0.025]  D+ -0.051  D- +0.087  I +0.018 [+0.017, +0.019]  I/N +0.26  -\u003e UNCLEAR\n"}
+,{"stream_name":"stdout","time":243.904576753,"data":"       shares: plus_S 0.023 plus_M 0.075 plus_R0 0.017 plus_R1 0.042 plus_R2 0.072 plus_R3 0.020 minus_S 0.027 minus_M 0.115 minus_R0 0.028 minus_R1 0.062 minus_R2 0.096 minus_R3 0.028\n"}
+,{"stream_name":"stdout","time":287.002684864,"data":"last   N 0.014  Rbar 0.009  lift +0.005 [+0.004, +0.005]  D+ -0.007  D- +0.020  I +0.007 [+0.006, +0.007]  I/N +0.47  -\u003e UNCLEAR\n"}
+,{"stream_name":"stdout","time":287.002731903,"data":"       shares: plus_S 0.003 plus_M 0.010 plus_R0 0.004 plus_R1 0.006 plus_R2 0.012 plus_R3 0.003 minus_S 0.005 minus_M 0.025 minus_R0 0.005 minus_R1 0.011 minus_R2 0.028 minus_R3 0.004\n"}
+,{"stream_name":"stderr","time":289.981009023,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":289.981048895,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":290.345303456,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":290.345335464,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":291.946453217,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":293.218614217,"data":"[NbConvertApp] Writing 308011 bytes to __results__.html\n"}
+]

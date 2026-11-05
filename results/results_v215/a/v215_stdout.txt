@@ -1,0 +1,57 @@
+=== v215_analyze.py ['/kaggle/input', 'A', 'S', 'C'] {}
+items sha 8c08adec21d20ae3 (frozen 8c08adec21d20ae3)
+=== Part A, main format (their simple_backtracking chain) ===
+Part A: 240 families, plus 6000 / minus 6000 items | G1 correct (exact chain): plus 0.998, minus 0.998
+copy ceilings (one-hot d1, d2): plus S 0.540 | plus M 0.612 | plus A5 0.264 | minus S 0.540 | minus M 0.612 | minus A5 0.309
+--- position eq ---
+G2 copies (family-demeaned, best layer): plus/d1 1.000 plus/d2 1.000 minus/d1 1.000 minus/d2 1.000 (each >= 0.50: True)
+  plus  by layer  S 0.28 1.00 1.00 0.99 0.96 0.90 0.91 0.92 | M 0.28 1.00 1.00 0.99 0.98 0.94 0.96 0.97 | A5 0.20 0.51 0.52 0.49 0.50 0.49 0.48 0.53
+  minus by layer  S 0.28 1.00 1.00 0.98 0.98 0.91 0.94 0.94 | M 0.28 1.00 1.00 0.99 0.99 0.96 0.98 0.98 | A5 0.25 0.54 0.51 0.49 0.52 0.50 0.48 0.45
+  excess (band): plus S +0.400 M +0.359 -> D+ +0.040 | minus M +0.367 S +0.413 -> D- -0.045 | A5 plus +0.227 minus +0.186
+  ex_N +0.3835 [+0.3790, +0.3878] -> COMBINED | I -0.0025 [-0.0049, -0.0001] -> DOES-NOT-FOLLOW
+--- position last ---
+G2 copies (family-demeaned, best layer): plus/d1 1.000 plus/d2 1.000 minus/d1 1.000 minus/d2 1.000 (each >= 0.50: True)
+  plus  by layer  S 0.24 0.74 0.75 0.77 0.66 0.58 0.58 0.56 | M 0.28 0.81 0.82 0.81 0.73 0.69 0.72 0.70 | A5 0.19 0.37 0.38 0.38 0.37 0.37 0.37 0.39
+  minus by layer  S 0.24 0.75 0.72 0.72 0.64 0.57 0.58 0.57 | M 0.28 0.85 0.81 0.79 0.75 0.75 0.82 0.81 | A5 0.24 0.36 0.37 0.37 0.38 0.37 0.35 0.35
+  excess (band): plus S +0.106 M +0.129 -> D+ -0.023 | minus M +0.168 S +0.088 -> D- +0.080 | A5 plus +0.110 minus +0.061
+  ex_N +0.1368 [+0.1278, +0.1457] -> COMBINED | I +0.0284 [+0.0231, +0.0338] -> UNCLEAR
+=== Part A, short-chain arm (their Simple chain: "b = B , a = A"); Part B plan from here ===
+short arm: exact chain 0.8370, b step 0.9112 (G1 uses the b step)
+Part A: 240 families, plus 6000 / minus 6000 items | G1 correct (exact chain): plus 0.909, minus 0.913
+copy ceilings (one-hot d1, d2): plus S 0.540 | plus M 0.612 | plus A5 0.264 | minus S 0.540 | minus M 0.612 | minus A5 0.309
+--- position eq ---
+G2 copies (family-demeaned, best layer): plus/d1 1.000 plus/d2 1.000 minus/d1 1.000 minus/d2 1.000 (each >= 0.50: True)
+  plus  by layer  S 0.28 1.00 1.00 0.98 0.96 0.87 0.90 0.91 | M 0.28 1.00 1.00 0.99 0.97 0.92 0.95 0.96 | A5 0.20 0.52 0.52 0.47 0.48 0.47 0.46 0.52
+  minus by layer  S 0.28 1.00 1.00 0.97 0.97 0.90 0.92 0.91 | M 0.28 1.00 1.00 0.98 0.98 0.95 0.98 0.98 | A5 0.25 0.53 0.50 0.46 0.49 0.48 0.46 0.44
+  excess (band): plus S +0.388 M +0.347 -> D+ +0.041 | minus M +0.360 S +0.399 -> D- -0.039 | A5 plus +0.205 minus +0.162
+  ex_N +0.3738 [+0.3695, +0.3780] -> COMBINED | I +0.0010 [-0.0020, +0.0042] -> DOES-NOT-FOLLOW
+--- position last ---
+G2 copies (family-demeaned, best layer): plus/d1 1.000 plus/d2 1.000 minus/d1 1.000 minus/d2 1.000 (each >= 0.50: True)
+  plus  by layer  S 0.24 0.76 0.78 0.72 0.58 0.54 0.61 0.65 | M 0.28 0.83 0.83 0.79 0.68 0.67 0.79 0.79 | A5 0.19 0.37 0.38 0.37 0.34 0.36 0.37 0.41
+  minus by layer  S 0.24 0.78 0.72 0.68 0.57 0.52 0.63 0.63 | M 0.28 0.85 0.82 0.78 0.71 0.74 0.90 0.89 | A5 0.24 0.36 0.38 0.37 0.34 0.34 0.36 0.36
+  excess (band): plus S +0.071 M +0.120 -> D+ -0.049 | minus M +0.172 S +0.060 -> D- +0.112 | A5 plus +0.097 minus +0.044
+  ex_N +0.1213 [+0.1138, +0.1288] -> COMBINED | I +0.0312 [+0.0258, +0.0366] -> UNCLEAR
+Part B plan for positions: ['eq', 'last']
+  eq layer 12 half 0: B vs d2-copy subspace mean cos^2 0.471 (max 0.854); orthogonalised B keeps 9 dims, share of B left 0.529
+  eq layer 12 half 1: B vs d2-copy subspace mean cos^2 0.451 (max 0.868); orthogonalised B keeps 9 dims, share of B left 0.549
+  eq layer 16 half 0: B vs d2-copy subspace mean cos^2 0.404 (max 0.811); orthogonalised B keeps 9 dims, share of B left 0.596
+  eq layer 16 half 1: B vs d2-copy subspace mean cos^2 0.389 (max 0.835); orthogonalised B keeps 9 dims, share of B left 0.611
+  eq layer 20 half 0: B vs d2-copy subspace mean cos^2 0.376 (max 0.754); orthogonalised B keeps 9 dims, share of B left 0.624
+  eq layer 20 half 1: B vs d2-copy subspace mean cos^2 0.363 (max 0.777); orthogonalised B keeps 9 dims, share of B left 0.637
+  eq layer 24 half 0: B vs d2-copy subspace mean cos^2 0.566 (max 0.877); orthogonalised B keeps 9 dims, share of B left 0.434
+  eq layer 24 half 1: B vs d2-copy subspace mean cos^2 0.535 (max 0.879); orthogonalised B keeps 9 dims, share of B left 0.465
+  last layer 12 half 0: B vs d2-copy subspace mean cos^2 0.335 (max 0.631); orthogonalised B keeps 9 dims, share of B left 0.665
+  last layer 12 half 1: B vs d2-copy subspace mean cos^2 0.348 (max 0.596); orthogonalised B keeps 9 dims, share of B left 0.652
+  last layer 16 half 0: B vs d2-copy subspace mean cos^2 0.375 (max 0.685); orthogonalised B keeps 9 dims, share of B left 0.625
+  last layer 16 half 1: B vs d2-copy subspace mean cos^2 0.357 (max 0.637); orthogonalised B keeps 9 dims, share of B left 0.643
+  last layer 20 half 0: B vs d2-copy subspace mean cos^2 0.365 (max 0.753); orthogonalised B keeps 9 dims, share of B left 0.635
+  last layer 20 half 1: B vs d2-copy subspace mean cos^2 0.366 (max 0.745); orthogonalised B keeps 9 dims, share of B left 0.634
+  last layer 24 half 0: B vs d2-copy subspace mean cos^2 0.399 (max 0.723); orthogonalised B keeps 9 dims, share of B left 0.601
+  last layer 24 half 1: B vs d2-copy subspace mean cos^2 0.423 (max 0.733); orthogonalised B keeps 9 dims, share of B left 0.577
+plan: 56 bases, 2000 pairs
+Part C: replication items correct (exact chain) 0.9990
+Part C: their standard probe, train 10000 / test 2000 (no shared b equation)
+  b (majority 0.199): eq 0.00 0.12 0.34 0.30 0.61 0.64 0.52 0.49 | semi 0.16 0.17 0.19 0.29 0.47 0.42 0.44 0.41 | last 0.16 0.11 0.22 0.30 0.35 0.39 0.39 0.34
+  b Acc_preCoT (max over eq / semi / last and layers) 0.636  (Kudo et al. Table 2, Qwen2.5-7B L3: 50.5%)
+  a (majority 0.110): eq 0.08 0.22 0.24 0.28 0.31 0.32 0.30 0.31 | semi 0.11 0.25 0.26 0.27 0.31 0.27 0.23 0.21 | last 0.11 0.17 0.18 0.22 0.23 0.23 0.21 0.20
+  a Acc_preCoT (max over eq / semi / last and layers) 0.318  (Kudo et al. Table 2, Qwen2.5-7B L3: 17.9%)

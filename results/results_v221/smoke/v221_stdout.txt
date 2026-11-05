@@ -1,0 +1,18 @@
+=== v221_extract.py [] {'V221_PILOT': '1'}
+v221 extract | pilot True | items sha 50a50828de872803 (frozen 50a50828de872803)
+loaded Qwen/Qwen2.5-7B in 132s | 40 items
+positions {'eq': 94, 'last': 97, 'letb': 98, 'eqb': 99, 'inb': 100} -> {'eq': '0', 'last': '?', 'letb': ' t', 'eqb': ' =', 'inb': ' '} | b digit token 101 '0'
+fam     1/40 (1.375 s/item) | b step correct so far 1.000
+fam    40/40 (0.145 s/item) | b step correct so far 1.000
+done: 40 items, b step correct 1.0000 (138s)
+=== v221_patch.py ['extract', 'SMOKE'] {'V215_SMOKE': '1'}
+v221 items sha 50a50828de872803 (frozen 50a50828de872803)
+v215 patch | 40 pairs | smoke True | items sha 1795896c79496af8 | loaded in 48s
+1/40 pairs (1.99 s/pair) | hit so far: none 0.000 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 full 1.000 mech 1.000
+20/40 pairs (1.01 s/pair) | hit so far: none 0.000 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 full 1.000 mech 1.000
+40/40 pairs (0.98 s/pair) | hit so far: none 0.000 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 full 0.500 mech 1.000
+done (88s)
+=== v221_patch.py ['analyse', '.'] {}
+v221 items sha 50a50828de872803 (frozen 50a50828de872803)
+eq (20 pairs, SMOKE): hit none 0.000 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 full 1.000 | kept own B none 1.000 cB 1.000 cBo 1.000 cD 1.000 cR 1.000 full 0.000 | cBo - cR +0.0000 [+0.0000, +0.0000] -> NOT-USED (cB - cR +0.0000, descriptive)
+last (20 pairs, SMOKE): hit none 0.000 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 full 0.000 | kept own B none 1.000 cB 1.000 cBo 1.000 cD 1.000 cR 1.000 full 1.000 | cBo - cR +0.0000 [+0.0000, +0.0000] -> UNSCORABLE (cB - cR +0.0000, descriptive)

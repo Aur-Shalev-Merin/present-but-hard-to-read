@@ -1,0 +1,7 @@
+selftest readable  -> CLOSES          OK
+selftest hungry    -> STILL-CLIMBING  OK
+selftest swamped   -> PLATEAUS-BELOW  OK
+Generating train split:   0%|          | 0/7473 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 7473/7473 [00:00<00:00, 101669.63 examples/s]
+Generating test split:   0%|          | 0/1319 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 1319/1319 [00:00<00:00, 235186.28 examples/s]
+Generating train split:   0%|          | 0/200035 [00:00<?, ? examples/s]Generating train split:  23%|██▎       | 47000/200035 [00:00<00:00, 462302.57 examples/s]Generating train split:  59%|█████▉    | 119000/200035 [00:00<00:00, 456926.80 examples/s]Generating train split:  87%|████████▋ | 174000/200035 [00:00<00:00, 478070.96 examples/s]Generating train split: 100%|██████████| 200035/200035 [00:00<00:00, 453573.52 examples/s]
+{('gsm', 'train'): 5249, ('gsm', 'test'): 1000, ('orca', 'test'): 1000, ('orca', 'train'): 40000} {'orca_usable_clean': 128251, 'orca_train_dropped': 33758, 'test_with_gsm_twin': {'gsm': 96, 'orca': 68}} sha16 db8f37a5f24b8c64

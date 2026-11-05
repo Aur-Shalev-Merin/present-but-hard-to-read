@@ -1,0 +1,3 @@
+verdict inputs: 5 pos, 5 neg models, 270 fresh null runs (expected 5, 5, 270)
+share: k6 DETECTS (5/5) | k0 DETECTS (5/5) | specific False (neg-model yes [], DAS-negative yes [], fresh null FOLLOWS 1)
+clamp: k6 DETECTS (5/5) | k0 DETECTS (5/5) | specific True (neg-model yes [], DAS-negative yes [])

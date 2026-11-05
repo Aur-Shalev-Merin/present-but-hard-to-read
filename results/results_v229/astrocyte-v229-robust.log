@@ -1,0 +1,32 @@
+[{"stream_name":"stdout","time":1.172814848,"data":"v215_pilot.py d049a0b2d81fb80b\n"}
+,{"stream_name":"stdout","time":1.172977464,"data":"v215_items.py 9249f0523d7219eb\n"}
+,{"stream_name":"stdout","time":1.1731687339999999,"data":"v216_items.py a2ebd48b899fed40\n"}
+,{"stream_name":"stdout","time":1.173287626,"data":"v221_items.py 2b6bd412a702ccc4\n"}
+,{"stream_name":"stdout","time":1.173412256,"data":"v222_items.py b5813a4fb56ef4f8\n"}
+,{"stream_name":"stdout","time":1.173596012,"data":"v224_items.py 14087b6369b3ce8e\n"}
+,{"stream_name":"stdout","time":1.173991835,"data":"v178_analyze.py 90bbc8a848dc5544\n"}
+,{"stream_name":"stdout","time":1.174266713,"data":"v224_share.py 2b0bc8868d13b00e\n"}
+,{"stream_name":"stdout","time":1.174470708,"data":"v228_rescore.py 1d1e588493f56ba0\n"}
+,{"stream_name":"stdout","time":1.174753778,"data":"v229_robust.py 0874031fe1b6d669\n"}
+,{"stream_name":"stdout","time":1.176157529,"data":"=== v229_robust.py ['/kaggle/input'] {}\n"}
+,{"stream_name":"stdout","time":1.9124402059999999,"data":"=== Part A: Ouro Study 3, copies a, b, c, answer and carry / borrow regressed; states mid3-end4 ===\n"}
+,{"stream_name":"stdout","time":64.045584525,"data":"A P1   N 0.006  Rbar 0.001  lift +0.005 [+0.004, +0.005]  D+ +0.001  D- +0.006  I +0.003 [+0.003, +0.004]  I/N +0.57  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":64.045679733,"data":"       shares: plus_S 0.005 plus_M 0.004 plus_R0 0.001 plus_R1 0.001 plus_R2 0.001 plus_R3 0.001 minus_S 0.001 minus_M 0.007 minus_R0 0.001 minus_R1 0.001 minus_R2 0.001 minus_R3 0.001\n"}
+,{"stream_name":"stdout","time":92.349753636,"data":"A P0   N 0.001  Rbar 0.000  lift +0.000 [+0.000, +0.001]  D+ +0.000  D- +0.000  I +0.000 [-0.000, +0.000]  I/N +0.30  -\u003e UNCLEAR\n"}
+,{"stream_name":"stdout","time":92.34979089,"data":"       shares: plus_S 0.000 plus_M 0.000 plus_R0 0.000 plus_R1 0.000 plus_R2 -0.000 plus_R3 0.000 minus_S 0.001 minus_M 0.001 minus_R0 0.001 minus_R1 0.000 minus_R2 0.000 minus_R3 0.000\n"}
+,{"stream_name":"stdout","time":120.256282268,"data":"   (v228 copies, reproduces v228) P1 N 0.007  Rbar 0.001  lift +0.006 [+0.005, +0.006]  D+ +0.002  D- +0.007  I +0.004 [+0.003, +0.005]  I/N +0.63  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":120.256317558,"data":"       shares: plus_S 0.006 plus_M 0.004 plus_R0 0.001 plus_R1 0.001 plus_R2 0.001 plus_R3 0.001 minus_S 0.001 minus_M 0.008 minus_R0 0.001 minus_R1 0.001 minus_R2 0.001 minus_R3 0.001\n"}
+,{"stream_name":"stdout","time":120.256323693,"data":"=== Part B: design-matched null (5 kinds x 9 lam x seeds 1-6), Part A statistic ===\n"}
+,{"stream_name":"stdout","time":609.248801761,"data":"  pair        signal 42/54; FOLLOWS 0; I/N max with signal -0.013; N range with signal 0.0014-0.0485\n"}
+,{"stream_name":"stdout","time":609.249098079,"data":"  fourier     signal 54/54; FOLLOWS 0; I/N max with signal +0.013; N range with signal 0.0004-0.1672\n"}
+,{"stream_name":"stdout","time":609.249109146,"data":"  mlp         signal 36/54; FOLLOWS 0; I/N max with signal +0.050; N range with signal 0.0001-0.0485\n"}
+,{"stream_name":"stdout","time":609.249114426,"data":"  paircode    signal 48/54; FOLLOWS 0; I/N max with signal +0.069; N range with signal 0.0004-0.0479\n"}
+,{"stream_name":"stdout","time":609.249120058,"data":"  paircode_op signal 48/54; FOLLOWS 0; I/N max with signal +0.149; N range with signal 0.0005-0.0488\n"}
+,{"stream_name":"stdout","time":609.249125059,"data":"largest null I/N with signal 0.149 -\u003e TAU3 0.25 | P1 (cb regressed) FOLLOWS, I/N 0.57 -\u003e STANDS\n"}
+,{"stream_name":"stderr","time":612.525218911,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":612.525253543,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":613.061686561,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":613.061717821,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":615.55020284,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":617.13963506,"data":"[NbConvertApp] Writing 320166 bytes to __results__.html\n"}
+]

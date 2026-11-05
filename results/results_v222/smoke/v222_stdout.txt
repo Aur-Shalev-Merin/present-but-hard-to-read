@@ -1,0 +1,12 @@
+=== v222_clamp.py ['all'] {'V222_SMOKE': '1'}
+v222 items sha f917c3b7da3ddc87 (frozen f917c3b7da3ddc87)
+loaded Qwen/Qwen2.5-7B in 140s
+digB token 101 '0', inA token 105 ' ', a digit '0'
+item     1/40 (2.012 s/item) | b correct 1.000, a correct 1.000, both 1.000
+item    40/40 (0.159 s/item) | b correct 1.000, a correct 0.900, both 0.900
+plus: b correct 1.000, a correct 1.000, both 1.000
+minus: b correct 1.000, a correct 0.800, both 0.800
+1/20 pairs (1.21 s/pair) | hit so far: none 0.000 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 full 1.000 fullall 1.000 mech 1.000
+20/20 pairs (1.07 s/pair) | hit so far: none 0.050 cB 0.050 cBo 0.050 cD 0.050 cR 0.050 full 0.900 fullall 0.900 mech 0.900
+digB -> a (20 pairs, SMOKE): hit none 0.050 cB 0.050 cBo 0.050 cD 0.050 cR 0.050 full 0.900 fullall 0.900 | kept own A none 0.850 cB 0.850 cBo 0.850 cD 0.850 cR 0.850 full 0.100 fullall 0.100 | cBo - cR +0.0000 [+0.0000, +0.0000] -> NOT-USED (cB - cR +0.0000, descriptive)
+  a = 0+ b (20 pairs): hit none 0.050 cB 0.050 cBo 0.050 cD 0.050 cR 0.050 full 0.900 fullall 0.900

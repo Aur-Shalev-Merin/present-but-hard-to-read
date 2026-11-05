@@ -1,0 +1,79 @@
+[{"stream_name":"stdout","time":0.938371972,"data":"v215_pilot.py d049a0b2d81fb80b\n"}
+,{"stream_name":"stdout","time":0.938615305,"data":"v215_items.py 9249f0523d7219eb\n"}
+,{"stream_name":"stdout","time":0.938803049,"data":"v216_items.py a2ebd48b899fed40\n"}
+,{"stream_name":"stdout","time":0.939255212,"data":"v215_analyze.py e9d53523b1da41e2\n"}
+,{"stream_name":"stdout","time":0.939591058,"data":"v216_analyze.py 1a7cb2f0c1506129\n"}
+,{"stream_name":"stdout","time":0.939899174,"data":"v178_analyze.py 90bbc8a848dc5544\n"}
+,{"stream_name":"stdout","time":0.94118476,"data":"=== v216_analyze.py ['/kaggle/input'] {}\n"}
+,{"stream_name":"stdout","time":2.4057738300000002,"data":"items sha 497db0bcb9748f30 (frozen 497db0bcb9748f30)\n"}
+,{"stream_name":"stdout","time":2.53350768,"data":"answer accuracy plus, o2 +: 0.871 (n 3000)\n"}
+,{"stream_name":"stdout","time":2.535958344,"data":"answer accuracy plus, o2 -: 0.881 (n 3000)\n"}
+,{"stream_name":"stdout","time":2.538314069,"data":"answer accuracy minus, o2 +: 0.900 (n 3000)\n"}
+,{"stream_name":"stdout","time":2.540512758,"data":"answer accuracy minus, o2 -: 0.376 (n 3000)\n"}
+,{"stream_name":"stdout","time":2.548254492,"data":"Part A: 240 families, plus 6000 / minus 6000 items | G1 correct (exact chain): plus 0.876, minus 0.638\n"}
+,{"stream_name":"stdout","time":5900.318767499,"data":"copy ceilings (one-hot d1, d2): plus S 0.540 | plus M 0.612 | plus A5 0.264 | minus S 0.540 | minus M 0.612 | minus A5 0.309\n"}
+,{"stream_name":"stdout","time":5901.007155921,"data":"--- position eq ---\n"}
+,{"stream_name":"stdout","time":5901.007220709,"data":"G2 copies (family-demeaned, best layer): plus/d1 1.000 plus/d2 1.000 minus/d1 1.000 minus/d2 1.000 (each \u003e= 0.50: True)\n"}
+,{"stream_name":"stdout","time":5901.00767459,"data":"  plus  by layer  S 0.28 1.00 1.00 0.98 0.96 0.89 0.92 0.91 | M 0.28 1.00 1.00 0.99 0.97 0.93 0.96 0.96 | A5 0.20 0.51 0.50 0.46 0.47 0.47 0.46 0.52\n"}
+,{"stream_name":"stdout","time":5901.008070491,"data":"  minus by layer  S 0.28 1.00 1.00 0.96 0.97 0.91 0.93 0.91 | M 0.28 1.00 1.00 0.98 0.98 0.95 0.98 0.98 | A5 0.25 0.53 0.49 0.45 0.48 0.47 0.45 0.43\n"}
+,{"stream_name":"stdout","time":5901.008242449,"data":"  excess (band): plus S +0.395 M +0.351 -\u003e D+ +0.043 | minus M +0.364 S +0.402 -\u003e D- -0.039 | A5 plus +0.204 minus +0.155\n"}
+,{"stream_name":"stdout","time":5901.008259986,"data":"  ex_N +0.3792 [+0.3747, +0.3835] -\u003e UNSCORABLE | I +0.0024 [-0.0006, +0.0054] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":5901.699131691,"data":"--- position pre ---\n"}
+,{"stream_name":"stdout","time":5901.699184858,"data":"G2 copies (family-demeaned, best layer): plus/d1 1.000 plus/d2 1.000 minus/d1 1.000 minus/d2 1.000 (each \u003e= 0.50: True)\n"}
+,{"stream_name":"stdout","time":5901.699450228,"data":"  plus  by layer  S 0.24 0.91 0.86 0.78 0.70 0.73 0.99 0.99 | M 0.28 0.95 0.89 0.84 0.79 0.84 1.00 0.99 | A5 0.19 0.42 0.41 0.39 0.42 0.49 0.96 0.99\n"}
+,{"stream_name":"stdout","time":5901.70000767,"data":"  minus by layer  S 0.24 0.92 0.79 0.72 0.71 0.74 0.98 0.98 | M 0.28 0.96 0.87 0.83 0.86 0.90 1.00 1.00 | A5 0.24 0.41 0.39 0.38 0.46 0.54 0.96 0.98\n"}
+,{"stream_name":"stdout","time":5901.700045411,"data":"  excess (band): plus S +0.257 M +0.255 -\u003e D+ +0.002 | minus M +0.284 S +0.249 -\u003e D- +0.035 | A5 plus +0.302 minus +0.274\n"}
+,{"stream_name":"stdout","time":5901.700148434,"data":"  ex_N +0.2706 [+0.2642, +0.2769] -\u003e UNSCORABLE | I +0.0183 [+0.0141, +0.0227] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":5902.419973138,"data":"--- position last ---\n"}
+,{"stream_name":"stdout","time":5902.420003908,"data":"G2 copies (family-demeaned, best layer): plus/d1 1.000 plus/d2 1.000 minus/d1 1.000 minus/d2 1.000 (each \u003e= 0.50: True)\n"}
+,{"stream_name":"stdout","time":5902.420255957,"data":"  plus  by layer  S 0.24 0.78 0.78 0.75 0.60 0.57 0.61 0.59 | M 0.28 0.84 0.84 0.80 0.69 0.70 0.79 0.77 | A5 0.19 0.38 0.38 0.38 0.34 0.37 0.39 0.41\n"}
+,{"stream_name":"stdout","time":5902.420876265,"data":"  minus by layer  S 0.24 0.78 0.73 0.69 0.59 0.56 0.60 0.58 | M 0.28 0.86 0.82 0.78 0.72 0.77 0.91 0.89 | A5 0.24 0.36 0.38 0.36 0.35 0.38 0.39 0.37\n"}
+,{"stream_name":"stdout","time":5902.420897388,"data":"  excess (band): plus S +0.090 M +0.135 -\u003e D+ -0.045 | minus M +0.185 S +0.070 -\u003e D- +0.115 | A5 plus +0.105 minus +0.061\n"}
+,{"stream_name":"stdout","time":5902.420903594,"data":"  ex_N +0.1374 [+0.1294, +0.1456] -\u003e UNSCORABLE | I +0.0352 [+0.0296, +0.0408] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":5902.428414207,"data":"eq, G1 at 0.50 (correct plus 0.876, minus 0.638; execution note 1): COMBINED | DOES-NOT-FOLLOW\n"}
+,{"stream_name":"stdout","time":5902.428444341,"data":"pre, G1 at 0.50 (correct plus 0.876, minus 0.638; execution note 1): COMBINED | UNCLEAR\n"}
+,{"stream_name":"stdout","time":5902.428450257,"data":"last, G1 at 0.50 (correct plus 0.876, minus 0.638; execution note 1): COMBINED | UNCLEAR\n"}
+,{"stream_name":"stdout","time":9372.326999591,"data":"Answer line, excess over the copy ceiling (band), (A + j k) mod 5; the needed form of b is j = -1 on o2 = + and (by symmetry of mod 5) the negation on o2 = -:\n"}
+,{"stream_name":"stdout","time":9372.328549396,"data":"  eq   plus L-2 +0.179 L-1 +0.334 L+0 +0.204 L+1 +0.166 L+2 +0.132 | minus L-2 +0.157 L-1 +0.385 L+0 +0.155 L+1 +0.161 L+2 +0.171\n"}
+,{"stream_name":"stdout","time":9372.32956352,"data":"  pre  plus L-2 +0.245 L-1 +0.304 L+0 +0.302 L+1 +0.227 L+2 +0.199 | minus L-2 +0.256 L-1 +0.362 L+0 +0.274 L+1 +0.248 L+2 +0.251\n"}
+,{"stream_name":"stdout","time":9372.330577361,"data":"  last plus L-2 +0.062 L-1 +0.108 L+0 +0.105 L+1 +0.064 L+2 +0.045 | minus L-2 +0.072 L-1 +0.205 L+0 +0.061 L+1 +0.057 L+2 +0.074\n"}
+,{"stream_name":"stdout","time":9372.331031277,"data":"Split by whether the model answers correctly (pre-registered, secondary):\n"}
+,{"stream_name":"stdout","time":10920.133104124,"data":"  eq   correct (plus 5256, minus 3829): ex_N +0.3721 [+0.3648, +0.3790] | I -0.0098 [-0.0167, -0.0034] (D+ +0.041, D- -0.061)\n"}
+,{"stream_name":"stdout","time":10920.802991373,"data":"  eq   wrong   (plus  744, minus 2171): ex_N +0.3704 [+0.3469, +0.3907] | I +0.0294 [+0.0109, +0.0470] (D+ +0.058, D- +0.001)\n"}
+,{"stream_name":"stdout","time":10921.506549692,"data":"  pre  correct (plus 5256, minus 3829): ex_N +0.2625 [+0.2533, +0.2715] | I +0.0050 [-0.0030, +0.0125] (D+ -0.002, D- +0.012)\n"}
+,{"stream_name":"stdout","time":10922.176979354,"data":"  pre  wrong   (plus  744, minus 2171): ex_N +0.2684 [+0.2424, +0.2915] | I +0.0519 [+0.0291, +0.0748] (D+ +0.028, D- +0.076)\n"}
+,{"stream_name":"stdout","time":10922.900462782,"data":"  last correct (plus 5256, minus 3829): ex_N +0.1268 [+0.1167, +0.1370] | I +0.0166 [+0.0072, +0.0252] (D+ -0.049, D- +0.082)\n"}
+,{"stream_name":"stdout","time":10923.564253169,"data":"  last wrong   (plus  744, minus 2171): ex_N +0.1363 [+0.1126, +0.1581] | I +0.0795 [+0.0544, +0.1054] (D+ -0.014, D- +0.173)\n"}
+,{"stream_name":"stdout","time":10923.565156028,"data":"Part B plan for positions: ['eq', 'pre', 'last']\n"}
+,{"stream_name":"stdout","time":10924.015991589,"data":"  eq layer 12 half 0: B vs copy mean cos^2 0.459, vs answer 0.460; share of B left after both 0.455\n"}
+,{"stream_name":"stdout","time":10924.09076562,"data":"  eq layer 12 half 1: B vs copy mean cos^2 0.463, vs answer 0.448; share of B left after both 0.463\n"}
+,{"stream_name":"stdout","time":10924.489534011,"data":"  eq layer 16 half 0: B vs copy mean cos^2 0.392, vs answer 0.526; share of B left after both 0.410\n"}
+,{"stream_name":"stdout","time":10924.560315938,"data":"  eq layer 16 half 1: B vs copy mean cos^2 0.405, vs answer 0.462; share of B left after both 0.462\n"}
+,{"stream_name":"stdout","time":10924.95433955,"data":"  eq layer 20 half 0: B vs copy mean cos^2 0.364, vs answer 0.542; share of B left after both 0.394\n"}
+,{"stream_name":"stdout","time":10925.028804103,"data":"  eq layer 20 half 1: B vs copy mean cos^2 0.385, vs answer 0.465; share of B left after both 0.456\n"}
+,{"stream_name":"stdout","time":10925.408074843,"data":"  eq layer 24 half 0: B vs copy mean cos^2 0.541, vs answer 0.490; share of B left after both 0.411\n"}
+,{"stream_name":"stdout","time":10925.482344275,"data":"  eq layer 24 half 1: B vs copy mean cos^2 0.565, vs answer 0.463; share of B left after both 0.423\n"}
+,{"stream_name":"stdout","time":10925.893587551,"data":"  pre layer 12 half 0: B vs copy mean cos^2 0.417, vs answer 0.439; share of B left after both 0.487\n"}
+,{"stream_name":"stdout","time":10925.967733677,"data":"  pre layer 12 half 1: B vs copy mean cos^2 0.422, vs answer 0.421; share of B left after both 0.485\n"}
+,{"stream_name":"stdout","time":10926.350913793,"data":"  pre layer 16 half 0: B vs copy mean cos^2 0.471, vs answer 0.430; share of B left after both 0.488\n"}
+,{"stream_name":"stdout","time":10926.427874761,"data":"  pre layer 16 half 1: B vs copy mean cos^2 0.463, vs answer 0.416; share of B left after both 0.490\n"}
+,{"stream_name":"stdout","time":10926.812321478,"data":"  pre layer 20 half 0: B vs copy mean cos^2 0.583, vs answer 0.487; share of B left after both 0.436\n"}
+,{"stream_name":"stdout","time":10926.887308149,"data":"  pre layer 20 half 1: B vs copy mean cos^2 0.575, vs answer 0.455; share of B left after both 0.449\n"}
+,{"stream_name":"stdout","time":10927.269803192,"data":"  pre layer 24 half 0: B vs copy mean cos^2 0.344, vs answer 0.559; share of B left after both 0.369\n"}
+,{"stream_name":"stdout","time":10927.348546901,"data":"  pre layer 24 half 1: B vs copy mean cos^2 0.336, vs answer 0.573; share of B left after both 0.351\n"}
+,{"stream_name":"stdout","time":10927.732481539,"data":"  last layer 12 half 0: B vs copy mean cos^2 0.365, vs answer 0.416; share of B left after both 0.509\n"}
+,{"stream_name":"stdout","time":10927.807395052,"data":"  last layer 12 half 1: B vs copy mean cos^2 0.374, vs answer 0.403; share of B left after both 0.506\n"}
+,{"stream_name":"stdout","time":10928.189861857,"data":"  last layer 16 half 0: B vs copy mean cos^2 0.380, vs answer 0.407; share of B left after both 0.513\n"}
+,{"stream_name":"stdout","time":10928.2659835,"data":"  last layer 16 half 1: B vs copy mean cos^2 0.393, vs answer 0.395; share of B left after both 0.522\n"}
+,{"stream_name":"stdout","time":10928.644562005,"data":"  last layer 20 half 0: B vs copy mean cos^2 0.391, vs answer 0.457; share of B left after both 0.485\n"}
+,{"stream_name":"stdout","time":10928.721612469,"data":"  last layer 20 half 1: B vs copy mean cos^2 0.373, vs answer 0.396; share of B left after both 0.528\n"}
+,{"stream_name":"stdout","time":10929.101423284,"data":"  last layer 24 half 0: B vs copy mean cos^2 0.358, vs answer 0.496; share of B left after both 0.463\n"}
+,{"stream_name":"stdout","time":10929.178255637,"data":"  last layer 24 half 1: B vs copy mean cos^2 0.340, vs answer 0.384; share of B left after both 0.544\n"}
+,{"stream_name":"stdout","time":10951.035288305,"data":"plan: 108 bases, 3000 pairs\n"}
+,{"stream_name":"stderr","time":10954.189134978,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":10954.189172223,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":10954.576165145,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":10954.576222881,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":10956.485075866,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":10957.832782485,"data":"[NbConvertApp] Writing 311372 bytes to __results__.html\n"}
+]

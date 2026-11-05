@@ -1,0 +1,7 @@
+v220 pilot | device cuda | TINY False | steps 30000 | 6 cells
+std  dig lr 0.0003 seed 0 | params 2676672 | to 0.95: 15000, to 0.99: 24500 | final acc 0.992 (plus 0.998, minus 0.947) | 26500 steps, 402 s
+std  dig lr 0.003  seed 0 | params 2676672 | to 0.95: 5500, to 0.99: 12000 | final acc 0.995 (plus 0.997, minus 0.980) | 14000 steps, 206 s
+std  mod lr 0.001  seed 0 | params 2680896 | to 0.95: 2000, to 0.99: 4000 | final acc 0.987 (plus 0.989, minus 0.985) | 6000 steps, 88 s
+loop dig lr 0.0003 seed 0 | params 897216 | to 0.95: 18500, to 0.99: 25000 | final acc 0.997 (plus 0.997, minus 0.998) | 27000 steps, 344 s
+loop dig lr 0.003  seed 0 | params 897216 | to 0.95: 27000, to 0.99: None | final acc 0.970 (plus 0.971, minus 0.960) | 30000 steps, 371 s
+loop mod lr 0.001  seed 0 | params 901440 | to 0.95: 2500, to 0.99: 4000 | final acc 0.988 (plus 0.984, minus 0.992) | 6000 steps, 71 s

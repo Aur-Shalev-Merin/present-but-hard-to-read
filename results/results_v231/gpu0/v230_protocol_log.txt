@@ -1,0 +1,2 @@
+model pos seed 2: sha 39aac1088343cf2d (expected 39aac1088343cf2d) | held-out 0.9949
+model pos seed 0: sha 423563683be2c8f9 (expected 423563683be2c8f9) | held-out 0.9990

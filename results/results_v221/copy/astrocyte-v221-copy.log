@@ -1,0 +1,20 @@
+[{"stream_name":"stdout","time":1.06599553,"data":"v215_pilot.py d049a0b2d81fb80b\n"}
+,{"stream_name":"stdout","time":1.066215482,"data":"v215_items.py 9249f0523d7219eb\n"}
+,{"stream_name":"stdout","time":1.06640884,"data":"v221_copyprobe.py 83a40fdaf9e2c543\n"}
+,{"stream_name":"stdout","time":1.067568867,"data":"=== v221_copyprobe.py ['/kaggle/input'] {}\n"}
+,{"stream_name":"stdout","time":32.774440717,"data":"v215 items sha 8c08adec21d20ae3 (frozen 8c08adec21d20ae3)\n"}
+,{"stream_name":"stdout","time":1651.323490986,"data":"d1 (majority 0.258), test accuracy by layer [0, 4, 8, 12, 16, 20, 24, 28]:\n"}
+,{"stream_name":"stdout","time":1651.323695603,"data":"  eq   0.03 1.00 0.94 0.58 0.71 0.43 0.50 0.53 | max 1.000 -\u003e reaches their 90% threshold\n"}
+,{"stream_name":"stdout","time":1651.323706432,"data":"  semi 0.03 0.94 0.83 0.68 0.57 0.46 0.38 0.31 | max 0.939 -\u003e reaches their 90% threshold\n"}
+,{"stream_name":"stdout","time":1651.323711832,"data":"  last 0.03 0.59 0.54 0.50 0.38 0.33 0.40 0.40 | max 0.593 -\u003e below their 90% threshold\n"}
+,{"stream_name":"stdout","time":1651.323716921,"data":"d2 (majority 0.224), test accuracy by layer [0, 4, 8, 12, 16, 20, 24, 28]:\n"}
+,{"stream_name":"stdout","time":1651.323721876,"data":"  eq   1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 | max 1.000 -\u003e reaches their 90% threshold\n"}
+,{"stream_name":"stdout","time":1651.323726823,"data":"  semi 0.11 1.00 1.00 0.99 0.99 0.96 0.90 0.77 | max 1.000 -\u003e reaches their 90% threshold\n"}
+,{"stream_name":"stdout","time":1651.323731837,"data":"  last 0.11 1.00 0.90 0.78 0.70 0.58 0.52 0.50 | max 0.998 -\u003e reaches their 90% threshold\n"}
+,{"stream_name":"stderr","time":1654.903009901,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1654.903051528,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1655.451786183,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1655.451821143,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1658.164076795,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1659.733447005,"data":"[NbConvertApp] Writing 291659 bytes to __results__.html\n"}
+]

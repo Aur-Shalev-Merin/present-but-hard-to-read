@@ -1,0 +1,177 @@
+/kaggle/working/v230_pilot.py:121: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  net.train(); curve.append([s + 1, round(float(loss), 4), acc])
+train std pos seed 1 | to 0.99: 7500 | final acc 0.9948 | 9500 steps, 147 s
+model pos seed 1: sha 0a46ffeb90ae782b (expected 0a46ffeb90ae782b) | held-out 0.9948
+seed 1: 12000 items, correct 0.9917
+dose None  None  native  clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.799 cX 0.737 cR 0.045 | stat +0.754 [+0.724, +0.784] -> USED
+dose None  None  native  clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.704 cBo 0.668 cD 0.089 cR 0.001 | stat +0.667 [+0.636, +0.699] -> USED
+dose None  None  ouro    clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.795 cX 0.766 cR 0.045 | stat +0.750 [+0.720, +0.779] -> USED
+dose None  None  ouro    clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.240 cBo 0.240 cD 0.000 cR 0.000 | stat +0.240 [+0.196, +0.285] -> USED
+dose 0.1 iso: realised share by layer 0.0999 0.1000 0.0998 0.1000 0.1000 (native 0.141 0.239 0.353 0.638 0.758)
+dose 0.1   iso   native  clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.792 cX 0.645 cR 0.045 | stat +0.747 [+0.717, +0.777] -> USED
+dose 0.1   iso   native  clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.570 cBo 0.575 cD 0.030 cR 0.000 | stat +0.575 [+0.538, +0.611] -> USED
+dose 0.1   iso   ouro    clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.758 cX 0.586 cR 0.045 | stat +0.713 [+0.684, +0.742] -> USED
+dose 0.1   iso   ouro    clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.1 state: realised share by layer 0.1001 0.1001 0.1001 0.0999 0.1000 (native 0.141 0.239 0.353 0.638 0.758)
+dose 0.1   state native  clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.797 cX 0.763 cR 0.045 | stat +0.752 [+0.722, +0.782] -> USED
+dose 0.1   state native  clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.413 cBo 0.400 cD 0.044 cR 0.000 | stat +0.400 [+0.358, +0.441] -> USED
+dose 0.1   state ouro    clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.785 cX 0.761 cR 0.045 | stat +0.740 [+0.709, +0.771] -> USED
+dose 0.1   state ouro    clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.03 iso: realised share by layer 0.0301 0.0300 0.0299 0.0301 0.0301 (native 0.141 0.239 0.353 0.638 0.758)
+dose 0.03  iso   native  clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.763 cX 0.511 cR 0.045 | stat +0.718 [+0.686, +0.750] -> USED
+dose 0.03  iso   native  clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.000 cBo 0.000 cD 0.002 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.03  iso   ouro    clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.724 cX 0.374 cR 0.045 | stat +0.679 [+0.650, +0.708] -> USED
+dose 0.03  iso   ouro    clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.03 state: realised share by layer 0.0299 0.0299 0.0297 0.0300 0.0299 (native 0.141 0.239 0.353 0.638 0.758)
+dose 0.03  state native  clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.795 cX 0.767 cR 0.045 | stat +0.750 [+0.719, +0.780] -> USED
+dose 0.03  state native  clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.000 cBo 0.000 cD 0.004 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.03  state ouro    clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.782 cX 0.762 cR 0.045 | stat +0.737 [+0.705, +0.768] -> USED
+dose 0.03  state ouro    clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.01 iso: realised share by layer 0.0101 0.0099 0.0101 0.0101 0.0103 (native 0.141 0.239 0.353 0.638 0.758)
+dose 0.01  iso   native  clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.740 cX 0.334 cR 0.045 | stat +0.695 [+0.662, +0.727] -> USED
+dose 0.01  iso   native  clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.01  iso   ouro    clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.624 cX 0.201 cR 0.045 | stat +0.579 [+0.544, +0.614] -> USED
+dose 0.01  iso   ouro    clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.01 state: realised share by layer 0.0100 0.0100 0.0100 0.0102 0.0100 (native 0.141 0.239 0.353 0.638 0.758)
+dose 0.01  state native  clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.793 cX 0.761 cR 0.045 | stat +0.748 [+0.718, +0.777] -> USED
+dose 0.01  state native  clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.01  state ouro    clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.781 cX 0.755 cR 0.045 | stat +0.736 [+0.706, +0.765] -> USED
+dose 0.01  state ouro    clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.005 iso: realised share by layer 0.0049 0.0049 0.0049 0.0050 0.0049 (native 0.141 0.239 0.353 0.638 0.758)
+dose 0.005 iso   native  clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.713 cX 0.229 cR 0.045 | stat +0.668 [+0.638, +0.699] -> USED
+dose 0.005 iso   native  clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.005 iso   ouro    clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.445 cX 0.125 cR 0.045 | stat +0.400 [+0.366, +0.434] -> USED
+dose 0.005 iso   ouro    clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.005 state: realised share by layer 0.0050 0.0053 0.0051 0.0048 0.0048 (native 0.141 0.239 0.353 0.638 0.758)
+dose 0.005 state native  clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.787 cX 0.762 cR 0.045 | stat +0.742 [+0.714, +0.770] -> USED
+dose 0.005 state native  clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.005 state ouro    clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.771 cX 0.752 cR 0.045 | stat +0.726 [+0.696, +0.755] -> USED
+dose 0.005 state ouro    clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.002 iso: realised share by layer 0.0022 0.0021 0.0022 0.0022 0.0023 (native 0.141 0.239 0.353 0.638 0.758)
+dose 0.002 iso   native  clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.494 cX 0.090 cR 0.045 | stat +0.449 [+0.414, +0.484] -> USED
+dose 0.002 iso   native  clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.002 iso   ouro    clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.131 cX 0.063 cR 0.045 | stat +0.086 [+0.064, +0.110] -> UNCLEAR
+dose 0.002 iso   ouro    clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.002 state: realised share by layer 0.0024 0.0028 0.0023 0.0021 0.0021 (native 0.141 0.239 0.353 0.638 0.758)
+dose 0.002 state native  clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.762 cX 0.757 cR 0.045 | stat +0.717 [+0.686, +0.748] -> USED
+dose 0.002 state native  clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.002 state ouro    clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.751 cX 0.748 cR 0.045 | stat +0.706 [+0.675, +0.736] -> USED
+dose 0.002 state ouro    clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+seed 1 done in 651 s
+train std pos seed 3 | to 0.99: 10000 | final acc 0.9977 | 12000 steps, 190 s
+model pos seed 3: sha fe7a13c4e6aa5fd9 (expected fe7a13c4e6aa5fd9) | held-out 0.9977
+seed 3: 12000 items, correct 0.9989
+dose None  None  native  clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.952 cX 0.934 cR 0.044 | stat +0.908 [+0.885, +0.929] -> USED
+dose None  None  native  clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.937 cBo 0.935 cD 0.059 cR 0.002 | stat +0.933 [+0.913, +0.951] -> USED
+dose None  None  ouro    clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.957 cX 0.938 cR 0.044 | stat +0.913 [+0.893, +0.933] -> USED
+dose None  None  ouro    clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.127 cBo 0.127 cD 0.000 cR 0.000 | stat +0.127 [+0.094, +0.161] -> USED
+dose 0.1 iso: realised share by layer 0.1000 0.0999 0.1001 0.1000 0.1002 (native 0.123 0.208 0.463 0.751 0.786)
+dose 0.1   iso   native  clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.954 cX 0.867 cR 0.044 | stat +0.910 [+0.889, +0.931] -> USED
+dose 0.1   iso   native  clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.477 cBo 0.478 cD 0.023 cR 0.000 | stat +0.478 [+0.435, +0.520] -> USED
+dose 0.1   iso   ouro    clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.948 cX 0.790 cR 0.044 | stat +0.904 [+0.881, +0.926] -> USED
+dose 0.1   iso   ouro    clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.1 state: realised share by layer 0.1003 0.1001 0.0999 0.1000 0.0999 (native 0.123 0.208 0.463 0.751 0.786)
+dose 0.1   state native  clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.955 cX 0.930 cR 0.044 | stat +0.911 [+0.889, +0.932] -> USED
+dose 0.1   state native  clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.429 cBo 0.430 cD 0.032 cR 0.000 | stat +0.430 [+0.395, +0.465] -> USED
+dose 0.1   state ouro    clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.952 cX 0.927 cR 0.044 | stat +0.908 [+0.887, +0.929] -> USED
+dose 0.1   state ouro    clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.03 iso: realised share by layer 0.0301 0.0301 0.0299 0.0298 0.0301 (native 0.123 0.208 0.463 0.751 0.786)
+dose 0.03  iso   native  clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.952 cX 0.725 cR 0.044 | stat +0.908 [+0.886, +0.929] -> USED
+dose 0.03  iso   native  clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.072 cBo 0.072 cD 0.002 cR 0.000 | stat +0.072 [+0.053, +0.091] -> UNCLEAR
+dose 0.03  iso   ouro    clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.934 cX 0.579 cR 0.044 | stat +0.890 [+0.864, +0.915] -> USED
+dose 0.03  iso   ouro    clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.03 state: realised share by layer 0.0300 0.0301 0.0299 0.0300 0.0299 (native 0.123 0.208 0.463 0.751 0.786)
+dose 0.03  state native  clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.956 cX 0.931 cR 0.044 | stat +0.912 [+0.891, +0.932] -> USED
+dose 0.03  state native  clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.039 cBo 0.039 cD 0.001 cR 0.000 | stat +0.039 [+0.024, +0.056] -> UNCLEAR
+dose 0.03  state ouro    clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.950 cX 0.916 cR 0.044 | stat +0.906 [+0.884, +0.927] -> USED
+dose 0.03  state ouro    clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.01 iso: realised share by layer 0.0101 0.0100 0.0100 0.0102 0.0101 (native 0.123 0.208 0.463 0.751 0.786)
+dose 0.01  iso   native  clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.945 cX 0.526 cR 0.044 | stat +0.901 [+0.877, +0.923] -> USED
+dose 0.01  iso   native  clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.01  iso   ouro    clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.828 cX 0.309 cR 0.044 | stat +0.784 [+0.752, +0.814] -> USED
+dose 0.01  iso   ouro    clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.001 cBo 0.001 cD 0.000 cR 0.000 | stat +0.001 [+0.000, +0.004] -> NOT-USED
+dose 0.01 state: realised share by layer 0.0100 0.0098 0.0099 0.0101 0.0098 (native 0.123 0.208 0.463 0.751 0.786)
+dose 0.01  state native  clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.956 cX 0.926 cR 0.044 | stat +0.912 [+0.890, +0.933] -> USED
+dose 0.01  state native  clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.01  state ouro    clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.940 cX 0.915 cR 0.044 | stat +0.896 [+0.874, +0.917] -> USED
+dose 0.01  state ouro    clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.005 iso: realised share by layer 0.0049 0.0050 0.0051 0.0049 0.0050 (native 0.123 0.208 0.463 0.751 0.786)
+dose 0.005 iso   native  clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.933 cX 0.366 cR 0.044 | stat +0.889 [+0.865, +0.911] -> USED
+dose 0.005 iso   native  clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.001 cBo 0.001 cD 0.000 cR 0.000 | stat +0.001 [+0.000, +0.004] -> NOT-USED
+dose 0.005 iso   ouro    clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.593 cX 0.157 cR 0.044 | stat +0.549 [+0.518, +0.580] -> USED
+dose 0.005 iso   ouro    clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.005 state: realised share by layer 0.0051 0.0049 0.0052 0.0052 0.0048 (native 0.123 0.208 0.463 0.751 0.786)
+dose 0.005 state native  clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.947 cX 0.926 cR 0.044 | stat +0.903 [+0.879, +0.925] -> USED
+dose 0.005 state native  clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.005 state ouro    clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.930 cX 0.913 cR 0.044 | stat +0.886 [+0.863, +0.908] -> USED
+dose 0.005 state ouro    clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.002 iso: realised share by layer 0.0021 0.0022 0.0020 0.0024 0.0022 (native 0.123 0.208 0.463 0.751 0.786)
+dose 0.002 iso   native  clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.607 cX 0.137 cR 0.044 | stat +0.563 [+0.529, +0.597] -> USED
+dose 0.002 iso   native  clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.002 iso   ouro    clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.175 cX 0.076 cR 0.044 | stat +0.131 [+0.104, +0.159] -> USED
+dose 0.002 iso   ouro    clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.002 state: realised share by layer 0.0021 0.0021 0.0025 0.0022 0.0023 (native 0.123 0.208 0.463 0.751 0.786)
+dose 0.002 state native  clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.932 cX 0.913 cR 0.044 | stat +0.888 [+0.863, +0.911] -> USED
+dose 0.002 state native  clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.002 state ouro    clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.927 cX 0.913 cR 0.044 | stat +0.883 [+0.858, +0.906] -> USED
+dose 0.002 state ouro    clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+seed 3 done in 659 s
+train std pos seed 4 | to 0.99: 7000 | final acc 1.0000 | 9000 steps, 168 s
+model pos seed 4: sha 017e54b930608bae (expected 017e54b930608bae) | held-out 1.0000
+seed 4: 12000 items, correct 1.0000
+dose None  None  native  clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.990 cX 0.982 cR 0.119 | stat +0.871 [+0.848, +0.893] -> USED
+dose None  None  native  clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.978 cBo 0.974 cD 0.076 cR 0.000 | stat +0.974 [+0.960, +0.986] -> USED
+dose None  None  ouro    clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.987 cX 0.986 cR 0.119 | stat +0.868 [+0.844, +0.890] -> USED
+dose None  None  ouro    clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.069 cBo 0.069 cD 0.000 cR 0.000 | stat +0.069 [+0.053, +0.086] -> UNCLEAR
+dose 0.1 iso: realised share by layer 0.0999 0.1000 0.1001 0.1001 0.0998 (native 0.163 0.242 0.353 0.493 0.687)
+dose 0.1   iso   native  clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.989 cX 0.943 cR 0.119 | stat +0.870 [+0.847, +0.892] -> USED
+dose 0.1   iso   native  clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.616 cBo 0.616 cD 0.035 cR 0.000 | stat +0.616 [+0.582, +0.651] -> USED
+dose 0.1   iso   ouro    clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.986 cX 0.921 cR 0.119 | stat +0.867 [+0.844, +0.889] -> USED
+dose 0.1   iso   ouro    clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.1 state: realised share by layer 0.1000 0.1000 0.1001 0.0999 0.0999 (native 0.163 0.242 0.353 0.493 0.687)
+dose 0.1   state native  clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.991 cX 0.975 cR 0.119 | stat +0.872 [+0.849, +0.894] -> USED
+dose 0.1   state native  clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.607 cBo 0.602 cD 0.054 cR 0.000 | stat +0.602 [+0.569, +0.635] -> USED
+dose 0.1   state ouro    clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.988 cX 0.978 cR 0.119 | stat +0.869 [+0.846, +0.891] -> USED
+dose 0.1   state ouro    clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.03 iso: realised share by layer 0.0299 0.0299 0.0299 0.0299 0.0301 (native 0.163 0.242 0.353 0.493 0.687)
+dose 0.03  iso   native  clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.986 cX 0.874 cR 0.119 | stat +0.867 [+0.844, +0.889] -> USED
+dose 0.03  iso   native  clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.000 cBo 0.000 cD 0.001 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.03  iso   ouro    clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.982 cX 0.754 cR 0.119 | stat +0.863 [+0.837, +0.887] -> USED
+dose 0.03  iso   ouro    clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.03 state: realised share by layer 0.0299 0.0301 0.0301 0.0301 0.0300 (native 0.163 0.242 0.353 0.493 0.687)
+dose 0.03  state native  clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.993 cX 0.979 cR 0.119 | stat +0.874 [+0.851, +0.896] -> USED
+dose 0.03  state native  clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.03  state ouro    clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.985 cX 0.978 cR 0.119 | stat +0.866 [+0.842, +0.888] -> USED
+dose 0.03  state ouro    clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.01 iso: realised share by layer 0.0099 0.0098 0.0099 0.0098 0.0099 (native 0.163 0.242 0.353 0.493 0.687)
+dose 0.01  iso   native  clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.984 cX 0.745 cR 0.119 | stat +0.865 [+0.841, +0.888] -> USED
+dose 0.01  iso   native  clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.01  iso   ouro    clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.919 cX 0.490 cR 0.119 | stat +0.800 [+0.773, +0.826] -> USED
+dose 0.01  iso   ouro    clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.01 state: realised share by layer 0.0100 0.0099 0.0100 0.0099 0.0098 (native 0.163 0.242 0.353 0.493 0.687)
+dose 0.01  state native  clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.995 cX 0.983 cR 0.119 | stat +0.876 [+0.854, +0.897] -> USED
+dose 0.01  state native  clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.01  state ouro    clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.987 cX 0.979 cR 0.119 | stat +0.868 [+0.844, +0.891] -> USED
+dose 0.01  state ouro    clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.005 iso: realised share by layer 0.0050 0.0050 0.0051 0.0049 0.0048 (native 0.163 0.242 0.353 0.493 0.687)
+dose 0.005 iso   native  clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.980 cX 0.592 cR 0.119 | stat +0.861 [+0.837, +0.884] -> USED
+dose 0.005 iso   native  clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.005 iso   ouro    clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.719 cX 0.312 cR 0.119 | stat +0.600 [+0.561, +0.639] -> USED
+dose 0.005 iso   ouro    clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.005 state: realised share by layer 0.0050 0.0049 0.0046 0.0049 0.0048 (native 0.163 0.242 0.353 0.493 0.687)
+dose 0.005 state native  clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.992 cX 0.986 cR 0.119 | stat +0.873 [+0.850, +0.895] -> USED
+dose 0.005 state native  clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.005 state ouro    clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.983 cX 0.980 cR 0.119 | stat +0.864 [+0.840, +0.887] -> USED
+dose 0.005 state ouro    clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.002 iso: realised share by layer 0.0022 0.0020 0.0020 0.0020 0.0020 (native 0.163 0.242 0.353 0.493 0.687)
+dose 0.002 iso   native  clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.812 cX 0.276 cR 0.119 | stat +0.693 [+0.656, +0.727] -> USED
+dose 0.002 iso   native  clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.002 iso   ouro    clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.217 cX 0.147 cR 0.119 | stat +0.098 [+0.068, +0.129] -> UNCLEAR
+dose 0.002 iso   ouro    clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.002 state: realised share by layer 0.0020 0.0020 0.0023 0.0023 0.0022 (native 0.163 0.242 0.353 0.493 0.687)
+dose 0.002 state native  clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.986 cX 0.986 cR 0.119 | stat +0.867 [+0.843, +0.890] -> USED
+dose 0.002 state native  clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+dose 0.002 state ouro    clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.976 cX 0.980 cR 0.119 | stat +0.857 [+0.832, +0.881] -> USED
+dose 0.002 state ouro    clamp v230 pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | stat +0.000 [+0.000, +0.000] -> NOT-USED
+seed 4 done in 573 s

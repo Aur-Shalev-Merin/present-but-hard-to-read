@@ -1,0 +1,2702 @@
+[
+ {
+  "kind": "pair",
+  "lam": 0.05,
+  "seed": 7,
+  "spec": false,
+  "I": -6.787505669292532e-06,
+  "N": -0.0038969770818025216,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "pair",
+  "lam": 0.05,
+  "seed": 8,
+  "spec": false,
+  "I": -7.179722951433914e-06,
+  "N": -0.003969993119148673,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "pair",
+  "lam": 0.05,
+  "seed": 9,
+  "spec": false,
+  "I": -2.8648675459552915e-05,
+  "N": -0.0039694007593381155,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "pair",
+  "lam": 0.05,
+  "seed": 10,
+  "spec": false,
+  "I": -7.1267981945010404e-06,
+  "N": -0.003948258323233866,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "pair",
+  "lam": 0.05,
+  "seed": 11,
+  "spec": false,
+  "I": 2.3920379308450725e-05,
+  "N": -0.003974182123964587,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "pair",
+  "lam": 0.05,
+  "seed": 12,
+  "spec": false,
+  "I": 5.8588768848544335e-05,
+  "N": -0.003920349709238002,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "pair",
+  "lam": 0.1,
+  "seed": 7,
+  "spec": false,
+  "I": -3.234248399945909e-05,
+  "N": -0.0035336763596776955,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "pair",
+  "lam": 0.1,
+  "seed": 8,
+  "spec": false,
+  "I": 3.3237997405287465e-06,
+  "N": -0.0035571445940745464,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "pair",
+  "lam": 0.1,
+  "seed": 9,
+  "spec": false,
+  "I": -2.6905316554470815e-05,
+  "N": -0.0035242498711729906,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "pair",
+  "lam": 0.1,
+  "seed": 10,
+  "spec": false,
+  "I": 3.9946795155068e-06,
+  "N": -0.0035288085469233456,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "pair",
+  "lam": 0.1,
+  "seed": 11,
+  "spec": false,
+  "I": 1.841944125184885e-05,
+  "N": -0.0035894117222242004,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "pair",
+  "lam": 0.1,
+  "seed": 12,
+  "spec": false,
+  "I": 5.3344731665316966e-05,
+  "N": -0.003498921999516025,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "pair",
+  "lam": 0.25,
+  "seed": 7,
+  "spec": false,
+  "I": -7.982551031073817e-05,
+  "N": -0.0009671580166980887,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "pair",
+  "lam": 0.25,
+  "seed": 8,
+  "spec": false,
+  "I": 2.916788342235407e-05,
+  "N": -0.0008684676358061249,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "pair",
+  "lam": 0.25,
+  "seed": 9,
+  "spec": false,
+  "I": -1.979539195859912e-05,
+  "N": -0.0007419446527402451,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "pair",
+  "lam": 0.25,
+  "seed": 10,
+  "spec": false,
+  "I": 3.846788999941616e-05,
+  "N": -0.0008710323941805819,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "pair",
+  "lam": 0.25,
+  "seed": 11,
+  "spec": false,
+  "I": 4.9734570074599894e-05,
+  "N": -0.00102711018032553,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "pair",
+  "lam": 0.25,
+  "seed": 12,
+  "spec": false,
+  "I": 6.381668832846634e-05,
+  "N": -0.0009313959661333415,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "pair",
+  "lam": 0.5,
+  "seed": 7,
+  "spec": true,
+  "I": -0.00011644207040713067,
+  "N": 0.006188589499375462,
+  "I_rel": -0.018815607404382165,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "pair",
+  "lam": 0.5,
+  "seed": 8,
+  "spec": true,
+  "I": 6.917442037269713e-05,
+  "N": 0.0064742592111822865,
+  "I_rel": 0.010684530556518287,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "pair",
+  "lam": 0.5,
+  "seed": 9,
+  "spec": true,
+  "I": 1.9664006914266435e-05,
+  "N": 0.006948782349709204,
+  "I_rel": 0.0028298493066327432,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "pair",
+  "lam": 0.5,
+  "seed": 10,
+  "spec": true,
+  "I": 4.444990691372403e-05,
+  "N": 0.006475708145917758,
+  "I_rel": 0.006864099788336654,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "pair",
+  "lam": 0.5,
+  "seed": 11,
+  "spec": true,
+  "I": 6.788771022521196e-05,
+  "N": 0.005963844824248232,
+  "I_rel": 0.011383212042873615,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "pair",
+  "lam": 0.5,
+  "seed": 12,
+  "spec": true,
+  "I": 4.3772895523141835e-05,
+  "N": 0.006236070511475178,
+  "I_rel": 0.007019307341473133,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "pair",
+  "lam": 1.0,
+  "seed": 7,
+  "spec": true,
+  "I": -0.0001273754644964143,
+  "N": 0.02026014838538428,
+  "I_rel": -0.006286995636631333,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "pair",
+  "lam": 1.0,
+  "seed": 8,
+  "spec": true,
+  "I": 7.330246393675265e-05,
+  "N": 0.02072749277434328,
+  "I_rel": 0.0035364848385081695,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "pair",
+  "lam": 1.0,
+  "seed": 9,
+  "spec": true,
+  "I": 2.9582797968063373e-06,
+  "N": 0.02182146169359821,
+  "I_rel": 0.00013556744448857023,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "pair",
+  "lam": 1.0,
+  "seed": 10,
+  "spec": true,
+  "I": 4.9119439810585766e-05,
+  "N": 0.020688843189294245,
+  "I_rel": 0.0023741994349883886,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "pair",
+  "lam": 1.0,
+  "seed": 11,
+  "spec": true,
+  "I": 9.463774468959456e-05,
+  "N": 0.019659395388396082,
+  "I_rel": 0.004813868525450904,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "pair",
+  "lam": 1.0,
+  "seed": 12,
+  "spec": true,
+  "I": 3.7198749721844074e-05,
+  "N": 0.020240507815736997,
+  "I_rel": 0.0018378367806030065,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "pair",
+  "lam": 2.0,
+  "seed": 7,
+  "spec": true,
+  "I": -0.00010225160537961214,
+  "N": 0.033026800387368854,
+  "I_rel": -0.003096019117211197,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "pair",
+  "lam": 2.0,
+  "seed": 8,
+  "spec": true,
+  "I": 5.6920971358898065e-05,
+  "N": 0.033445269988380294,
+  "I_rel": 0.001701913944144383,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "pair",
+  "lam": 2.0,
+  "seed": 9,
+  "spec": true,
+  "I": 2.9359632525972207e-05,
+  "N": 0.035135228703053925,
+  "I_rel": 0.0008356180850310018,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "pair",
+  "lam": 2.0,
+  "seed": 10,
+  "spec": true,
+  "I": 3.528357621224165e-05,
+  "N": 0.03336919704501255,
+  "I_rel": 0.0010573696503588846,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "pair",
+  "lam": 2.0,
+  "seed": 11,
+  "spec": true,
+  "I": 5.680983678102436e-05,
+  "N": 0.03186128475110017,
+  "I_rel": 0.0017830365983299752,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "pair",
+  "lam": 2.0,
+  "seed": 12,
+  "spec": true,
+  "I": 3.597125743246693e-06,
+  "N": 0.032914181059697144,
+  "I_rel": 0.00010928802198427816,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "pair",
+  "lam": 4.0,
+  "seed": 7,
+  "spec": true,
+  "I": -4.8409074073052505e-05,
+  "N": 0.03887273172368708,
+  "I_rel": -0.0012453221558276662,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "pair",
+  "lam": 4.0,
+  "seed": 8,
+  "spec": true,
+  "I": 2.8119400393392113e-05,
+  "N": 0.03914767227188906,
+  "I_rel": 0.0007182904822053477,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "pair",
+  "lam": 4.0,
+  "seed": 9,
+  "spec": true,
+  "I": 3.4960492125035714e-05,
+  "N": 0.04112431015466578,
+  "I_rel": 0.0008501174121475022,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "pair",
+  "lam": 4.0,
+  "seed": 10,
+  "spec": true,
+  "I": 5.624828218632125e-05,
+  "N": 0.03906337691078461,
+  "I_rel": 0.0014399236992435293,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "pair",
+  "lam": 4.0,
+  "seed": 11,
+  "spec": true,
+  "I": 2.4673517761541336e-05,
+  "N": 0.03736558135917404,
+  "I_rel": 0.0006603274153389686,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "pair",
+  "lam": 4.0,
+  "seed": 12,
+  "spec": true,
+  "I": -1.3473472062267705e-05,
+  "N": 0.03861937150230231,
+  "I_rel": -0.0003488785948125665,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "pair",
+  "lam": 8.0,
+  "seed": 7,
+  "spec": true,
+  "I": -1.5708253806433897e-05,
+  "N": 0.04087284824885862,
+  "I_rel": -0.00038432001877609673,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "pair",
+  "lam": 8.0,
+  "seed": 8,
+  "spec": true,
+  "I": 2.6411548694059428e-05,
+  "N": 0.04105116489899449,
+  "I_rel": 0.000643381223384147,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "pair",
+  "lam": 8.0,
+  "seed": 9,
+  "spec": true,
+  "I": 5.205397105065984e-05,
+  "N": 0.04313584165140244,
+  "I_rel": 0.0012067452275842509,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "pair",
+  "lam": 8.0,
+  "seed": 10,
+  "spec": true,
+  "I": 4.602443041306151e-05,
+  "N": 0.040946944483262054,
+  "I_rel": 0.0011240015828745166,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "pair",
+  "lam": 8.0,
+  "seed": 11,
+  "spec": true,
+  "I": 3.346326453285489e-05,
+  "N": 0.03924702586602922,
+  "I_rel": 0.000852631856668137,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "pair",
+  "lam": 8.0,
+  "seed": 12,
+  "spec": true,
+  "I": -3.0577292280630636e-05,
+  "N": 0.04058120900802541,
+  "I_rel": -0.00075348401459857,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "pair",
+  "lam": 16.0,
+  "seed": 7,
+  "spec": true,
+  "I": -5.9233740475998775e-06,
+  "N": 0.04138682441712373,
+  "I_rel": -0.00014312221657550252,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "pair",
+  "lam": 16.0,
+  "seed": 8,
+  "spec": true,
+  "I": 6.469416591527166e-06,
+  "N": 0.04161343479379123,
+  "I_rel": 0.0001554646143387426,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "pair",
+  "lam": 16.0,
+  "seed": 9,
+  "spec": true,
+  "I": 6.382943974638997e-05,
+  "N": 0.04384357928010646,
+  "I_rel": 0.0014558446366478995,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "pair",
+  "lam": 16.0,
+  "seed": 10,
+  "spec": true,
+  "I": 6.077174318941392e-05,
+  "N": 0.04156286511514814,
+  "I_rel": 0.0014621644350322916,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "pair",
+  "lam": 16.0,
+  "seed": 11,
+  "spec": true,
+  "I": 1.7687335903023016e-06,
+  "N": 0.03978682157717628,
+  "I_rel": 4.445526232527546e-05,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "pair",
+  "lam": 16.0,
+  "seed": 12,
+  "spec": true,
+  "I": 9.49363691170324e-06,
+  "N": 0.04113463977178691,
+  "I_rel": 0.00023079421539543073,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 0.05,
+  "seed": 7,
+  "spec": true,
+  "I": -3.4738178544946275e-05,
+  "N": 0.0005864913673243489,
+  "I_rel": -0.05923050274964223,
+  "label": "UNCLEAR"
+ },
+ {
+  "kind": "fourier",
+  "lam": 0.05,
+  "seed": 8,
+  "spec": true,
+  "I": 0.000324380480705444,
+  "N": 0.000892668310939837,
+  "I_rel": 0.36338299089381054,
+  "label": "FOLLOWS"
+ },
+ {
+  "kind": "fourier",
+  "lam": 0.05,
+  "seed": 9,
+  "spec": true,
+  "I": 1.579674485552296e-06,
+  "N": 0.0008264183835626326,
+  "I_rel": 0.0019114706509098071,
+  "label": "UNCLEAR"
+ },
+ {
+  "kind": "fourier",
+  "lam": 0.05,
+  "seed": 10,
+  "spec": true,
+  "I": -0.0002739006626898965,
+  "N": 0.0006392631878369249,
+  "I_rel": -0.4284630616955972,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 0.05,
+  "seed": 11,
+  "spec": true,
+  "I": 0.00019690048269968005,
+  "N": 0.000745332319072678,
+  "I_rel": 0.2641781090945556,
+  "label": "UNCLEAR"
+ },
+ {
+  "kind": "fourier",
+  "lam": 0.05,
+  "seed": 12,
+  "spec": true,
+  "I": 0.0001373244924334771,
+  "N": 0.0007606954501849672,
+  "I_rel": 0.1805249293920266,
+  "label": "UNCLEAR"
+ },
+ {
+  "kind": "fourier",
+  "lam": 0.1,
+  "seed": 7,
+  "spec": true,
+  "I": -0.00010743363931072815,
+  "N": 0.014140963807576401,
+  "I_rel": -0.0075973350029485045,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 0.1,
+  "seed": 8,
+  "spec": true,
+  "I": 0.0010768224505374518,
+  "N": 0.015094480822249979,
+  "I_rel": 0.07133882001096484,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 0.1,
+  "seed": 9,
+  "spec": true,
+  "I": -0.00023292920371268365,
+  "N": 0.014714879526181102,
+  "I_rel": -0.01582950124044508,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 0.1,
+  "seed": 10,
+  "spec": true,
+  "I": -0.0012638248668052085,
+  "N": 0.013991211597373687,
+  "I_rel": -0.09032990874374619,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 0.1,
+  "seed": 11,
+  "spec": true,
+  "I": 0.0009195218588205368,
+  "N": 0.014865202050965299,
+  "I_rel": 0.061857340093189384,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 0.1,
+  "seed": 12,
+  "spec": true,
+  "I": 0.0004578915255222587,
+  "N": 0.014694043296461668,
+  "I_rel": 0.031161710652677824,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 0.25,
+  "seed": 7,
+  "spec": true,
+  "I": -0.00048628731626922106,
+  "N": 0.09120650660194557,
+  "I_rel": -0.005331717378361335,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 0.25,
+  "seed": 8,
+  "spec": true,
+  "I": 0.005312051670172194,
+  "N": 0.09552744142410532,
+  "I_rel": 0.05560759914618371,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 0.25,
+  "seed": 9,
+  "spec": true,
+  "I": -0.0011635511544406535,
+  "N": 0.09321242006211078,
+  "I_rel": -0.01248279095924489,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 0.25,
+  "seed": 10,
+  "spec": true,
+  "I": -0.00720144684922687,
+  "N": 0.08921653046031003,
+  "I_rel": -0.08071875034896805,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 0.25,
+  "seed": 11,
+  "spec": true,
+  "I": 0.005329975544378737,
+  "N": 0.0951659800206099,
+  "I_rel": 0.05600715237971001,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 0.25,
+  "seed": 12,
+  "spec": true,
+  "I": 0.002324582757999412,
+  "N": 0.09354951161325188,
+  "I_rel": 0.024848689404276057,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 0.5,
+  "seed": 7,
+  "spec": true,
+  "I": -0.001347022973493206,
+  "N": 0.2352262803113192,
+  "I_rel": -0.005726498636591273,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 0.5,
+  "seed": 8,
+  "spec": true,
+  "I": 0.013072784249309216,
+  "N": 0.24448681299096325,
+  "I_rel": 0.0534703041418942,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 0.5,
+  "seed": 9,
+  "spec": true,
+  "I": -0.0026496463908202567,
+  "N": 0.23798333675127284,
+  "I_rel": -0.011133747542961472,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 0.5,
+  "seed": 10,
+  "spec": true,
+  "I": -0.018600254082886153,
+  "N": 0.22858997762687688,
+  "I_rel": -0.08136950830472103,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 0.5,
+  "seed": 11,
+  "spec": true,
+  "I": 0.01397421328050498,
+  "N": 0.24450498057821218,
+  "I_rel": 0.05715308231128205,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 0.5,
+  "seed": 12,
+  "spec": true,
+  "I": 0.005764844226301483,
+  "N": 0.24017112078110875,
+  "I_rel": 0.024003070009218738,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 1.0,
+  "seed": 7,
+  "spec": true,
+  "I": -0.0021563574191552914,
+  "N": 0.38054452322950716,
+  "I_rel": -0.005666504935756986,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 1.0,
+  "seed": 8,
+  "spec": true,
+  "I": 0.020669525980964276,
+  "N": 0.39282030373216703,
+  "I_rel": 0.052618272998070856,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 1.0,
+  "seed": 9,
+  "spec": true,
+  "I": -0.004018094038452075,
+  "N": 0.3815584858616274,
+  "I_rel": -0.010530742172798225,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 1.0,
+  "seed": 10,
+  "spec": true,
+  "I": -0.030477136369865154,
+  "N": 0.36777268511481886,
+  "I_rel": -0.08286949412882627,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 1.0,
+  "seed": 11,
+  "spec": true,
+  "I": 0.023278524146290308,
+  "N": 0.3942827777985288,
+  "I_rel": 0.059040174861974826,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 1.0,
+  "seed": 12,
+  "spec": true,
+  "I": 0.009131308618001321,
+  "N": 0.3870453147492382,
+  "I_rel": 0.023592350223687327,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 2.0,
+  "seed": 7,
+  "spec": true,
+  "I": -0.002484957158044837,
+  "N": 0.44944739066236084,
+  "I_rel": -0.005528916642240818,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 2.0,
+  "seed": 8,
+  "spec": true,
+  "I": 0.02432172109439304,
+  "N": 0.4626267514359055,
+  "I_rel": 0.05257309703535959,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 2.0,
+  "seed": 9,
+  "spec": true,
+  "I": -0.004480704081349179,
+  "N": 0.44889259316999786,
+  "I_rel": -0.00998168414788772,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 2.0,
+  "seed": 10,
+  "spec": true,
+  "I": -0.03619610876792187,
+  "N": 0.4333040847607108,
+  "I_rel": -0.08353512011757498,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 2.0,
+  "seed": 11,
+  "spec": true,
+  "I": 0.027768988472463146,
+  "N": 0.4650006331668938,
+  "I_rel": 0.05971817346428549,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 2.0,
+  "seed": 12,
+  "spec": true,
+  "I": 0.010740858775275197,
+  "N": 0.45629509002758484,
+  "I_rel": 0.023539281947184375,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 4.0,
+  "seed": 7,
+  "spec": true,
+  "I": -0.0026849210055734096,
+  "N": 0.4707109723838354,
+  "I_rel": -0.005703969448547344,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 4.0,
+  "seed": 8,
+  "spec": true,
+  "I": 0.025335396812262462,
+  "N": 0.4841211694555374,
+  "I_rel": 0.05233275966997207,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 4.0,
+  "seed": 9,
+  "spec": true,
+  "I": -0.004694048834849446,
+  "N": 0.46959556206734715,
+  "I_rel": -0.00999593951481221,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 4.0,
+  "seed": 10,
+  "spec": true,
+  "I": -0.038039336945101365,
+  "N": 0.4535131635804833,
+  "I_rel": -0.08387702937833394,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 4.0,
+  "seed": 11,
+  "spec": true,
+  "I": 0.029178279080681685,
+  "N": 0.4868819851831014,
+  "I_rel": 0.059928853333336266,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 4.0,
+  "seed": 12,
+  "spec": true,
+  "I": 0.011246790573199716,
+  "N": 0.4777394388431637,
+  "I_rel": 0.02354168330844443,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 8.0,
+  "seed": 7,
+  "spec": true,
+  "I": -0.0027692430440515725,
+  "N": 0.47643587247419483,
+  "I_rel": -0.005812415067888413,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 8.0,
+  "seed": 8,
+  "spec": true,
+  "I": 0.025661176486026838,
+  "N": 0.489892382970676,
+  "I_rel": 0.05238125224650179,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 8.0,
+  "seed": 9,
+  "spec": true,
+  "I": -0.0046272911687471885,
+  "N": 0.47518211997723503,
+  "I_rel": -0.009737931993251077,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 8.0,
+  "seed": 10,
+  "spec": true,
+  "I": -0.038545508717671595,
+  "N": 0.4589365363237816,
+  "I_rel": -0.08398875588863028,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 8.0,
+  "seed": 11,
+  "spec": true,
+  "I": 0.029680734983070056,
+  "N": 0.4927667348114288,
+  "I_rel": 0.06023283003149195,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 8.0,
+  "seed": 12,
+  "spec": true,
+  "I": 0.011391560381074944,
+  "N": 0.4834601106303883,
+  "I_rel": 0.023562565205682385,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 16.0,
+  "seed": 7,
+  "spec": true,
+  "I": -0.002776047341568194,
+  "N": 0.4779206549670906,
+  "I_rel": -0.005808594612340728,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 16.0,
+  "seed": 8,
+  "spec": true,
+  "I": 0.025674682073203448,
+  "N": 0.49132362950229425,
+  "I_rel": 0.052256151610724756,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 16.0,
+  "seed": 9,
+  "spec": true,
+  "I": -0.004515051344500115,
+  "N": 0.47669860463021385,
+  "I_rel": -0.009471501071421312,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 16.0,
+  "seed": 10,
+  "spec": true,
+  "I": -0.03867184815619773,
+  "N": 0.46031068965946476,
+  "I_rel": -0.08401249205141628,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 16.0,
+  "seed": 11,
+  "spec": true,
+  "I": 0.02978005107677606,
+  "N": 0.49424674476020697,
+  "I_rel": 0.06025340863140011,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "fourier",
+  "lam": 16.0,
+  "seed": 12,
+  "spec": true,
+  "I": 0.01132406887128437,
+  "N": 0.48492390429395704,
+  "I_rel": 0.02335225954218955,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "mlp",
+  "lam": 0.05,
+  "seed": 7,
+  "spec": false,
+  "I": 0.00014430670676377497,
+  "N": -0.004033102768406493,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "mlp",
+  "lam": 0.05,
+  "seed": 8,
+  "spec": false,
+  "I": -3.4018848100725307e-06,
+  "N": -0.004109530852419318,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "mlp",
+  "lam": 0.05,
+  "seed": 9,
+  "spec": false,
+  "I": -0.00012524443691705987,
+  "N": -0.0041115792386303245,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "mlp",
+  "lam": 0.05,
+  "seed": 10,
+  "spec": false,
+  "I": -5.177083868772563e-05,
+  "N": -0.004113431645256504,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "mlp",
+  "lam": 0.05,
+  "seed": 11,
+  "spec": false,
+  "I": 2.5343098668906532e-05,
+  "N": -0.004018613225853862,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "mlp",
+  "lam": 0.05,
+  "seed": 12,
+  "spec": false,
+  "I": -2.295967485628188e-05,
+  "N": -0.004097576196134179,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "mlp",
+  "lam": 0.1,
+  "seed": 7,
+  "spec": false,
+  "I": 0.00013849589288037487,
+  "N": -0.003989239582043291,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "mlp",
+  "lam": 0.1,
+  "seed": 8,
+  "spec": false,
+  "I": -1.0836165030148146e-05,
+  "N": -0.004077215097969678,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "mlp",
+  "lam": 0.1,
+  "seed": 9,
+  "spec": false,
+  "I": -0.00011766539582715977,
+  "N": -0.004086372896938983,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "mlp",
+  "lam": 0.1,
+  "seed": 10,
+  "spec": false,
+  "I": -6.105347602725075e-05,
+  "N": -0.004083639351459811,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "mlp",
+  "lam": 0.1,
+  "seed": 11,
+  "spec": false,
+  "I": 2.3484854167654407e-05,
+  "N": -0.004002948174643172,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "mlp",
+  "lam": 0.1,
+  "seed": 12,
+  "spec": false,
+  "I": -2.59867760396661e-05,
+  "N": -0.004052461595947099,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "mlp",
+  "lam": 0.25,
+  "seed": 7,
+  "spec": false,
+  "I": 0.00010181910932984808,
+  "N": -0.003752088021577671,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "mlp",
+  "lam": 0.25,
+  "seed": 8,
+  "spec": false,
+  "I": -2.8092340390983806e-05,
+  "N": -0.0038426949731243942,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "mlp",
+  "lam": 0.25,
+  "seed": 9,
+  "spec": false,
+  "I": -0.0001244027325555618,
+  "N": -0.003843181594349554,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "mlp",
+  "lam": 0.25,
+  "seed": 10,
+  "spec": false,
+  "I": -4.21518270075083e-05,
+  "N": -0.0037943091561964517,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "mlp",
+  "lam": 0.25,
+  "seed": 11,
+  "spec": false,
+  "I": 6.769403153583653e-06,
+  "N": -0.003720251561288834,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "mlp",
+  "lam": 0.25,
+  "seed": 12,
+  "spec": false,
+  "I": -1.1440203137658318e-05,
+  "N": -0.003761908032646444,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "mlp",
+  "lam": 0.5,
+  "seed": 7,
+  "spec": false,
+  "I": 6.0006382720478825e-05,
+  "N": -0.00281073509600418,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "mlp",
+  "lam": 0.5,
+  "seed": 8,
+  "spec": false,
+  "I": -2.6476979820033806e-05,
+  "N": -0.0030252000166096638,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "mlp",
+  "lam": 0.5,
+  "seed": 9,
+  "spec": false,
+  "I": -0.00012374247571489395,
+  "N": -0.002962616813257579,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "mlp",
+  "lam": 0.5,
+  "seed": 10,
+  "spec": false,
+  "I": -2.945402622300808e-05,
+  "N": -0.002885065560812583,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "mlp",
+  "lam": 0.5,
+  "seed": 11,
+  "spec": false,
+  "I": -1.9356222854582982e-05,
+  "N": -0.002765854889977626,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "mlp",
+  "lam": 0.5,
+  "seed": 12,
+  "spec": false,
+  "I": -1.819863997876191e-06,
+  "N": -0.002743958402213198,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "mlp",
+  "lam": 1.0,
+  "seed": 7,
+  "spec": true,
+  "I": -7.394315487035952e-05,
+  "N": 0.0005641589554750359,
+  "I_rel": -0.1310679448633365,
+  "label": "UNCLEAR"
+ },
+ {
+  "kind": "mlp",
+  "lam": 1.0,
+  "seed": 8,
+  "spec": false,
+  "I": -7.773687415002492e-06,
+  "N": 2.0657913899369e-05,
+  "I_rel": -0.3763055385393944,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "mlp",
+  "lam": 1.0,
+  "seed": 9,
+  "spec": true,
+  "I": -0.00012725973645678627,
+  "N": 0.00022733989893628512,
+  "I_rel": -0.5597773952228791,
+  "label": "UNCLEAR"
+ },
+ {
+  "kind": "mlp",
+  "lam": 1.0,
+  "seed": 10,
+  "spec": true,
+  "I": 3.0871399886633894e-05,
+  "N": 0.0004256281571771714,
+  "I_rel": 0.07253138535612297,
+  "label": "UNCLEAR"
+ },
+ {
+  "kind": "mlp",
+  "lam": 1.0,
+  "seed": 11,
+  "spec": true,
+  "I": -9.73714287739957e-05,
+  "N": 0.0006700542518818353,
+  "I_rel": -0.14531872382054112,
+  "label": "UNCLEAR"
+ },
+ {
+  "kind": "mlp",
+  "lam": 1.0,
+  "seed": 12,
+  "spec": true,
+  "I": 5.137276461456567e-05,
+  "N": 0.0008771505914924149,
+  "I_rel": 0.05856778198958772,
+  "label": "UNCLEAR"
+ },
+ {
+  "kind": "mlp",
+  "lam": 2.0,
+  "seed": 7,
+  "spec": true,
+  "I": -0.0003660977619775012,
+  "N": 0.010022095796758956,
+  "I_rel": -0.03652906232405936,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "mlp",
+  "lam": 2.0,
+  "seed": 8,
+  "spec": true,
+  "I": 9.789899112817597e-05,
+  "N": 0.008933702521827801,
+  "I_rel": 0.0109583894123381,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "mlp",
+  "lam": 2.0,
+  "seed": 9,
+  "spec": true,
+  "I": -0.00018036771346913172,
+  "N": 0.009407471362067155,
+  "I_rel": -0.019172815576820268,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "mlp",
+  "lam": 2.0,
+  "seed": 10,
+  "spec": true,
+  "I": 0.0002040951566806056,
+  "N": 0.009711637633093406,
+  "I_rel": 0.021015524300981983,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "mlp",
+  "lam": 2.0,
+  "seed": 11,
+  "spec": true,
+  "I": -0.000279420931994556,
+  "N": 0.010267647700280047,
+  "I_rel": -0.027213724131471214,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "mlp",
+  "lam": 2.0,
+  "seed": 12,
+  "spec": true,
+  "I": 0.00012944834091630462,
+  "N": 0.01074607922868207,
+  "I_rel": 0.012046099620296633,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "mlp",
+  "lam": 4.0,
+  "seed": 7,
+  "spec": true,
+  "I": -0.0007378527300689868,
+  "N": 0.024814552731557825,
+  "I_rel": -0.029734677793753866,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "mlp",
+  "lam": 4.0,
+  "seed": 8,
+  "spec": true,
+  "I": 0.000344597157698601,
+  "N": 0.024051419306113153,
+  "I_rel": 0.014327518609723573,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "mlp",
+  "lam": 4.0,
+  "seed": 9,
+  "spec": true,
+  "I": -0.00025574291092545984,
+  "N": 0.024195655081360803,
+  "I_rel": -0.010569786602821601,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "mlp",
+  "lam": 4.0,
+  "seed": 10,
+  "spec": true,
+  "I": 0.0004755727980356953,
+  "N": 0.024321064141180727,
+  "I_rel": 0.01955394695211751,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "mlp",
+  "lam": 4.0,
+  "seed": 11,
+  "spec": true,
+  "I": -0.0005585492174115421,
+  "N": 0.02500037279855165,
+  "I_rel": -0.022341635539286864,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "mlp",
+  "lam": 4.0,
+  "seed": 12,
+  "spec": true,
+  "I": 0.00024240925505585216,
+  "N": 0.02539596103307381,
+  "I_rel": 0.00954518928187661,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "mlp",
+  "lam": 8.0,
+  "seed": 7,
+  "spec": true,
+  "I": -0.0009777908945140315,
+  "N": 0.035184829465981914,
+  "I_rel": -0.02779012743146584,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "mlp",
+  "lam": 8.0,
+  "seed": 8,
+  "spec": true,
+  "I": 0.0005482943633654327,
+  "N": 0.03548289665679225,
+  "I_rel": 0.015452356347025475,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "mlp",
+  "lam": 8.0,
+  "seed": 9,
+  "spec": true,
+  "I": -0.000307528942065545,
+  "N": 0.034988490057462254,
+  "I_rel": -0.008789431654823756,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "mlp",
+  "lam": 8.0,
+  "seed": 10,
+  "spec": true,
+  "I": 0.0006624863367414163,
+  "N": 0.03456245796376069,
+  "I_rel": 0.019167801590848785,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "mlp",
+  "lam": 8.0,
+  "seed": 11,
+  "spec": true,
+  "I": -0.0007450593428077398,
+  "N": 0.035146204530937586,
+  "I_rel": -0.021198856398616198,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "mlp",
+  "lam": 8.0,
+  "seed": 12,
+  "spec": true,
+  "I": 0.00031520659035175896,
+  "N": 0.03515380624413203,
+  "I_rel": 0.008966499620631382,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "mlp",
+  "lam": 16.0,
+  "seed": 7,
+  "spec": true,
+  "I": -0.0010951106555667223,
+  "N": 0.03922364153909896,
+  "I_rel": -0.027919657956161276,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "mlp",
+  "lam": 16.0,
+  "seed": 8,
+  "spec": true,
+  "I": 0.0006872919593455817,
+  "N": 0.04021532486861344,
+  "I_rel": 0.01709029981955927,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "mlp",
+  "lam": 16.0,
+  "seed": 9,
+  "spec": true,
+  "I": -0.0003378749312390704,
+  "N": 0.03927208786938954,
+  "I_rel": -0.008603436933701343,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "mlp",
+  "lam": 16.0,
+  "seed": 10,
+  "spec": true,
+  "I": 0.0007303673183496305,
+  "N": 0.03860618879677099,
+  "I_rel": 0.018918399902005303,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "mlp",
+  "lam": 16.0,
+  "seed": 11,
+  "spec": true,
+  "I": -0.0008298606337889709,
+  "N": 0.03913104993857627,
+  "I_rel": -0.021207216138887076,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "mlp",
+  "lam": 16.0,
+  "seed": 12,
+  "spec": true,
+  "I": 0.00031131197093781093,
+  "N": 0.038879870715905526,
+  "I_rel": 0.008007021762303727,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode",
+  "lam": 0.05,
+  "seed": 7,
+  "spec": false,
+  "I": -4.332835031179978e-05,
+  "N": -0.0036558930426449756,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "paircode",
+  "lam": 0.05,
+  "seed": 8,
+  "spec": false,
+  "I": 2.4306529687012548e-05,
+  "N": -0.003617201406906756,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "paircode",
+  "lam": 0.05,
+  "seed": 9,
+  "spec": false,
+  "I": -8.418221612460424e-06,
+  "N": -0.0036625765638470752,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "paircode",
+  "lam": 0.05,
+  "seed": 10,
+  "spec": false,
+  "I": -9.518468972524903e-06,
+  "N": -0.00367551549049745,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "paircode",
+  "lam": 0.05,
+  "seed": 11,
+  "spec": false,
+  "I": -0.00015536595463447886,
+  "N": -0.0037516661850932167,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "paircode",
+  "lam": 0.05,
+  "seed": 12,
+  "spec": false,
+  "I": -6.680304612212157e-05,
+  "N": -0.0037176513755006416,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "paircode",
+  "lam": 0.1,
+  "seed": 7,
+  "spec": false,
+  "I": -4.0503533170133154e-05,
+  "N": -0.0025210936907531954,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "paircode",
+  "lam": 0.1,
+  "seed": 8,
+  "spec": false,
+  "I": 2.18088071833654e-05,
+  "N": -0.0024412341943122143,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "paircode",
+  "lam": 0.1,
+  "seed": 9,
+  "spec": false,
+  "I": -4.2865634562705554e-05,
+  "N": -0.0025132719201965917,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "paircode",
+  "lam": 0.1,
+  "seed": 10,
+  "spec": false,
+  "I": 4.450104660258568e-06,
+  "N": -0.002512696526714664,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "paircode",
+  "lam": 0.1,
+  "seed": 11,
+  "spec": false,
+  "I": -0.0001630073507251416,
+  "N": -0.002564802146854705,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "paircode",
+  "lam": 0.1,
+  "seed": 12,
+  "spec": false,
+  "I": -7.491656541056576e-05,
+  "N": -0.002551026886379382,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "paircode",
+  "lam": 0.25,
+  "seed": 7,
+  "spec": true,
+  "I": -3.3636244396817536e-05,
+  "N": 0.004072257446971993,
+  "I_rel": -0.008259852142164643,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode",
+  "lam": 0.25,
+  "seed": 8,
+  "spec": true,
+  "I": 2.9859934607434548e-05,
+  "N": 0.004444224315642809,
+  "I_rel": 0.006718818062880706,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode",
+  "lam": 0.25,
+  "seed": 9,
+  "spec": true,
+  "I": -0.00011744039203116481,
+  "N": 0.004257581167055413,
+  "I_rel": -0.027583829273744136,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode",
+  "lam": 0.25,
+  "seed": 10,
+  "spec": true,
+  "I": -4.328454876600853e-06,
+  "N": 0.004191181319912862,
+  "I_rel": -0.001032752951067945,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode",
+  "lam": 0.25,
+  "seed": 11,
+  "spec": true,
+  "I": -0.00018956836927128693,
+  "N": 0.004204855804021523,
+  "I_rel": -0.045083203350275124,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode",
+  "lam": 0.25,
+  "seed": 12,
+  "spec": true,
+  "I": -8.843911762637094e-05,
+  "N": 0.004139393480946019,
+  "I_rel": -0.021365235760616556,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode",
+  "lam": 0.5,
+  "seed": 7,
+  "spec": true,
+  "I": -3.7003914700531326e-06,
+  "N": 0.016876962722860378,
+  "I_rel": -0.0002192569558171054,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode",
+  "lam": 0.5,
+  "seed": 8,
+  "spec": true,
+  "I": 2.5926697458766856e-05,
+  "N": 0.0176562997726886,
+  "I_rel": 0.0014684105839022513,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode",
+  "lam": 0.5,
+  "seed": 9,
+  "spec": true,
+  "I": -0.00015822381536849742,
+  "N": 0.017283878195904434,
+  "I_rel": -0.009154416247042862,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode",
+  "lam": 0.5,
+  "seed": 10,
+  "spec": true,
+  "I": -1.0839553949837724e-05,
+  "N": 0.01717857154496889,
+  "I_rel": -0.000630992741245259,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode",
+  "lam": 0.5,
+  "seed": 11,
+  "spec": true,
+  "I": -0.00016070812475561629,
+  "N": 0.017378799473744398,
+  "I_rel": -0.009247366309647077,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode",
+  "lam": 0.5,
+  "seed": 12,
+  "spec": true,
+  "I": -9.618548672076822e-05,
+  "N": 0.017082212604826716,
+  "I_rel": -0.0056307393512705865,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode",
+  "lam": 1.0,
+  "seed": 7,
+  "spec": true,
+  "I": -9.437918104459805e-06,
+  "N": 0.030576323163475264,
+  "I_rel": -0.00030866752859721883,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode",
+  "lam": 1.0,
+  "seed": 8,
+  "spec": true,
+  "I": 1.054590872280256e-05,
+  "N": 0.03172406221100747,
+  "I_rel": 0.00033242617709731346,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode",
+  "lam": 1.0,
+  "seed": 9,
+  "spec": true,
+  "I": -0.0001603949978901103,
+  "N": 0.031087228814897075,
+  "I_rel": -0.0051595141800882755,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode",
+  "lam": 1.0,
+  "seed": 10,
+  "spec": true,
+  "I": 1.1667469311270329e-05,
+  "N": 0.03104011916461382,
+  "I_rel": 0.0003758835218832346,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode",
+  "lam": 1.0,
+  "seed": 11,
+  "spec": true,
+  "I": -0.0001460713681263985,
+  "N": 0.03138396257305348,
+  "I_rel": -0.004654331580544789,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode",
+  "lam": 1.0,
+  "seed": 12,
+  "spec": true,
+  "I": -5.912865936892435e-05,
+  "N": 0.03089779175412579,
+  "I_rel": -0.0019136856070314113,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode",
+  "lam": 2.0,
+  "seed": 7,
+  "spec": true,
+  "I": 1.0484458859573442e-05,
+  "N": 0.03760729203230383,
+  "I_rel": 0.00027878792364437,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode",
+  "lam": 2.0,
+  "seed": 8,
+  "spec": true,
+  "I": -4.960664940874965e-06,
+  "N": 0.03882674137755927,
+  "I_rel": -0.00012776413278251788,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode",
+  "lam": 2.0,
+  "seed": 9,
+  "spec": true,
+  "I": -0.00013797149897194771,
+  "N": 0.03810541913009273,
+  "I_rel": -0.0036207841856012663,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode",
+  "lam": 2.0,
+  "seed": 10,
+  "spec": true,
+  "I": 1.251230119175828e-05,
+  "N": 0.038067531684661884,
+  "I_rel": 0.0003286869580987232,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode",
+  "lam": 2.0,
+  "seed": 11,
+  "spec": true,
+  "I": -5.70490326807227e-05,
+  "N": 0.03852890674119541,
+  "I_rel": -0.0014806813249057342,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode",
+  "lam": 2.0,
+  "seed": 12,
+  "spec": true,
+  "I": -5.197998057593356e-06,
+  "N": 0.03795194024385708,
+  "I_rel": -0.00013696264339040497,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode",
+  "lam": 4.0,
+  "seed": 7,
+  "spec": true,
+  "I": -2.6810235408170763e-05,
+  "N": 0.04004615923662827,
+  "I_rel": -0.0006694833142362563,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode",
+  "lam": 4.0,
+  "seed": 8,
+  "spec": true,
+  "I": 1.5206752156063374e-05,
+  "N": 0.04131763293197341,
+  "I_rel": 0.0003680450954463008,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode",
+  "lam": 4.0,
+  "seed": 9,
+  "spec": true,
+  "I": -9.088614542531598e-05,
+  "N": 0.04060596702204875,
+  "I_rel": -0.0022382460532454616,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode",
+  "lam": 4.0,
+  "seed": 10,
+  "spec": true,
+  "I": 4.978617049098549e-05,
+  "N": 0.040555831304729145,
+  "I_rel": 0.0012275958571013193,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode",
+  "lam": 4.0,
+  "seed": 11,
+  "spec": true,
+  "I": -6.23683364364934e-05,
+  "N": 0.04102835959169038,
+  "I_rel": -0.0015201274693206375,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode",
+  "lam": 4.0,
+  "seed": 12,
+  "spec": true,
+  "I": 9.869162822553207e-06,
+  "N": 0.040421276349737606,
+  "I_rel": 0.00024415762474104243,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode",
+  "lam": 8.0,
+  "seed": 7,
+  "spec": true,
+  "I": -1.4389134798134529e-05,
+  "N": 0.04080418369559907,
+  "I_rel": -0.0003526387123800363,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode",
+  "lam": 8.0,
+  "seed": 8,
+  "spec": true,
+  "I": -5.3940215437794925e-06,
+  "N": 0.04206881339130312,
+  "I_rel": -0.0001282190085469489,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode",
+  "lam": 8.0,
+  "seed": 9,
+  "spec": true,
+  "I": -5.583797967064624e-05,
+  "N": 0.041424852747258545,
+  "I_rel": -0.0013479342946932152,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode",
+  "lam": 8.0,
+  "seed": 10,
+  "spec": true,
+  "I": 3.3323518505479904e-05,
+  "N": 0.04143059696012319,
+  "I_rel": 0.0008043214665131106,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode",
+  "lam": 8.0,
+  "seed": 11,
+  "spec": true,
+  "I": -8.737543652260343e-06,
+  "N": 0.0418830878144484,
+  "I_rel": -0.00020861746609919613,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode",
+  "lam": 8.0,
+  "seed": 12,
+  "spec": true,
+  "I": -1.1220488421358199e-05,
+  "N": 0.04127335271631231,
+  "I_rel": -0.00027185793454873774,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode",
+  "lam": 16.0,
+  "seed": 7,
+  "spec": true,
+  "I": -6.298853315600539e-06,
+  "N": 0.041069071257718026,
+  "I_rel": -0.00015337218794342247,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode",
+  "lam": 16.0,
+  "seed": 8,
+  "spec": true,
+  "I": -6.992504789728182e-06,
+  "N": 0.04234867886646415,
+  "I_rel": -0.00016511742460201126,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode",
+  "lam": 16.0,
+  "seed": 9,
+  "spec": true,
+  "I": -3.5702710909000374e-05,
+  "N": 0.04169336073982649,
+  "I_rel": -0.000856316456036999,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode",
+  "lam": 16.0,
+  "seed": 10,
+  "spec": true,
+  "I": 1.3956722542708688e-05,
+  "N": 0.04160981069721074,
+  "I_rel": 0.00033541903481056355,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode",
+  "lam": 16.0,
+  "seed": 11,
+  "spec": true,
+  "I": -2.07567848811048e-05,
+  "N": 0.042200383118980236,
+  "I_rel": -0.0004918624748638629,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode",
+  "lam": 16.0,
+  "seed": 12,
+  "spec": true,
+  "I": 4.3246941153849555e-05,
+  "N": 0.041473085764628013,
+  "I_rel": 0.0010427712420360688,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 0.05,
+  "seed": 7,
+  "spec": false,
+  "I": -0.00010774146884473534,
+  "N": -0.003768605715504947,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 0.05,
+  "seed": 8,
+  "spec": false,
+  "I": 5.976330306858282e-05,
+  "N": -0.0036414529019027863,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 0.05,
+  "seed": 9,
+  "spec": false,
+  "I": -3.2924057087857376e-05,
+  "N": -0.003658939931152738,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 0.05,
+  "seed": 10,
+  "spec": false,
+  "I": -3.44624407685012e-05,
+  "N": -0.0037095943009584076,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 0.05,
+  "seed": 11,
+  "spec": false,
+  "I": 2.4787298287187558e-05,
+  "N": -0.003675495290845032,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 0.05,
+  "seed": 12,
+  "spec": false,
+  "I": 2.1530134059455234e-05,
+  "N": -0.0036170429073268283,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 0.1,
+  "seed": 7,
+  "spec": false,
+  "I": -0.00012504501591958906,
+  "N": -0.0026441536927911177,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 0.1,
+  "seed": 8,
+  "spec": false,
+  "I": 4.813640459806474e-05,
+  "N": -0.002452798636285891,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 0.1,
+  "seed": 9,
+  "spec": false,
+  "I": -5.430578567617835e-05,
+  "N": -0.0025115741304685855,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 0.1,
+  "seed": 10,
+  "spec": false,
+  "I": -4.622145291111046e-05,
+  "N": -0.0026061457142746436,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 0.1,
+  "seed": 11,
+  "spec": false,
+  "I": -1.9079096106101347e-06,
+  "N": -0.002519307514872682,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 0.1,
+  "seed": 12,
+  "spec": false,
+  "I": -1.0723486875075005e-05,
+  "N": -0.0024479318181019893,
+  "I_rel": NaN,
+  "label": "NO-SIGNAL"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 0.25,
+  "seed": 7,
+  "spec": true,
+  "I": -0.0002122167577682135,
+  "N": 0.004021159211503855,
+  "I_rel": -0.0527750199895337,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 0.25,
+  "seed": 8,
+  "spec": true,
+  "I": -4.638241187756567e-05,
+  "N": 0.004296271184608536,
+  "I_rel": -0.010795969314909972,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 0.25,
+  "seed": 9,
+  "spec": true,
+  "I": -0.00016323348347386775,
+  "N": 0.004234442062974009,
+  "I_rel": -0.038548994423889385,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 0.25,
+  "seed": 10,
+  "spec": true,
+  "I": 3.546820376798543e-05,
+  "N": 0.0040075212781033095,
+  "I_rel": 0.00885040934449434,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 0.25,
+  "seed": 11,
+  "spec": true,
+  "I": -0.00021820430429008147,
+  "N": 0.004095454276895905,
+  "I_rel": -0.05327963384210128,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 0.25,
+  "seed": 12,
+  "spec": true,
+  "I": -0.00013010865532087036,
+  "N": 0.004212910706917883,
+  "I_rel": -0.03088331663598357,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 0.5,
+  "seed": 7,
+  "spec": true,
+  "I": -0.00031513299363896546,
+  "N": 0.01696450694961217,
+  "I_rel": -0.018576018423345324,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 0.5,
+  "seed": 8,
+  "spec": true,
+  "I": -0.0003265991505673974,
+  "N": 0.017314590790493523,
+  "I_rel": -0.018862654885653713,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 0.5,
+  "seed": 9,
+  "spec": true,
+  "I": -0.0004039738626593903,
+  "N": 0.01710168633703528,
+  "I_rel": -0.023621872995328398,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 0.5,
+  "seed": 10,
+  "spec": true,
+  "I": 0.00026635401832627616,
+  "N": 0.016865486393059403,
+  "I_rel": 0.0157928453481121,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 0.5,
+  "seed": 11,
+  "spec": true,
+  "I": -0.0006363590251618496,
+  "N": 0.016933833898341143,
+  "I_rel": -0.03757914651709132,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 0.5,
+  "seed": 12,
+  "spec": true,
+  "I": -0.00025085119825086696,
+  "N": 0.01715621496804394,
+  "I_rel": -0.014621593324524989,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 1.0,
+  "seed": 7,
+  "spec": true,
+  "I": -0.00048019264857535916,
+  "N": 0.030899502723287044,
+  "I_rel": -0.01554046525847381,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 1.0,
+  "seed": 8,
+  "spec": true,
+  "I": -0.0007584725057970358,
+  "N": 0.031092390530188262,
+  "I_rel": -0.024394152165965455,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 1.0,
+  "seed": 9,
+  "spec": true,
+  "I": -0.0006529715951813075,
+  "N": 0.030609250498389265,
+  "I_rel": -0.021332492124093938,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 1.0,
+  "seed": 10,
+  "spec": true,
+  "I": 0.0005473392644035902,
+  "N": 0.0306127098984711,
+  "I_rel": 0.01787947771428514,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 1.0,
+  "seed": 11,
+  "spec": true,
+  "I": -0.001057431092813475,
+  "N": 0.03067190623524644,
+  "I_rel": -0.03447555834003999,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 1.0,
+  "seed": 12,
+  "spec": true,
+  "I": -0.0003194370985793015,
+  "N": 0.030893838874346137,
+  "I_rel": -0.010339831831147348,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 2.0,
+  "seed": 7,
+  "spec": true,
+  "I": -0.0005077434057901183,
+  "N": 0.038017675842124454,
+  "I_rel": -0.01335545623300641,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 2.0,
+  "seed": 8,
+  "spec": true,
+  "I": -0.0009844464791198514,
+  "N": 0.038014905214132165,
+  "I_rel": -0.025896328652527594,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 2.0,
+  "seed": 9,
+  "spec": true,
+  "I": -0.0008238587412408363,
+  "N": 0.03745258030490796,
+  "I_rel": -0.021997382677873174,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 2.0,
+  "seed": 10,
+  "spec": true,
+  "I": 0.0007155274533177554,
+  "N": 0.03761489874412364,
+  "I_rel": 0.01902244794503237,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 2.0,
+  "seed": 11,
+  "spec": true,
+  "I": -0.0012686411395977128,
+  "N": 0.037649375017585945,
+  "I_rel": -0.03369620714832937,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 2.0,
+  "seed": 12,
+  "spec": true,
+  "I": -0.00028743421354170476,
+  "N": 0.03794426021895693,
+  "I_rel": -0.007575169785444988,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 4.0,
+  "seed": 7,
+  "spec": true,
+  "I": -0.0005085949888363646,
+  "N": 0.04048645097273178,
+  "I_rel": -0.01256210353381952,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 4.0,
+  "seed": 8,
+  "spec": true,
+  "I": -0.0010944198971050388,
+  "N": 0.04056253695205777,
+  "I_rel": -0.026981051466247553,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 4.0,
+  "seed": 9,
+  "spec": true,
+  "I": -0.0008093554767316553,
+  "N": 0.03986468990222913,
+  "I_rel": -0.02030256547126429,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 4.0,
+  "seed": 10,
+  "spec": true,
+  "I": 0.0007656174221283875,
+  "N": 0.04015036468270498,
+  "I_rel": 0.019068753875059623,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 4.0,
+  "seed": 11,
+  "spec": true,
+  "I": -0.001356725203171507,
+  "N": 0.04010335666842717,
+  "I_rel": -0.03383071433119309,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 4.0,
+  "seed": 12,
+  "spec": true,
+  "I": -0.00024066949401446713,
+  "N": 0.04044358099430338,
+  "I_rel": -0.00595074640023509,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 8.0,
+  "seed": 7,
+  "spec": true,
+  "I": -0.0004928905705664823,
+  "N": 0.04133230857490109,
+  "I_rel": -0.011925067521289833,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 8.0,
+  "seed": 8,
+  "spec": true,
+  "I": -0.0011580125616621577,
+  "N": 0.041248085644318255,
+  "I_rel": -0.028074334689073478,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 8.0,
+  "seed": 9,
+  "spec": true,
+  "I": -0.0008445924229037449,
+  "N": 0.040739106691750494,
+  "I_rel": -0.02073173644415653,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 8.0,
+  "seed": 10,
+  "spec": true,
+  "I": 0.0008065072219465182,
+  "N": 0.04096999375727767,
+  "I_rel": 0.0196853147385031,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 8.0,
+  "seed": 11,
+  "spec": true,
+  "I": -0.0013664097521037706,
+  "N": 0.04096848031202207,
+  "I_rel": -0.03335270778161625,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 8.0,
+  "seed": 12,
+  "spec": true,
+  "I": -0.0002627946443647042,
+  "N": 0.041225928230243625,
+  "I_rel": -0.00637449914764845,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 16.0,
+  "seed": 7,
+  "spec": true,
+  "I": -0.0005206116062756554,
+  "N": 0.04158066619688375,
+  "I_rel": -0.012520521047223444,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 16.0,
+  "seed": 8,
+  "spec": true,
+  "I": -0.0011163577835607945,
+  "N": 0.04159068498338002,
+  "I_rel": -0.02684153396384071,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 16.0,
+  "seed": 9,
+  "spec": true,
+  "I": -0.0008641593825912224,
+  "N": 0.04093830621779038,
+  "I_rel": -0.021108821112283547,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 16.0,
+  "seed": 10,
+  "spec": true,
+  "I": 0.0008361187309419357,
+  "N": 0.041264988365351044,
+  "I_rel": 0.02026218264110791,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 16.0,
+  "seed": 11,
+  "spec": true,
+  "I": -0.0013672744114329033,
+  "N": 0.041239031713943816,
+  "I_rel": -0.033154862144122506,
+  "label": "DOES-NOT-FOLLOW"
+ },
+ {
+  "kind": "paircode_op",
+  "lam": 16.0,
+  "seed": 12,
+  "spec": true,
+  "I": -0.00025943970903349184,
+  "N": 0.04150010242524599,
+  "I_rel": -0.006251543824519947,
+  "label": "DOES-NOT-FOLLOW"
+ }
+]

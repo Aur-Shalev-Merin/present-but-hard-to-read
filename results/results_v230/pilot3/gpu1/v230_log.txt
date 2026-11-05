@@ -1,0 +1,6 @@
+v230 pilot | device cuda | TINY False | steps 30000 | lr 0.001 | DAS m 16, 2000 steps | cells ['std:pos:1']
+train std pos seed 1 | to 0.99: 7500 | final acc 0.9948 | 9500 steps, 165 s
+  guard check {'layer': 4, 'pos': 3, 'k': 6, 'rank': 23, 'rank_max': 45, 'x': 0.924, 'z': 0.933}
+  guard check {'layer': 1, 'pos': 3, 'k': 6, 'rank': 23, 'rank_max': 45, 'x': 0.997, 'z': 0.997}
+  guard check {'layer': 1, 'pos': 10, 'k': 6, 'rank': 22, 'rank_max': 67, 'x': 0.672, 'z': 0.656, 'w': 1.0}
+  GUARD CHECK FAILED: no DAS for this cell

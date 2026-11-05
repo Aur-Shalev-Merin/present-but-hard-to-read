@@ -1,0 +1,4 @@
+pairs 2000, families 72 | unpatched own digit 1.000 | method control btok hit 0.912 (UNSCORABLE below 0.30)
+hits: N 0.000 F 0.000 rand 0.001 full 0.001 Nsb 0.000 fullsb 0.001
+descriptive, v199's frozen statistic hit(N) - max(hit(F), hit(rand)): -0.001 [-0.002, +0.000]
+PART B: hit(N, copies projected) - hit(rand) -0.001 [-0.002, +0.000] (97.5%) -> NOT-USED

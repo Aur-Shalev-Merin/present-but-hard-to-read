@@ -1,0 +1,18 @@
+v224 extract | set b | model Qwen/Qwen2.5-1.5B | items sha f917c3b7da3ddc87 (frozen f917c3b7da3ddc87) | n 200
+loaded in 50s | hidden 1536
+positions {'eq': 94, 'last': 97, 'letb': 98, 'eqb': 99, 'inb': 100} -> {'eq': '0', 'last': '?', 'letb': ' t', 'eqb': ' =', 'inb': ' '} | b digit 101, a digit 106
+item     1/200 (1.031 s/item) | b correct 1.000, a correct 1.000
+item   100/200 (0.071 s/item) | b correct 1.000, a correct 1.000
+item   200/200 (0.065 s/item) | b correct 1.000, a correct 0.950
+plus: b correct 1.000, a correct 0.950 (100 items)
+minus: b correct 1.000, a correct 0.950 (100 items)
+done (63s)
+v224 extract | set a | model Qwen/Qwen2.5-7B | items sha 670ce4ceed4c2ae1 (frozen ) | n 200
+loaded in 126s | hidden 3584
+positions {'eq': 94, 'last': 97, 'digB': 101, 'eqa': 104, 'inA': 105} -> {'eq': '0', 'last': '?', 'digB': '0', 'eqa': ' =', 'inA': ' '} | b digit 101, a digit 106
+item     1/200 (1.048 s/item) | b correct 1.000, a correct 1.000
+item   100/200 (0.122 s/item) | b correct 1.000, a correct 0.940
+item   200/200 (0.116 s/item) | b correct 0.985, a correct 0.930
+plus: b correct 1.000, a correct 0.980 (100 items)
+minus: b correct 0.970, a correct 0.880 (100 items)
+done (149s)

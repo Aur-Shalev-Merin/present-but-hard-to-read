@@ -1,0 +1,12 @@
+v194 patching at P1 (99.375%)
+B1  e3  n 2000 | ab 0.017 amb 0.032 rand 0.001 | ab - rand +0.017 [+0.008, +0.027] -> UNCLEAR
+B1  e2  n 2000 | ab 0.007 amb 0.006 rand 0.002 | ab - rand +0.006 [+0.001, +0.011] -> NOT-USED
+B2  e3  n 2000 | ab 0.003 amb 0.002 rand 0.000 | ab - rand +0.003 [+0.000, +0.009] -> NOT-USED
+B2  e2  n 2000 | ab 0.003 amb 0.003 rand 0.001 | ab - rand +0.003 [-0.001, +0.006] -> NOT-USED
+v209 (99.17%)
+B1  e1  n 2000 | ab 0.003 amb 0.002 rand 0.001 | ab - rand +0.002 [+0.000, +0.006] -> NOT-USED
+B1  cl  n 2000 | ab 0.042 amb 0.058 rand 0.003 | ab - rand +0.039 [+0.027, +0.051] -> UNCLEAR
+B1  ab3 n 2000 | ab 0.102 amb 0.097 rand 0.098 | ab - rand +0.005 [-0.007, +0.019] -> NOT-USED
+B2  e1  n 2000 | ab 0.004 amb 0.002 rand 0.001 | ab - rand +0.004 [+0.000, +0.008] -> NOT-USED
+B2  cl  n 2000 | ab 0.009 amb 0.004 rand 0.001 | ab - rand +0.008 [+0.001, +0.016] -> NOT-USED
+B2  ab3 n 2000 | ab 0.089 amb 0.090 rand 0.086 | ab - rand +0.003 [-0.011, +0.018] -> NOT-USED

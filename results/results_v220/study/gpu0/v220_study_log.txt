@@ -1,0 +1,10 @@
+v220 study | device cuda | TINY False | 9 cells
+std  dig s1 lr 0.003 | final acc 1.000 (plus 1.000, minus 1.000) | 301 checkpoints measured | 882 s
+std  dig s3 lr 0.003 | final acc 0.899 (plus 0.889, minus 0.976) | 301 checkpoints measured | 873 s
+loop dig s2 lr 0.0003 | final acc 1.000 (plus 1.000, minus 0.998) | 301 checkpoints measured | 859 s
+std2 dig s1 lr 0.0003 | final acc 1.000 (plus 1.000, minus 0.998) | 301 checkpoints measured | 377 s
+std2 dig s3 lr 0.0003 | final acc 0.994 (plus 1.000, minus 0.945) | 301 checkpoints measured | 377 s
+std  mod s2 lr 0.001 | final acc 1.000 (plus 1.000, minus 1.000) | 201 checkpoints measured | 380 s
+loop mod s1 lr 0.001 | final acc 1.000 (plus 1.000, minus 1.000) | 201 checkpoints measured | 357 s
+loop mod s3 lr 0.001 | final acc 1.000 (plus 1.000, minus 1.000) | 201 checkpoints measured | 355 s
+std2 mod s2 lr 0.001 | final acc 0.998 (plus 0.998, minus 0.998) | 201 checkpoints measured | 141 s

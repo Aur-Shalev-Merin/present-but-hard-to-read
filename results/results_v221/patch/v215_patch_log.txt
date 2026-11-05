@@ -1,0 +1,17 @@
+v215 patch | 3000 pairs | smoke False | items sha 1795896c79496af8 | loaded in 175s
+1/3000 pairs (3.37 s/pair) | hit so far: none 0.000 cB 0.000 cBo 0.000 cD 1.000 cR 0.000 full 1.000
+20/3000 pairs (0.91 s/pair) | hit so far: none 0.000 cB 0.450 cBo 0.100 cD 1.000 cR 0.000 full 1.000
+100/3000 pairs (0.80 s/pair) | hit so far: none 0.000 cB 0.300 cBo 0.040 cD 0.960 cR 0.000 full 0.960
+250/3000 pairs (0.79 s/pair) | hit so far: none 0.000 cB 0.272 cBo 0.024 cD 0.964 cR 0.000 full 0.968
+500/3000 pairs (0.78 s/pair) | hit so far: none 0.000 cB 0.290 cBo 0.014 cD 0.978 cR 0.000 full 0.976
+750/3000 pairs (0.78 s/pair) | hit so far: none 0.000 cB 0.293 cBo 0.017 cD 0.968 cR 0.000 full 0.967
+1000/3000 pairs (0.78 s/pair) | hit so far: none 0.000 cB 0.302 cBo 0.021 cD 0.962 cR 0.000 full 0.963
+1250/3000 pairs (0.78 s/pair) | hit so far: none 0.000 cB 0.255 cBo 0.026 cD 0.770 cR 0.000 full 0.789
+1500/3000 pairs (0.78 s/pair) | hit so far: none 0.000 cB 0.221 cBo 0.030 cD 0.643 cR 0.000 full 0.674
+1750/3000 pairs (0.78 s/pair) | hit so far: none 0.000 cB 0.205 cBo 0.039 cD 0.553 cR 0.000 full 0.595
+2000/3000 pairs (0.78 s/pair) | hit so far: none 0.000 cB 0.184 cBo 0.039 cD 0.484 cR 0.000 full 0.530
+2250/3000 pairs (0.78 s/pair) | hit so far: none 0.000 cB 0.248 cBo 0.102 cD 0.433 cR 0.000 full 0.580
+2500/3000 pairs (0.78 s/pair) | hit so far: none 0.000 cB 0.297 cBo 0.156 cD 0.392 cR 0.000 full 0.617
+2750/3000 pairs (0.78 s/pair) | hit so far: none 0.000 cB 0.332 cBo 0.195 cD 0.359 cR 0.000 full 0.646
+3000/3000 pairs (0.78 s/pair) | hit so far: none 0.000 cB 0.361 cBo 0.228 cD 0.330 cR 0.000 full 0.672
+done (2515s)

@@ -1,0 +1,13 @@
+=== v216_theirprobe.py ['byop', '/kaggle/input'] {}
+b at pre layer 28: all 0.738 | right 0.726, wrong 0.765
+  ++: right  325 0.628 (majority 0.385) | wrong   50 0.820 (majority 0.300) | wrong - right +0.192
+  +-: right  314 0.704 (majority 0.385) | wrong   51 0.784 (majority 0.392) | wrong - right +0.080
+  -+: right  537 0.750 (majority 0.248) | wrong  105 0.724 (majority 0.286) | wrong - right -0.027
+  --: right  208 0.851 (majority 0.303) | wrong  410 0.766 (majority 0.327) | wrong - right -0.085
+  stratified wrong - right (pairs ['++', '+-', '-+', '--']): -0.0389 [-0.0866, +0.0083] -> unclear
+b at eq layer 20: all 0.625 | right 0.561, wrong 0.771
+  ++: right  325 0.234 (majority 0.385) | wrong   50 0.060 (majority 0.300) | wrong - right -0.174
+  +-: right  314 0.099 (majority 0.385) | wrong   51 0.255 (majority 0.392) | wrong - right +0.156
+  -+: right  537 0.881 (majority 0.248) | wrong  105 0.905 (majority 0.286) | wrong - right +0.024
+  --: right  208 0.942 (majority 0.303) | wrong  410 0.888 (majority 0.327) | wrong - right -0.055
+  stratified wrong - right (pairs ['++', '+-', '-+', '--']): -0.0334 [-0.0670, -0.0001] -> less represented on failures

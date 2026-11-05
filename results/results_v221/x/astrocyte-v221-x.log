@@ -1,0 +1,29 @@
+[{"stream_name":"stdout","time":0.831229269,"data":"v215_pilot.py d049a0b2d81fb80b\n"}
+,{"stream_name":"stdout","time":0.831403678,"data":"v215_items.py 9249f0523d7219eb\n"}
+,{"stream_name":"stdout","time":0.831588509,"data":"v221_items.py 2b6bd412a702ccc4\n"}
+,{"stream_name":"stdout","time":0.831780696,"data":"v221_extract.py 9803a05dd8bb2666\n"}
+,{"stream_name":"stderr","time":16.809679369,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":16.80970716,"data":"gradio 6.26.0 requires huggingface-hub\u003c2.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.809713189,"data":"gradio 6.26.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.809717468,"data":"diffusers 0.40.0 requires huggingface-hub\u003c2.0,\u003e=1.23.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":17.028455051,"data":"=== v221_extract.py [] {}\n"}
+,{"stream_name":"stdout","time":35.034145183,"data":"v221 extract | pilot False | items sha 50a50828de872803 (frozen 50a50828de872803)\n"}
+,{"stream_name":"stdout","time":162.507302041,"data":"loaded Qwen/Qwen2.5-7B in 128s | 12000 items\n"}
+,{"stream_name":"stdout","time":163.54237774,"data":"positions {'eq': 94, 'last': 97, 'letb': 98, 'eqb': 99, 'inb': 100} -\u003e {'eq': '0', 'last': '?', 'letb': ' t', 'eqb': ' =', 'inb': ' '} | b digit token 101 '0'\n"}
+,{"stream_name":"stdout","time":163.544321762,"data":"fam     1/12000 (1.034 s/item) | b step correct so far 1.000\n"}
+,{"stream_name":"stdout","time":174.567491997,"data":"fam   100/12000 (0.121 s/item) | b step correct so far 1.000\n"}
+,{"stream_name":"stdout","time":218.799234297,"data":"fam   500/12000 (0.113 s/item) | b step correct so far 1.000\n"}
+,{"stream_name":"stdout","time":392.058609255,"data":"fam  2000/12000 (0.115 s/item) | b step correct so far 0.980\n"}
+,{"stream_name":"stdout","time":624.804169197,"data":"fam  4000/12000 (0.116 s/item) | b step correct so far 0.957\n"}
+,{"stream_name":"stdout","time":855.897766072,"data":"fam  6000/12000 (0.116 s/item) | b step correct so far 0.961\n"}
+,{"stream_name":"stdout","time":1086.784614287,"data":"fam  8000/12000 (0.116 s/item) | b step correct so far 0.937\n"}
+,{"stream_name":"stdout","time":1317.476019831,"data":"fam 10000/12000 (0.115 s/item) | b step correct so far 0.925\n"}
+,{"stream_name":"stdout","time":1549.062113744,"data":"fam 12000/12000 (0.116 s/item) | b step correct so far 0.911\n"}
+,{"stream_name":"stdout","time":1549.376790382,"data":"done: 12000 items, b step correct 0.9112 (1515s)\n"}
+,{"stream_name":"stderr","time":1556.991283583,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1556.991317536,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1557.292682197,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1557.292705983,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1558.085895669,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1558.81290732,"data":"[NbConvertApp] Writing 293039 bytes to __results__.html\n"}
+]

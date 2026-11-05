@@ -1,0 +1,21 @@
+18 runs
+dig loop out | NEVER         | seeds ['NEVER', 'NEVER', 'NEVER'] | t_I [None, None, None] t_A [2200, 2500, 2300] t_m [1200, 1200, 1400] | lead [None, None, None] | ranking NONE ['NONE', 'NONE', 'NONE']
+dig loop c   | NEVER         | seeds ['NEVER', 'NEVER', 'NEVER'] | t_I [None, None, None] t_A [None, None, None] t_m [1200, 1200, 1400] | lead [None, None, None] | ranking NONE ['NONE', 'NONE', 'NONE']
+dig loop b   | t_I(b) [None, None, None] (descriptive; c not yet seen)
+dig std  out | WITH-OR-AFTER | seeds ['WITH-OR-AFTER', 'WITH-OR-AFTER', 'NEVER'] | t_I [7300, 3000, None] t_A [1600, 1600, 1400] t_m [1700, 700, 900] | lead ['-3.56', '-0.88', None] | ranking P1-FIRST ['P1-FIRST', 'P1-FIRST', 'NONE']
+dig std  c   | NEVER         | seeds ['NEVER', 'WITH-OR-AFTER', 'NEVER'] | t_I [None, 2700, None] t_A [None, 2400, None] t_m [1700, 700, 900] | lead [None, '-0.12', None] | ranking P1-FIRST ['P1-FIRST', 'P1-FIRST', 'NONE']
+dig std  b   | t_I(b) [None, None, None] (descriptive; c not yet seen)
+dig std2 out | NEVER         | seeds ['NEVER', 'NEVER', 'NEVER'] | t_I [None, None, None] t_A [7900, 5700, 5900] t_m [1600, 1500, 1400] | lead [None, None, None] | ranking NONE ['NONE', 'NONE', 'NONE']
+dig std2 c   | NEVER         | seeds ['NEVER', 'NEVER', 'NEVER'] | t_I [None, None, None] t_A [None, None, None] t_m [1600, 1500, 1400] | lead [None, None, None] | ranking NONE ['NONE', 'NONE', 'NONE']
+dig std2 b   | t_I(b) [None, None, None] (descriptive; c not yet seen)
+mod loop out | WITH-OR-AFTER | seeds ['WITH-OR-AFTER', 'WITH-OR-AFTER', 'WITH-OR-AFTER'] | t_I [1250, 1300, 1200] t_A [1000, 1000, 1000] t_m [1050, 1000, 1000] | lead ['-0.25', '-0.30', '-0.20'] | ranking BC-FIRST ['BC-FIRST', 'BC-FIRST', 'BC-FIRST']
+mod loop c   | WITH-OR-AFTER | seeds ['WITH-OR-AFTER', 'WITH-OR-AFTER', 'WITH-OR-AFTER'] | t_I [1200, 1250, 1250] t_A [1200, 1150, 1150] t_m [1050, 1000, 1000] | lead ['0.00', '-0.09', '-0.09'] | ranking P1-FIRST ['P1-FIRST', 'P1-FIRST', 'P1-FIRST']
+mod loop b   | t_I(b) [1250, None, 5600] (descriptive; c not yet seen)
+mod std  out | WITH-OR-AFTER | seeds ['WITH-OR-AFTER', 'WITH-OR-AFTER', 'WITH-OR-AFTER'] | t_I [750, 1150, 1050] t_A [650, 900, 750] t_m [650, 900, 800] | lead ['-0.15', '-0.28', '-0.40'] | ranking BC-FIRST ['BC-FIRST', 'BC-FIRST', 'TIED']
+mod std  c   | WITH-OR-AFTER | seeds ['WITH-OR-AFTER', 'WITH-OR-AFTER', 'WITH-OR-AFTER'] | t_I [750, 1400, 1050] t_A [700, 1100, 1100] t_m [650, 900, 800] | lead ['-0.07', '-0.27', '0.05'] | ranking P1-FIRST ['P1-FIRST', 'P1-FIRST', 'P1-FIRST']
+mod std  b   | t_I(b) [850, 1300, 1450] (descriptive; c not yet seen)
+mod std2 out | WITH-OR-AFTER | seeds ['WITH-OR-AFTER', 'WITH-OR-AFTER', 'WITH-OR-AFTER'] | t_I [3650, 1450, 4450] t_A [1100, 1100, 900] t_m [1050, 1000, 900] | lead ['-2.32', '-0.32', '-3.94'] | ranking SPLIT ['BC-FIRST', 'AC-FIRST', 'NONE']
+mod std2 c   | WITH-OR-AFTER | seeds ['WITH-OR-AFTER', 'WITH-OR-AFTER', 'NEVER'] | t_I [1400, 1500, None] t_A [1400, None, 5900] t_m [1050, 1000, 900] | lead ['0.00', None, None] | ranking P1-FIRST ['P1-FIRST', 'TIED', 'P1-FIRST']
+mod std2 b   | t_I(b) [5600, None, None] (descriptive; c not yet seen)
+dig architecture comparison: NA (leads {'std': [-3.5625, -0.875, None], 'loop': [None, None, None], 'std2': [None, None, None]})
+mod architecture comparison: NO-DIFFERENCE (lead ranges {'std': (-0.4, -0.15), 'loop': (-0.3, -0.2), 'std2': (-3.94, -0.32)})

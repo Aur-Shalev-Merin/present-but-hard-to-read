@@ -1,0 +1,14 @@
+v224 extract | set b | model Qwen/Qwen2.5-1.5B | items sha f917c3b7da3ddc87 (frozen f917c3b7da3ddc87) | n 12000
+loaded in 48s | hidden 1536
+positions {'eq': 94, 'last': 97, 'letb': 98, 'eqb': 99, 'inb': 100} -> {'eq': '0', 'last': '?', 'letb': ' t', 'eqb': ' =', 'inb': ' '} | b digit 101, a digit 106
+item     1/12000 (0.904 s/item) | b correct 1.000, a correct 1.000
+item   100/12000 (0.069 s/item) | b correct 1.000, a correct 1.000
+item  2000/12000 (0.060 s/item) | b correct 0.932, a correct 0.705
+item  4000/12000 (0.060 s/item) | b correct 0.871, a correct 0.675
+item  6000/12000 (0.060 s/item) | b correct 0.844, a correct 0.656
+item  8000/12000 (0.060 s/item) | b correct 0.805, a correct 0.638
+item 10000/12000 (0.060 s/item) | b correct 0.801, a correct 0.631
+item 12000/12000 (0.060 s/item) | b correct 0.779, a correct 0.626
+plus: b correct 0.778, a correct 0.593 (6000 items)
+minus: b correct 0.780, a correct 0.659 (6000 items)
+done (774s)

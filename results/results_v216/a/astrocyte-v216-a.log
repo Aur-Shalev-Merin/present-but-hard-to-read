@@ -1,0 +1,14 @@
+[{"stream_name":"stdout","time":0.882052028,"data":"v215_pilot.py d049a0b2d81fb80b\n"}
+,{"stream_name":"stdout","time":0.882277997,"data":"v215_items.py 9249f0523d7219eb\n"}
+,{"stream_name":"stdout","time":0.88243936,"data":"v216_items.py a2ebd48b899fed40\n"}
+,{"stream_name":"stdout","time":0.882855686,"data":"v215_analyze.py e9d53523b1da41e2\n"}
+,{"stream_name":"stdout","time":0.88317328,"data":"v216_analyze.py 92ff548f3dfc5b91\n"}
+,{"stream_name":"stdout","time":0.883459991,"data":"v178_analyze.py 90bbc8a848dc5544\n"}
+,{"stream_name":"stdout","time":0.884605798,"data":"=== v216_analyze.py ['/kaggle/input'] {}\n"}
+,{"stream_name":"stdout","time":2.004347227,"data":"items sha 497db0bcb9748f30 (frozen 497db0bcb9748f30)\n"}
+,{"stream_name":"stdout","time":2.553615502,"data":"answer accuracy plus, o2 +: 0.871 (n 3000)\n"}
+,{"stream_name":"stdout","time":2.556860596,"data":"answer accuracy plus, o2 -: 0.881 (n 3000)\n"}
+,{"stream_name":"stdout","time":2.559803824,"data":"answer accuracy minus, o2 +: 0.900 (n 3000)\n"}
+,{"stream_name":"stdout","time":2.56239776,"data":"answer accuracy minus, o2 -: 0.376 (n 3000)\n"}
+,{"stream_name":"stdout","time":2.570696067,"data":"Part A: 240 families, plus 6000 / minus 6000 items | G1 correct (exact chain): plus 0.876, minus 0.638\n"}
+]

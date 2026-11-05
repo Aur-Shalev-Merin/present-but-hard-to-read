@@ -1,0 +1,66 @@
+[{"stream_name":"stdout","time":1.23485222,"data":"v214_one_ref.py 2202cec9acd23aeb\n"}
+,{"stream_name":"stdout","time":1.23503733,"data":"v178_analyze.py 90bbc8a848dc5544\n"}
+,{"stream_name":"stdout","time":982.078236602,"data":"qwen1.5b        notebooks/aurshalevmerin/astrocyte-v205-b3/v205_b3_states.npy: 1500 prompts, 150 families, states ['l7', 'l14', 'l21', 'l28']\n"}
+,{"stream_name":"stdout","time":982.078280822,"data":"ouro1.4b        notebooks/aurshalevmerin/astrocyte-v206-b3/v206_b3_states.npy: 1000 prompts, 100 families, states ['end1', 'end2', 'end3', 'end4']\n"}
+,{"stream_name":"stdout","time":982.078286222,"data":"qwen7b          notebooks/aurshalevmerin/astrocyte-v213-x-qwen7b/v213_b3_states.npy: 1000 prompts, 100 families, states ['l7', 'l14', 'l21', 'l28']\n"}
+,{"stream_name":"stdout","time":982.078289602,"data":"ouro2.6b        notebooks/aurshalevmerin/astrocyte-v213-x-ouro26/v213_b3_states.npy: 1000 prompts, 100 families, states ['end1', 'end2', 'end3', 'end4']\n"}
+,{"stream_name":"stdout","time":982.078292572,"data":"qwen7b-orca     notebooks/aurshalevmerin/astrocyte-v213-x-qwen7b/v213_b3_states.npy: 1000 prompts, 100 families, states ['l7', 'l14', 'l21', 'l28']\n"}
+,{"stream_name":"stdout","time":982.078295532,"data":"ouro2.6b-orca   notebooks/aurshalevmerin/astrocyte-v213-x-ouro26/v213_b3_states.npy: 1000 prompts, 100 families, states ['end1', 'end2', 'end3', 'end4']\n"}
+,{"stream_name":"stdout","time":982.078298512,"data":"qwen1.5b-v181   notebooks/aurshalevmerin/astrocyte-v202-qwen/v202_v181_states.npy: 1370 prompts, 137 families, states ['l7', 'l14', 'l21', 'l28']\n"}
+,{"stream_name":"stdout","time":982.078301932,"data":"qwen7b-v181     notebooks/aurshalevmerin/astrocyte-v213-x-qwen7b/v213_v181_states.npy: 1370 prompts, 137 families, states ['l7', 'l14', 'l21', 'l28']\n"}
+,{"stream_name":"stdout","time":982.078304762,"data":"ouro2.6b-v181   notebooks/aurshalevmerin/astrocyte-v213-x-ouro26/v213_v181_states.npy: 1370 prompts, 137 families, states ['end1', 'end2', 'end3', 'end4']\n"}
+,{"stream_name":"stdout","time":982.078307832,"data":"data            layer    std     mp    one         (std / mp / one, mean over r / one min-max over r)\n"}
+,{"stream_name":"stdout","time":982.078310692,"data":"qwen1.5b        0      0.141  0.985  0.948  0.873-0.969\n"}
+,{"stream_name":"stdout","time":982.078313422,"data":"qwen1.5b        1      0.171  0.914  0.793  0.653-0.833\n"}
+,{"stream_name":"stdout","time":982.078317002,"data":"qwen1.5b        2      0.181  0.808  0.638  0.481-0.704\n"}
+,{"stream_name":"stdout","time":982.078321632,"data":"qwen1.5b        3      0.212  0.940  0.851  0.744-0.894\n"}
+,{"stream_name":"stdout","time":982.078324592,"data":"qwen1.5b        [primary] mp 0.912, one 0.807 (chance-corrected 0.902 vs 0.783, D -0.118) -\u003e PARTIAL\n"}
+,{"stream_name":"stdout","time":982.078327772,"data":"ouro1.4b        0      0.274  0.976  0.918  0.839-0.942\n"}
+,{"stream_name":"stdout","time":982.078330582,"data":"ouro1.4b        1      0.345  0.965  0.926  0.863-0.944\n"}
+,{"stream_name":"stdout","time":982.078333312,"data":"ouro1.4b        2      0.278  0.955  0.893  0.790-0.916\n"}
+,{"stream_name":"stdout","time":982.078336052,"data":"ouro1.4b        3      0.253  0.941  0.865  0.751-0.896\n"}
+,{"stream_name":"stdout","time":982.078340222,"data":"ouro1.4b        [primary] mp 0.959, one 0.901 (chance-corrected 0.955 vs 0.888, D -0.067) -\u003e PARTIAL\n"}
+,{"stream_name":"stdout","time":982.078343132,"data":"qwen7b          0      0.166  0.990  0.962  0.924-0.976\n"}
+,{"stream_name":"stdout","time":982.078345841,"data":"qwen7b          1      0.187  0.861  0.740  0.600-0.813\n"}
+,{"stream_name":"stdout","time":982.078348601,"data":"qwen7b          2      0.164  0.631  0.485  0.362-0.547\n"}
+,{"stream_name":"stdout","time":982.078351412,"data":"qwen7b          3      0.394  0.961  0.919  0.866-0.942\n"}
+,{"stream_name":"stdout","time":982.078365881,"data":"qwen7b          [primary] mp 0.861, one 0.776 (chance-corrected 0.845 vs 0.749, D -0.097) -\u003e PARTIAL\n"}
+,{"stream_name":"stdout","time":982.078368032,"data":"ouro2.6b        0      0.200  0.933  0.838  0.700-0.873\n"}
+,{"stream_name":"stdout","time":982.078369962,"data":"ouro2.6b        1      0.181  0.819  0.665  0.471-0.713\n"}
+,{"stream_name":"stdout","time":982.078371862,"data":"ouro2.6b        2      0.170  0.705  0.558  0.372-0.623\n"}
+,{"stream_name":"stdout","time":982.078373742,"data":"ouro2.6b        3      0.186  0.691  0.527  0.354-0.586\n"}
+,{"stream_name":"stdout","time":982.078376072,"data":"ouro2.6b        [primary] mp 0.787, one 0.647 (chance-corrected 0.763 vs 0.603, D -0.160) -\u003e PARTIAL\n"}
+,{"stream_name":"stdout","time":982.078378342,"data":"qwen7b-orca     0      0.173  0.973  0.946  0.900-0.967\n"}
+,{"stream_name":"stdout","time":982.078381592,"data":"qwen7b-orca     1      0.150  0.826  0.667  0.498-0.727\n"}
+,{"stream_name":"stdout","time":982.078384272,"data":"qwen7b-orca     2      0.147  0.527  0.407  0.292-0.449\n"}
+,{"stream_name":"stdout","time":982.078386212,"data":"qwen7b-orca     3      0.274  0.934  0.866  0.801-0.891\n"}
+,{"stream_name":"stdout","time":982.078388102,"data":"qwen7b-orca     [secondary] mp 0.815, one 0.721 (chance-corrected 0.794 vs 0.687, D -0.108) -\u003e PARTIAL\n"}
+,{"stream_name":"stdout","time":982.078391132,"data":"ouro2.6b-orca   0      0.181  0.860  0.730  0.582-0.762\n"}
+,{"stream_name":"stdout","time":982.078393032,"data":"ouro2.6b-orca   1      0.171  0.753  0.591  0.448-0.642\n"}
+,{"stream_name":"stdout","time":982.078394952,"data":"ouro2.6b-orca   2      0.162  0.662  0.524  0.366-0.567\n"}
+,{"stream_name":"stdout","time":982.078396842,"data":"ouro2.6b-orca   3      0.164  0.691  0.553  0.369-0.612\n"}
+,{"stream_name":"stdout","time":982.078398712,"data":"ouro2.6b-orca   [secondary] mp 0.741, one 0.600 (chance-corrected 0.713 vs 0.549, D -0.163) -\u003e PARTIAL\n"}
+,{"stream_name":"stdout","time":982.078400682,"data":"qwen1.5b-v181   0      0.123  0.983  0.944  0.855-0.975\n"}
+,{"stream_name":"stdout","time":982.078402552,"data":"qwen1.5b-v181   1      0.131  0.876  0.709  0.543-0.757\n"}
+,{"stream_name":"stdout","time":982.078404562,"data":"qwen1.5b-v181   2      0.139  0.748  0.583  0.441-0.629\n"}
+,{"stream_name":"stdout","time":982.078406502,"data":"qwen1.5b-v181   3      0.134  0.897  0.802  0.672-0.834\n"}
+,{"stream_name":"stdout","time":982.078408402,"data":"qwen1.5b-v181   [secondary] mp 0.876, one 0.760 (chance-corrected 0.862 vs 0.729, D -0.133) -\u003e PARTIAL\n"}
+,{"stream_name":"stdout","time":982.078410342,"data":"qwen7b-v181     0      0.134  0.994  0.966  0.929-0.980\n"}
+,{"stream_name":"stdout","time":982.078412232,"data":"qwen7b-v181     1      0.144  0.872  0.710  0.570-0.776\n"}
+,{"stream_name":"stdout","time":982.078414102,"data":"qwen7b-v181     2      0.136  0.576  0.440  0.300-0.488\n"}
+,{"stream_name":"stdout","time":982.078415962,"data":"qwen7b-v181     3      0.272  0.944  0.888  0.832-0.908\n"}
+,{"stream_name":"stdout","time":982.078417842,"data":"qwen7b-v181     [secondary] mp 0.846, one 0.751 (chance-corrected 0.829 vs 0.720, D -0.109) -\u003e PARTIAL\n"}
+,{"stream_name":"stdout","time":982.078420122,"data":"ouro2.6b-v181   0      0.167  0.917  0.818  0.663-0.866\n"}
+,{"stream_name":"stdout","time":982.078422012,"data":"ouro2.6b-v181   1      0.142  0.782  0.638  0.477-0.676\n"}
+,{"stream_name":"stdout","time":982.078423852,"data":"ouro2.6b-v181   2      0.140  0.715  0.563  0.397-0.612\n"}
+,{"stream_name":"stdout","time":982.078425722,"data":"ouro2.6b-v181   3      0.136  0.732  0.575  0.403-0.637\n"}
+,{"stream_name":"stdout","time":982.078431962,"data":"ouro2.6b-v181   [secondary] mp 0.786, one 0.649 (chance-corrected 0.763 vs 0.605, D -0.158) -\u003e PARTIAL\n"}
+,{"stream_name":"stdout","time":982.078434062,"data":"PRIMARY: qwen1.5b PARTIAL, ouro1.4b PARTIAL, qwen7b PARTIAL, ouro2.6b PARTIAL\n"}
+,{"stream_name":"stdout","time":982.078436002,"data":"\n"}
+,{"stream_name":"stderr","time":984.603886412,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":984.603916052,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":985.009063866,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":985.009103885,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":987.417917545,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":988.582359135,"data":"[NbConvertApp] Writing 288246 bytes to __results__.html\n"}
+]

@@ -1,0 +1,23 @@
+v230 pilot | device cuda | TINY False | steps 60000 | lr 0.001 | DAS m 32, 2000 steps | cells ['std:pos:1', 'std:pos:0:key:30000']
+/kaggle/working/v230_pilot.py:114: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  net.train(); curve.append([s + 1, round(float(loss), 4), acc])
+train std pos seed 1 | to 0.99: None | final acc 0.4048 | 60000 steps, 902 s
+train std pos seed 0 | to 0.99: 25000 | final acc 0.9990 | 27000 steps, 403 s
+  guard check {'layer': 4, 'pos': 3, 'k': 6, 'rank': 40, 'rank_max': 45, 'x': {'signal_x_noise': 48.0, 'outside_x_noise': 1.45}, 'z': {'signal_x_noise': 56.9, 'outside_x_noise': 1.39}}
+  guard check {'layer': 1, 'pos': 3, 'k': 6, 'rank': 23, 'rank_max': 45, 'x': {'signal_x_noise': 166.1, 'outside_x_noise': 0.32}, 'z': {'signal_x_noise': 179.4, 'outside_x_noise': 0.29}}
+  guard check {'layer': 1, 'pos': 10, 'k': 6, 'rank': 34, 'rank_max': 67, 'x': {'signal_x_noise': 17.8, 'outside_x_noise': 1.7}, 'z': {'signal_x_noise': 20.8, 'outside_x_noise': 1.94}, 'w': {'signal_x_noise': 580.3, 'outside_x_noise': 0.15}}
+  das sanity (W at its token, layer 1) | IIA 0.931 | random 0.001
+  das std k 6 pos  3 layer 3 guard   | IIA 0.307 (base kept 0.455) | random 0.000 (kept 0.997) | complement 152
+  das std k 6 pos  3 layer 3 noguard | IIA 0.857 (base kept 0.035) | random 0.002 (kept 0.987) | complement 192
+  das std k 6 pos  3 layer 4 guard   | IIA 0.685 (base kept 0.193) | random 0.001 (kept 0.995) | complement 155
+  das std k 6 pos  3 layer 4 noguard | IIA 0.915 (base kept 0.030) | random 0.002 (kept 0.990) | complement 192
+  das std k 6 pos 11 layer 5 guard   | IIA 0.048 (base kept 0.692) | random 0.000 (kept 0.998) | complement 149
+  das std k 6 pos 11 layer 5 noguard | IIA 0.184 (base kept 0.382) | random 0.001 (kept 0.993) | complement 192
+  das std k 0 pos  9 layer 3 guard   | IIA 0.275 (base kept 0.513) | random 0.000 (kept 0.997) | complement 152
+  das std k 0 pos  9 layer 3 noguard | IIA 0.868 (base kept 0.031) | random 0.001 (kept 0.986) | complement 192
+  das std k 0 pos  9 layer 4 guard   | IIA 0.746 (base kept 0.140) | random 0.001 (kept 0.996) | complement 156
+  das std k 0 pos  9 layer 4 noguard | IIA 0.918 (base kept 0.032) | random 0.002 (kept 0.993) | complement 192
+  das std k 0 pos 11 layer 5 guard   | IIA 0.056 (base kept 0.680) | random 0.000 (kept 0.995) | complement 149
+  das std k 0 pos 11 layer 5 noguard | IIA 0.168 (base kept 0.396) | random 0.000 (kept 0.995) | complement 192
+  das done in 920 s

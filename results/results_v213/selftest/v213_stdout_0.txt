@@ -1,0 +1,4 @@
+selftest readable  -> CLOSES          OK
+selftest hungry    -> STILL-CLIMBING  OK
+selftest swamped   -> PLATEAUS-BELOW  OK
+selftest shift     -> SHIFT-LIMITED   OK

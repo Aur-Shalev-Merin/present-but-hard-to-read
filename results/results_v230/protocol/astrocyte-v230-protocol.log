@@ -1,0 +1,230 @@
+[{"stream_name":"stdout","time":1.057306336,"data":"v220_train.py 6fbfc35236c2376d\n"}
+,{"stream_name":"stdout","time":1.060246516,"data":"v230_pilot.py a5ba00309f35d1ab\n"}
+,{"stream_name":"stdout","time":1.06079249,"data":"v230_protocol.py 0c6be76ba6e14a38\n"}
+,{"stream_name":"stdout","time":1.061123452,"data":"v178_analyze.py 90bbc8a848dc5544\n"}
+,{"stream_name":"stdout","time":11.478489204,"data":"[gpu0] v230 protocol | pos models | device cuda | TINY False | FOLLOWS bar 0.35\n"}
+,{"stream_name":"stdout","time":11.48271273,"data":"[gpu1] v230 protocol | neg models | device cuda | TINY False | FOLLOWS bar 0.35\n"}
+,{"stream_name":"stdout","time":27.791977779,"data":"[gpu0] /kaggle/working/v230_pilot.py:121: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.\n"}
+,{"stream_name":"stdout","time":27.792008864,"data":"[gpu0] Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)\n"}
+,{"stream_name":"stdout","time":27.792020211,"data":"[gpu0]   net.train(); curve.append([s + 1, round(float(loss), 4), acc])\n"}
+,{"stream_name":"stdout","time":27.959068575,"data":"[gpu1] /kaggle/working/v230_pilot.py:121: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.\n"}
+,{"stream_name":"stdout","time":27.959101018,"data":"[gpu1] Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)\n"}
+,{"stream_name":"stdout","time":27.959106616,"data":"[gpu1]   net.train(); curve.append([s + 1, round(float(loss), 4), acc])\n"}
+,{"stream_name":"stdout","time":170.413206248,"data":"[gpu1] train std neg seed 0 | to 0.99: 7000 | final acc 0.9967 | 9000 steps, 152 s\n"}
+,{"stream_name":"stdout","time":170.485893429,"data":"[gpu1] model neg seed 0: sha 17e6599309c8d0a9 (expected -) | held-out 0.9967\n"}
+,{"stream_name":"stdout","time":171.18010262,"data":"[gpu1]   seed 0 k 6: 12000 items, correct 0.9962\n"}
+,{"stream_name":"stdout","time":176.615823635,"data":"[gpu1]   share k6 p3    N 0.046  Rbar 0.033  lift +0.013  D+ +0.014  D- -0.015  I -0.000 [-0.000, +0.000]  I/N -0.00  -\u003e DOES-NOT-FOLLOW\n"}
+,{"stream_name":"stdout","time":186.333739501,"data":"[gpu1]   clamp s pos  3 (1000 pairs): hit none 0.000 full 0.937 cB 0.064 cBo 0.064 cD 0.218 cR 0.000 | kept none 1.00 full 0.00 cB 0.62 cBo 0.62 cD 0.12 cR 1.00 | cBo - cR +0.064 [+0.043, +0.087] -\u003e UNCLEAR\n"}
+,{"stream_name":"stdout","time":191.399658472,"data":"[gpu1]   share k6 p6    N 0.049  Rbar 0.034  lift +0.015  D+ +0.010  D- -0.010  I +0.000 [-0.000, +0.000]  I/N +0.00  -\u003e DOES-NOT-FOLLOW\n"}
+,{"stream_name":"stdout","time":201.241369654,"data":"[gpu1]   clamp s pos  6 (1000 pairs): hit none 0.000 full 0.000 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 0.98 cB 1.00 cBo 1.00 cD 0.99 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":206.320945478,"data":"[gpu1]   share k6 p9    N 0.049  Rbar 0.034  lift +0.015  D+ +0.011  D- -0.011  I +0.000 [-0.000, +0.000]  I/N +0.00  -\u003e DOES-NOT-FOLLOW\n"}
+,{"stream_name":"stdout","time":216.483570588,"data":"[gpu1]   clamp s pos  9 (1000 pairs): hit none 0.000 full 0.000 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 0.98 cB 1.00 cBo 1.00 cD 0.99 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":221.677180439,"data":"[gpu1]   share k6 p10   N 0.012  Rbar 0.010  lift +0.003  D+ +0.002  D- -0.002  I -0.000 [-0.001, +0.001]  I/N -0.01  -\u003e DOES-NOT-FOLLOW\n"}
+,{"stream_name":"stdout","time":232.710585869,"data":"[gpu1]   clamp s pos 10 (1000 pairs): hit none 0.000 full 0.337 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 0.15 cB 1.00 cBo 1.00 cD 1.00 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e NOT-USED\n"}
+,{"stream_name":"stdout","time":238.46750541,"data":"[gpu1]   share k6 p11   N 0.011  Rbar 0.009  lift +0.001  D+ +0.002  D- -0.003  I -0.000 [-0.001, +0.000]  I/N -0.04  -\u003e DOES-NOT-FOLLOW\n"}
+,{"stream_name":"stdout","time":249.402863813,"data":"[gpu1]   clamp s pos 11 (1000 pairs): hit none 0.000 full 0.995 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 0.00 cB 1.00 cBo 1.00 cD 0.97 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e NOT-USED\n"}
+,{"stream_name":"stdout","time":249.925958451,"data":"[gpu1]   seed 0 k 0: 12000 items, correct 0.9977\n"}
+,{"stream_name":"stdout","time":255.11413461,"data":"[gpu1]   share k0 p9    N 0.051  Rbar 0.035  lift +0.016  D+ +0.011  D- -0.010  I +0.000 [-0.000, +0.001]  I/N +0.01  -\u003e DOES-NOT-FOLLOW\n"}
+,{"stream_name":"stdout","time":265.583957776,"data":"[gpu1]   clamp s pos  9 (1000 pairs): hit none 0.000 full 0.974 cB 0.072 cBo 0.075 cD 0.218 cR 0.000 | kept none 1.00 full 0.00 cB 0.39 cBo 0.43 cD 0.13 cR 1.00 | cBo - cR +0.075 [+0.052, +0.100] -\u003e UNCLEAR\n"}
+,{"stream_name":"stdout","time":270.848696565,"data":"[gpu1]   share k0 p10   N 0.013  Rbar 0.009  lift +0.004  D+ -0.002  D- +0.002  I -0.000 [-0.001, +0.001]  I/N -0.00  -\u003e DOES-NOT-FOLLOW\n"}
+,{"stream_name":"stdout","time":282.517077769,"data":"[gpu1]   clamp s pos 10 (1000 pairs): hit none 0.000 full 0.334 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 0.14 cB 1.00 cBo 1.00 cD 1.00 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e NOT-USED\n"}
+,{"stream_name":"stdout","time":287.626382268,"data":"[gpu1]   share k0 p11   N 0.013  Rbar 0.009  lift +0.004  D+ -0.002  D- +0.002  I +0.000 [-0.001, +0.001]  I/N +0.02  -\u003e DOES-NOT-FOLLOW\n"}
+,{"stream_name":"stdout","time":298.208989316,"data":"[gpu1]   clamp s pos 11 (1000 pairs): hit none 0.000 full 0.999 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 0.00 cB 0.94 cBo 0.94 cD 1.00 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e NOT-USED\n"}
+,{"stream_name":"stdout","time":298.209622735,"data":"[gpu1]   seed 0 done in 286 s\n"}
+,{"stream_name":"stdout","time":465.624322856,"data":"[gpu1] train std neg seed 1 | to 0.99: 8500 | final acc 0.9938 | 10500 steps, 167 s\n"}
+,{"stream_name":"stdout","time":465.672474005,"data":"[gpu1] model neg seed 1: sha 769b2a64fea4cd4b (expected -) | held-out 0.9938\n"}
+,{"stream_name":"stdout","time":466.29136928,"data":"[gpu1]   seed 1 k 6: 12000 items, correct 0.9918\n"}
+,{"stream_name":"stdout","time":471.287897709,"data":"[gpu1]   share k6 p3    N 0.052  Rbar 0.041  lift +0.011  D+ +0.009  D- -0.010  I -0.001 [-0.001, -0.000]  I/N -0.01  -\u003e DOES-NOT-FOLLOW\n"}
+,{"stream_name":"stdout","time":482.482897649,"data":"[gpu1]   clamp s pos  3 (1000 pairs): hit none 0.000 full 0.245 cB 0.005 cBo 0.001 cD 0.147 cR 0.000 | kept none 1.00 full 0.12 cB 0.81 cBo 0.89 cD 0.16 cR 1.00 | cBo - cR +0.001 [+0.000, +0.004] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":486.828027323,"data":"[gpu0] train std pos seed 0 | to 0.99: 25000 | final acc 0.9990 | 27000 steps, 468 s\n"}
+,{"stream_name":"stdout","time":486.925934344,"data":"[gpu0] model pos seed 0: sha 423563683be2c8f9 (expected 423563683be2c8f9) | held-out 0.9990\n"}
+,{"stream_name":"stdout","time":487.387199118,"data":"[gpu1]   share k6 p6    N 0.066  Rbar 0.038  lift +0.028  D+ +0.009  D- -0.010  I -0.000 [-0.001, +0.000]  I/N -0.01  -\u003e DOES-NOT-FOLLOW\n"}
+,{"stream_name":"stdout","time":487.699615396,"data":"[gpu0]   seed 0 k 6: 12000 items, correct 0.9997\n"}
+,{"stream_name":"stdout","time":494.783044646,"data":"[gpu0]   share k6 p3    N 0.349  Rbar 0.036  lift +0.313  D+ +0.307  D- +0.274  I +0.291 [+0.289, +0.292]  I/N +0.83  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":500.123580398,"data":"[gpu1]   clamp s pos  6 (1000 pairs): hit none 0.000 full 0.000 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 0.99 cB 1.00 cBo 1.00 cD 0.99 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":506.901867017,"data":"[gpu0]   clamp s pos  3 (1000 pairs): hit none 0.000 full 0.942 cB 0.912 cBo 0.904 cD 0.085 cR 0.000 | kept none 1.00 full 0.02 cB 0.05 cBo 0.06 cD 0.66 cR 1.00 | cBo - cR +0.904 [+0.879, +0.927] -\u003e USED\n"}
+,{"stream_name":"stdout","time":506.981014124,"data":"[gpu1]   share k6 p9    N 0.065  Rbar 0.038  lift +0.028  D+ +0.008  D- -0.009  I -0.000 [-0.001, +0.000]  I/N -0.01  -\u003e DOES-NOT-FOLLOW\n"}
+,{"stream_name":"stdout","time":512.958114023,"data":"[gpu0]   share k6 p6    N 0.272  Rbar 0.037  lift +0.235  D+ +0.208  D- +0.165  I +0.187 [+0.185, +0.188]  I/N +0.69  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":519.031741534,"data":"[gpu1]   clamp s pos  9 (1000 pairs): hit none 0.000 full 0.000 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 0.99 cB 1.00 cBo 1.00 cD 0.99 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":524.112295543,"data":"[gpu0]   clamp s pos  6 (1000 pairs): hit none 0.000 full 0.000 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 1.00 cB 1.00 cBo 1.00 cD 1.00 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":525.029405188,"data":"[gpu1]   share k6 p10   N 0.019  Rbar 0.014  lift +0.004  D+ +0.005  D- -0.004  I +0.000 [-0.000, +0.001]  I/N +0.03  -\u003e DOES-NOT-FOLLOW\n"}
+,{"stream_name":"stdout","time":530.317635784,"data":"[gpu0]   share k6 p9    N 0.272  Rbar 0.037  lift +0.235  D+ +0.207  D- +0.165  I +0.186 [+0.185, +0.188]  I/N +0.69  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":537.663951814,"data":"[gpu1]   clamp s pos 10 (1000 pairs): hit none 0.000 full 0.003 cB 0.000 cBo 0.000 cD 0.001 cR 0.000 | kept none 1.00 full 0.96 cB 1.00 cBo 1.00 cD 0.97 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":542.229921564,"data":"[gpu0]   clamp s pos  9 (1000 pairs): hit none 0.000 full 0.000 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 1.00 cB 1.00 cBo 1.00 cD 1.00 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":544.510911143,"data":"[gpu1]   share k6 p11   N 0.007  Rbar 0.003  lift +0.004  D+ +0.000  D- +0.000  I +0.000 [-0.000, +0.001]  I/N +0.03  -\u003e UNCLEAR\n"}
+,{"stream_name":"stdout","time":549.330946457,"data":"[gpu0]   share k6 p10   N 0.126  Rbar 0.006  lift +0.119  D+ +0.121  D- +0.116  I +0.118 [+0.117, +0.119]  I/N +0.94  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":558.613546868,"data":"[gpu1]   clamp s pos 11 (1000 pairs): hit none 0.000 full 0.991 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 0.00 cB 1.00 cBo 1.00 cD 1.00 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e NOT-USED\n"}
+,{"stream_name":"stdout","time":559.281411243,"data":"[gpu1]   seed 1 k 0: 12000 items, correct 0.9935\n"}
+,{"stream_name":"stdout","time":562.379466015,"data":"[gpu0]   clamp s pos 10 (1000 pairs): hit none 0.000 full 0.014 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 0.97 cB 1.00 cBo 1.00 cD 1.00 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":566.323950996,"data":"[gpu1]   share k0 p9    N 0.058  Rbar 0.040  lift +0.018  D+ +0.004  D- -0.004  I -0.000 [-0.001, +0.000]  I/N -0.00  -\u003e DOES-NOT-FOLLOW\n"}
+,{"stream_name":"stdout","time":569.461199301,"data":"[gpu0]   share k6 p11   N 0.106  Rbar 0.008  lift +0.098  D+ +0.094  D- +0.086  I +0.090 [+0.089, +0.091]  I/N +0.85  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":580.474963815,"data":"[gpu1]   clamp s pos  9 (1000 pairs): hit none 0.000 full 0.218 cB 0.065 cBo 0.003 cD 0.106 cR 0.000 | kept none 1.00 full 0.12 cB 0.57 cBo 0.89 cD 0.23 cR 1.00 | cBo - cR +0.003 [+0.000, +0.007] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":582.683655633,"data":"[gpu0]   clamp s pos 11 (1000 pairs): hit none 0.000 full 1.000 cB 0.090 cBo 0.087 cD 0.000 cR 0.000 | kept none 1.00 full 0.00 cB 0.84 cBo 0.84 cD 1.00 cR 1.00 | cBo - cR +0.087 [+0.065, +0.110] -\u003e UNCLEAR\n"}
+,{"stream_name":"stdout","time":583.368623989,"data":"[gpu0]   seed 0 k 0: 12000 items, correct 0.9998\n"}
+,{"stream_name":"stdout","time":587.208091859,"data":"[gpu1]   share k0 p10   N 0.010  Rbar 0.011  lift -0.001  D+ -0.001  D- -0.000  I -0.000 [-0.001, +0.000]  I/N -0.05  -\u003e DOES-NOT-FOLLOW\n"}
+,{"stream_name":"stdout","time":590.37369973,"data":"[gpu0]   share k0 p9    N 0.350  Rbar 0.037  lift +0.313  D+ +0.308  D- +0.276  I +0.292 [+0.291, +0.294]  I/N +0.83  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":601.188619575,"data":"[gpu1]   clamp s pos 10 (1000 pairs): hit none 0.000 full 0.002 cB 0.000 cBo 0.000 cD 0.002 cR 0.000 | kept none 1.00 full 0.96 cB 1.00 cBo 1.00 cD 0.97 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":604.036909338,"data":"[gpu0]   clamp s pos  9 (1000 pairs): hit none 0.000 full 0.942 cB 0.873 cBo 0.846 cD 0.141 cR 0.000 | kept none 1.00 full 0.02 cB 0.06 cBo 0.08 cD 0.54 cR 1.00 | cBo - cR +0.846 [+0.821, +0.870] -\u003e USED\n"}
+,{"stream_name":"stdout","time":606.993292929,"data":"[gpu1]   share k0 p11   N 0.006  Rbar 0.002  lift +0.004  D+ -0.001  D- +0.000  I -0.000 [-0.001, +0.000]  I/N -0.04  -\u003e DOES-NOT-FOLLOW\n"}
+,{"stream_name":"stdout","time":609.865047724,"data":"[gpu0]   share k0 p10   N 0.125  Rbar 0.007  lift +0.118  D+ +0.120  D- +0.116  I +0.118 [+0.117, +0.119]  I/N +0.95  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":619.338826894,"data":"[gpu1]   clamp s pos 11 (1000 pairs): hit none 0.000 full 0.995 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 0.00 cB 1.00 cBo 1.00 cD 1.00 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e NOT-USED\n"}
+,{"stream_name":"stdout","time":619.339566616,"data":"[gpu1]   seed 1 done in 321 s\n"}
+,{"stream_name":"stdout","time":621.937065076,"data":"[gpu0]   clamp s pos 10 (1000 pairs): hit none 0.000 full 0.016 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 0.96 cB 1.00 cBo 1.00 cD 1.00 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":627.63966563,"data":"[gpu0]   share k0 p11   N 0.108  Rbar 0.008  lift +0.099  D+ +0.095  D- +0.088  I +0.091 [+0.090, +0.092]  I/N +0.85  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":638.949943277,"data":"[gpu0]   clamp s pos 11 (1000 pairs): hit none 0.000 full 1.000 cB 0.078 cBo 0.076 cD 0.000 cR 0.000 | kept none 1.00 full 0.00 cB 0.84 cBo 0.84 cD 1.00 cR 1.00 | cBo - cR +0.076 [+0.060, +0.093] -\u003e UNCLEAR\n"}
+,{"stream_name":"stdout","time":638.950614276,"data":"[gpu0]   seed 0 done in 627 s\n"}
+,{"stream_name":"stdout","time":791.779522125,"data":"[gpu0] train std pos seed 1 | to 0.99: 7500 | final acc 0.9948 | 9500 steps, 152 s\n"}
+,{"stream_name":"stdout","time":791.830481341,"data":"[gpu0] model pos seed 1: sha 0a46ffeb90ae782b (expected 0a46ffeb90ae782b) | held-out 0.9948\n"}
+,{"stream_name":"stdout","time":792.47666064,"data":"[gpu0]   seed 1 k 6: 12000 items, correct 0.9917\n"}
+,{"stream_name":"stdout","time":797.965990537,"data":"[gpu0]   share k6 p3    N 0.423  Rbar 0.037  lift +0.386  D+ +0.402  D- +0.332  I +0.367 [+0.364, +0.371]  I/N +0.87  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":809.587551446,"data":"[gpu0]   clamp s pos  3 (1000 pairs): hit none 0.000 full 0.817 cB 0.704 cBo 0.668 cD 0.089 cR 0.001 | kept none 1.00 full 0.07 cB 0.14 cBo 0.15 cD 0.54 cR 0.99 | cBo - cR +0.667 [+0.636, +0.699] -\u003e USED\n"}
+,{"stream_name":"stdout","time":814.936513207,"data":"[gpu0]   share k6 p6    N 0.320  Rbar 0.037  lift +0.283  D+ +0.278  D- +0.210  I +0.244 [+0.241, +0.247]  I/N +0.76  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":825.541722822,"data":"[gpu0]   clamp s pos  6 (1000 pairs): hit none 0.000 full 0.033 cB 0.004 cBo 0.005 cD 0.001 cR 0.000 | kept none 1.00 full 0.92 cB 0.98 cBo 0.98 cD 0.99 cR 1.00 | cBo - cR +0.005 [+0.001, +0.010] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":830.79222749,"data":"[gpu0]   share k6 p9    N 0.315  Rbar 0.037  lift +0.278  D+ +0.272  D- +0.203  I +0.238 [+0.234, +0.241]  I/N +0.75  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":842.712816771,"data":"[gpu0]   clamp s pos  9 (1000 pairs): hit none 0.000 full 0.026 cB 0.003 cBo 0.004 cD 0.001 cR 0.000 | kept none 1.00 full 0.93 cB 0.98 cBo 0.98 cD 0.99 cR 1.00 | cBo - cR +0.004 [+0.000, +0.009] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":845.716322403,"data":"[gpu1] train std neg seed 2 | to 0.99: 11000 | final acc 0.9833 | 13000 steps, 226 s\n"}
+,{"stream_name":"stdout","time":845.765230969,"data":"[gpu1] model neg seed 2: sha 7950e50c3d68071f (expected -) | held-out 0.9833\n"}
+,{"stream_name":"stdout","time":846.397607574,"data":"[gpu1]   seed 2 k 6: 12000 items, correct 0.9848\n"}
+,{"stream_name":"stdout","time":848.626136646,"data":"[gpu0]   share k6 p10   N 0.267  Rbar 0.017  lift +0.250  D+ +0.251  D- +0.226  I +0.238 [+0.236, +0.241]  I/N +0.89  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":852.685003018,"data":"[gpu1]   share k6 p3    N 0.058  Rbar 0.034  lift +0.024  D+ +0.004  D- -0.004  I +0.000 [-0.000, +0.000]  I/N +0.00  -\u003e DOES-NOT-FOLLOW\n"}
+,{"stream_name":"stdout","time":862.582939976,"data":"[gpu0]   clamp s pos 10 (1000 pairs): hit none 0.000 full 0.062 cB 0.056 cBo 0.028 cD 0.000 cR 0.000 | kept none 1.00 full 0.42 cB 0.44 cBo 0.52 cD 0.97 cR 1.00 | cBo - cR +0.028 [+0.017, +0.041] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":866.044391494,"data":"[gpu1]   clamp s pos  3 (1000 pairs): hit none 0.000 full 0.523 cB 0.047 cBo 0.027 cD 0.068 cR 0.000 | kept none 1.00 full 0.01 cB 0.42 cBo 0.52 cD 0.15 cR 1.00 | cBo - cR +0.027 [+0.015, +0.041] -\u003e UNCLEAR\n"}
+,{"stream_name":"stdout","time":868.505048007,"data":"[gpu0]   share k6 p11   N 0.197  Rbar 0.013  lift +0.185  D+ +0.186  D- +0.163  I +0.175 [+0.172, +0.177]  I/N +0.89  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":872.686794919,"data":"[gpu1]   share k6 p6    N 0.076  Rbar 0.036  lift +0.041  D+ -0.015  D- +0.015  I -0.000 [-0.001, +0.000]  I/N -0.00  -\u003e DOES-NOT-FOLLOW\n"}
+,{"stream_name":"stdout","time":882.35856104,"data":"[gpu0]   clamp s pos 11 (1000 pairs): hit none 0.000 full 0.994 cB 0.030 cBo 0.029 cD 0.000 cR 0.000 | kept none 1.00 full 0.00 cB 0.76 cBo 0.77 cD 1.00 cR 1.00 | cBo - cR +0.029 [+0.017, +0.042] -\u003e UNCLEAR\n"}
+,{"stream_name":"stdout","time":883.02266248,"data":"[gpu0]   seed 1 k 0: 12000 items, correct 0.9945\n"}
+,{"stream_name":"stdout","time":886.169195231,"data":"[gpu1]   clamp s pos  6 (1000 pairs): hit none 0.000 full 0.000 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 1.00 cB 1.00 cBo 1.00 cD 1.00 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":889.867641352,"data":"[gpu0]   share k0 p9    N 0.431  Rbar 0.037  lift +0.394  D+ +0.408  D- +0.339  I +0.373 [+0.370, +0.377]  I/N +0.87  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":893.185350953,"data":"[gpu1]   share k6 p9    N 0.076  Rbar 0.036  lift +0.040  D+ -0.014  D- +0.014  I -0.000 [-0.001, +0.000]  I/N -0.00  -\u003e DOES-NOT-FOLLOW\n"}
+,{"stream_name":"stdout","time":903.817895785,"data":"[gpu0]   clamp s pos  9 (1000 pairs): hit none 0.000 full 0.943 cB 0.906 cBo 0.906 cD 0.141 cR 0.003 | kept none 1.00 full 0.01 cB 0.03 cBo 0.03 cD 0.41 cR 0.99 | cBo - cR +0.903 [+0.882, +0.923] -\u003e USED\n"}
+,{"stream_name":"stdout","time":906.699601078,"data":"[gpu1]   clamp s pos  9 (1000 pairs): hit none 0.000 full 0.000 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 1.00 cB 1.00 cBo 1.00 cD 1.00 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":910.284203671,"data":"[gpu0]   share k0 p10   N 0.253  Rbar 0.014  lift +0.240  D+ +0.252  D- +0.224  I +0.238 [+0.236, +0.240]  I/N +0.94  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":913.325011047,"data":"[gpu1]   share k6 p10   N 0.014  Rbar 0.009  lift +0.005  D+ -0.001  D- +0.001  I +0.000 [-0.001, +0.001]  I/N +0.01  -\u003e DOES-NOT-FOLLOW\n"}
+,{"stream_name":"stdout","time":923.680291919,"data":"[gpu0]   clamp s pos 10 (1000 pairs): hit none 0.000 full 0.063 cB 0.054 cBo 0.028 cD 0.000 cR 0.000 | kept none 1.00 full 0.42 cB 0.42 cBo 0.58 cD 0.93 cR 1.00 | cBo - cR +0.028 [+0.017, +0.039] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":926.768640836,"data":"[gpu1]   clamp s pos 10 (1000 pairs): hit none 0.000 full 0.191 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 0.30 cB 1.00 cBo 1.00 cD 0.99 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":930.780980849,"data":"[gpu0]   share k0 p11   N 0.188  Rbar 0.012  lift +0.176  D+ +0.184  D- +0.159  I +0.171 [+0.169, +0.174]  I/N +0.91  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":933.619847719,"data":"[gpu1]   share k6 p11   N 0.020  Rbar 0.012  lift +0.007  D+ +0.002  D- -0.000  I +0.001 [-0.001, +0.002]  I/N +0.03  -\u003e DOES-NOT-FOLLOW\n"}
+,{"stream_name":"stdout","time":942.999316732,"data":"[gpu0]   clamp s pos 11 (1000 pairs): hit none 0.000 full 0.994 cB 0.023 cBo 0.022 cD 0.000 cR 0.000 | kept none 1.00 full 0.00 cB 0.76 cBo 0.76 cD 1.00 cR 1.00 | cBo - cR +0.022 [+0.013, +0.032] -\u003e UNCLEAR\n"}
+,{"stream_name":"stdout","time":943.000059355,"data":"[gpu0]   seed 1 done in 304 s\n"}
+,{"stream_name":"stdout","time":945.210454601,"data":"[gpu1]   clamp s pos 11 (1000 pairs): hit none 0.000 full 0.978 cB 0.000 cBo 0.000 cD 0.001 cR 0.000 | kept none 1.00 full 0.00 cB 1.00 cBo 1.00 cD 0.92 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e NOT-USED\n"}
+,{"stream_name":"stdout","time":945.747120306,"data":"[gpu1]   seed 2 k 0: 12000 items, correct 0.9852\n"}
+,{"stream_name":"stdout","time":951.44136112,"data":"[gpu1]   share k0 p9    N 0.059  Rbar 0.036  lift +0.024  D+ +0.001  D- -0.000  I +0.000 [-0.000, +0.001]  I/N +0.00  -\u003e DOES-NOT-FOLLOW\n"}
+,{"stream_name":"stdout","time":963.479236934,"data":"[gpu1]   clamp s pos  9 (1000 pairs): hit none 0.000 full 0.509 cB 0.019 cBo 0.013 cD 0.060 cR 0.000 | kept none 1.00 full 0.01 cB 0.38 cBo 0.41 cD 0.16 cR 1.00 | cBo - cR +0.013 [+0.005, +0.022] -\u003e UNCLEAR\n"}
+,{"stream_name":"stdout","time":969.381281355,"data":"[gpu1]   share k0 p10   N 0.015  Rbar 0.010  lift +0.005  D+ -0.004  D- +0.003  I -0.000 [-0.002, +0.001]  I/N -0.03  -\u003e DOES-NOT-FOLLOW\n"}
+,{"stream_name":"stdout","time":981.403251516,"data":"[gpu1]   clamp s pos 10 (1000 pairs): hit none 0.000 full 0.209 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 0.28 cB 1.00 cBo 1.00 cD 0.99 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":986.537211031,"data":"[gpu1]   share k0 p11   N 0.021  Rbar 0.014  lift +0.008  D+ -0.003  D- +0.002  I -0.001 [-0.002, +0.001]  I/N -0.02  -\u003e DOES-NOT-FOLLOW\n"}
+,{"stream_name":"stdout","time":997.72410371,"data":"[gpu1]   clamp s pos 11 (1000 pairs): hit none 0.000 full 0.987 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 0.00 cB 1.00 cBo 1.00 cD 0.92 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e NOT-USED\n"}
+,{"stream_name":"stdout","time":997.724785541,"data":"[gpu1]   seed 2 done in 378 s\n"}
+,{"stream_name":"stdout","time":1131.561589672,"data":"[gpu0] train std pos seed 2 | to 0.99: 9500 | final acc 0.9949 | 11500 steps, 188 s\n"}
+,{"stream_name":"stdout","time":1131.622228664,"data":"[gpu0] model pos seed 2: sha 39aac1088343cf2d (expected 39aac1088343cf2d) | held-out 0.9949\n"}
+,{"stream_name":"stdout","time":1132.301333906,"data":"[gpu0]   seed 2 k 6: 12000 items, correct 0.9877\n"}
+,{"stream_name":"stdout","time":1138.003189044,"data":"[gpu0]   share k6 p3    N 0.316  Rbar 0.038  lift +0.278  D+ +0.264  D- +0.233  I +0.248 [+0.244, +0.253]  I/N +0.79  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":1148.875255702,"data":"[gpu0]   clamp s pos  3 (1000 pairs): hit none 0.000 full 0.978 cB 0.784 cBo 0.598 cD 0.104 cR 0.001 | kept none 1.00 full 0.00 cB 0.02 cBo 0.03 cD 0.27 cR 0.96 | cBo - cR +0.597 [+0.542, +0.651] -\u003e USED\n"}
+,{"stream_name":"stdout","time":1154.132137508,"data":"[gpu0]   share k6 p6    N 0.145  Rbar 0.037  lift +0.108  D+ +0.065  D- +0.041  I +0.053 [+0.051, +0.055]  I/N +0.36  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":1164.470296496,"data":"[gpu0]   clamp s pos  6 (1000 pairs): hit none 0.000 full 0.000 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 1.00 cB 1.00 cBo 1.00 cD 1.00 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":1169.420785635,"data":"[gpu0]   share k6 p9    N 0.150  Rbar 0.038  lift +0.113  D+ +0.070  D- +0.045  I +0.057 [+0.055, +0.059]  I/N +0.38  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":1181.108580558,"data":"[gpu0]   clamp s pos  9 (1000 pairs): hit none 0.000 full 0.000 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 1.00 cB 1.00 cBo 1.00 cD 1.00 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":1185.979184944,"data":"[gpu0]   share k6 p10   N 0.046  Rbar 0.005  lift +0.041  D+ +0.037  D- +0.036  I +0.036 [+0.035, +0.038]  I/N +0.79  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":1196.625356031,"data":"[gpu0]   clamp s pos 10 (1000 pairs): hit none 0.000 full 0.000 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 1.00 cB 1.00 cBo 1.00 cD 1.00 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":1201.860034563,"data":"[gpu0]   share k6 p11   N 0.043  Rbar 0.007  lift +0.036  D+ +0.033  D- +0.021  I +0.027 [+0.026, +0.028]  I/N +0.64  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":1212.679682473,"data":"[gpu0]   clamp s pos 11 (1000 pairs): hit none 0.000 full 0.984 cB 0.001 cBo 0.000 cD 0.001 cR 0.000 | kept none 1.00 full 0.00 cB 0.99 cBo 1.00 cD 1.00 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e NOT-USED\n"}
+,{"stream_name":"stdout","time":1213.237610918,"data":"[gpu0]   seed 2 k 0: 12000 items, correct 0.9929\n"}
+,{"stream_name":"stdout","time":1218.350589381,"data":"[gpu0]   share k0 p9    N 0.319  Rbar 0.039  lift +0.280  D+ +0.268  D- +0.233  I +0.250 [+0.246, +0.255]  I/N +0.78  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":1228.732057805,"data":"[gpu0]   clamp s pos  9 (1000 pairs): hit none 0.000 full 0.985 cB 0.741 cBo 0.624 cD 0.366 cR 0.001 | kept none 1.00 full 0.00 cB 0.01 cBo 0.03 cD 0.18 cR 0.97 | cBo - cR +0.623 [+0.581, +0.664] -\u003e USED\n"}
+,{"stream_name":"stdout","time":1234.362609335,"data":"[gpu0]   share k0 p10   N 0.047  Rbar 0.005  lift +0.042  D+ +0.040  D- +0.034  I +0.037 [+0.036, +0.038]  I/N +0.79  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":1246.205500913,"data":"[gpu0]   clamp s pos 10 (1000 pairs): hit none 0.000 full 0.001 cB 0.001 cBo 0.001 cD 0.000 cR 0.000 | kept none 1.00 full 1.00 cB 1.00 cBo 1.00 cD 1.00 cR 1.00 | cBo - cR +0.001 [+0.000, +0.004] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":1251.843236661,"data":"[gpu0]   share k0 p11   N 0.044  Rbar 0.007  lift +0.038  D+ +0.033  D- +0.023  I +0.028 [+0.026, +0.030]  I/N +0.63  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":1262.485812175,"data":"[gpu0]   clamp s pos 11 (1000 pairs): hit none 0.000 full 0.994 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 0.00 cB 0.99 cBo 1.00 cD 0.99 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e NOT-USED\n"}
+,{"stream_name":"stdout","time":1262.486476254,"data":"[gpu0]   seed 2 done in 319 s\n"}
+,{"stream_name":"stdout","time":1289.639835592,"data":"[gpu1] train std neg seed 3 | to 0.99: 14000 | final acc 0.9907 | 16000 steps, 291 s\n"}
+,{"stream_name":"stdout","time":1289.687492812,"data":"[gpu1] model neg seed 3: sha d34c2a4e8ff08051 (expected -) | held-out 0.9907\n"}
+,{"stream_name":"stdout","time":1290.352570768,"data":"[gpu1]   seed 3 k 6: 12000 items, correct 0.9858\n"}
+,{"stream_name":"stdout","time":1296.08880814,"data":"[gpu1]   share k6 p3    N 0.065  Rbar 0.036  lift +0.029  D+ +0.027  D- -0.026  I +0.000 [-0.000, +0.001]  I/N +0.00  -\u003e DOES-NOT-FOLLOW\n"}
+,{"stream_name":"stdout","time":1306.583442431,"data":"[gpu1]   clamp s pos  3 (1000 pairs): hit none 0.000 full 0.668 cB 0.083 cBo 0.067 cD 0.152 cR 0.000 | kept none 1.00 full 0.02 cB 0.14 cBo 0.21 cD 0.05 cR 0.99 | cBo - cR +0.067 [+0.049, +0.088] -\u003e UNCLEAR\n"}
+,{"stream_name":"stdout","time":1311.689561803,"data":"[gpu1]   share k6 p6    N 0.081  Rbar 0.034  lift +0.046  D+ +0.019  D- -0.018  I +0.000 [-0.000, +0.001]  I/N +0.00  -\u003e DOES-NOT-FOLLOW\n"}
+,{"stream_name":"stdout","time":1322.609123595,"data":"[gpu1]   clamp s pos  6 (1000 pairs): hit none 0.000 full 0.000 cB 0.001 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 0.97 cB 0.96 cBo 0.99 cD 1.00 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":1327.701568645,"data":"[gpu1]   share k6 p9    N 0.080  Rbar 0.034  lift +0.045  D+ +0.018  D- -0.017  I +0.000 [-0.000, +0.001]  I/N +0.00  -\u003e DOES-NOT-FOLLOW\n"}
+,{"stream_name":"stdout","time":1339.290460571,"data":"[gpu1]   clamp s pos  9 (1000 pairs): hit none 0.000 full 0.001 cB 0.003 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 0.69 cB 0.85 cBo 0.81 cD 0.99 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":1344.489331488,"data":"[gpu1]   share k6 p10   N 0.009  Rbar 0.002  lift +0.006  D+ +0.003  D- -0.002  I +0.000 [-0.001, +0.001]  I/N +0.04  -\u003e UNCLEAR\n"}
+,{"stream_name":"stdout","time":1355.140615938,"data":"[gpu1]   clamp s pos 10 (1000 pairs): hit none 0.000 full 0.022 cB 0.000 cBo 0.000 cD 0.006 cR 0.000 | kept none 1.00 full 0.37 cB 1.00 cBo 1.00 cD 0.79 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":1360.831468299,"data":"[gpu1]   share k6 p11   N 0.006  Rbar -0.000  lift +0.006  D+ +0.003  D- -0.003  I -0.000 [-0.001, +0.000]  I/N -0.02  -\u003e DOES-NOT-FOLLOW\n"}
+,{"stream_name":"stdout","time":1371.389023484,"data":"[gpu1]   clamp s pos 11 (1000 pairs): hit none 0.000 full 0.994 cB 0.002 cBo 0.000 cD 0.014 cR 0.000 | kept none 1.00 full 0.00 cB 0.92 cBo 1.00 cD 0.77 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e NOT-USED\n"}
+,{"stream_name":"stdout","time":1371.964506559,"data":"[gpu1]   seed 3 k 0: 12000 items, correct 0.9843\n"}
+,{"stream_name":"stdout","time":1377.6597362,"data":"[gpu1]   share k0 p9    N 0.064  Rbar 0.036  lift +0.027  D+ +0.023  D- -0.024  I -0.000 [-0.001, +0.000]  I/N -0.01  -\u003e DOES-NOT-FOLLOW\n"}
+,{"stream_name":"stdout","time":1388.075587818,"data":"[gpu1]   clamp s pos  9 (1000 pairs): hit none 0.000 full 0.699 cB 0.043 cBo 0.045 cD 0.136 cR 0.000 | kept none 1.00 full 0.02 cB 0.35 cBo 0.40 cD 0.06 cR 1.00 | cBo - cR +0.045 [+0.030, +0.062] -\u003e UNCLEAR\n"}
+,{"stream_name":"stdout","time":1393.190315844,"data":"[gpu1]   share k0 p10   N 0.011  Rbar 0.004  lift +0.007  D+ +0.004  D- -0.005  I -0.000 [-0.001, +0.001]  I/N -0.04  -\u003e DOES-NOT-FOLLOW\n"}
+,{"stream_name":"stdout","time":1403.541837754,"data":"[gpu1]   clamp s pos 10 (1000 pairs): hit none 0.000 full 0.089 cB 0.000 cBo 0.000 cD 0.010 cR 0.000 | kept none 1.00 full 0.28 cB 1.00 cBo 1.00 cD 0.77 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":1408.484222044,"data":"[gpu1]   share k0 p11   N 0.007  Rbar 0.002  lift +0.005  D+ +0.001  D- -0.002  I -0.000 [-0.001, +0.000]  I/N -0.02  -\u003e DOES-NOT-FOLLOW\n"}
+,{"stream_name":"stdout","time":1419.100470286,"data":"[gpu1]   clamp s pos 11 (1000 pairs): hit none 0.000 full 0.987 cB 0.002 cBo 0.000 cD 0.010 cR 0.000 | kept none 1.00 full 0.00 cB 0.93 cBo 1.00 cD 0.79 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e NOT-USED\n"}
+,{"stream_name":"stdout","time":1419.101212335,"data":"[gpu1]   seed 3 done in 421 s\n"}
+,{"stream_name":"stdout","time":1493.651375538,"data":"[gpu0] train std pos seed 3 | to 0.99: 10000 | final acc 0.9977 | 12000 steps, 231 s\n"}
+,{"stream_name":"stdout","time":1493.702259517,"data":"[gpu0] model pos seed 3: sha fe7a13c4e6aa5fd9 (expected fe7a13c4e6aa5fd9) | held-out 0.9977\n"}
+,{"stream_name":"stdout","time":1494.337995002,"data":"[gpu0]   seed 3 k 6: 12000 items, correct 0.9989\n"}
+,{"stream_name":"stdout","time":1499.983029436,"data":"[gpu0]   share k6 p3    N 0.463  Rbar 0.040  lift +0.424  D+ +0.437  D- +0.404  I +0.421 [+0.418, +0.423]  I/N +0.91  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":1510.64538498,"data":"[gpu0]   clamp s pos  3 (1000 pairs): hit none 0.000 full 0.957 cB 0.937 cBo 0.935 cD 0.059 cR 0.002 | kept none 1.00 full 0.01 cB 0.02 cBo 0.02 cD 0.61 cR 0.99 | cBo - cR +0.933 [+0.913, +0.951] -\u003e USED\n"}
+,{"stream_name":"stdout","time":1515.866737271,"data":"[gpu0]   share k6 p6    N 0.306  Rbar 0.039  lift +0.267  D+ +0.273  D- +0.225  I +0.249 [+0.247, +0.251]  I/N +0.81  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":1526.981540347,"data":"[gpu0]   clamp s pos  6 (1000 pairs): hit none 0.000 full 0.000 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 1.00 cB 1.00 cBo 1.00 cD 1.00 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":1532.592057248,"data":"[gpu0]   share k6 p9    N 0.313  Rbar 0.039  lift +0.274  D+ +0.280  D- +0.229  I +0.255 [+0.253, +0.256]  I/N +0.81  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":1543.383218569,"data":"[gpu0]   clamp s pos  9 (1000 pairs): hit none 0.000 full 0.000 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 1.00 cB 1.00 cBo 1.00 cD 1.00 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":1549.235660545,"data":"[gpu0]   share k6 p10   N 0.253  Rbar 0.013  lift +0.240  D+ +0.248  D- +0.236  I +0.242 [+0.241, +0.244]  I/N +0.96  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":1560.237320131,"data":"[gpu0]   clamp s pos 10 (1000 pairs): hit none 0.000 full 0.152 cB 0.081 cBo 0.078 cD 0.000 cR 0.000 | kept none 1.00 full 0.49 cB 0.60 cBo 0.60 cD 1.00 cR 1.00 | cBo - cR +0.078 [+0.058, +0.100] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":1565.376438744,"data":"[gpu0]   share k6 p11   N 0.199  Rbar 0.013  lift +0.186  D+ +0.192  D- +0.179  I +0.185 [+0.184, +0.187]  I/N +0.93  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":1575.697386421,"data":"[gpu0]   clamp s pos 11 (1000 pairs): hit none 0.000 full 0.998 cB 0.036 cBo 0.033 cD 0.000 cR 0.000 | kept none 1.00 full 0.00 cB 0.81 cBo 0.81 cD 1.00 cR 1.00 | cBo - cR +0.033 [+0.021, +0.047] -\u003e UNCLEAR\n"}
+,{"stream_name":"stdout","time":1576.241597182,"data":"[gpu0]   seed 3 k 0: 12000 items, correct 0.9987\n"}
+,{"stream_name":"stdout","time":1581.233449365,"data":"[gpu0]   share k0 p9    N 0.465  Rbar 0.041  lift +0.423  D+ +0.435  D- +0.407  I +0.421 [+0.418, +0.424]  I/N +0.91  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":1592.847139878,"data":"[gpu0]   clamp s pos  9 (1000 pairs): hit none 0.000 full 0.967 cB 0.921 cBo 0.912 cD 0.080 cR 0.000 | kept none 1.00 full 0.01 cB 0.02 cBo 0.03 cD 0.58 cR 0.99 | cBo - cR +0.912 [+0.889, +0.934] -\u003e USED\n"}
+,{"stream_name":"stdout","time":1597.885116457,"data":"[gpu0]   share k0 p10   N 0.247  Rbar 0.012  lift +0.235  D+ +0.245  D- +0.234  I +0.240 [+0.238, +0.241]  I/N +0.97  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":1609.285718471,"data":"[gpu0]   clamp s pos 10 (1000 pairs): hit none 0.000 full 0.193 cB 0.091 cBo 0.091 cD 0.000 cR 0.000 | kept none 1.00 full 0.45 cB 0.59 cBo 0.59 cD 1.00 cR 1.00 | cBo - cR +0.091 [+0.072, +0.109] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":1614.490185247,"data":"[gpu0]   share k0 p11   N 0.197  Rbar 0.013  lift +0.184  D+ +0.189  D- +0.179  I +0.184 [+0.182, +0.185]  I/N +0.93  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":1625.459267656,"data":"[gpu0]   clamp s pos 11 (1000 pairs): hit none 0.000 full 0.999 cB 0.036 cBo 0.035 cD 0.000 cR 0.000 | kept none 1.00 full 0.00 cB 0.82 cBo 0.82 cD 1.00 cR 1.00 | cBo - cR +0.035 [+0.023, +0.048] -\u003e UNCLEAR\n"}
+,{"stream_name":"stdout","time":1625.460005914,"data":"[gpu0]   seed 3 done in 362 s\n"}
+,{"stream_name":"stdout","time":1629.9882744,"data":"[gpu1] train std neg seed 4 | to 0.99: 9000 | final acc 0.9897 | 11000 steps, 210 s\n"}
+,{"stream_name":"stdout","time":1630.048535445,"data":"[gpu1] model neg seed 4: sha 81c546052eeb2241 (expected -) | held-out 0.9897\n"}
+,{"stream_name":"stdout","time":1630.690200774,"data":"[gpu1]   seed 4 k 6: 12000 items, correct 0.9903\n"}
+,{"stream_name":"stdout","time":1635.713038349,"data":"[gpu1]   share k6 p3    N 0.052  Rbar 0.037  lift +0.015  D+ +0.017  D- -0.017  I +0.000 [-0.000, +0.001]  I/N +0.01  -\u003e DOES-NOT-FOLLOW\n"}
+,{"stream_name":"stdout","time":1646.148632419,"data":"[gpu1]   clamp s pos  3 (1000 pairs): hit none 0.000 full 0.948 cB 0.017 cBo 0.011 cD 0.163 cR 0.000 | kept none 1.00 full 0.00 cB 0.79 cBo 0.84 cD 0.11 cR 1.00 | cBo - cR +0.011 [+0.004, +0.020] -\u003e NOT-USED\n"}
+,{"stream_name":"stdout","time":1651.835033907,"data":"[gpu1]   share k6 p6    N 0.055  Rbar 0.038  lift +0.017  D+ +0.010  D- -0.009  I +0.000 [-0.000, +0.001]  I/N +0.01  -\u003e DOES-NOT-FOLLOW\n"}
+,{"stream_name":"stdout","time":1662.939631384,"data":"[gpu1]   clamp s pos  6 (1000 pairs): hit none 0.000 full 0.000 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 1.00 cB 1.00 cBo 1.00 cD 1.00 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":1668.055518385,"data":"[gpu1]   share k6 p9    N 0.055  Rbar 0.037  lift +0.018  D+ +0.010  D- -0.009  I +0.000 [-0.000, +0.001]  I/N +0.01  -\u003e DOES-NOT-FOLLOW\n"}
+,{"stream_name":"stdout","time":1678.446460181,"data":"[gpu1]   clamp s pos  9 (1000 pairs): hit none 0.000 full 0.000 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 1.00 cB 1.00 cBo 1.00 cD 1.00 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":1683.632898275,"data":"[gpu1]   share k6 p10   N 0.012  Rbar 0.011  lift +0.001  D+ +0.004  D- -0.003  I +0.000 [-0.001, +0.001]  I/N +0.03  -\u003e UNCLEAR\n"}
+,{"stream_name":"stdout","time":1694.215498976,"data":"[gpu1]   clamp s pos 10 (1000 pairs): hit none 0.000 full 0.316 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 0.20 cB 1.00 cBo 1.00 cD 1.00 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e NOT-USED\n"}
+,{"stream_name":"stdout","time":1699.203802883,"data":"[gpu1]   share k6 p11   N 0.013  Rbar 0.013  lift +0.001  D+ +0.004  D- -0.003  I +0.000 [-0.001, +0.001]  I/N +0.03  -\u003e UNCLEAR\n"}
+,{"stream_name":"stdout","time":1709.547652173,"data":"[gpu1]   clamp s pos 11 (1000 pairs): hit none 0.000 full 0.990 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 0.00 cB 1.00 cBo 1.00 cD 1.00 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e NOT-USED\n"}
+,{"stream_name":"stdout","time":1710.117201672,"data":"[gpu1]   seed 4 k 0: 12000 items, correct 0.9893\n"}
+,{"stream_name":"stdout","time":1715.463146718,"data":"[gpu1]   share k0 p9    N 0.052  Rbar 0.037  lift +0.015  D+ +0.015  D- -0.015  I -0.000 [-0.001, +0.000]  I/N -0.00  -\u003e DOES-NOT-FOLLOW\n"}
+,{"stream_name":"stdout","time":1726.13892324,"data":"[gpu1]   clamp s pos  9 (1000 pairs): hit none 0.000 full 0.953 cB 0.074 cBo 0.055 cD 0.181 cR 0.000 | kept none 1.00 full 0.00 cB 0.40 cBo 0.45 cD 0.08 cR 0.99 | cBo - cR +0.055 [+0.036, +0.076] -\u003e UNCLEAR\n"}
+,{"stream_name":"stdout","time":1731.110350053,"data":"[gpu1]   share k0 p10   N 0.012  Rbar 0.011  lift +0.001  D+ +0.005  D- -0.005  I -0.000 [-0.001, +0.001]  I/N -0.01  -\u003e DOES-NOT-FOLLOW\n"}
+,{"stream_name":"stdout","time":1742.987187503,"data":"[gpu1]   clamp s pos 10 (1000 pairs): hit none 0.000 full 0.339 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 0.21 cB 1.00 cBo 1.00 cD 1.00 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e NOT-USED\n"}
+,{"stream_name":"stdout","time":1747.950876824,"data":"[gpu1]   share k0 p11   N 0.012  Rbar 0.012  lift +0.000  D+ +0.003  D- -0.005  I -0.001 [-0.002, +0.000]  I/N -0.07  -\u003e DOES-NOT-FOLLOW\n"}
+,{"stream_name":"stdout","time":1757.777138073,"data":"[gpu1]   clamp s pos 11 (1000 pairs): hit none 0.000 full 0.997 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 0.00 cB 1.00 cBo 1.00 cD 1.00 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e NOT-USED\n"}
+,{"stream_name":"stdout","time":1757.77777741,"data":"[gpu1]   seed 4 done in 338 s\n"}
+,{"stream_name":"stdout","time":1806.069825159,"data":"[gpu0] train std pos seed 4 | to 0.99: 7000 | final acc 1.0000 | 9000 steps, 180 s\n"}
+,{"stream_name":"stdout","time":1806.118719951,"data":"[gpu0] model pos seed 4: sha 017e54b930608bae (expected 017e54b930608bae) | held-out 1.0000\n"}
+,{"stream_name":"stdout","time":1806.764872854,"data":"[gpu0]   seed 4 k 6: 12000 items, correct 1.0000\n"}
+,{"stream_name":"stdout","time":1811.030377745,"data":"[gpu0]   share k6 p3    N 0.384  Rbar 0.038  lift +0.347  D+ +0.347  D- +0.276  I +0.312 [+0.309, +0.314]  I/N +0.81  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":1820.036792617,"data":"[gpu0]   clamp s pos  3 (1000 pairs): hit none 0.000 full 0.989 cB 0.978 cBo 0.974 cD 0.076 cR 0.000 | kept none 1.00 full 0.00 cB 0.00 cBo 0.01 cD 0.64 cR 1.00 | cBo - cR +0.974 [+0.960, +0.986] -\u003e USED\n"}
+,{"stream_name":"stdout","time":1824.374974345,"data":"[gpu0]   share k6 p6    N 0.346  Rbar 0.037  lift +0.309  D+ +0.248  D- +0.241  I +0.245 [+0.241, +0.249]  I/N +0.71  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":1833.381435213,"data":"[gpu0]   clamp s pos  6 (1000 pairs): hit none 0.000 full 0.000 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 1.00 cB 1.00 cBo 1.00 cD 1.00 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":1837.39108816,"data":"[gpu0]   share k6 p9    N 0.363  Rbar 0.037  lift +0.326  D+ +0.261  D- +0.256  I +0.258 [+0.254, +0.262]  I/N +0.71  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":1846.106969966,"data":"[gpu0]   clamp s pos  9 (1000 pairs): hit none 0.000 full 0.000 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 1.00 cB 1.00 cBo 1.00 cD 1.00 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":1850.294080199,"data":"[gpu0]   share k6 p10   N 0.167  Rbar 0.009  lift +0.158  D+ +0.142  D- +0.139  I +0.140 [+0.138, +0.143]  I/N +0.84  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":1858.944991564,"data":"[gpu0]   clamp s pos 10 (1000 pairs): hit none 0.000 full 0.000 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 1.00 cB 1.00 cBo 1.00 cD 1.00 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":1863.184716568,"data":"[gpu0]   share k6 p11   N 0.166  Rbar 0.011  lift +0.155  D+ +0.130  D- +0.123  I +0.127 [+0.125, +0.129]  I/N +0.76  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":1871.996475982,"data":"[gpu0]   clamp s pos 11 (1000 pairs): hit none 0.000 full 1.000 cB 0.023 cBo 0.022 cD 0.000 cR 0.000 | kept none 1.00 full 0.00 cB 0.83 cBo 0.84 cD 1.00 cR 1.00 | cBo - cR +0.022 [+0.013, +0.033] -\u003e UNCLEAR\n"}
+,{"stream_name":"stdout","time":1872.555679308,"data":"[gpu0]   seed 4 k 0: 12000 items, correct 1.0000\n"}
+,{"stream_name":"stdout","time":1876.66219305,"data":"[gpu0]   share k0 p9    N 0.383  Rbar 0.039  lift +0.344  D+ +0.345  D- +0.270  I +0.308 [+0.305, +0.310]  I/N +0.80  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":1885.438329039,"data":"[gpu0]   clamp s pos  9 (1000 pairs): hit none 0.000 full 0.993 cB 0.981 cBo 0.978 cD 0.075 cR 0.000 | kept none 1.00 full 0.00 cB 0.01 cBo 0.01 cD 0.60 cR 1.00 | cBo - cR +0.978 [+0.967, +0.988] -\u003e USED\n"}
+,{"stream_name":"stdout","time":1889.633996012,"data":"[gpu0]   share k0 p10   N 0.174  Rbar 0.010  lift +0.163  D+ +0.153  D- +0.137  I +0.145 [+0.142, +0.147]  I/N +0.83  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":1898.473673724,"data":"[gpu0]   clamp s pos 10 (1000 pairs): hit none 0.000 full 0.000 cB 0.000 cBo 0.000 cD 0.000 cR 0.000 | kept none 1.00 full 1.00 cB 1.00 cBo 1.00 cD 1.00 cR 1.00 | cBo - cR +0.000 [+0.000, +0.000] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":1902.606356959,"data":"[gpu0]   share k0 p11   N 0.166  Rbar 0.012  lift +0.154  D+ +0.134  D- +0.119  I +0.126 [+0.125, +0.128]  I/N +0.76  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":1911.485440707,"data":"[gpu0]   clamp s pos 11 (1000 pairs): hit none 0.000 full 1.000 cB 0.020 cBo 0.019 cD 0.000 cR 0.000 | kept none 1.00 full 0.00 cB 0.84 cBo 0.86 cD 1.00 cR 1.00 | cBo - cR +0.019 [+0.010, +0.030] -\u003e UNCLEAR\n"}
+,{"stream_name":"stdout","time":1911.486219921,"data":"[gpu0]   seed 4 done in 286 s\n"}
+,{"stream_name":"stdout","time":1912.280785583,"data":"exit codes [0, 0]\n"}
+,{"stream_name":"stderr","time":1914.685383591,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1914.685415487,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1915.036901436,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1915.036928019,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1915.988255521,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1917.151251008,"data":"[NbConvertApp] Writing 315676 bytes to __results__.html\n"}
+]

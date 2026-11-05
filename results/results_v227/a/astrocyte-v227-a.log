@@ -1,0 +1,28 @@
+[{"stream_name":"stdout","time":1.133527043,"data":"v215_pilot.py d049a0b2d81fb80b\n"}
+,{"stream_name":"stdout","time":1.133653308,"data":"v215_items.py 9249f0523d7219eb\n"}
+,{"stream_name":"stdout","time":1.133753103,"data":"v221_items.py 2b6bd412a702ccc4\n"}
+,{"stream_name":"stdout","time":1.133902216,"data":"v222_items.py b5813a4fb56ef4f8\n"}
+,{"stream_name":"stdout","time":1.134044195,"data":"v224_items.py 14087b6369b3ce8e\n"}
+,{"stream_name":"stdout","time":1.134259577,"data":"v227_run.py 628ae41f0f2ece2e\n"}
+,{"stream_name":"stdout","time":1.13456395,"data":"v178_analyze.py 90bbc8a848dc5544\n"}
+,{"stream_name":"stdout","time":1.134957351,"data":"v224_share.py 2b0bc8868d13b00e\n"}
+,{"stream_name":"stdout","time":1.136630951,"data":"=== v227_run.py ['analyse', '/kaggle/input'] {}\n"}
+,{"stream_name":"stdout","time":3.037947095,"data":"TAU 0.30 (v224, frozen); layer map {16: 18, 20: 23, 24: 27, 28: 32}\n"}
+,{"stream_name":"stdout","time":622.677969734,"data":"inb    N 0.150  Rbar 0.065  lift +0.085 [+0.079, +0.091]  D+ +0.047  D- +0.097  I +0.072 [+0.066, +0.077]  I/N +0.48  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":622.678035518,"data":"       shares: plus_S 0.148 plus_M 0.101 plus_R0 0.037 plus_R1 0.074 plus_R2 0.105 plus_R3 0.051 minus_S 0.055 minus_M 0.152 minus_R0 0.033 minus_R1 0.077 minus_R2 0.102 minus_R3 0.041 | G1 {'plus': 0.9586666666666667, 'minus': 0.8645}\n"}
+,{"stream_name":"stdout","time":677.915117555,"data":"eqb    N 0.132  Rbar 0.057  lift +0.075 [+0.067, +0.083]  D+ +0.032  D- +0.096  I +0.064 [+0.056, +0.070]  I/N +0.48  -\u003e FOLLOWS\n"}
+,{"stream_name":"stdout","time":677.915158158,"data":"       shares: plus_S 0.115 plus_M 0.083 plus_R0 0.029 plus_R1 0.058 plus_R2 0.081 plus_R3 0.039 minus_S 0.054 minus_M 0.150 minus_R0 0.030 minus_R1 0.070 minus_R2 0.116 minus_R3 0.034 | G1 {'plus': 0.9586666666666667, 'minus': 0.8645}\n"}
+,{"stream_name":"stdout","time":733.019684061,"data":"letb   N 0.036  Rbar 0.020  lift +0.016 [+0.014, +0.018]  D+ -0.011  D- +0.058  I +0.023 [+0.021, +0.026]  I/N +0.66  -\u003e UNCLEAR\n"}
+,{"stream_name":"stdout","time":733.019744857,"data":"       shares: plus_S 0.004 plus_M 0.015 plus_R0 0.005 plus_R1 0.008 plus_R2 0.017 plus_R3 0.004 minus_S 0.009 minus_M 0.067 minus_R0 0.012 minus_R1 0.029 minus_R2 0.076 minus_R3 0.006 | G1 {'plus': 0.9586666666666667, 'minus': 0.8645}\n"}
+,{"stream_name":"stdout","time":788.469063254,"data":"eq     N 0.054  Rbar 0.037  lift +0.016 [+0.015, +0.018]  D+ -0.042  D- +0.073  I +0.015 [+0.014, +0.017]  I/N +0.28  -\u003e UNCLEAR\n"}
+,{"stream_name":"stdout","time":788.469106157,"data":"       shares: plus_S 0.016 plus_M 0.058 plus_R0 0.016 plus_R1 0.030 plus_R2 0.062 plus_R3 0.014 minus_S 0.019 minus_M 0.092 minus_R0 0.023 minus_R1 0.046 minus_R2 0.093 minus_R3 0.016 | G1 {'plus': 0.9586666666666667, 'minus': 0.8645}\n"}
+,{"stream_name":"stdout","time":843.464353595,"data":"last   N 0.039  Rbar 0.021  lift +0.018 [+0.015, +0.021]  D+ -0.010  D- +0.063  I +0.027 [+0.023, +0.030]  I/N +0.69  -\u003e UNCLEAR\n"}
+,{"stream_name":"stdout","time":843.464386187,"data":"       shares: plus_S 0.004 plus_M 0.014 plus_R0 0.005 plus_R1 0.007 plus_R2 0.015 plus_R3 0.004 minus_S 0.011 minus_M 0.074 minus_R0 0.013 minus_R1 0.032 minus_R2 0.084 minus_R3 0.006 | G1 {'plus': 0.9586666666666667, 'minus': 0.8645}\n"}
+,{"stream_name":"stdout","time":843.464392155,"data":"primary inb FOLLOWS -\u003e share swap VALID (with v224: control 2 FOLLOWS, fresh nulls 0/420)\n"}
+,{"stream_name":"stderr","time":846.757067378,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":846.757106259,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":847.343167264,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":847.343212886,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":850.371769953,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":851.848361601,"data":"[NbConvertApp] Writing 311510 bytes to __results__.html\n"}
+]

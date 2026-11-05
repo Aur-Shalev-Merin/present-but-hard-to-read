@@ -1,0 +1,37 @@
+=== v222_clamp.py ['all'] {}
+v222 items sha f917c3b7da3ddc87 (frozen f917c3b7da3ddc87)
+loaded Qwen/Qwen2.5-7B in 138s
+digB token 101 '0', inA token 105 ' ', a digit '0'
+item     1/12000 (1.881 s/item) | b correct 1.000, a correct 1.000, both 1.000
+item   100/12000 (0.127 s/item) | b correct 1.000, a correct 0.960, both 0.960
+item  2000/12000 (0.110 s/item) | b correct 0.980, a correct 0.847, both 0.835
+item  4000/12000 (0.110 s/item) | b correct 0.957, a correct 0.885, both 0.848
+item  6000/12000 (0.110 s/item) | b correct 0.961, a correct 0.895, both 0.861
+item  8000/12000 (0.110 s/item) | b correct 0.937, a correct 0.896, both 0.849
+item 10000/12000 (0.110 s/item) | b correct 0.925, a correct 0.903, both 0.847
+item 12000/12000 (0.110 s/item) | b correct 0.911, a correct 0.905, both 0.837
+plus: b correct 0.909, a correct 0.919, both 0.847
+minus: b correct 0.913, a correct 0.891, both 0.827
+  digB layer 12 half 0: B vs d2-copy subspace mean cos^2 0.465 (max 0.951); orthogonalised B keeps 9 dims, share of B left 0.535
+  digB layer 12 half 1: B vs d2-copy subspace mean cos^2 0.467 (max 0.947); orthogonalised B keeps 9 dims, share of B left 0.533
+  digB layer 16 half 0: B vs d2-copy subspace mean cos^2 0.391 (max 0.914); orthogonalised B keeps 9 dims, share of B left 0.609
+  digB layer 16 half 1: B vs d2-copy subspace mean cos^2 0.388 (max 0.903); orthogonalised B keeps 9 dims, share of B left 0.612
+  digB layer 20 half 0: B vs d2-copy subspace mean cos^2 0.371 (max 0.896); orthogonalised B keeps 9 dims, share of B left 0.629
+  digB layer 20 half 1: B vs d2-copy subspace mean cos^2 0.365 (max 0.878); orthogonalised B keeps 9 dims, share of B left 0.635
+  digB layer 24 half 0: B vs d2-copy subspace mean cos^2 0.453 (max 0.919); orthogonalised B keeps 9 dims, share of B left 0.547
+  digB layer 24 half 1: B vs d2-copy subspace mean cos^2 0.440 (max 0.904); orthogonalised B keeps 9 dims, share of B left 0.560
+plan: 28 bases, 1000 pairs
+1/1000 pairs (1.20 s/pair) | hit so far: none 0.000 cB 1.000 cBo 1.000 cD 0.000 cR 0.000 full 1.000 fullall 1.000
+20/1000 pairs (0.89 s/pair) | hit so far: none 0.000 cB 0.700 cBo 0.750 cD 0.100 cR 0.000 full 0.850 fullall 0.850
+100/1000 pairs (0.88 s/pair) | hit so far: none 0.000 cB 0.760 cBo 0.780 cD 0.040 cR 0.000 full 0.840 fullall 0.860
+250/1000 pairs (0.87 s/pair) | hit so far: none 0.000 cB 0.808 cBo 0.820 cD 0.072 cR 0.000 full 0.880 fullall 0.888
+500/1000 pairs (0.87 s/pair) | hit so far: none 0.000 cB 0.830 cBo 0.824 cD 0.072 cR 0.000 full 0.878 fullall 0.880
+750/1000 pairs (0.87 s/pair) | hit so far: none 0.000 cB 0.828 cBo 0.811 cD 0.067 cR 0.000 full 0.876 fullall 0.884
+1000/1000 pairs (0.87 s/pair) | hit so far: none 0.000 cB 0.826 cBo 0.806 cD 0.070 cR 0.000 full 0.888 fullall 0.895
+digB -> a (1000 pairs): hit none 0.000 cB 0.826 cBo 0.806 cD 0.070 cR 0.000 full 0.888 fullall 0.895 | kept own A none 1.000 cB 0.111 cBo 0.120 cD 0.875 cR 1.000 full 0.068 fullall 0.064 | cBo - cR +0.8060 [+0.7651, +0.8440] -> USED (cB - cR +0.8260, descriptive)
+  a = 0+ b (190 pairs): hit none 0.000 cB 0.568 cBo 0.632 cD 0.026 cR 0.000 full 0.726 fullall 0.726
+  a = 1+ b (190 pairs): hit none 0.000 cB 0.858 cBo 0.842 cD 0.063 cR 0.000 full 0.911 fullall 0.926
+  a = 2+ b (130 pairs): hit none 0.000 cB 0.854 cBo 0.831 cD 0.069 cR 0.000 full 0.892 fullall 0.908
+  a = 7- b (137 pairs): hit none 0.000 cB 0.912 cBo 0.869 cD 0.095 cR 0.000 full 0.942 fullall 0.949
+  a = 8- b (196 pairs): hit none 0.000 cB 0.903 cBo 0.837 cD 0.102 cR 0.000 full 0.954 fullall 0.959
+  a = 9- b (157 pairs): hit none 0.000 cB 0.904 cBo 0.860 cD 0.070 cR 0.000 full 0.924 fullall 0.924

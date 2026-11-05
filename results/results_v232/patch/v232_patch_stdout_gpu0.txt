@@ -1,0 +1,32 @@
+A new version of the following files was downloaded from https://huggingface.co/ByteDance/Ouro-1.4B:
+- configuration_ouro.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+A new version of the following files was downloaded from https://huggingface.co/ByteDance/Ouro-1.4B:
+- modeling_ouro.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793733648.113753      33 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+Generating train split:   0%|          | 0/7473 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 7473/7473 [00:00<00:00, 77585.97 examples/s]
+Generating test split:   0%|          | 0/1319 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 1319/1319 [00:00<00:00, 289118.73 examples/s]
+   1/1000 72s | plus none 6 N 6 F 6 rand 6 full 6 Nsb 6 fullsb 6 btok 0 | own 6 target 0 target_b 0
+  51/1000 568s | plus none 9 N 9 F 9 rand 9 full 9 Nsb 9 fullsb 9 btok 4 | own 9 target 7 target_b 4
+ 101/1000 1070s | plus none 1 N 1 F 1 rand 1 full 1 Nsb 1 fullsb 1 btok 4 | own 1 target 7 target_b 4
+ 151/1000 1572s | plus none 4 N 4 F 4 rand 4 full 4 Nsb 4 fullsb 4 btok 8 | own 4 target 0 target_b 8
+ 201/1000 2075s | plus none 8 N 8 F 8 rand 8 full 8 Nsb 8 fullsb 8 btok 7 | own 8 target 2 target_b 7
+ 251/1000 2581s | plus none 2 N 2 F 2 rand 2 full 2 Nsb 2 fullsb 2 btok 0 | own 2 target 4 target_b 0
+ 301/1000 3089s | plus none 6 N 6 F 6 rand 6 full 6 Nsb 6 fullsb 6 btok 7 | own 6 target 8 target_b 7
+ 351/1000 3599s | plus none 0 N 0 F 0 rand 0 full 0 Nsb 0 fullsb 0 btok 9 | own 0 target 6 target_b 9
+ 401/1000 4100s | plus none 7 N 7 F 7 rand 7 full 7 Nsb 7 fullsb 7 btok 0 | own 7 target 3 target_b 0
+ 451/1000 4605s | plus none 4 N 4 F 4 rand 4 full 4 Nsb 4 fullsb 4 btok 4 | own 4 target 0 target_b 4
+ 501/1000 5105s | plus none 2 N 2 F 2 rand 2 full 2 Nsb 2 fullsb 2 btok 0 | own 2 target 6 target_b 0
+ 551/1000 5608s | plus none 4 N 4 F 4 rand 4 full 4 Nsb 4 fullsb 4 btok 9 | own 4 target 0 target_b 9
+ 601/1000 6112s | plus none 6 N 6 F 6 rand 6 full 6 Nsb 6 fullsb 6 btok 3 | own 6 target 8 target_b 3
+ 651/1000 6613s | plus none 5 N 5 F 5 rand 5 full 5 Nsb 5 fullsb 5 btok 5 | own 5 target 9 target_b 5
+ 701/1000 7114s | plus none 2 N 2 F 2 rand 2 full 2 Nsb 2 fullsb 2 btok 5 | own 2 target 0 target_b 5
+ 751/1000 7616s | plus none 4 N 4 F 4 rand 4 full 4 Nsb 4 fullsb 4 btok 2 | own 4 target 0 target_b 2
+ 801/1000 8117s | plus none 7 N 7 F 7 rand 7 full 7 Nsb 7 fullsb 7 btok 4 | own 7 target 9 target_b 4
+ 851/1000 8617s | plus none 5 N 5 F 5 rand 5 full 5 Nsb 5 fullsb 5 btok 3 | own 5 target 9 target_b 3
+ 901/1000 9117s | plus none 7 N 7 F 7 rand 7 full 7 Nsb 7 fullsb 7 btok 0 | own 7 target 1 target_b 0
+ 951/1000 9620s | plus none 9 N 9 F 9 rand 9 full 9 Nsb 9 fullsb 9 btok 1 | own 9 target 3 target_b 1
+1000/1000 10113s | plus none 3 N 3 F 3 rand 3 full 3 Nsb 3 fullsb 3 btok 0 | own 3 target 7 target_b 0
+done 10112s, 1000 pairs
