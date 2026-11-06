@@ -71,6 +71,7 @@ sections refer to the current version (Appendix F lists the status of every anal
 | v232 | Ouro: a running total at the end of b's sentence, before c is read (share swap with a design-matched null; clamp with the copies projected out) | `preregs/prereg_v232_*` | in the prereg | `v232_sb.py` (with `v199_patch.py`) | `results_v232/` | 6, App. C.3 |
 | v233 | Clamp power for the form used on Kudo et al. (class means projected off the copies) in v231's degraded-fitting design | `preregs/prereg_v233_*` | in the prereg | `v233_kudo_power.py` (with `v231_power.py`) | `results_v233/` | 7, App. E |
 | post hoc | Ouro's patches and clamps (v194, v209) against the random subspace alone | none (post hoc, after v231) | output only | `posthoc_ab_vs_rand.py` | `posthoc_ab_vs_rand.txt` | 6, App. C.3 |
+| post hoc | Quick checks after the fourth outside reviews: standard vs minimal-pair probe for the computed value in the small transformers; one-sibling minimal-pair readout (Ouro-1.4B); random-projection baseline for the share of b kept (found the chain study's share-kept definition differed; corrected in the paper and in the v233 prereg, section 9; reads the v181 states, the v216 and v221 plans and the v230 checkpoints, which are not included) | none (post hoc; rules recorded before running) | `results_docs/posthoc_quickchecks_2026-11-06.md` | `posthoc_quickchecks.py` | `results_posthoc/` | 3, 7, App. B.1, E |
 
 ## Reproducing
 

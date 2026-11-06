@@ -1,0 +1,17 @@
+C2 v215 chain     dims b 9, off 4 | left after copy projection 0.75-0.89 | after random of same dim 0.9988-0.9990 (min draw 0.9980)
+C2 v216 no chain  dims b 9, off 13 | left after copy + answer projection 0.35-0.54 | after random of same dim 0.9962-0.9966 (min draw 0.9948)
+C2 v233 small models, random subspace expectation: z 0.885, z+x 0.771 (observed 0.55-0.67 and 0.26-0.44)
+C3 last token end1: full family 0.968 | k siblings: k=0 0.109  k=1 0.810  k=2 0.909  k=4 0.939  k=9 0.967
+C3 last token end2: full family 0.947 | k siblings: k=0 0.127  k=1 0.840  k=2 0.905  k=4 0.926  k=9 0.950
+C3 last token end3: full family 0.923 | k siblings: k=0 0.146  k=1 0.785  k=2 0.866  k=4 0.905  k=9 0.923
+C3 last token end4: full family 0.926 | k siblings: k=0 0.139  k=1 0.800  k=2 0.885  k=4 0.904  k=9 0.928
+C1 seed 0 ;      (pos 3, layer 4; model accuracy 1.000): s std 1.000 / mp 1.000 | z std 0.989 / mp 0.998
+C1 seed 0 filler (pos 6, layer 4; model accuracy 1.000): s std 0.988 / mp 0.991 | z std 0.996 / mp 1.000
+C1 seed 1 ;      (pos 3, layer 4; model accuracy 0.994): s std 0.995 / mp 0.995 | z std 0.979 / mp 0.996
+C1 seed 1 filler (pos 6, layer 4; model accuracy 0.994): s std 0.983 / mp 0.982 | z std 0.979 / mp 0.999
+C1 seed 2 ;      (pos 3, layer 4; model accuracy 0.991): s std 0.993 / mp 0.993 | z std 0.976 / mp 0.998
+C1 seed 2 filler (pos 6, layer 4; model accuracy 0.991): s std 0.859 / mp 0.941 | z std 0.988 / mp 1.000
+C1 seed 3 ;      (pos 3, layer 4; model accuracy 0.999): s std 0.997 / mp 0.997 | z std 0.978 / mp 0.992
+C1 seed 3 filler (pos 6, layer 4; model accuracy 0.999): s std 0.991 / mp 0.992 | z std 0.980 / mp 1.000
+C1 seed 4 ;      (pos 3, layer 4; model accuracy 1.000): s std 0.998 / mp 0.998 | z std 0.981 / mp 0.996
+C1 seed 4 filler (pos 6, layer 4; model accuracy 1.000): s std 0.977 / mp 0.981 | z std 0.976 / mp 1.000

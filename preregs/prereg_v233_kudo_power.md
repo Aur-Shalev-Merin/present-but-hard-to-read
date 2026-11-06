@@ -132,3 +132,12 @@ NOT-USED and UNCLEAR clamp results say little. The paper reports both: the secon
 leaves 0.55-0.67, the upper part of the chain study's 0.43-0.64) has power down to 0.005; the primary arm (0.26-0.44,
 overlapping the no-chain study's 0.35-0.54 at its lower end) has none even at full strength in two of five models.
 Prediction recorded at the freeze: POWER 50 / LIMIT 25 / UNINFORMATIVE 25; outcome UNINFORMATIVE (primary).
+
+## 9. Post hoc correction (2026-11-06; `docs/posthoc_quickchecks_2026-11-06.md`, C2)
+
+The range "Kudo's clamps kept 0.35-0.64" in sections 1, 2 and 8 combined two definitions of the share of b left:
+v216's (no chain, 0.35-0.54) is ||U - QQ^T U||^2 / dim(U), the definition this study uses; v215's (chain, reported as
+0.43-0.64) is the mean of 1 - cos^2 over the copy's four principal angles, which overstates the loss. On this study's
+definition the chain clamps keep 0.75-0.85. So the no-chain clamps sit in the range of the primary (zx) arm, which
+had no power, and the chain clamps keep more of b than the secondary (z) arm, which had power down to 0.005. The
+pre-registered reading (UNINFORMATIVE, primary) is unchanged as the recorded label; this split by setting is post hoc.
