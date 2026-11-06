@@ -1,0 +1,6 @@
+  clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.942 cB 0.940 cX 0.779 cR 0.014 | stat +0.926 [+0.904, +0.946] -> USED
+  clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.942 cB 0.940 cBo 0.905 cD 0.486 cR 0.014 | left 0.74 | stat +0.891 [+0.867, +0.912] -> USED
+KNOWN 1 (kudo cB = v231 ouro cB: 0.940 vs 0.940; full 0.942 vs 0.942): PASS
+  clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.942 cB 0.940 cBo 0.724 cD 0.863 cR 0.014 | left 0.51 | stat +0.710 [+0.681, +0.740] -> USED
+KNOWN 2 (z: cBo orthogonal to cD: max |cos| 5.4e-07; dims kept [22]; share of s left 0.74): PASS
+KNOWN 2 (zx: cBo orthogonal to cD: max |cos| 1.6e-06; dims kept [22]; share of s left 0.51): PASS

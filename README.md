@@ -69,6 +69,7 @@ sections refer to the current version (Appendix F lists the status of every anal
 | v230 | An unwritten, used value in small transformers trained from scratch (ground truth from DAS): clamp and share swap; post hoc class-mean clamp and readability check | `preregs/prereg_v230_*` | in the prereg (design: `results_docs/v230_design.md`) | `v230_*` | `results_v230/` | 5, App. E |
 | v231 | Clamp power as the value gets as faint as Ouro's | `preregs/prereg_v231_*` | in the prereg (design: `results_docs/v231_design.md`) | `v231_power.py` | `results_v231/` | 6, App. E |
 | v232 | Ouro: a running total at the end of b's sentence, before c is read (share swap with a design-matched null; clamp with the copies projected out) | `preregs/prereg_v232_*` | in the prereg | `v232_sb.py` (with `v199_patch.py`) | `results_v232/` | 6, App. C.3 |
+| v233 | Clamp power for the form used on Kudo et al. (class means projected off the copies) in v231's degraded-fitting design | `preregs/prereg_v233_*` | in the prereg | `v233_kudo_power.py` (with `v231_power.py`) | `results_v233/` | 7, App. E |
 | post hoc | Ouro's patches and clamps (v194, v209) against the random subspace alone | none (post hoc, after v231) | output only | `posthoc_ab_vs_rand.py` | `posthoc_ab_vs_rand.txt` | 6, App. C.3 |
 
 ## Reproducing
@@ -78,7 +79,8 @@ sections refer to the current version (Appendix F lists the status of every anal
   the builders name the account the runs used; change them to your own. Kernels install `transformers==4.54.1` and
   `datasets`; Ouro-1.4B, Ouro-2.6B, Qwen2.5-1.5B, Qwen2.5-7B and Mistral-7B-v0.1 are downloaded from Hugging Face.
   The small transformers of v220, v230 and v231 are trained inside their kernels; their checkpoints are not included
-  (v230 checks each retrained model against the checkpoint hashes in its prereg).
+  (v230 checks each retrained model against the checkpoint hashes in its prereg; v233 reads v231's kernel output and
+  checks the same hashes).
 - **Analyses** are plain Python on the downloaded outputs (`python code/vNNN_analyze.py <dir>`), and each prereg says
   which command produced its RESULT section. The probes use scikit-learn.
 - **Post hoc check of Ouro's patches against random:** `python code/posthoc_ab_vs_rand.py` reads `results/results_v194`

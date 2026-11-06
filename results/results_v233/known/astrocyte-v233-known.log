@@ -1,0 +1,20 @@
+[{"stream_name":"stdout","time":1.468536405,"data":"v220_train.py 6fbfc35236c2376d\n"}
+,{"stream_name":"stdout","time":1.475290225,"data":"v230_pilot.py a5ba00309f35d1ab\n"}
+,{"stream_name":"stdout","time":1.4755805739999999,"data":"v230_protocol.py 0c6be76ba6e14a38\n"}
+,{"stream_name":"stdout","time":1.475594174,"data":"v178_analyze.py 90bbc8a848dc5544\n"}
+,{"stream_name":"stdout","time":1.476167475,"data":"v231_power.py 376b13d56fcfe043\n"}
+,{"stream_name":"stdout","time":1.476225854,"data":"v233_kudo_power.py 279eed05a8e37853\n"}
+,{"stream_name":"stdout","time":28.280642055,"data":"[known]   clamp ouro pos 3 (1000 pairs): hit none 0.000 full 0.942 cB 0.940 cX 0.779 cR 0.014 | stat +0.926 [+0.904, +0.946] -\u003e USED\n"}
+,{"stream_name":"stdout","time":34.598647062,"data":"[known]   clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.942 cB 0.940 cBo 0.905 cD 0.486 cR 0.014 | left 0.74 | stat +0.891 [+0.867, +0.912] -\u003e USED\n"}
+,{"stream_name":"stdout","time":34.598792031,"data":"[known] KNOWN 1 (kudo cB = v231 ouro cB: 0.940 vs 0.940; full 0.942 vs 0.942): PASS\n"}
+,{"stream_name":"stdout","time":41.414782213,"data":"[known]   clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.942 cB 0.940 cBo 0.724 cD 0.863 cR 0.014 | left 0.51 | stat +0.710 [+0.681, +0.740] -\u003e USED\n"}
+,{"stream_name":"stdout","time":41.415009873,"data":"[known] KNOWN 2 (z: cBo orthogonal to cD: max |cos| 5.4e-07; dims kept [22]; share of s left 0.74): PASS\n"}
+,{"stream_name":"stdout","time":41.415028973,"data":"[known] KNOWN 2 (zx: cBo orthogonal to cD: max |cos| 1.6e-06; dims kept [22]; share of s left 0.51): PASS\n"}
+,{"stream_name":"stdout","time":42.370883424,"data":"exit codes [0]\n"}
+,{"stream_name":"stderr","time":45.667422813,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":45.667501373,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":46.306452053,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":46.306554403,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":47.3894874,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":49.343689261,"data":"[NbConvertApp] Writing 334880 bytes to __results__.html\n"}
+]

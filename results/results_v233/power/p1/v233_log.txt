@@ -1,0 +1,168 @@
+seed 1: 12000 items, correct 0.9917
+dose None  None  native  clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.799 cBo 0.164 cD 0.792 cR 0.045 | left 0.38 | stat +0.119 [+0.092, +0.147] -> USED
+dose None  None  native  clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.799 cBo 0.600 cD 0.551 cR 0.045 | left 0.68 | stat +0.555 [+0.523, +0.587] -> USED
+dose None  None  kudo    clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.795 cBo 0.055 cD 0.800 cR 0.045 | left 0.29 | stat +0.010 [-0.008, +0.030] -> UNCLEAR
+dose None  None  kudo    clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.795 cBo 0.410 cD 0.686 cR 0.045 | left 0.58 | stat +0.365 [+0.333, +0.398] -> USED
+dose 0.1 iso: realised share by layer 0.1001 0.1000 0.0998 0.1000 0.0998
+dose 0.1   iso   native  clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.792 cBo 0.385 cD 0.759 cR 0.045 | left 0.54 | stat +0.340 [+0.309, +0.371] -> USED
+dose 0.1   iso   native  clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.792 cBo 0.651 cD 0.501 cR 0.045 | left 0.73 | stat +0.606 [+0.573, +0.640] -> USED
+dose 0.1   iso   kudo    clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.758 cBo 0.313 cD 0.759 cR 0.045 | left 0.55 | stat +0.268 [+0.239, +0.298] -> USED
+dose 0.1   iso   kudo    clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.758 cBo 0.596 cD 0.573 cR 0.045 | left 0.72 | stat +0.551 [+0.518, +0.584] -> USED
+dose 0.1 state: realised share by layer 0.1000 0.0999 0.0999 0.1000 0.1005
+dose 0.1   state native  clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.795 cBo 0.208 cD 0.793 cR 0.045 | left 0.37 | stat +0.163 [+0.136, +0.192] -> USED
+dose 0.1   state native  clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.795 cBo 0.581 cD 0.653 cR 0.045 | left 0.66 | stat +0.536 [+0.502, +0.571] -> USED
+dose 0.1   state kudo    clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.791 cBo 0.111 cD 0.800 cR 0.045 | left 0.32 | stat +0.066 [+0.045, +0.089] -> UNCLEAR
+dose 0.1   state kudo    clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.791 cBo 0.452 cD 0.739 cR 0.045 | left 0.59 | stat +0.407 [+0.371, +0.443] -> USED
+dose 0.03 iso: realised share by layer 0.0299 0.0300 0.0299 0.0301 0.0301
+dose 0.03  iso   native  clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.763 cBo 0.518 cD 0.706 cR 0.045 | left 0.65 | stat +0.473 [+0.441, +0.506] -> USED
+dose 0.03  iso   native  clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.763 cBo 0.675 cD 0.466 cR 0.045 | left 0.79 | stat +0.630 [+0.596, +0.665] -> USED
+dose 0.03  iso   kudo    clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.724 cBo 0.423 cD 0.677 cR 0.045 | left 0.66 | stat +0.378 [+0.343, +0.413] -> USED
+dose 0.03  iso   kudo    clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.724 cBo 0.609 cD 0.428 cR 0.045 | left 0.81 | stat +0.564 [+0.531, +0.597] -> USED
+dose 0.03 state: realised share by layer 0.0301 0.0301 0.0301 0.0298 0.0299
+dose 0.03  state native  clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.793 cBo 0.190 cD 0.798 cR 0.045 | left 0.36 | stat +0.145 [+0.118, +0.175] -> USED
+dose 0.03  state native  clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.793 cBo 0.553 cD 0.718 cR 0.045 | left 0.63 | stat +0.508 [+0.477, +0.540] -> USED
+dose 0.03  state kudo    clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.795 cBo 0.085 cD 0.805 cR 0.045 | left 0.33 | stat +0.040 [+0.019, +0.063] -> UNCLEAR
+dose 0.03  state kudo    clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.795 cBo 0.401 cD 0.765 cR 0.045 | left 0.59 | stat +0.356 [+0.319, +0.393] -> USED
+dose 0.01 iso: realised share by layer 0.0100 0.0100 0.0099 0.0101 0.0099
+dose 0.01  iso   native  clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.739 cBo 0.566 cD 0.653 cR 0.045 | left 0.71 | stat +0.521 [+0.489, +0.554] -> USED
+dose 0.01  iso   native  clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.739 cBo 0.667 cD 0.389 cR 0.045 | left 0.84 | stat +0.622 [+0.588, +0.655] -> USED
+dose 0.01  iso   kudo    clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.614 cBo 0.362 cD 0.596 cR 0.045 | left 0.71 | stat +0.317 [+0.285, +0.350] -> USED
+dose 0.01  iso   kudo    clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.614 cBo 0.498 cD 0.258 cR 0.045 | left 0.85 | stat +0.453 [+0.417, +0.489] -> USED
+dose 0.01 state: realised share by layer 0.0100 0.0100 0.0101 0.0099 0.0098
+dose 0.01  state native  clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.799 cBo 0.138 cD 0.798 cR 0.045 | left 0.35 | stat +0.093 [+0.068, +0.119] -> UNCLEAR
+dose 0.01  state native  clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.799 cBo 0.517 cD 0.744 cR 0.045 | left 0.61 | stat +0.472 [+0.437, +0.507] -> USED
+dose 0.01  state kudo    clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.783 cBo 0.054 cD 0.804 cR 0.045 | left 0.34 | stat +0.009 [-0.008, +0.025] -> UNCLEAR
+dose 0.01  state kudo    clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.783 cBo 0.330 cD 0.766 cR 0.045 | left 0.59 | stat +0.285 [+0.250, +0.318] -> USED
+dose 0.005 iso: realised share by layer 0.0049 0.0051 0.0049 0.0052 0.0052
+dose 0.005 iso   native  clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.702 cBo 0.537 cD 0.602 cR 0.045 | left 0.73 | stat +0.492 [+0.459, +0.525] -> USED
+dose 0.005 iso   native  clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.702 cBo 0.632 cD 0.330 cR 0.045 | left 0.86 | stat +0.587 [+0.553, +0.621] -> USED
+dose 0.005 iso   kudo    clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.416 cBo 0.231 cD 0.489 cR 0.045 | left 0.72 | stat +0.186 [+0.160, +0.213] -> USED
+dose 0.005 iso   kudo    clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.416 cBo 0.310 cD 0.157 cR 0.045 | left 0.86 | stat +0.265 [+0.236, +0.295] -> USED
+dose 0.005 state: realised share by layer 0.0049 0.0051 0.0049 0.0050 0.0050
+dose 0.005 state native  clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.792 cBo 0.096 cD 0.805 cR 0.045 | left 0.35 | stat +0.051 [+0.027, +0.078] -> UNCLEAR
+dose 0.005 state native  clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.792 cBo 0.461 cD 0.757 cR 0.045 | left 0.60 | stat +0.416 [+0.382, +0.450] -> USED
+dose 0.005 state kudo    clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.772 cBo 0.041 cD 0.804 cR 0.045 | left 0.34 | stat -0.004 [-0.020, +0.012] -> NOT-USED
+dose 0.005 state kudo    clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.772 cBo 0.316 cD 0.767 cR 0.045 | left 0.59 | stat +0.271 [+0.237, +0.307] -> USED
+dose 0.002 iso: realised share by layer 0.0023 0.0023 0.0022 0.0025 0.0024
+dose 0.002 iso   native  clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.365 cBo 0.230 cD 0.480 cR 0.045 | left 0.76 | stat +0.185 [+0.158, +0.214] -> USED
+dose 0.002 iso   native  clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.365 cBo 0.301 cD 0.137 cR 0.045 | left 0.88 | stat +0.256 [+0.224, +0.287] -> USED
+dose 0.002 iso   kudo    clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.098 cBo 0.089 cD 0.362 cR 0.045 | left 0.74 | stat +0.044 [+0.026, +0.062] -> UNCLEAR
+dose 0.002 iso   kudo    clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.098 cBo 0.095 cD 0.055 cR 0.045 | left 0.87 | stat +0.050 [+0.032, +0.069] -> UNCLEAR
+dose 0.002 state: realised share by layer 0.0029 0.0030 0.0025 0.0026 0.0022
+dose 0.002 state native  clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.757 cBo 0.049 cD 0.804 cR 0.045 | left 0.35 | stat +0.004 [-0.014, +0.022] -> UNCLEAR
+dose 0.002 state native  clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.757 cBo 0.332 cD 0.768 cR 0.045 | left 0.59 | stat +0.287 [+0.253, +0.319] -> USED
+dose 0.002 state kudo    clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.755 cBo 0.032 cD 0.804 cR 0.045 | left 0.33 | stat -0.013 [-0.029, +0.002] -> NOT-USED
+dose 0.002 state kudo    clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.817 cB 0.755 cBo 0.298 cD 0.772 cR 0.045 | left 0.59 | stat +0.253 [+0.219, +0.286] -> USED
+seed 1 done in 936 s
+seed 3: 12000 items, correct 0.9989
+dose None  None  native  clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.952 cBo 0.357 cD 0.952 cR 0.044 | left 0.42 | stat +0.313 [+0.277, +0.349] -> USED
+dose None  None  native  clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.952 cBo 0.851 cD 0.784 cR 0.044 | left 0.70 | stat +0.807 [+0.777, +0.835] -> USED
+dose None  None  kudo    clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.957 cBo 0.145 cD 0.955 cR 0.044 | left 0.33 | stat +0.101 [+0.076, +0.127] -> USED
+dose None  None  kudo    clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.957 cBo 0.709 cD 0.874 cR 0.044 | left 0.60 | stat +0.665 [+0.629, +0.700] -> USED
+dose 0.1 iso: realised share by layer 0.1000 0.0999 0.1000 0.0998 0.0999
+dose 0.1   iso   native  clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.954 cBo 0.663 cD 0.928 cR 0.044 | left 0.55 | stat +0.619 [+0.579, +0.658] -> USED
+dose 0.1   iso   native  clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.954 cBo 0.897 cD 0.736 cR 0.044 | left 0.75 | stat +0.853 [+0.828, +0.878] -> USED
+dose 0.1   iso   kudo    clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.948 cBo 0.614 cD 0.935 cR 0.044 | left 0.56 | stat +0.570 [+0.530, +0.608] -> USED
+dose 0.1   iso   kudo    clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.948 cBo 0.891 cD 0.710 cR 0.044 | left 0.74 | stat +0.847 [+0.821, +0.873] -> USED
+dose 0.1 state: realised share by layer 0.1000 0.1000 0.1002 0.0999 0.1002
+dose 0.1   state native  clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.953 cBo 0.406 cD 0.955 cR 0.044 | left 0.40 | stat +0.362 [+0.325, +0.398] -> USED
+dose 0.1   state native  clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.953 cBo 0.854 cD 0.843 cR 0.044 | left 0.68 | stat +0.810 [+0.782, +0.836] -> USED
+dose 0.1   state kudo    clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.952 cBo 0.193 cD 0.951 cR 0.044 | left 0.35 | stat +0.149 [+0.119, +0.180] -> USED
+dose 0.1   state kudo    clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.952 cBo 0.733 cD 0.894 cR 0.044 | left 0.61 | stat +0.689 [+0.656, +0.720] -> USED
+dose 0.03 iso: realised share by layer 0.0301 0.0299 0.0302 0.0299 0.0300
+dose 0.03  iso   native  clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.952 cBo 0.839 cD 0.888 cR 0.044 | left 0.65 | stat +0.795 [+0.765, +0.823] -> USED
+dose 0.03  iso   native  clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.952 cBo 0.924 cD 0.621 cR 0.044 | left 0.80 | stat +0.880 [+0.856, +0.904] -> USED
+dose 0.03  iso   kudo    clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.933 cBo 0.730 cD 0.876 cR 0.044 | left 0.67 | stat +0.686 [+0.650, +0.721] -> USED
+dose 0.03  iso   kudo    clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.933 cBo 0.881 cD 0.560 cR 0.044 | left 0.81 | stat +0.837 [+0.814, +0.860] -> USED
+dose 0.03 state: realised share by layer 0.0301 0.0301 0.0304 0.0299 0.0296
+dose 0.03  state native  clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.952 cBo 0.370 cD 0.955 cR 0.044 | left 0.40 | stat +0.326 [+0.290, +0.361] -> USED
+dose 0.03  state native  clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.952 cBo 0.836 cD 0.879 cR 0.044 | left 0.66 | stat +0.792 [+0.763, +0.820] -> USED
+dose 0.03  state kudo    clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.947 cBo 0.128 cD 0.949 cR 0.044 | left 0.37 | stat +0.084 [+0.059, +0.109] -> UNCLEAR
+dose 0.03  state kudo    clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.947 cBo 0.654 cD 0.915 cR 0.044 | left 0.62 | stat +0.610 [+0.576, +0.644] -> USED
+dose 0.01 iso: realised share by layer 0.0103 0.0099 0.0101 0.0099 0.0103
+dose 0.01  iso   native  clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.945 cBo 0.871 cD 0.830 cR 0.044 | left 0.71 | stat +0.827 [+0.797, +0.855] -> USED
+dose 0.01  iso   native  clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.945 cBo 0.923 cD 0.509 cR 0.044 | left 0.84 | stat +0.879 [+0.856, +0.901] -> USED
+dose 0.01  iso   kudo    clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.811 cBo 0.556 cD 0.787 cR 0.044 | left 0.71 | stat +0.512 [+0.474, +0.549] -> USED
+dose 0.01  iso   kudo    clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.811 cBo 0.708 cD 0.337 cR 0.044 | left 0.85 | stat +0.664 [+0.635, +0.693] -> USED
+dose 0.01 state: realised share by layer 0.0101 0.0101 0.0099 0.0100 0.0099
+dose 0.01  state native  clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.949 cBo 0.294 cD 0.955 cR 0.044 | left 0.39 | stat +0.250 [+0.219, +0.281] -> USED
+dose 0.01  state native  clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.949 cBo 0.781 cD 0.886 cR 0.044 | left 0.65 | stat +0.737 [+0.705, +0.769] -> USED
+dose 0.01  state kudo    clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.931 cBo 0.079 cD 0.954 cR 0.044 | left 0.38 | stat +0.035 [+0.017, +0.054] -> UNCLEAR
+dose 0.01  state kudo    clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.931 cBo 0.526 cD 0.923 cR 0.044 | left 0.62 | stat +0.482 [+0.442, +0.524] -> USED
+dose 0.005 iso: realised share by layer 0.0053 0.0052 0.0048 0.0052 0.0052
+dose 0.005 iso   native  clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.930 cBo 0.818 cD 0.787 cR 0.044 | left 0.74 | stat +0.774 [+0.744, +0.803] -> USED
+dose 0.005 iso   native  clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.930 cBo 0.893 cD 0.411 cR 0.044 | left 0.86 | stat +0.849 [+0.825, +0.872] -> USED
+dose 0.005 iso   kudo    clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.552 cBo 0.353 cD 0.702 cR 0.044 | left 0.73 | stat +0.309 [+0.274, +0.345] -> USED
+dose 0.005 iso   kudo    clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.552 cBo 0.432 cD 0.208 cR 0.044 | left 0.86 | stat +0.388 [+0.351, +0.425] -> USED
+dose 0.005 state: realised share by layer 0.0052 0.0052 0.0051 0.0049 0.0049
+dose 0.005 state native  clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.947 cBo 0.197 cD 0.955 cR 0.044 | left 0.40 | stat +0.153 [+0.126, +0.181] -> USED
+dose 0.005 state native  clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.947 cBo 0.680 cD 0.899 cR 0.044 | left 0.64 | stat +0.636 [+0.598, +0.673] -> USED
+dose 0.005 state kudo    clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.923 cBo 0.073 cD 0.952 cR 0.044 | left 0.39 | stat +0.029 [+0.012, +0.047] -> UNCLEAR
+dose 0.005 state kudo    clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.923 cBo 0.465 cD 0.922 cR 0.044 | left 0.62 | stat +0.421 [+0.383, +0.460] -> USED
+dose 0.002 iso: realised share by layer 0.0021 0.0023 0.0021 0.0025 0.0024
+dose 0.002 iso   native  clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.453 cBo 0.310 cD 0.652 cR 0.044 | left 0.76 | stat +0.266 [+0.234, +0.299] -> USED
+dose 0.002 iso   native  clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.453 cBo 0.377 cD 0.167 cR 0.044 | left 0.88 | stat +0.333 [+0.298, +0.367] -> USED
+dose 0.002 iso   kudo    clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.127 cBo 0.087 cD 0.558 cR 0.044 | left 0.73 | stat +0.043 [+0.023, +0.065] -> UNCLEAR
+dose 0.002 iso   kudo    clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.127 cBo 0.118 cD 0.078 cR 0.044 | left 0.86 | stat +0.074 [+0.053, +0.096] -> UNCLEAR
+dose 0.002 state: realised share by layer 0.0021 0.0024 0.0028 0.0025 0.0026
+dose 0.002 state native  clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.935 cBo 0.109 cD 0.952 cR 0.044 | left 0.40 | stat +0.065 [+0.045, +0.085] -> UNCLEAR
+dose 0.002 state native  clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.935 cBo 0.529 cD 0.913 cR 0.044 | left 0.64 | stat +0.485 [+0.443, +0.526] -> USED
+dose 0.002 state kudo    clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.923 cBo 0.061 cD 0.952 cR 0.044 | left 0.38 | stat +0.017 [+0.002, +0.032] -> UNCLEAR
+dose 0.002 state kudo    clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.957 cB 0.923 cBo 0.429 cD 0.924 cR 0.044 | left 0.63 | stat +0.385 [+0.347, +0.424] -> USED
+seed 3 done in 931 s
+seed 4: 12000 items, correct 1.0000
+dose None  None  native  clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.990 cBo 0.486 cD 0.984 cR 0.119 | left 0.40 | stat +0.367 [+0.325, +0.410] -> USED
+dose None  None  native  clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.990 cBo 0.957 cD 0.666 cR 0.119 | left 0.72 | stat +0.838 [+0.813, +0.862] -> USED
+dose None  None  kudo    clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.987 cBo 0.240 cD 0.984 cR 0.119 | left 0.31 | stat +0.121 [+0.086, +0.157] -> USED
+dose None  None  kudo    clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.987 cBo 0.829 cD 0.873 cR 0.119 | left 0.62 | stat +0.710 [+0.674, +0.746] -> USED
+dose 0.1 iso: realised share by layer 0.1001 0.1000 0.0999 0.1002 0.1002
+dose 0.1   iso   native  clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.989 cBo 0.830 cD 0.976 cR 0.119 | left 0.54 | stat +0.711 [+0.677, +0.743] -> USED
+dose 0.1   iso   native  clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.989 cBo 0.962 cD 0.638 cR 0.119 | left 0.75 | stat +0.843 [+0.818, +0.867] -> USED
+dose 0.1   iso   kudo    clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.986 cBo 0.753 cD 0.970 cR 0.119 | left 0.55 | stat +0.634 [+0.595, +0.671] -> USED
+dose 0.1   iso   kudo    clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.986 cBo 0.925 cD 0.793 cR 0.119 | left 0.74 | stat +0.806 [+0.778, +0.833] -> USED
+dose 0.1 state: realised share by layer 0.0999 0.1000 0.0997 0.1001 0.1000
+dose 0.1   state native  clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.990 cBo 0.659 cD 0.982 cR 0.119 | left 0.40 | stat +0.540 [+0.501, +0.577] -> USED
+dose 0.1   state native  clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.990 cBo 0.946 cD 0.773 cR 0.119 | left 0.70 | stat +0.827 [+0.800, +0.853] -> USED
+dose 0.1   state kudo    clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.991 cBo 0.421 cD 0.987 cR 0.119 | left 0.33 | stat +0.302 [+0.265, +0.340] -> USED
+dose 0.1   state kudo    clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.991 cBo 0.907 cD 0.940 cR 0.119 | left 0.62 | stat +0.788 [+0.757, +0.818] -> USED
+dose 0.03 iso: realised share by layer 0.0300 0.0302 0.0302 0.0301 0.0298
+dose 0.03  iso   native  clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.986 cBo 0.920 cD 0.956 cR 0.119 | left 0.65 | stat +0.801 [+0.771, +0.830] -> USED
+dose 0.03  iso   native  clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.986 cBo 0.975 cD 0.619 cR 0.119 | left 0.80 | stat +0.856 [+0.832, +0.879] -> USED
+dose 0.03  iso   kudo    clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.981 cBo 0.820 cD 0.951 cR 0.119 | left 0.66 | stat +0.701 [+0.670, +0.731] -> USED
+dose 0.03  iso   kudo    clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.981 cBo 0.945 cD 0.654 cR 0.119 | left 0.82 | stat +0.826 [+0.800, +0.852] -> USED
+dose 0.03 state: realised share by layer 0.0302 0.0301 0.0298 0.0298 0.0301
+dose 0.03  state native  clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.991 cBo 0.653 cD 0.984 cR 0.119 | left 0.39 | stat +0.534 [+0.499, +0.569] -> USED
+dose 0.03  state native  clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.991 cBo 0.946 cD 0.872 cR 0.119 | left 0.68 | stat +0.827 [+0.801, +0.853] -> USED
+dose 0.03  state kudo    clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.989 cBo 0.354 cD 0.985 cR 0.119 | left 0.35 | stat +0.235 [+0.203, +0.269] -> USED
+dose 0.03  state kudo    clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.989 cBo 0.894 cD 0.968 cR 0.119 | left 0.62 | stat +0.775 [+0.744, +0.804] -> USED
+dose 0.01 iso: realised share by layer 0.0100 0.0098 0.0101 0.0099 0.0100
+dose 0.01  iso   native  clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.984 cBo 0.946 cD 0.921 cR 0.119 | left 0.71 | stat +0.827 [+0.799, +0.853] -> USED
+dose 0.01  iso   native  clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.984 cBo 0.976 cD 0.564 cR 0.119 | left 0.85 | stat +0.857 [+0.832, +0.881] -> USED
+dose 0.01  iso   kudo    clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.914 cBo 0.722 cD 0.880 cR 0.119 | left 0.71 | stat +0.603 [+0.567, +0.638] -> USED
+dose 0.01  iso   kudo    clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.914 cBo 0.828 cD 0.420 cR 0.119 | left 0.85 | stat +0.709 [+0.676, +0.742] -> USED
+dose 0.01 state: realised share by layer 0.0098 0.0101 0.0102 0.0100 0.0100
+dose 0.01  state native  clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.993 cBo 0.529 cD 0.983 cR 0.119 | left 0.38 | stat +0.410 [+0.376, +0.443] -> USED
+dose 0.01  state native  clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.993 cBo 0.937 cD 0.940 cR 0.119 | left 0.66 | stat +0.818 [+0.792, +0.843] -> USED
+dose 0.01  state kudo    clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.987 cBo 0.244 cD 0.986 cR 0.119 | left 0.36 | stat +0.125 [+0.093, +0.157] -> USED
+dose 0.01  state kudo    clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.987 cBo 0.811 cD 0.976 cR 0.119 | left 0.62 | stat +0.692 [+0.653, +0.729] -> USED
+dose 0.005 iso: realised share by layer 0.0051 0.0053 0.0049 0.0050 0.0049
+dose 0.005 iso   native  clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.979 cBo 0.929 cD 0.887 cR 0.119 | left 0.74 | stat +0.810 [+0.780, +0.839] -> USED
+dose 0.005 iso   native  clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.979 cBo 0.965 cD 0.486 cR 0.119 | left 0.87 | stat +0.846 [+0.821, +0.870] -> USED
+dose 0.005 iso   kudo    clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.694 cBo 0.460 cD 0.813 cR 0.119 | left 0.72 | stat +0.341 [+0.302, +0.380] -> USED
+dose 0.005 iso   kudo    clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.694 cBo 0.580 cD 0.275 cR 0.119 | left 0.86 | stat +0.461 [+0.424, +0.499] -> USED
+dose 0.005 state: realised share by layer 0.0050 0.0048 0.0050 0.0050 0.0050
+dose 0.005 state native  clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.989 cBo 0.410 cD 0.985 cR 0.119 | left 0.38 | stat +0.291 [+0.254, +0.328] -> USED
+dose 0.005 state native  clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.989 cBo 0.896 cD 0.968 cR 0.119 | left 0.64 | stat +0.777 [+0.748, +0.806] -> USED
+dose 0.005 state kudo    clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.986 cBo 0.191 cD 0.987 cR 0.119 | left 0.36 | stat +0.072 [+0.043, +0.102] -> UNCLEAR
+dose 0.005 state kudo    clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.986 cBo 0.749 cD 0.978 cR 0.119 | left 0.62 | stat +0.630 [+0.587, +0.671] -> USED
+dose 0.002 iso: realised share by layer 0.0022 0.0024 0.0022 0.0023 0.0023
+dose 0.002 iso   native  clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.701 cBo 0.528 cD 0.791 cR 0.119 | left 0.77 | stat +0.409 [+0.368, +0.450] -> USED
+dose 0.002 iso   native  clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.701 cBo 0.616 cD 0.227 cR 0.119 | left 0.88 | stat +0.497 [+0.456, +0.536] -> USED
+dose 0.002 iso   kudo    clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.173 cBo 0.140 cD 0.681 cR 0.119 | left 0.73 | stat +0.021 [-0.004, +0.046] -> UNCLEAR
+dose 0.002 iso   kudo    clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.173 cBo 0.152 cD 0.130 cR 0.119 | left 0.86 | stat +0.033 [+0.005, +0.061] -> UNCLEAR
+dose 0.002 state: realised share by layer 0.0021 0.0024 0.0028 0.0023 0.0025
+dose 0.002 state native  clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.985 cBo 0.192 cD 0.989 cR 0.119 | left 0.38 | stat +0.073 [+0.044, +0.101] -> UNCLEAR
+dose 0.002 state native  clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.985 cBo 0.724 cD 0.976 cR 0.119 | left 0.63 | stat +0.605 [+0.564, +0.645] -> USED
+dose 0.002 state kudo    clamp kudo-zx pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.980 cBo 0.160 cD 0.989 cR 0.119 | left 0.36 | stat +0.041 [+0.012, +0.070] -> UNCLEAR
+dose 0.002 state kudo    clamp kudo-z pos 3 (1000 pairs): hit none 0.000 full 0.989 cB 0.980 cBo 0.661 cD 0.980 cR 0.119 | left 0.61 | stat +0.542 [+0.499, +0.585] -> USED
+seed 4 done in 596 s
