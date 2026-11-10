@@ -1,0 +1,19 @@
+=== v234_extract.py [] {}
+v234 extract | pilot False | items sha ac4121c22f88fe31 (frozen ac4121c22f88fe31)
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794185546.434010      33 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+loaded Qwen/Qwen2.5-7B in 128s | 14400 items
+positions {'eq': 79, 'last': 82, 'pre': 85} -> {'eq': '0', 'last': '?', 'pre': ' '} | answer token 86 '0'
+item     1/14400 (2.016 s/item) | answer correct so far 1.000
+item    40/14400 (0.156 s/item) | answer correct so far 1.000
+item   100/14400 (0.125 s/item) | answer correct so far 0.890
+item   500/14400 (0.110 s/item) | answer correct so far 0.892
+item  2000/14400 (0.110 s/item) | answer correct so far 0.875
+item  4000/14400 (0.111 s/item) | answer correct so far 0.881
+item  6000/14400 (0.111 s/item) | answer correct so far 0.875
+item  8000/14400 (0.111 s/item) | answer correct so far 0.847
+item 10000/14400 (0.112 s/item) | answer correct so far 0.811
+item 12000/14400 (0.112 s/item) | answer correct so far 0.782
+item 14000/14400 (0.112 s/item) | answer correct so far 0.771
+item 14400/14400 (0.112 s/item) | answer correct so far 0.769
+done: 14400 items, answer correct 0.7693 (1735s)

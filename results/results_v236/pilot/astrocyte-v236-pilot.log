@@ -1,0 +1,60 @@
+[{"stream_name":"stdout","time":0.654538117,"data":"v215_pilot.py d049a0b2d81fb80b\n"}
+,{"stream_name":"stdout","time":0.654692479,"data":"v215_items.py 9249f0523d7219eb\n"}
+,{"stream_name":"stdout","time":0.654846562,"data":"v216_items.py a2ebd48b899fed40\n"}
+,{"stream_name":"stdout","time":0.655000629,"data":"v234_items.py fa7374fd6378d679\n"}
+,{"stream_name":"stdout","time":0.655211171,"data":"v236_pilot.py 1491005d4bb6f3db\n"}
+,{"stream_name":"stderr","time":16.194787067,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":16.194834347,"data":"gradio-client 2.7.2 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.19484136,"data":"gradio 6.30.0 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.19484603,"data":"gradio 6.30.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.194850689,"data":"diffusers 0.42.0 requires huggingface-hub\u003c3.0,\u003e=1.32.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":16.415270793,"data":"=== v236_pilot.py [] {}\n"}
+,{"stream_name":"stdout","time":50.695067023,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stdout","time":50.695117351,"data":"I0000 00:00:1794194614.928448      33 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.\n"}
+,{"stream_name":"stdout","time":158.380780743,"data":"loaded in 127s | items sha ac4121c22f88fe31 | positions on item 5: {'d1': (76, '1'), 'o1': (77, ' -'), 'sp': (78, ' '), 'eq': (79, '1'), 'semi': (80, ' ;'), 'qa': (81, ' h'), 'last': (82, '?'), 'ta': (83, ' h'), 'teq': (84, ' ='), 'pre': (85, ' ')}\n"}
+,{"stream_name":"stdout","time":167.032471499,"data":"D1: 1 pairs (1 tried; 8.61 s/pair)\n"}
+,{"stream_name":"stdout","time":325.039859845,"data":"D1: 20 pairs (35 tried; 8.33 s/pair)\n"}
+,{"stream_name":"stdout","time":1015.714765514,"data":"D1: 100 pairs (144 tried; 8.57 s/pair)\n"}
+,{"stream_name":"stdout","time":1880.832244022,"data":"D1: 200 pairs (293 tried; 8.61 s/pair)\n"}
+,{"stream_name":"stdout","time":2746.271082234,"data":"D1: 300 pairs (445 tried; 8.63 s/pair)\n"}
+,{"stream_name":"stdout","time":2746.271336605,"data":"D1: 300 pairs from 445 candidates tried\n"}
+,{"stream_name":"stdout","time":2755.039964487,"data":"D2: 1 pairs (2 tried; 8.63 s/pair)\n"}
+,{"stream_name":"stdout","time":2918.739153496,"data":"D2: 20 pairs (28 tried; 8.63 s/pair)\n"}
+,{"stream_name":"stdout","time":3612.086748699,"data":"D2: 100 pairs (155 tried; 8.63 s/pair)\n"}
+,{"stream_name":"stdout","time":4479.797503828,"data":"D2: 200 pairs (318 tried; 8.64 s/pair)\n"}
+,{"stream_name":"stdout","time":5346.678379081,"data":"D2: 300 pairs (476 tried; 8.65 s/pair)\n"}
+,{"stream_name":"stdout","time":5346.678671563,"data":"D2: 300 pairs from 476 candidates tried\n"}
+,{"stream_name":"stdout","time":5346.756949098,"data":"\n"}
+,{"stream_name":"stdout","time":5346.756964668,"data":"D1 (300 pairs): hit P (kept A) by position and layer\n"}
+,{"stream_name":"stdout","time":5346.756969762,"data":"pos            L2          L4          L6          L8         L10         L12         L14         L16         L20         L24         all\n"}
+,{"stream_name":"stdout","time":5346.761376088,"data":"d1     0.93(0.02)  0.91(0.04)  0.91(0.04)  0.90(0.05)  0.89(0.06)  0.90(0.06)  0.88(0.08)  0.81(0.13)  0.80(0.13)  0.00(1.00)  0.91(0.04)\n"}
+,{"stream_name":"stdout","time":5346.762958524,"data":"o1     0.00(1.00)  0.00(0.99)  0.00(0.99)  0.01(0.98)  0.01(0.99)  0.01(0.98)  0.01(0.97)  0.01(0.98)  0.00(0.99)  0.00(1.00)  0.01(0.97)\n"}
+,{"stream_name":"stdout","time":5346.764891568,"data":"sp     0.00(1.00)  0.00(1.00)  0.00(1.00)  0.00(1.00)  0.00(1.00)  0.00(1.00)  0.00(1.00)  0.00(1.00)  0.00(1.00)  0.00(1.00)  0.00(1.00)\n"}
+,{"stream_name":"stdout","time":5346.7668323,"data":"eq     0.00(1.00)  0.00(1.00)  0.00(1.00)  0.01(0.98)  0.01(0.97)  0.01(0.97)  0.01(0.96)  0.05(0.85)  0.02(0.94)  0.00(1.00)  0.06(0.86)\n"}
+,{"stream_name":"stdout","time":5346.768462315,"data":"semi   0.00(1.00)  0.00(1.00)  0.00(1.00)  0.00(1.00)  0.00(0.99)  0.00(0.99)  0.00(0.99)  0.00(0.99)  0.00(0.99)  0.00(1.00)  0.01(0.98)\n"}
+,{"stream_name":"stdout","time":5346.770136407,"data":"qa     0.00(1.00)  0.00(1.00)  0.00(1.00)  0.00(1.00)  0.00(1.00)  0.00(1.00)  0.00(0.99)  0.00(0.99)  0.00(1.00)  0.00(1.00)  0.00(0.98)\n"}
+,{"stream_name":"stdout","time":5346.771910288,"data":"last   0.00(1.00)  0.00(1.00)  0.00(1.00)  0.00(1.00)  0.00(1.00)  0.00(1.00)  0.00(1.00)  0.00(1.00)  0.00(1.00)  0.00(1.00)  0.00(0.99)\n"}
+,{"stream_name":"stdout","time":5346.773632745,"data":"ta     0.00(1.00)  0.00(1.00)  0.00(1.00)  0.00(1.00)  0.00(1.00)  0.00(1.00)  0.00(0.99)  0.00(0.99)  0.00(1.00)  0.00(0.99)  0.00(0.99)\n"}
+,{"stream_name":"stdout","time":5346.775236101,"data":"teq    0.00(1.00)  0.00(1.00)  0.00(1.00)  0.00(1.00)  0.00(1.00)  0.00(1.00)  0.00(0.99)  0.00(0.99)  0.01(0.97)  0.00(1.00)  0.00(1.00)\n"}
+,{"stream_name":"stdout","time":5346.776819272,"data":"pre    0.00(1.00)  0.00(1.00)  0.00(1.00)  0.00(1.00)  0.00(0.99)  0.00(1.00)  0.00(0.98)  0.01(0.94)  0.04(0.84)  0.00(1.00)  0.00(1.00)\n"}
+,{"stream_name":"stdout","time":5346.777087805,"data":"\n"}
+,{"stream_name":"stdout","time":5346.777100141,"data":"D2 (300 pairs): hit P (kept A) by position and layer\n"}
+,{"stream_name":"stdout","time":5346.777315487,"data":"pos            L2          L4          L6          L8         L10         L12         L14         L16         L20         L24         all\n"}
+,{"stream_name":"stdout","time":5346.779061751,"data":"d1     0.00(1.00)  0.00(1.00)  0.00(0.99)  0.00(0.99)  0.00(0.99)  0.00(0.98)  0.00(0.98)  0.00(0.96)  0.00(0.98)  0.00(1.00)  0.01(0.94)\n"}
+,{"stream_name":"stdout","time":5346.780813526,"data":"o1     0.00(1.00)  0.00(1.00)  0.00(0.99)  0.00(0.98)  0.00(0.98)  0.00(0.99)  0.00(0.98)  0.00(0.98)  0.00(0.99)  0.00(1.00)  0.00(0.99)\n"}
+,{"stream_name":"stdout","time":5346.782679336,"data":"sp     0.00(1.00)  0.00(1.00)  0.00(1.00)  0.00(1.00)  0.00(1.00)  0.00(0.99)  0.00(0.99)  0.00(0.99)  0.00(0.99)  0.00(1.00)  0.00(0.99)\n"}
+,{"stream_name":"stdout","time":5346.784294161,"data":"eq     0.92(0.04)  0.92(0.05)  0.92(0.04)  0.91(0.05)  0.90(0.06)  0.90(0.06)  0.90(0.07)  0.87(0.09)  0.62(0.31)  0.00(0.99)  0.88(0.08)\n"}
+,{"stream_name":"stdout","time":5346.785897427,"data":"semi   0.00(0.99)  0.00(0.99)  0.00(0.99)  0.00(0.99)  0.01(0.98)  0.01(0.98)  0.01(0.98)  0.01(0.98)  0.00(0.99)  0.00(1.00)  0.01(0.97)\n"}
+,{"stream_name":"stdout","time":5346.787532782,"data":"qa     0.00(1.00)  0.00(0.99)  0.00(0.99)  0.00(0.99)  0.00(0.99)  0.00(0.99)  0.00(0.98)  0.00(0.98)  0.00(0.99)  0.00(1.00)  0.00(0.98)\n"}
+,{"stream_name":"stdout","time":5346.789213484,"data":"last   0.00(1.00)  0.00(1.00)  0.00(1.00)  0.00(0.99)  0.00(0.99)  0.00(0.99)  0.00(1.00)  0.00(0.99)  0.00(0.99)  0.00(1.00)  0.00(0.99)\n"}
+,{"stream_name":"stdout","time":5346.791044149,"data":"ta     0.00(0.99)  0.00(1.00)  0.00(1.00)  0.00(1.00)  0.00(1.00)  0.00(1.00)  0.00(1.00)  0.00(1.00)  0.00(0.99)  0.00(1.00)  0.00(0.99)\n"}
+,{"stream_name":"stdout","time":5346.792652746,"data":"teq    0.00(1.00)  0.00(1.00)  0.00(0.99)  0.00(0.99)  0.00(1.00)  0.00(0.99)  0.00(0.99)  0.00(0.99)  0.02(0.96)  0.00(1.00)  0.00(0.99)\n"}
+,{"stream_name":"stdout","time":5346.794326133,"data":"pre    0.00(1.00)  0.00(1.00)  0.00(1.00)  0.00(1.00)  0.00(0.99)  0.00(0.99)  0.00(0.98)  0.02(0.93)  0.19(0.71)  0.00(0.99)  0.00(1.00)\n"}
+,{"stream_name":"stdout","time":5346.79449126,"data":"done 5316s\n"}
+,{"stream_name":"stderr","time":5353.098308925,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":5353.098355812,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":5353.334374243,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":5353.334400947,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":5354.105078119,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":5354.761832132,"data":"[NbConvertApp] Writing 297230 bytes to __results__.html\n"}
+]

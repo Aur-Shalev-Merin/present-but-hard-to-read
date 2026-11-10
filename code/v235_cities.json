@@ -1,0 +1,8770 @@
+{
+"countries": {
+"People's Republic of China": {
+"name": "China",
+"capital": "Beijing"
+},
+"India": {
+"name": "India",
+"capital": "New Delhi"
+},
+"Brazil": {
+"name": "Brazil",
+"capital": "Brasília"
+},
+"United States": {
+"name": "the United States",
+"capital": "Washington"
+},
+"Japan": {
+"name": "Japan",
+"capital": "Tokyo"
+},
+"Philippines": {
+"name": "the Philippines",
+"capital": "Manila"
+},
+"Indonesia": {
+"name": "Indonesia",
+"capital": "Jakarta"
+},
+"Turkey": {
+"name": "Turkey",
+"capital": "Ankara"
+},
+"Russia": {
+"name": "Russia",
+"capital": "Moscow"
+},
+"South Korea": {
+"name": "South Korea",
+"capital": "Seoul"
+},
+"Pakistan": {
+"name": "Pakistan",
+"capital": "Islamabad"
+},
+"Nigeria": {
+"name": "Nigeria",
+"capital": "Abuja"
+},
+"Germany": {
+"name": "Germany",
+"capital": "Berlin"
+},
+"Egypt": {
+"name": "Egypt",
+"capital": "Cairo"
+},
+"Iran": {
+"name": "Iran",
+"capital": "Tehran"
+},
+"Argentina": {
+"name": "Argentina",
+"capital": "Buenos Aires"
+},
+"United Kingdom": {
+"name": "the United Kingdom",
+"capital": "London"
+},
+"Spain": {
+"name": "Spain",
+"capital": "Madrid"
+},
+"Canada": {
+"name": "Canada",
+"capital": "Ottawa"
+},
+"Poland": {
+"name": "Poland",
+"capital": "Warsaw"
+},
+"Italy": {
+"name": "Italy",
+"capital": "Rome"
+},
+"France": {
+"name": "France",
+"capital": "Paris"
+},
+"Vietnam": {
+"name": "Vietnam",
+"capital": "Hanoi"
+},
+"Peru": {
+"name": "Peru",
+"capital": "Lima"
+},
+"Colombia": {
+"name": "Colombia",
+"capital": "Bogotá"
+}
+},
+"cities": [
+{
+"city": "Chongqing",
+"qid": "Q11725",
+"pop": 32054159,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Shanghai",
+"qid": "Q8686",
+"pop": 24870895,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Chengdu",
+"qid": "Q30002",
+"pop": 20937757,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Guangzhou",
+"qid": "Q16572",
+"pop": 18676605,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Shenzhen",
+"qid": "Q15174",
+"pop": 17494398,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Tianjin",
+"qid": "Q11736",
+"pop": 13866009,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Xi'an",
+"qid": "Q5826",
+"pop": 12952907,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Suzhou",
+"qid": "Q42622",
+"pop": 12748262,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Zhengzhou",
+"qid": "Q30340",
+"pop": 12600574,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Wuhan",
+"qid": "Q11746",
+"pop": 12326518,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Hangzhou",
+"qid": "Q4970",
+"pop": 11936010,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Baoding",
+"qid": "Q58584",
+"pop": 11544036,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Linyi",
+"qid": "Q373346",
+"pop": 11018365,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Shijiazhuang",
+"qid": "Q58401",
+"pop": 10640458,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Dongguan",
+"qid": "Q59218",
+"pop": 10466625,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Changsha",
+"qid": "Q174091",
+"pop": 10047914,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Harbin",
+"qid": "Q42956",
+"pop": 10009854,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Nanyang",
+"qid": "Q404763",
+"pop": 9713112,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Wenzhou",
+"qid": "Q42635",
+"pop": 9572903,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Foshan",
+"qid": "Q34412",
+"pop": 9498863,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Handan",
+"qid": "Q58570",
+"pop": 9413990,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Ningbo",
+"qid": "Q42780",
+"pop": 9404283,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Weifang",
+"qid": "Q217698",
+"pop": 9386705,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Hefei",
+"qid": "Q185684",
+"pop": 9369881,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Nanjing",
+"qid": "Q16666",
+"pop": 9314685,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Jinan",
+"qid": "Q170247",
+"pop": 9202432,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Xuzhou",
+"qid": "Q57719",
+"pop": 9083790,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Shenyang",
+"qid": "Q11720",
+"pop": 9070093,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Changchun",
+"qid": "Q92161",
+"pop": 9066906,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Zhoukou",
+"qid": "Q198061",
+"pop": 9026015,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Ganzhou",
+"qid": "Q363166",
+"pop": 8970014,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Heze",
+"qid": "Q332753",
+"pop": 8795939,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Nanning",
+"qid": "Q179608",
+"pop": 8741584,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Kunming",
+"qid": "Q182852",
+"pop": 8460088,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Jining",
+"qid": "Q372791",
+"pop": 8357897,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Fuzhou",
+"qid": "Q68481",
+"pop": 8291268,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Fuyang",
+"qid": "Q360584",
+"pop": 8200264,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Shangqiu",
+"qid": "Q404817",
+"pop": 7816831,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Nantong",
+"qid": "Q57947",
+"pop": 7726635,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Tangshan",
+"qid": "Q58422",
+"pop": 7717983,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Wuxi",
+"qid": "Q42651",
+"pop": 7462135,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Dalian",
+"qid": "Q74881",
+"pop": 7450785,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Hong Kong",
+"qid": "Q8646",
+"pop": 7413070,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Cangzhou",
+"qid": "Q58695",
+"pop": 7300783,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Xingtai",
+"qid": "Q58576",
+"pop": 7111106,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Yantai",
+"qid": "Q210493",
+"pop": 7102116,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Luoyang",
+"qid": "Q187136",
+"pop": 7056699,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Jinhua",
+"qid": "Q58210",
+"pop": 7050683,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Zhumadian",
+"qid": "Q198240",
+"pop": 7008427,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Zhanjiang",
+"qid": "Q59144",
+"pop": 6981236,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Bijie",
+"qid": "Q486319",
+"pop": 6899636,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Yancheng",
+"qid": "Q57866",
+"pop": 6709629,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Hengyang",
+"qid": "Q144663",
+"pop": 6645243,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Taizhou",
+"qid": "Q58273",
+"pop": 6622888,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Zunyi",
+"qid": "Q28994",
+"pop": 6606675,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Shaoyang",
+"qid": "Q194531",
+"pop": 6563520,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Shangrao",
+"qid": "Q363479",
+"pop": 6491088,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Huanggang",
+"qid": "Q71355",
+"pop": 6333000,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Nanchang",
+"qid": "Q171943",
+"pop": 6255007,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Xinxiang",
+"qid": "Q404362",
+"pop": 6251929,
+"country": "China",
+"capital": "Beijing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Delhi",
+"qid": "Q1353",
+"pop": 26495000,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Mumbai",
+"qid": "Q1156",
+"pop": 15414288,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Bengaluru",
+"qid": "Q1355",
+"pop": 12327000,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Ahmedabad",
+"qid": "Q1070",
+"pop": 7645000,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Chennai",
+"qid": "Q1352",
+"pop": 6599000,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Pune",
+"qid": "Q1538",
+"pop": 6200000,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Prayagraj",
+"qid": "Q162442",
+"pop": 5954391,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Surat",
+"qid": "Q4629",
+"pop": 5935000,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Kanpur",
+"qid": "Q66568",
+"pop": 4581268,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Kolkata",
+"qid": "Q1348",
+"pop": 4496694,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Lucknow",
+"qid": "Q47916",
+"pop": 3382000,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Vadodara",
+"qid": "Q11909",
+"pop": 3100260,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Jaipur",
+"qid": "Q66485",
+"pop": 3073350,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Nagpur",
+"qid": "Q1513",
+"pop": 2405665,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Ghaziabad",
+"qid": "Q207098",
+"pop": 2375820,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Rajkot",
+"qid": "Q11854",
+"pop": 2043000,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Visakhapatnam",
+"qid": "Q200016",
+"pop": 2035922,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Indore",
+"qid": "Q66616",
+"pop": 1994397,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Thane",
+"qid": "Q207749",
+"pop": 1886941,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Bhopal",
+"qid": "Q80989",
+"pop": 1798218,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Patna",
+"qid": "Q80484",
+"pop": 1684222,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Ludhiana",
+"qid": "Q200123",
+"pop": 1618879,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Agra",
+"qid": "Q42941",
+"pop": 1585705,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Meerut",
+"qid": "Q200237",
+"pop": 1571434,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Madurai",
+"qid": "Q228405",
+"pop": 1561129,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Jamshedpur",
+"qid": "Q200054",
+"pop": 1558000,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Nashik",
+"qid": "Q200235",
+"pop": 1486053,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Faridabad",
+"qid": "Q200663",
+"pop": 1404653,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Jabalpur",
+"qid": "Q200878",
+"pop": 1267564,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Vasai-Virar",
+"qid": "Q580876",
+"pop": 1222390,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Varanasi",
+"qid": "Q79980",
+"pop": 1198491,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Srinagar",
+"qid": "Q170115",
+"pop": 1180570,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Aurangabad",
+"qid": "Q200713",
+"pop": 1175116,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Amritsar",
+"qid": "Q48403",
+"pop": 1159227,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Navi Mumbai",
+"qid": "Q61445",
+"pop": 1119477,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Guwahati",
+"qid": "Q199605",
+"pop": 1116267,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Ranchi",
+"qid": "Q174461",
+"pop": 1073440,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Gwalior",
+"qid": "Q158467",
+"pop": 1069276,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Chandigarh",
+"qid": "Q43433",
+"pop": 1055450,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Vijayawada",
+"qid": "Q200017",
+"pop": 1048240,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Jodhpur",
+"qid": "Q200019",
+"pop": 1033918,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Raipur",
+"qid": "Q372773",
+"pop": 1010087,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Kota",
+"qid": "Q330531",
+"pop": 1001694,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Bareilly",
+"qid": "Q213026",
+"pop": 1000000,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Coimbatore",
+"qid": "Q9885",
+"pop": 959823,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Solapur",
+"qid": "Q237847",
+"pop": 951558,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Mysore",
+"qid": "Q10086",
+"pop": 920550,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Tiruchirappalli",
+"qid": "Q207754",
+"pop": 916857,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Moradabad",
+"qid": "Q330643",
+"pop": 887871,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Jamnagar",
+"qid": "Q1154",
+"pop": 877000,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Gurgaon",
+"qid": "Q238508",
+"pop": 876824,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Aligarh",
+"qid": "Q201832",
+"pop": 874408,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Jalandhar",
+"qid": "Q33377",
+"pop": 873725,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Bhubaneswar",
+"qid": "Q171771",
+"pop": 837737,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Mira-Bhayandar",
+"qid": "Q1006343",
+"pop": 814655,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Thiruvananthapuram",
+"qid": "Q167715",
+"pop": 743691,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Dispur",
+"qid": "Q271911",
+"pop": 734577,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Bhiwandi",
+"qid": "Q645725",
+"pop": 709665,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Saharanpur",
+"qid": "Q242895",
+"pop": 705478,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "Warangal",
+"qid": "Q25563103",
+"pop": 704570,
+"country": "India",
+"capital": "New Delhi",
+"ckey": "India"
+},
+{
+"city": "New York metropolitan area",
+"qid": "Q683705",
+"pop": 19940274,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "New York City",
+"qid": "Q60",
+"pop": 8804190,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Chicago",
+"qid": "Q1297",
+"pop": 2746388,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Houston",
+"qid": "Q16555",
+"pop": 2304580,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Phoenix",
+"qid": "Q16556",
+"pop": 1608139,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "San Diego",
+"qid": "Q16552",
+"pop": 1386932,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Dallas",
+"qid": "Q16557",
+"pop": 1304379,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Charlotte",
+"qid": "Q16565",
+"pop": 964784,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Austin",
+"qid": "Q16559",
+"pop": 961855,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Fort Worth",
+"qid": "Q16558",
+"pop": 918915,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Columbus",
+"qid": "Q16567",
+"pop": 905748,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "San Francisco",
+"qid": "Q62",
+"pop": 873965,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Seattle",
+"qid": "Q5083",
+"pop": 737015,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Denver",
+"qid": "Q16554",
+"pop": 715522,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Washington, D.C.",
+"qid": "Q61",
+"pop": 689545,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Nashville",
+"qid": "Q23197",
+"pop": 689447,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Oklahoma City",
+"qid": "Q34863",
+"pop": 681054,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "El Paso",
+"qid": "Q16562",
+"pop": 678815,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Boston",
+"qid": "Q100",
+"pop": 675647,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Portland",
+"qid": "Q6106",
+"pop": 652503,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Las Vegas",
+"qid": "Q23768",
+"pop": 641903,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Detroit",
+"qid": "Q12439",
+"pop": 639111,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Memphis",
+"qid": "Q16563",
+"pop": 633104,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Baltimore",
+"qid": "Q5092",
+"pop": 585708,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Milwaukee",
+"qid": "Q37836",
+"pop": 577222,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Albuquerque",
+"qid": "Q34804",
+"pop": 564559,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Tucson",
+"qid": "Q18575",
+"pop": 542629,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Fresno",
+"qid": "Q43301",
+"pop": 542107,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Sacramento",
+"qid": "Q18013",
+"pop": 524943,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Kansas City",
+"qid": "Q41819",
+"pop": 508090,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Mesa",
+"qid": "Q49261",
+"pop": 504258,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Atlanta",
+"qid": "Q23556",
+"pop": 498715,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Omaha",
+"qid": "Q43199",
+"pop": 486051,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Colorado Springs",
+"qid": "Q49258",
+"pop": 478961,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Raleigh",
+"qid": "Q41087",
+"pop": 467665,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Long Beach",
+"qid": "Q16739",
+"pop": 466742,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Virginia Beach",
+"qid": "Q49259",
+"pop": 459470,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Oakland",
+"qid": "Q17042",
+"pop": 440646,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Minneapolis",
+"qid": "Q36091",
+"pop": 429954,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Tulsa",
+"qid": "Q44989",
+"pop": 413066,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Bakersfield",
+"qid": "Q49256",
+"pop": 403455,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Wichita",
+"qid": "Q49266",
+"pop": 397532,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Arlington",
+"qid": "Q17943",
+"pop": 394266,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Aurora",
+"qid": "Q49246",
+"pop": 386261,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "New Orleans",
+"qid": "Q34404",
+"pop": 383997,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Cleveland",
+"qid": "Q37320",
+"pop": 372624,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Honolulu",
+"qid": "Q18094",
+"pop": 350964,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Anaheim",
+"qid": "Q49247",
+"pop": 346824,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Orlando",
+"qid": "Q49233",
+"pop": 334854,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Lexington",
+"qid": "Q49241",
+"pop": 322570,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Stockton",
+"qid": "Q49240",
+"pop": 320804,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Corpus Christi",
+"qid": "Q49242",
+"pop": 317863,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Henderson",
+"qid": "Q49267",
+"pop": 317610,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Riverside",
+"qid": "Q49243",
+"pop": 314998,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Newark",
+"qid": "Q25395",
+"pop": 311549,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Saint Paul",
+"qid": "Q28848",
+"pop": 311527,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Santa Ana",
+"qid": "Q49244",
+"pop": 310227,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Cincinnati",
+"qid": "Q43196",
+"pop": 309317,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Irvine",
+"qid": "Q49219",
+"pop": 307670,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Pittsburgh",
+"qid": "Q1342",
+"pop": 302971,
+"country": "the United States",
+"capital": "Washington",
+"ckey": "United States"
+},
+{
+"city": "Istanbul",
+"qid": "Q406",
+"pop": 15655924,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Bursa",
+"qid": "Q40738",
+"pop": 2901396,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Antalya",
+"qid": "Q6487",
+"pop": 2426356,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Konya Province",
+"qid": "Q81551",
+"pop": 2296347,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Konya",
+"qid": "Q79857",
+"pop": 2232374,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Kocaeli Province",
+"qid": "Q83965",
+"pop": 1953035,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Adana",
+"qid": "Q38545",
+"pop": 1765981,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Gaziantep",
+"qid": "Q93338",
+"pop": 1680723,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Kayseri",
+"qid": "Q48338",
+"pop": 1389680,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Samsun",
+"qid": "Q160450",
+"pop": 1368488,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Van",
+"qid": "Q83061",
+"pop": 1127612,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Mersin",
+"qid": "Q134291",
+"pop": 1040507,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Denizli",
+"qid": "Q170967",
+"pop": 1027782,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Trabzon",
+"qid": "Q45301",
+"pop": 824352,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Erzurum",
+"qid": "Q122803",
+"pop": 767848,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Batman",
+"qid": "Q159835",
+"pop": 445874,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Malatya",
+"qid": "Q165995",
+"pop": 426381,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Manisa",
+"qid": "Q147089",
+"pop": 420015,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Antakya",
+"qid": "Q80561",
+"pop": 377793,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Sivas",
+"qid": "Q107401",
+"pop": 365274,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Tarsus",
+"qid": "Q134287",
+"pop": 346715,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Merkezefendi",
+"qid": "Q16895027",
+"pop": 336818,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Ortahisar",
+"qid": "Q16258125",
+"pop": 317520,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Afyonkarahisar",
+"qid": "Q166824",
+"pop": 299673,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Çorlu",
+"qid": "Q214655",
+"pop": 290155,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Çorum",
+"qid": "Q206900",
+"pop": 269595,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Kütahya",
+"qid": "Q188894",
+"pop": 266784,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Siverek",
+"qid": "Q216897",
+"pop": 258265,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Aksaray",
+"qid": "Q182025",
+"pop": 253113,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Osmaniye",
+"qid": "Q181379",
+"pop": 252186,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Beykoz",
+"qid": "Q794351",
+"pop": 247875,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Isparta",
+"qid": "Q171031",
+"pop": 247580,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Düzce",
+"qid": "Q206885",
+"pop": 240633,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Ordu",
+"qid": "Q184539",
+"pop": 229214,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Çerkezköy",
+"qid": "Q272800",
+"pop": 213243,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Karaköprü",
+"qid": "Q6635526",
+"pop": 195552,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Artuklu",
+"qid": "Q16251875",
+"pop": 189769,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Menemen",
+"qid": "Q2152404",
+"pop": 186182,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Bolu",
+"qid": "Q200951",
+"pop": 184682,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Akhisar",
+"qid": "Q209905",
+"pop": 181472,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Edirne",
+"qid": "Q43387",
+"pop": 180327,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Karaman",
+"qid": "Q262579",
+"pop": 168299,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Siirt",
+"qid": "Q185084",
+"pop": 166332,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Körfez",
+"qid": "Q27161",
+"pop": 165503,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Tokat",
+"qid": "Q183651",
+"pop": 163405,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Turgutlu",
+"qid": "Q17396881",
+"pop": 163223,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Gölcük",
+"qid": "Q27162",
+"pop": 162584,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Nazilli",
+"qid": "Q637120",
+"pop": 162041,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Salihli",
+"qid": "Q1012935",
+"pop": 161562,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Bingöl",
+"qid": "Q208472",
+"pop": 160165,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Ceyhan",
+"qid": "Q185346",
+"pop": 159955,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Erzincan",
+"qid": "Q136217",
+"pop": 157452,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Edremit",
+"qid": "Q1021818",
+"pop": 154487,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Kastamonu",
+"qid": "Q155915",
+"pop": 152541,
+"country": "Turkey",
+"capital": "Ankara",
+"ckey": "Turkey"
+},
+{
+"city": "Lagos",
+"qid": "Q8673",
+"pop": 15070000,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Kano",
+"qid": "Q182984",
+"pop": 4348000,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Port Harcourt",
+"qid": "Q217432",
+"pop": 3480000,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Ibadan",
+"qid": "Q183298",
+"pop": 2559853,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Benin City",
+"qid": "Q320704",
+"pop": 1780000,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Onitsha",
+"qid": "Q852238",
+"pop": 1483000,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Maiduguri",
+"qid": "Q221436",
+"pop": 1197497,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Aba",
+"qid": "Q202162",
+"pop": 1160000,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Ogbomosho",
+"qid": "Q500366",
+"pop": 1032000,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Enugu",
+"qid": "Q465022",
+"pop": 1029400,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Owerri",
+"qid": "Q583619",
+"pop": 908109,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Abeokuta",
+"qid": "Q206484",
+"pop": 888924,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Ikeja",
+"qid": "Q1024647",
+"pop": 861300,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Akure",
+"qid": "Q423831",
+"pop": 847903,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Ilorin",
+"qid": "Q587085",
+"pop": 847582,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Jos",
+"qid": "Q321079",
+"pop": 821618,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Zaria",
+"qid": "Q147975",
+"pop": 766007,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Kaduna",
+"qid": "Q208318",
+"pop": 760084,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Calabar",
+"qid": "Q844091",
+"pop": 741000,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Osogbo",
+"qid": "Q868203",
+"pop": 731000,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Bauchi",
+"qid": "Q811144",
+"pop": 693700,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Lokoja",
+"qid": "Q994085",
+"pop": 692050,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Jalingo",
+"qid": "Q1023720",
+"pop": 660213,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Makurdi",
+"qid": "Q994096",
+"pop": 517342,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Ile Ife",
+"qid": "Q180084",
+"pop": 501952,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Ado Ekiti",
+"qid": "Q359955",
+"pop": 446749,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Dutse",
+"qid": "Q1023713",
+"pop": 431800,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Awka",
+"qid": "Q791766",
+"pop": 430200,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Uyo",
+"qid": "Q1999000",
+"pop": 429900,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Sokoto",
+"qid": "Q336350",
+"pop": 427760,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Lekki",
+"qid": "Q25247514",
+"pop": 401272,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Yola",
+"qid": "Q994114",
+"pop": 392854,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Oyo",
+"qid": "Q1023703",
+"pop": 386723,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Gusau",
+"qid": "Q600405",
+"pop": 383162,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Iseyin",
+"qid": "Q1673881",
+"pop": 365300,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Umuahia",
+"qid": "Q203301",
+"pop": 359230,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Ondo",
+"qid": "Q1853310",
+"pop": 358430,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Yenegoa",
+"qid": "Q648749",
+"pop": 352285,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Owo",
+"qid": "Q1788128",
+"pop": 341400,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Lafia",
+"qid": "Q1023721",
+"pop": 330712,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Minna",
+"qid": "Q994105",
+"pop": 322163,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Okene",
+"qid": "Q2017187",
+"pop": 320260,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Katsina",
+"qid": "Q937487",
+"pop": 318459,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Warri",
+"qid": "Q574593",
+"pop": 311970,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Minna",
+"qid": "Q128035222",
+"pop": 304113,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Daura",
+"qid": "Q1173023",
+"pop": 224884,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Apapa",
+"qid": "Q617618",
+"pop": 217661,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Ilesa",
+"qid": "Q763595",
+"pop": 210141,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Burutu",
+"qid": "Q3510499",
+"pop": 209666,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Baure",
+"qid": "Q4873577",
+"pop": 202941,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Mai'Adua",
+"qid": "Q6735083",
+"pop": 201178,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Yewa North",
+"qid": "Q8053331",
+"pop": 181826,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Offa",
+"qid": "Q2015456",
+"pop": 166600,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Zango",
+"qid": "Q8066198",
+"pop": 154743,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Ipokia",
+"qid": "Q6065226",
+"pop": 150426,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Kwale",
+"qid": "Q55616318",
+"pop": 150024,
+"country": "Nigeria",
+"capital": "Abuja",
+"ckey": "Nigeria"
+},
+{
+"city": "Karachi",
+"qid": "Q8660",
+"pop": 14910352,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Lahore",
+"qid": "Q11739",
+"pop": 11126285,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Faisalabad",
+"qid": "Q173985",
+"pop": 3203846,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Rawalpindi",
+"qid": "Q93230",
+"pop": 2098231,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Gujranwala",
+"qid": "Q243322",
+"pop": 2027001,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Peshawar",
+"qid": "Q1113311",
+"pop": 1970042,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Multan",
+"qid": "Q185453",
+"pop": 1871843,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Bahawalpur",
+"qid": "Q318156",
+"pop": 762111,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Parachinar",
+"qid": "Q1026627",
+"pop": 700000,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Sargodha",
+"qid": "Q855997",
+"pop": 659862,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Shah Faisal Town",
+"qid": "Q4579677",
+"pop": 641894,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Sialkot",
+"qid": "Q643883",
+"pop": 591668,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Sahiwal",
+"qid": "Q523778",
+"pop": 538344,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Sukkur",
+"qid": "Q868631",
+"pop": 499900,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Larkana",
+"qid": "Q696605",
+"pop": 490508,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Chiniot",
+"qid": "Q1017651",
+"pop": 477781,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Sheikhupura",
+"qid": "Q972756",
+"pop": 473129,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Rahim Yar Khan",
+"qid": "Q989297",
+"pop": 420419,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Jhang",
+"qid": "Q1026616",
+"pop": 414131,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Wah Cantonment",
+"qid": "Q1251261",
+"pop": 400733,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Dera Ghazi Khan",
+"qid": "Q999076",
+"pop": 399064,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Gujrat",
+"qid": "Q929062",
+"pop": 390533,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Bhawana",
+"qid": "Q854934",
+"pop": 373841,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Malakwal",
+"qid": "Q446394",
+"pop": 371869,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Mardan",
+"qid": "Q993859",
+"pop": 363788,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Hafizabad",
+"qid": "Q1253663",
+"pop": 318621,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Kasur",
+"qid": "Q989283",
+"pop": 314617,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Jhelum",
+"qid": "Q121551",
+"pop": 312426,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Chakwal",
+"qid": "Q1251473",
+"pop": 299751,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Khanewal",
+"qid": "Q1253395",
+"pop": 281890,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Mingora",
+"qid": "Q31356",
+"pop": 279914,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Turbat",
+"qid": "Q2977093",
+"pop": 268625,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Nawabshah",
+"qid": "Q1017637",
+"pop": 263102,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Gilgit",
+"qid": "Q609024",
+"pop": 261440,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Kotri",
+"qid": "Q2657702",
+"pop": 259358,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Mirpur Khas",
+"qid": "Q1020490",
+"pop": 236961,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Okara",
+"qid": "Q968211",
+"pop": 232386,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Mandi Bahauddin",
+"qid": "Q1252806",
+"pop": 232361,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Pakpattan",
+"qid": "Q1249801",
+"pop": 221280,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Thatta",
+"qid": "Q27212",
+"pop": 220000,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Jacobabad",
+"qid": "Q1017696",
+"pop": 219315,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Burewala",
+"qid": "Q1250083",
+"pop": 203454,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Ahmedpur East",
+"qid": "Q1250201",
+"pop": 196618,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Hub",
+"qid": "Q2580069",
+"pop": 195661,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Chishtian",
+"qid": "Q1250229",
+"pop": 192403,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Samundri",
+"qid": "Q377396",
+"pop": 186371,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Attock",
+"qid": "Q1973073",
+"pop": 176544,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Kohat",
+"qid": "Q1195983",
+"pop": 170800,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Muzaffargarh",
+"qid": "Q301627",
+"pop": 163268,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Muridke",
+"qid": "Q2978509",
+"pop": 163268,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Gojra",
+"qid": "Q1250076",
+"pop": 157863,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Ghoriwala",
+"qid": "Q5556974",
+"pop": 154773,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Wazirabad",
+"qid": "Q1026613",
+"pop": 152624,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Jaranwala",
+"qid": "Q1251242",
+"pop": 150380,
+"country": "Pakistan",
+"capital": "Islamabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Ho Chi Minh City",
+"qid": "Q1854",
+"pop": 14002598,
+"country": "Vietnam",
+"capital": "Hanoi",
+"ckey": "Vietnam"
+},
+{
+"city": "Da Nang",
+"qid": "Q25282",
+"pop": 2819900,
+"country": "Vietnam",
+"capital": "Hanoi",
+"ckey": "Vietnam"
+},
+{
+"city": "Haiphong",
+"qid": "Q72818",
+"pop": 2124500,
+"country": "Vietnam",
+"capital": "Hanoi",
+"ckey": "Vietnam"
+},
+{
+"city": "Biên Hòa",
+"qid": "Q19316",
+"pop": 1104000,
+"country": "Vietnam",
+"capital": "Hanoi",
+"ckey": "Vietnam"
+},
+{
+"city": "Vinh",
+"qid": "Q33428",
+"pop": 490000,
+"country": "Vietnam",
+"capital": "Hanoi",
+"ckey": "Vietnam"
+},
+{
+"city": "Nha Trang",
+"qid": "Q19491",
+"pop": 392279,
+"country": "Vietnam",
+"capital": "Hanoi",
+"ckey": "Vietnam"
+},
+{
+"city": "Cà Mau",
+"qid": "Q25262",
+"pop": 315270,
+"country": "Vietnam",
+"capital": "Hanoi",
+"ckey": "Vietnam"
+},
+{
+"city": "Tuy Hòa",
+"qid": "Q35747",
+"pop": 242840,
+"country": "Vietnam",
+"capital": "Hanoi",
+"ckey": "Vietnam"
+},
+{
+"city": "Metro Manila",
+"qid": "Q13580",
+"pop": 14001751,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Davao City",
+"qid": "Q1473",
+"pop": 1848947,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Caloocan",
+"qid": "Q1478",
+"pop": 1712945,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Taguig",
+"qid": "Q1643",
+"pop": 1308085,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Zamboanga",
+"qid": "Q1629",
+"pop": 1018849,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Cebu City",
+"qid": "Q1467",
+"pop": 965332,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Pasig",
+"qid": "Q1624",
+"pop": 853050,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Dasmariñas",
+"qid": "Q63139",
+"pop": 744511,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Cagayan de Oro",
+"qid": "Q1645",
+"pop": 741617,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "General Santos",
+"qid": "Q594275",
+"pop": 722059,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Bacoor",
+"qid": "Q63129",
+"pop": 661381,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Las Piñas",
+"qid": "Q8854",
+"pop": 615549,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Biñan",
+"qid": "Q75961",
+"pop": 584479,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Muntinlupa",
+"qid": "Q17176",
+"pop": 552225,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Lapu-Lapu",
+"qid": "Q574903",
+"pop": 497813,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "General Trias",
+"qid": "Q62723",
+"pop": 482453,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Iloilo City",
+"qid": "Q459787",
+"pop": 473728,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Marikina",
+"qid": "Q17175",
+"pop": 471323,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Mactan",
+"qid": "Q685318",
+"pop": 467824,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Mandaluyong",
+"qid": "Q9085",
+"pop": 465902,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Pasay",
+"qid": "Q17189",
+"pop": 453186,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Tarlac City",
+"qid": "Q5285",
+"pop": 401892,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Malabon",
+"qid": "Q8861",
+"pop": 389929,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Lipa",
+"qid": "Q1725",
+"pop": 387392,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Butuan",
+"qid": "Q1686",
+"pop": 385530,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Cotabato City",
+"qid": "Q726993",
+"pop": 383383,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "San Fernando",
+"qid": "Q55740",
+"pop": 377534,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Iligan",
+"qid": "Q285488",
+"pop": 368132,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Cabuyao",
+"qid": "Q25096",
+"pop": 365202,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Mandaue",
+"qid": "Q1889017",
+"pop": 364482,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Batangas City",
+"qid": "Q1723",
+"pop": 358267,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Cabanatuan",
+"qid": "Q55595",
+"pop": 343672,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Puerto Princesa",
+"qid": "Q111739",
+"pop": 316384,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Mabalacat",
+"qid": "Q55737",
+"pop": 306594,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "San Pablo",
+"qid": "Q76001",
+"pop": 300166,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Tagum",
+"qid": "Q725168",
+"pop": 300042,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Malolos",
+"qid": "Q2180",
+"pop": 269809,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Olongapo",
+"qid": "Q56759",
+"pop": 264903,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Talisay",
+"qid": "Q316500",
+"pop": 263832,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Marawi",
+"qid": "Q592338",
+"pop": 259993,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Tacloban",
+"qid": "Q40626",
+"pop": 259353,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Navotas",
+"qid": "Q17179",
+"pop": 252878,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Ormoc",
+"qid": "Q1014782",
+"pop": 238545,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Meycauayan",
+"qid": "Q2187",
+"pop": 228023,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Trece Martires",
+"qid": "Q63160",
+"pop": 227892,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Valencia",
+"qid": "Q2158",
+"pop": 223620,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Panabo",
+"qid": "Q967367",
+"pop": 211242,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Kabankalan",
+"qid": "Q1026445",
+"pop": 210893,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Legazpi",
+"qid": "Q1696",
+"pop": 210616,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Tanauan",
+"qid": "Q1730",
+"pop": 209697,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Pagadian",
+"qid": "Q874270",
+"pop": 206483,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Koronadal",
+"qid": "Q542154",
+"pop": 201844,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Malaybalay",
+"qid": "Q1856",
+"pop": 195046,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Bago",
+"qid": "Q628297",
+"pop": 192993,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Digos",
+"qid": "Q1020939",
+"pop": 192063,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Calbayog",
+"qid": "Q577336",
+"pop": 187848,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Sorsogon City",
+"qid": "Q174096",
+"pop": 187670,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Roxas City",
+"qid": "Q2209",
+"pop": 185236,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Surigao City",
+"qid": "Q1019949",
+"pop": 177333,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Baliwag",
+"qid": "Q54554",
+"pop": 174194,
+"country": "the Philippines",
+"capital": "Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Greater Buenos Aires",
+"qid": "Q998798",
+"pop": 13985794,
+"country": "Argentina",
+"capital": "Buenos Aires",
+"ckey": "Argentina"
+},
+{
+"city": "Rosario",
+"qid": "Q52535",
+"pop": 1193605,
+"country": "Argentina",
+"capital": "Buenos Aires",
+"ckey": "Argentina"
+},
+{
+"city": "San Miguel de Tucumán",
+"qid": "Q44255",
+"pop": 601888,
+"country": "Argentina",
+"capital": "Buenos Aires",
+"ckey": "Argentina"
+},
+{
+"city": "Salta",
+"qid": "Q36307",
+"pop": 594772,
+"country": "Argentina",
+"capital": "Buenos Aires",
+"ckey": "Argentina"
+},
+{
+"city": "Mar del Plata",
+"qid": "Q52607",
+"pop": 593337,
+"country": "Argentina",
+"capital": "Buenos Aires",
+"ckey": "Argentina"
+},
+{
+"city": "Lanús",
+"qid": "Q1622565",
+"pop": 459263,
+"country": "Argentina",
+"capital": "Buenos Aires",
+"ckey": "Argentina"
+},
+{
+"city": "Corrientes",
+"qid": "Q44211",
+"pop": 430170,
+"country": "Argentina",
+"capital": "Buenos Aires",
+"ckey": "Argentina"
+},
+{
+"city": "Santa Fe",
+"qid": "Q44244",
+"pop": 408572,
+"country": "Argentina",
+"capital": "Buenos Aires",
+"ckey": "Argentina"
+},
+{
+"city": "Avellaneda",
+"qid": "Q753642",
+"pop": 366117,
+"country": "Argentina",
+"capital": "Buenos Aires",
+"ckey": "Argentina"
+},
+{
+"city": "San Salvador de Jujuy",
+"qid": "Q44217",
+"pop": 312446,
+"country": "Argentina",
+"capital": "Buenos Aires",
+"ckey": "Argentina"
+},
+{
+"city": "Santiago del Estero",
+"qid": "Q44253",
+"pop": 311487,
+"country": "Argentina",
+"capital": "Buenos Aires",
+"ckey": "Argentina"
+},
+{
+"city": "Resistencia",
+"qid": "Q44206",
+"pop": 300640,
+"country": "Argentina",
+"capital": "Buenos Aires",
+"ckey": "Argentina"
+},
+{
+"city": "Bahía Blanca",
+"qid": "Q54108",
+"pop": 299000,
+"country": "Argentina",
+"capital": "Buenos Aires",
+"ckey": "Argentina"
+},
+{
+"city": "Neuquén",
+"qid": "Q44239",
+"pop": 288896,
+"country": "Argentina",
+"capital": "Buenos Aires",
+"ckey": "Argentina"
+},
+{
+"city": "Posadas",
+"qid": "Q44238",
+"pop": 275988,
+"country": "Argentina",
+"capital": "Buenos Aires",
+"ckey": "Argentina"
+},
+{
+"city": "Paraná",
+"qid": "Q44213",
+"pop": 271304,
+"country": "Argentina",
+"capital": "Buenos Aires",
+"ckey": "Argentina"
+},
+{
+"city": "Formosa",
+"qid": "Q44214",
+"pop": 264452,
+"country": "Argentina",
+"capital": "Buenos Aires",
+"ckey": "Argentina"
+},
+{
+"city": "Gregorio de Laferrere",
+"qid": "Q2484567",
+"pop": 253993,
+"country": "Argentina",
+"capital": "Buenos Aires",
+"ckey": "Argentina"
+},
+{
+"city": "Merlo",
+"qid": "Q1017594",
+"pop": 244168,
+"country": "Argentina",
+"capital": "Buenos Aires",
+"ckey": "Argentina"
+},
+{
+"city": "González Catán",
+"qid": "Q994917",
+"pop": 238067,
+"country": "Argentina",
+"capital": "Buenos Aires",
+"ckey": "Argentina"
+},
+{
+"city": "La Plata",
+"qid": "Q44059",
+"pop": 220184,
+"country": "Argentina",
+"capital": "Buenos Aires",
+"ckey": "Argentina"
+},
+{
+"city": "José C. Paz",
+"qid": "Q2224587",
+"pop": 216637,
+"country": "Argentina",
+"capital": "Buenos Aires",
+"ckey": "Argentina"
+},
+{
+"city": "San Rafael",
+"qid": "Q23044",
+"pop": 215020,
+"country": "Argentina",
+"capital": "Buenos Aires",
+"ckey": "Argentina"
+},
+{
+"city": "La Rioja",
+"qid": "Q44236",
+"pop": 211651,
+"country": "Argentina",
+"capital": "Buenos Aires",
+"ckey": "Argentina"
+},
+{
+"city": "San Luis",
+"qid": "Q44243",
+"pop": 206921,
+"country": "Argentina",
+"capital": "Buenos Aires",
+"ckey": "Argentina"
+},
+{
+"city": "Comodoro Rivadavia",
+"qid": "Q221921",
+"pop": 201854,
+"country": "Argentina",
+"capital": "Buenos Aires",
+"ckey": "Argentina"
+},
+{
+"city": "Río Cuarto",
+"qid": "Q983451",
+"pop": 200000,
+"country": "Argentina",
+"capital": "Buenos Aires",
+"ckey": "Argentina"
+},
+{
+"city": "San Lorenzo",
+"qid": "Q52546",
+"pop": 196568,
+"country": "Argentina",
+"capital": "Buenos Aires",
+"ckey": "Argentina"
+},
+{
+"city": "Godoy Cruz",
+"qid": "Q1189982",
+"pop": 191299,
+"country": "Argentina",
+"capital": "Buenos Aires",
+"ckey": "Argentina"
+},
+{
+"city": "Isidro Casanova",
+"qid": "Q2700395",
+"pop": 190696,
+"country": "Argentina",
+"capital": "Buenos Aires",
+"ckey": "Argentina"
+},
+{
+"city": "San Fernando del Valle de Catamarca",
+"qid": "Q44162",
+"pop": 186947,
+"country": "Argentina",
+"capital": "Buenos Aires",
+"ckey": "Argentina"
+},
+{
+"city": "Berazategui",
+"qid": "Q548807",
+"pop": 180523,
+"country": "Argentina",
+"capital": "Buenos Aires",
+"ckey": "Argentina"
+},
+{
+"city": "Concordia",
+"qid": "Q52578",
+"pop": 180325,
+"country": "Argentina",
+"capital": "Buenos Aires",
+"ckey": "Argentina"
+},
+{
+"city": "Moreno",
+"qid": "Q1496283",
+"pop": 171849,
+"country": "Argentina",
+"capital": "Buenos Aires",
+"ckey": "Argentina"
+},
+{
+"city": "Ezeiza",
+"qid": "Q1385982",
+"pop": 160219,
+"country": "Argentina",
+"capital": "Buenos Aires",
+"ckey": "Argentina"
+},
+{
+"city": "San Nicolás de los Arroyos",
+"qid": "Q377965",
+"pop": 159978,
+"country": "Argentina",
+"capital": "Buenos Aires",
+"ckey": "Argentina"
+},
+{
+"city": "San Miguel",
+"qid": "Q1967802",
+"pop": 157532,
+"country": "Argentina",
+"capital": "Buenos Aires",
+"ckey": "Argentina"
+},
+{
+"city": "Virrey del Pino",
+"qid": "Q6163801",
+"pop": 156132,
+"country": "Argentina",
+"capital": "Buenos Aires",
+"ckey": "Argentina"
+},
+{
+"city": "Tandil",
+"qid": "Q1000336",
+"pop": 150162,
+"country": "Argentina",
+"capital": "Buenos Aires",
+"ckey": "Argentina"
+},
+{
+"city": "Greater Rio de Janeiro",
+"qid": "Q2720540",
+"pop": 11900000,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "São Paulo",
+"qid": "Q174",
+"pop": 11451999,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Rio de Janeiro",
+"qid": "Q8678",
+"pop": 6211223,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Salvador",
+"qid": "Q36947",
+"pop": 2417678,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Belo Horizonte",
+"qid": "Q42800",
+"pop": 2315560,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Manaus",
+"qid": "Q40236",
+"pop": 2303732,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Curitiba",
+"qid": "Q4361",
+"pop": 1773718,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Recife",
+"qid": "Q48344",
+"pop": 1488920,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Goiânia",
+"qid": "Q83189",
+"pop": 1437366,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Porto Alegre",
+"qid": "Q40269",
+"pop": 1388794,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Guarulhos",
+"qid": "Q184409",
+"pop": 1324781,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Belém",
+"qid": "Q12829733",
+"pop": 1303403,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Nova Iguaçu",
+"qid": "Q188897",
+"pop": 1297704,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Campinas",
+"qid": "Q171617",
+"pop": 1213792,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "São Luís",
+"qid": "Q28441",
+"pop": 1037775,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Campo Grande",
+"qid": "Q168929",
+"pop": 962883,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "São Gonçalo",
+"qid": "Q83114",
+"pop": 896744,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Duque de Caxias",
+"qid": "Q193021",
+"pop": 886917,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Teresina",
+"qid": "Q165341",
+"pop": 868075,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "João Pessoa",
+"qid": "Q167436",
+"pop": 833932,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "São Bernardo do Campo",
+"qid": "Q184403",
+"pop": 810729,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Uberlândia",
+"qid": "Q194328",
+"pop": 761835,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Natal",
+"qid": "Q131620",
+"pop": 751300,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Santo André",
+"qid": "Q191652",
+"pop": 748919,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "São José dos Campos",
+"qid": "Q191642",
+"pop": 737310,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Ribeirão Preto",
+"qid": "Q188892",
+"pop": 731639,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Sorocaba",
+"qid": "Q188901",
+"pop": 723574,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Jaboatão dos Guararapes",
+"qid": "Q271393",
+"pop": 711330,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Cuiabá",
+"qid": "Q170762",
+"pop": 691875,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Contagem",
+"qid": "Q271333",
+"pop": 673849,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Aracaju",
+"qid": "Q170578",
+"pop": 632744,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Joinville",
+"qid": "Q156819",
+"pop": 616317,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Florianópolis",
+"qid": "Q132997",
+"pop": 587486,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Londrina",
+"qid": "Q192387",
+"pop": 581382,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Serra",
+"qid": "Q927537",
+"pop": 579720,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Aparecida de Goiânia",
+"qid": "Q459711",
+"pop": 556021,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Juiz de Fora",
+"qid": "Q193019",
+"pop": 540756,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Caxias do Sul",
+"qid": "Q110017",
+"pop": 523716,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Campos dos Goytacazes",
+"qid": "Q689868",
+"pop": 519259,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Porto Velho",
+"qid": "Q172512",
+"pop": 517709,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "São José do Rio Preto",
+"qid": "Q192181",
+"pop": 504166,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Niterói",
+"qid": "Q178725",
+"pop": 496696,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Belford Roxo",
+"qid": "Q737636",
+"pop": 483087,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Ananindeua",
+"qid": "Q485887",
+"pop": 478778,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Vila Velha",
+"qid": "Q334197",
+"pop": 472762,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Mogi das Cruzes",
+"qid": "Q194332",
+"pop": 450785,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Betim",
+"qid": "Q737644",
+"pop": 450024,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Macapá",
+"qid": "Q180215",
+"pop": 442933,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "São João de Meriti",
+"qid": "Q459690",
+"pop": 440962,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Montes Claros",
+"qid": "Q651906",
+"pop": 437601,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Piracicaba",
+"qid": "Q330175",
+"pop": 423323,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Campina Grande",
+"qid": "Q193016",
+"pop": 419379,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Santos",
+"qid": "Q81882",
+"pop": 418608,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Petrolina",
+"qid": "Q842143",
+"pop": 418444,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Mauá",
+"qid": "Q331300",
+"pop": 418261,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Boa Vista",
+"qid": "Q181056",
+"pop": 413486,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Maringá",
+"qid": "Q208669",
+"pop": 409657,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Carapicuíba",
+"qid": "Q176891",
+"pop": 405375,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Caruaru",
+"qid": "Q622830",
+"pop": 402290,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Jundiaí",
+"qid": "Q275109",
+"pop": 401896,
+"country": "Brazil",
+"capital": "Brasília",
+"ckey": "Brazil"
+},
+{
+"city": "Saint Petersburg",
+"qid": "Q656",
+"pop": 5652922,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Novosibirsk",
+"qid": "Q883",
+"pop": 1637266,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Yekaterinburg",
+"qid": "Q887",
+"pop": 1468833,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Kazan",
+"qid": "Q900",
+"pop": 1329825,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Nizhny Novgorod",
+"qid": "Q891",
+"pop": 1198245,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Krasnodar",
+"qid": "Q3646",
+"pop": 1154885,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Samara",
+"qid": "Q894",
+"pop": 1154223,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Rostov-on-Don",
+"qid": "Q908",
+"pop": 1143123,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Omsk",
+"qid": "Q898",
+"pop": 1101367,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Krasnoyarsk",
+"qid": "Q919",
+"pop": 1092851,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Voronezh",
+"qid": "Q3426",
+"pop": 1041722,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Perm",
+"qid": "Q915",
+"pop": 1027518,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Volgograd",
+"qid": "Q914",
+"pop": 1012219,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Saratov",
+"qid": "Q5332",
+"pop": 838042,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Tolyatti",
+"qid": "Q1341",
+"pop": 662683,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Makhachkala",
+"qid": "Q5168",
+"pop": 662660,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Barnaul",
+"qid": "Q6014",
+"pop": 621598,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Izhevsk",
+"qid": "Q5426",
+"pop": 616297,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Khabarovsk",
+"qid": "Q4454",
+"pop": 615600,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Ulyanovsk",
+"qid": "Q5627",
+"pop": 612516,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Irkutsk",
+"qid": "Q6576",
+"pop": 605708,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Vladivostok",
+"qid": "Q959",
+"pop": 591628,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Yaroslavl",
+"qid": "Q2423",
+"pop": 563717,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Naberezhnye Chelny",
+"qid": "Q95041",
+"pop": 548221,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Tomsk",
+"qid": "Q976",
+"pop": 544566,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Kemerovo",
+"qid": "Q6066",
+"pop": 542928,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Orenburg",
+"qid": "Q5337",
+"pop": 536515,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Ryazan",
+"qid": "Q2746",
+"pop": 519315,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Cheboksary",
+"qid": "Q5470",
+"pop": 497061,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Kaliningrad",
+"qid": "Q1829",
+"pop": 488690,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Penza",
+"qid": "Q5540",
+"pop": 487978,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Kirov",
+"qid": "Q5384",
+"pop": 475871,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Astrakhan",
+"qid": "Q3927",
+"pop": 465990,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Tula",
+"qid": "Q2770",
+"pop": 456813,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Stavropol",
+"qid": "Q5206",
+"pop": 450680,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Ulan-Ude",
+"qid": "Q6816",
+"pop": 435067,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Kursk",
+"qid": "Q3159",
+"pop": 434696,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Surgut",
+"qid": "Q183002",
+"pop": 432875,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Luhansk",
+"qid": "Q134279",
+"pop": 417990,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Tver",
+"qid": "Q2288",
+"pop": 412806,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Magnitogorsk",
+"qid": "Q95449",
+"pop": 408487,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Bryansk",
+"qid": "Q2801",
+"pop": 372123,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Vladimir",
+"qid": "Q2684",
+"pop": 341579,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Chita",
+"qid": "Q53139",
+"pop": 337063,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Nizhny Tagil",
+"qid": "Q98967",
+"pop": 328157,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Kaluga",
+"qid": "Q2837",
+"pop": 324989,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Belgorod",
+"qid": "Q3323",
+"pop": 321761,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Volzhsky",
+"qid": "Q98995",
+"pop": 313034,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Smolensk",
+"qid": "Q2337",
+"pop": 310460,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Saransk",
+"qid": "Q5343",
+"pop": 309349,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Kurgan",
+"qid": "Q13379",
+"pop": 300763,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Nizhnevartovsk",
+"qid": "Q172637",
+"pop": 293130,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Grozny",
+"qid": "Q5196",
+"pop": 291687,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Yoshkar-Ola",
+"qid": "Q5449",
+"pop": 285219,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Mytishchi",
+"qid": "Q23185",
+"pop": 278693,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Sterlitamak",
+"qid": "Q196489",
+"pop": 277410,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Novorossiysk",
+"qid": "Q15760",
+"pop": 261973,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Tambov",
+"qid": "Q3544",
+"pop": 254940,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Nizhnekamsk",
+"qid": "Q172657",
+"pop": 240842,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Taganrog",
+"qid": "Q170513",
+"pop": 240055,
+"country": "Russia",
+"capital": "Moscow",
+"ckey": "Russia"
+},
+{
+"city": "Giza",
+"qid": "Q81788",
+"pop": 4458135,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "New Cairo",
+"qid": "Q12191144",
+"pop": 1500000,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "Shobra Elkhema",
+"qid": "Q269960",
+"pop": 1025569,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "Port Said",
+"qid": "Q134509",
+"pop": 791749,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "Suez",
+"qid": "Q134514",
+"pop": 716458,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "Sinnuris",
+"qid": "Q5998871",
+"pop": 692701,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "Dairut",
+"qid": "Q951804",
+"pop": 680817,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "Mansoura",
+"qid": "Q223587",
+"pop": 621953,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "Helwan",
+"qid": "Q771345",
+"pop": 619293,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "El Mahalla El Kubra",
+"qid": "Q312723",
+"pop": 592573,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "Manfalut",
+"qid": "Q556095",
+"pop": 576972,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "Shibin el-Qanater",
+"qid": "Q2663513",
+"pop": 570868,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "Dar El Salam",
+"qid": "Q5668715",
+"pop": 567516,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "Asyut",
+"qid": "Q29962",
+"pop": 562061,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "Faiyum",
+"qid": "Q203299",
+"pop": 519047,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "10th of Ramadan City",
+"qid": "Q337539",
+"pop": 500000,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "Esna",
+"qid": "Q626031",
+"pop": 462787,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "Letopolis",
+"qid": "Q1013648",
+"pop": 430609,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "Tanta",
+"qid": "Q271771",
+"pop": 429503,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "Ismailia",
+"qid": "Q217156",
+"pop": 429465,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "Talkha",
+"qid": "Q952118",
+"pop": 413584,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "Samannud",
+"qid": "Q1243772",
+"pop": 410388,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "Kom Ombo",
+"qid": "Q138833",
+"pop": 409311,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "Aswan",
+"qid": "Q29888",
+"pop": 401890,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "6th of October City",
+"qid": "Q335708",
+"pop": 376302,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "Shorouk city",
+"qid": "Q12188944",
+"pop": 340000,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "Damanhur",
+"qid": "Q328153",
+"pop": 329572,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "Basyoun",
+"qid": "Q1072210",
+"pop": 320056,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "Zagazig",
+"qid": "Q140304",
+"pop": 302840,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "Beni Suef",
+"qid": "Q394080",
+"pop": 294125,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "Massarah",
+"qid": "Q6784538",
+"pop": 288880,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "Shibin Al Kawm",
+"qid": "Q31350",
+"pop": 267945,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "Al Mokattam",
+"qid": "Q11010032",
+"pop": 242009,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "Minya",
+"qid": "Q310117",
+"pop": 236043,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "Hurghada",
+"qid": "Q187284",
+"pop": 214247,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "Mallawi",
+"qid": "Q393498",
+"pop": 212628,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "Menouf",
+"qid": "Q951268",
+"pop": 211635,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "Damietta",
+"qid": "Q189383",
+"pop": 206664,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "Arish",
+"qid": "Q238452",
+"pop": 204391,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "Luxor",
+"qid": "Q130514",
+"pop": 202232,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "Belbis",
+"qid": "Q393495",
+"pop": 198167,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "Sohag",
+"qid": "Q388108",
+"pop": 193931,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "New Borg El Arab",
+"qid": "Q12197874",
+"pop": 170000,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "Abu Kabir",
+"qid": "Q335716",
+"pop": 165246,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "Matarieh",
+"qid": "Q2562082",
+"pop": 164743,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "Girga",
+"qid": "Q749187",
+"pop": 157754,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "Benha",
+"qid": "Q336966",
+"pop": 157701,
+"country": "Egypt",
+"capital": "Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "Yokohama",
+"qid": "Q38283",
+"pop": 3757630,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Osaka",
+"qid": "Q35765",
+"pop": 2751862,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Nagoya",
+"qid": "Q11751",
+"pop": 2326844,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Sapporo",
+"qid": "Q37951",
+"pop": 1959313,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Fukuoka",
+"qid": "Q26600",
+"pop": 1603043,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Kawasaki",
+"qid": "Q164234",
+"pop": 1539522,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Kobe",
+"qid": "Q48320",
+"pop": 1521707,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Kyoto",
+"qid": "Q34600",
+"pop": 1463723,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Saitama",
+"qid": "Q134635",
+"pop": 1325843,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Hiroshima",
+"qid": "Q34664",
+"pop": 1198021,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Sendai",
+"qid": "Q46747",
+"pop": 1061177,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Chiba",
+"qid": "Q170616",
+"pop": 975014,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Sakai",
+"qid": "Q193428",
+"pop": 827277,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Niigata",
+"qid": "Q179691",
+"pop": 790646,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Hamamatsu",
+"qid": "Q185125",
+"pop": 788211,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Kumamoto",
+"qid": "Q199889",
+"pop": 738385,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Sagamihara",
+"qid": "Q209779",
+"pop": 725696,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Okayama",
+"qid": "Q200078",
+"pop": 720043,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Shizuoka",
+"qid": "Q174691",
+"pop": 685589,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Funabashi",
+"qid": "Q271417",
+"pop": 641499,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Kawaguchi",
+"qid": "Q387136",
+"pop": 593900,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Kagoshima",
+"qid": "Q15674",
+"pop": 593754,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Himeji",
+"qid": "Q209801",
+"pop": 527596,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Utsunomiya",
+"qid": "Q200589",
+"pop": 518197,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Matsuyama",
+"qid": "Q200022",
+"pop": 506743,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Matsudo",
+"qid": "Q320943",
+"pop": 497514,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Ichikawa",
+"qid": "Q209785",
+"pop": 495768,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Nishinomiya",
+"qid": "Q243853",
+"pop": 487010,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Kurashiki",
+"qid": "Q467487",
+"pop": 474862,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Kanazawa",
+"qid": "Q191130",
+"pop": 462479,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Fukuyama",
+"qid": "Q661038",
+"pop": 459576,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Amagasaki",
+"qid": "Q213318",
+"pop": 455555,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Fujisawa",
+"qid": "Q386661",
+"pop": 436744,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Machida",
+"qid": "Q210628",
+"pop": 434414,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Kashiwa",
+"qid": "Q319743",
+"pop": 427603,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Aomori",
+"qid": "Q146790",
+"pop": 425962,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Toyota",
+"qid": "Q201117",
+"pop": 422106,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Takamatsu",
+"qid": "Q200707",
+"pop": 417814,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Toyama",
+"qid": "Q204266",
+"pop": 413028,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Gifu",
+"qid": "Q45798",
+"pop": 400118,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Toyonaka",
+"qid": "Q467479",
+"pop": 399263,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Miyazaki",
+"qid": "Q204308",
+"pop": 397476,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Hirakata",
+"qid": "Q270912",
+"pop": 396694,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Yokosuka",
+"qid": "Q200578",
+"pop": 390275,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Okazaki",
+"qid": "Q242783",
+"pop": 385376,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Suita",
+"qid": "Q653510",
+"pop": 384953,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Ichinomiya",
+"qid": "Q270810",
+"pop": 378108,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Takasaki",
+"qid": "Q336438",
+"pop": 372639,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Toyohashi",
+"qid": "Q336431",
+"pop": 371507,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Nagano",
+"qid": "Q128849",
+"pop": 367184,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Kawagoe",
+"qid": "Q319740",
+"pop": 354598,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Wakayama",
+"qid": "Q200747",
+"pop": 353299,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Nara",
+"qid": "Q169134",
+"pop": 352377,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Takatsuki",
+"qid": "Q335423",
+"pop": 347496,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Otsu",
+"qid": "Q202907",
+"pop": 342607,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Koshigaya",
+"qid": "Q497952",
+"pop": 341784,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Tokorozawa",
+"qid": "Q165857",
+"pop": 341289,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Iwaki",
+"qid": "Q274384",
+"pop": 336111,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Maebashi",
+"qid": "Q201613",
+"pop": 331849,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Asahikawa",
+"qid": "Q200740",
+"pop": 331392,
+"country": "Japan",
+"capital": "Tokyo",
+"ckey": "Japan"
+},
+{
+"city": "Busan",
+"qid": "Q16520",
+"pop": 3453198,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Incheon",
+"qid": "Q20934",
+"pop": 3049315,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Daegu",
+"qid": "Q20927",
+"pop": 2444412,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Gwangju",
+"qid": "Q41283",
+"pop": 1490092,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Daejeon",
+"qid": "Q20921",
+"pop": 1475221,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Suwon",
+"qid": "Q20714",
+"pop": 1234300,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Ulsan",
+"qid": "Q41278",
+"pop": 1127553,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Yongin",
+"qid": "Q18459",
+"pop": 1084817,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Goyang",
+"qid": "Q42061",
+"pop": 1061929,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Changwon",
+"qid": "Q243327",
+"pop": 1009998,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Hwaseong",
+"qid": "Q42160",
+"pop": 1004079,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Seongnam",
+"qid": "Q42108",
+"pop": 948757,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Cheongju",
+"qid": "Q42147",
+"pop": 848000,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Bucheon",
+"qid": "Q42099",
+"pop": 772450,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Namyangju",
+"qid": "Q42084",
+"pop": 732376,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Jeju",
+"qid": "Q42142",
+"pop": 698358,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Cheonan",
+"qid": "Q42146",
+"pop": 656583,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Jeonju",
+"qid": "Q42140",
+"pop": 653055,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Ansan",
+"qid": "Q42117",
+"pop": 623256,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Pyeongtaek",
+"qid": "Q42154",
+"pop": 607435,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Gimhae",
+"qid": "Q42082",
+"pop": 534124,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Paju",
+"qid": "Q42153",
+"pop": 520803,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Pohang",
+"qid": "Q42157",
+"pop": 520305,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Siheung",
+"qid": "Q42113",
+"pop": 514274,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Uijeongbu",
+"qid": "Q42135",
+"pop": 463324,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Masan",
+"qid": "Q495387",
+"pop": 429612,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Gumi",
+"qid": "Q42073",
+"pop": 421075,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Gwangju",
+"qid": "Q42069",
+"pop": 397269,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Sejong",
+"qid": "Q20929",
+"pop": 391984,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Gimpo",
+"qid": "Q42080",
+"pop": 352683,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Jinju",
+"qid": "Q42144",
+"pop": 341545,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Wonju",
+"qid": "Q42131",
+"pop": 330854,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Hanam",
+"qid": "Q42159",
+"pop": 329822,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Asan",
+"qid": "Q42114",
+"pop": 319929,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Yangsan",
+"qid": "Q42123",
+"pop": 297532,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Yangju",
+"qid": "Q42124",
+"pop": 285930,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Chuncheon",
+"qid": "Q42148",
+"pop": 281596,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Gwangmyeong",
+"qid": "Q42066",
+"pop": 277564,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Gunsan",
+"qid": "Q42074",
+"pop": 275155,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Yeosu",
+"qid": "Q42125",
+"pop": 273761,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Iksan",
+"qid": "Q42137",
+"pop": 270758,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Gunpo",
+"qid": "Q42075",
+"pop": 270443,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Suncheon",
+"qid": "Q42112",
+"pop": 265390,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Gyeongsan",
+"qid": "Q42059",
+"pop": 264754,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Geoje",
+"qid": "Q42057",
+"pop": 249290,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Gyeongju",
+"qid": "Q42097",
+"pop": 245365,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Osan",
+"qid": "Q42129",
+"pop": 238788,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Mokpo",
+"qid": "Q42094",
+"pop": 214701,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Chungju",
+"qid": "Q31094",
+"pop": 211005,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Icheon",
+"qid": "Q42136",
+"pop": 209003,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Gangneung",
+"qid": "Q42056",
+"pop": 206780,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Anseong",
+"qid": "Q42119",
+"pop": 193220,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Seogwipo",
+"qid": "Q42103",
+"pop": 183858,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Guri",
+"qid": "Q42071",
+"pop": 180063,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Dangjin",
+"qid": "Q42089",
+"pop": 171213,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Seosan",
+"qid": "Q42105",
+"pop": 169221,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Pocheon",
+"qid": "Q42155",
+"pop": 163388,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Uiwang",
+"qid": "Q42134",
+"pop": 154879,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Andong",
+"qid": "Q42116",
+"pop": 153306,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Gwangyang",
+"qid": "Q42067",
+"pop": 152160,
+"country": "South Korea",
+"capital": "Seoul",
+"ckey": "South Korea"
+},
+{
+"city": "Madrid city",
+"qid": "Q116170766",
+"pop": 3332035,
+"country": "Spain",
+"capital": "Madrid",
+"ckey": "Spain"
+},
+{
+"city": "Barcelona",
+"qid": "Q1492",
+"pop": 1731649,
+"country": "Spain",
+"capital": "Madrid",
+"ckey": "Spain"
+},
+{
+"city": "City of Valencia",
+"qid": "Q24017120",
+"pop": 769128,
+"country": "Spain",
+"capital": "Madrid",
+"ckey": "Spain"
+},
+{
+"city": "Seville city",
+"qid": "Q55893348",
+"pop": 684025,
+"country": "Spain",
+"capital": "Madrid",
+"ckey": "Spain"
+},
+{
+"city": "Zaragoza",
+"qid": "Q31926034",
+"pop": 666880,
+"country": "Spain",
+"capital": "Madrid",
+"ckey": "Spain"
+},
+{
+"city": "Málaga",
+"qid": "Q8851",
+"pop": 599063,
+"country": "Spain",
+"capital": "Madrid",
+"ckey": "Spain"
+},
+{
+"city": "Málaga City",
+"qid": "Q116450968",
+"pop": 543392,
+"country": "Spain",
+"capital": "Madrid",
+"ckey": "Spain"
+},
+{
+"city": "Palma",
+"qid": "Q8826",
+"pop": 434786,
+"country": "Spain",
+"capital": "Madrid",
+"ckey": "Spain"
+},
+{
+"city": "Alicante",
+"qid": "Q11959",
+"pop": 366221,
+"country": "Spain",
+"capital": "Madrid",
+"ckey": "Spain"
+},
+{
+"city": "Las Palmas de Gran Canaria",
+"qid": "Q23984578",
+"pop": 297682,
+"country": "Spain",
+"capital": "Madrid",
+"ckey": "Spain"
+},
+{
+"city": "Valladolid city",
+"qid": "Q31925679",
+"pop": 292426,
+"country": "Spain",
+"capital": "Madrid",
+"ckey": "Spain"
+},
+{
+"city": "L'Hospitalet de Llobregat",
+"qid": "Q15470",
+"pop": 289510,
+"country": "Spain",
+"capital": "Madrid",
+"ckey": "Spain"
+},
+{
+"city": "Xixón City",
+"qid": "Q80349557",
+"pop": 255070,
+"country": "Spain",
+"capital": "Madrid",
+"ckey": "Spain"
+},
+{
+"city": "Terrassa",
+"qid": "Q13939",
+"pop": 233270,
+"country": "Spain",
+"capital": "Madrid",
+"ckey": "Spain"
+},
+{
+"city": "Badalona",
+"qid": "Q15468",
+"pop": 231542,
+"country": "Spain",
+"capital": "Madrid",
+"ckey": "Spain"
+},
+{
+"city": "Sabadell",
+"qid": "Q12258",
+"pop": 225368,
+"country": "Spain",
+"capital": "Madrid",
+"ckey": "Spain"
+},
+{
+"city": "Móstoles",
+"qid": "Q187826",
+"pop": 214817,
+"country": "Spain",
+"capital": "Madrid",
+"ckey": "Spain"
+},
+{
+"city": "Alcalá de Henares",
+"qid": "Q24012786",
+"pop": 198975,
+"country": "Spain",
+"capital": "Madrid",
+"ckey": "Spain"
+},
+{
+"city": "Leganés",
+"qid": "Q77433",
+"pop": 195734,
+"country": "Spain",
+"capital": "Madrid",
+"ckey": "Spain"
+},
+{
+"city": "Elche",
+"qid": "Q31916107",
+"pop": 193077,
+"country": "Spain",
+"capital": "Madrid",
+"ckey": "Spain"
+},
+{
+"city": "Oviedo City",
+"qid": "Q21414421",
+"pop": 186513,
+"country": "Spain",
+"capital": "Madrid",
+"ckey": "Spain"
+},
+{
+"city": "Castellón de la Plana",
+"qid": "Q15092",
+"pop": 183711,
+"country": "Spain",
+"capital": "Madrid",
+"ckey": "Spain"
+},
+{
+"city": "Murcia City",
+"qid": "Q24019772",
+"pop": 170246,
+"country": "Spain",
+"capital": "Madrid",
+"ckey": "Spain"
+},
+{
+"city": "Burgos city",
+"qid": "Q43167665",
+"pop": 168672,
+"country": "Spain",
+"capital": "Madrid",
+"ckey": "Spain"
+},
+{
+"city": "Almería city",
+"qid": "Q112795541",
+"pop": 167916,
+"country": "Spain",
+"capital": "Madrid",
+"ckey": "Spain"
+},
+{
+"city": "Albacete City",
+"qid": "Q24008386",
+"pop": 165938,
+"country": "Spain",
+"capital": "Madrid",
+"ckey": "Spain"
+},
+{
+"city": "San Cristóbal de La Laguna",
+"qid": "Q54898",
+"pop": 161108,
+"country": "Spain",
+"capital": "Madrid",
+"ckey": "Spain"
+},
+{
+"city": "Getafe",
+"qid": "Q24012739",
+"pop": 156358,
+"country": "Spain",
+"capital": "Madrid",
+"ckey": "Spain"
+},
+{
+"city": "Badajoz",
+"qid": "Q15679",
+"pop": 150209,
+"country": "Spain",
+"capital": "Madrid",
+"ckey": "Spain"
+},
+{
+"city": "Surabaya",
+"qid": "Q11462",
+"pop": 3009286,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Bandung",
+"qid": "Q10389",
+"pop": 2875673,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Bekasi",
+"qid": "Q10392",
+"pop": 2381053,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Depok",
+"qid": "Q10396",
+"pop": 2330333,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Tangerang",
+"qid": "Q10127",
+"pop": 2237006,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Medan",
+"qid": "Q5972",
+"pop": 2109330,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Kota Semarang",
+"qid": "Q24843784",
+"pop": 1653524,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "South Tangerang",
+"qid": "Q10128",
+"pop": 1644899,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Semarang",
+"qid": "Q11025",
+"pop": 1621384,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Palembang",
+"qid": "Q8131",
+"pop": 1535952,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Makassar",
+"qid": "Q14634",
+"pop": 1338663,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Batam",
+"qid": "Q10103",
+"pop": 1196396,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Malang",
+"qid": "Q11445",
+"pop": 1175282,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Bandar Lampung",
+"qid": "Q8156",
+"pop": 1166761,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Pekanbaru",
+"qid": "Q7786",
+"pop": 983356,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Bogor",
+"qid": "Q10393",
+"pop": 982469,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Padang",
+"qid": "Q7253",
+"pop": 909040,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Kota Malang",
+"qid": "Q24879468",
+"pop": 843810,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Samarinda",
+"qid": "Q14499",
+"pop": 831460,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Bandar Lampung",
+"qid": "Q65299509",
+"pop": 800348,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Pontianak",
+"qid": "Q14168",
+"pop": 680880,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Tasikmalaya",
+"qid": "Q10399",
+"pop": 678027,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Denpasar",
+"qid": "Q11506",
+"pop": 670210,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Banjarmasin",
+"qid": "Q14182",
+"pop": 662230,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Serang",
+"qid": "Q10126",
+"pop": 613356,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Jambi",
+"qid": "Q7578",
+"pop": 612162,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Balikpapan",
+"qid": "Q14492",
+"pop": 598043,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Cimahi",
+"qid": "Q10394",
+"pop": 586580,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Surakarta",
+"qid": "Q4803",
+"pop": 552118,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Kupang",
+"qid": "Q14155",
+"pop": 466632,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Manado",
+"qid": "Q15847",
+"pop": 461636,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Kupang",
+"qid": "Q23823589",
+"pop": 442758,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Yogyakarta",
+"qid": "Q7568",
+"pop": 422732,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Jayapura",
+"qid": "Q27860",
+"pop": 413283,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Mataram",
+"qid": "Q14126",
+"pop": 408900,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Cilegon",
+"qid": "Q10124",
+"pop": 387543,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Palu",
+"qid": "Q24849683",
+"pop": 373218,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Ambon",
+"qid": "Q18970",
+"pop": 372249,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Bengkulu",
+"qid": "Q8042",
+"pop": 360495,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Palu",
+"qid": "Q15826",
+"pop": 359350,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Cirebon",
+"qid": "Q10395",
+"pop": 341235,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Kendari",
+"qid": "Q15379",
+"pop": 331013,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Sukabumi",
+"qid": "Q10397",
+"pop": 320970,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Pekalongan",
+"qid": "Q24847153",
+"pop": 307150,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Pekalongan",
+"qid": "Q11026",
+"pop": 298386,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Sorong",
+"qid": "Q26837",
+"pop": 295809,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Mamuju",
+"qid": "Q1070920",
+"pop": 278764,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Pematangsiantar",
+"qid": "Q5979",
+"pop": 278055,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Tegal",
+"qid": "Q11027",
+"pop": 275789,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Binjai",
+"qid": "Q5954",
+"pop": 269053,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Dumai",
+"qid": "Q7782",
+"pop": 264084,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Kediri",
+"qid": "Q11443",
+"pop": 252000,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Palangka Raya",
+"qid": "Q14409",
+"pop": 249434,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Cibinong",
+"qid": "Q401296",
+"pop": 241232,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Kota Probolinggo",
+"qid": "Q24847611",
+"pop": 239649,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Banda Aceh",
+"qid": "Q5779",
+"pop": 235305,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Purwokerto",
+"qid": "Q650908",
+"pop": 233865,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Singkawang",
+"qid": "Q14169",
+"pop": 230376,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Padangsidimpuan",
+"qid": "Q5974",
+"pop": 225544,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Sidoarjo",
+"qid": "Q11544714",
+"pop": 223231,
+"country": "Indonesia",
+"capital": "Jakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Toronto",
+"qid": "Q172",
+"pop": 2794356,
+"country": "Canada",
+"capital": "Ottawa",
+"ckey": "Canada"
+},
+{
+"city": "Montreal",
+"qid": "Q340",
+"pop": 1895211,
+"country": "Canada",
+"capital": "Ottawa",
+"ckey": "Canada"
+},
+{
+"city": "Calgary",
+"qid": "Q36312",
+"pop": 1306784,
+"country": "Canada",
+"capital": "Ottawa",
+"ckey": "Canada"
+},
+{
+"city": "Edmonton",
+"qid": "Q2096",
+"pop": 1010899,
+"country": "Canada",
+"capital": "Ottawa",
+"ckey": "Canada"
+},
+{
+"city": "Winnipeg",
+"qid": "Q2135",
+"pop": 749607,
+"country": "Canada",
+"capital": "Ottawa",
+"ckey": "Canada"
+},
+{
+"city": "Mississauga",
+"qid": "Q50816",
+"pop": 717961,
+"country": "Canada",
+"capital": "Ottawa",
+"ckey": "Canada"
+},
+{
+"city": "Brampton",
+"qid": "Q44198",
+"pop": 656480,
+"country": "Canada",
+"capital": "Ottawa",
+"ckey": "Canada"
+},
+{
+"city": "Hamilton",
+"qid": "Q133116",
+"pop": 569353,
+"country": "Canada",
+"capital": "Ottawa",
+"ckey": "Canada"
+},
+{
+"city": "Surrey",
+"qid": "Q390583",
+"pop": 568322,
+"country": "Canada",
+"capital": "Ottawa",
+"ckey": "Canada"
+},
+{
+"city": "Laval",
+"qid": "Q141810",
+"pop": 450629,
+"country": "Canada",
+"capital": "Ottawa",
+"ckey": "Canada"
+},
+{
+"city": "Markham",
+"qid": "Q44016",
+"pop": 338503,
+"country": "Canada",
+"capital": "Ottawa",
+"ckey": "Canada"
+},
+{
+"city": "Vaughan",
+"qid": "Q44013",
+"pop": 323103,
+"country": "Canada",
+"capital": "Ottawa",
+"ckey": "Canada"
+},
+{
+"city": "Gatineau",
+"qid": "Q141844",
+"pop": 298126,
+"country": "Canada",
+"capital": "Ottawa",
+"ckey": "Canada"
+},
+{
+"city": "Saskatoon",
+"qid": "Q10566",
+"pop": 266141,
+"country": "Canada",
+"capital": "Ottawa",
+"ckey": "Canada"
+},
+{
+"city": "Kitchener",
+"qid": "Q200166",
+"pop": 256885,
+"country": "Canada",
+"capital": "Ottawa",
+"ckey": "Canada"
+},
+{
+"city": "Burnaby",
+"qid": "Q244025",
+"pop": 249125,
+"country": "Canada",
+"capital": "Ottawa",
+"ckey": "Canada"
+},
+{
+"city": "Windsor",
+"qid": "Q182625",
+"pop": 229660,
+"country": "Canada",
+"capital": "Ottawa",
+"ckey": "Canada"
+},
+{
+"city": "Regina",
+"qid": "Q2123",
+"pop": 226404,
+"country": "Canada",
+"capital": "Ottawa",
+"ckey": "Canada"
+},
+{
+"city": "Richmond Hill",
+"qid": "Q52998",
+"pop": 202022,
+"country": "Canada",
+"capital": "Ottawa",
+"ckey": "Canada"
+},
+{
+"city": "Burlington",
+"qid": "Q34218",
+"pop": 186948,
+"country": "Canada",
+"capital": "Ottawa",
+"ckey": "Canada"
+},
+{
+"city": "Sherbrooke",
+"qid": "Q139473",
+"pop": 181360,
+"country": "Canada",
+"capital": "Ottawa",
+"ckey": "Canada"
+},
+{
+"city": "Oshawa",
+"qid": "Q211867",
+"pop": 175383,
+"country": "Canada",
+"capital": "Ottawa",
+"ckey": "Canada"
+},
+{
+"city": "Greater Sudbury",
+"qid": "Q383434",
+"pop": 166004,
+"country": "Canada",
+"capital": "Ottawa",
+"ckey": "Canada"
+},
+{
+"city": "Lévis",
+"qid": "Q139208",
+"pop": 156225,
+"country": "Canada",
+"capital": "Ottawa",
+"ckey": "Canada"
+},
+{
+"city": "Abbotsford",
+"qid": "Q271730",
+"pop": 153524,
+"country": "Canada",
+"capital": "Ottawa",
+"ckey": "Canada"
+},
+{
+"city": "Medellín",
+"qid": "Q48278",
+"pop": 2529403,
+"country": "Colombia",
+"capital": "Bogotá",
+"ckey": "Colombia"
+},
+{
+"city": "Cali",
+"qid": "Q51103",
+"pop": 2471474,
+"country": "Colombia",
+"capital": "Bogotá",
+"ckey": "Colombia"
+},
+{
+"city": "Cali",
+"qid": "Q23696223",
+"pop": 2234400,
+"country": "Colombia",
+"capital": "Bogotá",
+"ckey": "Colombia"
+},
+{
+"city": "Barranquilla",
+"qid": "Q62823",
+"pop": 1326588,
+"country": "Colombia",
+"capital": "Bogotá",
+"ckey": "Colombia"
+},
+{
+"city": "Cartagena",
+"qid": "Q657461",
+"pop": 914552,
+"country": "Colombia",
+"capital": "Bogotá",
+"ckey": "Colombia"
+},
+{
+"city": "Villavicencio",
+"qid": "Q749224",
+"pop": 664148,
+"country": "Colombia",
+"capital": "Bogotá",
+"ckey": "Colombia"
+},
+{
+"city": "Bucaramanga",
+"qid": "Q243766",
+"pop": 614860,
+"country": "Colombia",
+"capital": "Bogotá",
+"ckey": "Colombia"
+},
+{
+"city": "Pereira",
+"qid": "Q51111",
+"pop": 590554,
+"country": "Colombia",
+"capital": "Bogotá",
+"ckey": "Colombia"
+},
+{
+"city": "Ibagué",
+"qid": "Q222755",
+"pop": 546003,
+"country": "Colombia",
+"capital": "Bogotá",
+"ckey": "Colombia"
+},
+{
+"city": "Valledupar",
+"qid": "Q376903",
+"pop": 544134,
+"country": "Colombia",
+"capital": "Bogotá",
+"ckey": "Colombia"
+},
+{
+"city": "Santa Marta",
+"qid": "Q209016",
+"pop": 505915,
+"country": "Colombia",
+"capital": "Bogotá",
+"ckey": "Colombia"
+},
+{
+"city": "Manizales",
+"qid": "Q235190",
+"pop": 454494,
+"country": "Colombia",
+"capital": "Bogotá",
+"ckey": "Colombia"
+},
+{
+"city": "Pasto",
+"qid": "Q320015",
+"pop": 410835,
+"country": "Colombia",
+"capital": "Bogotá",
+"ckey": "Colombia"
+},
+{
+"city": "Montería",
+"qid": "Q852725",
+"pop": 400000,
+"country": "Colombia",
+"capital": "Bogotá",
+"ckey": "Colombia"
+},
+{
+"city": "Neiva",
+"qid": "Q638260",
+"pop": 380019,
+"country": "Colombia",
+"capital": "Bogotá",
+"ckey": "Colombia"
+},
+{
+"city": "Armenia",
+"qid": "Q328518",
+"pop": 301226,
+"country": "Colombia",
+"capital": "Bogotá",
+"ckey": "Colombia"
+},
+{
+"city": "Popayán",
+"qid": "Q335135",
+"pop": 300837,
+"country": "Colombia",
+"capital": "Bogotá",
+"ckey": "Colombia"
+},
+{
+"city": "Sincelejo",
+"qid": "Q1043513",
+"pop": 286716,
+"country": "Colombia",
+"capital": "Bogotá",
+"ckey": "Colombia"
+},
+{
+"city": "Riohacha",
+"qid": "Q826566",
+"pop": 222541,
+"country": "Colombia",
+"capital": "Bogotá",
+"ckey": "Colombia"
+},
+{
+"city": "Florencia",
+"qid": "Q849859",
+"pop": 191867,
+"country": "Colombia",
+"capital": "Bogotá",
+"ckey": "Colombia"
+},
+{
+"city": "Tunja",
+"qid": "Q236744",
+"pop": 180572,
+"country": "Colombia",
+"capital": "Bogotá",
+"ckey": "Colombia"
+},
+{
+"city": "Ipiales",
+"qid": "Q1010094",
+"pop": 169864,
+"country": "Colombia",
+"capital": "Bogotá",
+"ckey": "Colombia"
+},
+{
+"city": "Isfahan",
+"qid": "Q42053",
+"pop": 1961260,
+"country": "Iran",
+"capital": "Tehran",
+"ckey": "Iran"
+},
+{
+"city": "Ahvaz",
+"qid": "Q170366",
+"pop": 1184788,
+"country": "Iran",
+"capital": "Tehran",
+"ckey": "Iran"
+},
+{
+"city": "Kermanshah",
+"qid": "Q180078",
+"pop": 946651,
+"country": "Iran",
+"capital": "Tehran",
+"ckey": "Iran"
+},
+{
+"city": "Urmia",
+"qid": "Q179665",
+"pop": 736224,
+"country": "Iran",
+"capital": "Tehran",
+"ckey": "Iran"
+},
+{
+"city": "Rasht",
+"qid": "Q178373",
+"pop": 679995,
+"country": "Iran",
+"capital": "Tehran",
+"ckey": "Iran"
+},
+{
+"city": "Zahedan",
+"qid": "Q140561",
+"pop": 587730,
+"country": "Iran",
+"capital": "Tehran",
+"ckey": "Iran"
+},
+{
+"city": "Hamadan",
+"qid": "Q28587",
+"pop": 554406,
+"country": "Iran",
+"capital": "Tehran",
+"ckey": "Iran"
+},
+{
+"city": "Kerman",
+"qid": "Q171714",
+"pop": 537718,
+"country": "Iran",
+"capital": "Tehran",
+"ckey": "Iran"
+},
+{
+"city": "Yazd",
+"qid": "Q182394",
+"pop": 529673,
+"country": "Iran",
+"capital": "Tehran",
+"ckey": "Iran"
+},
+{
+"city": "Bandar Abbas",
+"qid": "Q154814",
+"pop": 526648,
+"country": "Iran",
+"capital": "Tehran",
+"ckey": "Iran"
+},
+{
+"city": "Arak",
+"qid": "Q212628",
+"pop": 520944,
+"country": "Iran",
+"capital": "Tehran",
+"ckey": "Iran"
+},
+{
+"city": "Eslamshahr",
+"qid": "Q862519",
+"pop": 448129,
+"country": "Iran",
+"capital": "Tehran",
+"ckey": "Iran"
+},
+{
+"city": "Zanjan",
+"qid": "Q146699",
+"pop": 430871,
+"country": "Iran",
+"capital": "Tehran",
+"ckey": "Iran"
+},
+{
+"city": "Sanandaj",
+"qid": "Q272093",
+"pop": 412767,
+"country": "Iran",
+"capital": "Tehran",
+"ckey": "Iran"
+},
+{
+"city": "Khorramabad",
+"qid": "Q502212",
+"pop": 373416,
+"country": "Iran",
+"capital": "Tehran",
+"ckey": "Iran"
+},
+{
+"city": "Gorgan",
+"qid": "Q188155",
+"pop": 350676,
+"country": "Iran",
+"capital": "Tehran",
+"ckey": "Iran"
+},
+{
+"city": "Sari",
+"qid": "Q168843",
+"pop": 309820,
+"country": "Iran",
+"capital": "Tehran",
+"ckey": "Iran"
+},
+{
+"city": "Kashan",
+"qid": "Q240475",
+"pop": 304487,
+"country": "Iran",
+"capital": "Tehran",
+"ckey": "Iran"
+},
+{
+"city": "Dezful",
+"qid": "Q605142",
+"pop": 264709,
+"country": "Iran",
+"capital": "Tehran",
+"ckey": "Iran"
+},
+{
+"city": "Nishapur",
+"qid": "Q131350",
+"pop": 264375,
+"country": "Iran",
+"capital": "Tehran",
+"ckey": "Iran"
+},
+{
+"city": "Babol",
+"qid": "Q605157",
+"pop": 250217,
+"country": "Iran",
+"capital": "Tehran",
+"ckey": "Iran"
+},
+{
+"city": "Ray",
+"qid": "Q636188",
+"pop": 250000,
+"country": "Iran",
+"capital": "Tehran",
+"ckey": "Iran"
+},
+{
+"city": "Khomeyni Shahr",
+"qid": "Q720001",
+"pop": 247128,
+"country": "Iran",
+"capital": "Tehran",
+"ckey": "Iran"
+},
+{
+"city": "Sabzevar",
+"qid": "Q765553",
+"pop": 243700,
+"country": "Iran",
+"capital": "Tehran",
+"ckey": "Iran"
+},
+{
+"city": "Andimeshk",
+"qid": "Q371112",
+"pop": 240113,
+"country": "Iran",
+"capital": "Tehran",
+"ckey": "Iran"
+},
+{
+"city": "Amol",
+"qid": "Q331078",
+"pop": 237528,
+"country": "Iran",
+"capital": "Tehran",
+"ckey": "Iran"
+},
+{
+"city": "Najafabad",
+"qid": "Q721198",
+"pop": 235281,
+"country": "Iran",
+"capital": "Tehran",
+"ckey": "Iran"
+},
+{
+"city": "Borujerd",
+"qid": "Q605454",
+"pop": 234997,
+"country": "Iran",
+"capital": "Tehran",
+"ckey": "Iran"
+},
+{
+"city": "Abadan",
+"qid": "Q63049",
+"pop": 231476,
+"country": "Iran",
+"capital": "Tehran",
+"ckey": "Iran"
+},
+{
+"city": "Bojnord",
+"qid": "Q317946",
+"pop": 228931,
+"country": "Iran",
+"capital": "Tehran",
+"ckey": "Iran"
+},
+{
+"city": "Bushehr",
+"qid": "Q158928",
+"pop": 223504,
+"country": "Iran",
+"capital": "Tehran",
+"ckey": "Iran"
+},
+{
+"city": "Birjand",
+"qid": "Q193806",
+"pop": 203636,
+"country": "Iran",
+"capital": "Tehran",
+"ckey": "Iran"
+},
+{
+"city": "Sirjan",
+"qid": "Q605224",
+"pop": 199704,
+"country": "Iran",
+"capital": "Tehran",
+"ckey": "Iran"
+},
+{
+"city": "Khoy",
+"qid": "Q605105",
+"pop": 198845,
+"country": "Iran",
+"capital": "Tehran",
+"ckey": "Iran"
+},
+{
+"city": "Ilam",
+"qid": "Q499470",
+"pop": 194030,
+"country": "Iran",
+"capital": "Tehran",
+"ckey": "Iran"
+},
+{
+"city": "Bukan",
+"qid": "Q606564",
+"pop": 193501,
+"country": "Iran",
+"capital": "Tehran",
+"ckey": "Iran"
+},
+{
+"city": "Shahr-e Kord",
+"qid": "Q386649",
+"pop": 190441,
+"country": "Iran",
+"capital": "Tehran",
+"ckey": "Iran"
+},
+{
+"city": "Semnan",
+"qid": "Q203045",
+"pop": 185129,
+"country": "Iran",
+"capital": "Tehran",
+"ckey": "Iran"
+},
+{
+"city": "Shahin Shahr",
+"qid": "Q862105",
+"pop": 173329,
+"country": "Iran",
+"capital": "Tehran",
+"ckey": "Iran"
+},
+{
+"city": "Malayer",
+"qid": "Q605209",
+"pop": 170237,
+"country": "Iran",
+"capital": "Tehran",
+"ckey": "Iran"
+},
+{
+"city": "Saqqez",
+"qid": "Q348972",
+"pop": 165258,
+"country": "Iran",
+"capital": "Tehran",
+"ckey": "Iran"
+},
+{
+"city": "Gonbad-e Kavus",
+"qid": "Q1975291",
+"pop": 151910,
+"country": "Iran",
+"capital": "Tehran",
+"ckey": "Iran"
+},
+{
+"city": "Katowice urban area",
+"qid": "Q3114019",
+"pop": 1903000,
+"country": "Poland",
+"capital": "Warsaw",
+"ckey": "Poland"
+},
+{
+"city": "Kraków",
+"qid": "Q31487",
+"pop": 804237,
+"country": "Poland",
+"capital": "Warsaw",
+"ckey": "Poland"
+},
+{
+"city": "Szczecin",
+"qid": "Q393",
+"pop": 387700,
+"country": "Poland",
+"capital": "Warsaw",
+"ckey": "Poland"
+},
+{
+"city": "Lublin",
+"qid": "Q37333",
+"pop": 334681,
+"country": "Poland",
+"capital": "Warsaw",
+"ckey": "Poland"
+},
+{
+"city": "Bydgoszcz",
+"qid": "Q41252",
+"pop": 324984,
+"country": "Poland",
+"capital": "Warsaw",
+"ckey": "Poland"
+},
+{
+"city": "Katowice",
+"qid": "Q588",
+"pop": 278090,
+"country": "Poland",
+"capital": "Warsaw",
+"ckey": "Poland"
+},
+{
+"city": "Gdynia",
+"qid": "Q385",
+"pop": 245222,
+"country": "Poland",
+"capital": "Warsaw",
+"ckey": "Poland"
+},
+{
+"city": "Radom",
+"qid": "Q104740",
+"pop": 201601,
+"country": "Poland",
+"capital": "Warsaw",
+"ckey": "Poland"
+},
+{
+"city": "Rzeszów",
+"qid": "Q598",
+"pop": 195871,
+"country": "Poland",
+"capital": "Warsaw",
+"ckey": "Poland"
+},
+{
+"city": "Kielce",
+"qid": "Q102317",
+"pop": 186894,
+"country": "Poland",
+"capital": "Warsaw",
+"ckey": "Poland"
+},
+{
+"city": "Sosnowiec",
+"qid": "Q105060",
+"pop": 185930,
+"country": "Poland",
+"capital": "Warsaw",
+"ckey": "Poland"
+},
+{
+"city": "Gliwice",
+"qid": "Q105084",
+"pop": 174016,
+"country": "Poland",
+"capital": "Warsaw",
+"ckey": "Poland"
+},
+{
+"city": "Olsztyn",
+"qid": "Q82765",
+"pop": 170225,
+"country": "Poland",
+"capital": "Warsaw",
+"ckey": "Poland"
+},
+{
+"city": "Zabrze",
+"qid": "Q103892",
+"pop": 156935,
+"country": "Poland",
+"capital": "Warsaw",
+"ckey": "Poland"
+},
+{
+"city": "Bytom",
+"qid": "Q102350",
+"pop": 153274,
+"country": "Poland",
+"capital": "Warsaw",
+"ckey": "Poland"
+},
+{
+"city": "Hamburg",
+"qid": "Q1055",
+"pop": 1869473,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Munich",
+"qid": "Q1726",
+"pop": 1505036,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Cologne",
+"qid": "Q365",
+"pop": 1025523,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Frankfurt",
+"qid": "Q1794",
+"pop": 760656,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Bremen",
+"qid": "Q1209",
+"pop": 693204,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Düsseldorf",
+"qid": "Q1718",
+"pop": 619444,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Leipzig",
+"qid": "Q2079",
+"pop": 615932,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Stuttgart",
+"qid": "Q1022",
+"pop": 609365,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Dortmund",
+"qid": "Q1295",
+"pop": 600880,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Bremen",
+"qid": "Q24879",
+"pop": 588413,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Essen",
+"qid": "Q2066",
+"pop": 573618,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Dresden",
+"qid": "Q1731",
+"pop": 562764,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Nuremberg",
+"qid": "Q2090",
+"pop": 531159,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Hanover",
+"qid": "Q1715",
+"pop": 522803,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Duisburg",
+"qid": "Q2100",
+"pop": 500810,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Bochum",
+"qid": "Q2103",
+"pop": 358880,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Wuppertal",
+"qid": "Q2107",
+"pop": 357243,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Bielefeld",
+"qid": "Q2112",
+"pop": 331419,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Bonn",
+"qid": "Q586",
+"pop": 323587,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Mannheim",
+"qid": "Q2119",
+"pop": 319536,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Karlsruhe",
+"qid": "Q1040",
+"pop": 309247,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Münster",
+"qid": "Q2742",
+"pop": 306368,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Augsburg",
+"qid": "Q2749",
+"pop": 301786,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Wiesbaden",
+"qid": "Q1721",
+"pop": 288584,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Mönchengladbach",
+"qid": "Q2758",
+"pop": 267176,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Gelsenkirchen",
+"qid": "Q2765",
+"pop": 266199,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Aachen",
+"qid": "Q1017",
+"pop": 263703,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Brunswick",
+"qid": "Q2773",
+"pop": 252811,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Kiel",
+"qid": "Q1707",
+"pop": 251842,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Chemnitz",
+"qid": "Q2795",
+"pop": 247252,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Magdeburg",
+"qid": "Q1733",
+"pop": 244494,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Freiburg im Breisgau",
+"qid": "Q2833",
+"pop": 238299,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Krefeld",
+"qid": "Q2805",
+"pop": 230738,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Halle (Saale)",
+"qid": "Q2814",
+"pop": 226186,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Mainz",
+"qid": "Q1720",
+"pop": 223888,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Erfurt",
+"qid": "Q1729",
+"pop": 217159,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Lübeck",
+"qid": "Q2843",
+"pop": 217061,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Oberhausen",
+"qid": "Q2838",
+"pop": 213178,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Rostock",
+"qid": "Q2861",
+"pop": 204929,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Kassel",
+"qid": "Q2865",
+"pop": 196799,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Hagen",
+"qid": "Q2871",
+"pop": 189983,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Potsdam",
+"qid": "Q1711",
+"pop": 185137,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Saarbrücken",
+"qid": "Q1724",
+"pop": 182859,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Hamm",
+"qid": "Q2880",
+"pop": 179108,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Ludwigshafen",
+"qid": "Q2910",
+"pop": 177355,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Oldenburg",
+"qid": "Q2936",
+"pop": 177055,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Mülheim an der Ruhr",
+"qid": "Q2899",
+"pop": 171674,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Leverkusen",
+"qid": "Q2938",
+"pop": 168299,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Darmstadt",
+"qid": "Q2973",
+"pop": 168253,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Osnabrück",
+"qid": "Q2916",
+"pop": 166257,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Solingen",
+"qid": "Q2942",
+"pop": 164621,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Herne",
+"qid": "Q2904",
+"pop": 156266,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Heidelberg",
+"qid": "Q2966",
+"pop": 156092,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Paderborn",
+"qid": "Q2971",
+"pop": 155906,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Neuss",
+"qid": "Q2948",
+"pop": 153767,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Regensburg",
+"qid": "Q2978",
+"pop": 151517,
+"country": "Germany",
+"capital": "Berlin",
+"ckey": "Germany"
+},
+{
+"city": "Metropolis of Lyon",
+"qid": "Q16665897",
+"pop": 1436354,
+"country": "France",
+"capital": "Paris",
+"ckey": "France"
+},
+{
+"city": "Bordeaux Métropole",
+"qid": "Q1117116",
+"pop": 796273,
+"country": "France",
+"capital": "Paris",
+"ckey": "France"
+},
+{
+"city": "Lyon",
+"qid": "Q456",
+"pop": 519127,
+"country": "France",
+"capital": "Paris",
+"ckey": "France"
+},
+{
+"city": "Toulouse",
+"qid": "Q7880",
+"pop": 514819,
+"country": "France",
+"capital": "Paris",
+"ckey": "France"
+},
+{
+"city": "Nice",
+"qid": "Q33959",
+"pop": 357737,
+"country": "France",
+"capital": "Paris",
+"ckey": "France"
+},
+{
+"city": "Montpellier",
+"qid": "Q6441",
+"pop": 310240,
+"country": "France",
+"capital": "Paris",
+"ckey": "France"
+},
+{
+"city": "Strasbourg",
+"qid": "Q6602",
+"pop": 293771,
+"country": "France",
+"capital": "Paris",
+"ckey": "France"
+},
+{
+"city": "Bordeaux",
+"qid": "Q1479",
+"pop": 267991,
+"country": "France",
+"capital": "Paris",
+"ckey": "France"
+},
+{
+"city": "Lille",
+"qid": "Q648",
+"pop": 238246,
+"country": "France",
+"capital": "Paris",
+"ckey": "France"
+},
+{
+"city": "Reims",
+"qid": "Q41876",
+"pop": 177674,
+"country": "France",
+"capital": "Paris",
+"ckey": "France"
+},
+{
+"city": "Saint-Étienne",
+"qid": "Q42716",
+"pop": 173136,
+"country": "France",
+"capital": "Paris",
+"ckey": "France"
+},
+{
+"city": "Le Havre",
+"qid": "Q42810",
+"pop": 166687,
+"country": "France",
+"capital": "Paris",
+"ckey": "France"
+},
+{
+"city": "Villeurbanne",
+"qid": "Q582",
+"pop": 163684,
+"country": "France",
+"capital": "Paris",
+"ckey": "France"
+},
+{
+"city": "Dijon",
+"qid": "Q7003",
+"pop": 161830,
+"country": "France",
+"capital": "Paris",
+"ckey": "France"
+},
+{
+"city": "Angers",
+"qid": "Q38380",
+"pop": 159022,
+"country": "France",
+"capital": "Paris",
+"ckey": "France"
+},
+{
+"city": "Grenoble",
+"qid": "Q1289",
+"pop": 156140,
+"country": "France",
+"capital": "Paris",
+"ckey": "France"
+},
+{
+"city": "Saint-Denis",
+"qid": "Q47045",
+"pop": 155634,
+"country": "France",
+"capital": "Paris",
+"ckey": "France"
+},
+{
+"city": "Nîmes",
+"qid": "Q42807",
+"pop": 151839,
+"country": "France",
+"capital": "Paris",
+"ckey": "France"
+},
+{
+"city": "Milan",
+"qid": "Q490",
+"pop": 1354196,
+"country": "Italy",
+"capital": "Rome",
+"ckey": "Italy"
+},
+{
+"city": "Naples",
+"qid": "Q2634",
+"pop": 913462,
+"country": "Italy",
+"capital": "Rome",
+"ckey": "Italy"
+},
+{
+"city": "Turin",
+"qid": "Q495",
+"pop": 841600,
+"country": "Italy",
+"capital": "Rome",
+"ckey": "Italy"
+},
+{
+"city": "Palermo",
+"qid": "Q2656",
+"pop": 630167,
+"country": "Italy",
+"capital": "Rome",
+"ckey": "Italy"
+},
+{
+"city": "Genoa",
+"qid": "Q1449",
+"pop": 558745,
+"country": "Italy",
+"capital": "Rome",
+"ckey": "Italy"
+},
+{
+"city": "Florence",
+"qid": "Q2044",
+"pop": 360930,
+"country": "Italy",
+"capital": "Rome",
+"ckey": "Italy"
+},
+{
+"city": "Free Territory of Trieste",
+"qid": "Q391980",
+"pop": 330000,
+"country": "Italy",
+"capital": "Rome",
+"ckey": "Italy"
+},
+{
+"city": "Catania",
+"qid": "Q1903",
+"pop": 311584,
+"country": "Italy",
+"capital": "Rome",
+"ckey": "Italy"
+},
+{
+"city": "Verona",
+"qid": "Q2028",
+"pop": 255588,
+"country": "Italy",
+"capital": "Rome",
+"ckey": "Italy"
+},
+{
+"city": "Venice",
+"qid": "Q641",
+"pop": 250369,
+"country": "Italy",
+"capital": "Rome",
+"ckey": "Italy"
+},
+{
+"city": "Messina",
+"qid": "Q13666",
+"pop": 218786,
+"country": "Italy",
+"capital": "Rome",
+"ckey": "Italy"
+},
+{
+"city": "Padua",
+"qid": "Q617",
+"pop": 206496,
+"country": "Italy",
+"capital": "Rome",
+"ckey": "Italy"
+},
+{
+"city": "Trieste",
+"qid": "Q546",
+"pop": 198417,
+"country": "Italy",
+"capital": "Rome",
+"ckey": "Italy"
+},
+{
+"city": "Parma",
+"qid": "Q2683",
+"pop": 196764,
+"country": "Italy",
+"capital": "Rome",
+"ckey": "Italy"
+},
+{
+"city": "Prato",
+"qid": "Q13377",
+"pop": 195736,
+"country": "Italy",
+"capital": "Rome",
+"ckey": "Italy"
+},
+{
+"city": "Taranto",
+"qid": "Q13498",
+"pop": 188098,
+"country": "Italy",
+"capital": "Rome",
+"ckey": "Italy"
+},
+{
+"city": "Modena",
+"qid": "Q279",
+"pop": 184153,
+"country": "Italy",
+"capital": "Rome",
+"ckey": "Italy"
+},
+{
+"city": "Reggio Calabria",
+"qid": "Q8471",
+"pop": 170951,
+"country": "Italy",
+"capital": "Rome",
+"ckey": "Italy"
+},
+{
+"city": "Reggio Emilia",
+"qid": "Q13360",
+"pop": 169545,
+"country": "Italy",
+"capital": "Rome",
+"ckey": "Italy"
+},
+{
+"city": "Ravenna",
+"qid": "Q13364",
+"pop": 155751,
+"country": "Italy",
+"capital": "Rome",
+"ckey": "Italy"
+},
+{
+"city": "Livorno",
+"qid": "Q6761",
+"pop": 152914,
+"country": "Italy",
+"capital": "Rome",
+"ckey": "Italy"
+},
+{
+"city": "Arequipa",
+"qid": "Q159273",
+"pop": 1008290,
+"country": "Peru",
+"capital": "Lima",
+"ckey": "Peru"
+},
+{
+"city": "Trujillo",
+"qid": "Q214173",
+"pop": 919899,
+"country": "Peru",
+"capital": "Lima",
+"ckey": "Peru"
+},
+{
+"city": "Vitarte",
+"qid": "Q26823312",
+"pop": 599196,
+"country": "Peru",
+"capital": "Lima",
+"ckey": "Peru"
+},
+{
+"city": "Callao",
+"qid": "Q105037",
+"pop": 567702,
+"country": "Peru",
+"capital": "Lima",
+"ckey": "Peru"
+},
+{
+"city": "Chiclayo",
+"qid": "Q260911",
+"pop": 552508,
+"country": "Peru",
+"capital": "Lima",
+"ckey": "Peru"
+},
+{
+"city": "Piura",
+"qid": "Q223966",
+"pop": 473025,
+"country": "Peru",
+"capital": "Lima",
+"ckey": "Peru"
+},
+{
+"city": "Cusco",
+"qid": "Q5582862",
+"pop": 428450,
+"country": "Peru",
+"capital": "Lima",
+"ckey": "Peru"
+},
+{
+"city": "Chimbote",
+"qid": "Q518431",
+"pop": 395100,
+"country": "Peru",
+"capital": "Lima",
+"ckey": "Peru"
+},
+{
+"city": "Huancayo",
+"qid": "Q468782",
+"pop": 378203,
+"country": "Peru",
+"capital": "Lima",
+"ckey": "Peru"
+},
+{
+"city": "Iquitos",
+"qid": "Q193289",
+"pop": 377609,
+"country": "Peru",
+"capital": "Lima",
+"ckey": "Peru"
+},
+{
+"city": "Pucallpa",
+"qid": "Q217071",
+"pop": 326040,
+"country": "Peru",
+"capital": "Lima",
+"ckey": "Peru"
+},
+{
+"city": "Tacna",
+"qid": "Q272795",
+"pop": 286240,
+"country": "Peru",
+"capital": "Lima",
+"ckey": "Peru"
+},
+{
+"city": "Ica",
+"qid": "Q840712",
+"pop": 282407,
+"country": "Peru",
+"capital": "Lima",
+"ckey": "Peru"
+},
+{
+"city": "Juliaca",
+"qid": "Q696074",
+"pop": 276110,
+"country": "Peru",
+"capital": "Lima",
+"ckey": "Peru"
+},
+{
+"city": "Tarapoto",
+"qid": "Q927933",
+"pop": 240453,
+"country": "Peru",
+"capital": "Lima",
+"ckey": "Peru"
+},
+{
+"city": "Ayacucho",
+"qid": "Q504215",
+"pop": 216444,
+"country": "Peru",
+"capital": "Lima",
+"ckey": "Peru"
+},
+{
+"city": "Cajamarca",
+"qid": "Q205119",
+"pop": 201329,
+"country": "Peru",
+"capital": "Lima",
+"ckey": "Peru"
+},
+{
+"city": "Huacho",
+"qid": "Q1002052",
+"pop": 200585,
+"country": "Peru",
+"capital": "Lima",
+"ckey": "Peru"
+},
+{
+"city": "Huánuco",
+"qid": "Q504394",
+"pop": 196627,
+"country": "Peru",
+"capital": "Lima",
+"ckey": "Peru"
+},
+{
+"city": "Iquique",
+"qid": "Q23011145",
+"pop": 191468,
+"country": "Peru",
+"capital": "Lima",
+"ckey": "Peru"
+},
+{
+"city": "Sullana",
+"qid": "Q510413",
+"pop": 162434,
+"country": "Peru",
+"capital": "Lima",
+"ckey": "Peru"
+},
+{
+"city": "Glasgow",
+"qid": "Q4093",
+"pop": 626410,
+"country": "the United Kingdom",
+"capital": "London",
+"ckey": "United Kingdom"
+},
+{
+"city": "Leeds",
+"qid": "Q39121",
+"pop": 536280,
+"country": "the United Kingdom",
+"capital": "London",
+"ckey": "United Kingdom"
+},
+{
+"city": "Sheffield",
+"qid": "Q42448",
+"pop": 518090,
+"country": "the United Kingdom",
+"capital": "London",
+"ckey": "United Kingdom"
+},
+{
+"city": "Liverpool",
+"qid": "Q24826",
+"pop": 513441,
+"country": "the United Kingdom",
+"capital": "London",
+"ckey": "United Kingdom"
+},
+{
+"city": "Edinburgh",
+"qid": "Q23436",
+"pop": 488050,
+"country": "the United Kingdom",
+"capital": "London",
+"ckey": "United Kingdom"
+},
+{
+"city": "Bristol",
+"qid": "Q23154",
+"pop": 472465,
+"country": "the United Kingdom",
+"capital": "London",
+"ckey": "United Kingdom"
+},
+{
+"city": "Cardiff",
+"qid": "Q10690",
+"pop": 383536,
+"country": "the United Kingdom",
+"capital": "London",
+"ckey": "United Kingdom"
+},
+{
+"city": "Leicester",
+"qid": "Q83065",
+"pop": 368600,
+"country": "the United Kingdom",
+"capital": "London",
+"ckey": "United Kingdom"
+},
+{
+"city": "Coventry",
+"qid": "Q6225",
+"pop": 362690,
+"country": "the United Kingdom",
+"capital": "London",
+"ckey": "United Kingdom"
+},
+{
+"city": "Belfast",
+"qid": "Q10686",
+"pop": 345006,
+"country": "the United Kingdom",
+"capital": "London",
+"ckey": "United Kingdom"
+},
+{
+"city": "Newcastle upon Tyne",
+"qid": "Q1425428",
+"pop": 300196,
+"country": "the United Kingdom",
+"capital": "London",
+"ckey": "United Kingdom"
+},
+{
+"city": "Nottingham",
+"qid": "Q41262",
+"pop": 289301,
+"country": "the United Kingdom",
+"capital": "London",
+"ckey": "United Kingdom"
+},
+{
+"city": "Bolton",
+"qid": "Q184579",
+"pop": 285372,
+"country": "the United Kingdom",
+"capital": "London",
+"ckey": "United Kingdom"
+},
+{
+"city": "Sunderland",
+"qid": "Q188304",
+"pop": 277417,
+"country": "the United Kingdom",
+"capital": "London",
+"ckey": "United Kingdom"
+},
+{
+"city": "Brighton and Hove",
+"qid": "Q1022488",
+"pop": 277103,
+"country": "the United Kingdom",
+"capital": "London",
+"ckey": "United Kingdom"
+},
+{
+"city": "Southampton",
+"qid": "Q79848",
+"pop": 271173,
+"country": "the United Kingdom",
+"capital": "London",
+"ckey": "United Kingdom"
+},
+{
+"city": "Plymouth",
+"qid": "Q43382",
+"pop": 267918,
+"country": "the United Kingdom",
+"capital": "London",
+"ckey": "United Kingdom"
+},
+{
+"city": "Milton Keynes",
+"qid": "Q204234",
+"pop": 264349,
+"country": "the United Kingdom",
+"capital": "London",
+"ckey": "United Kingdom"
+},
+{
+"city": "Kingston upon Hull",
+"qid": "Q128147",
+"pop": 260200,
+"country": "the United Kingdom",
+"capital": "London",
+"ckey": "United Kingdom"
+},
+{
+"city": "Stoke-on-Trent",
+"qid": "Q134902",
+"pop": 258300,
+"country": "the United Kingdom",
+"capital": "London",
+"ckey": "United Kingdom"
+},
+{
+"city": "Derby",
+"qid": "Q43475",
+"pop": 255394,
+"country": "the United Kingdom",
+"capital": "London",
+"ckey": "United Kingdom"
+},
+{
+"city": "Wolverhampton",
+"qid": "Q126269",
+"pop": 250970,
+"country": "the United Kingdom",
+"capital": "London",
+"ckey": "United Kingdom"
+},
+{
+"city": "Portsmouth",
+"qid": "Q72259",
+"pop": 248440,
+"country": "the United Kingdom",
+"capital": "London",
+"ckey": "United Kingdom"
+},
+{
+"city": "Swansea",
+"qid": "Q23051",
+"pop": 246700,
+"country": "the United Kingdom",
+"capital": "London",
+"ckey": "United Kingdom"
+},
+{
+"city": "Swindon",
+"qid": "Q200942",
+"pop": 222193,
+"country": "the United Kingdom",
+"capital": "London",
+"ckey": "United Kingdom"
+},
+{
+"city": "City of Westminster",
+"qid": "Q179351",
+"pop": 211365,
+"country": "the United Kingdom",
+"capital": "London",
+"ckey": "United Kingdom"
+},
+{
+"city": "York",
+"qid": "Q42462",
+"pop": 208400,
+"country": "the United Kingdom",
+"capital": "London",
+"ckey": "United Kingdom"
+},
+{
+"city": "Solihull",
+"qid": "Q397343",
+"pop": 206674,
+"country": "the United Kingdom",
+"capital": "London",
+"ckey": "United Kingdom"
+},
+{
+"city": "Aberdeen",
+"qid": "Q36405",
+"pop": 200680,
+"country": "the United Kingdom",
+"capital": "London",
+"ckey": "United Kingdom"
+},
+{
+"city": "Norwich",
+"qid": "Q130191",
+"pop": 195971,
+"country": "the United Kingdom",
+"capital": "London",
+"ckey": "United Kingdom"
+},
+{
+"city": "Peterborough",
+"qid": "Q172438",
+"pop": 194000,
+"country": "the United Kingdom",
+"capital": "London",
+"ckey": "United Kingdom"
+},
+{
+"city": "St Helens",
+"qid": "Q153647",
+"pop": 183248,
+"country": "the United Kingdom",
+"capital": "London",
+"ckey": "United Kingdom"
+},
+{
+"city": "Warrington",
+"qid": "Q215733",
+"pop": 165456,
+"country": "the United Kingdom",
+"capital": "London",
+"ckey": "United Kingdom"
+},
+{
+"city": "Huddersfield",
+"qid": "Q201812",
+"pop": 162949,
+"country": "the United Kingdom",
+"capital": "London",
+"ckey": "United Kingdom"
+},
+{
+"city": "Southend-on-Sea",
+"qid": "Q203995",
+"pop": 160257,
+"country": "the United Kingdom",
+"capital": "London",
+"ckey": "United Kingdom"
+},
+{
+"city": "Newport",
+"qid": "Q101254",
+"pop": 159600,
+"country": "the United Kingdom",
+"capital": "London",
+"ckey": "United Kingdom"
+}
+]
+}

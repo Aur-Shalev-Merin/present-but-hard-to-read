@@ -1,0 +1,8383 @@
+{
+"keys": [
+"Argentina",
+"Brazil",
+"Canada",
+"Colombia",
+"Egypt",
+"France",
+"Germany",
+"India",
+"Indonesia",
+"Iran",
+"Italy",
+"Japan",
+"Nigeria",
+"Pakistan",
+"People's Republic of China",
+"Peru",
+"Philippines",
+"Poland",
+"Russia",
+"South Korea",
+"Spain",
+"Turkey",
+"United Kingdom",
+"United States",
+"Vietnam"
+],
+"all_cities": [
+{
+"city": "Chongqing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Shanghai",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Chengdu",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Guangzhou",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Shenzhen",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Tianjin",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Xi'an",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Suzhou",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Zhengzhou",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Wuhan",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Hangzhou",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Baoding",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Linyi",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Shijiazhuang",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Dongguan",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Changsha",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Harbin",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Wenzhou",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Foshan",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Handan",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Ningbo",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Weifang",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Hefei",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Nanjing",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Jinan",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Xuzhou",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Shenyang",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Changchun",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Zhoukou",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Ganzhou",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Heze",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Nanning",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Kunming",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Jining",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Fuzhou",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Shangqiu",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Nantong",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Tangshan",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Wuxi",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Dalian",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Hong Kong",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Cangzhou",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Xingtai",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Yantai",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Luoyang",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Jinhua",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Zhumadian",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Zhanjiang",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Bijie",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Yancheng",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Hengyang",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Taizhou",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Zunyi",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Shaoyang",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Shangrao",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Huanggang",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Nanchang",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Xinxiang",
+"ckey": "People's Republic of China"
+},
+{
+"city": "Delhi",
+"ckey": "India"
+},
+{
+"city": "Mumbai",
+"ckey": "India"
+},
+{
+"city": "Bengaluru",
+"ckey": "India"
+},
+{
+"city": "Ahmedabad",
+"ckey": "India"
+},
+{
+"city": "Chennai",
+"ckey": "India"
+},
+{
+"city": "Pune",
+"ckey": "India"
+},
+{
+"city": "Prayagraj",
+"ckey": "India"
+},
+{
+"city": "Surat",
+"ckey": "India"
+},
+{
+"city": "Kanpur",
+"ckey": "India"
+},
+{
+"city": "Kolkata",
+"ckey": "India"
+},
+{
+"city": "Lucknow",
+"ckey": "India"
+},
+{
+"city": "Vadodara",
+"ckey": "India"
+},
+{
+"city": "Jaipur",
+"ckey": "India"
+},
+{
+"city": "Nagpur",
+"ckey": "India"
+},
+{
+"city": "Ghaziabad",
+"ckey": "India"
+},
+{
+"city": "Rajkot",
+"ckey": "India"
+},
+{
+"city": "Visakhapatnam",
+"ckey": "India"
+},
+{
+"city": "Indore",
+"ckey": "India"
+},
+{
+"city": "Thane",
+"ckey": "India"
+},
+{
+"city": "Bhopal",
+"ckey": "India"
+},
+{
+"city": "Patna",
+"ckey": "India"
+},
+{
+"city": "Ludhiana",
+"ckey": "India"
+},
+{
+"city": "Agra",
+"ckey": "India"
+},
+{
+"city": "Meerut",
+"ckey": "India"
+},
+{
+"city": "Madurai",
+"ckey": "India"
+},
+{
+"city": "Jamshedpur",
+"ckey": "India"
+},
+{
+"city": "Nashik",
+"ckey": "India"
+},
+{
+"city": "Faridabad",
+"ckey": "India"
+},
+{
+"city": "Jabalpur",
+"ckey": "India"
+},
+{
+"city": "Vasai-Virar",
+"ckey": "India"
+},
+{
+"city": "Varanasi",
+"ckey": "India"
+},
+{
+"city": "Srinagar",
+"ckey": "India"
+},
+{
+"city": "Aurangabad",
+"ckey": "India"
+},
+{
+"city": "Amritsar",
+"ckey": "India"
+},
+{
+"city": "Navi Mumbai",
+"ckey": "India"
+},
+{
+"city": "Guwahati",
+"ckey": "India"
+},
+{
+"city": "Ranchi",
+"ckey": "India"
+},
+{
+"city": "Gwalior",
+"ckey": "India"
+},
+{
+"city": "Chandigarh",
+"ckey": "India"
+},
+{
+"city": "Vijayawada",
+"ckey": "India"
+},
+{
+"city": "Jodhpur",
+"ckey": "India"
+},
+{
+"city": "Raipur",
+"ckey": "India"
+},
+{
+"city": "Kota",
+"ckey": "India"
+},
+{
+"city": "Bareilly",
+"ckey": "India"
+},
+{
+"city": "Coimbatore",
+"ckey": "India"
+},
+{
+"city": "Solapur",
+"ckey": "India"
+},
+{
+"city": "Mysore",
+"ckey": "India"
+},
+{
+"city": "Tiruchirappalli",
+"ckey": "India"
+},
+{
+"city": "Moradabad",
+"ckey": "India"
+},
+{
+"city": "Jamnagar",
+"ckey": "India"
+},
+{
+"city": "Gurgaon",
+"ckey": "India"
+},
+{
+"city": "Aligarh",
+"ckey": "India"
+},
+{
+"city": "Jalandhar",
+"ckey": "India"
+},
+{
+"city": "Bhubaneswar",
+"ckey": "India"
+},
+{
+"city": "Mira-Bhayandar",
+"ckey": "India"
+},
+{
+"city": "Thiruvananthapuram",
+"ckey": "India"
+},
+{
+"city": "Dispur",
+"ckey": "India"
+},
+{
+"city": "Bhiwandi",
+"ckey": "India"
+},
+{
+"city": "Saharanpur",
+"ckey": "India"
+},
+{
+"city": "Warangal",
+"ckey": "India"
+},
+{
+"city": "New York metropolitan area",
+"ckey": "United States"
+},
+{
+"city": "New York City",
+"ckey": "United States"
+},
+{
+"city": "Chicago",
+"ckey": "United States"
+},
+{
+"city": "Houston",
+"ckey": "United States"
+},
+{
+"city": "Phoenix",
+"ckey": "United States"
+},
+{
+"city": "San Diego",
+"ckey": "United States"
+},
+{
+"city": "Dallas",
+"ckey": "United States"
+},
+{
+"city": "Charlotte",
+"ckey": "United States"
+},
+{
+"city": "Austin",
+"ckey": "United States"
+},
+{
+"city": "Fort Worth",
+"ckey": "United States"
+},
+{
+"city": "Columbus",
+"ckey": "United States"
+},
+{
+"city": "San Francisco",
+"ckey": "United States"
+},
+{
+"city": "Seattle",
+"ckey": "United States"
+},
+{
+"city": "Denver",
+"ckey": "United States"
+},
+{
+"city": "Washington, D.C.",
+"ckey": "United States"
+},
+{
+"city": "Nashville",
+"ckey": "United States"
+},
+{
+"city": "Oklahoma City",
+"ckey": "United States"
+},
+{
+"city": "El Paso",
+"ckey": "United States"
+},
+{
+"city": "Boston",
+"ckey": "United States"
+},
+{
+"city": "Portland",
+"ckey": "United States"
+},
+{
+"city": "Las Vegas",
+"ckey": "United States"
+},
+{
+"city": "Detroit",
+"ckey": "United States"
+},
+{
+"city": "Memphis",
+"ckey": "United States"
+},
+{
+"city": "Baltimore",
+"ckey": "United States"
+},
+{
+"city": "Milwaukee",
+"ckey": "United States"
+},
+{
+"city": "Albuquerque",
+"ckey": "United States"
+},
+{
+"city": "Tucson",
+"ckey": "United States"
+},
+{
+"city": "Fresno",
+"ckey": "United States"
+},
+{
+"city": "Sacramento",
+"ckey": "United States"
+},
+{
+"city": "Kansas City",
+"ckey": "United States"
+},
+{
+"city": "Mesa",
+"ckey": "United States"
+},
+{
+"city": "Atlanta",
+"ckey": "United States"
+},
+{
+"city": "Omaha",
+"ckey": "United States"
+},
+{
+"city": "Colorado Springs",
+"ckey": "United States"
+},
+{
+"city": "Raleigh",
+"ckey": "United States"
+},
+{
+"city": "Long Beach",
+"ckey": "United States"
+},
+{
+"city": "Virginia Beach",
+"ckey": "United States"
+},
+{
+"city": "Oakland",
+"ckey": "United States"
+},
+{
+"city": "Minneapolis",
+"ckey": "United States"
+},
+{
+"city": "Tulsa",
+"ckey": "United States"
+},
+{
+"city": "Bakersfield",
+"ckey": "United States"
+},
+{
+"city": "Wichita",
+"ckey": "United States"
+},
+{
+"city": "Arlington",
+"ckey": "United States"
+},
+{
+"city": "Aurora",
+"ckey": "United States"
+},
+{
+"city": "New Orleans",
+"ckey": "United States"
+},
+{
+"city": "Cleveland",
+"ckey": "United States"
+},
+{
+"city": "Honolulu",
+"ckey": "United States"
+},
+{
+"city": "Anaheim",
+"ckey": "United States"
+},
+{
+"city": "Orlando",
+"ckey": "United States"
+},
+{
+"city": "Lexington",
+"ckey": "United States"
+},
+{
+"city": "Stockton",
+"ckey": "United States"
+},
+{
+"city": "Corpus Christi",
+"ckey": "United States"
+},
+{
+"city": "Riverside",
+"ckey": "United States"
+},
+{
+"city": "Newark",
+"ckey": "United States"
+},
+{
+"city": "Saint Paul",
+"ckey": "United States"
+},
+{
+"city": "Santa Ana",
+"ckey": "United States"
+},
+{
+"city": "Cincinnati",
+"ckey": "United States"
+},
+{
+"city": "Irvine",
+"ckey": "United States"
+},
+{
+"city": "Pittsburgh",
+"ckey": "United States"
+},
+{
+"city": "Istanbul",
+"ckey": "Turkey"
+},
+{
+"city": "Bursa",
+"ckey": "Turkey"
+},
+{
+"city": "Antalya",
+"ckey": "Turkey"
+},
+{
+"city": "Konya Province",
+"ckey": "Turkey"
+},
+{
+"city": "Konya",
+"ckey": "Turkey"
+},
+{
+"city": "Kocaeli Province",
+"ckey": "Turkey"
+},
+{
+"city": "Adana",
+"ckey": "Turkey"
+},
+{
+"city": "Gaziantep",
+"ckey": "Turkey"
+},
+{
+"city": "Kayseri",
+"ckey": "Turkey"
+},
+{
+"city": "Samsun",
+"ckey": "Turkey"
+},
+{
+"city": "Van",
+"ckey": "Turkey"
+},
+{
+"city": "Mersin",
+"ckey": "Turkey"
+},
+{
+"city": "Denizli",
+"ckey": "Turkey"
+},
+{
+"city": "Trabzon",
+"ckey": "Turkey"
+},
+{
+"city": "Erzurum",
+"ckey": "Turkey"
+},
+{
+"city": "Batman",
+"ckey": "Turkey"
+},
+{
+"city": "Malatya",
+"ckey": "Turkey"
+},
+{
+"city": "Manisa",
+"ckey": "Turkey"
+},
+{
+"city": "Antakya",
+"ckey": "Turkey"
+},
+{
+"city": "Sivas",
+"ckey": "Turkey"
+},
+{
+"city": "Tarsus",
+"ckey": "Turkey"
+},
+{
+"city": "Merkezefendi",
+"ckey": "Turkey"
+},
+{
+"city": "Ortahisar",
+"ckey": "Turkey"
+},
+{
+"city": "Afyonkarahisar",
+"ckey": "Turkey"
+},
+{
+"city": "Çorlu",
+"ckey": "Turkey"
+},
+{
+"city": "Çorum",
+"ckey": "Turkey"
+},
+{
+"city": "Kütahya",
+"ckey": "Turkey"
+},
+{
+"city": "Siverek",
+"ckey": "Turkey"
+},
+{
+"city": "Aksaray",
+"ckey": "Turkey"
+},
+{
+"city": "Osmaniye",
+"ckey": "Turkey"
+},
+{
+"city": "Beykoz",
+"ckey": "Turkey"
+},
+{
+"city": "Isparta",
+"ckey": "Turkey"
+},
+{
+"city": "Düzce",
+"ckey": "Turkey"
+},
+{
+"city": "Ordu",
+"ckey": "Turkey"
+},
+{
+"city": "Çerkezköy",
+"ckey": "Turkey"
+},
+{
+"city": "Karaköprü",
+"ckey": "Turkey"
+},
+{
+"city": "Artuklu",
+"ckey": "Turkey"
+},
+{
+"city": "Menemen",
+"ckey": "Turkey"
+},
+{
+"city": "Bolu",
+"ckey": "Turkey"
+},
+{
+"city": "Akhisar",
+"ckey": "Turkey"
+},
+{
+"city": "Edirne",
+"ckey": "Turkey"
+},
+{
+"city": "Karaman",
+"ckey": "Turkey"
+},
+{
+"city": "Siirt",
+"ckey": "Turkey"
+},
+{
+"city": "Körfez",
+"ckey": "Turkey"
+},
+{
+"city": "Tokat",
+"ckey": "Turkey"
+},
+{
+"city": "Turgutlu",
+"ckey": "Turkey"
+},
+{
+"city": "Gölcük",
+"ckey": "Turkey"
+},
+{
+"city": "Nazilli",
+"ckey": "Turkey"
+},
+{
+"city": "Salihli",
+"ckey": "Turkey"
+},
+{
+"city": "Bingöl",
+"ckey": "Turkey"
+},
+{
+"city": "Ceyhan",
+"ckey": "Turkey"
+},
+{
+"city": "Erzincan",
+"ckey": "Turkey"
+},
+{
+"city": "Edremit",
+"ckey": "Turkey"
+},
+{
+"city": "Kastamonu",
+"ckey": "Turkey"
+},
+{
+"city": "Lagos",
+"ckey": "Nigeria"
+},
+{
+"city": "Kano",
+"ckey": "Nigeria"
+},
+{
+"city": "Port Harcourt",
+"ckey": "Nigeria"
+},
+{
+"city": "Ibadan",
+"ckey": "Nigeria"
+},
+{
+"city": "Benin City",
+"ckey": "Nigeria"
+},
+{
+"city": "Onitsha",
+"ckey": "Nigeria"
+},
+{
+"city": "Maiduguri",
+"ckey": "Nigeria"
+},
+{
+"city": "Aba",
+"ckey": "Nigeria"
+},
+{
+"city": "Ogbomosho",
+"ckey": "Nigeria"
+},
+{
+"city": "Enugu",
+"ckey": "Nigeria"
+},
+{
+"city": "Owerri",
+"ckey": "Nigeria"
+},
+{
+"city": "Abeokuta",
+"ckey": "Nigeria"
+},
+{
+"city": "Ikeja",
+"ckey": "Nigeria"
+},
+{
+"city": "Akure",
+"ckey": "Nigeria"
+},
+{
+"city": "Ilorin",
+"ckey": "Nigeria"
+},
+{
+"city": "Jos",
+"ckey": "Nigeria"
+},
+{
+"city": "Zaria",
+"ckey": "Nigeria"
+},
+{
+"city": "Kaduna",
+"ckey": "Nigeria"
+},
+{
+"city": "Calabar",
+"ckey": "Nigeria"
+},
+{
+"city": "Osogbo",
+"ckey": "Nigeria"
+},
+{
+"city": "Bauchi",
+"ckey": "Nigeria"
+},
+{
+"city": "Lokoja",
+"ckey": "Nigeria"
+},
+{
+"city": "Jalingo",
+"ckey": "Nigeria"
+},
+{
+"city": "Makurdi",
+"ckey": "Nigeria"
+},
+{
+"city": "Ile Ife",
+"ckey": "Nigeria"
+},
+{
+"city": "Ado Ekiti",
+"ckey": "Nigeria"
+},
+{
+"city": "Dutse",
+"ckey": "Nigeria"
+},
+{
+"city": "Awka",
+"ckey": "Nigeria"
+},
+{
+"city": "Uyo",
+"ckey": "Nigeria"
+},
+{
+"city": "Sokoto",
+"ckey": "Nigeria"
+},
+{
+"city": "Lekki",
+"ckey": "Nigeria"
+},
+{
+"city": "Yola",
+"ckey": "Nigeria"
+},
+{
+"city": "Oyo",
+"ckey": "Nigeria"
+},
+{
+"city": "Gusau",
+"ckey": "Nigeria"
+},
+{
+"city": "Iseyin",
+"ckey": "Nigeria"
+},
+{
+"city": "Umuahia",
+"ckey": "Nigeria"
+},
+{
+"city": "Ondo",
+"ckey": "Nigeria"
+},
+{
+"city": "Yenegoa",
+"ckey": "Nigeria"
+},
+{
+"city": "Owo",
+"ckey": "Nigeria"
+},
+{
+"city": "Lafia",
+"ckey": "Nigeria"
+},
+{
+"city": "Minna",
+"ckey": "Nigeria"
+},
+{
+"city": "Okene",
+"ckey": "Nigeria"
+},
+{
+"city": "Katsina",
+"ckey": "Nigeria"
+},
+{
+"city": "Warri",
+"ckey": "Nigeria"
+},
+{
+"city": "Daura",
+"ckey": "Nigeria"
+},
+{
+"city": "Apapa",
+"ckey": "Nigeria"
+},
+{
+"city": "Ilesa",
+"ckey": "Nigeria"
+},
+{
+"city": "Burutu",
+"ckey": "Nigeria"
+},
+{
+"city": "Mai'Adua",
+"ckey": "Nigeria"
+},
+{
+"city": "Yewa North",
+"ckey": "Nigeria"
+},
+{
+"city": "Zango",
+"ckey": "Nigeria"
+},
+{
+"city": "Karachi",
+"ckey": "Pakistan"
+},
+{
+"city": "Lahore",
+"ckey": "Pakistan"
+},
+{
+"city": "Faisalabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Rawalpindi",
+"ckey": "Pakistan"
+},
+{
+"city": "Gujranwala",
+"ckey": "Pakistan"
+},
+{
+"city": "Peshawar",
+"ckey": "Pakistan"
+},
+{
+"city": "Multan",
+"ckey": "Pakistan"
+},
+{
+"city": "Bahawalpur",
+"ckey": "Pakistan"
+},
+{
+"city": "Parachinar",
+"ckey": "Pakistan"
+},
+{
+"city": "Sargodha",
+"ckey": "Pakistan"
+},
+{
+"city": "Shah Faisal Town",
+"ckey": "Pakistan"
+},
+{
+"city": "Sialkot",
+"ckey": "Pakistan"
+},
+{
+"city": "Sahiwal",
+"ckey": "Pakistan"
+},
+{
+"city": "Sukkur",
+"ckey": "Pakistan"
+},
+{
+"city": "Larkana",
+"ckey": "Pakistan"
+},
+{
+"city": "Chiniot",
+"ckey": "Pakistan"
+},
+{
+"city": "Sheikhupura",
+"ckey": "Pakistan"
+},
+{
+"city": "Rahim Yar Khan",
+"ckey": "Pakistan"
+},
+{
+"city": "Jhang",
+"ckey": "Pakistan"
+},
+{
+"city": "Wah Cantonment",
+"ckey": "Pakistan"
+},
+{
+"city": "Dera Ghazi Khan",
+"ckey": "Pakistan"
+},
+{
+"city": "Malakwal",
+"ckey": "Pakistan"
+},
+{
+"city": "Mardan",
+"ckey": "Pakistan"
+},
+{
+"city": "Hafizabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Kasur",
+"ckey": "Pakistan"
+},
+{
+"city": "Jhelum",
+"ckey": "Pakistan"
+},
+{
+"city": "Chakwal",
+"ckey": "Pakistan"
+},
+{
+"city": "Khanewal",
+"ckey": "Pakistan"
+},
+{
+"city": "Mingora",
+"ckey": "Pakistan"
+},
+{
+"city": "Turbat",
+"ckey": "Pakistan"
+},
+{
+"city": "Nawabshah",
+"ckey": "Pakistan"
+},
+{
+"city": "Gilgit",
+"ckey": "Pakistan"
+},
+{
+"city": "Kotri",
+"ckey": "Pakistan"
+},
+{
+"city": "Mirpur Khas",
+"ckey": "Pakistan"
+},
+{
+"city": "Okara",
+"ckey": "Pakistan"
+},
+{
+"city": "Mandi Bahauddin",
+"ckey": "Pakistan"
+},
+{
+"city": "Pakpattan",
+"ckey": "Pakistan"
+},
+{
+"city": "Thatta",
+"ckey": "Pakistan"
+},
+{
+"city": "Jacobabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Burewala",
+"ckey": "Pakistan"
+},
+{
+"city": "Ahmedpur East",
+"ckey": "Pakistan"
+},
+{
+"city": "Hub",
+"ckey": "Pakistan"
+},
+{
+"city": "Chishtian",
+"ckey": "Pakistan"
+},
+{
+"city": "Attock",
+"ckey": "Pakistan"
+},
+{
+"city": "Kohat",
+"ckey": "Pakistan"
+},
+{
+"city": "Muzaffargarh",
+"ckey": "Pakistan"
+},
+{
+"city": "Muridke",
+"ckey": "Pakistan"
+},
+{
+"city": "Gojra",
+"ckey": "Pakistan"
+},
+{
+"city": "Ghoriwala",
+"ckey": "Pakistan"
+},
+{
+"city": "Wazirabad",
+"ckey": "Pakistan"
+},
+{
+"city": "Jaranwala",
+"ckey": "Pakistan"
+},
+{
+"city": "Ho Chi Minh City",
+"ckey": "Vietnam"
+},
+{
+"city": "Da Nang",
+"ckey": "Vietnam"
+},
+{
+"city": "Haiphong",
+"ckey": "Vietnam"
+},
+{
+"city": "Biên Hòa",
+"ckey": "Vietnam"
+},
+{
+"city": "Vinh",
+"ckey": "Vietnam"
+},
+{
+"city": "Nha Trang",
+"ckey": "Vietnam"
+},
+{
+"city": "Cà Mau",
+"ckey": "Vietnam"
+},
+{
+"city": "Tuy Hòa",
+"ckey": "Vietnam"
+},
+{
+"city": "Metro Manila",
+"ckey": "Philippines"
+},
+{
+"city": "Davao City",
+"ckey": "Philippines"
+},
+{
+"city": "Caloocan",
+"ckey": "Philippines"
+},
+{
+"city": "Taguig",
+"ckey": "Philippines"
+},
+{
+"city": "Zamboanga",
+"ckey": "Philippines"
+},
+{
+"city": "Cebu City",
+"ckey": "Philippines"
+},
+{
+"city": "Pasig",
+"ckey": "Philippines"
+},
+{
+"city": "Dasmariñas",
+"ckey": "Philippines"
+},
+{
+"city": "Cagayan de Oro",
+"ckey": "Philippines"
+},
+{
+"city": "General Santos",
+"ckey": "Philippines"
+},
+{
+"city": "Bacoor",
+"ckey": "Philippines"
+},
+{
+"city": "Las Piñas",
+"ckey": "Philippines"
+},
+{
+"city": "Biñan",
+"ckey": "Philippines"
+},
+{
+"city": "Muntinlupa",
+"ckey": "Philippines"
+},
+{
+"city": "Lapu-Lapu",
+"ckey": "Philippines"
+},
+{
+"city": "General Trias",
+"ckey": "Philippines"
+},
+{
+"city": "Iloilo City",
+"ckey": "Philippines"
+},
+{
+"city": "Marikina",
+"ckey": "Philippines"
+},
+{
+"city": "Mactan",
+"ckey": "Philippines"
+},
+{
+"city": "Mandaluyong",
+"ckey": "Philippines"
+},
+{
+"city": "Pasay",
+"ckey": "Philippines"
+},
+{
+"city": "Tarlac City",
+"ckey": "Philippines"
+},
+{
+"city": "Malabon",
+"ckey": "Philippines"
+},
+{
+"city": "Lipa",
+"ckey": "Philippines"
+},
+{
+"city": "Butuan",
+"ckey": "Philippines"
+},
+{
+"city": "Cotabato City",
+"ckey": "Philippines"
+},
+{
+"city": "Iligan",
+"ckey": "Philippines"
+},
+{
+"city": "Cabuyao",
+"ckey": "Philippines"
+},
+{
+"city": "Mandaue",
+"ckey": "Philippines"
+},
+{
+"city": "Batangas City",
+"ckey": "Philippines"
+},
+{
+"city": "Cabanatuan",
+"ckey": "Philippines"
+},
+{
+"city": "Puerto Princesa",
+"ckey": "Philippines"
+},
+{
+"city": "Mabalacat",
+"ckey": "Philippines"
+},
+{
+"city": "Tagum",
+"ckey": "Philippines"
+},
+{
+"city": "Malolos",
+"ckey": "Philippines"
+},
+{
+"city": "Olongapo",
+"ckey": "Philippines"
+},
+{
+"city": "Talisay",
+"ckey": "Philippines"
+},
+{
+"city": "Marawi",
+"ckey": "Philippines"
+},
+{
+"city": "Tacloban",
+"ckey": "Philippines"
+},
+{
+"city": "Navotas",
+"ckey": "Philippines"
+},
+{
+"city": "Ormoc",
+"ckey": "Philippines"
+},
+{
+"city": "Meycauayan",
+"ckey": "Philippines"
+},
+{
+"city": "Trece Martires",
+"ckey": "Philippines"
+},
+{
+"city": "Panabo",
+"ckey": "Philippines"
+},
+{
+"city": "Kabankalan",
+"ckey": "Philippines"
+},
+{
+"city": "Legazpi",
+"ckey": "Philippines"
+},
+{
+"city": "Tanauan",
+"ckey": "Philippines"
+},
+{
+"city": "Pagadian",
+"ckey": "Philippines"
+},
+{
+"city": "Koronadal",
+"ckey": "Philippines"
+},
+{
+"city": "Malaybalay",
+"ckey": "Philippines"
+},
+{
+"city": "Digos",
+"ckey": "Philippines"
+},
+{
+"city": "Calbayog",
+"ckey": "Philippines"
+},
+{
+"city": "Sorsogon City",
+"ckey": "Philippines"
+},
+{
+"city": "Roxas City",
+"ckey": "Philippines"
+},
+{
+"city": "Surigao City",
+"ckey": "Philippines"
+},
+{
+"city": "Baliwag",
+"ckey": "Philippines"
+},
+{
+"city": "Greater Buenos Aires",
+"ckey": "Argentina"
+},
+{
+"city": "Rosario",
+"ckey": "Argentina"
+},
+{
+"city": "San Miguel de Tucumán",
+"ckey": "Argentina"
+},
+{
+"city": "Salta",
+"ckey": "Argentina"
+},
+{
+"city": "Mar del Plata",
+"ckey": "Argentina"
+},
+{
+"city": "Lanús",
+"ckey": "Argentina"
+},
+{
+"city": "Corrientes",
+"ckey": "Argentina"
+},
+{
+"city": "Santa Fe",
+"ckey": "Argentina"
+},
+{
+"city": "Avellaneda",
+"ckey": "Argentina"
+},
+{
+"city": "San Salvador de Jujuy",
+"ckey": "Argentina"
+},
+{
+"city": "Santiago del Estero",
+"ckey": "Argentina"
+},
+{
+"city": "Resistencia",
+"ckey": "Argentina"
+},
+{
+"city": "Bahía Blanca",
+"ckey": "Argentina"
+},
+{
+"city": "Neuquén",
+"ckey": "Argentina"
+},
+{
+"city": "Posadas",
+"ckey": "Argentina"
+},
+{
+"city": "Gregorio de Laferrere",
+"ckey": "Argentina"
+},
+{
+"city": "Merlo",
+"ckey": "Argentina"
+},
+{
+"city": "González Catán",
+"ckey": "Argentina"
+},
+{
+"city": "La Plata",
+"ckey": "Argentina"
+},
+{
+"city": "José C. Paz",
+"ckey": "Argentina"
+},
+{
+"city": "San Rafael",
+"ckey": "Argentina"
+},
+{
+"city": "San Luis",
+"ckey": "Argentina"
+},
+{
+"city": "Comodoro Rivadavia",
+"ckey": "Argentina"
+},
+{
+"city": "Río Cuarto",
+"ckey": "Argentina"
+},
+{
+"city": "San Lorenzo",
+"ckey": "Argentina"
+},
+{
+"city": "Godoy Cruz",
+"ckey": "Argentina"
+},
+{
+"city": "Isidro Casanova",
+"ckey": "Argentina"
+},
+{
+"city": "San Fernando del Valle de Catamarca",
+"ckey": "Argentina"
+},
+{
+"city": "Berazategui",
+"ckey": "Argentina"
+},
+{
+"city": "Concordia",
+"ckey": "Argentina"
+},
+{
+"city": "Moreno",
+"ckey": "Argentina"
+},
+{
+"city": "Ezeiza",
+"ckey": "Argentina"
+},
+{
+"city": "San Nicolás de los Arroyos",
+"ckey": "Argentina"
+},
+{
+"city": "Tandil",
+"ckey": "Argentina"
+},
+{
+"city": "Greater Rio de Janeiro",
+"ckey": "Brazil"
+},
+{
+"city": "São Paulo",
+"ckey": "Brazil"
+},
+{
+"city": "Rio de Janeiro",
+"ckey": "Brazil"
+},
+{
+"city": "Salvador",
+"ckey": "Brazil"
+},
+{
+"city": "Belo Horizonte",
+"ckey": "Brazil"
+},
+{
+"city": "Manaus",
+"ckey": "Brazil"
+},
+{
+"city": "Curitiba",
+"ckey": "Brazil"
+},
+{
+"city": "Recife",
+"ckey": "Brazil"
+},
+{
+"city": "Goiânia",
+"ckey": "Brazil"
+},
+{
+"city": "Porto Alegre",
+"ckey": "Brazil"
+},
+{
+"city": "Guarulhos",
+"ckey": "Brazil"
+},
+{
+"city": "Belém",
+"ckey": "Brazil"
+},
+{
+"city": "Nova Iguaçu",
+"ckey": "Brazil"
+},
+{
+"city": "Campinas",
+"ckey": "Brazil"
+},
+{
+"city": "São Luís",
+"ckey": "Brazil"
+},
+{
+"city": "Campo Grande",
+"ckey": "Brazil"
+},
+{
+"city": "São Gonçalo",
+"ckey": "Brazil"
+},
+{
+"city": "Duque de Caxias",
+"ckey": "Brazil"
+},
+{
+"city": "Teresina",
+"ckey": "Brazil"
+},
+{
+"city": "João Pessoa",
+"ckey": "Brazil"
+},
+{
+"city": "São Bernardo do Campo",
+"ckey": "Brazil"
+},
+{
+"city": "Uberlândia",
+"ckey": "Brazil"
+},
+{
+"city": "Natal",
+"ckey": "Brazil"
+},
+{
+"city": "Santo André",
+"ckey": "Brazil"
+},
+{
+"city": "São José dos Campos",
+"ckey": "Brazil"
+},
+{
+"city": "Ribeirão Preto",
+"ckey": "Brazil"
+},
+{
+"city": "Sorocaba",
+"ckey": "Brazil"
+},
+{
+"city": "Jaboatão dos Guararapes",
+"ckey": "Brazil"
+},
+{
+"city": "Cuiabá",
+"ckey": "Brazil"
+},
+{
+"city": "Contagem",
+"ckey": "Brazil"
+},
+{
+"city": "Aracaju",
+"ckey": "Brazil"
+},
+{
+"city": "Joinville",
+"ckey": "Brazil"
+},
+{
+"city": "Florianópolis",
+"ckey": "Brazil"
+},
+{
+"city": "Londrina",
+"ckey": "Brazil"
+},
+{
+"city": "Serra",
+"ckey": "Brazil"
+},
+{
+"city": "Aparecida de Goiânia",
+"ckey": "Brazil"
+},
+{
+"city": "Juiz de Fora",
+"ckey": "Brazil"
+},
+{
+"city": "Caxias do Sul",
+"ckey": "Brazil"
+},
+{
+"city": "Campos dos Goytacazes",
+"ckey": "Brazil"
+},
+{
+"city": "Porto Velho",
+"ckey": "Brazil"
+},
+{
+"city": "São José do Rio Preto",
+"ckey": "Brazil"
+},
+{
+"city": "Niterói",
+"ckey": "Brazil"
+},
+{
+"city": "Belford Roxo",
+"ckey": "Brazil"
+},
+{
+"city": "Ananindeua",
+"ckey": "Brazil"
+},
+{
+"city": "Vila Velha",
+"ckey": "Brazil"
+},
+{
+"city": "Mogi das Cruzes",
+"ckey": "Brazil"
+},
+{
+"city": "Betim",
+"ckey": "Brazil"
+},
+{
+"city": "Macapá",
+"ckey": "Brazil"
+},
+{
+"city": "São João de Meriti",
+"ckey": "Brazil"
+},
+{
+"city": "Montes Claros",
+"ckey": "Brazil"
+},
+{
+"city": "Piracicaba",
+"ckey": "Brazil"
+},
+{
+"city": "Campina Grande",
+"ckey": "Brazil"
+},
+{
+"city": "Santos",
+"ckey": "Brazil"
+},
+{
+"city": "Petrolina",
+"ckey": "Brazil"
+},
+{
+"city": "Mauá",
+"ckey": "Brazil"
+},
+{
+"city": "Boa Vista",
+"ckey": "Brazil"
+},
+{
+"city": "Maringá",
+"ckey": "Brazil"
+},
+{
+"city": "Carapicuíba",
+"ckey": "Brazil"
+},
+{
+"city": "Caruaru",
+"ckey": "Brazil"
+},
+{
+"city": "Jundiaí",
+"ckey": "Brazil"
+},
+{
+"city": "Saint Petersburg",
+"ckey": "Russia"
+},
+{
+"city": "Novosibirsk",
+"ckey": "Russia"
+},
+{
+"city": "Yekaterinburg",
+"ckey": "Russia"
+},
+{
+"city": "Kazan",
+"ckey": "Russia"
+},
+{
+"city": "Nizhny Novgorod",
+"ckey": "Russia"
+},
+{
+"city": "Krasnodar",
+"ckey": "Russia"
+},
+{
+"city": "Samara",
+"ckey": "Russia"
+},
+{
+"city": "Rostov-on-Don",
+"ckey": "Russia"
+},
+{
+"city": "Omsk",
+"ckey": "Russia"
+},
+{
+"city": "Krasnoyarsk",
+"ckey": "Russia"
+},
+{
+"city": "Voronezh",
+"ckey": "Russia"
+},
+{
+"city": "Perm",
+"ckey": "Russia"
+},
+{
+"city": "Volgograd",
+"ckey": "Russia"
+},
+{
+"city": "Saratov",
+"ckey": "Russia"
+},
+{
+"city": "Tolyatti",
+"ckey": "Russia"
+},
+{
+"city": "Makhachkala",
+"ckey": "Russia"
+},
+{
+"city": "Barnaul",
+"ckey": "Russia"
+},
+{
+"city": "Izhevsk",
+"ckey": "Russia"
+},
+{
+"city": "Khabarovsk",
+"ckey": "Russia"
+},
+{
+"city": "Ulyanovsk",
+"ckey": "Russia"
+},
+{
+"city": "Irkutsk",
+"ckey": "Russia"
+},
+{
+"city": "Vladivostok",
+"ckey": "Russia"
+},
+{
+"city": "Yaroslavl",
+"ckey": "Russia"
+},
+{
+"city": "Naberezhnye Chelny",
+"ckey": "Russia"
+},
+{
+"city": "Tomsk",
+"ckey": "Russia"
+},
+{
+"city": "Kemerovo",
+"ckey": "Russia"
+},
+{
+"city": "Orenburg",
+"ckey": "Russia"
+},
+{
+"city": "Ryazan",
+"ckey": "Russia"
+},
+{
+"city": "Cheboksary",
+"ckey": "Russia"
+},
+{
+"city": "Kaliningrad",
+"ckey": "Russia"
+},
+{
+"city": "Penza",
+"ckey": "Russia"
+},
+{
+"city": "Kirov",
+"ckey": "Russia"
+},
+{
+"city": "Astrakhan",
+"ckey": "Russia"
+},
+{
+"city": "Tula",
+"ckey": "Russia"
+},
+{
+"city": "Stavropol",
+"ckey": "Russia"
+},
+{
+"city": "Ulan-Ude",
+"ckey": "Russia"
+},
+{
+"city": "Kursk",
+"ckey": "Russia"
+},
+{
+"city": "Surgut",
+"ckey": "Russia"
+},
+{
+"city": "Luhansk",
+"ckey": "Russia"
+},
+{
+"city": "Tver",
+"ckey": "Russia"
+},
+{
+"city": "Magnitogorsk",
+"ckey": "Russia"
+},
+{
+"city": "Bryansk",
+"ckey": "Russia"
+},
+{
+"city": "Vladimir",
+"ckey": "Russia"
+},
+{
+"city": "Chita",
+"ckey": "Russia"
+},
+{
+"city": "Nizhny Tagil",
+"ckey": "Russia"
+},
+{
+"city": "Kaluga",
+"ckey": "Russia"
+},
+{
+"city": "Belgorod",
+"ckey": "Russia"
+},
+{
+"city": "Volzhsky",
+"ckey": "Russia"
+},
+{
+"city": "Smolensk",
+"ckey": "Russia"
+},
+{
+"city": "Saransk",
+"ckey": "Russia"
+},
+{
+"city": "Kurgan",
+"ckey": "Russia"
+},
+{
+"city": "Nizhnevartovsk",
+"ckey": "Russia"
+},
+{
+"city": "Grozny",
+"ckey": "Russia"
+},
+{
+"city": "Yoshkar-Ola",
+"ckey": "Russia"
+},
+{
+"city": "Mytishchi",
+"ckey": "Russia"
+},
+{
+"city": "Sterlitamak",
+"ckey": "Russia"
+},
+{
+"city": "Novorossiysk",
+"ckey": "Russia"
+},
+{
+"city": "Tambov",
+"ckey": "Russia"
+},
+{
+"city": "Nizhnekamsk",
+"ckey": "Russia"
+},
+{
+"city": "Taganrog",
+"ckey": "Russia"
+},
+{
+"city": "Giza",
+"ckey": "Egypt"
+},
+{
+"city": "New Cairo",
+"ckey": "Egypt"
+},
+{
+"city": "Shobra Elkhema",
+"ckey": "Egypt"
+},
+{
+"city": "Port Said",
+"ckey": "Egypt"
+},
+{
+"city": "Suez",
+"ckey": "Egypt"
+},
+{
+"city": "Mansoura",
+"ckey": "Egypt"
+},
+{
+"city": "Helwan",
+"ckey": "Egypt"
+},
+{
+"city": "El Mahalla El Kubra",
+"ckey": "Egypt"
+},
+{
+"city": "Manfalut",
+"ckey": "Egypt"
+},
+{
+"city": "Shibin el-Qanater",
+"ckey": "Egypt"
+},
+{
+"city": "Asyut",
+"ckey": "Egypt"
+},
+{
+"city": "Faiyum",
+"ckey": "Egypt"
+},
+{
+"city": "10th of Ramadan City",
+"ckey": "Egypt"
+},
+{
+"city": "Esna",
+"ckey": "Egypt"
+},
+{
+"city": "Tanta",
+"ckey": "Egypt"
+},
+{
+"city": "Ismailia",
+"ckey": "Egypt"
+},
+{
+"city": "Talkha",
+"ckey": "Egypt"
+},
+{
+"city": "Kom Ombo",
+"ckey": "Egypt"
+},
+{
+"city": "Aswan",
+"ckey": "Egypt"
+},
+{
+"city": "6th of October City",
+"ckey": "Egypt"
+},
+{
+"city": "Shorouk city",
+"ckey": "Egypt"
+},
+{
+"city": "Basyoun",
+"ckey": "Egypt"
+},
+{
+"city": "Zagazig",
+"ckey": "Egypt"
+},
+{
+"city": "Beni Suef",
+"ckey": "Egypt"
+},
+{
+"city": "Shibin Al Kawm",
+"ckey": "Egypt"
+},
+{
+"city": "Al Mokattam",
+"ckey": "Egypt"
+},
+{
+"city": "Minya",
+"ckey": "Egypt"
+},
+{
+"city": "Hurghada",
+"ckey": "Egypt"
+},
+{
+"city": "Mallawi",
+"ckey": "Egypt"
+},
+{
+"city": "Menouf",
+"ckey": "Egypt"
+},
+{
+"city": "Damietta",
+"ckey": "Egypt"
+},
+{
+"city": "Arish",
+"ckey": "Egypt"
+},
+{
+"city": "Luxor",
+"ckey": "Egypt"
+},
+{
+"city": "Sohag",
+"ckey": "Egypt"
+},
+{
+"city": "New Borg El Arab",
+"ckey": "Egypt"
+},
+{
+"city": "Abu Kabir",
+"ckey": "Egypt"
+},
+{
+"city": "Matarieh",
+"ckey": "Egypt"
+},
+{
+"city": "Girga",
+"ckey": "Egypt"
+},
+{
+"city": "Benha",
+"ckey": "Egypt"
+},
+{
+"city": "Yokohama",
+"ckey": "Japan"
+},
+{
+"city": "Osaka",
+"ckey": "Japan"
+},
+{
+"city": "Nagoya",
+"ckey": "Japan"
+},
+{
+"city": "Sapporo",
+"ckey": "Japan"
+},
+{
+"city": "Fukuoka",
+"ckey": "Japan"
+},
+{
+"city": "Kawasaki",
+"ckey": "Japan"
+},
+{
+"city": "Kobe",
+"ckey": "Japan"
+},
+{
+"city": "Kyoto",
+"ckey": "Japan"
+},
+{
+"city": "Saitama",
+"ckey": "Japan"
+},
+{
+"city": "Hiroshima",
+"ckey": "Japan"
+},
+{
+"city": "Sendai",
+"ckey": "Japan"
+},
+{
+"city": "Chiba",
+"ckey": "Japan"
+},
+{
+"city": "Sakai",
+"ckey": "Japan"
+},
+{
+"city": "Niigata",
+"ckey": "Japan"
+},
+{
+"city": "Hamamatsu",
+"ckey": "Japan"
+},
+{
+"city": "Kumamoto",
+"ckey": "Japan"
+},
+{
+"city": "Sagamihara",
+"ckey": "Japan"
+},
+{
+"city": "Okayama",
+"ckey": "Japan"
+},
+{
+"city": "Shizuoka",
+"ckey": "Japan"
+},
+{
+"city": "Funabashi",
+"ckey": "Japan"
+},
+{
+"city": "Kawaguchi",
+"ckey": "Japan"
+},
+{
+"city": "Kagoshima",
+"ckey": "Japan"
+},
+{
+"city": "Himeji",
+"ckey": "Japan"
+},
+{
+"city": "Utsunomiya",
+"ckey": "Japan"
+},
+{
+"city": "Matsuyama",
+"ckey": "Japan"
+},
+{
+"city": "Matsudo",
+"ckey": "Japan"
+},
+{
+"city": "Ichikawa",
+"ckey": "Japan"
+},
+{
+"city": "Nishinomiya",
+"ckey": "Japan"
+},
+{
+"city": "Kurashiki",
+"ckey": "Japan"
+},
+{
+"city": "Kanazawa",
+"ckey": "Japan"
+},
+{
+"city": "Fukuyama",
+"ckey": "Japan"
+},
+{
+"city": "Amagasaki",
+"ckey": "Japan"
+},
+{
+"city": "Fujisawa",
+"ckey": "Japan"
+},
+{
+"city": "Machida",
+"ckey": "Japan"
+},
+{
+"city": "Kashiwa",
+"ckey": "Japan"
+},
+{
+"city": "Aomori",
+"ckey": "Japan"
+},
+{
+"city": "Toyota",
+"ckey": "Japan"
+},
+{
+"city": "Takamatsu",
+"ckey": "Japan"
+},
+{
+"city": "Toyama",
+"ckey": "Japan"
+},
+{
+"city": "Gifu",
+"ckey": "Japan"
+},
+{
+"city": "Toyonaka",
+"ckey": "Japan"
+},
+{
+"city": "Miyazaki",
+"ckey": "Japan"
+},
+{
+"city": "Hirakata",
+"ckey": "Japan"
+},
+{
+"city": "Yokosuka",
+"ckey": "Japan"
+},
+{
+"city": "Okazaki",
+"ckey": "Japan"
+},
+{
+"city": "Suita",
+"ckey": "Japan"
+},
+{
+"city": "Ichinomiya",
+"ckey": "Japan"
+},
+{
+"city": "Takasaki",
+"ckey": "Japan"
+},
+{
+"city": "Toyohashi",
+"ckey": "Japan"
+},
+{
+"city": "Nagano",
+"ckey": "Japan"
+},
+{
+"city": "Kawagoe",
+"ckey": "Japan"
+},
+{
+"city": "Wakayama",
+"ckey": "Japan"
+},
+{
+"city": "Nara",
+"ckey": "Japan"
+},
+{
+"city": "Takatsuki",
+"ckey": "Japan"
+},
+{
+"city": "Otsu",
+"ckey": "Japan"
+},
+{
+"city": "Koshigaya",
+"ckey": "Japan"
+},
+{
+"city": "Tokorozawa",
+"ckey": "Japan"
+},
+{
+"city": "Iwaki",
+"ckey": "Japan"
+},
+{
+"city": "Maebashi",
+"ckey": "Japan"
+},
+{
+"city": "Asahikawa",
+"ckey": "Japan"
+},
+{
+"city": "Busan",
+"ckey": "South Korea"
+},
+{
+"city": "Incheon",
+"ckey": "South Korea"
+},
+{
+"city": "Daegu",
+"ckey": "South Korea"
+},
+{
+"city": "Gwangju",
+"ckey": "South Korea"
+},
+{
+"city": "Daejeon",
+"ckey": "South Korea"
+},
+{
+"city": "Suwon",
+"ckey": "South Korea"
+},
+{
+"city": "Ulsan",
+"ckey": "South Korea"
+},
+{
+"city": "Yongin",
+"ckey": "South Korea"
+},
+{
+"city": "Goyang",
+"ckey": "South Korea"
+},
+{
+"city": "Changwon",
+"ckey": "South Korea"
+},
+{
+"city": "Hwaseong",
+"ckey": "South Korea"
+},
+{
+"city": "Seongnam",
+"ckey": "South Korea"
+},
+{
+"city": "Cheongju",
+"ckey": "South Korea"
+},
+{
+"city": "Bucheon",
+"ckey": "South Korea"
+},
+{
+"city": "Namyangju",
+"ckey": "South Korea"
+},
+{
+"city": "Jeju",
+"ckey": "South Korea"
+},
+{
+"city": "Cheonan",
+"ckey": "South Korea"
+},
+{
+"city": "Jeonju",
+"ckey": "South Korea"
+},
+{
+"city": "Ansan",
+"ckey": "South Korea"
+},
+{
+"city": "Pyeongtaek",
+"ckey": "South Korea"
+},
+{
+"city": "Gimhae",
+"ckey": "South Korea"
+},
+{
+"city": "Paju",
+"ckey": "South Korea"
+},
+{
+"city": "Pohang",
+"ckey": "South Korea"
+},
+{
+"city": "Siheung",
+"ckey": "South Korea"
+},
+{
+"city": "Uijeongbu",
+"ckey": "South Korea"
+},
+{
+"city": "Masan",
+"ckey": "South Korea"
+},
+{
+"city": "Gumi",
+"ckey": "South Korea"
+},
+{
+"city": "Sejong",
+"ckey": "South Korea"
+},
+{
+"city": "Gimpo",
+"ckey": "South Korea"
+},
+{
+"city": "Jinju",
+"ckey": "South Korea"
+},
+{
+"city": "Wonju",
+"ckey": "South Korea"
+},
+{
+"city": "Hanam",
+"ckey": "South Korea"
+},
+{
+"city": "Asan",
+"ckey": "South Korea"
+},
+{
+"city": "Yangsan",
+"ckey": "South Korea"
+},
+{
+"city": "Yangju",
+"ckey": "South Korea"
+},
+{
+"city": "Chuncheon",
+"ckey": "South Korea"
+},
+{
+"city": "Gwangmyeong",
+"ckey": "South Korea"
+},
+{
+"city": "Gunsan",
+"ckey": "South Korea"
+},
+{
+"city": "Yeosu",
+"ckey": "South Korea"
+},
+{
+"city": "Iksan",
+"ckey": "South Korea"
+},
+{
+"city": "Gunpo",
+"ckey": "South Korea"
+},
+{
+"city": "Suncheon",
+"ckey": "South Korea"
+},
+{
+"city": "Gyeongsan",
+"ckey": "South Korea"
+},
+{
+"city": "Geoje",
+"ckey": "South Korea"
+},
+{
+"city": "Gyeongju",
+"ckey": "South Korea"
+},
+{
+"city": "Osan",
+"ckey": "South Korea"
+},
+{
+"city": "Mokpo",
+"ckey": "South Korea"
+},
+{
+"city": "Chungju",
+"ckey": "South Korea"
+},
+{
+"city": "Icheon",
+"ckey": "South Korea"
+},
+{
+"city": "Gangneung",
+"ckey": "South Korea"
+},
+{
+"city": "Anseong",
+"ckey": "South Korea"
+},
+{
+"city": "Seogwipo",
+"ckey": "South Korea"
+},
+{
+"city": "Dangjin",
+"ckey": "South Korea"
+},
+{
+"city": "Seosan",
+"ckey": "South Korea"
+},
+{
+"city": "Pocheon",
+"ckey": "South Korea"
+},
+{
+"city": "Uiwang",
+"ckey": "South Korea"
+},
+{
+"city": "Andong",
+"ckey": "South Korea"
+},
+{
+"city": "Gwangyang",
+"ckey": "South Korea"
+},
+{
+"city": "Madrid city",
+"ckey": "Spain"
+},
+{
+"city": "Barcelona",
+"ckey": "Spain"
+},
+{
+"city": "City of Valencia",
+"ckey": "Spain"
+},
+{
+"city": "Seville city",
+"ckey": "Spain"
+},
+{
+"city": "Zaragoza",
+"ckey": "Spain"
+},
+{
+"city": "Málaga",
+"ckey": "Spain"
+},
+{
+"city": "Málaga City",
+"ckey": "Spain"
+},
+{
+"city": "Palma",
+"ckey": "Spain"
+},
+{
+"city": "Alicante",
+"ckey": "Spain"
+},
+{
+"city": "Las Palmas de Gran Canaria",
+"ckey": "Spain"
+},
+{
+"city": "Valladolid city",
+"ckey": "Spain"
+},
+{
+"city": "L'Hospitalet de Llobregat",
+"ckey": "Spain"
+},
+{
+"city": "Xixón City",
+"ckey": "Spain"
+},
+{
+"city": "Terrassa",
+"ckey": "Spain"
+},
+{
+"city": "Badalona",
+"ckey": "Spain"
+},
+{
+"city": "Sabadell",
+"ckey": "Spain"
+},
+{
+"city": "Móstoles",
+"ckey": "Spain"
+},
+{
+"city": "Alcalá de Henares",
+"ckey": "Spain"
+},
+{
+"city": "Leganés",
+"ckey": "Spain"
+},
+{
+"city": "Elche",
+"ckey": "Spain"
+},
+{
+"city": "Oviedo City",
+"ckey": "Spain"
+},
+{
+"city": "Castellón de la Plana",
+"ckey": "Spain"
+},
+{
+"city": "Murcia City",
+"ckey": "Spain"
+},
+{
+"city": "Burgos city",
+"ckey": "Spain"
+},
+{
+"city": "Almería city",
+"ckey": "Spain"
+},
+{
+"city": "Albacete City",
+"ckey": "Spain"
+},
+{
+"city": "San Cristóbal de La Laguna",
+"ckey": "Spain"
+},
+{
+"city": "Getafe",
+"ckey": "Spain"
+},
+{
+"city": "Badajoz",
+"ckey": "Spain"
+},
+{
+"city": "Surabaya",
+"ckey": "Indonesia"
+},
+{
+"city": "Bandung",
+"ckey": "Indonesia"
+},
+{
+"city": "Bekasi",
+"ckey": "Indonesia"
+},
+{
+"city": "Depok",
+"ckey": "Indonesia"
+},
+{
+"city": "Tangerang",
+"ckey": "Indonesia"
+},
+{
+"city": "Medan",
+"ckey": "Indonesia"
+},
+{
+"city": "Kota Semarang",
+"ckey": "Indonesia"
+},
+{
+"city": "South Tangerang",
+"ckey": "Indonesia"
+},
+{
+"city": "Semarang",
+"ckey": "Indonesia"
+},
+{
+"city": "Palembang",
+"ckey": "Indonesia"
+},
+{
+"city": "Makassar",
+"ckey": "Indonesia"
+},
+{
+"city": "Batam",
+"ckey": "Indonesia"
+},
+{
+"city": "Malang",
+"ckey": "Indonesia"
+},
+{
+"city": "Bandar Lampung",
+"ckey": "Indonesia"
+},
+{
+"city": "Pekanbaru",
+"ckey": "Indonesia"
+},
+{
+"city": "Bogor",
+"ckey": "Indonesia"
+},
+{
+"city": "Padang",
+"ckey": "Indonesia"
+},
+{
+"city": "Kota Malang",
+"ckey": "Indonesia"
+},
+{
+"city": "Samarinda",
+"ckey": "Indonesia"
+},
+{
+"city": "Pontianak",
+"ckey": "Indonesia"
+},
+{
+"city": "Tasikmalaya",
+"ckey": "Indonesia"
+},
+{
+"city": "Denpasar",
+"ckey": "Indonesia"
+},
+{
+"city": "Banjarmasin",
+"ckey": "Indonesia"
+},
+{
+"city": "Serang",
+"ckey": "Indonesia"
+},
+{
+"city": "Jambi",
+"ckey": "Indonesia"
+},
+{
+"city": "Balikpapan",
+"ckey": "Indonesia"
+},
+{
+"city": "Cimahi",
+"ckey": "Indonesia"
+},
+{
+"city": "Surakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Kupang",
+"ckey": "Indonesia"
+},
+{
+"city": "Manado",
+"ckey": "Indonesia"
+},
+{
+"city": "Yogyakarta",
+"ckey": "Indonesia"
+},
+{
+"city": "Jayapura",
+"ckey": "Indonesia"
+},
+{
+"city": "Mataram",
+"ckey": "Indonesia"
+},
+{
+"city": "Cilegon",
+"ckey": "Indonesia"
+},
+{
+"city": "Palu",
+"ckey": "Indonesia"
+},
+{
+"city": "Ambon",
+"ckey": "Indonesia"
+},
+{
+"city": "Bengkulu",
+"ckey": "Indonesia"
+},
+{
+"city": "Cirebon",
+"ckey": "Indonesia"
+},
+{
+"city": "Kendari",
+"ckey": "Indonesia"
+},
+{
+"city": "Sukabumi",
+"ckey": "Indonesia"
+},
+{
+"city": "Pekalongan",
+"ckey": "Indonesia"
+},
+{
+"city": "Sorong",
+"ckey": "Indonesia"
+},
+{
+"city": "Mamuju",
+"ckey": "Indonesia"
+},
+{
+"city": "Pematangsiantar",
+"ckey": "Indonesia"
+},
+{
+"city": "Tegal",
+"ckey": "Indonesia"
+},
+{
+"city": "Binjai",
+"ckey": "Indonesia"
+},
+{
+"city": "Dumai",
+"ckey": "Indonesia"
+},
+{
+"city": "Kediri",
+"ckey": "Indonesia"
+},
+{
+"city": "Palangka Raya",
+"ckey": "Indonesia"
+},
+{
+"city": "Cibinong",
+"ckey": "Indonesia"
+},
+{
+"city": "Kota Probolinggo",
+"ckey": "Indonesia"
+},
+{
+"city": "Banda Aceh",
+"ckey": "Indonesia"
+},
+{
+"city": "Purwokerto",
+"ckey": "Indonesia"
+},
+{
+"city": "Singkawang",
+"ckey": "Indonesia"
+},
+{
+"city": "Padangsidimpuan",
+"ckey": "Indonesia"
+},
+{
+"city": "Sidoarjo",
+"ckey": "Indonesia"
+},
+{
+"city": "Toronto",
+"ckey": "Canada"
+},
+{
+"city": "Montreal",
+"ckey": "Canada"
+},
+{
+"city": "Calgary",
+"ckey": "Canada"
+},
+{
+"city": "Edmonton",
+"ckey": "Canada"
+},
+{
+"city": "Winnipeg",
+"ckey": "Canada"
+},
+{
+"city": "Mississauga",
+"ckey": "Canada"
+},
+{
+"city": "Brampton",
+"ckey": "Canada"
+},
+{
+"city": "Hamilton",
+"ckey": "Canada"
+},
+{
+"city": "Laval",
+"ckey": "Canada"
+},
+{
+"city": "Markham",
+"ckey": "Canada"
+},
+{
+"city": "Vaughan",
+"ckey": "Canada"
+},
+{
+"city": "Gatineau",
+"ckey": "Canada"
+},
+{
+"city": "Saskatoon",
+"ckey": "Canada"
+},
+{
+"city": "Kitchener",
+"ckey": "Canada"
+},
+{
+"city": "Burnaby",
+"ckey": "Canada"
+},
+{
+"city": "Windsor",
+"ckey": "Canada"
+},
+{
+"city": "Regina",
+"ckey": "Canada"
+},
+{
+"city": "Richmond Hill",
+"ckey": "Canada"
+},
+{
+"city": "Burlington",
+"ckey": "Canada"
+},
+{
+"city": "Sherbrooke",
+"ckey": "Canada"
+},
+{
+"city": "Oshawa",
+"ckey": "Canada"
+},
+{
+"city": "Greater Sudbury",
+"ckey": "Canada"
+},
+{
+"city": "Lévis",
+"ckey": "Canada"
+},
+{
+"city": "Abbotsford",
+"ckey": "Canada"
+},
+{
+"city": "Medellín",
+"ckey": "Colombia"
+},
+{
+"city": "Cali",
+"ckey": "Colombia"
+},
+{
+"city": "Barranquilla",
+"ckey": "Colombia"
+},
+{
+"city": "Cartagena",
+"ckey": "Colombia"
+},
+{
+"city": "Villavicencio",
+"ckey": "Colombia"
+},
+{
+"city": "Bucaramanga",
+"ckey": "Colombia"
+},
+{
+"city": "Pereira",
+"ckey": "Colombia"
+},
+{
+"city": "Ibagué",
+"ckey": "Colombia"
+},
+{
+"city": "Valledupar",
+"ckey": "Colombia"
+},
+{
+"city": "Santa Marta",
+"ckey": "Colombia"
+},
+{
+"city": "Manizales",
+"ckey": "Colombia"
+},
+{
+"city": "Pasto",
+"ckey": "Colombia"
+},
+{
+"city": "Montería",
+"ckey": "Colombia"
+},
+{
+"city": "Neiva",
+"ckey": "Colombia"
+},
+{
+"city": "Popayán",
+"ckey": "Colombia"
+},
+{
+"city": "Sincelejo",
+"ckey": "Colombia"
+},
+{
+"city": "Riohacha",
+"ckey": "Colombia"
+},
+{
+"city": "Tunja",
+"ckey": "Colombia"
+},
+{
+"city": "Ipiales",
+"ckey": "Colombia"
+},
+{
+"city": "Isfahan",
+"ckey": "Iran"
+},
+{
+"city": "Ahvaz",
+"ckey": "Iran"
+},
+{
+"city": "Kermanshah",
+"ckey": "Iran"
+},
+{
+"city": "Urmia",
+"ckey": "Iran"
+},
+{
+"city": "Rasht",
+"ckey": "Iran"
+},
+{
+"city": "Zahedan",
+"ckey": "Iran"
+},
+{
+"city": "Hamadan",
+"ckey": "Iran"
+},
+{
+"city": "Kerman",
+"ckey": "Iran"
+},
+{
+"city": "Yazd",
+"ckey": "Iran"
+},
+{
+"city": "Bandar Abbas",
+"ckey": "Iran"
+},
+{
+"city": "Arak",
+"ckey": "Iran"
+},
+{
+"city": "Eslamshahr",
+"ckey": "Iran"
+},
+{
+"city": "Zanjan",
+"ckey": "Iran"
+},
+{
+"city": "Sanandaj",
+"ckey": "Iran"
+},
+{
+"city": "Khorramabad",
+"ckey": "Iran"
+},
+{
+"city": "Gorgan",
+"ckey": "Iran"
+},
+{
+"city": "Kashan",
+"ckey": "Iran"
+},
+{
+"city": "Dezful",
+"ckey": "Iran"
+},
+{
+"city": "Nishapur",
+"ckey": "Iran"
+},
+{
+"city": "Babol",
+"ckey": "Iran"
+},
+{
+"city": "Ray",
+"ckey": "Iran"
+},
+{
+"city": "Khomeyni Shahr",
+"ckey": "Iran"
+},
+{
+"city": "Sabzevar",
+"ckey": "Iran"
+},
+{
+"city": "Andimeshk",
+"ckey": "Iran"
+},
+{
+"city": "Amol",
+"ckey": "Iran"
+},
+{
+"city": "Najafabad",
+"ckey": "Iran"
+},
+{
+"city": "Borujerd",
+"ckey": "Iran"
+},
+{
+"city": "Abadan",
+"ckey": "Iran"
+},
+{
+"city": "Bojnord",
+"ckey": "Iran"
+},
+{
+"city": "Bushehr",
+"ckey": "Iran"
+},
+{
+"city": "Birjand",
+"ckey": "Iran"
+},
+{
+"city": "Sirjan",
+"ckey": "Iran"
+},
+{
+"city": "Khoy",
+"ckey": "Iran"
+},
+{
+"city": "Shahr-e Kord",
+"ckey": "Iran"
+},
+{
+"city": "Semnan",
+"ckey": "Iran"
+},
+{
+"city": "Shahin Shahr",
+"ckey": "Iran"
+},
+{
+"city": "Malayer",
+"ckey": "Iran"
+},
+{
+"city": "Saqqez",
+"ckey": "Iran"
+},
+{
+"city": "Gonbad-e Kavus",
+"ckey": "Iran"
+},
+{
+"city": "Katowice urban area",
+"ckey": "Poland"
+},
+{
+"city": "Kraków",
+"ckey": "Poland"
+},
+{
+"city": "Szczecin",
+"ckey": "Poland"
+},
+{
+"city": "Lublin",
+"ckey": "Poland"
+},
+{
+"city": "Bydgoszcz",
+"ckey": "Poland"
+},
+{
+"city": "Katowice",
+"ckey": "Poland"
+},
+{
+"city": "Gdynia",
+"ckey": "Poland"
+},
+{
+"city": "Radom",
+"ckey": "Poland"
+},
+{
+"city": "Rzeszów",
+"ckey": "Poland"
+},
+{
+"city": "Kielce",
+"ckey": "Poland"
+},
+{
+"city": "Sosnowiec",
+"ckey": "Poland"
+},
+{
+"city": "Gliwice",
+"ckey": "Poland"
+},
+{
+"city": "Olsztyn",
+"ckey": "Poland"
+},
+{
+"city": "Zabrze",
+"ckey": "Poland"
+},
+{
+"city": "Bytom",
+"ckey": "Poland"
+},
+{
+"city": "Hamburg",
+"ckey": "Germany"
+},
+{
+"city": "Munich",
+"ckey": "Germany"
+},
+{
+"city": "Cologne",
+"ckey": "Germany"
+},
+{
+"city": "Frankfurt",
+"ckey": "Germany"
+},
+{
+"city": "Bremen",
+"ckey": "Germany"
+},
+{
+"city": "Düsseldorf",
+"ckey": "Germany"
+},
+{
+"city": "Leipzig",
+"ckey": "Germany"
+},
+{
+"city": "Stuttgart",
+"ckey": "Germany"
+},
+{
+"city": "Dortmund",
+"ckey": "Germany"
+},
+{
+"city": "Essen",
+"ckey": "Germany"
+},
+{
+"city": "Dresden",
+"ckey": "Germany"
+},
+{
+"city": "Nuremberg",
+"ckey": "Germany"
+},
+{
+"city": "Hanover",
+"ckey": "Germany"
+},
+{
+"city": "Duisburg",
+"ckey": "Germany"
+},
+{
+"city": "Bochum",
+"ckey": "Germany"
+},
+{
+"city": "Wuppertal",
+"ckey": "Germany"
+},
+{
+"city": "Bielefeld",
+"ckey": "Germany"
+},
+{
+"city": "Bonn",
+"ckey": "Germany"
+},
+{
+"city": "Mannheim",
+"ckey": "Germany"
+},
+{
+"city": "Karlsruhe",
+"ckey": "Germany"
+},
+{
+"city": "Münster",
+"ckey": "Germany"
+},
+{
+"city": "Augsburg",
+"ckey": "Germany"
+},
+{
+"city": "Wiesbaden",
+"ckey": "Germany"
+},
+{
+"city": "Mönchengladbach",
+"ckey": "Germany"
+},
+{
+"city": "Gelsenkirchen",
+"ckey": "Germany"
+},
+{
+"city": "Aachen",
+"ckey": "Germany"
+},
+{
+"city": "Brunswick",
+"ckey": "Germany"
+},
+{
+"city": "Kiel",
+"ckey": "Germany"
+},
+{
+"city": "Chemnitz",
+"ckey": "Germany"
+},
+{
+"city": "Magdeburg",
+"ckey": "Germany"
+},
+{
+"city": "Freiburg im Breisgau",
+"ckey": "Germany"
+},
+{
+"city": "Krefeld",
+"ckey": "Germany"
+},
+{
+"city": "Halle (Saale)",
+"ckey": "Germany"
+},
+{
+"city": "Mainz",
+"ckey": "Germany"
+},
+{
+"city": "Erfurt",
+"ckey": "Germany"
+},
+{
+"city": "Lübeck",
+"ckey": "Germany"
+},
+{
+"city": "Oberhausen",
+"ckey": "Germany"
+},
+{
+"city": "Rostock",
+"ckey": "Germany"
+},
+{
+"city": "Kassel",
+"ckey": "Germany"
+},
+{
+"city": "Hagen",
+"ckey": "Germany"
+},
+{
+"city": "Potsdam",
+"ckey": "Germany"
+},
+{
+"city": "Saarbrücken",
+"ckey": "Germany"
+},
+{
+"city": "Hamm",
+"ckey": "Germany"
+},
+{
+"city": "Ludwigshafen",
+"ckey": "Germany"
+},
+{
+"city": "Oldenburg",
+"ckey": "Germany"
+},
+{
+"city": "Mülheim an der Ruhr",
+"ckey": "Germany"
+},
+{
+"city": "Leverkusen",
+"ckey": "Germany"
+},
+{
+"city": "Darmstadt",
+"ckey": "Germany"
+},
+{
+"city": "Osnabrück",
+"ckey": "Germany"
+},
+{
+"city": "Solingen",
+"ckey": "Germany"
+},
+{
+"city": "Herne",
+"ckey": "Germany"
+},
+{
+"city": "Heidelberg",
+"ckey": "Germany"
+},
+{
+"city": "Paderborn",
+"ckey": "Germany"
+},
+{
+"city": "Neuss",
+"ckey": "Germany"
+},
+{
+"city": "Regensburg",
+"ckey": "Germany"
+},
+{
+"city": "Metropolis of Lyon",
+"ckey": "France"
+},
+{
+"city": "Bordeaux Métropole",
+"ckey": "France"
+},
+{
+"city": "Lyon",
+"ckey": "France"
+},
+{
+"city": "Toulouse",
+"ckey": "France"
+},
+{
+"city": "Nice",
+"ckey": "France"
+},
+{
+"city": "Montpellier",
+"ckey": "France"
+},
+{
+"city": "Strasbourg",
+"ckey": "France"
+},
+{
+"city": "Bordeaux",
+"ckey": "France"
+},
+{
+"city": "Lille",
+"ckey": "France"
+},
+{
+"city": "Reims",
+"ckey": "France"
+},
+{
+"city": "Saint-Étienne",
+"ckey": "France"
+},
+{
+"city": "Le Havre",
+"ckey": "France"
+},
+{
+"city": "Villeurbanne",
+"ckey": "France"
+},
+{
+"city": "Dijon",
+"ckey": "France"
+},
+{
+"city": "Angers",
+"ckey": "France"
+},
+{
+"city": "Grenoble",
+"ckey": "France"
+},
+{
+"city": "Saint-Denis",
+"ckey": "France"
+},
+{
+"city": "Nîmes",
+"ckey": "France"
+},
+{
+"city": "Milan",
+"ckey": "Italy"
+},
+{
+"city": "Naples",
+"ckey": "Italy"
+},
+{
+"city": "Turin",
+"ckey": "Italy"
+},
+{
+"city": "Palermo",
+"ckey": "Italy"
+},
+{
+"city": "Genoa",
+"ckey": "Italy"
+},
+{
+"city": "Florence",
+"ckey": "Italy"
+},
+{
+"city": "Free Territory of Trieste",
+"ckey": "Italy"
+},
+{
+"city": "Catania",
+"ckey": "Italy"
+},
+{
+"city": "Verona",
+"ckey": "Italy"
+},
+{
+"city": "Venice",
+"ckey": "Italy"
+},
+{
+"city": "Messina",
+"ckey": "Italy"
+},
+{
+"city": "Padua",
+"ckey": "Italy"
+},
+{
+"city": "Trieste",
+"ckey": "Italy"
+},
+{
+"city": "Parma",
+"ckey": "Italy"
+},
+{
+"city": "Prato",
+"ckey": "Italy"
+},
+{
+"city": "Taranto",
+"ckey": "Italy"
+},
+{
+"city": "Modena",
+"ckey": "Italy"
+},
+{
+"city": "Reggio Calabria",
+"ckey": "Italy"
+},
+{
+"city": "Reggio Emilia",
+"ckey": "Italy"
+},
+{
+"city": "Ravenna",
+"ckey": "Italy"
+},
+{
+"city": "Livorno",
+"ckey": "Italy"
+},
+{
+"city": "Arequipa",
+"ckey": "Peru"
+},
+{
+"city": "Trujillo",
+"ckey": "Peru"
+},
+{
+"city": "Vitarte",
+"ckey": "Peru"
+},
+{
+"city": "Callao",
+"ckey": "Peru"
+},
+{
+"city": "Chiclayo",
+"ckey": "Peru"
+},
+{
+"city": "Piura",
+"ckey": "Peru"
+},
+{
+"city": "Cusco",
+"ckey": "Peru"
+},
+{
+"city": "Chimbote",
+"ckey": "Peru"
+},
+{
+"city": "Huancayo",
+"ckey": "Peru"
+},
+{
+"city": "Iquitos",
+"ckey": "Peru"
+},
+{
+"city": "Pucallpa",
+"ckey": "Peru"
+},
+{
+"city": "Tacna",
+"ckey": "Peru"
+},
+{
+"city": "Ica",
+"ckey": "Peru"
+},
+{
+"city": "Juliaca",
+"ckey": "Peru"
+},
+{
+"city": "Tarapoto",
+"ckey": "Peru"
+},
+{
+"city": "Ayacucho",
+"ckey": "Peru"
+},
+{
+"city": "Cajamarca",
+"ckey": "Peru"
+},
+{
+"city": "Huacho",
+"ckey": "Peru"
+},
+{
+"city": "Huánuco",
+"ckey": "Peru"
+},
+{
+"city": "Iquique",
+"ckey": "Peru"
+},
+{
+"city": "Sullana",
+"ckey": "Peru"
+},
+{
+"city": "Glasgow",
+"ckey": "United Kingdom"
+},
+{
+"city": "Leeds",
+"ckey": "United Kingdom"
+},
+{
+"city": "Sheffield",
+"ckey": "United Kingdom"
+},
+{
+"city": "Liverpool",
+"ckey": "United Kingdom"
+},
+{
+"city": "Edinburgh",
+"ckey": "United Kingdom"
+},
+{
+"city": "Bristol",
+"ckey": "United Kingdom"
+},
+{
+"city": "Cardiff",
+"ckey": "United Kingdom"
+},
+{
+"city": "Leicester",
+"ckey": "United Kingdom"
+},
+{
+"city": "Coventry",
+"ckey": "United Kingdom"
+},
+{
+"city": "Belfast",
+"ckey": "United Kingdom"
+},
+{
+"city": "Newcastle upon Tyne",
+"ckey": "United Kingdom"
+},
+{
+"city": "Nottingham",
+"ckey": "United Kingdom"
+},
+{
+"city": "Bolton",
+"ckey": "United Kingdom"
+},
+{
+"city": "Sunderland",
+"ckey": "United Kingdom"
+},
+{
+"city": "Brighton and Hove",
+"ckey": "United Kingdom"
+},
+{
+"city": "Southampton",
+"ckey": "United Kingdom"
+},
+{
+"city": "Plymouth",
+"ckey": "United Kingdom"
+},
+{
+"city": "Milton Keynes",
+"ckey": "United Kingdom"
+},
+{
+"city": "Kingston upon Hull",
+"ckey": "United Kingdom"
+},
+{
+"city": "Stoke-on-Trent",
+"ckey": "United Kingdom"
+},
+{
+"city": "Derby",
+"ckey": "United Kingdom"
+},
+{
+"city": "Wolverhampton",
+"ckey": "United Kingdom"
+},
+{
+"city": "Portsmouth",
+"ckey": "United Kingdom"
+},
+{
+"city": "Swansea",
+"ckey": "United Kingdom"
+},
+{
+"city": "Swindon",
+"ckey": "United Kingdom"
+},
+{
+"city": "City of Westminster",
+"ckey": "United Kingdom"
+},
+{
+"city": "Solihull",
+"ckey": "United Kingdom"
+},
+{
+"city": "Aberdeen",
+"ckey": "United Kingdom"
+},
+{
+"city": "Norwich",
+"ckey": "United Kingdom"
+},
+{
+"city": "St Helens",
+"ckey": "United Kingdom"
+},
+{
+"city": "Warrington",
+"ckey": "United Kingdom"
+},
+{
+"city": "Huddersfield",
+"ckey": "United Kingdom"
+},
+{
+"city": "Southend-on-Sea",
+"ckey": "United Kingdom"
+}
+],
+"targets": [
+{
+"city": "Tandil",
+"ckey": "Argentina",
+"city_other": {
+"x": "Oldenburg",
+"ckey": "Germany"
+},
+"city_same": {
+"x": "Moreno",
+"ckey": "Argentina"
+},
+"person": {
+"x": "Thuy Trang",
+"ckey": "Vietnam"
+},
+"country": {
+"ckey": "Russia"
+}
+},
+{
+"city": "San Luis",
+"ckey": "Argentina",
+"city_other": {
+"x": "Kashan",
+"ckey": "Iran"
+},
+"city_same": {
+"x": "Concordia",
+"ckey": "Argentina"
+},
+"person": {
+"x": "Shakira",
+"ckey": "Colombia"
+},
+"country": {
+"ckey": "France"
+}
+},
+{
+"city": "Concordia",
+"ckey": "Argentina",
+"city_other": {
+"x": "Bhubaneswar",
+"ckey": "India"
+},
+"city_same": {
+"x": "San Salvador de Jujuy",
+"ckey": "Argentina"
+},
+"person": {
+"x": "Juliane Koepcke",
+"ckey": "Peru"
+},
+"country": {
+"ckey": "Nigeria"
+}
+},
+{
+"city": "Santiago del Estero",
+"ckey": "Argentina",
+"city_other": {
+"x": "Makassar",
+"ckey": "Indonesia"
+},
+"city_same": {
+"x": "Greater Buenos Aires",
+"ckey": "Argentina"
+},
+"person": {
+"x": "Shakira",
+"ckey": "Colombia"
+},
+"country": {
+"ckey": "People's Republic of China"
+}
+},
+{
+"city": "Avellaneda",
+"ckey": "Argentina",
+"city_other": {
+"x": "Caloocan",
+"ckey": "Philippines"
+},
+"city_same": {
+"x": "Bahía Blanca",
+"ckey": "Argentina"
+},
+"person": {
+"x": "Pablo Picasso",
+"ckey": "Spain"
+},
+"country": {
+"ckey": "Brazil"
+}
+},
+{
+"city": "Río Cuarto",
+"ckey": "Argentina",
+"city_other": {
+"x": "Bydgoszcz",
+"ckey": "Poland"
+},
+"city_same": {
+"x": "Ezeiza",
+"ckey": "Argentina"
+},
+"person": {
+"x": "Pep Guardiola",
+"ckey": "Spain"
+},
+"country": {
+"ckey": "Egypt"
+}
+},
+{
+"city": "González Catán",
+"ckey": "Argentina",
+"city_other": {
+"x": "Cusco",
+"ckey": "Peru"
+},
+"city_same": {
+"x": "Comodoro Rivadavia",
+"ckey": "Argentina"
+},
+"person": {
+"x": "Hayao Miyazaki",
+"ckey": "Japan"
+},
+"country": {
+"ckey": "Poland"
+}
+},
+{
+"city": "Lanús",
+"ckey": "Argentina",
+"city_other": {
+"x": "Newcastle upon Tyne",
+"ckey": "United Kingdom"
+},
+"city_same": {
+"x": "Resistencia",
+"ckey": "Argentina"
+},
+"person": {
+"x": "Neymar",
+"ckey": "Brazil"
+},
+"country": {
+"ckey": "Turkey"
+}
+},
+{
+"city": "Belo Horizonte",
+"ckey": "Brazil",
+"city_other": {
+"x": "Konya Province",
+"ckey": "Turkey"
+},
+"city_same": {
+"x": "Mogi das Cruzes",
+"ckey": "Brazil"
+},
+"person": {
+"x": "Mehmed II",
+"ckey": "Turkey"
+},
+"country": {
+"ckey": "Japan"
+}
+},
+{
+"city": "João Pessoa",
+"ckey": "Brazil",
+"city_other": {
+"x": "Chiniot",
+"ckey": "Pakistan"
+},
+"city_same": {
+"x": "Jaboatão dos Guararapes",
+"ckey": "Brazil"
+},
+"person": {
+"x": "Hayao Miyazaki",
+"ckey": "Japan"
+},
+"country": {
+"ckey": "Spain"
+}
+},
+{
+"city": "Jaboatão dos Guararapes",
+"ckey": "Brazil",
+"city_other": {
+"x": "Brighton and Hove",
+"ckey": "United Kingdom"
+},
+"city_same": {
+"x": "Juiz de Fora",
+"ckey": "Brazil"
+},
+"person": {
+"x": "Keanu Reeves",
+"ckey": "Canada"
+},
+"country": {
+"ckey": "Colombia"
+}
+},
+{
+"city": "Juiz de Fora",
+"ckey": "Brazil",
+"city_other": {
+"x": "Burnaby",
+"ckey": "Canada"
+},
+"city_same": {
+"x": "Campinas",
+"ckey": "Brazil"
+},
+"person": {
+"x": "Salvador Dali",
+"ckey": "Spain"
+},
+"country": {
+"ckey": "Nigeria"
+}
+},
+{
+"city": "Mauá",
+"ckey": "Brazil",
+"city_other": {
+"x": "Serang",
+"ckey": "Indonesia"
+},
+"city_same": {
+"x": "Boa Vista",
+"ckey": "Brazil"
+},
+"person": {
+"x": "Marie Curie",
+"ckey": "Poland"
+},
+"country": {
+"ckey": "Italy"
+}
+},
+{
+"city": "Carapicuíba",
+"ckey": "Brazil",
+"city_other": {
+"x": "Grozny",
+"ckey": "Russia"
+},
+"city_same": {
+"x": "Niterói",
+"ckey": "Brazil"
+},
+"person": {
+"x": "Rafael Nadal",
+"ckey": "Spain"
+},
+"country": {
+"ckey": "Canada"
+}
+},
+{
+"city": "Aracaju",
+"ckey": "Brazil",
+"city_other": {
+"x": "Leicester",
+"ckey": "United Kingdom"
+},
+"city_same": {
+"x": "Joinville",
+"ckey": "Brazil"
+},
+"person": {
+"x": "Malala Yousafzai",
+"ckey": "Pakistan"
+},
+"country": {
+"ckey": "United Kingdom"
+}
+},
+{
+"city": "São Bernardo do Campo",
+"ckey": "Brazil",
+"city_other": {
+"x": "Andimeshk",
+"ckey": "Iran"
+},
+"city_same": {
+"x": "Juiz de Fora",
+"ckey": "Brazil"
+},
+"person": {
+"x": "Malala Yousafzai",
+"ckey": "Pakistan"
+},
+"country": {
+"ckey": "Argentina"
+}
+},
+{
+"city": "Laval",
+"ckey": "Canada",
+"city_other": {
+"x": "Bengkulu",
+"ckey": "Indonesia"
+},
+"city_same": {
+"x": "Edmonton",
+"ckey": "Canada"
+},
+"person": {
+"x": "Victor Moses",
+"ckey": "Nigeria"
+},
+"country": {
+"ckey": "People's Republic of China"
+}
+},
+{
+"city": "Oshawa",
+"ckey": "Canada",
+"city_other": {
+"x": "Khanewal",
+"ckey": "Pakistan"
+},
+"city_same": {
+"x": "Winnipeg",
+"ckey": "Canada"
+},
+"person": {
+"x": "Pablo Picasso",
+"ckey": "Spain"
+},
+"country": {
+"ckey": "Philippines"
+}
+},
+{
+"city": "Markham",
+"ckey": "Canada",
+"city_other": {
+"x": "Çerkezköy",
+"ckey": "Turkey"
+},
+"city_same": {
+"x": "Greater Sudbury",
+"ckey": "Canada"
+},
+"person": {
+"x": "Ichiro Suzuki",
+"ckey": "Japan"
+},
+"country": {
+"ckey": "Peru"
+}
+},
+{
+"city": "Sherbrooke",
+"ckey": "Canada",
+"city_other": {
+"x": "Salta",
+"ckey": "Argentina"
+},
+"city_same": {
+"x": "Kitchener",
+"ckey": "Canada"
+},
+"person": {
+"x": "Michael Schumacher",
+"ckey": "Germany"
+},
+"country": {
+"ckey": "Philippines"
+}
+},
+{
+"city": "Burnaby",
+"ckey": "Canada",
+"city_other": {
+"x": "Santa Fe",
+"ckey": "Argentina"
+},
+"city_same": {
+"x": "Edmonton",
+"ckey": "Canada"
+},
+"person": {
+"x": "Naomi Osaka",
+"ckey": "Japan"
+},
+"country": {
+"ckey": "Italy"
+}
+},
+{
+"city": "Windsor",
+"ckey": "Canada",
+"city_other": {
+"x": "Brighton and Hove",
+"ckey": "United Kingdom"
+},
+"city_same": {
+"x": "Kitchener",
+"ckey": "Canada"
+},
+"person": {
+"x": "A.P.J. Abdul Kalam",
+"ckey": "India"
+},
+"country": {
+"ckey": "Argentina"
+}
+},
+{
+"city": "Calgary",
+"ckey": "Canada",
+"city_other": {
+"x": "Suita",
+"ckey": "Japan"
+},
+"city_same": {
+"x": "Saskatoon",
+"ckey": "Canada"
+},
+"person": {
+"x": "Penelope Cruz",
+"ckey": "Spain"
+},
+"country": {
+"ckey": "Turkey"
+}
+},
+{
+"city": "Hamilton",
+"ckey": "Canada",
+"city_other": {
+"x": "Leverkusen",
+"ckey": "Germany"
+},
+"city_same": {
+"x": "Winnipeg",
+"ckey": "Canada"
+},
+"person": {
+"x": "Galileo Galilei",
+"ckey": "Italy"
+},
+"country": {
+"ckey": "Germany"
+}
+},
+{
+"city": "Santa Marta",
+"ckey": "Colombia",
+"city_other": {
+"x": "Aligarh",
+"ckey": "India"
+},
+"city_same": {
+"x": "Ibagué",
+"ckey": "Colombia"
+},
+"person": {
+"x": "Nicolaus Copernicus",
+"ckey": "Poland"
+},
+"country": {
+"ckey": "Egypt"
+}
+},
+{
+"city": "Montería",
+"ckey": "Colombia",
+"city_other": {
+"x": "Milan",
+"ckey": "Italy"
+},
+"city_same": {
+"x": "Manizales",
+"ckey": "Colombia"
+},
+"person": {
+"x": "Michael Schumacher",
+"ckey": "Germany"
+},
+"country": {
+"ckey": "Poland"
+}
+},
+{
+"city": "Neiva",
+"ckey": "Colombia",
+"city_other": {
+"x": "Rasht",
+"ckey": "Iran"
+},
+"city_same": {
+"x": "Santa Marta",
+"ckey": "Colombia"
+},
+"person": {
+"x": "Hayao Miyazaki",
+"ckey": "Japan"
+},
+"country": {
+"ckey": "Russia"
+}
+},
+{
+"city": "Popayán",
+"ckey": "Colombia",
+"city_other": {
+"x": "Chuncheon",
+"ckey": "South Korea"
+},
+"city_same": {
+"x": "Santa Marta",
+"ckey": "Colombia"
+},
+"person": {
+"x": "Christina Milian",
+"ckey": "United States"
+},
+"country": {
+"ckey": "Argentina"
+}
+},
+{
+"city": "Pasto",
+"ckey": "Colombia",
+"city_other": {
+"x": "Badajoz",
+"ckey": "Spain"
+},
+"city_same": {
+"x": "Tunja",
+"ckey": "Colombia"
+},
+"person": {
+"x": "Neymar",
+"ckey": "Brazil"
+},
+"country": {
+"ckey": "Russia"
+}
+},
+{
+"city": "Ipiales",
+"ckey": "Colombia",
+"city_other": {
+"x": "Salihli",
+"ckey": "Turkey"
+},
+"city_same": {
+"x": "Tunja",
+"ckey": "Colombia"
+},
+"person": {
+"x": "Manu Ginóbili",
+"ckey": "Argentina"
+},
+"country": {
+"ckey": "United States"
+}
+},
+{
+"city": "Barranquilla",
+"ckey": "Colombia",
+"city_other": {
+"x": "Jinju",
+"ckey": "South Korea"
+},
+"city_same": {
+"x": "Popayán",
+"ckey": "Colombia"
+},
+"person": {
+"x": "Pablo Picasso",
+"ckey": "Spain"
+},
+"country": {
+"ckey": "Argentina"
+}
+},
+{
+"city": "Cartagena",
+"ckey": "Colombia",
+"city_other": {
+"x": "Batam",
+"ckey": "Indonesia"
+},
+"city_same": {
+"x": "Pereira",
+"ckey": "Colombia"
+},
+"person": {
+"x": "Cung Le",
+"ckey": "Vietnam"
+},
+"country": {
+"ckey": "Russia"
+}
+},
+{
+"city": "Shobra Elkhema",
+"ckey": "Egypt",
+"city_other": {
+"x": "La Plata",
+"ckey": "Argentina"
+},
+"city_same": {
+"x": "Giza",
+"ckey": "Egypt"
+},
+"person": {
+"x": "Sundar Pichai",
+"ckey": "India"
+},
+"country": {
+"ckey": "Russia"
+}
+},
+{
+"city": "Minya",
+"ckey": "Egypt",
+"city_other": {
+"x": "Goiânia",
+"ckey": "Brazil"
+},
+"city_same": {
+"x": "Damietta",
+"ckey": "Egypt"
+},
+"person": {
+"x": "Nico Rosberg",
+"ckey": "Germany"
+},
+"country": {
+"ckey": "France"
+}
+},
+{
+"city": "Suez",
+"ckey": "Egypt",
+"city_other": {
+"x": "Malang",
+"ckey": "Indonesia"
+},
+"city_same": {
+"x": "Matarieh",
+"ckey": "Egypt"
+},
+"person": {
+"x": "Thuy Trang",
+"ckey": "Vietnam"
+},
+"country": {
+"ckey": "Turkey"
+}
+},
+{
+"city": "Luxor",
+"ckey": "Egypt",
+"city_other": {
+"x": "Kingston upon Hull",
+"ckey": "United Kingdom"
+},
+"city_same": {
+"x": "Benha",
+"ckey": "Egypt"
+},
+"person": {
+"x": "Keanu Reeves",
+"ckey": "Canada"
+},
+"country": {
+"ckey": "Indonesia"
+}
+},
+{
+"city": "Ismailia",
+"ckey": "Egypt",
+"city_other": {
+"x": "Jacobabad",
+"ckey": "Pakistan"
+},
+"city_same": {
+"x": "Benha",
+"ckey": "Egypt"
+},
+"person": {
+"x": "Radamel Falcao",
+"ckey": "Colombia"
+},
+"country": {
+"ckey": "People's Republic of China"
+}
+},
+{
+"city": "Abu Kabir",
+"ckey": "Egypt",
+"city_other": {
+"x": "Cologne",
+"ckey": "Germany"
+},
+"city_same": {
+"x": "Talkha",
+"ckey": "Egypt"
+},
+"person": {
+"x": "Suleiman The Magnificent",
+"ckey": "Turkey"
+},
+"country": {
+"ckey": "Russia"
+}
+},
+{
+"city": "Manfalut",
+"ckey": "Egypt",
+"city_other": {
+"x": "Saarbrücken",
+"ckey": "Germany"
+},
+"city_same": {
+"x": "Asyut",
+"ckey": "Egypt"
+},
+"person": {
+"x": "Vladimir Lenin",
+"ckey": "Russia"
+},
+"country": {
+"ckey": "Turkey"
+}
+},
+{
+"city": "Damietta",
+"ckey": "Egypt",
+"city_other": {
+"x": "Aksaray",
+"ckey": "Turkey"
+},
+"city_same": {
+"x": "New Borg El Arab",
+"ckey": "Egypt"
+},
+"person": {
+"x": "Ronaldinho",
+"ckey": "Brazil"
+},
+"country": {
+"ckey": "Pakistan"
+}
+},
+{
+"city": "Montpellier",
+"ckey": "France",
+"city_other": {
+"x": "Calbayog",
+"ckey": "Philippines"
+},
+"city_same": {
+"x": "Saint-Denis",
+"ckey": "France"
+},
+"person": {
+"x": "A.P.J. Abdul Kalam",
+"ckey": "India"
+},
+"country": {
+"ckey": "Peru"
+}
+},
+{
+"city": "Reims",
+"ckey": "France",
+"city_other": {
+"x": "Getafe",
+"ckey": "Spain"
+},
+"city_same": {
+"x": "Lille",
+"ckey": "France"
+},
+"person": {
+"x": "Mustafa Kemal Ataturk",
+"ckey": "Turkey"
+},
+"country": {
+"ckey": "Russia"
+}
+},
+{
+"city": "Le Havre",
+"ckey": "France",
+"city_other": {
+"x": "Jalandhar",
+"ckey": "India"
+},
+"city_same": {
+"x": "Bordeaux",
+"ckey": "France"
+},
+"person": {
+"x": "Salvador Dali",
+"ckey": "Spain"
+},
+"country": {
+"ckey": "Germany"
+}
+},
+{
+"city": "Lille",
+"ckey": "France",
+"city_other": {
+"x": "Takasaki",
+"ckey": "Japan"
+},
+"city_same": {
+"x": "Nîmes",
+"ckey": "France"
+},
+"person": {
+"x": "Jimin",
+"ckey": "South Korea"
+},
+"country": {
+"ckey": "Peru"
+}
+},
+{
+"city": "Lyon",
+"ckey": "France",
+"city_other": {
+"x": "Bacoor",
+"ckey": "Philippines"
+},
+"city_same": {
+"x": "Le Havre",
+"ckey": "France"
+},
+"person": {
+"x": "Pep Guardiola",
+"ckey": "Spain"
+},
+"country": {
+"ckey": "Nigeria"
+}
+},
+{
+"city": "Villeurbanne",
+"ckey": "France",
+"city_other": {
+"x": "Shaoyang",
+"ckey": "People's Republic of China"
+},
+"city_same": {
+"x": "Toulouse",
+"ckey": "France"
+},
+"person": {
+"x": "Cleopatra",
+"ckey": "Egypt"
+},
+"country": {
+"ckey": "South Korea"
+}
+},
+{
+"city": "Bordeaux",
+"ckey": "France",
+"city_other": {
+"x": "Turgutlu",
+"ckey": "Turkey"
+},
+"city_same": {
+"x": "Lyon",
+"ckey": "France"
+},
+"person": {
+"x": "Khabib Nurmagomedov",
+"ckey": "Russia"
+},
+"country": {
+"ckey": "Spain"
+}
+},
+{
+"city": "Saint-Denis",
+"ckey": "France",
+"city_other": {
+"x": "Campinas",
+"ckey": "Brazil"
+},
+"city_same": {
+"x": "Bordeaux Métropole",
+"ckey": "France"
+},
+"person": {
+"x": "Mahatma Gandhi",
+"ckey": "India"
+},
+"country": {
+"ckey": "Japan"
+}
+},
+{
+"city": "Wuppertal",
+"ckey": "Germany",
+"city_other": {
+"x": "San Lorenzo",
+"ckey": "Argentina"
+},
+"city_same": {
+"x": "Augsburg",
+"ckey": "Germany"
+},
+"person": {
+"x": "Mohamed Salah",
+"ckey": "Egypt"
+},
+"country": {
+"ckey": "Nigeria"
+}
+},
+{
+"city": "Nuremberg",
+"ckey": "Germany",
+"city_other": {
+"x": "Mersin",
+"ckey": "Turkey"
+},
+"city_same": {
+"x": "Augsburg",
+"ckey": "Germany"
+},
+"person": {
+"x": "Confucius",
+"ckey": "People's Republic of China"
+},
+"country": {
+"ckey": "Pakistan"
+}
+},
+{
+"city": "Leipzig",
+"ckey": "Germany",
+"city_other": {
+"x": "Kunming",
+"ckey": "People's Republic of China"
+},
+"city_same": {
+"x": "Hamm",
+"ckey": "Germany"
+},
+"person": {
+"x": "Jose Rizal",
+"ckey": "Philippines"
+},
+"country": {
+"ckey": "Spain"
+}
+},
+{
+"city": "Krefeld",
+"ckey": "Germany",
+"city_other": {
+"x": "Sapporo",
+"ckey": "Japan"
+},
+"city_same": {
+"x": "Hamm",
+"ckey": "Germany"
+},
+"person": {
+"x": "Jet Li",
+"ckey": "People's Republic of China"
+},
+"country": {
+"ckey": "Peru"
+}
+},
+{
+"city": "Dresden",
+"ckey": "Germany",
+"city_other": {
+"x": "Incheon",
+"ckey": "South Korea"
+},
+"city_same": {
+"x": "Hamburg",
+"ckey": "Germany"
+},
+"person": {
+"x": "Salvador Dali",
+"ckey": "Spain"
+},
+"country": {
+"ckey": "Philippines"
+}
+},
+{
+"city": "Düsseldorf",
+"ckey": "Germany",
+"city_other": {
+"x": "Damietta",
+"ckey": "Egypt"
+},
+"city_same": {
+"x": "Mülheim an der Ruhr",
+"ckey": "Germany"
+},
+"person": {
+"x": "Maria Sharapova",
+"ckey": "Russia"
+},
+"country": {
+"ckey": "Spain"
+}
+},
+{
+"city": "Leverkusen",
+"ckey": "Germany",
+"city_other": {
+"x": "New York City",
+"ckey": "United States"
+},
+"city_same": {
+"x": "Leipzig",
+"ckey": "Germany"
+},
+"person": {
+"x": "Wilfred Ndidi",
+"ckey": "Nigeria"
+},
+"country": {
+"ckey": "Spain"
+}
+},
+{
+"city": "Bielefeld",
+"ckey": "Germany",
+"city_other": {
+"x": "Mactan",
+"ckey": "Philippines"
+},
+"city_same": {
+"x": "Kiel",
+"ckey": "Germany"
+},
+"person": {
+"x": "Rafael Nadal",
+"ckey": "Spain"
+},
+"country": {
+"ckey": "Russia"
+}
+},
+{
+"city": "Kota",
+"ckey": "India",
+"city_other": {
+"x": "Butuan",
+"ckey": "Philippines"
+},
+"city_same": {
+"x": "Vadodara",
+"ckey": "India"
+},
+"person": {
+"x": "Cleopatra",
+"ckey": "Egypt"
+},
+"country": {
+"ckey": "Germany"
+}
+},
+{
+"city": "Bareilly",
+"ckey": "India",
+"city_other": {
+"x": "Düzce",
+"ckey": "Turkey"
+},
+"city_same": {
+"x": "Agra",
+"ckey": "India"
+},
+"person": {
+"x": "Karl Marx",
+"ckey": "Germany"
+},
+"country": {
+"ckey": "Egypt"
+}
+},
+{
+"city": "Kanpur",
+"ckey": "India",
+"city_other": {
+"x": "Las Piñas",
+"ckey": "Philippines"
+},
+"city_same": {
+"x": "Ludhiana",
+"ckey": "India"
+},
+"person": {
+"x": "Monica Bellucci",
+"ckey": "Italy"
+},
+"country": {
+"ckey": "Japan"
+}
+},
+{
+"city": "Lucknow",
+"ckey": "India",
+"city_other": {
+"x": "6th of October City",
+"ckey": "Egypt"
+},
+"city_same": {
+"x": "Nashik",
+"ckey": "India"
+},
+"person": {
+"x": "Thuy Trang",
+"ckey": "Vietnam"
+},
+"country": {
+"ckey": "Poland"
+}
+},
+{
+"city": "Warangal",
+"ckey": "India",
+"city_other": {
+"x": "Lafia",
+"ckey": "Nigeria"
+},
+"city_same": {
+"x": "Bengaluru",
+"ckey": "India"
+},
+"person": {
+"x": "Aliko Dangote",
+"ckey": "Nigeria"
+},
+"country": {
+"ckey": "Indonesia"
+}
+},
+{
+"city": "Surat",
+"ckey": "India",
+"city_other": {
+"x": "Ravenna",
+"ckey": "Italy"
+},
+"city_same": {
+"x": "Kolkata",
+"ckey": "India"
+},
+"person": {
+"x": "Radamel Falcao",
+"ckey": "Colombia"
+},
+"country": {
+"ckey": "Spain"
+}
+},
+{
+"city": "Nagpur",
+"ckey": "India",
+"city_other": {
+"x": "Amagasaki",
+"ckey": "Japan"
+},
+"city_same": {
+"x": "Saharanpur",
+"ckey": "India"
+},
+"person": {
+"x": "Sofia Vergara",
+"ckey": "Colombia"
+},
+"country": {
+"ckey": "Japan"
+}
+},
+{
+"city": "Mumbai",
+"ckey": "India",
+"city_other": {
+"x": "Hanover",
+"ckey": "Germany"
+},
+"city_same": {
+"x": "Prayagraj",
+"ckey": "India"
+},
+"person": {
+"x": "Wasim Akram",
+"ckey": "Pakistan"
+},
+"country": {
+"ckey": "People's Republic of China"
+}
+},
+{
+"city": "Makassar",
+"ckey": "Indonesia",
+"city_other": {
+"x": "Osnabrück",
+"ckey": "Germany"
+},
+"city_same": {
+"x": "Bengkulu",
+"ckey": "Indonesia"
+},
+"person": {
+"x": "Mehmed II",
+"ckey": "Turkey"
+},
+"country": {
+"ckey": "Spain"
+}
+},
+{
+"city": "Sidoarjo",
+"ckey": "Indonesia",
+"city_other": {
+"x": "Lahore",
+"ckey": "Pakistan"
+},
+"city_same": {
+"x": "Tasikmalaya",
+"ckey": "Indonesia"
+},
+"person": {
+"x": "Thich Quang Duc",
+"ckey": "Vietnam"
+},
+"country": {
+"ckey": "Brazil"
+}
+},
+{
+"city": "Batam",
+"ckey": "Indonesia",
+"city_other": {
+"x": "Warrington",
+"ckey": "United Kingdom"
+},
+"city_same": {
+"x": "Dumai",
+"ckey": "Indonesia"
+},
+"person": {
+"x": "Che Guevara",
+"ckey": "Argentina"
+},
+"country": {
+"ckey": "Canada"
+}
+},
+{
+"city": "Cimahi",
+"ckey": "Indonesia",
+"city_other": {
+"x": "Stavropol",
+"ckey": "Russia"
+},
+"city_same": {
+"x": "Manado",
+"ckey": "Indonesia"
+},
+"person": {
+"x": "Aliko Dangote",
+"ckey": "Nigeria"
+},
+"country": {
+"ckey": "Canada"
+}
+},
+{
+"city": "Purwokerto",
+"ckey": "Indonesia",
+"city_other": {
+"x": "Damietta",
+"ckey": "Egypt"
+},
+"city_same": {
+"x": "Yogyakarta",
+"ckey": "Indonesia"
+},
+"person": {
+"x": "Christina Milian",
+"ckey": "United States"
+},
+"country": {
+"ckey": "Germany"
+}
+},
+{
+"city": "Mataram",
+"ckey": "Indonesia",
+"city_other": {
+"x": "Austin",
+"ckey": "United States"
+},
+"city_same": {
+"x": "Bandung",
+"ckey": "Indonesia"
+},
+"person": {
+"x": "Thich Quang Duc",
+"ckey": "Vietnam"
+},
+"country": {
+"ckey": "Brazil"
+}
+},
+{
+"city": "Banda Aceh",
+"ckey": "Indonesia",
+"city_other": {
+"x": "Kütahya",
+"ckey": "Turkey"
+},
+"city_same": {
+"x": "Pontianak",
+"ckey": "Indonesia"
+},
+"person": {
+"x": "Michael Jordan",
+"ckey": "United States"
+},
+"country": {
+"ckey": "Colombia"
+}
+},
+{
+"city": "Bengkulu",
+"ckey": "Indonesia",
+"city_other": {
+"x": "Takatsuki",
+"ckey": "Japan"
+},
+"city_same": {
+"x": "Pontianak",
+"ckey": "Indonesia"
+},
+"person": {
+"x": "Mahatma Gandhi",
+"ckey": "India"
+},
+"country": {
+"ckey": "Brazil"
+}
+},
+{
+"city": "Najafabad",
+"ckey": "Iran",
+"city_other": {
+"x": "Masan",
+"ckey": "South Korea"
+},
+"city_same": {
+"x": "Amol",
+"ckey": "Iran"
+},
+"person": {
+"x": "Shakira",
+"ckey": "Colombia"
+},
+"country": {
+"ckey": "Canada"
+}
+},
+{
+"city": "Sabzevar",
+"ckey": "Iran",
+"city_other": {
+"x": "Curitiba",
+"ckey": "Brazil"
+},
+"city_same": {
+"x": "Eslamshahr",
+"ckey": "Iran"
+},
+"person": {
+"x": "Manu Ginóbili",
+"ckey": "Argentina"
+},
+"country": {
+"ckey": "Philippines"
+}
+},
+{
+"city": "Yazd",
+"ckey": "Iran",
+"city_other": {
+"x": "Makassar",
+"ckey": "Indonesia"
+},
+"city_same": {
+"x": "Saqqez",
+"ckey": "Iran"
+},
+"person": {
+"x": "Khabib Nurmagomedov",
+"ckey": "Russia"
+},
+"country": {
+"ckey": "South Korea"
+}
+},
+{
+"city": "Arak",
+"ckey": "Iran",
+"city_other": {
+"x": "Batam",
+"ckey": "Indonesia"
+},
+"city_same": {
+"x": "Semnan",
+"ckey": "Iran"
+},
+"person": {
+"x": "Cung Le",
+"ckey": "Vietnam"
+},
+"country": {
+"ckey": "Pakistan"
+}
+},
+{
+"city": "Babol",
+"ckey": "Iran",
+"city_other": {
+"x": "Yoshkar-Ola",
+"ckey": "Russia"
+},
+"city_same": {
+"x": "Shahin Shahr",
+"ckey": "Iran"
+},
+"person": {
+"x": "Pep Guardiola",
+"ckey": "Spain"
+},
+"country": {
+"ckey": "Canada"
+}
+},
+{
+"city": "Isfahan",
+"ckey": "Iran",
+"city_other": {
+"x": "Uiwang",
+"ckey": "South Korea"
+},
+"city_same": {
+"x": "Rasht",
+"ckey": "Iran"
+},
+"person": {
+"x": "Thuy Trang",
+"ckey": "Vietnam"
+},
+"country": {
+"ckey": "Russia"
+}
+},
+{
+"city": "Semnan",
+"ckey": "Iran",
+"city_other": {
+"x": "Rostov-on-Don",
+"ckey": "Russia"
+},
+"city_same": {
+"x": "Gonbad-e Kavus",
+"ckey": "Iran"
+},
+"person": {
+"x": "Hatshepsut",
+"ckey": "Egypt"
+},
+"country": {
+"ckey": "United Kingdom"
+}
+},
+{
+"city": "Bandar Abbas",
+"ckey": "Iran",
+"city_other": {
+"x": "Piura",
+"ckey": "Peru"
+},
+"city_same": {
+"x": "Sabzevar",
+"ckey": "Iran"
+},
+"person": {
+"x": "Che Guevara",
+"ckey": "Argentina"
+},
+"country": {
+"ckey": "United Kingdom"
+}
+},
+{
+"city": "Trieste",
+"ckey": "Italy",
+"city_other": {
+"x": "Resistencia",
+"ckey": "Argentina"
+},
+"city_same": {
+"x": "Reggio Calabria",
+"ckey": "Italy"
+},
+"person": {
+"x": "Rodrigo Duterte",
+"ckey": "Philippines"
+},
+"country": {
+"ckey": "Poland"
+}
+},
+{
+"city": "Modena",
+"ckey": "Italy",
+"city_other": {
+"x": "Hangzhou",
+"ckey": "People's Republic of China"
+},
+"city_same": {
+"x": "Padua",
+"ckey": "Italy"
+},
+"person": {
+"x": "Alain Ducasse",
+"ckey": "France"
+},
+"country": {
+"ckey": "Iran"
+}
+},
+{
+"city": "Parma",
+"ckey": "Italy",
+"city_other": {
+"x": "Albacete City",
+"ckey": "Spain"
+},
+"city_same": {
+"x": "Reggio Calabria",
+"ckey": "Italy"
+},
+"person": {
+"x": "Nicolaus Copernicus",
+"ckey": "Poland"
+},
+"country": {
+"ckey": "Poland"
+}
+},
+{
+"city": "Livorno",
+"ckey": "Italy",
+"city_other": {
+"x": "Vaughan",
+"ckey": "Canada"
+},
+"city_same": {
+"x": "Trieste",
+"ckey": "Italy"
+},
+"person": {
+"x": "Karl Marx",
+"ckey": "Germany"
+},
+"country": {
+"ckey": "Brazil"
+}
+},
+{
+"city": "Free Territory of Trieste",
+"ckey": "Italy",
+"city_other": {
+"x": "Cardiff",
+"ckey": "United Kingdom"
+},
+"city_same": {
+"x": "Genoa",
+"ckey": "Italy"
+},
+"person": {
+"x": "Pablo Picasso",
+"ckey": "Spain"
+},
+"country": {
+"ckey": "Turkey"
+}
+},
+{
+"city": "Catania",
+"ckey": "Italy",
+"city_other": {
+"x": "Cologne",
+"ckey": "Germany"
+},
+"city_same": {
+"x": "Verona",
+"ckey": "Italy"
+},
+"person": {
+"x": "The Weeknd",
+"ckey": "Canada"
+},
+"country": {
+"ckey": "United States"
+}
+},
+{
+"city": "Genoa",
+"ckey": "Italy",
+"city_other": {
+"x": "Ilesa",
+"ckey": "Nigeria"
+},
+"city_same": {
+"x": "Venice",
+"ckey": "Italy"
+},
+"person": {
+"x": "B. J. Habibie",
+"ckey": "Indonesia"
+},
+"country": {
+"ckey": "Colombia"
+}
+},
+{
+"city": "Turin",
+"ckey": "Italy",
+"city_other": {
+"x": "Munich",
+"ckey": "Germany"
+},
+"city_same": {
+"x": "Genoa",
+"ckey": "Italy"
+},
+"person": {
+"x": "Ronaldinho",
+"ckey": "Brazil"
+},
+"country": {
+"ckey": "Vietnam"
+}
+},
+{
+"city": "Aomori",
+"ckey": "Japan",
+"city_other": {
+"x": "Leipzig",
+"ckey": "Germany"
+},
+"city_same": {
+"x": "Hiroshima",
+"ckey": "Japan"
+},
+"person": {
+"x": "Jimin",
+"ckey": "South Korea"
+},
+"country": {
+"ckey": "Canada"
+}
+},
+{
+"city": "Okazaki",
+"ckey": "Japan",
+"city_other": {
+"x": "Mytishchi",
+"ckey": "Russia"
+},
+"city_same": {
+"x": "Kawagoe",
+"ckey": "Japan"
+},
+"person": {
+"x": "Penelope Cruz",
+"ckey": "Spain"
+},
+"country": {
+"ckey": "South Korea"
+}
+},
+{
+"city": "Toyohashi",
+"ckey": "Japan",
+"city_other": {
+"x": "Madrid city",
+"ckey": "Spain"
+},
+"city_same": {
+"x": "Niigata",
+"ckey": "Japan"
+},
+"person": {
+"x": "Neymar",
+"ckey": "Brazil"
+},
+"country": {
+"ckey": "Canada"
+}
+},
+{
+"city": "Miyazaki",
+"ckey": "Japan",
+"city_other": {
+"x": "Yangsan",
+"ckey": "South Korea"
+},
+"city_same": {
+"x": "Fukuoka",
+"ckey": "Japan"
+},
+"person": {
+"x": "Pep Guardiola",
+"ckey": "Spain"
+},
+"country": {
+"ckey": "Italy"
+}
+},
+{
+"city": "Niigata",
+"ckey": "Japan",
+"city_other": {
+"x": "Saratov",
+"ckey": "Russia"
+},
+"city_same": {
+"x": "Osaka",
+"ckey": "Japan"
+},
+"person": {
+"x": "The Weeknd",
+"ckey": "Canada"
+},
+"country": {
+"ckey": "Brazil"
+}
+},
+{
+"city": "Toyota",
+"ckey": "Japan",
+"city_other": {
+"x": "Burewala",
+"ckey": "Pakistan"
+},
+"city_same": {
+"x": "Okayama",
+"ckey": "Japan"
+},
+"person": {
+"x": "Nefertiti",
+"ckey": "Egypt"
+},
+"country": {
+"ckey": "Pakistan"
+}
+},
+{
+"city": "Yokohama",
+"ckey": "Japan",
+"city_other": {
+"x": "San Miguel de Tucumán",
+"ckey": "Argentina"
+},
+"city_same": {
+"x": "Amagasaki",
+"ckey": "Japan"
+},
+"person": {
+"x": "Michael Jordan",
+"ckey": "United States"
+},
+"country": {
+"ckey": "France"
+}
+},
+{
+"city": "Sakai",
+"ckey": "Japan",
+"city_other": {
+"x": "Suncheon",
+"ckey": "South Korea"
+},
+"city_same": {
+"x": "Kawagoe",
+"ckey": "Japan"
+},
+"person": {
+"x": "Karl Marx",
+"ckey": "Germany"
+},
+"country": {
+"ckey": "United Kingdom"
+}
+},
+{
+"city": "Yenegoa",
+"ckey": "Nigeria",
+"city_other": {
+"x": "Jodhpur",
+"ckey": "India"
+},
+"city_same": {
+"x": "Zaria",
+"ckey": "Nigeria"
+},
+"person": {
+"x": "Confucius",
+"ckey": "People's Republic of China"
+},
+"country": {
+"ckey": "United Kingdom"
+}
+},
+{
+"city": "Bauchi",
+"ckey": "Nigeria",
+"city_other": {
+"x": "Bahía Blanca",
+"ckey": "Argentina"
+},
+"city_same": {
+"x": "Ogbomosho",
+"ckey": "Nigeria"
+},
+"person": {
+"x": "Penelope Cruz",
+"ckey": "Spain"
+},
+"country": {
+"ckey": "Spain"
+}
+},
+{
+"city": "Lokoja",
+"ckey": "Nigeria",
+"city_other": {
+"x": "Kota Probolinggo",
+"ckey": "Indonesia"
+},
+"city_same": {
+"x": "Ikeja",
+"ckey": "Nigeria"
+},
+"person": {
+"x": "Osman I",
+"ckey": "Turkey"
+},
+"country": {
+"ckey": "India"
+}
+},
+{
+"city": "Ilorin",
+"ckey": "Nigeria",
+"city_other": {
+"x": "Cincinnati",
+"ckey": "United States"
+},
+"city_same": {
+"x": "Akure",
+"ckey": "Nigeria"
+},
+"person": {
+"x": "Thich Quang Duc",
+"ckey": "Vietnam"
+},
+"country": {
+"ckey": "Poland"
+}
+},
+{
+"city": "Ikeja",
+"ckey": "Nigeria",
+"city_other": {
+"x": "Malatya",
+"ckey": "Turkey"
+},
+"city_same": {
+"x": "Lokoja",
+"ckey": "Nigeria"
+},
+"person": {
+"x": "Cung Le",
+"ckey": "Vietnam"
+},
+"country": {
+"ckey": "Brazil"
+}
+},
+{
+"city": "Yola",
+"ckey": "Nigeria",
+"city_other": {
+"x": "Xi'an",
+"ckey": "People's Republic of China"
+},
+"city_same": {
+"x": "Maiduguri",
+"ckey": "Nigeria"
+},
+"person": {
+"x": "Manu Ginóbili",
+"ckey": "Argentina"
+},
+"country": {
+"ckey": "Spain"
+}
+},
+{
+"city": "Makurdi",
+"ckey": "Nigeria",
+"city_other": {
+"x": "Kraków",
+"ckey": "Poland"
+},
+"city_same": {
+"x": "Yola",
+"ckey": "Nigeria"
+},
+"person": {
+"x": "Kylian Mbappé",
+"ckey": "France"
+},
+"country": {
+"ckey": "South Korea"
+}
+},
+{
+"city": "Lagos",
+"ckey": "Nigeria",
+"city_other": {
+"x": "Astrakhan",
+"ckey": "Russia"
+},
+"city_same": {
+"x": "Bauchi",
+"ckey": "Nigeria"
+},
+"person": {
+"x": "Jack Ma",
+"ckey": "People's Republic of China"
+},
+"country": {
+"ckey": "Spain"
+}
+},
+{
+"city": "Parachinar",
+"ckey": "Pakistan",
+"city_other": {
+"x": "Jodhpur",
+"ckey": "India"
+},
+"city_same": {
+"x": "Faisalabad",
+"ckey": "Pakistan"
+},
+"person": {
+"x": "Lionel Messi",
+"ckey": "Argentina"
+},
+"country": {
+"ckey": "United Kingdom"
+}
+},
+{
+"city": "Kasur",
+"ckey": "Pakistan",
+"city_other": {
+"x": "Matsuyama",
+"ckey": "Japan"
+},
+"city_same": {
+"x": "Hafizabad",
+"ckey": "Pakistan"
+},
+"person": {
+"x": "Frédéric Chopin",
+"ckey": "Poland"
+},
+"country": {
+"ckey": "Japan"
+}
+},
+{
+"city": "Jhang",
+"ckey": "Pakistan",
+"city_other": {
+"x": "Sanandaj",
+"ckey": "Iran"
+},
+"city_same": {
+"x": "Wah Cantonment",
+"ckey": "Pakistan"
+},
+"person": {
+"x": "Nefertiti",
+"ckey": "Egypt"
+},
+"country": {
+"ckey": "Japan"
+}
+},
+{
+"city": "Nawabshah",
+"ckey": "Pakistan",
+"city_other": {
+"x": "Porto Velho",
+"ckey": "Brazil"
+},
+"city_same": {
+"x": "Bahawalpur",
+"ckey": "Pakistan"
+},
+"person": {
+"x": "Kevin Sanjaya Sukamuljo",
+"ckey": "Indonesia"
+},
+"country": {
+"ckey": "People's Republic of China"
+}
+},
+{
+"city": "Thatta",
+"ckey": "Pakistan",
+"city_other": {
+"x": "Tuy Hòa",
+"ckey": "Vietnam"
+},
+"city_same": {
+"x": "Hafizabad",
+"ckey": "Pakistan"
+},
+"person": {
+"x": "Naomi Osaka",
+"ckey": "Japan"
+},
+"country": {
+"ckey": "South Korea"
+}
+},
+{
+"city": "Okara",
+"ckey": "Pakistan",
+"city_other": {
+"x": "Anaheim",
+"ckey": "United States"
+},
+"city_same": {
+"x": "Jhang",
+"ckey": "Pakistan"
+},
+"person": {
+"x": "Shakira",
+"ckey": "Colombia"
+},
+"country": {
+"ckey": "Russia"
+}
+},
+{
+"city": "Peshawar",
+"ckey": "Pakistan",
+"city_other": {
+"x": "Reims",
+"ckey": "France"
+},
+"city_same": {
+"x": "Dera Ghazi Khan",
+"ckey": "Pakistan"
+},
+"person": {
+"x": "Penelope Cruz",
+"ckey": "Spain"
+},
+"country": {
+"ckey": "Italy"
+}
+},
+{
+"city": "Rawalpindi",
+"ckey": "Pakistan",
+"city_other": {
+"x": "Ghaziabad",
+"ckey": "India"
+},
+"city_same": {
+"x": "Mardan",
+"ckey": "Pakistan"
+},
+"person": {
+"x": "Dwayne Johnson",
+"ckey": "United States"
+},
+"country": {
+"ckey": "United States"
+}
+},
+{
+"city": "Tangshan",
+"ckey": "People's Republic of China",
+"city_other": {
+"x": "Sorocaba",
+"ckey": "Brazil"
+},
+"city_same": {
+"x": "Chengdu",
+"ckey": "People's Republic of China"
+},
+"person": {
+"x": "Shakira",
+"ckey": "Colombia"
+},
+"country": {
+"ckey": "Peru"
+}
+},
+{
+"city": "Huanggang",
+"ckey": "People's Republic of China",
+"city_other": {
+"x": "Getafe",
+"ckey": "Spain"
+},
+"city_same": {
+"x": "Suzhou",
+"ckey": "People's Republic of China"
+},
+"person": {
+"x": "Sergey Brin",
+"ckey": "Russia"
+},
+"country": {
+"ckey": "Peru"
+}
+},
+{
+"city": "Fuzhou",
+"ckey": "People's Republic of China",
+"city_other": {
+"x": "Ceyhan",
+"ckey": "Turkey"
+},
+"city_same": {
+"x": "Chengdu",
+"ckey": "People's Republic of China"
+},
+"person": {
+"x": "Manu Ginóbili",
+"ckey": "Argentina"
+},
+"country": {
+"ckey": "India"
+}
+},
+{
+"city": "Harbin",
+"ckey": "People's Republic of China",
+"city_other": {
+"x": "Kerman",
+"ckey": "Iran"
+},
+"city_same": {
+"x": "Wuhan",
+"ckey": "People's Republic of China"
+},
+"person": {
+"x": "Penelope Cruz",
+"ckey": "Spain"
+},
+"country": {
+"ckey": "Poland"
+}
+},
+{
+"city": "Nanjing",
+"ckey": "People's Republic of China",
+"city_other": {
+"x": "Ho Chi Minh City",
+"ckey": "Vietnam"
+},
+"city_same": {
+"x": "Jinhua",
+"ckey": "People's Republic of China"
+},
+"person": {
+"x": "Chinua Achebe",
+"ckey": "Nigeria"
+},
+"country": {
+"ckey": "Peru"
+}
+},
+{
+"city": "Jinan",
+"ckey": "People's Republic of China",
+"city_other": {
+"x": "Medellín",
+"ckey": "Colombia"
+},
+"city_same": {
+"x": "Xingtai",
+"ckey": "People's Republic of China"
+},
+"person": {
+"x": "Cleopatra",
+"ckey": "Egypt"
+},
+"country": {
+"ckey": "India"
+}
+},
+{
+"city": "Zhoukou",
+"ckey": "People's Republic of China",
+"city_other": {
+"x": "Kiel",
+"ckey": "Germany"
+},
+"city_same": {
+"x": "Shenyang",
+"ckey": "People's Republic of China"
+},
+"person": {
+"x": "Pele",
+"ckey": "Brazil"
+},
+"country": {
+"ckey": "Philippines"
+}
+},
+{
+"city": "Guangzhou",
+"ckey": "People's Republic of China",
+"city_other": {
+"x": "Jodhpur",
+"ckey": "India"
+},
+"city_same": {
+"x": "Dongguan",
+"ckey": "People's Republic of China"
+},
+"person": {
+"x": "Queen Elizabeth II",
+"ckey": "United Kingdom"
+},
+"country": {
+"ckey": "Japan"
+}
+},
+{
+"city": "Juliaca",
+"ckey": "Peru",
+"city_other": {
+"x": "Hirakata",
+"ckey": "Japan"
+},
+"city_same": {
+"x": "Pucallpa",
+"ckey": "Peru"
+},
+"person": {
+"x": "A.P.J. Abdul Kalam",
+"ckey": "India"
+},
+"country": {
+"ckey": "Iran"
+}
+},
+{
+"city": "Vitarte",
+"ckey": "Peru",
+"city_other": {
+"x": "Riohacha",
+"ckey": "Colombia"
+},
+"city_same": {
+"x": "Iquique",
+"ckey": "Peru"
+},
+"person": {
+"x": "Sergey Brin",
+"ckey": "Russia"
+},
+"country": {
+"ckey": "Russia"
+}
+},
+{
+"city": "Ayacucho",
+"ckey": "Peru",
+"city_other": {
+"x": "Sagamihara",
+"ckey": "Japan"
+},
+"city_same": {
+"x": "Tacna",
+"ckey": "Peru"
+},
+"person": {
+"x": "Odion Ighalo",
+"ckey": "Nigeria"
+},
+"country": {
+"ckey": "Philippines"
+}
+},
+{
+"city": "Tarapoto",
+"ckey": "Peru",
+"city_other": {
+"x": "Cabanatuan",
+"ckey": "Philippines"
+},
+"city_same": {
+"x": "Arequipa",
+"ckey": "Peru"
+},
+"person": {
+"x": "Dua Lipa",
+"ckey": "United Kingdom"
+},
+"country": {
+"ckey": "People's Republic of China"
+}
+},
+{
+"city": "Iquitos",
+"ckey": "Peru",
+"city_other": {
+"x": "Wichita",
+"ckey": "United States"
+},
+"city_same": {
+"x": "Arequipa",
+"ckey": "Peru"
+},
+"person": {
+"x": "A.P.J. Abdul Kalam",
+"ckey": "India"
+},
+"country": {
+"ckey": "Italy"
+}
+},
+{
+"city": "Piura",
+"ckey": "Peru",
+"city_other": {
+"x": "Bandung",
+"ckey": "Indonesia"
+},
+"city_same": {
+"x": "Arequipa",
+"ckey": "Peru"
+},
+"person": {
+"x": "Moses",
+"ckey": "Egypt"
+},
+"country": {
+"ckey": "Russia"
+}
+},
+{
+"city": "Ica",
+"ckey": "Peru",
+"city_other": {
+"x": "Lekki",
+"ckey": "Nigeria"
+},
+"city_same": {
+"x": "Iquique",
+"ckey": "Peru"
+},
+"person": {
+"x": "Pablo Picasso",
+"ckey": "Spain"
+},
+"country": {
+"ckey": "Colombia"
+}
+},
+{
+"city": "Huancayo",
+"ckey": "Peru",
+"city_other": {
+"x": "Mannheim",
+"ckey": "Germany"
+},
+"city_same": {
+"x": "Sullana",
+"ckey": "Peru"
+},
+"person": {
+"x": "Lali Espósito",
+"ckey": "Argentina"
+},
+"country": {
+"ckey": "Russia"
+}
+},
+{
+"city": "Dasmariñas",
+"ckey": "Philippines",
+"city_other": {
+"x": "Ilorin",
+"ckey": "Nigeria"
+},
+"city_same": {
+"x": "General Santos",
+"ckey": "Philippines"
+},
+"person": {
+"x": "Pablo Picasso",
+"ckey": "Spain"
+},
+"country": {
+"ckey": "Japan"
+}
+},
+{
+"city": "General Santos",
+"ckey": "Philippines",
+"city_other": {
+"x": "Purwokerto",
+"ckey": "Indonesia"
+},
+"city_same": {
+"x": "Lipa",
+"ckey": "Philippines"
+},
+"person": {
+"x": "Odion Ighalo",
+"ckey": "Nigeria"
+},
+"country": {
+"ckey": "Colombia"
+}
+},
+{
+"city": "Marikina",
+"ckey": "Philippines",
+"city_other": {
+"x": "Wuxi",
+"ckey": "People's Republic of China"
+},
+"city_same": {
+"x": "Muntinlupa",
+"ckey": "Philippines"
+},
+"person": {
+"x": "Monica Bellucci",
+"ckey": "Italy"
+},
+"country": {
+"ckey": "People's Republic of China"
+}
+},
+{
+"city": "Batangas City",
+"ckey": "Philippines",
+"city_other": {
+"x": "Koshigaya",
+"ckey": "Japan"
+},
+"city_same": {
+"x": "Tarlac City",
+"ckey": "Philippines"
+},
+"person": {
+"x": "Sergey Brin",
+"ckey": "Russia"
+},
+"country": {
+"ckey": "Japan"
+}
+},
+{
+"city": "Tanauan",
+"ckey": "Philippines",
+"city_other": {
+"x": "Owo",
+"ckey": "Nigeria"
+},
+"city_same": {
+"x": "Mandaue",
+"ckey": "Philippines"
+},
+"person": {
+"x": "Manu Ginóbili",
+"ckey": "Argentina"
+},
+"country": {
+"ckey": "France"
+}
+},
+{
+"city": "Sorsogon City",
+"ckey": "Philippines",
+"city_other": {
+"x": "Brunswick",
+"ckey": "Germany"
+},
+"city_same": {
+"x": "Metro Manila",
+"ckey": "Philippines"
+},
+"person": {
+"x": "Juliane Koepcke",
+"ckey": "Peru"
+},
+"country": {
+"ckey": "Pakistan"
+}
+},
+{
+"city": "Mactan",
+"ckey": "Philippines",
+"city_other": {
+"x": "Asahikawa",
+"ckey": "Japan"
+},
+"city_same": {
+"x": "Marikina",
+"ckey": "Philippines"
+},
+"person": {
+"x": "Sergey Brin",
+"ckey": "Russia"
+},
+"country": {
+"ckey": "Vietnam"
+}
+},
+{
+"city": "Malaybalay",
+"ckey": "Philippines",
+"city_other": {
+"x": "Brunswick",
+"ckey": "Germany"
+},
+"city_same": {
+"x": "Tarlac City",
+"ckey": "Philippines"
+},
+"person": {
+"x": "Malala Yousafzai",
+"ckey": "Pakistan"
+},
+"country": {
+"ckey": "Italy"
+}
+},
+{
+"city": "Radom",
+"ckey": "Poland",
+"city_other": {
+"x": "Tiruchirappalli",
+"ckey": "India"
+},
+"city_same": {
+"x": "Bytom",
+"ckey": "Poland"
+},
+"person": {
+"x": "Thich Quang Duc",
+"ckey": "Vietnam"
+},
+"country": {
+"ckey": "Italy"
+}
+},
+{
+"city": "Olsztyn",
+"ckey": "Poland",
+"city_other": {
+"x": "Juiz de Fora",
+"ckey": "Brazil"
+},
+"city_same": {
+"x": "Kraków",
+"ckey": "Poland"
+},
+"person": {
+"x": "Võ Nguyên Giáp",
+"ckey": "Vietnam"
+},
+"country": {
+"ckey": "Iran"
+}
+},
+{
+"city": "Gliwice",
+"ckey": "Poland",
+"city_other": {
+"x": "Bonn",
+"ckey": "Germany"
+},
+"city_same": {
+"x": "Sosnowiec",
+"ckey": "Poland"
+},
+"person": {
+"x": "Confucius",
+"ckey": "People's Republic of China"
+},
+"country": {
+"ckey": "South Korea"
+}
+},
+{
+"city": "Szczecin",
+"ckey": "Poland",
+"city_other": {
+"x": "Raipur",
+"ckey": "India"
+},
+"city_same": {
+"x": "Gliwice",
+"ckey": "Poland"
+},
+"person": {
+"x": "Pele",
+"ckey": "Brazil"
+},
+"country": {
+"ckey": "France"
+}
+},
+{
+"city": "Bydgoszcz",
+"ckey": "Poland",
+"city_other": {
+"x": "Okene",
+"ckey": "Nigeria"
+},
+"city_same": {
+"x": "Lublin",
+"ckey": "Poland"
+},
+"person": {
+"x": "Goodluck Jonathan",
+"ckey": "Nigeria"
+},
+"country": {
+"ckey": "Philippines"
+}
+},
+{
+"city": "Zabrze",
+"ckey": "Poland",
+"city_other": {
+"x": "San Miguel de Tucumán",
+"ckey": "Argentina"
+},
+"city_same": {
+"x": "Rzeszów",
+"ckey": "Poland"
+},
+"person": {
+"x": "Mustafa Kemal Ataturk",
+"ckey": "Turkey"
+},
+"country": {
+"ckey": "Indonesia"
+}
+},
+{
+"city": "Sosnowiec",
+"ckey": "Poland",
+"city_other": {
+"x": "Stoke-on-Trent",
+"ckey": "United Kingdom"
+},
+"city_same": {
+"x": "Lublin",
+"ckey": "Poland"
+},
+"person": {
+"x": "Penelope Cruz",
+"ckey": "Spain"
+},
+"country": {
+"ckey": "Turkey"
+}
+},
+{
+"city": "Gdynia",
+"ckey": "Poland",
+"city_other": {
+"x": "Baltimore",
+"ckey": "United States"
+},
+"city_same": {
+"x": "Katowice urban area",
+"ckey": "Poland"
+},
+"person": {
+"x": "Virat Kohli",
+"ckey": "India"
+},
+"country": {
+"ckey": "United Kingdom"
+}
+},
+{
+"city": "Magnitogorsk",
+"ckey": "Russia",
+"city_other": {
+"x": "Mar del Plata",
+"ckey": "Argentina"
+},
+"city_same": {
+"x": "Saint Petersburg",
+"ckey": "Russia"
+},
+"person": {
+"x": "Diego Maradona",
+"ckey": "Argentina"
+},
+"country": {
+"ckey": "France"
+}
+},
+{
+"city": "Naberezhnye Chelny",
+"ckey": "Russia",
+"city_other": {
+"x": "Gaziantep",
+"ckey": "Turkey"
+},
+"city_same": {
+"x": "Vladimir",
+"ckey": "Russia"
+},
+"person": {
+"x": "Freddie Mercury",
+"ckey": "United Kingdom"
+},
+"country": {
+"ckey": "Peru"
+}
+},
+{
+"city": "Kemerovo",
+"ckey": "Russia",
+"city_other": {
+"x": "Port Said",
+"ckey": "Egypt"
+},
+"city_same": {
+"x": "Saratov",
+"ckey": "Russia"
+},
+"person": {
+"x": "Jet Li",
+"ckey": "People's Republic of China"
+},
+"country": {
+"ckey": "Nigeria"
+}
+},
+{
+"city": "Ulan-Ude",
+"ckey": "Russia",
+"city_other": {
+"x": "Darmstadt",
+"ckey": "Germany"
+},
+"city_same": {
+"x": "Kaliningrad",
+"ckey": "Russia"
+},
+"person": {
+"x": "Keanu Reeves",
+"ckey": "Canada"
+},
+"country": {
+"ckey": "United States"
+}
+},
+{
+"city": "Novosibirsk",
+"ckey": "Russia",
+"city_other": {
+"x": "Pyeongtaek",
+"ckey": "South Korea"
+},
+"city_same": {
+"x": "Belgorod",
+"ckey": "Russia"
+},
+"person": {
+"x": "Radamel Falcao",
+"ckey": "Colombia"
+},
+"country": {
+"ckey": "Brazil"
+}
+},
+{
+"city": "Volgograd",
+"ckey": "Russia",
+"city_other": {
+"x": "Menouf",
+"ckey": "Egypt"
+},
+"city_same": {
+"x": "Samara",
+"ckey": "Russia"
+},
+"person": {
+"x": "Christina Milian",
+"ckey": "United States"
+},
+"country": {
+"ckey": "South Korea"
+}
+},
+{
+"city": "Yoshkar-Ola",
+"ckey": "Russia",
+"city_other": {
+"x": "South Tangerang",
+"ckey": "Indonesia"
+},
+"city_same": {
+"x": "Grozny",
+"ckey": "Russia"
+},
+"person": {
+"x": "Gabriel Garcia Marquez",
+"ckey": "Colombia"
+},
+"country": {
+"ckey": "Egypt"
+}
+},
+{
+"city": "Belgorod",
+"ckey": "Russia",
+"city_other": {
+"x": "Rawalpindi",
+"ckey": "Pakistan"
+},
+"city_same": {
+"x": "Kirov",
+"ckey": "Russia"
+},
+"person": {
+"x": "Israel Adesanya",
+"ckey": "Nigeria"
+},
+"country": {
+"ckey": "Argentina"
+}
+},
+{
+"city": "Andong",
+"ckey": "South Korea",
+"city_other": {
+"x": "Gujranwala",
+"ckey": "Pakistan"
+},
+"city_same": {
+"x": "Uiwang",
+"ckey": "South Korea"
+},
+"person": {
+"x": "Naomi Osaka",
+"ckey": "Japan"
+},
+"country": {
+"ckey": "Japan"
+}
+},
+{
+"city": "Bucheon",
+"ckey": "South Korea",
+"city_other": {
+"x": "Piura",
+"ckey": "Peru"
+},
+"city_same": {
+"x": "Jinju",
+"ckey": "South Korea"
+},
+"person": {
+"x": "Cung Le",
+"ckey": "Vietnam"
+},
+"country": {
+"ckey": "Nigeria"
+}
+},
+{
+"city": "Pohang",
+"ckey": "South Korea",
+"city_other": {
+"x": "Goiânia",
+"ckey": "Brazil"
+},
+"city_same": {
+"x": "Chungju",
+"ckey": "South Korea"
+},
+"person": {
+"x": "Lionel Messi",
+"ckey": "Argentina"
+},
+"country": {
+"ckey": "Vietnam"
+}
+},
+{
+"city": "Yangsan",
+"ckey": "South Korea",
+"city_other": {
+"x": "Kütahya",
+"ckey": "Turkey"
+},
+"city_same": {
+"x": "Yeosu",
+"ckey": "South Korea"
+},
+"person": {
+"x": "Tutankhamun",
+"ckey": "Egypt"
+},
+"country": {
+"ckey": "Peru"
+}
+},
+{
+"city": "Gimhae",
+"ckey": "South Korea",
+"city_other": {
+"x": "Nanchang",
+"ckey": "People's Republic of China"
+},
+"city_same": {
+"x": "Anseong",
+"ckey": "South Korea"
+},
+"person": {
+"x": "Akira Kurosawa",
+"ckey": "Japan"
+},
+"country": {
+"ckey": "Poland"
+}
+},
+{
+"city": "Suwon",
+"ckey": "South Korea",
+"city_other": {
+"x": "Turgutlu",
+"ckey": "Turkey"
+},
+"city_same": {
+"x": "Siheung",
+"ckey": "South Korea"
+},
+"person": {
+"x": "Jet Li",
+"ckey": "People's Republic of China"
+},
+"country": {
+"ckey": "Canada"
+}
+},
+{
+"city": "Wonju",
+"ckey": "South Korea",
+"city_other": {
+"x": "Cologne",
+"ckey": "Germany"
+},
+"city_same": {
+"x": "Andong",
+"ckey": "South Korea"
+},
+"person": {
+"x": "Rodrigo Duterte",
+"ckey": "Philippines"
+},
+"country": {
+"ckey": "Turkey"
+}
+},
+{
+"city": "Paju",
+"ckey": "South Korea",
+"city_other": {
+"x": "Gdynia",
+"ckey": "Poland"
+},
+"city_same": {
+"x": "Uiwang",
+"ckey": "South Korea"
+},
+"person": {
+"x": "Penelope Cruz",
+"ckey": "Spain"
+},
+"country": {
+"ckey": "Canada"
+}
+},
+{
+"city": "Badajoz",
+"ckey": "Spain",
+"city_other": {
+"x": "Zango",
+"ckey": "Nigeria"
+},
+"city_same": {
+"x": "Barcelona",
+"ckey": "Spain"
+},
+"person": {
+"x": "Juan Iturbe",
+"ckey": "Argentina"
+},
+"country": {
+"ckey": "United States"
+}
+},
+{
+"city": "Alcalá de Henares",
+"ckey": "Spain",
+"city_other": {
+"x": "Wuppertal",
+"ckey": "Germany"
+},
+"city_same": {
+"x": "Zaragoza",
+"ckey": "Spain"
+},
+"person": {
+"x": "Goodluck Jonathan",
+"ckey": "Nigeria"
+},
+"country": {
+"ckey": "Argentina"
+}
+},
+{
+"city": "Móstoles",
+"ckey": "Spain",
+"city_other": {
+"x": "Daegu",
+"ckey": "South Korea"
+},
+"city_same": {
+"x": "Málaga",
+"ckey": "Spain"
+},
+"person": {
+"x": "Imran Khan",
+"ckey": "Pakistan"
+},
+"country": {
+"ckey": "Argentina"
+}
+},
+{
+"city": "Almería city",
+"ckey": "Spain",
+"city_other": {
+"x": "Pekanbaru",
+"ckey": "Indonesia"
+},
+"city_same": {
+"x": "Sabadell",
+"ckey": "Spain"
+},
+"person": {
+"x": "The Weeknd",
+"ckey": "Canada"
+},
+"country": {
+"ckey": "Indonesia"
+}
+},
+{
+"city": "Murcia City",
+"ckey": "Spain",
+"city_other": {
+"x": "Bielefeld",
+"ckey": "Germany"
+},
+"city_same": {
+"x": "Oviedo City",
+"ckey": "Spain"
+},
+"person": {
+"x": "Vladimir Lenin",
+"ckey": "Russia"
+},
+"country": {
+"ckey": "Vietnam"
+}
+},
+{
+"city": "Xixón City",
+"ckey": "Spain",
+"city_other": {
+"x": "Pucallpa",
+"ckey": "Peru"
+},
+"city_same": {
+"x": "Getafe",
+"ckey": "Spain"
+},
+"person": {
+"x": "Pele",
+"ckey": "Brazil"
+},
+"country": {
+"ckey": "France"
+}
+},
+{
+"city": "Getafe",
+"ckey": "Spain",
+"city_other": {
+"x": "Mar del Plata",
+"ckey": "Argentina"
+},
+"city_same": {
+"x": "Móstoles",
+"ckey": "Spain"
+},
+"person": {
+"x": "Aliko Dangote",
+"ckey": "Nigeria"
+},
+"country": {
+"ckey": "Argentina"
+}
+},
+{
+"city": "Leganés",
+"ckey": "Spain",
+"city_other": {
+"x": "Manado",
+"ckey": "Indonesia"
+},
+"city_same": {
+"x": "Málaga City",
+"ckey": "Spain"
+},
+"person": {
+"x": "Aliko Dangote",
+"ckey": "Nigeria"
+},
+"country": {
+"ckey": "Philippines"
+}
+},
+{
+"city": "Denizli",
+"ckey": "Turkey",
+"city_other": {
+"x": "Gusau",
+"ckey": "Nigeria"
+},
+"city_same": {
+"x": "Gölcük",
+"ckey": "Turkey"
+},
+"person": {
+"x": "Frédéric Chopin",
+"ckey": "Poland"
+},
+"country": {
+"ckey": "France"
+}
+},
+{
+"city": "Tokat",
+"ckey": "Turkey",
+"city_other": {
+"x": "Yewa North",
+"ckey": "Nigeria"
+},
+"city_same": {
+"x": "Beykoz",
+"ckey": "Turkey"
+},
+"person": {
+"x": "Sergey Brin",
+"ckey": "Russia"
+},
+"country": {
+"ckey": "Argentina"
+}
+},
+{
+"city": "Samsun",
+"ckey": "Turkey",
+"city_other": {
+"x": "Albacete City",
+"ckey": "Spain"
+},
+"city_same": {
+"x": "Siirt",
+"ckey": "Turkey"
+},
+"person": {
+"x": "Victor Moses",
+"ckey": "Nigeria"
+},
+"country": {
+"ckey": "Italy"
+}
+},
+{
+"city": "Antalya",
+"ckey": "Turkey",
+"city_other": {
+"x": "Cleveland",
+"ckey": "United States"
+},
+"city_same": {
+"x": "Salihli",
+"ckey": "Turkey"
+},
+"person": {
+"x": "Lionel Messi",
+"ckey": "Argentina"
+},
+"country": {
+"ckey": "Colombia"
+}
+},
+{
+"city": "Edirne",
+"ckey": "Turkey",
+"city_other": {
+"x": "Bandung",
+"ckey": "Indonesia"
+},
+"city_same": {
+"x": "Antakya",
+"ckey": "Turkey"
+},
+"person": {
+"x": "A.P.J. Abdul Kalam",
+"ckey": "India"
+},
+"country": {
+"ckey": "Canada"
+}
+},
+{
+"city": "Erzincan",
+"ckey": "Turkey",
+"city_other": {
+"x": "Caxias do Sul",
+"ckey": "Brazil"
+},
+"city_same": {
+"x": "Turgutlu",
+"ckey": "Turkey"
+},
+"person": {
+"x": "Drake",
+"ckey": "Canada"
+},
+"country": {
+"ckey": "India"
+}
+},
+{
+"city": "Antakya",
+"ckey": "Turkey",
+"city_other": {
+"x": "Fukuoka",
+"ckey": "Japan"
+},
+"city_same": {
+"x": "Kocaeli Province",
+"ckey": "Turkey"
+},
+"person": {
+"x": "Yip Man",
+"ckey": "People's Republic of China"
+},
+"country": {
+"ckey": "Nigeria"
+}
+},
+{
+"city": "Van",
+"ckey": "Turkey",
+"city_other": {
+"x": "Málaga",
+"ckey": "Spain"
+},
+"city_same": {
+"x": "Çorum",
+"ckey": "Turkey"
+},
+"person": {
+"x": "Salvador Dali",
+"ckey": "Spain"
+},
+"country": {
+"ckey": "Nigeria"
+}
+},
+{
+"city": "Liverpool",
+"ckey": "United Kingdom",
+"city_other": {
+"x": "Gwalior",
+"ckey": "India"
+},
+"city_same": {
+"x": "Sheffield",
+"ckey": "United Kingdom"
+},
+"person": {
+"x": "Frédéric Chopin",
+"ckey": "Poland"
+},
+"country": {
+"ckey": "People's Republic of China"
+}
+},
+{
+"city": "Glasgow",
+"ckey": "United Kingdom",
+"city_other": {
+"x": "Lahore",
+"ckey": "Pakistan"
+},
+"city_same": {
+"x": "Nottingham",
+"ckey": "United Kingdom"
+},
+"person": {
+"x": "Penelope Cruz",
+"ckey": "Spain"
+},
+"country": {
+"ckey": "Colombia"
+}
+},
+{
+"city": "Norwich",
+"ckey": "United Kingdom",
+"city_other": {
+"x": "Vinh",
+"ckey": "Vietnam"
+},
+"city_same": {
+"x": "St Helens",
+"ckey": "United Kingdom"
+},
+"person": {
+"x": "Drake",
+"ckey": "Canada"
+},
+"country": {
+"ckey": "Nigeria"
+}
+},
+{
+"city": "City of Westminster",
+"ckey": "United Kingdom",
+"city_other": {
+"x": "Palangka Raya",
+"ckey": "Indonesia"
+},
+"city_same": {
+"x": "Liverpool",
+"ckey": "United Kingdom"
+},
+"person": {
+"x": "Moses",
+"ckey": "Egypt"
+},
+"country": {
+"ckey": "Pakistan"
+}
+},
+{
+"city": "Southampton",
+"ckey": "United Kingdom",
+"city_other": {
+"x": "Wuppertal",
+"ckey": "Germany"
+},
+"city_same": {
+"x": "Swindon",
+"ckey": "United Kingdom"
+},
+"person": {
+"x": "B. J. Habibie",
+"ckey": "Indonesia"
+},
+"country": {
+"ckey": "Italy"
+}
+},
+{
+"city": "Belfast",
+"ckey": "United Kingdom",
+"city_other": {
+"x": "Wakayama",
+"ckey": "Japan"
+},
+"city_same": {
+"x": "Southampton",
+"ckey": "United Kingdom"
+},
+"person": {
+"x": "Ronaldinho",
+"ckey": "Brazil"
+},
+"country": {
+"ckey": "United States"
+}
+},
+{
+"city": "Cardiff",
+"ckey": "United Kingdom",
+"city_other": {
+"x": "Montes Claros",
+"ckey": "Brazil"
+},
+"city_same": {
+"x": "Portsmouth",
+"ckey": "United Kingdom"
+},
+"person": {
+"x": "Juan Iturbe",
+"ckey": "Argentina"
+},
+"country": {
+"ckey": "India"
+}
+},
+{
+"city": "Bolton",
+"ckey": "United Kingdom",
+"city_other": {
+"x": "Tarlac City",
+"ckey": "Philippines"
+},
+"city_same": {
+"x": "Belfast",
+"ckey": "United Kingdom"
+},
+"person": {
+"x": "Israel Adesanya",
+"ckey": "Nigeria"
+},
+"country": {
+"ckey": "Brazil"
+}
+},
+{
+"city": "San Diego",
+"ckey": "United States",
+"city_other": {
+"x": "Gatineau",
+"ckey": "Canada"
+},
+"city_same": {
+"x": "Minneapolis",
+"ckey": "United States"
+},
+"person": {
+"x": "Keanu Reeves",
+"ckey": "Canada"
+},
+"country": {
+"ckey": "Philippines"
+}
+},
+{
+"city": "Phoenix",
+"ckey": "United States",
+"city_other": {
+"x": "Yancheng",
+"ckey": "People's Republic of China"
+},
+"city_same": {
+"x": "Bakersfield",
+"ckey": "United States"
+},
+"person": {
+"x": "Cleopatra",
+"ckey": "Egypt"
+},
+"country": {
+"ckey": "Argentina"
+}
+},
+{
+"city": "Seattle",
+"ckey": "United States",
+"city_other": {
+"x": "Mülheim an der Ruhr",
+"ckey": "Germany"
+},
+"city_same": {
+"x": "Long Beach",
+"ckey": "United States"
+},
+"person": {
+"x": "Karl Marx",
+"ckey": "Germany"
+},
+"country": {
+"ckey": "Iran"
+}
+},
+{
+"city": "Atlanta",
+"ckey": "United States",
+"city_other": {
+"x": "Leganés",
+"ckey": "Spain"
+},
+"city_same": {
+"x": "Raleigh",
+"ckey": "United States"
+},
+"person": {
+"x": "B. J. Habibie",
+"ckey": "Indonesia"
+},
+"country": {
+"ckey": "Argentina"
+}
+},
+{
+"city": "Corpus Christi",
+"ckey": "United States",
+"city_other": {
+"x": "Merlo",
+"ckey": "Argentina"
+},
+"city_same": {
+"x": "New York metropolitan area",
+"ckey": "United States"
+},
+"person": {
+"x": "Goodluck Jonathan",
+"ckey": "Nigeria"
+},
+"country": {
+"ckey": "People's Republic of China"
+}
+},
+{
+"city": "Pittsburgh",
+"ckey": "United States",
+"city_other": {
+"x": "Posadas",
+"ckey": "Argentina"
+},
+"city_same": {
+"x": "Oklahoma City",
+"ckey": "United States"
+},
+"person": {
+"x": "Ronaldinho",
+"ckey": "Brazil"
+},
+"country": {
+"ckey": "United Kingdom"
+}
+},
+{
+"city": "Columbus",
+"ckey": "United States",
+"city_other": {
+"x": "Attock",
+"ckey": "Pakistan"
+},
+"city_same": {
+"x": "Lexington",
+"ckey": "United States"
+},
+"person": {
+"x": "A.P.J. Abdul Kalam",
+"ckey": "India"
+},
+"country": {
+"ckey": "Colombia"
+}
+},
+{
+"city": "Aurora",
+"ckey": "United States",
+"city_other": {
+"x": "Kiel",
+"ckey": "Germany"
+},
+"city_same": {
+"x": "Corpus Christi",
+"ckey": "United States"
+},
+"person": {
+"x": "Stephen Hawking",
+"ckey": "United Kingdom"
+},
+"country": {
+"ckey": "Brazil"
+}
+},
+{
+"city": "Tuy Hòa",
+"ckey": "Vietnam",
+"city_other": {
+"x": "Jos",
+"ckey": "Nigeria"
+},
+"city_same": {
+"x": "Haiphong",
+"ckey": "Vietnam"
+},
+"person": {
+"x": "Virat Kohli",
+"ckey": "India"
+},
+"country": {
+"ckey": "Egypt"
+}
+},
+{
+"city": "Cà Mau",
+"ckey": "Vietnam",
+"city_other": {
+"x": "Suncheon",
+"ckey": "South Korea"
+},
+"city_same": {
+"x": "Ho Chi Minh City",
+"ckey": "Vietnam"
+},
+"person": {
+"x": "Lionel Messi",
+"ckey": "Argentina"
+},
+"country": {
+"ckey": "Germany"
+}
+},
+{
+"city": "Nha Trang",
+"ckey": "Vietnam",
+"city_other": {
+"x": "Leipzig",
+"ckey": "Germany"
+},
+"city_same": {
+"x": "Biên Hòa",
+"ckey": "Vietnam"
+},
+"person": {
+"x": "Salvador Dali",
+"ckey": "Spain"
+},
+"country": {
+"ckey": "Philippines"
+}
+},
+{
+"city": "Biên Hòa",
+"ckey": "Vietnam",
+"city_other": {
+"x": "Ghaziabad",
+"ckey": "India"
+},
+"city_same": {
+"x": "Tuy Hòa",
+"ckey": "Vietnam"
+},
+"person": {
+"x": "Goodluck Jonathan",
+"ckey": "Nigeria"
+},
+"country": {
+"ckey": "Japan"
+}
+},
+{
+"city": "Vinh",
+"ckey": "Vietnam",
+"city_other": {
+"x": "Nashik",
+"ckey": "India"
+},
+"city_same": {
+"x": "Nha Trang",
+"ckey": "Vietnam"
+},
+"person": {
+"x": "Mohamed Salah",
+"ckey": "Egypt"
+},
+"country": {
+"ckey": "United States"
+}
+},
+{
+"city": "Da Nang",
+"ckey": "Vietnam",
+"city_other": {
+"x": "Kocaeli Province",
+"ckey": "Turkey"
+},
+"city_same": {
+"x": "Haiphong",
+"ckey": "Vietnam"
+},
+"person": {
+"x": "Wasim Akram",
+"ckey": "Pakistan"
+},
+"country": {
+"ckey": "Spain"
+}
+},
+{
+"city": "Ho Chi Minh City",
+"ckey": "Vietnam",
+"city_other": {
+"x": "Augsburg",
+"ckey": "Germany"
+},
+"city_same": {
+"x": "Cà Mau",
+"ckey": "Vietnam"
+},
+"person": {
+"x": "Dwayne Johnson",
+"ckey": "United States"
+},
+"country": {
+"ckey": "India"
+}
+},
+{
+"city": "Haiphong",
+"ckey": "Vietnam",
+"city_other": {
+"x": "Dasmariñas",
+"ckey": "Philippines"
+},
+"city_same": {
+"x": "Ho Chi Minh City",
+"ckey": "Vietnam"
+},
+"person": {
+"x": "Sergey Brin",
+"ckey": "Russia"
+},
+"country": {
+"ckey": "Egypt"
+}
+}
+],
+"persons": [
+{
+"person": "Riyad Mahrez",
+"ckey": "France"
+},
+{
+"person": "Dwayne Johnson",
+"ckey": "United States"
+},
+{
+"person": "Michael Jordan",
+"ckey": "United States"
+},
+{
+"person": "Lionel Messi",
+"ckey": "Argentina"
+},
+{
+"person": "Che Guevara",
+"ckey": "Argentina"
+},
+{
+"person": "Diego Maradona",
+"ckey": "Argentina"
+},
+{
+"person": "Manu Ginóbili",
+"ckey": "Argentina"
+},
+{
+"person": "Lali Espósito",
+"ckey": "Argentina"
+},
+{
+"person": "Neymar",
+"ckey": "Brazil"
+},
+{
+"person": "Pele",
+"ckey": "Brazil"
+},
+{
+"person": "Ronaldinho",
+"ckey": "Brazil"
+},
+{
+"person": "Freddie Mercury",
+"ckey": "United Kingdom"
+},
+{
+"person": "Queen Elizabeth II",
+"ckey": "United Kingdom"
+},
+{
+"person": "Stephen Hawking",
+"ckey": "United Kingdom"
+},
+{
+"person": "Dua Lipa",
+"ckey": "United Kingdom"
+},
+{
+"person": "Keanu Reeves",
+"ckey": "Canada"
+},
+{
+"person": "Ryan Reynolds",
+"ckey": "Canada"
+},
+{
+"person": "Drake",
+"ckey": "Canada"
+},
+{
+"person": "The Weeknd",
+"ckey": "Canada"
+},
+{
+"person": "Jack Ma",
+"ckey": "People's Republic of China"
+},
+{
+"person": "Jet Li",
+"ckey": "People's Republic of China"
+},
+{
+"person": "Confucius",
+"ckey": "People's Republic of China"
+},
+{
+"person": "Yip Man",
+"ckey": "People's Republic of China"
+},
+{
+"person": "Shakira",
+"ckey": "Colombia"
+},
+{
+"person": "Gabriel Garcia Marquez",
+"ckey": "Colombia"
+},
+{
+"person": "Sofia Vergara",
+"ckey": "Colombia"
+},
+{
+"person": "Radamel Falcao",
+"ckey": "Colombia"
+},
+{
+"person": "Christina Milian",
+"ckey": "United States"
+},
+{
+"person": "Nefertiti",
+"ckey": "Egypt"
+},
+{
+"person": "Hatshepsut",
+"ckey": "Egypt"
+},
+{
+"person": "Mohamed Salah",
+"ckey": "Egypt"
+},
+{
+"person": "Tutankhamun",
+"ckey": "Egypt"
+},
+{
+"person": "Moses",
+"ckey": "Egypt"
+},
+{
+"person": "Manny Pacquiao",
+"ckey": "Philippines"
+},
+{
+"person": "Rodrigo Duterte",
+"ckey": "Philippines"
+},
+{
+"person": "Jose Rizal",
+"ckey": "Philippines"
+},
+{
+"person": "Ferdinand Marcos",
+"ckey": "Philippines"
+},
+{
+"person": "Nico Rosberg",
+"ckey": "Germany"
+},
+{
+"person": "Kylian Mbappé",
+"ckey": "France"
+},
+{
+"person": "Napoleon Bonaparte",
+"ckey": "France"
+},
+{
+"person": "André the Giant",
+"ckey": "France"
+},
+{
+"person": "Albert Einstein",
+"ckey": "Germany"
+},
+{
+"person": "Michael Schumacher",
+"ckey": "Germany"
+},
+{
+"person": "Karl Marx",
+"ckey": "Germany"
+},
+{
+"person": "Cleopatra",
+"ckey": "Egypt"
+},
+{
+"person": "Mahatma Gandhi",
+"ckey": "India"
+},
+{
+"person": "Virat Kohli",
+"ckey": "India"
+},
+{
+"person": "A.P.J. Abdul Kalam",
+"ckey": "India"
+},
+{
+"person": "Sundar Pichai",
+"ckey": "India"
+},
+{
+"person": "Kevin Sanjaya Sukamuljo",
+"ckey": "Indonesia"
+},
+{
+"person": "B. J. Habibie",
+"ckey": "Indonesia"
+},
+{
+"person": "Daniel Day-Lewis",
+"ckey": "United Kingdom"
+},
+{
+"person": "Galileo Galilei",
+"ckey": "Italy"
+},
+{
+"person": "Monica Bellucci",
+"ckey": "Italy"
+},
+{
+"person": "Hayao Miyazaki",
+"ckey": "Japan"
+},
+{
+"person": "Naomi Osaka",
+"ckey": "Japan"
+},
+{
+"person": "Yuzuru Hanyu",
+"ckey": "Japan"
+},
+{
+"person": "Akira Kurosawa",
+"ckey": "Japan"
+},
+{
+"person": "Ichiro Suzuki",
+"ckey": "Japan"
+},
+{
+"person": "Alain Ducasse",
+"ckey": "France"
+},
+{
+"person": "Mala Sinha",
+"ckey": "India"
+},
+{
+"person": "Israel Adesanya",
+"ckey": "Nigeria"
+},
+{
+"person": "Chinua Achebe",
+"ckey": "Nigeria"
+},
+{
+"person": "Aliko Dangote",
+"ckey": "Nigeria"
+},
+{
+"person": "Victor Moses",
+"ckey": "Nigeria"
+},
+{
+"person": "Odion Ighalo",
+"ckey": "Nigeria"
+},
+{
+"person": "Goodluck Jonathan",
+"ckey": "Nigeria"
+},
+{
+"person": "Wilfred Ndidi",
+"ckey": "Nigeria"
+},
+{
+"person": "Malala Yousafzai",
+"ckey": "Pakistan"
+},
+{
+"person": "Imran Khan",
+"ckey": "Pakistan"
+},
+{
+"person": "Wasim Akram",
+"ckey": "Pakistan"
+},
+{
+"person": "Juan Iturbe",
+"ckey": "Argentina"
+},
+{
+"person": "Juliane Koepcke",
+"ckey": "Peru"
+},
+{
+"person": "Marie Curie",
+"ckey": "Poland"
+},
+{
+"person": "Robert Lewandowski",
+"ckey": "Poland"
+},
+{
+"person": "Frédéric Chopin",
+"ckey": "Poland"
+},
+{
+"person": "Nicolaus Copernicus",
+"ckey": "Poland"
+},
+{
+"person": "Khabib Nurmagomedov",
+"ckey": "Russia"
+},
+{
+"person": "Vladimir Lenin",
+"ckey": "Russia"
+},
+{
+"person": "Catherine the Great",
+"ckey": "Russia"
+},
+{
+"person": "Maria Sharapova",
+"ckey": "Russia"
+},
+{
+"person": "Sergey Brin",
+"ckey": "Russia"
+},
+{
+"person": "Jungkook",
+"ckey": "South Korea"
+},
+{
+"person": "Kim Taehyung",
+"ckey": "South Korea"
+},
+{
+"person": "Jimin",
+"ckey": "South Korea"
+},
+{
+"person": "Rafael Nadal",
+"ckey": "Spain"
+},
+{
+"person": "Pablo Picasso",
+"ckey": "Spain"
+},
+{
+"person": "Penelope Cruz",
+"ckey": "Spain"
+},
+{
+"person": "Pep Guardiola",
+"ckey": "Spain"
+},
+{
+"person": "Salvador Dali",
+"ckey": "Spain"
+},
+{
+"person": "Suleiman The Magnificent",
+"ckey": "Turkey"
+},
+{
+"person": "Mustafa Kemal Ataturk",
+"ckey": "Turkey"
+},
+{
+"person": "Mehmed II",
+"ckey": "Turkey"
+},
+{
+"person": "Osman I",
+"ckey": "Turkey"
+},
+{
+"person": "Ho Chi Minh",
+"ckey": "Vietnam"
+},
+{
+"person": "Võ Nguyên Giáp",
+"ckey": "Vietnam"
+},
+{
+"person": "Thuy Trang",
+"ckey": "Vietnam"
+},
+{
+"person": "Thich Quang Duc",
+"ckey": "Vietnam"
+},
+{
+"person": "Cung Le",
+"ckey": "Vietnam"
+}
+]
+}

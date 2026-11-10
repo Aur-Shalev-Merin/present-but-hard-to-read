@@ -1,0 +1,36 @@
+=== v236_relay.py ['run'] {}
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794245512.373503      33 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+loaded in 132s | items sha ac4121c22f88fe31 | layers 28 | rows ['none', 'relay', 'op', 'oth', 'op_L16', 'op_L18', 'op_L20', 'op_L21', 'op_L22', 'op_L23', 'op_L24', 'pre_L16', 'pre_L18', 'pre_L20', 'pre_L21', 'pre_L22', 'pre_L23', 'pre_L24']
+D1: 20238 candidates after skipping the pilot's
+D1: 1 pairs (1 tried; 3.54 s/pair) | hit so far: none 0.000 relay 0.000 op 1.000 oth 0.000
+D1: 20 pairs (32 tried; 1.64 s/pair) | hit so far: none 0.000 relay 0.000 op 0.950 oth 0.000
+D1: 100 pairs (136 tried; 1.66 s/pair) | hit so far: none 0.000 relay 0.000 op 0.900 oth 0.090
+D1: 200 pairs (293 tried; 1.74 s/pair) | hit so far: none 0.000 relay 0.005 op 0.905 oth 0.075
+D1: 400 pairs (571 tried; 1.77 s/pair) | hit so far: none 0.000 relay 0.003 op 0.912 oth 0.065
+D1: 600 pairs (838 tried; 1.77 s/pair) | hit so far: none 0.000 relay 0.003 op 0.910 oth 0.062
+D1: 800 pairs (1123 tried; 1.78 s/pair) | hit so far: none 0.000 relay 0.003 op 0.904 oth 0.064
+D1: 1000 pairs (1418 tried; 1.79 s/pair) | hit so far: none 0.000 relay 0.003 op 0.898 oth 0.058
+D1: 1000 pairs from 1418 candidates tried
+D2: 13470 candidates after skipping the pilot's
+D2: 1 pairs (2 tried; 1.79 s/pair) | hit so far: none 0.000 relay 0.000 op 1.000 oth 0.000
+D2: 20 pairs (36 tried; 1.79 s/pair) | hit so far: none 0.000 relay 0.000 op 0.900 oth 0.000
+D2: 100 pairs (156 tried; 1.79 s/pair) | hit so far: none 0.000 relay 0.000 op 0.850 oth 0.000
+D2: 200 pairs (304 tried; 1.79 s/pair) | hit so far: none 0.000 relay 0.005 op 0.840 oth 0.020
+D2: 400 pairs (647 tried; 1.80 s/pair) | hit so far: none 0.000 relay 0.003 op 0.875 oth 0.013
+D2: 600 pairs (981 tried; 1.81 s/pair) | hit so far: none 0.000 relay 0.003 op 0.875 oth 0.013
+D2: 800 pairs (1300 tried; 1.81 s/pair) | hit so far: none 0.000 relay 0.003 op 0.880 oth 0.013
+D2: 1000 pairs (1613 tried; 1.81 s/pair) | hit so far: none 0.000 relay 0.002 op 0.876 oth 0.013
+D2: 1000 pairs from 1613 candidates tried
+done (3760s)
+
+D1 (1000 pairs, 120 families): relay - none +0.003 [+0.000, +0.007] -> NOT-HELD (gate: hit(op) 0.898)
+  none 0.000(0.999)  relay 0.003(0.994)  op 0.898(0.054)  oth 0.058(0.860)   [hit P (kept A)]
+  op  single: L16 0.803(0.119)  L18 0.791(0.123)  L20 0.786(0.125)  L21 0.784(0.126)  L22 0.695(0.189)  L23 0.018(0.970)  L24 0.001(0.998)
+  pre single: L16 0.004(0.953)  L18 0.003(0.934)  L20 0.027(0.829)  L21 0.031(0.816)  L22 0.055(0.754)  L23 0.052(0.897)  L24 0.000(0.997)
+
+D2 (1000 pairs, 119 families): relay - none +0.002 [+0.000, +0.006] -> NOT-HELD (gate: hit(op) 0.876)
+  none 0.000(0.999)  relay 0.002(0.993)  op 0.876(0.079)  oth 0.013(0.933)   [hit P (kept A)]
+  op  single: L16 0.868(0.098)  L18 0.844(0.120)  L20 0.613(0.326)  L21 0.601(0.335)  L22 0.396(0.524)  L23 0.005(0.990)  L24 0.000(0.999)
+  pre single: L16 0.019(0.940)  L18 0.027(0.919)  L20 0.187(0.716)  L21 0.198(0.714)  L22 0.263(0.678)  L23 0.086(0.889)  L24 0.000(0.998)
+labels {'D1': 'NOT-HELD', 'D2': 'NOT-HELD'} -> verdict NOT-HELD

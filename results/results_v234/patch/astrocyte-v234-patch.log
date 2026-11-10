@@ -1,0 +1,41 @@
+[{"stream_name":"stdout","time":1.137133523,"data":"v215_pilot.py d049a0b2d81fb80b\n"}
+,{"stream_name":"stdout","time":1.137328575,"data":"v215_items.py 9249f0523d7219eb\n"}
+,{"stream_name":"stdout","time":1.137505379,"data":"v216_items.py a2ebd48b899fed40\n"}
+,{"stream_name":"stdout","time":1.1376452750000001,"data":"v234_items.py fa7374fd6378d679\n"}
+,{"stream_name":"stdout","time":1.13793141,"data":"v234_patch.py a6126d0008bf4a0a\n"}
+,{"stream_name":"stderr","time":19.172597178,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":19.17262627,"data":"gradio-client 2.7.2 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":19.172634445,"data":"gradio 6.30.0 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":19.172637462,"data":"gradio 6.30.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":19.172640048,"data":"diffusers 0.42.0 requires huggingface-hub\u003c3.0,\u003e=1.32.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":19.388591078,"data":"=== v234_patch.py ['extract', '/kaggle/input'] {}\n"}
+,{"stream_name":"stdout","time":61.433211616,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stdout","time":61.433235891,"data":"I0000 00:00:1794189700.398618      33 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.\n"}
+,{"stream_name":"stdout","time":169.112472337,"data":"v234 patch | 3000 pairs | smoke False | items sha ac4121c22f88fe31 | loaded in 130s\n"}
+,{"stream_name":"stdout","time":172.481766722,"data":"1/3000 pairs (3.37 s/pair) | hit P so far: none 0.000 cB 0.000 cBo 0.000 cA 0.000 cD 1.000 cK 0.000 cR 0.000 full 1.000\n"}
+,{"stream_name":"stdout","time":190.470444545,"data":"20/3000 pairs (1.07 s/pair) | hit P so far: none 0.000 cB 0.050 cBo 0.000 cA 0.050 cD 0.800 cK 0.000 cR 0.000 full 0.850\n"}
+,{"stream_name":"stdout","time":266.728982729,"data":"100/3000 pairs (0.98 s/pair) | hit P so far: none 0.000 cB 0.170 cBo 0.030 cA 0.060 cD 0.850 cK 0.000 cR 0.000 full 0.880\n"}
+,{"stream_name":"stdout","time":410.651235932,"data":"250/3000 pairs (0.97 s/pair) | hit P so far: none 0.000 cB 0.188 cBo 0.048 cA 0.088 cD 0.868 cK 0.008 cR 0.004 full 0.868\n"}
+,{"stream_name":"stdout","time":649.814655968,"data":"500/3000 pairs (0.96 s/pair) | hit P so far: none 0.000 cB 0.198 cBo 0.046 cA 0.094 cD 0.876 cK 0.004 cR 0.002 full 0.864\n"}
+,{"stream_name":"stdout","time":888.953411586,"data":"750/3000 pairs (0.96 s/pair) | hit P so far: none 0.000 cB 0.207 cBo 0.043 cA 0.101 cD 0.879 cK 0.003 cR 0.001 full 0.859\n"}
+,{"stream_name":"stdout","time":1127.959786844,"data":"1000/3000 pairs (0.96 s/pair) | hit P so far: none 0.000 cB 0.203 cBo 0.039 cA 0.099 cD 0.884 cK 0.002 cR 0.001 full 0.865\n"}
+,{"stream_name":"stdout","time":1367.009868355,"data":"1250/3000 pairs (0.96 s/pair) | hit P so far: none 0.000 cB 0.172 cBo 0.039 cA 0.083 cD 0.759 cK 0.011 cR 0.001 full 0.692\n"}
+,{"stream_name":"stdout","time":1605.744726593,"data":"1500/3000 pairs (0.96 s/pair) | hit P so far: none 0.000 cB 0.153 cBo 0.037 cA 0.075 cD 0.668 cK 0.023 cR 0.001 full 0.577\n"}
+,{"stream_name":"stdout","time":1844.745676975,"data":"1750/3000 pairs (0.96 s/pair) | hit P so far: none 0.000 cB 0.138 cBo 0.038 cA 0.067 cD 0.603 cK 0.027 cR 0.001 full 0.494\n"}
+,{"stream_name":"stdout","time":2083.421411571,"data":"2000/3000 pairs (0.96 s/pair) | hit P so far: none 0.000 cB 0.132 cBo 0.040 cA 0.060 cD 0.560 cK 0.034 cR 0.001 full 0.432\n"}
+,{"stream_name":"stdout","time":2322.215362018,"data":"2250/3000 pairs (0.96 s/pair) | hit P so far: none 0.000 cB 0.117 cBo 0.036 cA 0.053 cD 0.498 cK 0.030 cR 0.000 full 0.384\n"}
+,{"stream_name":"stdout","time":2560.902937409,"data":"2500/3000 pairs (0.96 s/pair) | hit P so far: none 0.000 cB 0.105 cBo 0.032 cA 0.048 cD 0.448 cK 0.027 cR 0.000 full 0.346\n"}
+,{"stream_name":"stdout","time":2799.608956589,"data":"2750/3000 pairs (0.96 s/pair) | hit P so far: none 0.000 cB 0.096 cBo 0.029 cA 0.044 cD 0.407 cK 0.025 cR 0.000 full 0.315\n"}
+,{"stream_name":"stdout","time":3038.313290859,"data":"3000/3000 pairs (0.96 s/pair) | hit P so far: none 0.000 cB 0.088 cBo 0.027 cA 0.040 cD 0.373 cK 0.023 cR 0.000 full 0.289\n"}
+,{"stream_name":"stdout","time":3038.35725976,"data":"done (3000s)\n"}
+,{"stream_name":"stdout","time":3044.396321848,"data":"=== v234_patch.py ['analyse', '.'] {}\n"}
+,{"stream_name":"stdout","time":3044.846231541,"data":"eq (1000 pairs): hit P none 0.000 cB 0.203 cBo 0.039 cA 0.099 cD 0.884 cK 0.002 cR 0.001 full 0.865 | kept A none 1.000 cB 0.706 cBo 0.906 cA 0.802 cD 0.063 cK 0.982 cR 0.997 full 0.087 | cBo - cR +0.0380 [+0.0228, +0.0559] -\u003e UNCLEAR\n"}
+,{"stream_name":"stdout","time":3044.966604444,"data":"pre (1000 pairs): hit P none 0.000 cB 0.060 cBo 0.041 cA 0.021 cD 0.236 cK 0.066 cR 0.000 full 0.000 | kept A none 1.000 cB 0.880 cBo 0.897 cA 0.859 cD 0.655 cK 0.768 cR 1.000 full 1.000 | cBo - cR +0.0410 [+0.0269, +0.0567] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":3045.084798553,"data":"last (1000 pairs): hit P none 0.000 cB 0.000 cBo 0.001 cA 0.000 cD 0.000 cK 0.000 cR 0.000 full 0.002 | kept A none 1.000 cB 0.999 cBo 0.999 cA 0.999 cD 0.999 cK 1.000 cR 1.000 full 0.995 | cBo - cR +0.0010 [+0.0000, +0.0040] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stderr","time":3047.170747169,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":3047.170781713,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":3047.484435336,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":3047.484462125,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":3048.284778783,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":3049.023884298,"data":"[NbConvertApp] Writing 298501 bytes to __results__.html\n"}
+]

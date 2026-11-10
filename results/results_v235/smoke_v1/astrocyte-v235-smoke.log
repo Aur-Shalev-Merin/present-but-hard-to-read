@@ -1,0 +1,44 @@
+[{"stream_name":"stdout","time":1.116013677,"data":"v235_pilot.py 442760543b204add\n"}
+,{"stream_name":"stdout","time":1.116443294,"data":"v235_clamp.py 6c0e0eab9ad4ae67\n"}
+,{"stream_name":"stdout","time":1.119455331,"data":"v235_cities.json 5299759bc458e12e\n"}
+,{"stream_name":"stdout","time":1.120362594,"data":"v235_pilot2_items.json 1fae350dc4df2422\n"}
+,{"stream_name":"stderr","time":18.942215073,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":18.942245032,"data":"gradio-client 2.7.2 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":18.942249088,"data":"gradio 6.30.0 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":18.94225197,"data":"gradio 6.30.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":18.942254591,"data":"diffusers 0.42.0 requires huggingface-hub\u003c3.0,\u003e=1.32.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":19.170533443,"data":"=== v235_clamp.py ['run'] {'V235_SMOKE': '1'}\n"}
+,{"stream_name":"stdout","time":59.935923492,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stdout","time":59.9360712,"data":"I0000 00:00:1794188302.062085      33 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.\n"}
+,{"stream_name":"stdout","time":270.605163732,"data":"v235 clamp | smoke True | 1038 cities, 99 people | states in 102s (load 130s)\n"}
+,{"stream_name":"stdout","time":270.88882289,"data":"  e1   layer  8 half 0: U 24 dims, Uo 24, C 24; share of the country left after the copy projection 0.988\n"}
+,{"stream_name":"stdout","time":270.888855334,"data":"  e1   layer  8 half 1: U 24 dims, Uo 24, C 24; share of the country left after the copy projection 0.988\n"}
+,{"stream_name":"stdout","time":270.888863973,"data":"  e1   layer 12 half 0: U 24 dims, Uo 24, C 24; share of the country left after the copy projection 0.988\n"}
+,{"stream_name":"stdout","time":270.888914101,"data":"  e1   layer 12 half 1: U 24 dims, Uo 24, C 24; share of the country left after the copy projection 0.989\n"}
+,{"stream_name":"stdout","time":270.888977362,"data":"  e1   layer 16 half 0: U 24 dims, Uo 24, C 24; share of the country left after the copy projection 0.990\n"}
+,{"stream_name":"stdout","time":270.888984346,"data":"  e1   layer 16 half 1: U 24 dims, Uo 24, C 24; share of the country left after the copy projection 0.990\n"}
+,{"stream_name":"stdout","time":270.889217746,"data":"  last layer  8 half 0: U 25 dims, Uo 25, C 24; share of the country left after the copy projection 0.992\n"}
+,{"stream_name":"stdout","time":270.88945255,"data":"  last layer  8 half 1: U 25 dims, Uo 25, C 24; share of the country left after the copy projection 0.992\n"}
+,{"stream_name":"stdout","time":270.889707781,"data":"  last layer 12 half 0: U 25 dims, Uo 25, C 24; share of the country left after the copy projection 0.993\n"}
+,{"stream_name":"stdout","time":270.889944472,"data":"  last layer 12 half 1: U 24 dims, Uo 24, C 24; share of the country left after the copy projection 0.993\n"}
+,{"stream_name":"stdout","time":270.890184538,"data":"  last layer 16 half 0: U 24 dims, Uo 24, C 24; share of the country left after the copy projection 0.993\n"}
+,{"stream_name":"stdout","time":270.89040607,"data":"  last layer 16 half 1: U 25 dims, Uo 25, C 24; share of the country left after the copy projection 0.992\n"}
+,{"stream_name":"stdout","time":272.109523091,"data":"1/90 pairs (0.70 s/pair) | type other, e1 hit so far: none 0.000 cU 0.000 cUo 0.000 cC 0.000 cR 0.000 full 1.000\n"}
+,{"stream_name":"stdout","time":290.592341057,"data":"30/90 pairs (0.64 s/pair) | type other, e1 hit so far: none 0.000 cU 0.000 cUo 0.000 cC 0.000 cR 0.000 full 0.900\n"}
+,{"stream_name":"stdout","time":329.32507681,"data":"90/90 pairs (0.64 s/pair) | type other, e1 hit so far: none 0.000 cU 0.000 cUo 0.000 cC 0.000 cR 0.000 full 0.900\n"}
+,{"stream_name":"stdout","time":329.327857592,"data":"done (291s)\n"}
+,{"stream_name":"stdout","time":335.136963755,"data":"=== v235_clamp.py ['analyse', '.'] {}\n"}
+,{"stream_name":"stdout","time":335.871939167,"data":"other  e1   n 30 | hit none 0.000 cU 0.000 cUo 0.000 cC 0.000 cR 0.000 full 0.900 | changed none 0.000 cU 0.000 cUo 0.000 cC 0.000 cR 0.033 full 0.900 | cUo-cR +0.000 [+0.000, +0.000] NOT-USED | full-cR +0.900 [+0.900, +0.900] USED\n"}
+,{"stream_name":"stdout","time":336.321482989,"data":"other  last n 30 | hit none 0.000 cU 0.000 cUo 0.000 cC 0.000 cR 0.000 full 0.000 | changed none 0.000 cU 0.000 cUo 0.033 cC 0.000 cR 0.033 full 0.033 | cUo-cR +0.000 [+0.000, +0.000] NOT-USED | full-cR +0.000 [+0.000, +0.000] NOT-USED\n"}
+,{"stream_name":"stdout","time":336.434086866,"data":"same   e1   n 30 | hit none 1.000 cU 1.000 cUo 1.000 cC 0.967 cR 0.967 full 1.000 | changed none 0.000 cU 0.000 cUo 0.000 cC 0.033 cR 0.033 full 0.000 | design -0.033 [-0.033, -0.033] ok\n"}
+,{"stream_name":"stdout","time":336.55183322,"data":"same   last n 30 | hit none 1.000 cU 1.000 cUo 1.000 cC 1.000 cR 1.000 full 1.000 | changed none 0.000 cU 0.000 cUo 0.000 cC 0.000 cR 0.000 full 0.000 | design +0.000 [+0.000, +0.000] ok\n"}
+,{"stream_name":"stdout","time":337.0205462,"data":"person e1   n 30 | hit none 0.000 cU 0.000 cUo 0.000 cC 0.000 cR 0.000 full 0.900 | changed none 0.000 cU 0.000 cUo 0.000 cC 0.033 cR 0.000 full 0.933 | cUo-cR +0.000 [+0.000, +0.000] NOT-USED | full-cR +0.900 [+0.900, +0.900] USED\n"}
+,{"stream_name":"stdout","time":337.482655826,"data":"person last n 30 | hit none 0.000 cU 0.000 cUo 0.000 cC 0.000 cR 0.000 full 0.000 | changed none 0.000 cU 0.033 cUo 0.033 cC 0.000 cR 0.033 full 0.000 | cUo-cR +0.000 [+0.000, +0.000] NOT-USED | full-cR +0.000 [+0.000, +0.000] NOT-USED\n"}
+,{"stream_name":"stdout","time":337.4826828,"data":"labels {'e1_clamp': 'NOT-USED', 'e1_full': 'USED', 'last_clamp': 'NOT-USED', 'last_full': 'NOT-USED', 'design_e1': 'ok', 'design_last': 'ok'} -\u003e verdict None\n"}
+,{"stream_name":"stderr","time":339.636988628,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":339.637016074,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":339.947147376,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":339.947176378,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":340.763642429,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":341.573255078,"data":"[NbConvertApp] Writing 337273 bytes to __results__.html\n"}
+]

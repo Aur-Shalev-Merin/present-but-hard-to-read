@@ -34,7 +34,7 @@ tell.
 ## Studies
 
 Internal IDs (vNNN) are the experiment numbers used in the scripts, pre-registrations and result folders. Paper
-sections refer to the current version (Appendix F lists the status of every analysis).
+sections refer to the current version (Appendix G lists the status of every analysis).
 
 | study | question (one line) | prereg | result doc | scripts | results | paper section |
 |---|---|---|---|---|---|---|
@@ -66,10 +66,13 @@ sections refer to the current version (Appendix F lists the status of every anal
 | v227 | Replacement control for the share swap (Qwen2.5-3B dropped at its accuracy pilot; Mistral-7B, the b step) | `preregs/prereg_v227_*` | in the prereg | `v227_run.py` | `results_v227/` | 5 |
 | v228 | Re-score of the targets with the share swap (Kudo et al.'s format, answer only, Ouro Study 3) | `preregs/prereg_v228_*` | in the prereg | `v228_rescore.py` | `results_v228/` | 6, 7 |
 | v229 | Ouro P1 with the carry and borrow regressed; null on Study 3's design | `preregs/prereg_v229_*` | in the prereg | `v229_robust.py` | `results_v229/` | 6 |
-| v230 | An unwritten, used value in small transformers trained from scratch (ground truth from DAS): clamp and share swap; post hoc class-mean clamp and readability check | `preregs/prereg_v230_*` | in the prereg (design: `results_docs/v230_design.md`) | `v230_*` | `results_v230/` | 5, App. E |
-| v231 | Clamp power as the value gets as faint as Ouro's | `preregs/prereg_v231_*` | in the prereg (design: `results_docs/v231_design.md`) | `v231_power.py` | `results_v231/` | 6, App. E |
+| v230 | An unwritten, used value in small transformers trained from scratch (ground truth from DAS): clamp and share swap; post hoc class-mean clamp and readability check | `preregs/prereg_v230_*` | in the prereg (design: `results_docs/v230_design.md`) | `v230_*` | `results_v230/` | 5, App. F |
+| v231 | Clamp power as the value gets as faint as Ouro's | `preregs/prereg_v231_*` | in the prereg (design: `results_docs/v231_design.md`) | `v231_power.py` | `results_v231/` | 6, App. F |
 | v232 | Ouro: a running total at the end of b's sentence, before c is read (share swap with a design-matched null; clamp with the copies projected out) | `preregs/prereg_v232_*` | in the prereg | `v232_sb.py` (with `v199_patch.py`) | `results_v232/` | 6, App. C.3 |
-| v233 | Clamp power for the form used on Kudo et al. (class means projected off the copies) in v231's degraded-fitting design | `preregs/prereg_v233_*` | in the prereg | `v233_kudo_power.py` (with `v231_power.py`) | `results_v233/` | 7, App. E |
+| v233 | Clamp power for the form used on Kudo et al. (class means projected off the copies) in v231's degraded-fitting design | `preregs/prereg_v233_*` | in the prereg | `v233_kudo_power.py` (with `v231_power.py`) | `results_v233/` | 7, App. F |
+| v234 | Kudo et al. without a chain: clamp with equal-answer pairs (the answer cannot carry the clamp) | `preregs/prereg_v234_*` | in the prereg | `v234_*` (with `v215_*`, `v216_items.py`) | `results_v234/` | 7, App. D |
+| v235 | Positive control in a pretrained model: two-hop recall (city, country, capital) in Qwen2.5-7B; clamp at the city token and the last token | `preregs/prereg_v235_*` | in the prereg (design: `results_docs/v235_design.md`) | `v235_*` | `results_v235/` | 5, App. E |
+| v236 | Kudo et al. without a chain: whole-state patch of the five positions between b's equation and the answer position (pilot: single positions and layers) | `preregs/prereg_v236_*` | in the prereg | `v236_*` (with `v234_items.py`) | `results_v236/` | 7, App. D |
 | post hoc | Ouro's patches and clamps (v194, v209) against the random subspace alone | none (post hoc, after v231) | output only | `posthoc_ab_vs_rand.py` | `posthoc_ab_vs_rand.txt` | 6, App. C.3 |
 | post hoc | Quick checks after the fourth outside reviews: standard vs minimal-pair probe for the computed value in the small transformers; one-sibling minimal-pair readout (Ouro-1.4B); random-projection baseline for the share of b kept (found the chain study's share-kept definition differed; corrected in the paper and in the v233 prereg, section 9; reads the v181 states, the v216 and v221 plans and the v230 checkpoints, which are not included) | none (post hoc; rules recorded before running) | `results_docs/posthoc_quickchecks_2026-11-06.md` | `posthoc_quickchecks.py` | `results_posthoc/` | 3, 7, App. B.1, E |
 
@@ -82,6 +85,8 @@ sections refer to the current version (Appendix F lists the status of every anal
   The small transformers of v220, v230 and v231 are trained inside their kernels; their checkpoints are not included
   (v230 checks each retrained model against the checkpoint hashes in its prereg; v233 reads v231's kernel output and
   checks the same hashes).
+  v235's pilot-2 state file (`v235_states.npz`, 117 MB) is not included; `v235_pilot2_readout.py` reads it, and
+  `astrocyte-v235-pilot2` regenerates it.
 - **Analyses** are plain Python on the downloaded outputs (`python code/vNNN_analyze.py <dir>`), and each prereg says
   which command produced its RESULT section. The probes use scikit-learn.
 - **Post hoc check of Ouro's patches against random:** `python code/posthoc_ab_vs_rand.py` reads `results/results_v194`
@@ -100,7 +105,7 @@ file is unchanged.
 ## Pre-registration
 
 Each frozen study's design, predictions and reading rules were committed before its first treatment run, and the
-paper reports every outcome, including the misses (Appendix F lists the status of every analysis). `FREEZES.md` gives
+paper reports every outcome, including the misses (Appendix G lists the status of every analysis). `FREEZES.md` gives
 the freeze commits and, from GitHub's own records, when each reached GitHub relative to the first run. The
 development repository is private; commits are available to reviewers on request.
 

@@ -1,0 +1,42 @@
+[{"stream_name":"stdout","time":1.135770894,"data":"v215_pilot.py d049a0b2d81fb80b\n"}
+,{"stream_name":"stdout","time":1.135944232,"data":"v215_items.py 9249f0523d7219eb\n"}
+,{"stream_name":"stdout","time":1.135968318,"data":"v216_items.py a2ebd48b899fed40\n"}
+,{"stream_name":"stdout","time":1.13639457,"data":"v234_items.py fa7374fd6378d679\n"}
+,{"stream_name":"stdout","time":1.136418979,"data":"v234_plan.py 025497441b9d6f9b\n"}
+,{"stream_name":"stdout","time":1.1367260080000001,"data":"=== v234_plan.py ['/kaggle/input'] {}\n"}
+,{"stream_name":"stdout","time":3.307862101,"data":"items 14400, answered correctly 0.769 (plus 0.891, minus 0.648; o2 + 0.865, o2 - 0.673)\n"}
+,{"stream_name":"stdout","time":9.562120421,"data":"  eq   layer 12 half 0: b 7 dims, kept 7 after projection; share of b left 0.844 (in d2 copy 0.143, in k copy 0.015, in answer 0.397)\n"}
+,{"stream_name":"stdout","time":9.716027446,"data":"  eq   layer 12 half 1: b 7 dims, kept 7 after projection; share of b left 0.842 (in d2 copy 0.143, in k copy 0.016, in answer 0.391)\n"}
+,{"stream_name":"stdout","time":10.255810739,"data":"  eq   layer 16 half 0: b 7 dims, kept 7 after projection; share of b left 0.847 (in d2 copy 0.140, in k copy 0.015, in answer 0.423)\n"}
+,{"stream_name":"stdout","time":10.405341131,"data":"  eq   layer 16 half 1: b 7 dims, kept 7 after projection; share of b left 0.846 (in d2 copy 0.139, in k copy 0.016, in answer 0.424)\n"}
+,{"stream_name":"stdout","time":10.936542176,"data":"  eq   layer 20 half 0: b 7 dims, kept 7 after projection; share of b left 0.850 (in d2 copy 0.136, in k copy 0.018, in answer 0.424)\n"}
+,{"stream_name":"stdout","time":11.087810312,"data":"  eq   layer 20 half 1: b 7 dims, kept 7 after projection; share of b left 0.853 (in d2 copy 0.135, in k copy 0.016, in answer 0.426)\n"}
+,{"stream_name":"stdout","time":11.606768982,"data":"  eq   layer 24 half 0: b 7 dims, kept 7 after projection; share of b left 0.848 (in d2 copy 0.141, in k copy 0.012, in answer 0.384)\n"}
+,{"stream_name":"stdout","time":11.757764933,"data":"  eq   layer 24 half 1: b 7 dims, kept 7 after projection; share of b left 0.849 (in d2 copy 0.142, in k copy 0.010, in answer 0.397)\n"}
+,{"stream_name":"stdout","time":118.541574951,"data":"  pre  layer 12 half 0: b 7 dims, kept 7 after projection; share of b left 0.752 (in d2 copy 0.161, in k copy 0.137, in answer 0.389)\n"}
+,{"stream_name":"stdout","time":118.692873143,"data":"  pre  layer 12 half 1: b 7 dims, kept 7 after projection; share of b left 0.754 (in d2 copy 0.153, in k copy 0.143, in answer 0.406)\n"}
+,{"stream_name":"stdout","time":119.250461379,"data":"  pre  layer 16 half 0: b 7 dims, kept 7 after projection; share of b left 0.752 (in d2 copy 0.203, in k copy 0.118, in answer 0.376)\n"}
+,{"stream_name":"stdout","time":119.414693487,"data":"  pre  layer 16 half 1: b 7 dims, kept 7 after projection; share of b left 0.752 (in d2 copy 0.200, in k copy 0.118, in answer 0.410)\n"}
+,{"stream_name":"stdout","time":119.975113687,"data":"  pre  layer 20 half 0: b 7 dims, kept 7 after projection; share of b left 0.702 (in d2 copy 0.259, in k copy 0.097, in answer 0.410)\n"}
+,{"stream_name":"stdout","time":120.136902348,"data":"  pre  layer 20 half 1: b 7 dims, kept 7 after projection; share of b left 0.705 (in d2 copy 0.254, in k copy 0.099, in answer 0.418)\n"}
+,{"stream_name":"stdout","time":120.691259983,"data":"  pre  layer 24 half 0: b 7 dims, kept 7 after projection; share of b left 0.838 (in d2 copy 0.117, in k copy 0.084, in answer 0.478)\n"}
+,{"stream_name":"stdout","time":120.841564353,"data":"  pre  layer 24 half 1: b 7 dims, kept 7 after projection; share of b left 0.838 (in d2 copy 0.112, in k copy 0.088, in answer 0.510)\n"}
+,{"stream_name":"stdout","time":121.389204935,"data":"  last layer 12 half 0: b 7 dims, kept 7 after projection; share of b left 0.823 (in d2 copy 0.129, in k copy 0.069, in answer 0.364)\n"}
+,{"stream_name":"stdout","time":121.550605001,"data":"  last layer 12 half 1: b 7 dims, kept 7 after projection; share of b left 0.827 (in d2 copy 0.128, in k copy 0.073, in answer 0.367)\n"}
+,{"stream_name":"stdout","time":122.069080464,"data":"  last layer 16 half 0: b 7 dims, kept 7 after projection; share of b left 0.798 (in d2 copy 0.142, in k copy 0.099, in answer 0.392)\n"}
+,{"stream_name":"stdout","time":122.234351374,"data":"  last layer 16 half 1: b 7 dims, kept 7 after projection; share of b left 0.793 (in d2 copy 0.141, in k copy 0.107, in answer 0.393)\n"}
+,{"stream_name":"stdout","time":122.798133689,"data":"  last layer 20 half 0: b 7 dims, kept 7 after projection; share of b left 0.779 (in d2 copy 0.161, in k copy 0.094, in answer 0.395)\n"}
+,{"stream_name":"stdout","time":122.976094255,"data":"  last layer 20 half 1: b 7 dims, kept 7 after projection; share of b left 0.777 (in d2 copy 0.160, in k copy 0.098, in answer 0.402)\n"}
+,{"stream_name":"stdout","time":123.608682904,"data":"  last layer 24 half 0: b 7 dims, kept 7 after projection; share of b left 0.802 (in d2 copy 0.143, in k copy 0.090, in answer 0.434)\n"}
+,{"stream_name":"stdout","time":123.77573308,"data":"  last layer 24 half 1: b 7 dims, kept 7 after projection; share of b left 0.801 (in d2 copy 0.145, in k copy 0.097, in answer 0.444)\n"}
+,{"stream_name":"stdout","time":123.912423348,"data":"eq: mean share of b left 0.847\n"}
+,{"stream_name":"stdout","time":123.912452159,"data":"pre: mean share of b left 0.761\n"}
+,{"stream_name":"stdout","time":123.912457196,"data":"last: mean share of b left 0.800\n"}
+,{"stream_name":"stdout","time":123.912460929,"data":"plan: 132 bases, 3000 pairs (6575 base items with a correct equal-answer partner)\n"}
+,{"stream_name":"stderr","time":127.191685681,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":127.191724072,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":127.684936951,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":127.684968331,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":129.882119274,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":131.358526818,"data":"[NbConvertApp] Writing 296483 bytes to __results__.html\n"}
+]

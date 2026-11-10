@@ -1,0 +1,31 @@
+=== v235_pilot2.py [] {}
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794185882.156285      34 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+loaded in 127s | 200 targets | 1038 cities for states
+example: e1 token 'qing', last token ' is', name tokens [' Ch', 'ong', 'qing']
+states saved (107s)
+1/200 targets (5.89 s/target)
+10/200 targets (6.05 s/target)
+50/200 targets (5.96 s/target)
+100/200 targets (5.95 s/target)
+150/200 targets (5.95 s/target)
+200/200 targets (5.95 s/target)
+
+none: answer = target capital 1.000 | random 24-dim clamp at e1 (8-20): kept 1.000, hit 0.000
+city_other e1   hit  L2 0.57 L4 0.82 L6 0.83 L8 0.84 L10 0.82 L12 0.82 L14 0.78 L16 0.72 L20 0.58 L24 0.00 all 0.81
+                kept L2 0.32 L4 0.14 L6 0.14 L8 0.14 L10 0.17 L12 0.17 L14 0.23 L16 0.28 L20 0.41 L24 1.00 all 0.17
+city_other last hit  L2 0.00 L4 0.00 L6 0.00 L8 0.00 L10 0.00 L12 0.00 L14 0.00 L16 0.00 L20 0.01 L24 1.00 all 1.00
+                kept L2 1.00 L4 1.00 L6 1.00 L8 1.00 L10 1.00 L12 1.00 L14 1.00 L16 1.00 L20 0.99 L24 0.00 all 0.00
+city_same  e1   hit  L2 0.89 L4 0.99 L6 0.99 L8 0.99 L10 0.99 L12 0.99 L14 0.99 L16 1.00 L20 1.00 L24 1.00 all 0.99
+                kept L2 0.89 L4 0.99 L6 0.99 L8 0.99 L10 0.99 L12 0.99 L14 0.99 L16 1.00 L20 1.00 L24 1.00 all 0.99
+city_same  last hit  L2 1.00 L4 1.00 L6 1.00 L8 1.00 L10 1.00 L12 1.00 L14 1.00 L16 1.00 L20 1.00 L24 1.00 all 1.00
+                kept L2 1.00 L4 1.00 L6 1.00 L8 1.00 L10 1.00 L12 1.00 L14 1.00 L16 1.00 L20 1.00 L24 1.00 all 1.00
+person     e1   hit  L2 0.40 L4 0.69 L6 0.68 L8 0.70 L10 0.63 L12 0.68 L14 0.67 L16 0.61 L20 0.38 L24 0.00 all 0.67
+                kept L2 0.36 L4 0.23 L6 0.23 L8 0.23 L10 0.32 L12 0.29 L14 0.28 L16 0.34 L20 0.58 L24 1.00 all 0.24
+person     last hit  L2 0.00 L4 0.00 L6 0.00 L8 0.00 L10 0.00 L12 0.00 L14 0.00 L16 0.00 L20 0.02 L24 1.00 all 1.00
+                kept L2 1.00 L4 1.00 L6 1.00 L8 1.00 L10 1.00 L12 1.00 L14 1.00 L16 1.00 L20 0.96 L24 0.00 all 0.00
+country    e1   hit  L2 0.92 L4 0.96 L6 0.96 L8 0.98 L10 0.97 L12 0.99 L14 1.00 L16 0.99 L20 0.94 L24 0.00 all 1.00
+                kept L2 0.08 L4 0.04 L6 0.04 L8 0.02 L10 0.03 L12 0.01 L14 0.00 L16 0.01 L20 0.07 L24 1.00 all 0.00
+country    last hit  L2 0.00 L4 0.00 L6 0.00 L8 0.00 L10 0.00 L12 0.00 L14 0.00 L16 0.00 L20 0.05 L24 1.00 all 1.00
+                kept L2 1.00 L4 1.00 L6 1.00 L8 1.00 L10 1.00 L12 1.00 L14 1.00 L16 0.99 L20 0.94 L24 0.00 all 0.00
+done 1425s

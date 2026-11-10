@@ -1,0 +1,36 @@
+[{"stream_name":"stdout","time":1.156530684,"data":"v215_pilot.py d049a0b2d81fb80b\n"}
+,{"stream_name":"stdout","time":1.156701441,"data":"v215_items.py 9249f0523d7219eb\n"}
+,{"stream_name":"stdout","time":1.156913062,"data":"v216_items.py a2ebd48b899fed40\n"}
+,{"stream_name":"stdout","time":1.157038237,"data":"v234_items.py fa7374fd6378d679\n"}
+,{"stream_name":"stdout","time":1.15722587,"data":"v234_extract.py 7c570802c92af672\n"}
+,{"stream_name":"stderr","time":18.131824136,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":18.131847317,"data":"gradio-client 2.7.2 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":18.13185335,"data":"gradio 6.30.0 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":18.13185773,"data":"gradio 6.30.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":18.131861927,"data":"diffusers 0.42.0 requires huggingface-hub\u003c3.0,\u003e=1.32.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":18.354784342,"data":"=== v234_extract.py [] {}\n"}
+,{"stream_name":"stdout","time":37.885726359,"data":"v234 extract | pilot False | items sha ac4121c22f88fe31 (frozen ac4121c22f88fe31)\n"}
+,{"stream_name":"stdout","time":58.459569945,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stdout","time":58.459594289,"data":"I0000 00:00:1794185546.434010      33 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.\n"}
+,{"stream_name":"stdout","time":165.075610544,"data":"loaded Qwen/Qwen2.5-7B in 128s | 14400 items\n"}
+,{"stream_name":"stdout","time":167.093304654,"data":"positions {'eq': 79, 'last': 82, 'pre': 85} -\u003e {'eq': '0', 'last': '?', 'pre': ' '} | answer token 86 '0'\n"}
+,{"stream_name":"stdout","time":167.093660838,"data":"item     1/14400 (2.016 s/item) | answer correct so far 1.000\n"}
+,{"stream_name":"stdout","time":171.324431318,"data":"item    40/14400 (0.156 s/item) | answer correct so far 1.000\n"}
+,{"stream_name":"stdout","time":177.610579079,"data":"item   100/14400 (0.125 s/item) | answer correct so far 0.890\n"}
+,{"stream_name":"stdout","time":219.868096608,"data":"item   500/14400 (0.110 s/item) | answer correct so far 0.892\n"}
+,{"stream_name":"stdout","time":385.486388396,"data":"item  2000/14400 (0.110 s/item) | answer correct so far 0.875\n"}
+,{"stream_name":"stdout","time":609.191890788,"data":"item  4000/14400 (0.111 s/item) | answer correct so far 0.881\n"}
+,{"stream_name":"stdout","time":833.030357892,"data":"item  6000/14400 (0.111 s/item) | answer correct so far 0.875\n"}
+,{"stream_name":"stdout","time":1056.652592864,"data":"item  8000/14400 (0.111 s/item) | answer correct so far 0.847\n"}
+,{"stream_name":"stdout","time":1280.363140645,"data":"item 10000/14400 (0.112 s/item) | answer correct so far 0.811\n"}
+,{"stream_name":"stdout","time":1504.110050276,"data":"item 12000/14400 (0.112 s/item) | answer correct so far 0.782\n"}
+,{"stream_name":"stdout","time":1727.665993564,"data":"item 14000/14400 (0.112 s/item) | answer correct so far 0.771\n"}
+,{"stream_name":"stdout","time":1772.397849834,"data":"item 14400/14400 (0.112 s/item) | answer correct so far 0.769\n"}
+,{"stream_name":"stdout","time":1772.722939367,"data":"done: 14400 items, answer correct 0.7693 (1735s)\n"}
+,{"stream_name":"stderr","time":1781.042854519,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1781.042888139,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1781.392718381,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1781.392775781,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1782.219842542,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1783.00264213,"data":"[NbConvertApp] Writing 295854 bytes to __results__.html\n"}
+]

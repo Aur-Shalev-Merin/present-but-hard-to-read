@@ -1,0 +1,6 @@
+v234 extract | pilot True | items sha ac4121c22f88fe31 (frozen not yet)
+loaded Qwen/Qwen2.5-7B in 129s | 40 items
+positions {'eq': 79, 'last': 82, 'pre': 85} -> {'eq': '3', 'last': '?', 'pre': ' '} | answer token 86 '8'
+item     1/40 (2.011 s/item) | answer correct so far 1.000
+item    40/40 (0.157 s/item) | answer correct so far 0.825
+done: 40 items, answer correct 0.8250 (135s)

@@ -1,0 +1,17 @@
+v235 clamp | smoke True | 1038 cities, 99 people | states in 102s (load 130s)
+  e1   layer  8 half 0: U 24 dims, Uo 24, C 24; share of the country left after the copy projection 0.988
+  e1   layer  8 half 1: U 24 dims, Uo 24, C 24; share of the country left after the copy projection 0.988
+  e1   layer 12 half 0: U 24 dims, Uo 24, C 24; share of the country left after the copy projection 0.988
+  e1   layer 12 half 1: U 24 dims, Uo 24, C 24; share of the country left after the copy projection 0.989
+  e1   layer 16 half 0: U 24 dims, Uo 24, C 24; share of the country left after the copy projection 0.990
+  e1   layer 16 half 1: U 24 dims, Uo 24, C 24; share of the country left after the copy projection 0.990
+  last layer  8 half 0: U 25 dims, Uo 25, C 24; share of the country left after the copy projection 0.992
+  last layer  8 half 1: U 25 dims, Uo 25, C 24; share of the country left after the copy projection 0.992
+  last layer 12 half 0: U 25 dims, Uo 25, C 24; share of the country left after the copy projection 0.993
+  last layer 12 half 1: U 24 dims, Uo 24, C 24; share of the country left after the copy projection 0.993
+  last layer 16 half 0: U 24 dims, Uo 24, C 24; share of the country left after the copy projection 0.993
+  last layer 16 half 1: U 25 dims, Uo 25, C 24; share of the country left after the copy projection 0.992
+1/90 pairs (0.70 s/pair) | type other, e1 hit so far: none 0.000 cU 0.000 cUo 0.000 cC 0.000 cR 0.000 full 1.000
+30/90 pairs (0.64 s/pair) | type other, e1 hit so far: none 0.000 cU 0.000 cUo 0.000 cC 0.000 cR 0.000 full 0.900
+90/90 pairs (0.64 s/pair) | type other, e1 hit so far: none 0.000 cU 0.000 cUo 0.000 cC 0.000 cR 0.000 full 0.900
+done (291s)

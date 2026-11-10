@@ -1,0 +1,39 @@
+[{"stream_name":"stdout","time":1.833027944,"data":"v215_pilot.py d049a0b2d81fb80b\n"}
+,{"stream_name":"stdout","time":1.833179081,"data":"v215_items.py 9249f0523d7219eb\n"}
+,{"stream_name":"stdout","time":1.833339981,"data":"v216_items.py a2ebd48b899fed40\n"}
+,{"stream_name":"stdout","time":1.833485898,"data":"v234_items.py 8134563a605a373b\n"}
+,{"stream_name":"stdout","time":1.833639953,"data":"v234_extract.py 7c570802c92af672\n"}
+,{"stream_name":"stdout","time":1.83390109,"data":"v234_patch.py 06756d31aa89157e\n"}
+,{"stream_name":"stderr","time":18.239618281,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":18.23964672,"data":"gradio-client 2.7.2 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":18.239651863,"data":"gradio 6.30.0 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":18.239655751,"data":"gradio 6.30.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":18.239661123,"data":"diffusers 0.42.0 requires huggingface-hub\u003c3.0,\u003e=1.32.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":18.467681795,"data":"=== v234_extract.py [] {'V234_PILOT': '1'}\n"}
+,{"stream_name":"stdout","time":36.749980949,"data":"v234 extract | pilot True | items sha ac4121c22f88fe31 (frozen not yet)\n"}
+,{"stream_name":"stdout","time":57.120997369,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stdout","time":57.121026489,"data":"I0000 00:00:1794005298.502116      33 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.\n"}
+,{"stream_name":"stdout","time":165.370018188,"data":"loaded Qwen/Qwen2.5-7B in 129s | 40 items\n"}
+,{"stream_name":"stdout","time":167.382473515,"data":"positions {'eq': 79, 'last': 82, 'pre': 85} -\u003e {'eq': '3', 'last': '?', 'pre': ' '} | answer token 86 '8'\n"}
+,{"stream_name":"stdout","time":167.382785582,"data":"item     1/40 (2.011 s/item) | answer correct so far 1.000\n"}
+,{"stream_name":"stdout","time":171.656340089,"data":"item    40/40 (0.157 s/item) | answer correct so far 0.825\n"}
+,{"stream_name":"stdout","time":171.675400386,"data":"done: 40 items, answer correct 0.8250 (135s)\n"}
+,{"stream_name":"stdout","time":177.20756831,"data":"=== v234_patch.py ['extract', 'SMOKE'] {'V234_SMOKE': '1'}\n"}
+,{"stream_name":"stdout","time":190.285273421,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stdout","time":190.285302948,"data":"I0000 00:00:1794005431.666444     253 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.\n"}
+,{"stream_name":"stdout","time":206.603421749,"data":"v234 patch | 60 pairs | smoke True | items sha ac4121c22f88fe31 | loaded in 22s\n"}
+,{"stream_name":"stdout","time":208.205060498,"data":"1/60 pairs (1.60 s/pair) | hit P so far: none 0.000 cB 0.000 cBo 0.000 cA 0.000 cD 0.000 cK 0.000 cR 0.000 full 1.000\n"}
+,{"stream_name":"stdout","time":225.845424124,"data":"20/60 pairs (0.96 s/pair) | hit P so far: none 0.000 cB 0.000 cBo 0.000 cA 0.000 cD 0.000 cK 0.000 cR 0.000 full 1.000\n"}
+,{"stream_name":"stdout","time":262.975017983,"data":"60/60 pairs (0.94 s/pair) | hit P so far: none 0.000 cB 0.000 cBo 0.000 cA 0.000 cD 0.000 cK 0.000 cR 0.000 full 0.417\n"}
+,{"stream_name":"stdout","time":262.976508565,"data":"done (79s)\n"}
+,{"stream_name":"stdout","time":265.41988387,"data":"=== v234_patch.py ['analyse', '.'] {}\n"}
+,{"stream_name":"stdout","time":265.708451151,"data":"eq (20 pairs, SMOKE): hit P none 0.000 cB 0.000 cBo 0.000 cA 0.000 cD 0.000 cK 0.000 cR 0.000 full 1.000 | kept A none 1.000 cB 1.000 cBo 1.000 cA 1.000 cD 1.000 cK 1.000 cR 1.000 full 0.000 | cBo - cR +0.0000 [+0.0000, +0.0000] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":265.816779339,"data":"pre (20 pairs, SMOKE): hit P none 0.000 cB 0.000 cBo 0.000 cA 0.000 cD 0.000 cK 0.000 cR 0.000 full 0.250 | kept A none 1.000 cB 1.000 cBo 1.000 cA 1.000 cD 1.000 cK 1.000 cR 1.000 full 0.750 | cBo - cR +0.0000 [+0.0000, +0.0000] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stdout","time":265.93005102,"data":"last (20 pairs, SMOKE): hit P none 0.000 cB 0.000 cBo 0.000 cA 0.000 cD 0.000 cK 0.000 cR 0.000 full 0.000 | kept A none 1.000 cB 1.000 cBo 1.000 cA 1.000 cD 1.000 cK 1.000 cR 1.000 full 1.000 | cBo - cR +0.0000 [+0.0000, +0.0000] -\u003e UNSCORABLE\n"}
+,{"stream_name":"stderr","time":267.901082734,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":267.901113311,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":268.172267314,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":268.172299195,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":268.977061523,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":269.46932979,"data":"[NbConvertApp] Writing 301277 bytes to __results__.html\n"}
+]

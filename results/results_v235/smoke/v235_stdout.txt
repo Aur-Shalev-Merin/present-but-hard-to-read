@@ -1,0 +1,28 @@
+=== v235_clamp.py ['run'] {'V235_SMOKE': '1'}
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794188705.949493      33 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+v235 clamp | smoke True | 1038 cities, 99 people | states in 101s (load 128s)
+  e1   layer  8 half 0: U 24 dims, Uo 24, C 24; share of the country left after the copy projection 0.988
+  e1   layer  8 half 1: U 24 dims, Uo 24, C 24; share of the country left after the copy projection 0.988
+  e1   layer 12 half 0: U 24 dims, Uo 24, C 24; share of the country left after the copy projection 0.988
+  e1   layer 12 half 1: U 24 dims, Uo 24, C 24; share of the country left after the copy projection 0.989
+  e1   layer 16 half 0: U 24 dims, Uo 24, C 24; share of the country left after the copy projection 0.990
+  e1   layer 16 half 1: U 24 dims, Uo 24, C 24; share of the country left after the copy projection 0.990
+  last layer  8 half 0: U 24 dims, Uo 24, C 24; share of the country left after the copy projection 0.992
+  last layer  8 half 1: U 24 dims, Uo 24, C 24; share of the country left after the copy projection 0.992
+  last layer 12 half 0: U 24 dims, Uo 24, C 24; share of the country left after the copy projection 0.993
+  last layer 12 half 1: U 24 dims, Uo 24, C 24; share of the country left after the copy projection 0.993
+  last layer 16 half 0: U 24 dims, Uo 24, C 24; share of the country left after the copy projection 0.993
+  last layer 16 half 1: U 24 dims, Uo 24, C 24; share of the country left after the copy projection 0.992
+1/90 pairs (0.71 s/pair) | type other, e1 hit so far: none 0.000 cU 0.000 cUo 0.000 cC 0.000 cR 0.000 full 1.000
+30/90 pairs (0.70 s/pair) | type other, e1 hit so far: none 0.000 cU 0.000 cUo 0.000 cC 0.000 cR 0.000 full 0.900
+90/90 pairs (0.71 s/pair) | type other, e1 hit so far: none 0.000 cU 0.000 cUo 0.000 cC 0.000 cR 0.000 full 0.900
+done (294s)
+=== v235_clamp.py ['analyse', '.'] {}
+other  e1   n 30 | hit none 0.000 cU 0.000 cUo 0.000 cC 0.000 cR 0.000 full 0.900 | changed none 0.000 cU 0.000 cUo 0.000 cC 0.000 cR 0.033 full 0.900 | cUo-cR +0.000 [+0.000, +0.000] NOT-USED | full-cR +0.900 [+0.900, +0.900] USED
+other  last n 30 | hit none 0.000 cU 0.000 cUo 0.000 cC 0.000 cR 0.000 full 0.000 | changed none 0.000 cU 0.000 cUo 0.000 cC 0.000 cR 0.000 full 0.033 | cUo-cR +0.000 [+0.000, +0.000] NOT-USED | full-cR +0.000 [+0.000, +0.000] NOT-USED
+same   e1   n 30 | hit none 1.000 cU 1.000 cUo 1.000 cC 0.967 cR 0.967 full 1.000 | changed none 0.000 cU 0.000 cUo 0.000 cC 0.033 cR 0.033 full 0.000 | design -0.033 [-0.033, -0.033] ok
+same   last n 30 | hit none 1.000 cU 0.967 cUo 0.967 cC 1.000 cR 1.000 full 1.000 | changed none 0.000 cU 0.033 cUo 0.033 cC 0.000 cR 0.000 full 0.000 | design +0.033 [+0.033, +0.033] ok
+person e1   n 30 | hit none 0.000 cU 0.000 cUo 0.000 cC 0.000 cR 0.000 full 0.900 | changed none 0.000 cU 0.000 cUo 0.000 cC 0.033 cR 0.033 full 0.933 | cUo-cR +0.000 [+0.000, +0.000] NOT-USED | full-cR +0.900 [+0.900, +0.900] USED
+person last n 30 | hit none 0.000 cU 0.000 cUo 0.000 cC 0.000 cR 0.000 full 0.000 | changed none 0.000 cU 0.033 cUo 0.033 cC 0.000 cR 0.000 full 0.000 | cUo-cR +0.000 [+0.000, +0.000] NOT-USED | full-cR +0.000 [+0.000, +0.000] NOT-USED
+labels {'e1_clamp': 'NOT-USED', 'e1_full': 'USED', 'last_clamp': 'NOT-USED', 'last_full': 'NOT-USED', 'design_e1': 'ok', 'design_last': 'ok'} -> verdict None

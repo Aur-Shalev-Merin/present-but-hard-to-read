@@ -1,0 +1,734 @@
+[
+{
+"person": "Riyad Mahrez",
+"ckey": "France",
+"country": "France",
+"capital": "Paris"
+},
+{
+"person": "Dwayne Johnson",
+"ckey": "United States",
+"country": "the United States",
+"capital": "Washington"
+},
+{
+"person": "Ariana Grande",
+"ckey": "United States",
+"country": "the United States",
+"capital": "Washington"
+},
+{
+"person": "Michael Jordan",
+"ckey": "United States",
+"country": "the United States",
+"capital": "Washington"
+},
+{
+"person": "Kobe Bryant",
+"ckey": "United States",
+"country": "the United States",
+"capital": "Washington"
+},
+{
+"person": "Lionel Messi",
+"ckey": "Argentina",
+"country": "Argentina",
+"capital": "Buenos Aires"
+},
+{
+"person": "Che Guevara",
+"ckey": "Argentina",
+"country": "Argentina",
+"capital": "Buenos Aires"
+},
+{
+"person": "Diego Maradona",
+"ckey": "Argentina",
+"country": "Argentina",
+"capital": "Buenos Aires"
+},
+{
+"person": "Manu Ginóbili",
+"ckey": "Argentina",
+"country": "Argentina",
+"capital": "Buenos Aires"
+},
+{
+"person": "Lali Espósito",
+"ckey": "Argentina",
+"country": "Argentina",
+"capital": "Buenos Aires"
+},
+{
+"person": "Dan Bilzerian",
+"ckey": "United States",
+"country": "the United States",
+"capital": "Washington"
+},
+{
+"person": "Neymar",
+"ckey": "Brazil",
+"country": "Brazil",
+"capital": "Brasília"
+},
+{
+"person": "Pele",
+"ckey": "Brazil",
+"country": "Brazil",
+"capital": "Brasília"
+},
+{
+"person": "Ronaldinho",
+"ckey": "Brazil",
+"country": "Brazil",
+"capital": "Brasília"
+},
+{
+"person": "Freddie Mercury",
+"ckey": "United Kingdom",
+"country": "the United Kingdom",
+"capital": "London"
+},
+{
+"person": "Queen Elizabeth II",
+"ckey": "United Kingdom",
+"country": "the United Kingdom",
+"capital": "London"
+},
+{
+"person": "Stephen Hawking",
+"ckey": "United Kingdom",
+"country": "the United Kingdom",
+"capital": "London"
+},
+{
+"person": "Dua Lipa",
+"ckey": "United Kingdom",
+"country": "the United Kingdom",
+"capital": "London"
+},
+{
+"person": "Keanu Reeves",
+"ckey": "Canada",
+"country": "Canada",
+"capital": "Ottawa"
+},
+{
+"person": "Ryan Reynolds",
+"ckey": "Canada",
+"country": "Canada",
+"capital": "Ottawa"
+},
+{
+"person": "Drake",
+"ckey": "Canada",
+"country": "Canada",
+"capital": "Ottawa"
+},
+{
+"person": "The Weeknd",
+"ckey": "Canada",
+"country": "Canada",
+"capital": "Ottawa"
+},
+{
+"person": "Jack Ma",
+"ckey": "People's Republic of China",
+"country": "China",
+"capital": "Beijing"
+},
+{
+"person": "Jet Li",
+"ckey": "People's Republic of China",
+"country": "China",
+"capital": "Beijing"
+},
+{
+"person": "Confucius",
+"ckey": "People's Republic of China",
+"country": "China",
+"capital": "Beijing"
+},
+{
+"person": "Yip Man",
+"ckey": "People's Republic of China",
+"country": "China",
+"capital": "Beijing"
+},
+{
+"person": "Shakira",
+"ckey": "Colombia",
+"country": "Colombia",
+"capital": "Bogotá"
+},
+{
+"person": "Gabriel Garcia Marquez",
+"ckey": "Colombia",
+"country": "Colombia",
+"capital": "Bogotá"
+},
+{
+"person": "Sofia Vergara",
+"ckey": "Colombia",
+"country": "Colombia",
+"capital": "Bogotá"
+},
+{
+"person": "Radamel Falcao",
+"ckey": "Colombia",
+"country": "Colombia",
+"capital": "Bogotá"
+},
+{
+"person": "Christina Milian",
+"ckey": "United States",
+"country": "the United States",
+"capital": "Washington"
+},
+{
+"person": "Nefertiti",
+"ckey": "Egypt",
+"country": "Egypt",
+"capital": "Cairo"
+},
+{
+"person": "Hatshepsut",
+"ckey": "Egypt",
+"country": "Egypt",
+"capital": "Cairo"
+},
+{
+"person": "Mohamed Salah",
+"ckey": "Egypt",
+"country": "Egypt",
+"capital": "Cairo"
+},
+{
+"person": "Tutankhamun",
+"ckey": "Egypt",
+"country": "Egypt",
+"capital": "Cairo"
+},
+{
+"person": "Moses",
+"ckey": "Egypt",
+"country": "Egypt",
+"capital": "Cairo"
+},
+{
+"person": "Manny Pacquiao",
+"ckey": "Philippines",
+"country": "the Philippines",
+"capital": "Manila"
+},
+{
+"person": "Rodrigo Duterte",
+"ckey": "Philippines",
+"country": "the Philippines",
+"capital": "Manila"
+},
+{
+"person": "Jose Rizal",
+"ckey": "Philippines",
+"country": "the Philippines",
+"capital": "Manila"
+},
+{
+"person": "Bella Poarch",
+"ckey": "Philippines",
+"country": "the Philippines",
+"capital": "Manila"
+},
+{
+"person": "Ferdinand Marcos",
+"ckey": "Philippines",
+"country": "the Philippines",
+"capital": "Manila"
+},
+{
+"person": "Nico Rosberg",
+"ckey": "Germany",
+"country": "Germany",
+"capital": "Berlin"
+},
+{
+"person": "Emma Watson",
+"ckey": "France",
+"country": "France",
+"capital": "Paris"
+},
+{
+"person": "Kylian Mbappé",
+"ckey": "France",
+"country": "France",
+"capital": "Paris"
+},
+{
+"person": "Napoleon Bonaparte",
+"ckey": "France",
+"country": "France",
+"capital": "Paris"
+},
+{
+"person": "André the Giant",
+"ckey": "France",
+"country": "France",
+"capital": "Paris"
+},
+{
+"person": "Albert Einstein",
+"ckey": "Germany",
+"country": "Germany",
+"capital": "Berlin"
+},
+{
+"person": "Michael Schumacher",
+"ckey": "Germany",
+"country": "Germany",
+"capital": "Berlin"
+},
+{
+"person": "Ludwig van Beethoven",
+"ckey": "Germany",
+"country": "Germany",
+"capital": "Berlin"
+},
+{
+"person": "Karl Marx",
+"ckey": "Germany",
+"country": "Germany",
+"capital": "Berlin"
+},
+{
+"person": "W. E. B. Du Bois",
+"ckey": "United States",
+"country": "the United States",
+"capital": "Washington"
+},
+{
+"person": "Tom Hanks",
+"ckey": "United States",
+"country": "the United States",
+"capital": "Washington"
+},
+{
+"person": "Cleopatra",
+"ckey": "Egypt",
+"country": "Egypt",
+"capital": "Cairo"
+},
+{
+"person": "Adria Arjona",
+"ckey": "United States",
+"country": "the United States",
+"capital": "Washington"
+},
+{
+"person": "Ovince Saint Preux",
+"ckey": "United States",
+"country": "the United States",
+"capital": "Washington"
+},
+{
+"person": "Teofimo Lopez",
+"ckey": "United States",
+"country": "the United States",
+"capital": "Washington"
+},
+{
+"person": "Bobby Fischer",
+"ckey": "United States",
+"country": "the United States",
+"capital": "Washington"
+},
+{
+"person": "Mahatma Gandhi",
+"ckey": "India",
+"country": "India",
+"capital": "New Delhi"
+},
+{
+"person": "Virat Kohli",
+"ckey": "India",
+"country": "India",
+"capital": "New Delhi"
+},
+{
+"person": "A.P.J. Abdul Kalam",
+"ckey": "India",
+"country": "India",
+"capital": "New Delhi"
+},
+{
+"person": "Sundar Pichai",
+"ckey": "India",
+"country": "India",
+"capital": "New Delhi"
+},
+{
+"person": "Kevin Sanjaya Sukamuljo",
+"ckey": "Indonesia",
+"country": "Indonesia",
+"capital": "Jakarta"
+},
+{
+"person": "B. J. Habibie",
+"ckey": "Indonesia",
+"country": "Indonesia",
+"capital": "Jakarta"
+},
+{
+"person": "Angela Lansbury",
+"ckey": "United Kingdom",
+"country": "the United Kingdom",
+"capital": "London"
+},
+{
+"person": "Daniel Day-Lewis",
+"ckey": "United Kingdom",
+"country": "the United Kingdom",
+"capital": "London"
+},
+{
+"person": "Leonardo da Vinci",
+"ckey": "Italy",
+"country": "Italy",
+"capital": "Rome"
+},
+{
+"person": "Christopher Columbus",
+"ckey": "Italy",
+"country": "Italy",
+"capital": "Rome"
+},
+{
+"person": "Robert De Niro",
+"ckey": "United States",
+"country": "the United States",
+"capital": "Washington"
+},
+{
+"person": "Galileo Galilei",
+"ckey": "Italy",
+"country": "Italy",
+"capital": "Rome"
+},
+{
+"person": "Monica Bellucci",
+"ckey": "Italy",
+"country": "Italy",
+"capital": "Rome"
+},
+{
+"person": "Hayao Miyazaki",
+"ckey": "Japan",
+"country": "Japan",
+"capital": "Tokyo"
+},
+{
+"person": "Naomi Osaka",
+"ckey": "Japan",
+"country": "Japan",
+"capital": "Tokyo"
+},
+{
+"person": "Yuzuru Hanyu",
+"ckey": "Japan",
+"country": "Japan",
+"capital": "Tokyo"
+},
+{
+"person": "Akira Kurosawa",
+"ckey": "Japan",
+"country": "Japan",
+"capital": "Tokyo"
+},
+{
+"person": "Ichiro Suzuki",
+"ckey": "Japan",
+"country": "Japan",
+"capital": "Tokyo"
+},
+{
+"person": "Grace Kelly",
+"ckey": "United States",
+"country": "the United States",
+"capital": "Washington"
+},
+{
+"person": "Alain Ducasse",
+"ckey": "France",
+"country": "France",
+"capital": "Paris"
+},
+{
+"person": "Mala Sinha",
+"ckey": "India",
+"country": "India",
+"capital": "New Delhi"
+},
+{
+"person": "Israel Adesanya",
+"ckey": "Nigeria",
+"country": "Nigeria",
+"capital": "Abuja"
+},
+{
+"person": "Chinua Achebe",
+"ckey": "Nigeria",
+"country": "Nigeria",
+"capital": "Abuja"
+},
+{
+"person": "Sade",
+"ckey": "Nigeria",
+"country": "Nigeria",
+"capital": "Abuja"
+},
+{
+"person": "Aliko Dangote",
+"ckey": "Nigeria",
+"country": "Nigeria",
+"capital": "Abuja"
+},
+{
+"person": "Victor Moses",
+"ckey": "Nigeria",
+"country": "Nigeria",
+"capital": "Abuja"
+},
+{
+"person": "Odion Ighalo",
+"ckey": "Nigeria",
+"country": "Nigeria",
+"capital": "Abuja"
+},
+{
+"person": "Goodluck Jonathan",
+"ckey": "Nigeria",
+"country": "Nigeria",
+"capital": "Abuja"
+},
+{
+"person": "Wilfred Ndidi",
+"ckey": "Nigeria",
+"country": "Nigeria",
+"capital": "Abuja"
+},
+{
+"person": "Malala Yousafzai",
+"ckey": "Pakistan",
+"country": "Pakistan",
+"capital": "Islamabad"
+},
+{
+"person": "Imran Khan",
+"ckey": "Pakistan",
+"country": "Pakistan",
+"capital": "Islamabad"
+},
+{
+"person": "Wasim Akram",
+"ckey": "Pakistan",
+"country": "Pakistan",
+"capital": "Islamabad"
+},
+{
+"person": "Muhammad Ali Jinnah",
+"ckey": "Pakistan",
+"country": "Pakistan",
+"capital": "Islamabad"
+},
+{
+"person": "Juan Iturbe",
+"ckey": "Argentina",
+"country": "Argentina",
+"capital": "Buenos Aires"
+},
+{
+"person": "Juliane Koepcke",
+"ckey": "Peru",
+"country": "Peru",
+"capital": "Lima"
+},
+{
+"person": "Nathalie Kelley",
+"ckey": "Peru",
+"country": "Peru",
+"capital": "Lima"
+},
+{
+"person": "Marie Curie",
+"ckey": "Poland",
+"country": "Poland",
+"capital": "Warsaw"
+},
+{
+"person": "Robert Lewandowski",
+"ckey": "Poland",
+"country": "Poland",
+"capital": "Warsaw"
+},
+{
+"person": "Frédéric Chopin",
+"ckey": "Poland",
+"country": "Poland",
+"capital": "Warsaw"
+},
+{
+"person": "Nicolaus Copernicus",
+"ckey": "Poland",
+"country": "Poland",
+"capital": "Warsaw"
+},
+{
+"person": "Khabib Nurmagomedov",
+"ckey": "Russia",
+"country": "Russia",
+"capital": "Moscow"
+},
+{
+"person": "Vladimir Lenin",
+"ckey": "Russia",
+"country": "Russia",
+"capital": "Moscow"
+},
+{
+"person": "Catherine the Great",
+"ckey": "Russia",
+"country": "Russia",
+"capital": "Moscow"
+},
+{
+"person": "Maria Sharapova",
+"ckey": "Russia",
+"country": "Russia",
+"capital": "Moscow"
+},
+{
+"person": "Sergey Brin",
+"ckey": "Russia",
+"country": "Russia",
+"capital": "Moscow"
+},
+{
+"person": "Eriq Zavaleta",
+"ckey": "United States",
+"country": "the United States",
+"capital": "Washington"
+},
+{
+"person": "Jungkook",
+"ckey": "South Korea",
+"country": "South Korea",
+"capital": "Seoul"
+},
+{
+"person": "Kim Taehyung",
+"ckey": "South Korea",
+"country": "South Korea",
+"capital": "Seoul"
+},
+{
+"person": "Jimin",
+"ckey": "South Korea",
+"country": "South Korea",
+"capital": "Seoul"
+},
+{
+"person": "Rafael Nadal",
+"ckey": "Spain",
+"country": "Spain",
+"capital": "Madrid"
+},
+{
+"person": "Pablo Picasso",
+"ckey": "Spain",
+"country": "Spain",
+"capital": "Madrid"
+},
+{
+"person": "Penelope Cruz",
+"ckey": "Spain",
+"country": "Spain",
+"capital": "Madrid"
+},
+{
+"person": "Pep Guardiola",
+"ckey": "Spain",
+"country": "Spain",
+"capital": "Madrid"
+},
+{
+"person": "Salvador Dali",
+"ckey": "Spain",
+"country": "Spain",
+"capital": "Madrid"
+},
+{
+"person": "Tina Turner",
+"ckey": "United States",
+"country": "the United States",
+"capital": "Washington"
+},
+{
+"person": "Suleiman The Magnificent",
+"ckey": "Turkey",
+"country": "Turkey",
+"capital": "Ankara"
+},
+{
+"person": "Mustafa Kemal Ataturk",
+"ckey": "Turkey",
+"country": "Turkey",
+"capital": "Ankara"
+},
+{
+"person": "Mehmed II",
+"ckey": "Turkey",
+"country": "Turkey",
+"capital": "Ankara"
+},
+{
+"person": "Osman I",
+"ckey": "Turkey",
+"country": "Turkey",
+"capital": "Ankara"
+},
+{
+"person": "Ho Chi Minh",
+"ckey": "Vietnam",
+"country": "Vietnam",
+"capital": "Hanoi"
+},
+{
+"person": "Võ Nguyên Giáp",
+"ckey": "Vietnam",
+"country": "Vietnam",
+"capital": "Hanoi"
+},
+{
+"person": "Thuy Trang",
+"ckey": "Vietnam",
+"country": "Vietnam",
+"capital": "Hanoi"
+},
+{
+"person": "Thich Quang Duc",
+"ckey": "Vietnam",
+"country": "Vietnam",
+"capital": "Hanoi"
+},
+{
+"person": "Cung Le",
+"ckey": "Vietnam",
+"country": "Vietnam",
+"capital": "Hanoi"
+},
+{
+"person": "Doris Lessing",
+"ckey": "Iran",
+"country": "Iran",
+"capital": "Tehran"
+}
+]

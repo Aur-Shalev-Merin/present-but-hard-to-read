@@ -1,0 +1,44 @@
+loaded in 127s | capital first tokens: [' Buenos', ' Bras', ' Ottawa', ' Bog', ' Cairo', ' Paris', ' Berlin', ' New', ' Jakarta', ' Tehran', ' Rome', ' Tokyo', ' Abu', ' Islamabad', ' Beijing', ' Lima', ' Manila', ' Warsaw', ' Moscow', ' Seoul', ' Madrid', ' Ankara', ' London', ' Washington', ' H'] | collisions: {}
+2435 prompts; example:
+The capital of the country where the city of Sydney is located is Canberra.
+The capital of the country where the city of Gothenburg is located is Stockholm.
+The capital of the country where the city of Mombasa is located is Nairobi.
+The capital of the country where the city of Chongqing is located is
+1/2435 (3.00 s/prompt)
+50/2435 (1.48 s/prompt)
+200/2435 (1.90 s/prompt)
+500/2435 (1.98 s/prompt)
+1000/2435 (2.02 s/prompt)
+1500/2435 (2.03 s/prompt)
+2000/2435 (2.04 s/prompt)
+2435/2435 (2.03 s/prompt)
+
+accuracy (full continuation; first token for capitals in brackets)
+country                           cap  city->c   city->cap 2hop  pers->c   pers->cap 2hop
+Argentina                      1.00/1  0.90/39   0.92/39 [0.92]   1.00/6    1.00/6 [1.00]
+Brazil                         1.00/1  1.00/60   1.00/60 [1.00]   1.00/3    1.00/3 [1.00]
+Canada                         1.00/1  1.00/25   0.96/25 [0.96]   1.00/4    1.00/4 [1.00]
+Colombia                       1.00/1  0.91/22   0.95/22 [0.95]   1.00/4    1.00/4 [1.00]
+Egypt                          1.00/1  0.85/47   0.87/47 [0.85]   1.00/6    1.00/6 [1.00]
+France                         1.00/1  1.00/18   1.00/18 [1.00]   0.83/6    0.83/6 [0.83]
+Germany                        1.00/1  1.00/56   1.00/56 [1.00]   1.00/5    0.80/5 [0.80]
+India                          1.00/1  1.00/60   1.00/60 [1.00]   1.00/5    1.00/5 [1.00]
+Indonesia                      1.00/1  1.00/60   1.00/60 [1.00]   1.00/2    1.00/2 [1.00]
+Iran                           1.00/1  0.95/42   0.93/42 [0.93]   1.00/1    0.00/1 [0.00]
+Italy                          1.00/1  1.00/21   1.00/21 [1.00]   1.00/4    0.50/4 [0.50]
+Japan                          1.00/1  1.00/60   1.00/60 [1.00]   1.00/5    1.00/5 [1.00]
+Nigeria                        1.00/1  0.93/56   0.95/56 [0.95]   1.00/8    0.88/8 [0.88]
+Pakistan                       1.00/1  0.94/54   0.98/54 [0.98]   0.75/4    1.00/4 [1.00]
+People's Republic of China     1.00/1  1.00/60   0.98/60 [0.97]   1.00/4    1.00/4 [1.00]
+Peru                           1.00/1  1.00/21   1.00/21 [1.00]   0.50/2    0.50/2 [0.50]
+Philippines                    1.00/1  0.93/60   0.95/60 [0.95]   0.80/5    1.00/5 [1.00]
+Poland                         1.00/1  1.00/15   1.00/15 [1.00]   1.00/4    1.00/4 [1.00]
+Russia                         1.00/1  1.00/60   1.00/60 [1.00]   1.00/5    1.00/5 [1.00]
+South Korea                    1.00/1  0.98/60   0.98/60 [0.98]   1.00/3    1.00/3 [1.00]
+Spain                          1.00/1  1.00/29   1.00/29 [1.00]   1.00/5    1.00/5 [1.00]
+Turkey                         1.00/1  1.00/54   1.00/54 [1.00]   1.00/4    1.00/4 [1.00]
+United Kingdom                 1.00/1  0.92/36   0.97/36 [0.97]   0.83/6    1.00/6 [1.00]
+United States                  1.00/1  1.00/60   0.98/60 [0.98]  0.75/16   0.38/16 [0.19]
+Vietnam                        1.00/1   1.00/8    1.00/8 [1.00]   1.00/5    1.00/5 [1.00]
+ALL                           1.00/25 0.97/1083 0.98/1083 [0.98] 0.93/122  0.86/122 [0.84]
+two-hop city->capital: all 0.977; among cities whose country it knows 0.995 (1053); first-token agrees with full 0.995; done 5061s

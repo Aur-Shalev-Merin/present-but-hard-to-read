@@ -1,0 +1,54 @@
+[{"stream_name":"stdout","time":0.992661085,"data":"v215_pilot.py d049a0b2d81fb80b\n"}
+,{"stream_name":"stdout","time":0.992809522,"data":"v215_items.py 9249f0523d7219eb\n"}
+,{"stream_name":"stdout","time":0.993013794,"data":"v216_items.py a2ebd48b899fed40\n"}
+,{"stream_name":"stdout","time":0.993184532,"data":"v234_items.py fa7374fd6378d679\n"}
+,{"stream_name":"stdout","time":0.993424422,"data":"v236_pilot.py 1491005d4bb6f3db\n"}
+,{"stream_name":"stdout","time":0.993724405,"data":"v236_relay.py 1fed70f2c09a18bd\n"}
+,{"stream_name":"stderr","time":19.154794635000002,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":19.154836644,"data":"gradio-client 2.7.2 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":19.154842041,"data":"gradio 6.30.0 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":19.154845912,"data":"gradio 6.30.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":19.15484937,"data":"diffusers 0.42.0 requires huggingface-hub\u003c3.0,\u003e=1.32.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":19.387599843,"data":"=== v236_relay.py ['run'] {}\n"}
+,{"stream_name":"stdout","time":59.286821327,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stdout","time":59.286849441,"data":"I0000 00:00:1794245512.373503      33 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.\n"}
+,{"stream_name":"stdout","time":170.065424824,"data":"loaded in 132s | items sha ac4121c22f88fe31 | layers 28 | rows ['none', 'relay', 'op', 'oth', 'op_L16', 'op_L18', 'op_L20', 'op_L21', 'op_L22', 'op_L23', 'op_L24', 'pre_L16', 'pre_L18', 'pre_L20', 'pre_L21', 'pre_L22', 'pre_L23', 'pre_L24']\n"}
+,{"stream_name":"stdout","time":170.105833783,"data":"D1: 20238 candidates after skipping the pilot's\n"}
+,{"stream_name":"stdout","time":173.641117518,"data":"D1: 1 pairs (1 tried; 3.54 s/pair) | hit so far: none 0.000 relay 0.000 op 1.000 oth 0.000\n"}
+,{"stream_name":"stdout","time":202.881155536,"data":"D1: 20 pairs (32 tried; 1.64 s/pair) | hit so far: none 0.000 relay 0.000 op 0.950 oth 0.000\n"}
+,{"stream_name":"stdout","time":335.617831585,"data":"D1: 100 pairs (136 tried; 1.66 s/pair) | hit so far: none 0.000 relay 0.000 op 0.900 oth 0.090\n"}
+,{"stream_name":"stdout","time":518.431286294,"data":"D1: 200 pairs (293 tried; 1.74 s/pair) | hit so far: none 0.000 relay 0.005 op 0.905 oth 0.075\n"}
+,{"stream_name":"stdout","time":877.578790514,"data":"D1: 400 pairs (571 tried; 1.77 s/pair) | hit so far: none 0.000 relay 0.003 op 0.912 oth 0.065\n"}
+,{"stream_name":"stdout","time":1234.284928073,"data":"D1: 600 pairs (838 tried; 1.77 s/pair) | hit so far: none 0.000 relay 0.003 op 0.910 oth 0.062\n"}
+,{"stream_name":"stdout","time":1594.675753088,"data":"D1: 800 pairs (1123 tried; 1.78 s/pair) | hit so far: none 0.000 relay 0.003 op 0.904 oth 0.064\n"}
+,{"stream_name":"stdout","time":1957.222257924,"data":"D1: 1000 pairs (1418 tried; 1.79 s/pair) | hit so far: none 0.000 relay 0.003 op 0.898 oth 0.058\n"}
+,{"stream_name":"stdout","time":1957.222530873,"data":"D1: 1000 pairs from 1418 candidates tried\n"}
+,{"stream_name":"stdout","time":1957.227498845,"data":"D2: 13470 candidates after skipping the pilot's\n"}
+,{"stream_name":"stdout","time":1959.157448656,"data":"D2: 1 pairs (2 tried; 1.79 s/pair) | hit so far: none 0.000 relay 0.000 op 1.000 oth 0.000\n"}
+,{"stream_name":"stdout","time":1994.878625115,"data":"D2: 20 pairs (36 tried; 1.79 s/pair) | hit so far: none 0.000 relay 0.000 op 0.900 oth 0.000\n"}
+,{"stream_name":"stdout","time":2140.165280985,"data":"D2: 100 pairs (156 tried; 1.79 s/pair) | hit so far: none 0.000 relay 0.000 op 0.850 oth 0.000\n"}
+,{"stream_name":"stdout","time":2321.421350518,"data":"D2: 200 pairs (304 tried; 1.79 s/pair) | hit so far: none 0.000 relay 0.005 op 0.840 oth 0.020\n"}
+,{"stream_name":"stdout","time":2694.057808887,"data":"D2: 400 pairs (647 tried; 1.80 s/pair) | hit so far: none 0.000 relay 0.003 op 0.875 oth 0.013\n"}
+,{"stream_name":"stdout","time":3064.816422285,"data":"D2: 600 pairs (981 tried; 1.81 s/pair) | hit so far: none 0.000 relay 0.003 op 0.875 oth 0.013\n"}
+,{"stream_name":"stdout","time":3432.461207158,"data":"D2: 800 pairs (1300 tried; 1.81 s/pair) | hit so far: none 0.000 relay 0.003 op 0.880 oth 0.013\n"}
+,{"stream_name":"stdout","time":3798.719999573,"data":"D2: 1000 pairs (1613 tried; 1.81 s/pair) | hit so far: none 0.000 relay 0.002 op 0.876 oth 0.013\n"}
+,{"stream_name":"stdout","time":3798.720068301,"data":"D2: 1000 pairs from 1613 candidates tried\n"}
+,{"stream_name":"stdout","time":3798.773341327,"data":"done (3760s)\n"}
+,{"stream_name":"stdout","time":3798.941983179,"data":"\n"}
+,{"stream_name":"stdout","time":3798.942006961,"data":"D1 (1000 pairs, 120 families): relay - none +0.003 [+0.000, +0.007] -\u003e NOT-HELD (gate: hit(op) 0.898)\n"}
+,{"stream_name":"stdout","time":3798.942283663,"data":"  none 0.000(0.999)  relay 0.003(0.994)  op 0.898(0.054)  oth 0.058(0.860)   [hit P (kept A)]\n"}
+,{"stream_name":"stdout","time":3798.942602545,"data":"  op  single: L16 0.803(0.119)  L18 0.791(0.123)  L20 0.786(0.125)  L21 0.784(0.126)  L22 0.695(0.189)  L23 0.018(0.970)  L24 0.001(0.998)\n"}
+,{"stream_name":"stdout","time":3798.942871345,"data":"  pre single: L16 0.004(0.953)  L18 0.003(0.934)  L20 0.027(0.829)  L21 0.031(0.816)  L22 0.055(0.754)  L23 0.052(0.897)  L24 0.000(0.997)\n"}
+,{"stream_name":"stdout","time":3799.077795427,"data":"\n"}
+,{"stream_name":"stdout","time":3799.077820509,"data":"D2 (1000 pairs, 119 families): relay - none +0.002 [+0.000, +0.006] -\u003e NOT-HELD (gate: hit(op) 0.876)\n"}
+,{"stream_name":"stdout","time":3799.077900293,"data":"  none 0.000(0.999)  relay 0.002(0.993)  op 0.876(0.079)  oth 0.013(0.933)   [hit P (kept A)]\n"}
+,{"stream_name":"stdout","time":3799.078162761,"data":"  op  single: L16 0.868(0.098)  L18 0.844(0.120)  L20 0.613(0.326)  L21 0.601(0.335)  L22 0.396(0.524)  L23 0.005(0.990)  L24 0.000(0.999)\n"}
+,{"stream_name":"stdout","time":3799.078465528,"data":"  pre single: L16 0.019(0.940)  L18 0.027(0.919)  L20 0.187(0.716)  L21 0.198(0.714)  L22 0.263(0.678)  L23 0.086(0.889)  L24 0.000(0.998)\n"}
+,{"stream_name":"stdout","time":3799.078630199,"data":"labels {'D1': 'NOT-HELD', 'D2': 'NOT-HELD'} -\u003e verdict NOT-HELD\n"}
+,{"stream_name":"stderr","time":3807.067214169,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":3807.067245891,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":3807.390906046,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":3807.39092893,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":3808.266382471,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":3809.05893845,"data":"[NbConvertApp] Writing 303633 bytes to __results__.html\n"}
+]

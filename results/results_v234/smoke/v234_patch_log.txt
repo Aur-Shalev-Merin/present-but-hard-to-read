@@ -1,0 +1,5 @@
+v234 patch | 60 pairs | smoke True | items sha ac4121c22f88fe31 | loaded in 22s
+1/60 pairs (1.60 s/pair) | hit P so far: none 0.000 cB 0.000 cBo 0.000 cA 0.000 cD 0.000 cK 0.000 cR 0.000 full 1.000
+20/60 pairs (0.96 s/pair) | hit P so far: none 0.000 cB 0.000 cBo 0.000 cA 0.000 cD 0.000 cK 0.000 cR 0.000 full 1.000
+60/60 pairs (0.94 s/pair) | hit P so far: none 0.000 cB 0.000 cBo 0.000 cA 0.000 cD 0.000 cK 0.000 cR 0.000 full 0.417
+done (79s)

@@ -1,0 +1,24 @@
+=== v234_patch.py ['extract', '/kaggle/input'] {}
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794189700.398618      33 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+v234 patch | 3000 pairs | smoke False | items sha ac4121c22f88fe31 | loaded in 130s
+1/3000 pairs (3.37 s/pair) | hit P so far: none 0.000 cB 0.000 cBo 0.000 cA 0.000 cD 1.000 cK 0.000 cR 0.000 full 1.000
+20/3000 pairs (1.07 s/pair) | hit P so far: none 0.000 cB 0.050 cBo 0.000 cA 0.050 cD 0.800 cK 0.000 cR 0.000 full 0.850
+100/3000 pairs (0.98 s/pair) | hit P so far: none 0.000 cB 0.170 cBo 0.030 cA 0.060 cD 0.850 cK 0.000 cR 0.000 full 0.880
+250/3000 pairs (0.97 s/pair) | hit P so far: none 0.000 cB 0.188 cBo 0.048 cA 0.088 cD 0.868 cK 0.008 cR 0.004 full 0.868
+500/3000 pairs (0.96 s/pair) | hit P so far: none 0.000 cB 0.198 cBo 0.046 cA 0.094 cD 0.876 cK 0.004 cR 0.002 full 0.864
+750/3000 pairs (0.96 s/pair) | hit P so far: none 0.000 cB 0.207 cBo 0.043 cA 0.101 cD 0.879 cK 0.003 cR 0.001 full 0.859
+1000/3000 pairs (0.96 s/pair) | hit P so far: none 0.000 cB 0.203 cBo 0.039 cA 0.099 cD 0.884 cK 0.002 cR 0.001 full 0.865
+1250/3000 pairs (0.96 s/pair) | hit P so far: none 0.000 cB 0.172 cBo 0.039 cA 0.083 cD 0.759 cK 0.011 cR 0.001 full 0.692
+1500/3000 pairs (0.96 s/pair) | hit P so far: none 0.000 cB 0.153 cBo 0.037 cA 0.075 cD 0.668 cK 0.023 cR 0.001 full 0.577
+1750/3000 pairs (0.96 s/pair) | hit P so far: none 0.000 cB 0.138 cBo 0.038 cA 0.067 cD 0.603 cK 0.027 cR 0.001 full 0.494
+2000/3000 pairs (0.96 s/pair) | hit P so far: none 0.000 cB 0.132 cBo 0.040 cA 0.060 cD 0.560 cK 0.034 cR 0.001 full 0.432
+2250/3000 pairs (0.96 s/pair) | hit P so far: none 0.000 cB 0.117 cBo 0.036 cA 0.053 cD 0.498 cK 0.030 cR 0.000 full 0.384
+2500/3000 pairs (0.96 s/pair) | hit P so far: none 0.000 cB 0.105 cBo 0.032 cA 0.048 cD 0.448 cK 0.027 cR 0.000 full 0.346
+2750/3000 pairs (0.96 s/pair) | hit P so far: none 0.000 cB 0.096 cBo 0.029 cA 0.044 cD 0.407 cK 0.025 cR 0.000 full 0.315
+3000/3000 pairs (0.96 s/pair) | hit P so far: none 0.000 cB 0.088 cBo 0.027 cA 0.040 cD 0.373 cK 0.023 cR 0.000 full 0.289
+done (3000s)
+=== v234_patch.py ['analyse', '.'] {}
+eq (1000 pairs): hit P none 0.000 cB 0.203 cBo 0.039 cA 0.099 cD 0.884 cK 0.002 cR 0.001 full 0.865 | kept A none 1.000 cB 0.706 cBo 0.906 cA 0.802 cD 0.063 cK 0.982 cR 0.997 full 0.087 | cBo - cR +0.0380 [+0.0228, +0.0559] -> UNCLEAR
+pre (1000 pairs): hit P none 0.000 cB 0.060 cBo 0.041 cA 0.021 cD 0.236 cK 0.066 cR 0.000 full 0.000 | kept A none 1.000 cB 0.880 cBo 0.897 cA 0.859 cD 0.655 cK 0.768 cR 1.000 full 1.000 | cBo - cR +0.0410 [+0.0269, +0.0567] -> UNSCORABLE
+last (1000 pairs): hit P none 0.000 cB 0.000 cBo 0.001 cA 0.000 cD 0.000 cK 0.000 cR 0.000 full 0.002 | kept A none 1.000 cB 0.999 cBo 0.999 cA 0.999 cD 0.999 cK 1.000 cR 1.000 full 0.995 | cBo - cR +0.0010 [+0.0000, +0.0040] -> UNSCORABLE

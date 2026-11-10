@@ -1,0 +1,21 @@
+=== v234_extract.py [] {'V234_PILOT': '1'}
+v234 extract | pilot True | items sha ac4121c22f88fe31 (frozen not yet)
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794005298.502116      33 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+loaded Qwen/Qwen2.5-7B in 129s | 40 items
+positions {'eq': 79, 'last': 82, 'pre': 85} -> {'eq': '3', 'last': '?', 'pre': ' '} | answer token 86 '8'
+item     1/40 (2.011 s/item) | answer correct so far 1.000
+item    40/40 (0.157 s/item) | answer correct so far 0.825
+done: 40 items, answer correct 0.8250 (135s)
+=== v234_patch.py ['extract', 'SMOKE'] {'V234_SMOKE': '1'}
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794005431.666444     253 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+v234 patch | 60 pairs | smoke True | items sha ac4121c22f88fe31 | loaded in 22s
+1/60 pairs (1.60 s/pair) | hit P so far: none 0.000 cB 0.000 cBo 0.000 cA 0.000 cD 0.000 cK 0.000 cR 0.000 full 1.000
+20/60 pairs (0.96 s/pair) | hit P so far: none 0.000 cB 0.000 cBo 0.000 cA 0.000 cD 0.000 cK 0.000 cR 0.000 full 1.000
+60/60 pairs (0.94 s/pair) | hit P so far: none 0.000 cB 0.000 cBo 0.000 cA 0.000 cD 0.000 cK 0.000 cR 0.000 full 0.417
+done (79s)
+=== v234_patch.py ['analyse', '.'] {}
+eq (20 pairs, SMOKE): hit P none 0.000 cB 0.000 cBo 0.000 cA 0.000 cD 0.000 cK 0.000 cR 0.000 full 1.000 | kept A none 1.000 cB 1.000 cBo 1.000 cA 1.000 cD 1.000 cK 1.000 cR 1.000 full 0.000 | cBo - cR +0.0000 [+0.0000, +0.0000] -> UNSCORABLE
+pre (20 pairs, SMOKE): hit P none 0.000 cB 0.000 cBo 0.000 cA 0.000 cD 0.000 cK 0.000 cR 0.000 full 0.250 | kept A none 1.000 cB 1.000 cBo 1.000 cA 1.000 cD 1.000 cK 1.000 cR 1.000 full 0.750 | cBo - cR +0.0000 [+0.0000, +0.0000] -> UNSCORABLE
+last (20 pairs, SMOKE): hit P none 0.000 cB 0.000 cBo 0.000 cA 0.000 cD 0.000 cK 0.000 cR 0.000 full 0.000 | kept A none 1.000 cB 1.000 cBo 1.000 cA 1.000 cD 1.000 cK 1.000 cR 1.000 full 1.000 | cBo - cR +0.0000 [+0.0000, +0.0000] -> UNSCORABLE

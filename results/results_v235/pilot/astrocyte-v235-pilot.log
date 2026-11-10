@@ -1,0 +1,62 @@
+[{"stream_name":"stdout","time":1.060526793,"data":"v235_pilot.py 442760543b204add\n"}
+,{"stream_name":"stdout","time":1.06294724,"data":"v235_cities.json 5299759bc458e12e\n"}
+,{"stream_name":"stdout","time":1.063215015,"data":"v235_persons.json 5e10468f500ce34d\n"}
+,{"stream_name":"stderr","time":17.60268909,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":17.602722078,"data":"gradio-client 2.7.2 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":17.602726875,"data":"gradio 6.30.0 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":17.602730328,"data":"gradio 6.30.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":17.602733877,"data":"diffusers 0.42.0 requires huggingface-hub\u003c3.0,\u003e=1.32.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":17.825384264,"data":"=== v235_pilot.py [] {}\n"}
+,{"stream_name":"stdout","time":57.51161997,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stdout","time":57.511660032,"data":"I0000 00:00:1794005693.599455      33 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.\n"}
+,{"stream_name":"stdout","time":163.595204844,"data":"loaded in 127s | capital first tokens: [' Buenos', ' Bras', ' Ottawa', ' Bog', ' Cairo', ' Paris', ' Berlin', ' New', ' Jakarta', ' Tehran', ' Rome', ' Tokyo', ' Abu', ' Islamabad', ' Beijing', ' Lima', ' Manila', ' Warsaw', ' Moscow', ' Seoul', ' Madrid', ' Ankara', ' London', ' Washington', ' H'] | collisions: {}\n"}
+,{"stream_name":"stdout","time":163.598997399,"data":"2435 prompts; example:\n"}
+,{"stream_name":"stdout","time":163.599019731,"data":"The capital of the country where the city of Sydney is located is Canberra.\n"}
+,{"stream_name":"stdout","time":163.599023382,"data":"The capital of the country where the city of Gothenburg is located is Stockholm.\n"}
+,{"stream_name":"stdout","time":163.599026563,"data":"The capital of the country where the city of Mombasa is located is Nairobi.\n"}
+,{"stream_name":"stdout","time":163.599029765,"data":"The capital of the country where the city of Chongqing is located is\n"}
+,{"stream_name":"stdout","time":166.600494854,"data":"1/2435 (3.00 s/prompt)\n"}
+,{"stream_name":"stdout","time":237.596578992,"data":"50/2435 (1.48 s/prompt)\n"}
+,{"stream_name":"stdout","time":544.385597039,"data":"200/2435 (1.90 s/prompt)\n"}
+,{"stream_name":"stdout","time":1156.059476792,"data":"500/2435 (1.98 s/prompt)\n"}
+,{"stream_name":"stdout","time":2184.655448277,"data":"1000/2435 (2.02 s/prompt)\n"}
+,{"stream_name":"stdout","time":3215.650391386,"data":"1500/2435 (2.03 s/prompt)\n"}
+,{"stream_name":"stdout","time":4241.28057941,"data":"2000/2435 (2.04 s/prompt)\n"}
+,{"stream_name":"stdout","time":5097.152496935,"data":"2435/2435 (2.03 s/prompt)\n"}
+,{"stream_name":"stdout","time":5097.17592625,"data":"\n"}
+,{"stream_name":"stdout","time":5097.175956073,"data":"accuracy (full continuation; first token for capitals in brackets)\n"}
+,{"stream_name":"stdout","time":5097.17596389,"data":"country                           cap  city-\u003ec   city-\u003ecap 2hop  pers-\u003ec   pers-\u003ecap 2hop\n"}
+,{"stream_name":"stdout","time":5097.1778475,"data":"Argentina                      1.00/1  0.90/39   0.92/39 [0.92]   1.00/6    1.00/6 [1.00]\n"}
+,{"stream_name":"stdout","time":5097.179495971,"data":"Brazil                         1.00/1  1.00/60   1.00/60 [1.00]   1.00/3    1.00/3 [1.00]\n"}
+,{"stream_name":"stdout","time":5097.180964492,"data":"Canada                         1.00/1  1.00/25   0.96/25 [0.96]   1.00/4    1.00/4 [1.00]\n"}
+,{"stream_name":"stdout","time":5097.182578437,"data":"Colombia                       1.00/1  0.91/22   0.95/22 [0.95]   1.00/4    1.00/4 [1.00]\n"}
+,{"stream_name":"stdout","time":5097.184143753,"data":"Egypt                          1.00/1  0.85/47   0.87/47 [0.85]   1.00/6    1.00/6 [1.00]\n"}
+,{"stream_name":"stdout","time":5097.185561705,"data":"France                         1.00/1  1.00/18   1.00/18 [1.00]   0.83/6    0.83/6 [0.83]\n"}
+,{"stream_name":"stdout","time":5097.187026083,"data":"Germany                        1.00/1  1.00/56   1.00/56 [1.00]   1.00/5    0.80/5 [0.80]\n"}
+,{"stream_name":"stdout","time":5097.188599792,"data":"India                          1.00/1  1.00/60   1.00/60 [1.00]   1.00/5    1.00/5 [1.00]\n"}
+,{"stream_name":"stdout","time":5097.190241961,"data":"Indonesia                      1.00/1  1.00/60   1.00/60 [1.00]   1.00/2    1.00/2 [1.00]\n"}
+,{"stream_name":"stdout","time":5097.191778538,"data":"Iran                           1.00/1  0.95/42   0.93/42 [0.93]   1.00/1    0.00/1 [0.00]\n"}
+,{"stream_name":"stdout","time":5097.19334326,"data":"Italy                          1.00/1  1.00/21   1.00/21 [1.00]   1.00/4    0.50/4 [0.50]\n"}
+,{"stream_name":"stdout","time":5097.194864646,"data":"Japan                          1.00/1  1.00/60   1.00/60 [1.00]   1.00/5    1.00/5 [1.00]\n"}
+,{"stream_name":"stdout","time":5097.196367522,"data":"Nigeria                        1.00/1  0.93/56   0.95/56 [0.95]   1.00/8    0.88/8 [0.88]\n"}
+,{"stream_name":"stdout","time":5097.197899696,"data":"Pakistan                       1.00/1  0.94/54   0.98/54 [0.98]   0.75/4    1.00/4 [1.00]\n"}
+,{"stream_name":"stdout","time":5097.199731231,"data":"People's Republic of China     1.00/1  1.00/60   0.98/60 [0.97]   1.00/4    1.00/4 [1.00]\n"}
+,{"stream_name":"stdout","time":5097.20123558,"data":"Peru                           1.00/1  1.00/21   1.00/21 [1.00]   0.50/2    0.50/2 [0.50]\n"}
+,{"stream_name":"stdout","time":5097.202757724,"data":"Philippines                    1.00/1  0.93/60   0.95/60 [0.95]   0.80/5    1.00/5 [1.00]\n"}
+,{"stream_name":"stdout","time":5097.204185388,"data":"Poland                         1.00/1  1.00/15   1.00/15 [1.00]   1.00/4    1.00/4 [1.00]\n"}
+,{"stream_name":"stdout","time":5097.205640991,"data":"Russia                         1.00/1  1.00/60   1.00/60 [1.00]   1.00/5    1.00/5 [1.00]\n"}
+,{"stream_name":"stdout","time":5097.207108897,"data":"South Korea                    1.00/1  0.98/60   0.98/60 [0.98]   1.00/3    1.00/3 [1.00]\n"}
+,{"stream_name":"stdout","time":5097.208579663,"data":"Spain                          1.00/1  1.00/29   1.00/29 [1.00]   1.00/5    1.00/5 [1.00]\n"}
+,{"stream_name":"stdout","time":5097.210310284,"data":"Turkey                         1.00/1  1.00/54   1.00/54 [1.00]   1.00/4    1.00/4 [1.00]\n"}
+,{"stream_name":"stdout","time":5097.211907458,"data":"United Kingdom                 1.00/1  0.92/36   0.97/36 [0.97]   0.83/6    1.00/6 [1.00]\n"}
+,{"stream_name":"stdout","time":5097.213514053,"data":"United States                  1.00/1  1.00/60   0.98/60 [0.98]  0.75/16   0.38/16 [0.19]\n"}
+,{"stream_name":"stdout","time":5097.215032475,"data":"Vietnam                        1.00/1   1.00/8    1.00/8 [1.00]   1.00/5    1.00/5 [1.00]\n"}
+,{"stream_name":"stdout","time":5097.220059445,"data":"ALL                           1.00/25 0.97/1083 0.98/1083 [0.98] 0.93/122  0.86/122 [0.84]\n"}
+,{"stream_name":"stdout","time":5097.221365716,"data":"two-hop city-\u003ecapital: all 0.977; among cities whose country it knows 0.995 (1053); first-token agrees with full 0.995; done 5061s\n"}
+,{"stream_name":"stderr","time":5105.208131132,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":5105.208175746,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":5105.531324815,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":5105.531350573,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":5106.375486782,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":5107.11470654,"data":"[NbConvertApp] Writing 313475 bytes to __results__.html\n"}
+]
