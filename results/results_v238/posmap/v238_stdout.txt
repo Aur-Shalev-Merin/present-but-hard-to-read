@@ -1,0 +1,56 @@
+=== v238_posmap.py ['run'] {}
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794334327.421168      32 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+loaded in 128s | items sha ac4121c22f88fe31 | 2000 pairs | rows ['none', 'relay', 'one_semi', 'one_qa', 'one_last', 'one_ta', 'one_teq', 'drop_semi', 'drop_qa', 'drop_last', 'drop_ta', 'drop_teq', 'relay_L8', 'relay_L12', 'relay_L16', 'relay_L20', 'relay_L22', 'relay_L23']
+1 pairs (3.46 s/pair) | relay so far 0.000
+20 pairs (1.38 s/pair) | relay so far 0.100
+100 pairs (1.34 s/pair) | relay so far 0.080
+250 pairs (1.36 s/pair) | relay so far 0.080
+500 pairs (1.39 s/pair) | relay so far 0.076
+750 pairs (1.40 s/pair) | relay so far 0.085
+1000 pairs (1.41 s/pair) | relay so far 0.081
+1250 pairs (1.41 s/pair) | relay so far 0.081
+1500 pairs (1.41 s/pair) | relay so far 0.081
+1750 pairs (1.42 s/pair) | relay so far 0.082
+2000 pairs (1.44 s/pair) | relay so far 0.082
+
+E1 (1000 pairs): hit A' [97.5% CI] (kept A)
+  none       0.000 [0.000, 0.000] (0.999)
+  relay      0.081 [0.061, 0.103] (0.865)
+  one_semi   0.008 [0.003, 0.015] (0.980)
+  one_qa     0.000 [0.000, 0.000] (0.994)
+  one_last   0.000 [0.000, 0.000] (0.998)
+  one_ta     0.000 [0.000, 0.000] (0.998)
+  one_teq    0.058 [0.041, 0.077] (0.902)
+  drop_semi  0.073 [0.053, 0.096] (0.878)
+  drop_qa    0.078 [0.058, 0.100] (0.869)
+  drop_last  0.080 [0.060, 0.102] (0.868)
+  drop_ta    0.079 [0.059, 0.101] (0.870)
+  drop_teq   0.011 [0.005, 0.019] (0.975)
+  relay_L8   0.001 [0.000, 0.004] (0.996)
+  relay_L12  0.003 [0.000, 0.008] (0.992)
+  relay_L16  0.006 [0.001, 0.012] (0.981)
+  relay_L20  0.030 [0.017, 0.045] (0.947)
+  relay_L22  0.024 [0.014, 0.036] (0.956)
+  relay_L23  0.044 [0.030, 0.059] (0.924)
+
+E2 (1000 pairs): hit A' [97.5% CI] (kept A)
+  none       0.000 [0.000, 0.000] (0.999)
+  relay      0.083 [0.062, 0.107] (0.887)
+  one_semi   0.014 [0.006, 0.024] (0.977)
+  one_qa     0.003 [0.000, 0.007] (0.994)
+  one_last   0.001 [0.000, 0.004] (0.998)
+  one_ta     0.000 [0.000, 0.000] (0.999)
+  one_teq    0.054 [0.037, 0.074] (0.920)
+  drop_semi  0.066 [0.046, 0.088] (0.906)
+  drop_qa    0.084 [0.063, 0.107] (0.887)
+  drop_last  0.082 [0.061, 0.105] (0.889)
+  drop_ta    0.079 [0.058, 0.102] (0.891)
+  drop_teq   0.020 [0.010, 0.032] (0.964)
+  relay_L8   0.000 [0.000, 0.000] (0.998)
+  relay_L12  0.003 [0.000, 0.007] (0.994)
+  relay_L16  0.008 [0.002, 0.015] (0.985)
+  relay_L20  0.041 [0.026, 0.058] (0.937)
+  relay_L22  0.033 [0.020, 0.048] (0.944)
+  relay_L23  0.042 [0.027, 0.060] (0.936)
+done (3015s)

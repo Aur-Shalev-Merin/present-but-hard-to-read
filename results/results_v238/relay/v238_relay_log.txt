@@ -1,0 +1,33 @@
+loaded in 133s | items sha ac4121c22f88fe31 | layers 28 | rows ['none', 'relay', 'op', 'oth', 'op_L16', 'op_L18', 'op_L20', 'op_L21', 'op_L22', 'op_L23', 'op_L24', 'pre_L16', 'pre_L18', 'pre_L20', 'pre_L21', 'pre_L22', 'pre_L23', 'pre_L24']
+E1: 72000 candidates
+E1: 1 pairs (1 tried; 3.72 s/pair) | hit so far: none 0.000 relay 0.000 op 1.000 oth 0.000
+E1: 20 pairs (23 tried; 1.51 s/pair) | hit so far: none 0.000 relay 0.100 op 1.000 oth 0.000
+E1: 100 pairs (125 tried; 1.55 s/pair) | hit so far: none 0.000 relay 0.080 op 1.000 oth 0.060
+E1: 200 pairs (256 tried; 1.63 s/pair) | hit so far: none 0.000 relay 0.085 op 1.000 oth 0.070
+E1: 400 pairs (518 tried; 1.67 s/pair) | hit so far: none 0.000 relay 0.070 op 1.000 oth 0.068
+E1: 600 pairs (791 tried; 1.68 s/pair) | hit so far: none 0.000 relay 0.077 op 0.998 oth 0.060
+E1: 800 pairs (1058 tried; 1.69 s/pair) | hit so far: none 0.000 relay 0.086 op 0.998 oth 0.065
+E1: 1000 pairs (1334 tried; 1.69 s/pair) | hit so far: none 0.000 relay 0.081 op 0.998 oth 0.069
+E1: 1000 pairs from 1334 candidates tried
+E2: 28800 candidates
+E2: 1 pairs (1 tried; 1.69 s/pair) | hit so far: none 0.000 relay 0.000 op 1.000 oth 0.000
+E2: 20 pairs (35 tried; 1.70 s/pair) | hit so far: none 0.000 relay 0.200 op 1.000 oth 0.000
+E2: 100 pairs (182 tried; 1.71 s/pair) | hit so far: none 0.000 relay 0.080 op 1.000 oth 0.000
+E2: 200 pairs (330 tried; 1.71 s/pair) | hit so far: none 0.000 relay 0.080 op 1.000 oth 0.000
+E2: 400 pairs (616 tried; 1.71 s/pair) | hit so far: none 0.000 relay 0.087 op 1.000 oth 0.000
+E2: 600 pairs (940 tried; 1.72 s/pair) | hit so far: none 0.000 relay 0.085 op 0.998 oth 0.000
+E2: 800 pairs (1236 tried; 1.72 s/pair) | hit so far: none 0.000 relay 0.081 op 0.999 oth 0.000
+E2: 1000 pairs (1548 tried; 1.72 s/pair) | hit so far: none 0.000 relay 0.083 op 0.999 oth 0.000
+E2: 1000 pairs from 1548 candidates tried
+done (3581s)
+
+E1 (1000 pairs, 120 families): relay - none +0.081 [+0.061, +0.103] -> UNCLEAR (gate: hit(op) 0.998)
+  none 0.000(0.999)  relay 0.081(0.865)  op 0.998(0.001)  oth 0.069(0.848)   [hit A' (kept A)]
+  op  single: L16 0.815(0.106)  L18 0.811(0.108)  L20 0.755(0.139)  L21 0.747(0.143)  L22 0.672(0.199)  L23 0.030(0.956)  L24 0.000(0.999)
+  pre single: L16 0.007(0.989)  L18 0.009(0.983)  L20 0.075(0.889)  L21 0.086(0.870)  L22 0.130(0.780)  L23 0.763(0.165)  L24 0.900(0.052)
+
+E2 (1000 pairs, 120 families): relay - none +0.083 [+0.062, +0.107] -> UNCLEAR (gate: hit(op) 0.999)
+  none 0.000(0.999)  relay 0.083(0.887)  op 0.999(0.000)  oth 0.000(1.000)   [hit A' (kept A)]
+  op  single: L16 0.976(0.015)  L18 0.972(0.018)  L20 0.635(0.307)  L21 0.612(0.334)  L22 0.402(0.528)  L23 0.006(0.988)  L24 0.000(0.998)
+  pre single: L16 0.010(0.982)  L18 0.013(0.975)  L20 0.266(0.702)  L21 0.292(0.671)  L22 0.452(0.490)  L23 0.947(0.036)  L24 0.960(0.028)
+labels {'E1': 'UNCLEAR', 'E2': 'UNCLEAR'} -> verdict UNCLEAR

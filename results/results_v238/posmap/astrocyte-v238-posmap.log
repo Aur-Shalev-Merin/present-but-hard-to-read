@@ -1,0 +1,76 @@
+[{"stream_name":"stdout","time":1.037444737,"data":"v215_pilot.py d049a0b2d81fb80b\n"}
+,{"stream_name":"stdout","time":1.037479563,"data":"v215_items.py 9249f0523d7219eb\n"}
+,{"stream_name":"stdout","time":1.037485531,"data":"v216_items.py a2ebd48b899fed40\n"}
+,{"stream_name":"stdout","time":1.037490041,"data":"v234_items.py fa7374fd6378d679\n"}
+,{"stream_name":"stdout","time":1.037494083,"data":"v236_pilot.py 1491005d4bb6f3db\n"}
+,{"stream_name":"stdout","time":1.037497592,"data":"v236_relay.py 1fed70f2c09a18bd\n"}
+,{"stream_name":"stdout","time":1.037501072,"data":"v238_posmap.py f94004a8421df523\n"}
+,{"stream_name":"stdout","time":1.039866436,"data":"v238_pairs.json c5439d64cd782f91\n"}
+,{"stream_name":"stderr","time":22.123222621,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":22.123251613,"data":"gradio-client 2.7.2 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":22.123255544,"data":"gradio 6.30.0 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":22.123258324,"data":"gradio 6.30.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":22.123261754,"data":"diffusers 0.42.0 requires huggingface-hub\u003c3.0,\u003e=1.32.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":22.349294723,"data":"=== v238_posmap.py ['run'] {}\n"}
+,{"stream_name":"stdout","time":61.856844774,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stdout","time":61.856877444,"data":"I0000 00:00:1794334327.421168      32 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.\n"}
+,{"stream_name":"stdout","time":169.011539879,"data":"loaded in 128s | items sha ac4121c22f88fe31 | 2000 pairs | rows ['none', 'relay', 'one_semi', 'one_qa', 'one_last', 'one_ta', 'one_teq', 'drop_semi', 'drop_qa', 'drop_last', 'drop_ta', 'drop_teq', 'relay_L8', 'relay_L12', 'relay_L16', 'relay_L20', 'relay_L22', 'relay_L23']\n"}
+,{"stream_name":"stdout","time":172.474379836,"data":"1 pairs (3.46 s/pair) | relay so far 0.000\n"}
+,{"stream_name":"stdout","time":196.69085306,"data":"20 pairs (1.38 s/pair) | relay so far 0.100\n"}
+,{"stream_name":"stdout","time":302.843616461,"data":"100 pairs (1.34 s/pair) | relay so far 0.080\n"}
+,{"stream_name":"stdout","time":510.083507589,"data":"250 pairs (1.36 s/pair) | relay so far 0.080\n"}
+,{"stream_name":"stdout","time":864.087302656,"data":"500 pairs (1.39 s/pair) | relay so far 0.076\n"}
+,{"stream_name":"stdout","time":1219.746725937,"data":"750 pairs (1.40 s/pair) | relay so far 0.085\n"}
+,{"stream_name":"stdout","time":1575.643304191,"data":"1000 pairs (1.41 s/pair) | relay so far 0.081\n"}
+,{"stream_name":"stdout","time":1932.030600156,"data":"1250 pairs (1.41 s/pair) | relay so far 0.081\n"}
+,{"stream_name":"stdout","time":2288.379481582,"data":"1500 pairs (1.41 s/pair) | relay so far 0.081\n"}
+,{"stream_name":"stdout","time":2653.195629778,"data":"1750 pairs (1.42 s/pair) | relay so far 0.082\n"}
+,{"stream_name":"stdout","time":3050.883416732,"data":"2000 pairs (1.44 s/pair) | relay so far 0.082\n"}
+,{"stream_name":"stdout","time":3050.937352452,"data":"\n"}
+,{"stream_name":"stdout","time":3050.9373736,"data":"E1 (1000 pairs): hit A' [97.5% CI] (kept A)\n"}
+,{"stream_name":"stdout","time":3051.1062644,"data":"  none       0.000 [0.000, 0.000] (0.999)\n"}
+,{"stream_name":"stdout","time":3051.225119392,"data":"  relay      0.081 [0.061, 0.103] (0.865)\n"}
+,{"stream_name":"stdout","time":3051.346589931,"data":"  one_semi   0.008 [0.003, 0.015] (0.980)\n"}
+,{"stream_name":"stdout","time":3051.462098958,"data":"  one_qa     0.000 [0.000, 0.000] (0.994)\n"}
+,{"stream_name":"stdout","time":3051.581659558,"data":"  one_last   0.000 [0.000, 0.000] (0.998)\n"}
+,{"stream_name":"stdout","time":3051.704375359,"data":"  one_ta     0.000 [0.000, 0.000] (0.998)\n"}
+,{"stream_name":"stdout","time":3051.824797369,"data":"  one_teq    0.058 [0.041, 0.077] (0.902)\n"}
+,{"stream_name":"stdout","time":3051.940605285,"data":"  drop_semi  0.073 [0.053, 0.096] (0.878)\n"}
+,{"stream_name":"stdout","time":3052.065863894,"data":"  drop_qa    0.078 [0.058, 0.100] (0.869)\n"}
+,{"stream_name":"stdout","time":3052.187063859,"data":"  drop_last  0.080 [0.060, 0.102] (0.868)\n"}
+,{"stream_name":"stdout","time":3052.309685101,"data":"  drop_ta    0.079 [0.059, 0.101] (0.870)\n"}
+,{"stream_name":"stdout","time":3052.427377932,"data":"  drop_teq   0.011 [0.005, 0.019] (0.975)\n"}
+,{"stream_name":"stdout","time":3052.549150084,"data":"  relay_L8   0.001 [0.000, 0.004] (0.996)\n"}
+,{"stream_name":"stdout","time":3052.672856197,"data":"  relay_L12  0.003 [0.000, 0.008] (0.992)\n"}
+,{"stream_name":"stdout","time":3052.793908506,"data":"  relay_L16  0.006 [0.001, 0.012] (0.981)\n"}
+,{"stream_name":"stdout","time":3052.914922484,"data":"  relay_L20  0.030 [0.017, 0.045] (0.947)\n"}
+,{"stream_name":"stdout","time":3053.038030739,"data":"  relay_L22  0.024 [0.014, 0.036] (0.956)\n"}
+,{"stream_name":"stdout","time":3053.155803677,"data":"  relay_L23  0.044 [0.030, 0.059] (0.924)\n"}
+,{"stream_name":"stdout","time":3053.156349908,"data":"\n"}
+,{"stream_name":"stdout","time":3053.156365926,"data":"E2 (1000 pairs): hit A' [97.5% CI] (kept A)\n"}
+,{"stream_name":"stdout","time":3053.275550427,"data":"  none       0.000 [0.000, 0.000] (0.999)\n"}
+,{"stream_name":"stdout","time":3053.396431712,"data":"  relay      0.083 [0.062, 0.107] (0.887)\n"}
+,{"stream_name":"stdout","time":3053.511514974,"data":"  one_semi   0.014 [0.006, 0.024] (0.977)\n"}
+,{"stream_name":"stdout","time":3053.632641984,"data":"  one_qa     0.003 [0.000, 0.007] (0.994)\n"}
+,{"stream_name":"stdout","time":3053.765097574,"data":"  one_last   0.001 [0.000, 0.004] (0.998)\n"}
+,{"stream_name":"stdout","time":3053.885780261,"data":"  one_ta     0.000 [0.000, 0.000] (0.999)\n"}
+,{"stream_name":"stdout","time":3054.007570506,"data":"  one_teq    0.054 [0.037, 0.074] (0.920)\n"}
+,{"stream_name":"stdout","time":3054.129385702,"data":"  drop_semi  0.066 [0.046, 0.088] (0.906)\n"}
+,{"stream_name":"stdout","time":3054.249524314,"data":"  drop_qa    0.084 [0.063, 0.107] (0.887)\n"}
+,{"stream_name":"stdout","time":3054.367624126,"data":"  drop_last  0.082 [0.061, 0.105] (0.889)\n"}
+,{"stream_name":"stdout","time":3054.487199776,"data":"  drop_ta    0.079 [0.058, 0.102] (0.891)\n"}
+,{"stream_name":"stdout","time":3054.608679902,"data":"  drop_teq   0.020 [0.010, 0.032] (0.964)\n"}
+,{"stream_name":"stdout","time":3054.730254293,"data":"  relay_L8   0.000 [0.000, 0.000] (0.998)\n"}
+,{"stream_name":"stdout","time":3054.855120604,"data":"  relay_L12  0.003 [0.000, 0.007] (0.994)\n"}
+,{"stream_name":"stdout","time":3054.977524905,"data":"  relay_L16  0.008 [0.002, 0.015] (0.985)\n"}
+,{"stream_name":"stdout","time":3055.094753671,"data":"  relay_L20  0.041 [0.026, 0.058] (0.937)\n"}
+,{"stream_name":"stdout","time":3055.210843791,"data":"  relay_L22  0.033 [0.020, 0.048] (0.944)\n"}
+,{"stream_name":"stdout","time":3055.332409233,"data":"  relay_L23  0.042 [0.027, 0.060] (0.936)\n"}
+,{"stream_name":"stdout","time":3055.332478487,"data":"done (3015s)\n"}
+,{"stream_name":"stderr","time":3063.337849158,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":3063.337877677,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":3063.658602397,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":3063.658626436,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":3064.466303634,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":3065.207472199,"data":"[NbConvertApp] Writing 322703 bytes to __results__.html\n"}
+]
