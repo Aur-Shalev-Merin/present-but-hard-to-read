@@ -165,7 +165,7 @@ Lu, W., Yang, Y., Lee, K., Li, Y., and Liu, E.
 
 \bibitem[Makelov et~al.(2024)Makelov, Lange, and Nanda]{makelov2023}
 Makelov, A., Lange, G., and Nanda, N.
-\newblock Is this the subspace you are looking for? an interpretability
+\newblock Is this the subspace you are looking for? {An} interpretability
   illusion for subspace activation patching.
 \newblock In \emph{International Conference on Learning Representations
   (ICLR)}, 2024.
@@ -199,8 +199,8 @@ Mirzadeh, I., Alizadeh, K., Shahrokhi, H., Tuzel, O., Bengio, S., and
 \bibitem[Mitra et~al.(2024)Mitra, Khanpour, Rosset, and
   Awadallah]{mitra2024orcamath}
 Mitra, A., Khanpour, H., Rosset, C., and Awadallah, A.
-\newblock Orca-math: Unlocking the potential of {SLMs} in grade school math,
-  2024.
+\newblock Orca-math: Unlocking the potential of {SLMs} in grade school math.
+\newblock arXiv:2402.14830, 2024.
 
 \bibitem[Moreno-Bote et~al.(2014)Moreno-Bote, Beck, Kanitscheider, Pitkow,
   Latham, and Pouget]{morenobote2014}
