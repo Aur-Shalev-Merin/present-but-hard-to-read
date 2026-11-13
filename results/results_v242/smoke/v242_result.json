@@ -1,0 +1,142 @@
+{
+ "smoke": true,
+ "n": 40,
+ "ground_truth": [
+  0.925,
+  0.925,
+  0.925,
+  "USED"
+ ],
+ "cells": {
+  "native": {
+   "cUo": 0.0,
+   "cR": 0.0,
+   "stat": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "label": "NOT-USED",
+   "calibration_miss": false
+  },
+  "state_0.1": {
+   "cUo": 0.0,
+   "cR": 0.0,
+   "stat": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "label": "NOT-USED",
+   "calibration_miss": false
+  },
+  "state_0.03": {
+   "cUo": 0.0,
+   "cR": 0.0,
+   "stat": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "label": "NOT-USED",
+   "calibration_miss": false
+  },
+  "state_0.01": {
+   "cUo": 0.0,
+   "cR": 0.0,
+   "stat": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "label": "NOT-USED",
+   "calibration_miss": false
+  },
+  "state_0.005": {
+   "cUo": 0.0,
+   "cR": 0.0,
+   "stat": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "label": "NOT-USED",
+   "calibration_miss": false
+  },
+  "state_0.002": {
+   "cUo": 0.0,
+   "cR": 0.0,
+   "stat": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "label": "NOT-USED",
+   "calibration_miss": false
+  },
+  "iso_0.1": {
+   "cUo": 0.0,
+   "cR": 0.0,
+   "stat": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "label": "NOT-USED",
+   "calibration_miss": false
+  },
+  "iso_0.03": {
+   "cUo": 0.0,
+   "cR": 0.0,
+   "stat": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "label": "NOT-USED",
+   "calibration_miss": false
+  },
+  "iso_0.01": {
+   "cUo": 0.0,
+   "cR": 0.0,
+   "stat": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "label": "NOT-USED",
+   "calibration_miss": false
+  },
+  "iso_0.005": {
+   "cUo": 0.0,
+   "cR": 0.0,
+   "stat": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "label": "NOT-USED",
+   "calibration_miss": false
+  },
+  "iso_0.002": {
+   "cUo": 0.0,
+   "cR": 0.0,
+   "stat": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "label": "NOT-USED",
+   "calibration_miss": false
+  }
+ },
+ "verdict_state": [
+  "UNINFORMATIVE",
+  null
+ ],
+ "verdict_iso": [
+  "UNINFORMATIVE",
+  null
+ ],
+ "verdict": "UNINFORMATIVE"
+}

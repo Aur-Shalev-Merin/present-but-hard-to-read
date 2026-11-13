@@ -12,12 +12,15 @@ at no more than 0.52 even after 45,000 training questions; and every token we va
 for a computed value may be reading the inputs. The paper gives a protocol that tests a candidate value against
 copies of the inputs (a copy ceiling), against generic mixing of them (a share-based operation swap whose bar is set
 on synthetic mixtures), and for use (a clamp with the copy projected out), and checks each test where the answer is
-known: values a model is about to write or reads a few tokens later, and an unwritten value used eight tokens later
-in small transformers trained from scratch. In the looped Ouro-1.4B the protocol finds a small signal for the
+known: values a model is about to write or reads a few tokens later, an unwritten bridge entity in two-hop recall in
+Qwen2.5-7B, and an unwritten value used eight tokens later in small transformers trained from scratch. With its
+fitting data made as faint as Ouro's signal, the clamp keeps its power in the small models but only just in two-hop
+recall, so a null from it at that level is weak evidence. In the looped Ouro-1.4B the protocol finds a small signal for the
 unwritten intermediate whose sign follows the operation, but it cannot be told apart from the answer with c added
 back, no running total shows before c is read, and whether the value is used is unresolved. For a published claim
 that language models compute sub-answers only while writing a chain of thought (Kudo et al.), the protocol cannot
-tell.
+tell with a chain; without one, whole-state relay tests fit the claim for the sub-answer, with a weak, unresolved carry
+of something answer-related at the answer line's "=".
 
 ## What is here
 
@@ -73,7 +76,8 @@ sections refer to the current version (Appendix G lists the status of every anal
 | v234 | Kudo et al. without a chain: clamp with equal-answer pairs (the answer cannot carry the clamp) | `preregs/prereg_v234_*` | in the prereg | `v234_*` (with `v215_*`, `v216_items.py`) | `results_v234/` | 7, App. D |
 | v235 | Positive control in a pretrained model: two-hop recall (city, country, capital) in Qwen2.5-7B; clamp at the city token and the last token | `preregs/prereg_v235_*` | in the prereg (design: `results_docs/v235_design.md`) | `v235_*` | `results_v235/` | 5, App. E |
 | v236 | Kudo et al. without a chain: whole-state patch of the five positions between b's equation and the answer position (pilot: single positions and layers) | `preregs/prereg_v236_*` | in the prereg | `v236_*` (with `v234_items.py`) | `results_v236/` | 7, App. D |
-| v238 | Kudo et al. without a chain: the relay test with pairs whose answers differ (closes v236's equal-answer blind spot); post hoc map of which position carries the effect | `preregs/prereg_v238_*` | in the prereg (map: section 9) | `v238_relay.py`, `v238_posmap.py` (with `v236_relay.py`, `v234_items.py`) | `results_v238/` | 7, App. D |
+| v238 | Kudo et al. without a chain: the relay test with pairs whose answers differ (closes v236's equal-answer blind spot); post hoc map of which position carries the effect, and its timing | `preregs/prereg_v238_*` | in the prereg (map: section 9; timing: section 10) | `v238_relay.py`, `v238_posmap.py`, `v238_teqmap.py` (with `v236_relay.py`, `v234_items.py`) | `results_v238/` | 7, App. D |
+| v242 | The two-hop clamp at a faint signal: v231's degraded-fitting design on v235's two-hop control in Qwen2.5-7B (detection limit) | `preregs/prereg_v242_*` | in the prereg | `v242_faint.py` (with `v235_clamp.py`, `v235_pilot.py`) | `results_v242/` | 5, App. E |
 | post hoc | Ouro's patches and clamps (v194, v209) against the random subspace alone | none (post hoc, after v231) | output only | `posthoc_ab_vs_rand.py` | `posthoc_ab_vs_rand.txt` | 6, App. C.3 |
 | post hoc | Quick checks after the fourth outside reviews: standard vs minimal-pair probe for the computed value in the small transformers; one-sibling minimal-pair readout (Ouro-1.4B); random-projection baseline for the share of b kept (found the chain study's share-kept definition differed; corrected in the paper and in the v233 prereg, section 9; reads the v181 states, the v216 and v221 plans and the v230 checkpoints, which are not included) | none (post hoc; rules recorded before running) | `results_docs/posthoc_quickchecks_2026-11-06.md` | `posthoc_quickchecks.py` | `results_posthoc/` | 3, 7, App. B.1, E |
 

@@ -1,0 +1,72 @@
+[{"stream_name":"stdout","time":1.033489348,"data":"v215_pilot.py d049a0b2d81fb80b\n"}
+,{"stream_name":"stdout","time":1.035561957,"data":"v215_items.py 9249f0523d7219eb\n"}
+,{"stream_name":"stdout","time":1.035578409,"data":"v216_items.py a2ebd48b899fed40\n"}
+,{"stream_name":"stdout","time":1.035583529,"data":"v234_items.py fa7374fd6378d679\n"}
+,{"stream_name":"stdout","time":1.035598762,"data":"v236_pilot.py 1491005d4bb6f3db\n"}
+,{"stream_name":"stdout","time":1.035603182,"data":"v236_relay.py 1fed70f2c09a18bd\n"}
+,{"stream_name":"stdout","time":1.035607375,"data":"v238_teqmap.py c06af0658fe22b2b\n"}
+,{"stream_name":"stdout","time":1.039573898,"data":"v238_pairs.json c5439d64cd782f91\n"}
+,{"stream_name":"stderr","time":18.060202507,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":18.060259271,"data":"gradio-client 2.7.2 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":18.060265605,"data":"gradio 6.30.0 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":18.060270954,"data":"gradio 6.30.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":18.060275161,"data":"diffusers 0.42.0 requires huggingface-hub\u003c3.0,\u003e=1.32.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":18.28091039,"data":"=== v238_teqmap.py ['run'] {}\n"}
+,{"stream_name":"stdout","time":58.282015648,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stdout","time":58.282044768,"data":"I0000 00:00:1794430534.160322      34 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.\n"}
+,{"stream_name":"stdout","time":167.434373114,"data":"loaded in 131s | items sha ac4121c22f88fe31 | 2000 pairs | rows ['none', 'one_teq', 'teq_L8', 'teq_L12', 'teq_L16', 'teq_L17', 'teq_L18', 'teq_L19', 'teq_L20', 'teq_L21', 'teq_L22', 'teq_L23', 'teq_L24', 'relay_L17', 'relay_L18', 'relay_L19']\n"}
+,{"stream_name":"stdout","time":170.580347212,"data":"1 pairs (3.15 s/pair) | one_teq so far 0.000\n"}
+,{"stream_name":"stdout","time":193.858010339,"data":"20 pairs (1.32 s/pair) | one_teq so far 0.050\n"}
+,{"stream_name":"stdout","time":305.492195812,"data":"100 pairs (1.38 s/pair) | one_teq so far 0.060\n"}
+,{"stream_name":"stdout","time":527.505241517,"data":"250 pairs (1.44 s/pair) | one_teq so far 0.052\n"}
+,{"stream_name":"stdout","time":897.291173884,"data":"500 pairs (1.46 s/pair) | one_teq so far 0.048\n"}
+,{"stream_name":"stdout","time":1267.284156367,"data":"750 pairs (1.47 s/pair) | one_teq so far 0.064\n"}
+,{"stream_name":"stdout","time":1637.068158532,"data":"1000 pairs (1.47 s/pair) | one_teq so far 0.060\n"}
+,{"stream_name":"stdout","time":2006.67180425,"data":"1250 pairs (1.47 s/pair) | one_teq so far 0.056\n"}
+,{"stream_name":"stdout","time":2376.36969677,"data":"1500 pairs (1.47 s/pair) | one_teq so far 0.055\n"}
+,{"stream_name":"stdout","time":2746.328346158,"data":"1750 pairs (1.47 s/pair) | one_teq so far 0.058\n"}
+,{"stream_name":"stdout","time":3115.833079504,"data":"2000 pairs (1.47 s/pair) | one_teq so far 0.057\n"}
+,{"stream_name":"stdout","time":3115.882339069,"data":"\n"}
+,{"stream_name":"stdout","time":3115.882354392,"data":"E1 (1000 pairs): hit A' [97.5% CI] (kept A)\n"}
+,{"stream_name":"stdout","time":3116.021459231,"data":"  none       0.000 [0.000, 0.000] (0.999)\n"}
+,{"stream_name":"stdout","time":3116.139044061,"data":"  one_teq    0.060 [0.043, 0.079] (0.902)\n"}
+,{"stream_name":"stdout","time":3116.257296037,"data":"  teq_L8     0.000 [0.000, 0.000] (1.000)\n"}
+,{"stream_name":"stdout","time":3116.375494252,"data":"  teq_L12    0.000 [0.000, 0.000] (1.000)\n"}
+,{"stream_name":"stdout","time":3116.49472142,"data":"  teq_L16    0.000 [0.000, 0.000] (0.998)\n"}
+,{"stream_name":"stdout","time":3116.614865756,"data":"  teq_L17    0.000 [0.000, 0.000] (0.995)\n"}
+,{"stream_name":"stdout","time":3116.732845681,"data":"  teq_L18    0.001 [0.000, 0.004] (0.994)\n"}
+,{"stream_name":"stdout","time":3116.854337338,"data":"  teq_L19    0.007 [0.002, 0.014] (0.985)\n"}
+,{"stream_name":"stdout","time":3116.973347192,"data":"  teq_L20    0.024 [0.014, 0.037] (0.961)\n"}
+,{"stream_name":"stdout","time":3117.091816197,"data":"  teq_L21    0.027 [0.016, 0.040] (0.958)\n"}
+,{"stream_name":"stdout","time":3117.209360286,"data":"  teq_L22    0.025 [0.014, 0.038] (0.955)\n"}
+,{"stream_name":"stdout","time":3117.32732521,"data":"  teq_L23    0.040 [0.026, 0.055] (0.928)\n"}
+,{"stream_name":"stdout","time":3117.447110651,"data":"  teq_L24    0.046 [0.031, 0.062] (0.917)\n"}
+,{"stream_name":"stdout","time":3117.565924062,"data":"  relay_L17  0.006 [0.001, 0.012] (0.981)\n"}
+,{"stream_name":"stdout","time":3117.686092239,"data":"  relay_L18  0.008 [0.003, 0.015] (0.980)\n"}
+,{"stream_name":"stdout","time":3117.80522151,"data":"  relay_L19  0.016 [0.008, 0.026] (0.968)\n"}
+,{"stream_name":"stdout","time":3117.805841918,"data":"\n"}
+,{"stream_name":"stdout","time":3117.805853498,"data":"E2 (1000 pairs): hit A' [97.5% CI] (kept A)\n"}
+,{"stream_name":"stdout","time":3117.925036801,"data":"  none       0.000 [0.000, 0.000] (1.000)\n"}
+,{"stream_name":"stdout","time":3118.046263399,"data":"  one_teq    0.054 [0.037, 0.074] (0.920)\n"}
+,{"stream_name":"stdout","time":3118.166786213,"data":"  teq_L8     0.000 [0.000, 0.000] (1.000)\n"}
+,{"stream_name":"stdout","time":3118.286795656,"data":"  teq_L12    0.000 [0.000, 0.000] (1.000)\n"}
+,{"stream_name":"stdout","time":3118.407574367,"data":"  teq_L16    0.001 [0.000, 0.004] (0.998)\n"}
+,{"stream_name":"stdout","time":3118.525900747,"data":"  teq_L17    0.002 [0.000, 0.006] (0.998)\n"}
+,{"stream_name":"stdout","time":3118.643772419,"data":"  teq_L18    0.001 [0.000, 0.004] (0.999)\n"}
+,{"stream_name":"stdout","time":3118.767956923,"data":"  teq_L19    0.010 [0.004, 0.017] (0.985)\n"}
+,{"stream_name":"stdout","time":3118.889059934,"data":"  teq_L20    0.028 [0.016, 0.042] (0.957)\n"}
+,{"stream_name":"stdout","time":3119.007268737,"data":"  teq_L21    0.027 [0.015, 0.042] (0.954)\n"}
+,{"stream_name":"stdout","time":3119.124125272,"data":"  teq_L22    0.031 [0.018, 0.046] (0.948)\n"}
+,{"stream_name":"stdout","time":3119.244945698,"data":"  teq_L23    0.041 [0.026, 0.058] (0.938)\n"}
+,{"stream_name":"stdout","time":3119.363077104,"data":"  teq_L24    0.038 [0.024, 0.054] (0.943)\n"}
+,{"stream_name":"stdout","time":3119.482477108,"data":"  relay_L17  0.008 [0.003, 0.015] (0.985)\n"}
+,{"stream_name":"stdout","time":3119.600363822,"data":"  relay_L18  0.008 [0.002, 0.016] (0.985)\n"}
+,{"stream_name":"stdout","time":3119.720310011,"data":"  relay_L19  0.026 [0.014, 0.040] (0.960)\n"}
+,{"stream_name":"stdout","time":3119.720364186,"data":"done (3083s)\n"}
+,{"stream_name":"stderr","time":3127.334950715,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":3127.334979215,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":3127.637052697,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":3127.637081073,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":3128.431619895,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":3129.097542733,"data":"[NbConvertApp] Writing 322731 bytes to __results__.html\n"}
+]

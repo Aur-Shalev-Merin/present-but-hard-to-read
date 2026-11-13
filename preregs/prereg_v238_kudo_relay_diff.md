@@ -130,3 +130,16 @@ Same 2,000 pairs, model and hook (`v238_posmap.py`, pairs exported to `v238_pair
 Most of v238's relay effect sits at ' =', the second-to-last token of the answer line " a = A", and appears only from
 layer 20; the question's own tokens (' ;', the letter, '?') carry at most 0.014 between them. So the answer-related
 carry that v238 found is formed at the answer line, one token before the answer position, late in the network.
+
+## 10. Post hoc timing of ' =' alone (2026-11-11; descriptive, no decision rule; `astrocyte-v238-teqmap`, `results_v238/teqmap/`)
+
+Same pairs, model and hook (`v238_teqmap.py`). The target line's ' =' alone, after single layers (hit = x''s answer A'):
+
+| after layer | 8 | 12 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | every layer |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| E1 | 0.000 | 0.000 | 0.000 | 0.000 | 0.001 | 0.007 | 0.024 | 0.027 | 0.025 | 0.040 | 0.046 | 0.060 |
+| E2 | 0.000 | 0.000 | 0.001 | 0.002 | 0.001 | 0.010 | 0.028 | 0.027 | 0.031 | 0.041 | 0.038 | 0.054 |
+
+The five positions after layer 17 / 18 / 19 alone: 0.006 / 0.008 / 0.016 (E1), 0.008 / 0.008 / 0.026 (E2). ' =' carries
+nothing the answer uses through layer 18; it starts at layer 19 and is largest after layers 23-24, when the answer
+position finishes reading the operands. The every-layer row reproduces section 9 (0.060 / 0.054 against 0.058 / 0.054).

@@ -1,0 +1,57 @@
+[{"stream_name":"stdout","time":0.647768844,"data":"v235_pilot.py 442760543b204add\n"}
+,{"stream_name":"stdout","time":0.648085424,"data":"v235_clamp.py 089a2bdeba402573\n"}
+,{"stream_name":"stdout","time":0.648455048,"data":"v242_faint.py e81b40ab5c25ddfe\n"}
+,{"stream_name":"stdout","time":0.650914439,"data":"v235_cities.json 5299759bc458e12e\n"}
+,{"stream_name":"stdout","time":0.651850719,"data":"v235_pilot2_items.json 1fae350dc4df2422\n"}
+,{"stream_name":"stderr","time":15.371674888,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":15.371713116,"data":"gradio-client 2.7.2 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":15.371720513,"data":"gradio 6.30.0 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":15.371725848,"data":"gradio 6.30.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":15.37173121,"data":"diffusers 0.42.0 requires huggingface-hub\u003c3.0,\u003e=1.32.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":15.5924212,"data":"=== v242_faint.py ['run'] {}\n"}
+,{"stream_name":"stdout","time":47.14211701,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stdout","time":47.142169143,"data":"I0000 00:00:1794521385.955019      33 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.\n"}
+,{"stream_name":"stdout","time":251.562963494,"data":"v242 faint two-hop clamp | smoke False | 1038 cities | states in 221s\n"}
+,{"stream_name":"stdout","time":259.198953889,"data":"  native       population share / in-sample estimate by (layer, half): 8/0 0.1502/0.1502 8/1 0.1453/0.1453 12/0 0.2039/0.2039 12/1 0.1983/0.1983 16/0 0.2370/0.2370 16/1 0.2319/0.2319\n"}
+,{"stream_name":"stdout","time":259.199317281,"data":"  state_0.1    population share / in-sample estimate by (layer, half): 8/0 0.1000/0.0990 8/1 0.1000/0.1007 12/0 0.1000/0.0965 12/1 0.1000/0.0996 16/0 0.1000/0.0984 16/1 0.1000/0.1021\n"}
+,{"stream_name":"stdout","time":259.199641132,"data":"  state_0.03   population share / in-sample estimate by (layer, half): 8/0 0.0300/0.0287 8/1 0.0300/0.0311 12/0 0.0300/0.0322 12/1 0.0300/0.0298 16/0 0.0300/0.0293 16/1 0.0300/0.0318\n"}
+,{"stream_name":"stdout","time":259.199876764,"data":"  state_0.01   population share / in-sample estimate by (layer, half): 8/0 0.0100/0.0119 8/1 0.0100/0.0110 12/0 0.0100/0.0107 12/1 0.0100/0.0104 16/0 0.0100/0.0093 16/1 0.0100/0.0108\n"}
+,{"stream_name":"stdout","time":259.200153297,"data":"  state_0.005  population share / in-sample estimate by (layer, half): 8/0 0.0050/0.0038 8/1 0.0050/0.0057 12/0 0.0050/0.0043 12/1 0.0050/0.0034 16/0 0.0050/0.0036 16/1 0.0050/0.0050\n"}
+,{"stream_name":"stdout","time":259.200380854,"data":"  state_0.002  population share / in-sample estimate by (layer, half): 8/0 0.0020/0.0025 8/1 0.0020/0.0038 12/0 0.0020/0.0039 12/1 0.0020/0.0024 16/0 0.0020/0.0020 16/1 0.0020/0.0027\n"}
+,{"stream_name":"stdout","time":259.200672216,"data":"  iso_0.1      population share / in-sample estimate by (layer, half): 8/0 0.1000/0.0993 8/1 0.1000/0.0996 12/0 0.1000/0.1003 12/1 0.1000/0.1001 16/0 0.1000/0.1000 16/1 0.1000/0.1001\n"}
+,{"stream_name":"stdout","time":259.200892548,"data":"  iso_0.03     population share / in-sample estimate by (layer, half): 8/0 0.0300/0.0302 8/1 0.0300/0.0301 12/0 0.0300/0.0299 12/1 0.0300/0.0296 16/0 0.0300/0.0299 16/1 0.0300/0.0301\n"}
+,{"stream_name":"stdout","time":259.201179404,"data":"  iso_0.01     population share / in-sample estimate by (layer, half): 8/0 0.0100/0.0097 8/1 0.0100/0.0102 12/0 0.0100/0.0099 12/1 0.0100/0.0103 16/0 0.0100/0.0100 16/1 0.0100/0.0102\n"}
+,{"stream_name":"stdout","time":259.201386529,"data":"  iso_0.005    population share / in-sample estimate by (layer, half): 8/0 0.0050/0.0050 8/1 0.0050/0.0050 12/0 0.0050/0.0052 12/1 0.0050/0.0051 16/0 0.0050/0.0050 16/1 0.0050/0.0051\n"}
+,{"stream_name":"stdout","time":259.20171655,"data":"  iso_0.002    population share / in-sample estimate by (layer, half): 8/0 0.0020/0.0019 8/1 0.0020/0.0022 12/0 0.0020/0.0021 12/1 0.0020/0.0020 16/0 0.0020/0.0017 16/1 0.0020/0.0018\n"}
+,{"stream_name":"stdout","time":259.202080554,"data":"calibration misses: none\n"}
+,{"stream_name":"stdout","time":260.93563426,"data":"1/1038 pairs (1.49 s/pair)\n"}
+,{"stream_name":"stdout","time":303.420166785,"data":"30/1038 pairs (1.47 s/pair)\n"}
+,{"stream_name":"stdout","time":409.748308996,"data":"100/1038 pairs (1.50 s/pair)\n"}
+,{"stream_name":"stdout","time":636.673031376,"data":"250/1038 pairs (1.51 s/pair)\n"}
+,{"stream_name":"stdout","time":1023.674995652,"data":"500/1038 pairs (1.53 s/pair)\n"}
+,{"stream_name":"stdout","time":1406.176767371,"data":"750/1038 pairs (1.53 s/pair)\n"}
+,{"stream_name":"stdout","time":1786.744022267,"data":"1000/1038 pairs (1.53 s/pair)\n"}
+,{"stream_name":"stdout","time":1844.108093383,"data":"1038/1038 pairs (1.53 s/pair)\n"}
+,{"stream_name":"stdout","time":1844.143223762,"data":"done (1814s)\n"}
+,{"stream_name":"stdout","time":1844.298089066,"data":"\n"}
+,{"stream_name":"stdout","time":1844.298112316,"data":"ground truth: full 0.850, full - cR(native) +0.850 [+0.809, +0.885] -\u003e USED\n"}
+,{"stream_name":"stdout","time":1844.414418105,"data":"  native       cUo 0.789  cR 0.000  cUo - cR +0.789 [+0.732, +0.839] -\u003e USED\n"}
+,{"stream_name":"stdout","time":1844.523426154,"data":"  state_0.1    cUo 0.774  cR 0.000  cUo - cR +0.774 [+0.712, +0.828] -\u003e USED\n"}
+,{"stream_name":"stdout","time":1844.640050712,"data":"  state_0.03   cUo 0.654  cR 0.000  cUo - cR +0.654 [+0.588, +0.710] -\u003e USED\n"}
+,{"stream_name":"stdout","time":1844.757153257,"data":"  state_0.01   cUo 0.254  cR 0.000  cUo - cR +0.254 [+0.198, +0.312] -\u003e USED\n"}
+,{"stream_name":"stdout","time":1844.876749017,"data":"  state_0.005  cUo 0.058  cR 0.000  cUo - cR +0.058 [+0.034, +0.086] -\u003e UNCLEAR\n"}
+,{"stream_name":"stdout","time":1844.994956133,"data":"  state_0.002  cUo 0.008  cR 0.000  cUo - cR +0.008 [+0.003, +0.013] -\u003e NOT-USED\n"}
+,{"stream_name":"stdout","time":1845.116666971,"data":"  iso_0.1      cUo 0.771  cR 0.000  cUo - cR +0.771 [+0.709, +0.823] -\u003e USED\n"}
+,{"stream_name":"stdout","time":1845.236497819,"data":"  iso_0.03     cUo 0.611  cR 0.000  cUo - cR +0.611 [+0.542, +0.672] -\u003e USED\n"}
+,{"stream_name":"stdout","time":1845.352371841,"data":"  iso_0.01     cUo 0.128  cR 0.000  cUo - cR +0.128 [+0.084, +0.173] -\u003e USED\n"}
+,{"stream_name":"stdout","time":1845.471589352,"data":"  iso_0.005    cUo 0.013  cR 0.000  cUo - cR +0.013 [+0.005, +0.023] -\u003e UNCLEAR\n"}
+,{"stream_name":"stdout","time":1845.587382912,"data":"  iso_0.002    cUo 0.002  cR 0.000  cUo - cR +0.002 [+0.000, +0.005] -\u003e NOT-USED\n"}
+,{"stream_name":"stdout","time":1845.587534737,"data":"shape state: detection limit 0.01 -\u003e AT-THE-LIMIT  (primary)\n"}
+,{"stream_name":"stdout","time":1845.587723936,"data":"shape iso: detection limit 0.01 -\u003e AT-THE-LIMIT\n"}
+,{"stream_name":"stderr","time":1851.776131942,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1851.77616979,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1852.018438671,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1852.01846263,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1852.766689998,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1853.365629492,"data":"[NbConvertApp] Writing 345614 bytes to __results__.html\n"}
+]

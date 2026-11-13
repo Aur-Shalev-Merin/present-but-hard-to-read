@@ -1,0 +1,40 @@
+=== v242_faint.py ['run'] {}
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794521385.955019      33 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+v242 faint two-hop clamp | smoke False | 1038 cities | states in 221s
+  native       population share / in-sample estimate by (layer, half): 8/0 0.1502/0.1502 8/1 0.1453/0.1453 12/0 0.2039/0.2039 12/1 0.1983/0.1983 16/0 0.2370/0.2370 16/1 0.2319/0.2319
+  state_0.1    population share / in-sample estimate by (layer, half): 8/0 0.1000/0.0990 8/1 0.1000/0.1007 12/0 0.1000/0.0965 12/1 0.1000/0.0996 16/0 0.1000/0.0984 16/1 0.1000/0.1021
+  state_0.03   population share / in-sample estimate by (layer, half): 8/0 0.0300/0.0287 8/1 0.0300/0.0311 12/0 0.0300/0.0322 12/1 0.0300/0.0298 16/0 0.0300/0.0293 16/1 0.0300/0.0318
+  state_0.01   population share / in-sample estimate by (layer, half): 8/0 0.0100/0.0119 8/1 0.0100/0.0110 12/0 0.0100/0.0107 12/1 0.0100/0.0104 16/0 0.0100/0.0093 16/1 0.0100/0.0108
+  state_0.005  population share / in-sample estimate by (layer, half): 8/0 0.0050/0.0038 8/1 0.0050/0.0057 12/0 0.0050/0.0043 12/1 0.0050/0.0034 16/0 0.0050/0.0036 16/1 0.0050/0.0050
+  state_0.002  population share / in-sample estimate by (layer, half): 8/0 0.0020/0.0025 8/1 0.0020/0.0038 12/0 0.0020/0.0039 12/1 0.0020/0.0024 16/0 0.0020/0.0020 16/1 0.0020/0.0027
+  iso_0.1      population share / in-sample estimate by (layer, half): 8/0 0.1000/0.0993 8/1 0.1000/0.0996 12/0 0.1000/0.1003 12/1 0.1000/0.1001 16/0 0.1000/0.1000 16/1 0.1000/0.1001
+  iso_0.03     population share / in-sample estimate by (layer, half): 8/0 0.0300/0.0302 8/1 0.0300/0.0301 12/0 0.0300/0.0299 12/1 0.0300/0.0296 16/0 0.0300/0.0299 16/1 0.0300/0.0301
+  iso_0.01     population share / in-sample estimate by (layer, half): 8/0 0.0100/0.0097 8/1 0.0100/0.0102 12/0 0.0100/0.0099 12/1 0.0100/0.0103 16/0 0.0100/0.0100 16/1 0.0100/0.0102
+  iso_0.005    population share / in-sample estimate by (layer, half): 8/0 0.0050/0.0050 8/1 0.0050/0.0050 12/0 0.0050/0.0052 12/1 0.0050/0.0051 16/0 0.0050/0.0050 16/1 0.0050/0.0051
+  iso_0.002    population share / in-sample estimate by (layer, half): 8/0 0.0020/0.0019 8/1 0.0020/0.0022 12/0 0.0020/0.0021 12/1 0.0020/0.0020 16/0 0.0020/0.0017 16/1 0.0020/0.0018
+calibration misses: none
+1/1038 pairs (1.49 s/pair)
+30/1038 pairs (1.47 s/pair)
+100/1038 pairs (1.50 s/pair)
+250/1038 pairs (1.51 s/pair)
+500/1038 pairs (1.53 s/pair)
+750/1038 pairs (1.53 s/pair)
+1000/1038 pairs (1.53 s/pair)
+1038/1038 pairs (1.53 s/pair)
+done (1814s)
+
+ground truth: full 0.850, full - cR(native) +0.850 [+0.809, +0.885] -> USED
+  native       cUo 0.789  cR 0.000  cUo - cR +0.789 [+0.732, +0.839] -> USED
+  state_0.1    cUo 0.774  cR 0.000  cUo - cR +0.774 [+0.712, +0.828] -> USED
+  state_0.03   cUo 0.654  cR 0.000  cUo - cR +0.654 [+0.588, +0.710] -> USED
+  state_0.01   cUo 0.254  cR 0.000  cUo - cR +0.254 [+0.198, +0.312] -> USED
+  state_0.005  cUo 0.058  cR 0.000  cUo - cR +0.058 [+0.034, +0.086] -> UNCLEAR
+  state_0.002  cUo 0.008  cR 0.000  cUo - cR +0.008 [+0.003, +0.013] -> NOT-USED
+  iso_0.1      cUo 0.771  cR 0.000  cUo - cR +0.771 [+0.709, +0.823] -> USED
+  iso_0.03     cUo 0.611  cR 0.000  cUo - cR +0.611 [+0.542, +0.672] -> USED
+  iso_0.01     cUo 0.128  cR 0.000  cUo - cR +0.128 [+0.084, +0.173] -> USED
+  iso_0.005    cUo 0.013  cR 0.000  cUo - cR +0.013 [+0.005, +0.023] -> UNCLEAR
+  iso_0.002    cUo 0.002  cR 0.000  cUo - cR +0.002 [+0.000, +0.005] -> NOT-USED
+shape state: detection limit 0.01 -> AT-THE-LIMIT  (primary)
+shape iso: detection limit 0.01 -> AT-THE-LIMIT
