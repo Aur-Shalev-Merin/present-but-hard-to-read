@@ -1,8 +1,6 @@
 # Copied, Mixed or Computed? Testing Latent Intermediate Values with Minimal Pairs
 
-Code, pre-registrations and results for the paper by Aur Shalev Merin: [arXiv:2610.28498](https://arxiv.org/abs/2610.28498).
-Version 1 was posted under the title "Present but Hard to Read: Probing Latent Reasoning with Minimal Pairs"; the
-current version keeps the same arXiv ID.
+Code, pre-registrations and results for the paper (anonymised copy for review; the paper PDF is not included).
 
 Probing studies of latent reasoning read a model's state where the answer begins and take a successful probe as
 evidence that an intermediate value was computed, and a failed one as evidence that it was not. Both readings
@@ -26,7 +24,7 @@ of something answer-related at the answer line's "=".
 
 | folder | contents |
 |---|---|
-| `paper/` | LaTeX source (`main.tex` is the master text, the arXiv copy), bibliography (`main.bib`, and `main.bbl` generated from it), the style files it uses, figures and the built PDF |
+| `paper/` | LaTeX source (`main.tex` is the master text), bibliography (`main.bib`, and `main.bbl` generated from it), the style files it uses and figures |
 | `preregs/` | every pre-registration: design, predictions, reading rules, frozen file hashes, amendments, and the RESULT section added after each run (as in the development repository, except that a few notes saying where a review point or a literature check came from, or how a freeze was approved, were reworded, and mentions of a venue removed) |
 | `results_docs/` | plans, designs and result write-ups of the accuracy checks, the exploratory analyses and two studies whose result sits outside the prereg (v220, and the designs of v230 and v231) |
 | `code/` | experiment scripts, the Kaggle kernel builders (`build_kaggle_vNNN.py`) and the item files, byte-identical (LF) to the frozen versions; `code/frozen_versions/` keeps earlier frozen versions where a file changed after its freeze: `loop_grad_probe.py` as v178 and v186 ran it (later studies used the current file, which only adds Huginn and gradient-probe options), and the builders of v213 and v216 as frozen (the current builders add the kernel modes used later for the split many-question run and the post hoc probes) |
@@ -118,6 +116,3 @@ development repository is private; commits are available to reviewers on request
 
 Code: MIT (`LICENSE`). Paper text, pre-registrations and result documents: CC BY 4.0.
 
-## Citation
-
-See `CITATION.cff`.
